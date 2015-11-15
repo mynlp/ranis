@@ -1,0 +1,148 @@
+R1	Attribute Arg1:T5 Arg2:T3
+R2	Attribute Arg1:T4 Arg2:T3
+R3	Condition Arg1:T5 Arg2:T4
+R4	Attribute Arg1:T5 Arg2:T2
+R6	Attribute Arg1:T9 Arg2:T8
+R7	Is-a Arg1:T7 Arg2:T9
+R8	Attribute Arg1:T11 Arg2:T10
+R9	Component-object Arg1:T11 Arg2:T9
+R10	Output Arg1:T13 Arg2:T12
+R11	Attribute Arg1:T15 Arg2:T14
+R12	Attribute Arg1:T18 Arg2:T17
+R13	Condition Arg1:T12 Arg2:T15
+R14	Input Arg1:T16 Arg2:T12
+R15	Condition Arg1:T16 Arg2:T18
+R16	Attribute Arg1:T12 Arg2:T19
+R17	Attribute Arg1:T21 Arg2:T20
+R18	Attribute Arg1:T21 Arg2:T22
+R19	In_Out Arg1:T21 Arg2:T19
+A1	Self T23
+A2	Intentional T24
+R20	Agent Arg1:T24 Arg2:T23
+R21	Output Arg1:T24 Arg2:T25
+R22	Apply-to Arg1:T25 Arg2:T26
+R23	Output Arg1:T26 Arg2:T27
+R24	Attribute Arg1:T29 Arg2:T28
+R25	Condition Arg1:T27 Arg2:T29
+R26	Attribute Arg1:T31 Arg2:T30
+#3	AnnotatorNotes T6	new
+R27	Attribute Arg1:T33 Arg2:T6
+R28	Condition Arg1:T32 Arg2:T33
+R30	Attribute Arg1:T32 Arg2:T31
+R29	Condition Arg1:T31 Arg2:T25
+A3	Self T34
+R31	Poss Arg1:T34 Arg2:T35
+#5	AnnotatorNotes T38	row domain text
+#6	AnnotatorNotes T41	words
+R32	Output Arg1:T42 Arg2:T43
+R33	Attribute Arg1:T41 Arg2:T40
+R34	In_Out Arg1:T39 Arg2:T41
+R35	Input Arg1:T42 Arg2:T41
+R36	from Arg1:T36 Arg2:T35
+R37	to Arg1:T36 Arg2:T39
+R38	Input Arg1:T37 Arg2:T38
+R39	to Arg1:T36 Arg2:T37
+R40	Coreference Arg1:T44 Arg2:T43
+R41	Attribute Arg1:T47 Arg2:T46
+R42	In_Out Arg1:T48 Arg2:T49
+R43	Condition Arg1:T47 Arg2:T48
+R44	Output Arg1:T45 Arg2:T47
+R45	Agent Arg1:T45 Arg2:T44
+A4	Self T50
+A5	Intentional T51
+R46	Agent Arg1:T51 Arg2:T50
+R47	Input Arg1:T51 Arg2:T52
+R48	Coreference Arg1:T54 Arg2:T52
+#8	AnnotatorNotes T55	Biology domain
+R49	Condition Arg1:T53 Arg2:T55
+R50	Input Arg1:T53 Arg2:T54
+R51	Apply-to Arg1:T53 Arg2:T51
+A6	Self T56
+R52	Coreference Arg1:T59 Arg2:T58
+R53	Attribute Arg1:T59 Arg2:T60
+R54	Attribute Arg1:T62 Arg2:T61
+R55	Compare Arg1:T62 Arg2:T60
+R56	Output Arg1:T63 Arg2:T62
+R57	Coreference Arg1:T64 Arg2:T55
+R58	Condition Arg1:T62 Arg2:T64
+R59	Output Arg1:T57 Arg2:T58
+R60	Agent Arg1:T57 Arg2:T56
+A7	Judgment T60
+R63	Output Arg1:T66 Arg2:T1
+R5	Input Arg1:T66 Arg2:T5
+A8	Judgment T21
+A9	Intentional T66
+A10	Intentional T13
+R64	Result Arg1:T16 Arg2:T21
+#1	AnnotatorNotes T29	domains
+A11	Intentional T65
+R62	Agent Arg1:T65 Arg2:T50
+R61	Output Arg1:T65 Arg2:T60
+A12	Intentional T63
+A13	Intentional T53
+T66	PROCESS 0 8	Building
+T1	PLAN 9 32	Domain-Specific Taggers
+T2	MODALITY 33 40	without
+T3	QUALITY 41 50	Annotated
+T4	DOMAIN 53 59	Domain
+T5	DATA-ITEM 62 66	Data
+T7	PLAN 69 91	Part of speech tagging
+T8	QUALITY 97 108	fundamental
+T9	PLAN 109 118	component
+T10	QUANTITY 122 126	many
+T11	PLAN 127 138	NLP systems
+T12	PLAN 146 153	taggers
+T13	PROCESS 154 163	developed
+T14	QUANTITY 167 170	one
+T15	DOMAIN 171 177	domain
+T16	PROCESS 182 186	used
+T17	QUALITY 190 197	another
+T18	DOMAIN 198 204	domain
+T19	DATA-ITEM 211 222	performance
+T20	MODALITY 223 226	can
+T21	PROCESS 227 234	degrade
+T22	QUALITY 235 247	considerably
+T23	PERSON 250 252	We
+T24	PROCESS 253 260	present
+T25	PLAN 263 269	method
+T26	PROCESS 274 284	developing
+T27	PLAN 285 292	taggers
+T28	QUALITY 297 300	new
+T29	DOMAIN 301 308	domains
+T30	MODALITY 309 316	without
+T31	QUALITY 317 326	requiring
+T32	DATA-ITEM 327 345	POS annotated text
+T6	QUALITY 353 355	ne
+T33	DOMAIN 357 363	domain
+T34	PERSON 366 369	Our
+T35	PLAN 370 376	method
+T36	COMPONENT-OBJECT 377 385	involves
+T37	PROCESS 386 391	using
+T38	DATA-ITEM 392 407	raw domain text
+T39	PROCESS 412 423	identifying
+T40	QUALITY 424 431	related
+T41	DATA-ITEM 433 437	ords
+T42	PROCESS 441 445	form
+T43	DATA-ITEM 448 471	domain specific lexicon
+T44	DATA-ITEM 474 486	This lexicon
+T45	PROCESS 487 495	provides
+T46	QUALITY 500 507	initial
+T47	DATA-ITEM 508 529	lexical probabilities
+T48	PLAN-OR-PROCESS 534 545	EM training
+T49	PLAN 552 561	HMM model
+T50	PERSON 564 566	We
+T51	PROCESS 567 575	evaluate
+T52	PLAN 580 586	method
+T53	PROCESS 590 598	applying
+T54	REFERENCE 599 601	it
+T55	DOMAIN 609 623	Biology domain
+T65	PROCESS 628 632	show
+T56	PERSON 638 640	we
+T57	PROCESS 641 648	achieve
+T58	DATA-ITEM 649 656	results
+T59	REFERENCE 633 637	that
+T60	QUALITY 666 676	comparable
+T61	QUANTITY 682 686	some
+T62	PLAN 687 694	taggers
+T63	PROCESS 695 704	developed
+T64	DOMAIN 709 720	this domain

@@ -1,0 +1,150 @@
+T1	PLAN-OR-PROCESS 0 13	Hidden-Action
+T2	PLAN-OR-PROCESS 17 34	Multi-Hop Routing
+T3	ARTIFACT 38 56	multi-hop networks
+T4	PLAN-OR-PROCESS 62 69	actions
+T5	PROCESS 70 75	taken
+T6	PLAN 90 108	intermediate nodes
+T7	QUALITY 113 122	typically
+T8	PROCESS 123 129	hidden
+T9	PLAN 153 162	endpoints
+T10	QUALITY 139 152	communicating
+T11	PLAN 172 181	endpoints
+T12	MODALITY 182 185	can
+T13	PROCESS 186 193	observe
+T14	PLAN-OR-PROCESS 227 239	transmission
+T15	QUALITY 244 254	successful
+T16	REFERENCE 164 167	all
+T17	MODALITY 274 281	absence
+T18	OCCURENT 285 295	incentives
+T19	PLAN 338 356	intermediate nodes
+T20	QUALITY 329 336	selfish
+T21	QUALITY 313 321	rational
+T22	QUALITY 303 311	contrary
+T23	MODALITY 357 360	may
+T24	PROCESS 361 367	choose
+T25	DATA-ITEM 379 386	packets
+T26	QUALITY 392 395	low
+T27	DATA-ITEM 396 404	priority
+T28	QUALITY 408 414	simply
+T29	MODALITY 415 418;435 441	not at all
+T30	PROCESS 419 426	forward
+T32	PLAN 451 472	principal-agent model
+T33	PLAN 490 511	hidden-action problem
+T34	MODALITY 512 515	can
+T35	PROCESS 519 527	overcome
+T36	QUALITY 536 547	appropriate
+T37	PLAN 548 554	design
+T38	PLAN 558 567	contracts
+T39	QUALITY 581 587	direct
+T40	QUALITY 645 654	recursive
+T41	PLAN 711 716	cases
+T42	PLAN 593 602	endpoints
+T43	PLAN 633 639	router
+T44	PROCESS 603 611	contract
+T45	PLAN 661 667	router
+T46	PROCESS 668 677	contracts
+T47	QUALITY 687 691	next
+T48	PLAN 703 709	router
+T49	PLAN-OR-PROCESS 746 764	per-hop monitoring
+T51	JUDGING-PROCESS 786 793	improve
+T53	QUALITY 798 805	utility
+T56	PLAN 852 858	system
+T57	PLAN-OR-PROCESS 896 906	mechanisms
+T58	QUALITY 887 895	existing
+T59	PROCESS 912 921	deal with
+T60	DATA-ITEM 922 940	hidden-information
+T61	PROCESS 944 950	handle
+T62	PLAN 951 960	scenarios
+T63	DATA-ITEM 976 994	hidden-information
+T64	PLAN-OR-PROCESS 999 1012	hidden-action
+T65	COMPONENT-OBJECT 961 970	involving
+R1	Attribute Arg1:T8 Arg2:T7	
+R3	Attribute Arg1:T9 Arg2:T10	
+R4	Attribute Arg1:T13 Arg2:T12	
+T66	QUALITY 216 226	end-to-end
+R6	Attribute Arg1:T14 Arg2:T66	
+T67	MODALITY 208 211	not
+R7	Attribute Arg1:T15 Arg2:T67	
+R8	Attribute Arg1:T14 Arg2:T15	
+R9	Attribute Arg1:T18 Arg2:T17	
+R11	Attribute Arg1:T19 Arg2:T21	
+R12	Attribute Arg1:T19 Arg2:T20	
+R13	Attribute Arg1:T24 Arg2:T23	
+R14	Attribute Arg1:T27 Arg2:T26	
+R15	Attribute Arg1:T30 Arg2:T28	
+R16	Attribute Arg1:T30 Arg2:T29	
+R18	Attribute Arg1:T35 Arg2:T34	
+R19	Attribute Arg1:T37 Arg2:T36	
+R22	Attribute Arg1:T48 Arg2:T47	
+R20	Attribute Arg1:T41 Arg2:T39	
+R21	Attribute Arg1:T41 Arg2:T40	
+R25	Attribute Arg1:T57 Arg2:T58	
+T68	PLAN-OR-PROCESS 371 378	forward
+T69	DATA-ITEM 427 434	packets
+T70	QUALITY 622 632	individual
+R10	Attribute Arg1:T43 Arg2:T70	
+T71	QUALITY 692 702	downstream
+R17	Attribute Arg1:T48 Arg2:T71	
+T54	QUALITY 830 844	social welfare
+T55	PLAN 813 822	principal
+R26	Attribute Arg1:T55 Arg2:T53	
+T74	REFERENCE 907 911	that
+R27	Coreference Arg1:T74 Arg2:T57	
+T75	QUALITY 79 89	individual
+R28	Attribute Arg1:T6 Arg2:T75	
+T31	APPLY-TO 443 448	Using
+T50	QUALITY 774 785	necessarily
+T52	MODALITY 770 773	not
+R23	Attribute Arg1:T51 Arg2:T50	
+R24	Condition Arg1:T1 Arg2:T2	
+R29	Output Arg1:T5 Arg2:T4	
+R30	Apply-to Arg1:T6 Arg2:T5	
+R2	Target Arg1:T8 Arg2:T6	
+R31	Condition Arg1:T8 Arg2:T9	
+R32	Apply-to Arg1:T11 Arg2:T13	
+R34	Target Arg1:T13 Arg2:T16	
+R33	Condition Arg1:T8 Arg2:T3	
+R35	Is-a Arg1:T20 Arg2:T21	
+R36	Condition Arg1:T18 Arg2:T22	
+R37	Apply-to Arg1:T19 Arg2:T24	
+R38	In_Out Arg1:T24 Arg2:T68	
+R39	Output Arg1:T68 Arg2:T25	
+R40	Output Arg1:T30 Arg2:T69	
+R41	Attribute Arg1:T25 Arg2:T27	
+R42	In_Out Arg1:T24 Arg2:T30	
+R43	Condition Arg1:T24 Arg2:T18	
+R45	Other-rel Arg1:T38 Arg2:T37	
+R46	Apply-to Arg1:T37 Arg2:T35	
+R47	Condition Arg1:T35 Arg2:T41	
+R48	Apply-to Arg1:T42 Arg2:T44	
+R49	Target Arg1:T44 Arg2:T43	
+R50	Target Arg1:T46 Arg2:T48	
+R51	Apply-to Arg1:T45 Arg2:T46	
+R44	Target Arg1:T35 Arg2:T33	
+R5	Attribute Arg1:T51 Arg2:T52	
+R52	In_Out Arg1:T51 Arg2:T53	
+R53	Apply-to Arg1:T49 Arg2:T51	
+T78	PROCESS 876 886	generalize
+R57	Apply-to Arg1:T74 Arg2:T59	
+R58	Target Arg1:T59 Arg2:T60	
+R59	Apply-to Arg1:T59 Arg2:T61	
+R60	In_Out Arg1:T61 Arg2:T62	
+R61	from Arg1:T65 Arg2:T63	
+R62	to Arg1:T65 Arg2:T62	
+R63	from Arg1:T65 Arg2:T64	
+R64	from Arg1:T31 Arg2:T32	
+R65	to Arg1:T31 Arg2:T35	
+R54	In_Out Arg1:T51 Arg2:T54	
+R55	Attribute Arg1:T56 Arg2:T54	
+T79	MODALITY 197 204	whether
+R66	Attribute Arg1:T15 Arg2:T79	
+T72	PERSON 474 476	we
+T73	PROCESS 477 481	show
+T76	PERSON 718 720	We
+T77	PROCESS 729 740	demonstrate
+T80	PERSON 873 875	we
+R67	Agent Arg1:T73 Arg2:T72	
+R68	Agent Arg1:T77 Arg2:T76	
+R69	Agent Arg1:T78 Arg2:T80	
+R56	In_Out Arg1:T78 Arg2:T57	
+R70	Output Arg1:T77 Arg2:T51	

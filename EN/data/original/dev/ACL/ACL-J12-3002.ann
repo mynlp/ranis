@@ -1,0 +1,151 @@
+T1	PLAN 0 11	Fruit Carts
+T2	PLAN 15 21	Domain
+T3	DATA-ITEM 26 32	Corpus
+T4	PROCESS 37 45	Research
+T5	PLAN 49 65	Dialogue Systems
+T6	PLAN 70 87	Psycholinguistics
+T7	PERSON 89 91	We
+T8	PROCESS 92 100	describe
+T9	QUALITY 103 108	novel
+T10	PLAN 109 115	domain
+T11	PLAN 117 128	Fruit Carts
+T12	APPLY-TO 130 135	aimed
+T13	PROCESS 139 148	eliciting
+T14	PLAN-OR-PROCESS 149 174	human language production
+T15	PLAN 188 196	purposes
+T16	PLAN 204 228	dialogue system research
+T17	PLAN 233 244	development
+T18	PLAN 253 278	psycholinguistic research
+T19	PLAN 280 291	Fruit Carts
+T20	COMPONENT-OBJECT 292 300	contains
+T21	QUANTITY 301 305	five
+T22	PLAN-OR-PROCESS 306 311	tasks
+T23	PROCESS 313 321	choosing
+T24	DATA-ITEM 324 328	cart
+T25	PROCESS 330 337	placing
+T26	REFERENCE 338 340	it
+T27	DATA-ITEM 346 349	map
+T28	PROCESS 351 359	painting
+T29	PROCESS 370 378	rotating
+T30	PROCESS 393 400	filling
+T31	DATA-ITEM 415 420	fruit
+T32	PLAN 422 433	Fruit Carts
+T33	APPLY-TO 443 447	used
+T34	PLAN-OR-PROCESS 452 460	research
+T35	PLAN 464 481	psycholinguistics
+T36	PLAN 489 505	dialogue systems
+T37	INPUT 507 512	Based
+T38	DATA-ITEM 516 533	these experiences
+T39	PERSON 535 537	we
+T40	PROCESS 538 545	discuss
+T41	QUALITY 550 554	well
+T42	PLAN 559 577	Fruit Carts domain
+T43	QUALITY 619 638	context-constrained
+T44	QUALITY 640 652	controllable
+T45	DATA-ITEM 653 663	difficulty
+T46	DATA-ITEM 669 681	separability
+T47	DATA-ITEM 687 716	semi-independent subdialogues
+T48	PERSON 718 720	We
+T49	PROCESS 721 729	describe
+T50	PLAN 734 740	domain
+T51	QUALITY 744 754	sufficient
+T52	DATA-ITEM 755 761	detail
+T53	PROCESS 765 770	allow
+T54	PERSON 771 777	others
+T55	PROCESS 781 790	replicate
+T56	REFERENCE 791 793	it
+T57	PERSON 795 806	researchers
+T58	QUALITY 807 817	interested
+T59	PROCESS 821 826	using
+T60	DATA-ITEM 831 838	corpora
+T61	REFERENCE 839 849	themselves
+T62	PROCESS 854 864	encouraged
+T63	PROCESS 868 875	contact
+T64	PERSON 880 887	authors
+T65	QUALITY 888 896	directly
+R1	Condition Arg1:T4 Arg2:T5	
+R2	Condition Arg1:T4 Arg2:T6	
+R3	Input Arg1:T4 Arg2:T3	
+R4	Apply-to Arg1:T2 Arg2:T4	
+A1	Self T7
+A2	Intentional T8
+R5	Agent Arg1:T8 Arg2:T7	
+R6	Attribute Arg1:T10 Arg2:T9	
+R7	Output Arg1:T8 Arg2:T10	
+R8	Is-a Arg1:T16 Arg2:T15	
+R9	Is-a Arg1:T17 Arg2:T15	
+R10	Is-a Arg1:T18 Arg2:T15	
+R11	Output Arg1:T13 Arg2:T14	
+T66	QUALITY 183 187	twin
+R12	Attribute Arg1:T15 Arg2:T66	
+R13	Apply-to Arg1:T14 Arg2:T15	
+R14	to Arg1:T12 Arg2:T13	
+R15	from Arg1:T12 Arg2:T10	
+R16	Attribute Arg1:T22 Arg2:T21	
+R17	from Arg1:T20 Arg2:T22	
+R18	to Arg1:T20 Arg2:T19	
+R19	In_Out Arg1:T23 Arg2:T24	
+R20	Coreference Arg1:T26 Arg2:T24	
+R21	Output Arg1:T25 Arg2:T26	
+R22	Destination Arg1:T25 Arg2:T27	
+T67	DATA-ITEM 364 368	cart
+R23	In_Out Arg1:T28 Arg2:T67	
+T68	DATA-ITEM 383 387	cart
+R24	Target Arg1:T29 Arg2:T68	
+T69	DATA-ITEM 405 409	cart
+R25	Destination Arg1:T30 Arg2:T69	
+R26	Output Arg1:T30 Arg2:T31	
+R27	Is-a Arg1:T23 Arg2:T22	
+R28	Is-a Arg1:T25 Arg2:T22	
+R29	Is-a Arg1:T28 Arg2:T22	
+R30	Is-a Arg1:T29 Arg2:T22	
+R31	Is-a Arg1:T30 Arg2:T22	
+R32	Condition Arg1:T34 Arg2:T35	
+R33	Condition Arg1:T34 Arg2:T36	
+R34	to Arg1:T33 Arg2:T34	
+R35	from Arg1:T33 Arg2:T32	
+A3	Self T39
+A4	Intentional T40
+R36	Agent Arg1:T40 Arg2:T39	
+T70	DATA-ITEM 597 605	features
+T71	QUALITY 589 596	desired
+T72	QUANTITY 584 588	four
+R37	Attribute Arg1:T70 Arg2:T71	
+R38	Attribute Arg1:T70 Arg2:T72	
+A5	Judgment T71
+T73	PROCESS 578 583	meets
+R39	Destination Arg1:T73 Arg2:T70	
+R40	Apply-to Arg1:T42 Arg2:T73	
+R41	Attribute Arg1:T73 Arg2:T41	
+A6	Judgment T41
+R42	Output Arg1:T40 Arg2:T41	
+R43	from Arg1:T37 Arg2:T40	
+R44	to Arg1:T37 Arg2:T38	
+R45	Attribute Arg1:T45 Arg2:T44	
+T74	QUALITY 607 617	unscripted
+R46	Other-rel Arg1:T46 Arg2:T47	
+R47	Other-rel Arg1:T74 Arg2:T70	
+R48	Other-rel Arg1:T43 Arg2:T70	
+R49	Is-a Arg1:T45 Arg2:T70	
+R50	Is-a Arg1:T46 Arg2:T70	
+A7	Self T48
+A8	Intentional T49
+R51	Agent Arg1:T49 Arg2:T48	
+R52	Attribute Arg1:T52 Arg2:T51	
+A9	Judgment T51
+R53	Agent Arg1:T55 Arg2:T54	
+R54	Coreference Arg1:T56 Arg2:T50	
+R55	Target Arg1:T55 Arg2:T56	
+R56	Output Arg1:T49 Arg2:T50	
+R57	Condition Arg1:T49 Arg2:T52	
+R58	Apply-to Arg1:T49 Arg2:T53	
+R59	Attribute Arg1:T57 Arg2:T58	
+R60	Coreference Arg1:T61 Arg2:T57	
+R61	Input Arg1:T59 Arg2:T60	
+R62	Condition Arg1:T58 Arg2:T59	
+R63	Destination Arg1:T63 Arg2:T64	
+R64	Attribute Arg1:T63 Arg2:T65	
+R65	Agent Arg1:T63 Arg2:T57	
+A10	Self T64
+R67	Target Arg1:T62 Arg2:T57	
+R66	Agent Arg1:T59 Arg2:T61	

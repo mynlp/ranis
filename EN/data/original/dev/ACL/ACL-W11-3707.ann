@@ -1,0 +1,73 @@
+T1	QUALITY 0 24	Sense-level Subjectivity
+T2	PLAN 30 50	Multilingual Setting
+T3	QUALITY 76 83	ability
+T4	DATA-ITEM 87 93	senses
+T5	LANGUAGE 109 118	languages
+T6	QUALITY 94 101	aligned
+T7	PROCESS 122 127	carry
+T8	DATA-ITEM 128 161	coherent subjectivity information
+T9	PLAN-OR-PROCESS 183 206	manual annotation study
+T10	PROCESS 217 221	seek
+T11	PROCESS 225 231	create
+T12	PLAN 235 254	automatic framework
+T13	PROCESS 258 267	determine
+T14	DATA-ITEM 268 289	subjectivity labeling
+T15	DATA-ITEM 294 307	unseen senses
+T16	PLAN 325 332	methods
+T17	QUANTITY 321 324	two
+T18	MODALITY 342 346	able
+T19	PROCESS 350 361	incorporate
+T20	DATA-ITEM 362 386	subjectivity information
+T21	QUALITY 387 398	originating
+T22	LANGUAGE 414 423	languages
+T23	QUALITY 404 413	different
+T24	PLAN 432 443	co-training
+T25	PLAN 448 474	multilingual vector spaces
+T26	PLAN 494 503	this task
+T27	PLAN 508 521	latter method
+R1	Coreference Arg1:T27 Arg2:T25	
+T28	QUALITY 525 538	better suited
+T29	RESULT 543 550	obtains
+T30	QUALITY 551 559	superior
+T31	DATA-ITEM 560 567	results
+R2	Attribute Arg1:T22 Arg2:T23	
+R3	Attribute Arg1:T16 Arg2:T17	
+R4	Attribute Arg1:T31 Arg2:T30	
+T34	REFERENCE 333 337	that
+R5	Coreference Arg1:T34 Arg2:T16	
+R6	Attribute Arg1:T4 Arg2:T6	
+R7	Attribute Arg1:T27 Arg2:T28	
+R8	Attribute Arg1:T2 Arg2:T1	
+R9	Attribute Arg1:T4 Arg2:T3	
+R10	Condition Arg1:T6 Arg2:T5	
+R11	Target Arg1:T7 Arg2:T8	
+R12	Condition Arg1:T3 Arg2:T7	
+R13	In_Out Arg1:T13 Arg2:T14	
+R14	Destination Arg1:T13 Arg2:T15	
+R15	Apply-to Arg1:T12 Arg2:T13	
+R16	Output Arg1:T11 Arg2:T12	
+R17	Apply-to Arg1:T10 Arg2:T11	
+R18	Attribute Arg1:T19 Arg2:T18	
+R19	Apply-to Arg1:T34 Arg2:T19	
+R20	Input Arg1:T19 Arg2:T20	
+R21	Attribute Arg1:T20 Arg2:T21	
+R22	Condition Arg1:T21 Arg2:T22	
+R23	Is-a Arg1:T24 Arg2:T16	
+R24	Is-a Arg1:T25 Arg2:T16	
+R25	from Arg1:T29 Arg2:T27	
+R26	to Arg1:T29 Arg2:T30	
+R27	Apply-to Arg1:T27 Arg2:T26	
+R28	Coreference Arg1:T26 Arg2:T13	
+T32	REFERENCE 52 62	This paper
+T33	PROCESS 63 71	explores
+T35	PERSON 163 165	We
+T36	PROCESS 166 175	start out
+T37	PERSON 309 311	We
+T38	PROCESS 312 320	identify
+R29	Agent Arg1:T36 Arg2:T35	
+R30	Agent Arg1:T38 Arg2:T37	
+R31	Agent Arg1:T10 Arg2:T35	
+R32	Origin Arg1:T36 Arg2:T9	
+R33	Output Arg1:T38 Arg2:T16	
+R34	Condition Arg1:T33 Arg2:T32	
+R35	In_Out Arg1:T33 Arg2:T3	

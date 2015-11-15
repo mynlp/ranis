@@ -1,0 +1,110 @@
+T1	PROCESS 0 12	Transforming
+T2	DATA-ITEM 13 21	Examples
+T4	PLAN 90 92	IE
+T5	PLAN 65 87;95 102	Information Extraction systems
+T6	TIME 103 108	today
+T7	QUALITY 113 121	commonly
+T8	APPLY-TO 122 130	based on
+T9	PLAN-OR-PROCESS 131 147	pattern matching
+T10	DATA-ITEM 154 162	patterns
+T11	DATA-ITEM 167 186	regular expressions
+T12	PROCESS 187 193	stored
+T13	QUALITY 199 211	customizable
+T14	DATA-ITEM 212 226	knowledge base
+T15	PROCESS 229 237	Adapting
+T16	PLAN 241 250	IE system
+T17	QUALITY 256 259	new
+T18	DOMAIN 260 274	subject domain
+T19	QUALITY 275 282	entails
+T20	PLAN-OR-PROCESS 287 299	construction
+T21	QUALITY 305 308	new
+T22	PLAN 309 321	pattern base
+T23	QUALITY 326 340	time-consuming
+T24	QUALITY 345 354	expensive
+T25	PLAN 355 359	task
+T26	PERSON 362 364	We
+T27	PROCESS 365 373	describe
+T28	PLAN 376 384	strategy
+T29	PROCESS 389 397	building
+T30	DATA-ITEM 398 406	patterns
+T31	DATA-ITEM 412 420	examples
+T32	PROCESS 426 431	adapt
+T33	PLAN 436 445	IE system
+T34	DOMAIN 451 461	new domain
+T35	QUALITY 462 469	quickly
+T36	PERSON 476 480	user
+T37	PROCESS 481 488	chooses
+T38	DATA-ITEM 491 494	set
+T39	DATA-ITEM 498 506	examples
+T40	DATA-ITEM 512 525	training text
+T41	DATA-ITEM 541 548	example
+T42	PROCESS 549 554	gives
+T43	DATA-ITEM 559 579	logical form entries
+T44	REFERENCE 580 585	which
+T45	DATA-ITEM 586 597	the example
+T46	PROCESS 598 605	induces
+T47	PLAN 612 618	system
+T48	PROCESS 619 629	transforms
+T49	DATA-ITEM 630 644	these examples
+T50	DATA-ITEM 650 658	patterns
+T51	PROCESS 668 675	applies
+T52	PLAN 676 686	meta-rules
+T53	PROCESS 690 700	generalize
+T54	DATA-ITEM 701 715	these patterns
+T55	DATA-ITEM 27 35	Patterns
+T56	PLAN-OR-PROCESS 40 62	Information Extraction
+R1	Input Arg1:T1 Arg2:T2	
+R2	Output Arg1:T1 Arg2:T55	
+R3	Apply-to Arg1:T1 Arg2:T56	
+R4	Equivalence Arg1:T4 Arg2:T5	
+R6	Condition Arg1:T5 Arg2:T6	
+R7	from Arg1:T8 Arg2:T9	
+R8	to Arg1:T8 Arg2:T5	
+R9	Attribute Arg1:T8 Arg2:T7	
+R10	Attribute Arg1:T14 Arg2:T13	
+R11	Destination Arg1:T12 Arg2:T14	
+R12	Output Arg1:T12 Arg2:T11	
+R13	Equivalence Arg1:T11 Arg2:T10	
+R14	Attribute Arg1:T18 Arg2:T17	
+R15	Input Arg1:T15 Arg2:T16	
+R16	Destination Arg1:T15 Arg2:T18	
+R17	Attribute Arg1:T22 Arg2:T21	
+R18	Attribute Arg1:T25 Arg2:T24	
+R19	Attribute Arg1:T25 Arg2:T23	
+R20	Equivalence Arg1:T25 Arg2:T22	
+R21	Output Arg1:T20 Arg2:T22	
+R22	Attribute Arg1:T20 Arg2:T19	
+R23	Condition Arg1:T19 Arg2:T15	
+A1	Self T26
+A2	Intentional T27
+R24	Agent Arg1:T27 Arg2:T26	
+R25	Output Arg1:T27 Arg2:T28	
+R26	Apply-to Arg1:T28 Arg2:T29	
+R27	Output Arg1:T29 Arg2:T30	
+R28	Input Arg1:T29 Arg2:T31	
+R29	Input Arg1:T32 Arg2:T33	
+R30	Destination Arg1:T32 Arg2:T34	
+R31	Attribute Arg1:T32 Arg2:T35	
+R32	Agent Arg1:T37 Arg2:T36	
+R33	Apply-to Arg1:T37 Arg2:T32	
+R34	Member-collection Arg1:T38 Arg2:T39	
+R35	In_Out Arg1:T37 Arg2:T38	
+R36	Component-object Arg1:T40 Arg2:T39	
+R37	Agent Arg1:T42 Arg2:T36	
+R38	Destination Arg1:T42 Arg2:T41	
+R39	Output Arg1:T42 Arg2:T43	
+R40	Coreference Arg1:T44 Arg2:T43	
+R41	Coreference Arg1:T45 Arg2:T41	
+R42	Agent Arg1:T46 Arg2:T45	
+R43	Output Arg1:T46 Arg2:T44	
+R44	Apply-to Arg1:T47 Arg2:T48	
+R45	Input Arg1:T48 Arg2:T49	
+R46	Coreference Arg1:T49 Arg2:T38	
+R47	Output Arg1:T48 Arg2:T50	
+R48	Coreference Arg1:T54 Arg2:T50	
+R49	Input Arg1:T53 Arg2:T54	
+R50	Input Arg1:T51 Arg2:T52	
+R51	Apply-to Arg1:T51 Arg2:T53	
+R52	Apply-to Arg1:T47 Arg2:T51	
+A3	Intentional T37
+A4	Intentional T42

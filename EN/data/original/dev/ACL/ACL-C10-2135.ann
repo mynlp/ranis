@@ -1,0 +1,114 @@
+T2	PROCESS 13 23	Evaluation
+T3	PLAN 27 45	Dependency Parsers
+T4	PROCESS 46 54	Obtained
+T5	PLAN-OR-PROCESS 63 87	Cross-Lingual Projection
+T6	PLAN 114 135	methodological issues
+T7	PROCESS 143 153	evaluation
+T8	PLAN 159 185	projection-based framework
+T9	PLAN-OR-PROCESS 190 208	dependency parsing
+T10	DATA-ITEM 218 229	annotations
+T11	LANGUAGE 236 251	source language
+T12	PROCESS 256 266	transfered
+T13	LANGUAGE 272 287	target language
+T14	INPUT 288 293	using
+T15	DATA-ITEM 294 309	word alignments
+T16	DATA-ITEM 315 330	parallel corpus
+T17	DATA-ITEM 336 351	projected trees
+T18	COMPONENT-OBJECT 357 367	constitute
+T19	DATA-ITEM 372 385	training data
+T20	PLAN 392 410	data-driven parser
+T21	LANGUAGE 418 433	target language
+T22	PLAN 450 458	problems
+T23	QUANTITY 446 449	two
+T24	PROCESS 464 469	arise
+T25	PROCESS 477 487	evaluation
+T26	PLAN 496 520	cross-lingual approaches
+T27	PLAN 533 550	annotation scheme
+T28	APPLY-TO 551 561	underlying
+T29	DATA-ITEM 566 593	source language annotations
+T30	DATA-ITEM 611 639	projected target annotations
+T32	DATA-ITEM 644 655	predictions
+T33	PLAN 663 669	parser
+T34	REFERENCE 683 687	them
+T35	PROCESS 670 677	derived
+R1	Coreference Arg1:T34 Arg2:T29	
+T36	QUALITY 704 710	differ
+T38	DATA-ITEM 736 759	gold standard test sets
+T37	QUALITY 727 735	existing
+T39	PROCESS 760 767	devised
+T40	QUALITY 768 780	specifically
+T41	LANGUAGE 789 804	target language
+T42	PLAN 827 836	procedure
+T43	PLAN 840 856	cross-validation
+T44	MODALITY 857 863	cannot
+T45	PROCESS 867 876	performed
+T46	MODALITY 884 891	absence
+T48	DATA-ITEM 895 929	parallel gold standard annotations
+T49	PLAN 937 955	alternative method
+T50	MODALITY 956 959	has
+T51	APPLY-TO 966 970	used
+T52	PROCESS 974 980	assess
+T53	QUALITY 985 1012	generalization capabilities
+T54	PLAN 1020 1037	projected parsers
+R2	Input Arg1:T2 Arg2:T3	
+R4	Output Arg1:T4 Arg2:T3	
+R5	Input Arg1:T7 Arg2:T8	
+R7	Input Arg1:T12 Arg2:T10	
+R8	Destination Arg1:T12 Arg2:T13	
+R9	to Arg1:T14 Arg2:T15	
+R10	from Arg1:T14 Arg2:T12	
+T56	REFERENCE 212 217	which
+R11	Coreference Arg1:T56 Arg2:T8	
+R13	Apply-to Arg1:T12 Arg2:T56	
+R14	Attribute Arg1:T7 Arg2:T6	
+R16	Input Arg1:T20 Arg2:T19	
+R17	Condition Arg1:T20 Arg2:T21	
+R18	Attribute Arg1:T22 Arg2:T23	
+R15	to Arg1:T18 Arg2:T19	
+R19	from Arg1:T18 Arg2:T17	
+R20	Apply-to Arg1:T25 Arg2:T26	
+R21	Condition Arg1:T24 Arg2:T25	
+R22	Output Arg1:T24 Arg2:T31	
+R23	from Arg1:T28 Arg2:T27	
+R24	to Arg1:T28 Arg2:T29	
+R27	Output Arg1:T33 Arg2:T32	
+R26	Attribute Arg1:T27 Arg2:T36	
+R28	Attribute Arg1:T38 Arg2:T37	
+R29	Compare Arg1:T38 Arg2:T36	
+R30	Attribute Arg1:T39 Arg2:T40	
+R31	Condition Arg1:T39 Arg2:T41	
+R32	Output Arg1:T39 Arg2:T38	
+R33	Attribute Arg1:T45 Arg2:T44	
+T57	TIME 716 726	previously
+R34	Attribute Arg1:T37 Arg2:T57	
+R35	Output Arg1:T33 Arg2:T30	
+R36	Input Arg1:T35 Arg2:T34	
+R37	Output Arg1:T35 Arg2:T33	
+R40	Attribute Arg1:T48 Arg2:T46	
+R42	Attribute Arg1:T51 Arg2:T50	
+R43	from Arg1:T51 Arg2:T49	
+R44	to Arg1:T51 Arg2:T52	
+R45	Attribute Arg1:T54 Arg2:T53	
+R47	Target Arg1:T52 Arg2:T54	
+R38	Attribute Arg1:T43 Arg2:T42	
+R49	Target Arg1:T45 Arg2:T42	
+R39	Condition Arg1:T45 Arg2:T48	
+R48	Other-rel Arg1:T10 Arg2:T11	
+R3	Apply-to Arg1:T5 Arg2:T4	
+R6	Apply-to Arg1:T8 Arg2:T9	
+T31	REFERENCE 459 463	that
+R25	Coreference Arg1:T31 Arg2:T22	
+T47	MODALITY 694 700	likely
+T61	QUALITY 818 826	standard
+R46	Attribute Arg1:T42 Arg2:T61	
+R41	Condition Arg1:T15 Arg2:T16	
+T1	REFERENCE 92 102	this paper
+T55	PERSON 103 105	we
+T58	PROCESS 106 113	address
+R12	Agent Arg1:T58 Arg2:T55	
+R50	Condition Arg1:T58 Arg2:T1	
+R51	Target Arg1:T58 Arg2:T6	
+T59	PERSON 435 437	We
+T60	PROCESS 438 445	discuss
+R52	Agent Arg1:T60 Arg2:T59	
+R53	Input Arg1:T60 Arg2:T22	

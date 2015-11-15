@@ -1,0 +1,134 @@
+A1	Self T65
+A2	Intentional T66
+R1	Condition Arg1:T66 Arg2:T65
+R2	In_Out Arg1:T66 Arg2:T2
+R3	Attribute Arg1:T3 Arg2:T2
+R4	from Arg1:T4 Arg2:T3
+R5	to Arg1:T4 Arg2:T5
+R7	from Arg1:T9 Arg2:T10
+R8	to Arg1:T9 Arg2:T8
+R11	Coreference Arg1:T12 Arg2:T3
+R12	Attribute Arg1:T12 Arg2:T13
+R14	Target Arg1:T16 Arg2:T18
+R15	Condition Arg1:T16 Arg2:T7
+R16	Member-collection Arg1:T14 Arg2:T15
+R17	Agent Arg1:T16 Arg2:T14
+R18	Coreference Arg1:T15 Arg2:T12
+R19	Attribute Arg1:T21 Arg2:T20
+R20	Agent Arg1:T21 Arg2:T19
+R21	Target Arg1:T21 Arg2:T22
+R22	Condition Arg1:T21 Arg2:T23
+R23	Member-collection Arg1:T19 Arg2:T15
+R24	Attribute Arg1:T25 Arg2:T24
+R25	Attribute Arg1:T27 Arg2:T26
+R26	Output Arg1:T27 Arg2:T25
+R27	Output Arg1:T27 Arg2:T28
+R28	Condition Arg1:T27 Arg2:T68
+R29	Condition Arg1:T27 Arg2:T29
+R13	Output Arg1:T33 Arg2:T34
+R30	Agent Arg1:T33 Arg2:T30
+R31	Agent Arg1:T33 Arg2:T32
+R32	Attribute Arg1:T38 Arg2:T17
+R33	Attribute Arg1:T40 Arg2:T39
+R34	Output Arg1:T38 Arg2:T40
+R35	Condition Arg1:T36 Arg2:T37
+R36	Condition Arg1:T35 Arg2:T37
+R37	Agent Arg1:T38 Arg2:T35
+R38	Agent Arg1:T38 Arg2:T36
+A3	Self T41
+R39	Condition Arg1:T42 Arg2:T41
+A4	Intentional T42
+R40	Output Arg1:T42 Arg2:T43
+R41	Attribute Arg1:T44 Arg2:T43
+#9	AnnotatorNotes T45	influencing
+R42	In_Out Arg1:T45 Arg2:T46
+R43	Agent Arg1:T45 Arg2:T44
+R44	to Arg1:T47 Arg2:T48
+R45	from Arg1:T47 Arg2:T42
+A5	Intentional T49
+R46	Condition Arg1:T49 Arg2:T41
+R47	Attribute Arg1:T51 Arg2:T50
+R48	Output Arg1:T49 Arg2:T51
+R49	Attribute Arg1:T53 Arg2:T52
+R50	Result Arg1:T51 Arg2:T52
+A6	Self T54
+A7	Intentional T55
+R51	Agent Arg1:T55 Arg2:T54
+R52	Condition Arg1:T56 Arg2:T57
+R53	Condition Arg1:T56 Arg2:T58
+R54	Attribute Arg1:T60 Arg2:T59
+R55	Output Arg1:T60 Arg2:T56
+R56	Is-a Arg1:T61 Arg2:T62
+R57	Apply-to Arg1:T61 Arg2:T60
+R6	Is-a Arg1:T10 Arg2:T11
+R10	Output Arg1:T55 Arg2:T60
+A8	Name T67
+A9	Name T63
+R9	to Arg1:T4 Arg2:T8
+R58	Is-a Arg1:T38 Arg2:T34
+T1	DATA-ITEM 0 21	German Particle Verbs
+T63	LANGUAGE 0 6	German
+T64	DATA-ITEM 26 49	Pleonastic Prepositions
+T65	REFERENCE 52 62	This paper
+T66	PROCESS 63 72	discusses
+T2	DATA-ITEM 77 85	behavior
+T3	DATA-ITEM 89 110	German particle verbs
+T67	LANGUAGE 89 95	German
+T4	COMPONENT-OBJECT 111 117;142 161	formed in combination with
+T5	DATA-ITEM 121 141	two-way prepositions
+T8	DATA-ITEM 162 176	pleonastic PPs
+T9	IS-A 177 186	including
+T10	DATA-ITEM 191 204	verb particle
+T11	DATA-ITEM 210 221	preposition
+T12	DATA-ITEM 224 244	These particle verbs
+T13	DATA-ITEM 252 274	characteristic feature
+T14	DATA-ITEM 277 281	some
+T15	REFERENCE 285 289	them
+T16	PROCESS 290 297	license
+T18	DATA-ITEM 298 331	directional prepositional phrases
+T7	DATA-ITEM 339 349	accusative
+T19	DATA-ITEM 352 356	some
+T20	QUALITY 357 361	only
+T21	PROCESS 362 367	allow
+T22	DATA-ITEM 372 384	locative PPs
+T23	DATA-ITEM 392 398	dative
+T24	QUANTITY 405 409	some
+T25	DATA-ITEM 410 424	particle verbs
+T26	MODALITY 425 428	can
+T27	PROCESS 429 434	occur
+T28	DATA-ITEM 440 443	PPs
+T68	DATA-ITEM 451 461	accusative
+T29	DATA-ITEM 473 479	dative
+T30	DATA-ITEM 482 508	Directional particle verbs
+T32	DATA-ITEM 523 538	directional PPs
+T33	PROCESS 539 546	present
+T34	PLAN-OR-PROCESS 550 568	additional problem
+T35	DATA-ITEM 575 583	particle
+T36	DATA-ITEM 592 603	preposition
+T37	DATA-ITEM 611 613	PP
+T17	MODALITY 614 618	seem
+T38	PROCESS 622 629	provide
+T39	QUALITY 630 639	redundant
+T40	DATA-ITEM 640 651	information
+T41	REFERENCE 654 663	The paper
+T42	PROCESS 664 669	gives
+T43	DATA-ITEM 673 681	overview
+T44	DATA-ITEM 689 710	semantic verb classes
+T45	PROCESS 711 721	in uencing
+T46	DATA-ITEM 722 737	this phenomenon
+T47	INPUT 740 748	based on
+T48	DATA-ITEM 749 760	corpus data
+T49	PROCESS 767 775	explains
+T50	QUALITY 780 790	underlying
+T51	PLAN 791 798	reasons
+T52	PLAN 807 815	behavior
+T53	DATA-ITEM 823 837	particle verbs
+T54	PERSON 840 842	We
+T55	PROCESS 848 852	show
+T56	DATA-ITEM 861 873	restrictions
+T57	DATA-ITEM 877 891	particle verbs
+T58	DATA-ITEM 896 910	pleonastic PPs
+T59	MODALITY 911 914	can
+T60	PROCESS 918 927	expressed
+T61	PLAN 933 979	grammar theory like Lexical Functional Grammar
+T62	PLAN 982 985	LFG

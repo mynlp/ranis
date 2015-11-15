@@ -1,0 +1,154 @@
+T1	QUALITY 28 37	Semantics
+T2	PLAN-OR-PROCESS 41 59	Event Localization
+T4	OCCURENT 6 12	Things
+T5	PROCESS 13 19	Happen
+T6	PLAN 65 72	problem
+T7	PLAN-OR-PROCESS 76 96	temporally situating
+T9	LANGUAGE 107 115	language
+T10	PROCESS 125 135	approached
+T11	QUANTITY 139 147	a number
+T12	PLAN 151 175	philosophical techniques
+T13	MEMBER-COLLECTION 177 186	including
+T14	PLAN 187 218	Davidson's particularist theory
+T15	PERSON 187 195	Davidson
+T16	PLAN-OR-PROCESS 222 241	event individuation
+T17	PLAN 253 290	Kim's property exemplification theory
+T18	PERSON 253 256	Kim
+T19	PLAN 305 319	these theories
+T20	PROCESS 330 339	developed
+T21	DOMAIN 347 377	linguistic semantic traditions
+T22	PLAN 426 433	problem
+T23	PLAN-OR-PROCESS 437 455	event localization
+T8	PLAN-OR-PROCESS 457 483	spatially situating events
+T24	MODALITY 489 492	not
+T25	PROCESS 498 507	discussed
+T26	EXTERNAL-REFERENCE 530 550	semantics literature
+T27	QUALITY 511 522	extensively
+T28	PLAN 581 591	procedures
+T29	PROCESS 596 607	identifying
+T30	REFERENCE 608 613	where
+T31	DATA-ITEM 614 620	events
+T32	PROCESS 625 634	expressed
+T33	LANGUAGE 638 654	natural language
+T34	PROCESS 660 667	located
+T35	LOCATION 671 676	space
+T36	QUALITY 693 702	semantics
+T37	PLAN-OR-PROCESS 706 724	event localization
+T38	TIME 735 743	recently
+T39	PROCESS 744 752	proposed
+T40	MEMBER-COLLECTION 754 763	including
+T42	QUALITY 784 789	shape
+T43	PLAN-OR-PROCESS 797 805	movement
+T44	PROCESS 826 834	treating
+T45	DATA-ITEM 835 849	movement verbs
+T46	DATA-ITEM 853 881	``path creation'' predicates
+T47	DATA-ITEM 929 952	additional observations
+T48	QUANTITY 924 928	some
+T49	QUALITY 979 988	semantics
+T50	QUALITY 966 978	more general
+T51	PLAN-OR-PROCESS 992 1010	event localization
+T54	REFERENCE 914 919	these
+T52	PLAN 1029 1038	procedure
+T55	REFERENCE 1039 1043	that
+R1	Coreference Arg1:T55 Arg2:T52	
+T56	PROCESS 1044 1051	extends
+T57	THING 1056 1069	path metaphor
+T58	APPLY-TO 1070 1074	used
+T59	DATA-ITEM 1079 1096	motion predicates
+T60	PROCESS 1098 1112	distinguishing
+T61	QUALITY 1125 1136	event locus
+T62	QUALITY 1145 1159	spatial aspect
+T63	OCCURENT 1166 1171	event
+T64	PLAN-OR-PROCESS 1203 1215	localization
+T65	QUALITY 1219 1231	supervenient
+T66	OCCURENT 1261 1267	events
+T67	CONTINUANT 1241 1253	participants
+T53	DATA-ITEM 97 103	events
+R2	Coreference Arg1:T19 Arg2:T14	
+R3	Coreference Arg1:T19 Arg2:T17	
+T70	EXTERNAL-REFERENCE 242 248	[6, 5]
+T71	EXTERNAL-REFERENCE 291 295	[16]
+T72	EXTERNAL-REFERENCE 392 399	[24, 2]
+T74	EXTERNAL-REFERENCE 806 813	[8, 39]
+R4	Attribute Arg1:T49 Arg2:T50	
+R5	Attribute Arg1:T12 Arg2:T11	
+R6	Attribute Arg1:T2 Arg2:T1	
+R7	Output Arg1:T5 Arg2:T4	
+R8	Attribute Arg1:T6 Arg2:T7	
+R9	Condition Arg1:T7 Arg2:T9	
+R10	Target Arg1:T7 Arg2:T53	
+R11	Other-rel Arg1:T10 Arg2:T6	
+R12	Apply-to Arg1:T12 Arg2:T10	
+R13	from Arg1:T13 Arg2:T14	
+R14	to Arg1:T13 Arg2:T12	
+R15	Apply-to Arg1:T14 Arg2:T16	
+R16	Condition Arg1:T10 Arg2:T70	
+R17	from Arg1:T13 Arg2:T17	
+R18	Condition Arg1:T10 Arg2:T71	
+R19	Output Arg1:T20 Arg2:T19	
+R20	Condition Arg1:T20 Arg2:T21	
+R21	Condition Arg1:T20 Arg2:T72	
+R22	Attribute Arg1:T22 Arg2:T23	
+R24	Equivalence Arg1:T8 Arg2:T23	
+R25	Attribute Arg1:T25 Arg2:T24	
+R26	Input Arg1:T25 Arg2:T22	
+R27	Attribute Arg1:T25 Arg2:T27	
+R28	Condition Arg1:T25 Arg2:T26	
+R29	Apply-to Arg1:T28 Arg2:T29	
+R30	Attribute Arg1:T31 Arg2:T30	
+R31	Output Arg1:T29 Arg2:T30	
+R32	Condition Arg1:T32 Arg2:T33	
+R33	Output Arg1:T32 Arg2:T31	
+R34	Destination Arg1:T34 Arg2:T30	
+R35	Coreference Arg1:T30 Arg2:T35	
+R36	Attribute Arg1:T37 Arg2:T36	
+R37	Attribute Arg1:T39 Arg2:T38	
+T3	QUALITY 678 685	Aspects
+R38	Attribute Arg1:T36 Arg2:T3	
+R39	Output Arg1:T39 Arg2:T3	
+R41	from Arg1:T40 Arg2:T42	
+R43	to Arg1:T40 Arg2:T3	
+R44	Condition Arg1:T39 Arg2:T74	
+R45	Input Arg1:T44 Arg2:T45	
+R46	Output Arg1:T44 Arg2:T46	
+R47	Coreference Arg1:T54 Arg2:T39	
+R48	Coreference Arg1:T54 Arg2:T44	
+R49	Attribute Arg1:T47 Arg2:T48	
+T68	PROCESS 956 963	outline
+R50	Output Arg1:T68 Arg2:T49	
+T81	PROCESS 905 910	build
+R51	Condition Arg1:T81 Arg2:T54	
+R52	Input Arg1:T81 Arg2:T47	
+R53	Apply-to Arg1:T81 Arg2:T68	
+R54	Attribute Arg1:T51 Arg2:T49	
+R55	Apply-to Arg1:T55 Arg2:T56	
+R56	In_Out Arg1:T56 Arg2:T57	
+R57	from Arg1:T58 Arg2:T57	
+R58	to Arg1:T58 Arg2:T59	
+R59	Attribute Arg1:T63 Arg2:T62	
+R60	Attribute Arg1:T63 Arg2:T61	
+R61	Target Arg1:T60 Arg2:T61	
+R62	Target Arg1:T60 Arg2:T62	
+R63	Apply-to Arg1:T60 Arg2:T56	
+R64	Attribute Arg1:T64 Arg2:T65	
+R65	Condition Arg1:T67 Arg2:T66	
+R66	Condition Arg1:T65 Arg2:T67	
+R67	Attribute Arg1:T43 Arg2:T42	
+T41	REFERENCE 891 901	this paper
+T69	PERSON 903 904	I
+R23	Condition Arg1:T81 Arg2:T41	
+R40	Agent Arg1:T81 Arg2:T69	
+T73	PERSON 1012 1013	I
+T75	PROCESS 1019 1026	outline
+R42	Output Arg1:T75 Arg2:T52	
+R68	Agent Arg1:T75 Arg2:T73	
+T76	PERSON 1189 1190	I
+T77	PROCESS 1191 1198	discuss
+R69	Agent Arg1:T77 Arg2:T76	
+R70	Input Arg1:T77 Arg2:T65	
+T78	REFERENCE 555 565	this paper
+T79	PERSON 567 568	I
+T80	PROCESS 569 576	discuss
+R71	Condition Arg1:T80 Arg2:T78	
+R72	Agent Arg1:T80 Arg2:T79	
+R73	Input Arg1:T80 Arg2:T28	

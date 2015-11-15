@@ -1,0 +1,143 @@
+R1	Output Arg1:T1 Arg2:T2
+R2	Output Arg1:T1 Arg2:T61
+R3	Input Arg1:T1 Arg2:T62
+R8	Attribute Arg1:T8 Arg2:T6
+R9	Output Arg1:T5 Arg2:T8
+R10	Component-object Arg1:T4 Arg2:T3
+R11	Agent Arg1:T5 Arg2:T3
+R12	Attribute Arg1:T10 Arg2:T9
+R14	Attribute Arg1:T11 Arg2:T67
+R16	Attribute Arg1:T12 Arg2:T14
+R17	Output Arg1:T12 Arg2:T15
+R18	Output Arg1:T12 Arg2:T16
+R19	Output Arg1:T12 Arg2:T17
+R20	Target Arg1:T12 Arg2:T11
+R21	Is-a Arg1:T15 Arg2:T10
+R22	Is-a Arg1:T16 Arg2:T10
+R23	Is-a Arg1:T17 Arg2:T10
+A1	Self T18
+A2	Intentional T19
+R24	Agent Arg1:T19 Arg2:T18
+R25	Condition Arg1:T21 Arg2:T68
+R26	Attribute Arg1:T21 Arg2:T20
+R27	In_Out Arg1:T19 Arg2:T21
+R28	Attribute Arg1:T24 Arg2:T23
+R31	Destination Arg1:T27 Arg2:T28
+R32	Output Arg1:T27 Arg2:T26
+R34	In_Out Arg1:T21 Arg2:T22
+A3	Self T29
+A4	Intentional T30
+R38	Agent Arg1:T30 Arg2:T29
+R39	Output Arg1:T32 Arg2:T31
+R40	Coreference Arg1:T33 Arg2:T32
+A5	Self T34
+A6	Intentional T35
+R41	Agent Arg1:T35 Arg2:T34
+R42	In_Out Arg1:T35 Arg2:T36
+R43	Attribute Arg1:T38 Arg2:T37
+R44	Attribute Arg1:T38 Arg2:T36
+R45	Condition Arg1:T35 Arg2:T33
+R46	Attribute Arg1:T41 Arg2:T40
+R47	Apply-to Arg1:T39 Arg2:T41
+R48	Attribute Arg1:T44 Arg2:T42
+R49	In_Out Arg1:T41 Arg2:T44
+R50	In_Out Arg1:T35 Arg2:T39
+R51	Coreference Arg1:T46 Arg2:T45
+R52	Attribute Arg1:T46 Arg2:T47
+R53	Coreference Arg1:T45 Arg2:T44
+A7	Self T48
+A8	Intentional T49
+R54	Agent Arg1:T49 Arg2:T48
+R55	Condition Arg1:T50 Arg2:T51
+R56	Component-object Arg1:T53 Arg2:T52
+R57	Is-a Arg1:T54 Arg2:T52
+R58	Is-a Arg1:T43 Arg2:T52
+R59	Is-a Arg1:T55 Arg2:T52
+R60	Is-a Arg1:T71 Arg2:T52
+R61	Output Arg1:T57 Arg2:T56
+R62	Coreference Arg1:T56 Arg2:T52
+R63	Attribute Arg1:T59 Arg2:T58
+R64	Input Arg1:T57 Arg2:T59
+R65	Destination Arg1:T57 Arg2:T60
+R66	Output Arg1:T49 Arg2:T57
+R4	Attribute Arg1:T7 Arg2:T6
+R5	Attribute Arg1:T63 Arg2:T6
+R6	Attribute Arg1:T64 Arg2:T6
+R7	Output Arg1:T5 Arg2:T64
+R67	Destination Arg1:T65 Arg2:T66
+R68	Output Arg1:T65 Arg2:T10
+R13	Output Arg1:T22 Arg2:T24
+R15	In_Out Arg1:T13 Arg2:T26
+R29	Attribute Arg1:T13 Arg2:T25
+R30	In_Out Arg1:T21 Arg2:T13
+R35	Input Arg1:T22 Arg2:T69
+T1	PLAN-OR-PROCESS 0 8	Learning
+T2	DATA-ITEM 9 22	Word Meanings
+T61	DATA-ITEM 27 55	Descriptive Parameter Spaces
+T62	DATA-ITEM 61 66	Music
+T3	DATA-ITEM 73 88	audio bitstream
+T4	DATA-ITEM 92 97	music
+T5	PROCESS 98 105	encodes
+T6	QUANTITY 108 119	high amount
+T7	DATA-ITEM 123 134	statistical
+T63	DATA-ITEM 137 145	acoustic
+T64	DATA-ITEM 148 157	emotional
+T8	DATA-ITEM 162 182	cultural information
+T66	DATA-ITEM 189 194	music
+T65	PROCESS 200 203	has
+T9	QUALITY 207 216	important
+T10	DATA-ITEM 217 237	linguistic accessory
+T67	QUANTITY 240 244	most
+T11	PERSON 245 260	musical artists
+T12	PROCESS 265 274	described
+T14	QUALITY 278 290	great detail
+T15	DATA-ITEM 294 308	record reviews
+T16	DATA-ITEM 311 320	fan sites
+T17	DATA-ITEM 325 335	news items
+T18	PERSON 338 340	We
+T19	PROCESS 341 350	highlight
+T68	TIME 351 358	current
+T20	QUALITY 363 370	ongoing
+T21	PLAN-OR-PROCESS 371 379	research
+T22	PROCESS 385 395	extracting
+T23	QUALITY 396 404	relevant
+T24	DATA-ITEM 405 413	features
+T69	DATA-ITEM 419 424	audio
+T25	QUALITY 429 443	simultaneously
+T13	PROCESS 444 452	learning
+T26	DATA-ITEM 453 470	language features
+T27	PROCESS 471 477	linked
+T28	DATA-ITEM 485 490	music
+T29	PERSON 493 495	We
+T30	PROCESS 496 500	show
+T31	DATA-ITEM 501 508	results
+T32	PLAN 514 545	`` query-by-description '' task
+T33	REFERENCE 549 554	which
+T34	PERSON 555 557	we
+T35	PROCESS 558 563	learn
+T36	DATA-ITEM 568 586	perceptual meaning
+T37	QUALITY 590 614	automatically-discovered
+T38	DATA-ITEM 615 649	single-term descriptive components
+T39	PLAN 665 671	method
+T40	QUALITY 675 688	automatically
+T41	PROCESS 689 699	uncovering
+T42	QUALITY 702 723	semantically attached
+T44	DATA-ITEM 724 731	' terms
+T45	DATA-ITEM 726 731	terms
+T46	REFERENCE 740 744	that
+T47	DATA-ITEM 750 770	perceptual grounding
+T48	PERSON 775 777	We
+T49	PROCESS 783 787	show
+T50	EXTERNAL-REFERENCE 788 799	recent work
+T51	PLAN 805 829	semantic basis functions
+T52	DATA-ITEM 835 851	parameter spaces
+T53	DATA-ITEM 855 866	description
+T54	DATA-ITEM 877 881	fast
+T43	DATA-ITEM 886 890	slow
+T55	DATA-ITEM 894 898	male
+T71	DATA-ITEM 903 909	female
+T56	REFERENCE 912 916	that
+T57	PROCESS 917 923	encode
+T58	QUALITY 928 935	highest
+T59	DATA-ITEM 936 956	descriptive variance
+T60	DATA-ITEM 962 976	semantic space

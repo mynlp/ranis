@@ -1,0 +1,224 @@
+T1	PROCESS 0 7	Finding
+T2	PLAN 8 18	Equilibria
+T3	PLAN 28 44	Sequential Games
+T4	QUALITY 22 27	Large
+T5	DATA-ITEM 48 69	Imperfect Information
+T7	PROCESS 70 77	Finding
+T8	PLAN 81 92	equilibrium
+T9	PLAN 99 118	extensive form game
+T10	DATA-ITEM 122 143	imperfect information
+T12	PLAN 161 168	problem
+T13	PLAN 172 197	computational game theory
+T14	TIME 203 210	current
+T15	PLAN 211 221	techniques
+T16	MODALITY 225 228	not
+T17	PROCESS 229 234	scale
+T18	PLAN 244 249	games
+T19	QUALITY 238 243	large
+T20	PROCESS 254 261	address
+T21	REFERENCE 262 266	this
+T22	PLAN 285 309	ordered game isomorphism
+T23	PLAN 326 376	ordered game isomorphic abstraction transformation
+T24	QUALITY 318 325	related
+T25	PLAN 384 412	multi-player sequential game
+T26	DATA-ITEM 416 437	imperfect information
+T28	DATA-ITEM 443 461	observable actions
+T29	PLAN 469 489	ordered signal space
+T31	PLAN 509 525	Nash equilibrium
+T32	PLAN 532 555	abstracted smaller game
+T33	PROCESS 557 565	obtained
+T34	PLAN-OR-PROCESS 581 593	applications
+T35	QUANTITY 569 580	one or more
+T36	PLAN 601 615	transformation
+T37	MODALITY 617 620	can
+T38	PROCESS 631 640	converted
+T39	QUALITY 624 630	easily
+T40	PLAN 648 664	Nash equilibrium
+T41	PLAN 672 685	original game
+T42	PLAN 701 710	algorithm
+T44	PLAN-OR-PROCESS 728 739	abstracting
+T45	PLAN 744 748	game
+T46	APPLY-TO 749 754	using
+T47	PLAN 759 770	isomorphism
+T48	QUALITY 771 783	exhaustively
+T49	QUALITY 789 799	complexity
+T50	FORMULA 803 810	˜O(n2 )
+T51	DATA-ITEM 818 819	n
+T52	QUANTITY 827 833	number
+T53	DATA-ITEM 837 842	nodes
+T54	DATA-ITEM 848 857	structure
+T55	DATA-ITEM 870 881	signal tree
+T56	PROCESS 861 865	call
+T57	DATA-ITEM 908 917	game tree
+T58	MODALITY 889 891	no
+T59	QUALITY 892 898	larger
+T60	REFERENCE 883 885	It
+T61	PLAN 926 942	nontrivial games
+T62	QUALITY 961 968	smaller
+T63	QUALITY 949 960	drastically
+T64	REFERENCE 943 945	it
+R2	Coreference Arg1:T60 Arg2:T51	
+R3	Coreference Arg1:T64 Arg2:T60	
+T65	PLAN 973 983	GameShrink
+T66	QUALITY 1003 1013;988 992	complexity time
+T67	QUALITY 997 1013	space complexity
+T69	QUALITY 1014 1023	sublinear
+T70	DATA-ITEM 1031 1035	size
+T71	DATA-ITEM 1043 1052	game tree
+T72	PLAN 1060 1070	GameShrink
+T73	APPLY-TO 1054 1059	Using
+T74	PLAN 1083 1094	equilibrium
+T75	PROCESS 1075 1079	find
+T76	PLAN 1100 1110	poker game
+T77	QUANTITY 1116 1127	3.1 billion
+T78	DATA-ITEM 1128 1133	nodes
+T79	QUANTITY 1134 1143	over four
+T82	QUALITY 1181 1188	largest
+T83	PLAN 1189 1199	poker game
+T84	PROCESS 1200 1206	solved
+T85	TIME 1207 1217	previously
+T86	QUANTITY 1230 1237	several
+T87	PLAN 1238 1270	electronic commerce applications
+T88	PLAN 1275 1285	GameShrink
+T89	QUALITY 1298 1309	even larger
+T90	PLAN 1310 1315	games
+T91	PROCESS 1290 1297	address
+T92	PLAN 1330 1351	approximation methods
+T93	MODALITY 1360 1363	not
+T94	PLAN 1373 1384	equilibrium
+T95	PROCESS 1364 1372	preserve
+T96	PROCESS 1403 1408	yield
+T97	QUALITY 1428 1444	close-to-optimal
+T98	PLAN 1445 1455	strategies
+T99	QUALITY 1419 1427	provably
+T100	TIME 1410 1417	ex post
+R4	Attribute Arg1:T3 Arg2:T4	
+R5	Attribute Arg1:T15 Arg2:T14	
+R6	Attribute Arg1:T18 Arg2:T19	
+R7	Attribute Arg1:T17 Arg2:T16	
+R8	Attribute Arg1:T23 Arg2:T24	
+T6	PERSON 509 513	Nash
+T11	PERSON 648 652	Nash
+R10	Attribute Arg1:T34 Arg2:T35	
+R11	Attribute Arg1:T38 Arg2:T37	
+R12	Attribute Arg1:T38 Arg2:T39	
+R13	Attribute Arg1:T44 Arg2:T48	
+R14	Attribute Arg1:T59 Arg2:T58	
+R15	Attribute Arg1:T60 Arg2:T59	
+R17	Attribute Arg1:T62 Arg2:T63	
+R18	Attribute Arg1:T64 Arg2:T62	
+R19	Attribute Arg1:T66 Arg2:T69	
+R20	Attribute Arg1:T67 Arg2:T69	
+R21	Attribute Arg1:T78 Arg2:T77	
+R23	Attribute Arg1:T83 Arg2:T82	
+R24	Attribute Arg1:T84 Arg2:T85	
+R25	Attribute Arg1:T87 Arg2:T86	
+R26	Attribute Arg1:T90 Arg2:T89	
+R27	Attribute Arg1:T98 Arg2:T97	
+R28	Attribute Arg1:T97 Arg2:T99	
+T27	REFERENCE 785 788	Its
+T81	PLAN 712 722	GameShrink
+R29	Coreference Arg1:T27 Arg2:T81	
+T43	PERSON 755 758	our
+T80	QUALITY 1144 1163	orders of magnitude
+T68	ATTRIBUTE 984 987	has
+T104	REFERENCE 1352 1356	that
+R1	Coreference Arg1:T104 Arg2:T92	
+R22	Poss Arg1:T43 Arg2:T47	
+R30	Attribute Arg1:T27 Arg2:T49	
+R31	Attribute Arg1:T53 Arg2:T52	
+R32	Component-object Arg1:T53 Arg2:T54	
+T105	QUALITY 149 160	fundamental
+R33	Attribute Arg1:T12 Arg2:T105	
+R34	Apply-to Arg1:T81 Arg2:T44	
+R35	In_Out Arg1:T1 Arg2:T2	
+R36	Attribute Arg1:T3 Arg2:T2	
+R37	Attribute Arg1:T3 Arg2:T5	
+R38	In_Out Arg1:T7 Arg2:T8	
+R39	Attribute Arg1:T9 Arg2:T8	
+R40	Attribute Arg1:T9 Arg2:T10	
+T107	IS-A 144 148	is a
+R41	from Arg1:T107 Arg2:T7	
+R42	to Arg1:T107 Arg2:T12	
+R43	Condition Arg1:T12 Arg2:T13	
+R44	Apply-to Arg1:T15 Arg2:T17	
+R45	Destination Arg1:T17 Arg2:T18	
+R9	Target Arg1:T20 Arg2:T21	
+R46	Coreference Arg1:T21 Arg2:T17	
+R47	Apply-to Arg1:T22 Arg2:T20	
+R48	Apply-to Arg1:T23 Arg2:T20	
+R49	Attribute Arg1:T25 Arg2:T26	
+R50	Attribute Arg1:T25 Arg2:T28	
+R51	Attribute Arg1:T25 Arg2:T29	
+R52	Attribute Arg1:T32 Arg2:T31	
+R53	Output Arg1:T33 Arg2:T31	
+R54	Apply-to Arg1:T34 Arg2:T33	
+R55	Apply-to Arg1:T34 Arg2:T36	
+R56	Input Arg1:T38 Arg2:T31	
+R57	Output Arg1:T38 Arg2:T40	
+R58	Attribute Arg1:T41 Arg2:T40	
+R59	Is-a Arg1:T81 Arg2:T42	
+R60	In_Out Arg1:T44 Arg2:T45	
+R61	from Arg1:T46 Arg2:T47	
+R62	to Arg1:T46 Arg2:T44	
+R63	Attribute Arg1:T49 Arg2:T50	
+T108	IS-A 820 822	is
+R64	from Arg1:T108 Arg2:T53	
+R65	to Arg1:T108 Arg2:T51	
+R67	Output Arg1:T56 Arg2:T55	
+T109	COMPARE 899 903	than
+R16	from Arg1:T109 Arg2:T57	
+R68	to Arg1:T109 Arg2:T59	
+R69	Condition Arg1:T62 Arg2:T61	
+R70	from Arg1:T68 Arg2:T65	
+R71	to Arg1:T68 Arg2:T67	
+R72	to Arg1:T68 Arg2:T66	
+R73	Condition Arg1:T69 Arg2:T70	
+R74	Attribute Arg1:T71 Arg2:T70	
+R75	from Arg1:T73 Arg2:T72	
+R76	to Arg1:T73 Arg2:T75	
+R77	Output Arg1:T75 Arg2:T74	
+R78	Attribute Arg1:T76 Arg2:T74	
+R79	Attribute Arg1:T76 Arg2:T78	
+T110	QUALITY 1164 1168	more
+R81	Attribute Arg1:T80 Arg2:T79	
+R82	Attribute Arg1:T110 Arg2:T80	
+T111	COMPARE 1169 1173	than
+R83	from Arg1:T111 Arg2:T83	
+R84	to Arg1:T111 Arg2:T110	
+R85	Target Arg1:T84 Arg2:T83	
+R80	Attribute Arg1:T78 Arg2:T110	
+R86	Apply-to Arg1:T87 Arg2:T88	
+R87	Target Arg1:T91 Arg2:T90	
+R88	Apply-to Arg1:T92 Arg2:T91	
+R89	Attribute Arg1:T95 Arg2:T93	
+R90	Apply-to Arg1:T104 Arg2:T95	
+R91	Target Arg1:T95 Arg2:T94	
+R92	Apply-to Arg1:T104 Arg2:T96	
+R93	Condition Arg1:T96 Arg2:T100	
+R94	Output Arg1:T96 Arg2:T98	
+T30	PERSON 268 270	we
+T101	PROCESS 271 280	introduce
+T102	PERSON 491 493	we
+T103	PROCESS 494 499	prove
+T106	PERSON 687 689	We
+T112	PROCESS 690 697	present
+T113	PERSON 858 860	we
+R95	Agent Arg1:T56 Arg2:T113	
+T114	PERSON 1072 1074	we
+T115	PERSON 1219 1221	We
+T116	PROCESS 1222 1229	discuss
+T117	PERSON 1317 1319	we
+T118	PROCESS 1320 1329	introduce
+R96	Agent Arg1:T116 Arg2:T115	
+R97	Output Arg1:T116 Arg2:T87	
+R98	Agent Arg1:T103 Arg2:T102	
+R99	Agent Arg1:T101 Arg2:T30	
+R100	Output Arg1:T101 Arg2:T22	
+R101	Output Arg1:T101 Arg2:T23	
+R102	Agent Arg1:T112 Arg2:T106	
+R103	Output Arg1:T112 Arg2:T42	
+R104	Agent Arg1:T75 Arg2:T114	
+R105	Agent Arg1:T118 Arg2:T117	
+R106	Output Arg1:T118 Arg2:T92	
+R66	Destination Arg1:T56 Arg2:T54	

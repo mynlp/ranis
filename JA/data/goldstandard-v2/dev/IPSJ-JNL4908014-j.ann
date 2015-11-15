@@ -1,0 +1,23 @@
+T1	TERM 0 11	アドホックネットワーク
+T2	TERM 15 26	指向性アンテナ導入効果
+T3	TERM 27 34	ルーチング方式
+T4	TERM 37 41	影響評価
+T5	TERM 47 58	アドホックネットワーク
+T6	MEASURE 60 62	一部
+T7	TERM 63 67	無線端末
+R1	EVALUATE x:T7 y:T6	
+T8	TERM 68 75	指向性アンテナ
+R2	APPLY_TO x:T8 y:T7	
+R3	SUBCONCEPT x:T7 y:T5	
+T9	TERM 97 114	リアクティブ型ルーチングプロトコル
+T10	TERM 117 127	スループット改善効果
+T11	TERM 128 130	比較
+R4	INPUT x:T10 y:T11	
+R6	APPLY_TO x:T9 y:T10	
+R7	INPUT x:T8 y:T10	
+R8	OUTPUT x:T8 y:T10	
+R10	INPUT x:T2 y:T4	
+R9	CONDITION x:T1 y:T2	
+T12	TERM 88 96	プロアクティブ型
+R12	APPLY_TO x:T12 y:T10	
+R11	APPLY_TO x:T3 y:T2	

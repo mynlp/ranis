@@ -1,0 +1,9 @@
+The Noisy Channel Model for Unsupervised
+
+We introduce a generative probabilistic model, the noisy channel model, for unsupervised word sense disambiguation.
+In our model, each context C is modeled as a distinct channel through which the speaker intends to transmit a particular meaning S using a possibly ambiguous word W.
+To reconstruct the intended meaning the hearer uses the distribution of possible meanings in the given context P(S|C) and possible words that can express each meaning P(W|S).
+We assume P(W|S) is independent of the context and estimate it using WordNet sense frequencies.
+The main problem of unsupervised WSD is estimating context-dependent P(S|C) without access to any sense-tagged text.
+We show one way to solve this problem using a statistical language model based on large amounts of untagged text. Our model uses coarse-grained semantic classes for S internally and we explore the effect of using different levels of granularity on WSD performance.
+The system outputs fine-grained senses for evaluation, and its performance on noun disambiguation is better than most previously reported unsupervised systems and close to the best supervised systems.

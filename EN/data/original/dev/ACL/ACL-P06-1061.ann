@@ -1,0 +1,144 @@
+T1	PLAN 0 34	Segment-based Hidden Markov Models
+T2	PLAN-OR-PROCESS 39 61	Information Extraction
+T3	PLAN 63 83	Hidden Markov models
+T4	PLAN 85 89	HMMs
+T5	QUALITY 95 103	powerful
+T6	PLAN 104 122	statistical models
+T7	REFERENCE 123 127	that
+T9	QUALITY 139 149	successful
+T10	APPLY-TO 150 162	applications
+T11	PLAN-OR-PROCESS 166 188	Information Extraction
+T12	PLAN-OR-PROCESS 190 192	IE
+T13	QUALITY 198 205	current
+T14	PLAN 206 216	approaches
+T15	APPLY-TO 220 228	applying
+T16	PLAN 229 233	HMMs
+T17	PLAN 237 239	IE
+T18	PLAN 244 247	HMM
+T19	APPLY-TO 251 255	used
+T20	PROCESS 259 264	model
+T21	DATA-ITEM 265 269	text
+T22	DATA-ITEM 277 291	document level
+T23	PROCESS 293 307	This modelling
+T24	MODALITY 308 313	might
+T25	RESULT 314 319	cause
+T26	QUALITY 320 329	undesired
+T27	QUALITY 330 340	redundancy
+T28	PROCESS 344 354	extraction
+T29	EQUIVALENCE 355 367	in the sense
+T30	QUANTITY 373 386	more than one
+T31	PROCESS 397 407	identified
+T32	PROCESS 412 421	extracted
+T33	PERSON 423 425	We
+T34	PROCESS 426 433	propose
+T35	APPLY-TO 437 440	use
+T36	PLAN 441 445	HMMs
+T37	PROCESS 449 454	model
+T38	DATA-ITEM 455 459	text
+T39	DATA-ITEM 467 480	segment level
+T40	REFERENCE 485 490	which
+T41	PLAN-OR-PROCESS 495 513	extraction process
+T42	COMPONENT-OBJECT 514 522	consists
+T43	QUANTITY 526 529	two
+T44	PLAN 530 535	steps
+T45	PLAN 539 561	segment retrieval step
+T46	PROCESS 562 570	followed
+T47	PLAN 577 592	extraction step
+T48	PROCESS 606 614	retrieve
+T49	DATA-ITEM 615 643	extraction-relevant segments
+T50	DATA-ITEM 649 658	documents
+T51	PERSON 660 662	we
+T52	PROCESS 663 672	introduce
+T53	PLAN 675 681	method
+T54	APPLY-TO 685 688	use
+T55	PLAN 689 693	HMMs
+T56	PROCESS 697 702	model
+T57	PROCESS 707 715	retrieve
+T58	DATA-ITEM 716 724	segments
+T59	PERSON 726 729	Our
+T60	DATA-ITEM 730 750	experimental results
+T61	PROCESS 751 755	show
+T62	QUALITY 765 774	resulting
+T63	PLAN 775 796	segment HMM IE system
+T64	RESULT 806 814	achieves
+T65	QUANTITY 815 824	near zero
+T66	DATA-ITEM 825 846	extraction redundancy
+T67	QUALITY 861 867	better
+T68	DATA-ITEM 868 898	overall extraction performance
+T69	QUALITY 904 915	traditional
+T70	PLAN 916 939	document HMM IE systems
+R1	Apply-to Arg1:T1 Arg2:T2	
+R2	Equivalence Arg1:T4 Arg2:T3	
+R3	Attribute Arg1:T6 Arg2:T5	
+R4	Is-a Arg1:T4 Arg2:T6	
+R5	Coreference Arg1:T7 Arg2:T6	
+R6	Attribute Arg1:T10 Arg2:T9	
+R7	Equivalence Arg1:T12 Arg2:T11	
+R8	from Arg1:T10 Arg2:T6	
+R9	to Arg1:T10 Arg2:T11	
+R10	Attribute Arg1:T14 Arg2:T13	
+R11	from Arg1:T15 Arg2:T16	
+R12	to Arg1:T15 Arg2:T17	
+R13	Apply-to Arg1:T14 Arg2:T15	
+R14	to Arg1:T19 Arg2:T20	
+R15	from Arg1:T19 Arg2:T18	
+R16	In_Out Arg1:T20 Arg2:T21	
+R17	Condition Arg1:T20 Arg2:T22	
+R18	Coreference Arg1:T23 Arg2:T20	
+R19	Attribute Arg1:T25 Arg2:T24	
+R20	Attribute Arg1:T27 Arg2:T26	
+R21	to Arg1:T25 Arg2:T27	
+R22	from Arg1:T25 Arg2:T23	
+R23	Attribute Arg1:T28 Arg2:T27	
+T8	DATA-ITEM 387 393	filler
+R24	Attribute Arg1:T8 Arg2:T30	
+R25	Output Arg1:T31 Arg2:T8	
+R26	Output Arg1:T32 Arg2:T8	
+A1	Self T33
+A2	Intentional T34
+R27	Agent Arg1:T34 Arg2:T33	
+R28	In_Out Arg1:T37 Arg2:T38	
+R29	from Arg1:T35 Arg2:T36	
+R30	to Arg1:T35 Arg2:T37	
+R31	Output Arg1:T34 Arg2:T35	
+R32	Condition Arg1:T37 Arg2:T39	
+R33	Attribute Arg1:T44 Arg2:T43	
+R34	to Arg1:T42 Arg2:T44	
+R35	from Arg1:T42 Arg2:T41	
+R36	Member-collection Arg1:T45 Arg2:T44	
+R37	Member-collection Arg1:T47 Arg2:T44	
+R38	Output Arg1:T46 Arg2:T47	
+R39	Destination Arg1:T46 Arg2:T45	
+R40	from Arg1:T29 Arg2:T30	
+R41	to Arg1:T29 Arg2:T27	
+R42	Output Arg1:T48 Arg2:T49	
+R43	Input Arg1:T48 Arg2:T50	
+A3	Self T51
+A4	Intentional T52
+R44	Agent Arg1:T52 Arg2:T51	
+R45	Output Arg1:T52 Arg2:T53	
+R46	from Arg1:T54 Arg2:T55	
+R47	to Arg1:T54 Arg2:T56	
+R48	to Arg1:T54 Arg2:T57	
+R49	Output Arg1:T57 Arg2:T58	
+R50	Apply-to Arg1:T53 Arg2:T54	
+R51	Apply-to Arg1:T52 Arg2:T48	
+A5	Self T59
+R52	Poss Arg1:T59 Arg2:T60	
+R53	Attribute Arg1:T63 Arg2:T62	
+R54	Attribute Arg1:T66 Arg2:T65	
+R55	to Arg1:T64 Arg2:T65	
+R56	from Arg1:T64 Arg2:T63	
+A6	Intentional T61
+R57	Condition Arg1:T61 Arg2:T60	
+R58	Attribute Arg1:T68 Arg2:T67	
+R59	to Arg1:T64 Arg2:T67	
+T71	COMPARE 899 903	than
+R60	Attribute Arg1:T70 Arg2:T69	
+R61	from Arg1:T71 Arg2:T70	
+R62	to Arg1:T71 Arg2:T67	
+R63	Output Arg1:T61 Arg2:T64	
+A7	Judgment T9
+A8	Judgment T5
+A9	Judgment T26
+A10	Judgment T67

@@ -1,0 +1,98 @@
+T1	PLAN 0 35	Meta-Structure Transformation Model
+T2	PLAN-OR-PROCESS 40 71	Statistical Machine Translation
+T3	QUALITY 86 91	novel
+T4	PLAN 92 110	syntax-based model
+T5	PLAN-OR-PROCESS 115 146	statistical machine translation
+T6	REFERENCE 150 155	which
+R1	Coreference Arg1:T6 Arg2:T4	
+T7	DATA-ITEM 156 170	meta-structure
+T8	DATA-ITEM 172 174	MS
+R2	Equivalence Arg1:T8 Arg2:T7	
+T9	DATA-ITEM 180 203	meta-structure sequence
+T10	DATA-ITEM 205 208	SMS
+R3	Equivalence Arg1:T10 Arg2:T9	
+T11	DATA-ITEM 215 225	parse tree
+T12	PROCESS 230 237	defined
+T13	PLAN 242 256	this framework
+R4	Coreference Arg1:T13 Arg2:T4	
+T14	DATA-ITEM 260 270	parse tree
+T15	PROCESS 274 284	decomposed
+T16	DATA-ITEM 290 293	SMS
+T17	APPLY-TO 297 306	deal with
+T18	QUALITY 311 331	structure divergence
+T19	DATA-ITEM 340 349	alignment
+T20	MODALITY 350 353	can
+T21	PROCESS 357 370	reconstructed
+T23	QUALITY 374 390	different levels
+T24	DATA-ITEM 394 413	recombination of MS
+T25	DATA-ITEM 415 417	RM
+R5	Equivalence Arg1:T25 Arg2:T24	
+T26	DATA-ITEM 420 428	RM pairs
+T27	QUALITY 429 438	extracted
+T28	MODALITY 439 442	can
+T29	APPLY-TO 443 450	perform
+T30	PROCESS 455 462	mapping
+T31	DATA-ITEM 475 488	substructures
+T32	LANGUAGE 496 505	languages
+T33	DATA-ITEM 545 556	translation
+T34	LANGUAGE 565 580	target language
+T35	DATA-ITEM 589 592	SMS
+T36	DATA-ITEM 600 610	parse tree
+T37	TIME 618 627	same time
+T39	PLAN-OR-PROCESS 629 640	Experiments
+T40	PLAN 646 657	BLEU metric
+T41	RESULT 658 662	show
+T42	PLAN 672 677	model
+T43	JUDGING-PROCESS 692 703	outperforms
+T45	PLAN 704 711	Pharaoh
+T46	QUALITY 715 732	state-art-the-art
+T47	PLAN 733 752	phrase-based system
+R7	Attribute Arg1:T4 Arg2:T3	
+T44	PLAN 646 650	BLEU
+R6	Attribute Arg1:T47 Arg2:T46	
+T49	REFERENCE 596 599	its
+R8	Coreference Arg1:T49 Arg2:T33	
+R9	Poss Arg1:T49 Arg2:T36	
+R12	Apply-to Arg1:T1 Arg2:T2	
+R13	Apply-to Arg1:T4 Arg2:T5	
+R14	Output Arg1:T12 Arg2:T8	
+R15	Output Arg1:T12 Arg2:T10	
+R16	Attribute Arg1:T11 Arg2:T10	
+R17	Attribute Arg1:T11 Arg2:T8	
+R18	Condition Arg1:T6 Arg2:T12	
+R19	Condition Arg1:T15 Arg2:T13	
+R20	Input Arg1:T15 Arg2:T14	
+R21	Output Arg1:T15 Arg2:T16	
+R22	from Arg1:T17 Arg2:T15	
+R23	to Arg1:T17 Arg2:T18	
+R24	Attribute Arg1:T21 Arg2:T20	
+R25	In_Out Arg1:T21 Arg2:T19	
+R26	Attribute Arg1:T24 Arg2:T23	
+R27	Condition Arg1:T21 Arg2:T24	
+R28	Condition Arg1:T21 Arg2:T13	
+R29	Attribute Arg1:T26 Arg2:T27	
+R30	Attribute Arg1:T29 Arg2:T28	
+R31	from Arg1:T29 Arg2:T26	
+R32	to Arg1:T29 Arg2:T30	
+R33	In_Out Arg1:T30 Arg2:T31	
+R34	Condition Arg1:T30 Arg2:T32	
+R35	Attribute Arg1:T33 Arg2:T34	
+R36	Attribute Arg1:T36 Arg2:T35	
+T51	PROCESS 528 531	got
+R37	Output Arg1:T51 Arg2:T33	
+R38	Output Arg1:T51 Arg2:T35	
+R39	Condition Arg1:T51 Arg2:T37	
+R40	Input Arg1:T39 Arg2:T40	
+R41	from Arg1:T41 Arg2:T39	
+R43	to Arg1:T41 Arg2:T43	
+R11	Compare Arg1:T45 Arg2:T43	
+R42	Is-a Arg1:T45 Arg2:T47	
+T52	QUALITY 678 691	significantly
+R44	Attribute Arg1:T43 Arg2:T52	
+R45	Apply-to Arg1:T42 Arg2:T43	
+T38	PERSON 73 75	We
+T48	PROCESS 76 83	propose
+T50	PERSON 520 522	we
+R10	Agent Arg1:T51 Arg2:T50	
+R46	Agent Arg1:T48 Arg2:T38	
+R47	Output Arg1:T48 Arg2:T4	

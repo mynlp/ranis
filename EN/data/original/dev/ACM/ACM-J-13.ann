@@ -1,0 +1,257 @@
+T1	DATA-ITEM 7 17	Complexity
+T2	PLAN-OR-PROCESS 21 43	Combinatorial Auctions
+T3	PLAN 45 67	Structured Item Graphs
+T4	PLAN 72 96	Hypertree Decompositions
+T5	PLAN 101 129	winner determination problem
+T6	PLAN-OR-PROCESS 133 155	combinatorial auctions
+T7	PLAN 163 170	problem
+T8	PLAN-OR-PROCESS 174 185	determining
+T9	PLAN-OR-PROCESS 190 200	allocation
+T10	DATA-ITEM 208 213	items
+T11	INTELLIGENT-AGENT 224 231	bidders
+T12	REFERENCE 232 236	that
+T13	PROCESS 237 246	maximizes
+T14	PLAN-OR-PROCESS 251 254	sum
+T15	QUALITY 262 270	accepted
+T16	DATA-ITEM 271 281	bid prices
+T17	PLAN 289 301	this problem
+T18	QUALITY 308 315	general
+T19	QUALITY 316 323	NP-hard
+T20	REFERENCE 325 327	it
+T22	QUALITY 343 351	feasible
+T23	TIME 355 370	polynomial time
+T24	DATA-ITEM 374 389	those instances
+T25	REFERENCE 390 395	whose
+T26	PLAN 407 418	item graphs
+T28	DATA-ITEM 424 440	bounded treewidt
+T29	PLAN 450 472	structured item graphs
+T30	PLAN 488 498	item graph
+T31	PLAN 504 509	graph
+T32	REFERENCE 510 515	whose
+T33	PLAN 516 521	nodes
+T36	QUALITY 540 554	correspondence
+T37	DATA-ITEM 560 565	items
+T38	DATA-ITEM 571 576	edges
+T39	DATA-ITEM 599 602	bid
+T40	DATA-ITEM 608 613	items
+T41	PROCESS 614 623	occurring
+T42	REFERENCE 627 629	it
+T43	PROCESS 630 636	induce
+T44	QUALITY 639 648	connected
+T45	PLAN 649 657	subgraph
+T46	QUANTITY 669 673	many
+T47	PLAN 674 685	item graphs
+T48	MODALITY 686 691	might
+T49	QUALITY 695 705	associated
+T50	QUALITY 713 718	given
+T51	PLAN-OR-PROCESS 719 740	combinatorial auction
+T52	DATA-ITEM 759 764	edges
+T53	PROCESS 765 773	selected
+T54	PROCESS 778 790	guaranteeing
+T55	DATA-ITEM 795 808	connectedness
+T56	DATA-ITEM 823 835	tractability
+T57	PROCESS 839 850	determining
+T58	MODALITY 851 858	whether
+T59	PLAN 861 882	structured item graph
+T60	DATA-ITEM 888 903	fixed treewidth
+T61	QUALITY 904 910	exists
+T62	PROCESS 923 932	computing
+T63	REFERENCE 933 936	one
+T64	IS-A 942 946	left
+T65	QUALITY 952 959	crucial
+T66	PLAN 960 972	open problem
+T67	REFERENCE 977 987	this paper
+T68	PERSON 989 991	we
+T69	PROCESS 992 997	solve
+T70	PLAN 998 1010	this problem
+T71	PROCESS 1014 1021	proving
+T72	DATA-ITEM 1031 1040	existence
+T73	PLAN 1046 1067	structured item graph
+T74	QUALITY 1071 1098	computationally intractable
+T75	DATA-ITEM 1109 1120	treewidth 3
+T76	PROCESS 1122 1131	Motivated
+T77	PLAN 1135 1148	this bad news
+T78	PERSON 1150 1152	we
+T79	PROCESS 1153 1164	investigate
+T80	QUALITY 1165 1174	different
+T81	PLAN 1175 1180	kinds
+T82	QUALITY 1184 1194	structural
+T83	PLAN 1195 1207	requirements
+T84	REFERENCE 1208 1212	that
+T85	MODALITY 1213 1216	can
+T86	APPLY-TO 1220 1224	used
+T87	PROCESS 1228 1235	isolate
+T88	QUALITY 1236 1245	tractable
+T89	PLAN-OR-PROCESS 1246 1253	classes
+T90	PLAN-OR-PROCESS 1257 1279	combinatorial auctions
+T91	PERSON 1281 1283	We
+T92	PROCESS 1284 1288	show
+T93	PLAN 1298 1304	notion
+T94	PLAN 1308 1331	hypertree decomposition
+T95	QUALITY 1335 1354	recently introduced
+T96	PLAN 1355 1362	measure
+T97	DATA-ITEM 1366 1386	hypergraph cyclicity
+T98	QUALITY 1404 1415	most useful
+T99	PERSON 1430 1432	we
+T100	PROCESS 1433 1437	show
+T101	PLAN 1447 1475	winner determination problem
+T102	QUALITY 1479 1487	solvable
+T103	TIME 1491 1506	polynomial time
+T104	DATA-ITEM 1510 1519	instances
+T105	REFERENCE 1520 1525	whose
+T106	PLAN-OR-PROCESS 1526 1545	bidder interactions
+T107	MODALITY 1546 1549	can
+T108	PROCESS 1553 1564	represented
+T109	PLAN 1577 1588	hypergraphs
+T110	PERSON 1645 1647	we
+T111	PROCESS 1648 1652	show
+T112	DATA-ITEM 1662 1667	class
+T113	DATA-ITEM 1671 1690	tractable instances
+T114	PROCESS 1691 1701	identified
+T115	APPLY-TO 1702 1713	by means of
+T116	PERSON 1714 1717	our
+T117	PLAN 1718 1726	approach
+T118	QUALITY 1727 1735	properly
+T119	COMPONENT-OBJECT 1736 1744	contains
+T120	DATA-ITEM 1749 1754	class
+T121	DATA-ITEM 1758 1767	instances
+T122	ATTRIBUTE 1768 1774	having
+T123	PLAN 1777 1798	structured item graph
+R1	Agent Arg1:T2 Arg2:T1	
+R2	Equivalence Arg1:T7 Arg2:T5	
+R3	Other-rel Arg1:T8 Arg2:T7	
+R4	Output Arg1:T8 Arg2:T9	
+R5	Condition Arg1:T5 Arg2:T6	
+R6	Target Arg1:T9 Arg2:T10	
+R7	Destination Arg1:T9 Arg2:T11	
+R8	Attribute Arg1:T16 Arg2:T15	
+R9	Input Arg1:T14 Arg2:T16	
+R10	In_Out Arg1:T13 Arg2:T14	
+R11	Coreference Arg1:T12 Arg2:T9	
+R12	Agent Arg1:T13 Arg2:T12	
+R13	Coreference Arg1:T17 Arg2:T5	
+R14	Attribute Arg1:T17 Arg2:T19	
+R15	Attribute Arg1:T19 Arg2:T18	
+R16	Condition Arg1:T22 Arg2:T23	
+R18	Attribute Arg1:T22 Arg2:T20	
+R19	Coreference Arg1:T20 Arg2:T17	
+R20	Coreference Arg1:T25 Arg2:T24	
+T21	EQUIVALENCE 443 449	called
+R22	from Arg1:T21 Arg2:T29	
+R23	to Arg1:T21 Arg2:T26	
+T27	ATTRIBUTE 419 423	have
+R21	from Arg1:T27 Arg2:T26	
+R24	to Arg1:T27 Arg2:T28	
+R25	Attribute Arg1:T25 Arg2:T26	
+R26	Is-a Arg1:T30 Arg2:T31	
+R27	Coreference Arg1:T32 Arg2:T31	
+R28	Component-object Arg1:T32 Arg2:T33	
+T34	QUALITY 529 539	one-to-one
+R29	Attribute Arg1:T36 Arg2:T34	
+R30	Condition Arg1:T36 Arg2:T37	
+R31	Attribute Arg1:T33 Arg2:T36	
+T35	PLAN-OR-PROCESS 581 590	such that
+R32	Target Arg1:T35 Arg2:T38	
+R33	Target Arg1:T35 Arg2:T39	
+R34	Attribute Arg1:T45 Arg2:T44	
+R35	Output Arg1:T43 Arg2:T45	
+R36	Agent Arg1:T43 Arg2:T40	
+R37	Coreference Arg1:T42 Arg2:T31	
+R38	Output Arg1:T41 Arg2:T40	
+R39	Condition Arg1:T41 Arg2:T42	
+R40	Attribute Arg1:T47 Arg2:T46	
+R41	Attribute Arg1:T49 Arg2:T48	
+R42	Attribute Arg1:T51 Arg2:T50	
+R43	Attribute Arg1:T47 Arg2:T49	
+R44	Condition Arg1:T49 Arg2:T51	
+R45	In_Out Arg1:T53 Arg2:T52	
+R46	Apply-to Arg1:T53 Arg2:T54	
+R47	Target Arg1:T54 Arg2:T55	
+T124	PROCESS 742 751	depending
+R48	Target Arg1:T124 Arg2:T52	
+R49	Agent Arg1:T124 Arg2:T47	
+R50	Attribute Arg1:T57 Arg2:T56	
+R51	Attribute Arg1:T59 Arg2:T60	
+R52	Attribute Arg1:T61 Arg2:T58	
+R53	Attribute Arg1:T60 Arg2:T61	
+R54	Output Arg1:T57 Arg2:T61	
+R55	Output Arg1:T62 Arg2:T63	
+R56	Attribute Arg1:T66 Arg2:T65	
+R57	to Arg1:T64 Arg2:T66	
+R58	from Arg1:T64 Arg2:T56	
+A1	Self T67
+A2	Self T68
+A3	Intentional T69
+R59	Agent Arg1:T69 Arg2:T68	
+R60	Condition Arg1:T69 Arg2:T67	
+R61	Target Arg1:T69 Arg2:T70	
+R62	Apply-to Arg1:T71 Arg2:T69	
+R63	Attribute Arg1:T73 Arg2:T72	
+R64	Attribute Arg1:T72 Arg2:T74	
+R65	Attribute Arg1:T73 Arg2:T75	
+R66	Output Arg1:T71 Arg2:T74	
+R67	Result Arg1:T77 Arg2:T76	
+A4	Self T78
+A5	Intentional T79
+R68	Agent Arg1:T79 Arg2:T78	
+R69	Attribute Arg1:T81 Arg2:T80	
+R70	Attribute Arg1:T83 Arg2:T82	
+R71	Member-collection Arg1:T81 Arg2:T83	
+R72	In_Out Arg1:T79 Arg2:T81	
+R73	Attribute Arg1:T89 Arg2:T88	
+R74	Member-collection Arg1:T90 Arg2:T89	
+R75	In_Out Arg1:T87 Arg2:T89	
+R76	to Arg1:T86 Arg2:T87	
+R77	from Arg1:T86 Arg2:T84	
+R78	Attribute Arg1:T86 Arg2:T85	
+R79	Coreference Arg1:T84 Arg2:T81	
+A6	Self T91
+A7	Intentional T92
+R80	Agent Arg1:T92 Arg2:T91	
+R81	Is-a Arg1:T94 Arg2:T93	
+R82	Attribute Arg1:T96 Arg2:T95	
+R83	Is-a Arg1:T94 Arg2:T96	
+R84	In_Out Arg1:T96 Arg2:T97	
+R85	Attribute Arg1:T94 Arg2:T98	
+A8	Judgment T98
+R86	Output Arg1:T92 Arg2:T98	
+A9	Self T99
+A10	Intentional T100
+R87	Agent Arg1:T100 Arg2:T99	
+R88	Attribute Arg1:T101 Arg2:T102	
+A11	Judgment T102
+R89	Condition Arg1:T102 Arg2:T103	
+R17	Input Arg1:T20 Arg2:T24	
+R90	Input Arg1:T101 Arg2:T104	
+T125	INTELLIGENT-AGENT 1526 1532	bidder
+R91	Coreference Arg1:T105 Arg2:T101	
+R92	Target Arg1:T106 Arg2:T105	
+R93	Output Arg1:T108 Arg2:T106	
+R94	Attribute Arg1:T108 Arg2:T107	
+T126	QUALITY 1571 1575	dual
+R95	Attribute Arg1:T109 Arg2:T126	
+T127	DATA-ITEM 1596 1619	bounded hypertree width
+T128	ATTRIBUTE 1589 1595	having
+R96	from Arg1:T128 Arg2:T109	
+R97	to Arg1:T128 Arg2:T127	
+R98	Apply-to Arg1:T109 Arg2:T108	
+A12	Self T110
+A13	Intentional T111
+R99	Agent Arg1:T111 Arg2:T110	
+R100	Member-collection Arg1:T113 Arg2:T112	
+R101	In_Out Arg1:T114 Arg2:T112	
+A14	Self T116
+R102	Poss Arg1:T116 Arg2:T117	
+R103	Member-collection Arg1:T121 Arg2:T120	
+R104	to Arg1:T122 Arg2:T123	
+R105	from Arg1:T122 Arg2:T120	
+R106	from Arg1:T119 Arg2:T112	
+R107	to Arg1:T119 Arg2:T120	
+R108	Attribute Arg1:T119 Arg2:T118	
+R109	from Arg1:T115 Arg2:T117	
+R110	to Arg1:T115 Arg2:T114	
+A15	Judgment T118
+R111	Output Arg1:T111 Arg2:T118	
+T129	QUALITY 396 406	associated
+R112	Attribute Arg1:T26 Arg2:T129	
+R113	Coreference Arg1:T63 Arg2:T59	

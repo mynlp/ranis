@@ -1,0 +1,173 @@
+T1	PLAN-OR-PROCESS 37 55	Quality Estimation
+T2	PLAN 0 32	Referential Translation Machines
+T3	PLAN 70 102	referential translation machines
+T4	PLAN 104 107	RTM
+R1	Equivalence Arg1:T4 Arg2:T3	
+T5	PLAN-OR-PROCESS 113 131	quality estimation
+T6	DATA-ITEM 135 154	translation outputs
+T7	PLAN 156 160	RTMs
+T8	PLAN 167 186	computational model
+T9	PROCESS 191 202	identifying
+T10	PLAN-OR-PROCESS 207 223	translation acts
+T12	DATA-ITEM 240 249	data sets
+T13	QUANTITY 236 239	two
+T14	DATA-ITEM 268 284	reference corpus
+T15	PROCESS 285 293	selected
+T16	DOMAIN 306 312	domain
+T17	QUALITY 301 305	same
+T18	INPUT 327 331	used
+T19	PROCESS 336 346	estimating
+T20	DATA-ITEM 351 358	quality
+T21	DATA-ITEM 362 381	translation outputs
+T22	PROCESS 383 390	judging
+T23	DATA-ITEM 395 414	semantic similarity
+T24	DATA-ITEM 423 427	text
+T25	PROCESS 433 443	evaluating
+T26	DATA-ITEM 448 455	quality
+T27	DATA-ITEM 459 474	student answers
+T28	MODALITY 320 323	can
+T29	PLAN 476 480	RTMs
+T30	DATA-ITEM 493 504	performance
+T31	QUALITY 489 492	top
+T32	PLAN-OR-PROCESS 554 564	prediction
+T33	DATA-ITEM 568 582;598 629	sentence-level statistical machine translation
+T34	DATA-ITEM 587 629	word-level statistical machine translation
+T36	DATA-ITEM 631 634	SMT
+T35	DATA-ITEM 636 643	quality
+T37	PLAN 645 649	RTMs
+T38	PROCESS 650 656	remove
+T39	QUALITY 661 665	need
+T40	PROCESS 669 675	access
+T41	DATA-ITEM 680 711	SMT system specific information
+T42	DATA-ITEM 715 730	prior knowledge
+T44	DATA-ITEM 738 751	training data
+T43	PLAN 755 761	models
+T45	INPUT 762 766	used
+T46	PROCESS 772 782	generating
+T47	DATA-ITEM 787 799	translations
+T48	QUALITY 812 817	novel
+T49	PLAN 818 828	techniques
+T50	PROCESS 833 840	solving
+T51	QUANTITY 841 844	all
+T52	PLAN 845 853	subtasks
+T53	PLAN 861 866	WMT13
+T56	PLAN 897 905	QET 2013
+T57	PLAN 927 937	RTM models
+T58	DATA-ITEM 943 950	results
+T59	QUALITY 959 971	improvements
+T60	TIME 977 986	last year
+T61	DATA-ITEM 989 1004	QE task results
+T63	DATA-ITEM 1041 1048	results
+T64	TIME 1032 1040	previous
+T65	DATA-ITEM 1062 1070	features
+T66	QUALITY 1058 1061	new
+T67	PLAN 1075 1085	techniques
+T68	PLAN-OR-PROCESS 1090 1092	QE
+T69	PLAN 1128 1136	subtasks
+T70	RESULT 951 958	achieve
+T71	RESULT 1050 1057	provide
+T72	RESULT 1098 1102	rank
+T73	QUALITY 1103 1106	1st
+T74	QUALITY 1110 1113	2nd
+T75	QUANTITY 1117 1120	all
+R4	Attribute Arg1:T12 Arg2:T13	
+R5	Attribute Arg1:T16 Arg2:T17	
+T11	PERSON 459 466	student
+R6	Attribute Arg1:T30 Arg2:T31	
+R7	Attribute Arg1:T49 Arg2:T48	
+R8	Attribute Arg1:T52 Arg2:T51	
+T76	PLAN 861 895	WMT13 quality estimation (QE) task
+R3	Equivalence Arg1:T56 Arg2:T76	
+T77	PLAN 1006 1014	QET 2012
+T78	PERSON 1028 1031	our
+R9	Attribute Arg1:T63 Arg2:T64	
+R10	Attribute Arg1:T65 Arg2:T66	
+R11	Attribute Arg1:T67 Arg2:T66	
+R12	Attribute Arg1:T69 Arg2:T75	
+T79	QUALITY 508 517	automatic
+T80	QUALITY 519 527	accurate
+R13	Attribute Arg1:T32 Arg2:T79	
+R14	Attribute Arg1:T32 Arg2:T80	
+T81	QUALITY 533 553	language independent
+R15	Attribute Arg1:T32 Arg2:T81	
+T54	INPUT 907 915	based on
+R16	from Arg1:T54 Arg2:T50	
+R17	to Arg1:T54 Arg2:T57	
+T62	REFERENCE 314 319	which
+T82	PERSON 939 942	Our
+R18	Poss Arg1:T82 Arg2:T58	
+R19	Poss Arg1:T78 Arg2:T63	
+R20	Attribute Arg1:T61 Arg2:T60	
+T55	PROCESS 804 811	develop
+T83	TIME 1010 1014	2012
+T84	TIME 901 905	2013
+R21	Apply-to Arg1:T2 Arg2:T1	
+R22	Input Arg1:T5 Arg2:T6	
+R23	Apply-to Arg1:T4 Arg2:T5	
+R24	Is-a Arg1:T7 Arg2:T8	
+R25	Apply-to Arg1:T8 Arg2:T9	
+R26	In_Out Arg1:T9 Arg2:T10	
+R27	In_Out Arg1:T10 Arg2:T12	
+R28	In_Out Arg1:T15 Arg2:T14	
+R29	Condition Arg1:T14 Arg2:T16	
+R30	Attribute Arg1:T18 Arg2:T28	
+R31	to Arg1:T18 Arg2:T62	
+R32	from Arg1:T18 Arg2:T19	
+R33	Coreference Arg1:T62 Arg2:T14	
+R34	Output Arg1:T19 Arg2:T20	
+R35	Attribute Arg1:T21 Arg2:T20	
+R36	from Arg1:T18 Arg2:T22	
+R37	from Arg1:T18 Arg2:T25	
+R38	Attribute Arg1:T27 Arg2:T26	
+R39	Output Arg1:T25 Arg2:T26	
+R40	Output Arg1:T22 Arg2:T23	
+R41	Attribute Arg1:T24 Arg2:T23	
+R42	Attribute Arg1:T40 Arg2:T39	
+R43	Output Arg1:T38 Arg2:T39	
+R44	Apply-to Arg1:T37 Arg2:T38	
+R45	Input Arg1:T40 Arg2:T41	
+R46	Input Arg1:T40 Arg2:T42	
+T86	RESULT 481 488	achieve
+R47	from Arg1:T86 Arg2:T29	
+R48	to Arg1:T86 Arg2:T31	
+R49	Attribute Arg1:T32 Arg2:T30	
+R50	Apply-to Arg1:T29 Arg2:T32	
+R2	Split Arg1:T35 Arg2:T34	
+R51	Split Arg1:T35 Arg2:T33	
+R52	Output Arg1:T32 Arg2:T33	
+R53	Output Arg1:T32 Arg2:T34	
+R54	Condition Arg1:T42 Arg2:T44	
+R55	Condition Arg1:T41 Arg2:T44	
+R56	Output Arg1:T46 Arg2:T47	
+R57	Input Arg1:T40 Arg2:T43	
+R58	to Arg1:T45 Arg2:T41	
+R59	from Arg1:T45 Arg2:T46	
+R60	to Arg1:T45 Arg2:T42	
+R61	to Arg1:T45 Arg2:T43	
+R62	Apply-to Arg1:T49 Arg2:T50	
+R63	Output Arg1:T50 Arg2:T52	
+R64	Component-object Arg1:T52 Arg2:T76	
+R65	from Arg1:T70 Arg2:T58	
+R66	to Arg1:T70 Arg2:T59	
+R67	Attribute Arg1:T61 Arg2:T77	
+T87	COMPARE 972 976	over
+R68	from Arg1:T87 Arg2:T61	
+R69	to Arg1:T87 Arg2:T59	
+R70	from Arg1:T87 Arg2:T63	
+R71	to Arg1:T71 Arg2:T65	
+R72	to Arg1:T71 Arg2:T67	
+R73	Apply-to Arg1:T67 Arg2:T68	
+R74	Attribute Arg1:T68 Arg2:T65	
+R75	Condition Arg1:T74 Arg2:T69	
+R76	Condition Arg1:T73 Arg2:T69	
+R77	to Arg1:T72 Arg2:T73	
+R78	to Arg1:T72 Arg2:T74	
+R79	from Arg1:T72 Arg2:T58	
+R80	from Arg1:T71 Arg2:T58	
+R81	Output Arg1:T55 Arg2:T49	
+T85	PERSON 57 59	We
+T88	PROCESS 60 69	introduce
+T89	PERSON 801 803	We
+R82	Agent Arg1:T88 Arg2:T85	
+R83	Agent Arg1:T55 Arg2:T89	
+R84	Output Arg1:T88 Arg2:T3	

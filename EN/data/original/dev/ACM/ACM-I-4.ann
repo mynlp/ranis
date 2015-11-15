@@ -1,0 +1,190 @@
+T1	PLAN 0 23	Meta-Level Coordination
+T2	DATA-ITEM 36 54	Negotiation Chains
+T3	PLAN 58 94	Semi-Cooperative Multi-Agent Systems
+T4	DATA-ITEM 97 114	negotiation chain
+T5	QUANTITY 130 138	multiple
+T6	DATA-ITEM 147 159	negotiations
+T7	PROCESS 164 170	spread
+T8	QUANTITY 176 184	multiple
+T9	INTELLIGENT-AGENT 185 191	agents
+T10	QUALITY 205 218	appropriately
+T11	PROCESS 219 224	order
+T12	PROCESS 229 238	structure
+T13	DATA-ITEM 243 255	negotiations
+T14	PROCESS 256 265	occurring
+T15	PROCESS 288 296	optimize
+T16	DATA-ITEM 301 317	expected utility
+T17	PERSON 319 321	we
+T18	PROCESS 322 329	present
+T19	PLAN 333 342	extension
+T20	PLAN 348 393	single-agent concurrent negotiation framework
+T21	PROCESS 408 416	aimed at
+T22	PLAN 417 453	semi-cooperative multi-agent systems
+T23	INTELLIGENT-AGENT 466 471	agent
+T24	REFERENCE 476 483	its own
+T25	PLAN 484 489	goals
+T26	PROCESS 494 499	works
+T27	PROCESS 503 511	maximize
+T28	REFERENCE 512 515	its
+T29	DATA-ITEM 516 529	local utility
+T30	DATA-ITEM 544 555	performance
+T31	QUALITY 564 574	individual
+T32	INTELLIGENT-AGENT 575 580	agent
+T33	QUALITY 584 591	tightly
+T34	PROCESS 592 599	related
+T35	QUALITY 603 608	other
+T36	INTELLIGENT-AGENT 609 614	agent
+T37	PLAN-OR-PROCESS 617 628	cooperation
+T38	PLAN 637 643	system
+T39	DATA-ITEM 646 665	overall performance
+T40	PERSON 667 669	We
+T41	PROCESS 670 679	introduce
+T42	PLAN 682 703	pre-negotiation phase
+T43	REFERENCE 704 708	that
+T44	PROCESS 709 715	allows
+T45	INTELLIGENT-AGENT 716 722	agents
+T46	PROCESS 726 734	transfer
+T47	DATA-ITEM 735 757	meta-level information
+T48	INPUT 759 764	Using
+T49	DATA-ITEM 765 781	this information
+T50	INTELLIGENT-AGENT 787 792	agent
+T51	MODALITY 793 796	can
+T52	PROCESS 797 802	build
+T53	QUALITY 805 818	more accurate
+T54	PLAN 819 824	model
+T55	DATA-ITEM 832 843	negotiation
+T56	APPLY-TO 844 855	in terms of
+T57	PROCESS 856 864	modeling
+T58	DATA-ITEM 869 881	relationship
+T59	DATA-ITEM 885 896	flexibility
+T60	DATA-ITEM 901 920	success probability
+T63	PLAN 922 946	This more accurate model
+T64	PROCESS 947 952	helps
+T65	INTELLIGENT-AGENT 957 962	agent
+T66	PROCESS 966 974	choosing
+T67	QUALITY 977 983	better
+T68	PLAN-OR-PROCESS 984 1004	negotiation solution
+T69	PLAN 1012 1044	global negotiation chain context
+T70	INTELLIGENT-AGENT 1050 1055	agent
+T71	MODALITY 1056 1059	can
+T72	PROCESS 1065 1068	use
+T73	DATA-ITEM 1069 1085	this information
+T74	PROCESS 1089 1097	allocate
+T75	TIME 1110 1114	time
+T76	DATA-ITEM 1119 1135	each negotiation
+T77	PROCESS 1146 1150	find
+T78	QUALITY 1153 1157	good
+T79	PLAN-OR-PROCESS 1158 1166	ordering
+T80	QUANTITY 1170 1173	all
+T81	DATA-ITEM 1182 1194	negotiations
+T82	DATA-ITEM 1200 1217	experimental data
+T83	RESULT 1218 1223	shows
+T84	PLAN 1229 1245	these mechanisms
+T85	JUDGING-PROCESS 1246 1253	improve
+T86	INTELLIGENT-AGENT 1258 1264	agents
+T87	PLAN 1274 1280	system
+T88	DATA-ITEM 1283 1302	overall performance
+T89	QUALITY 1303 1316	significantly
+T90	PROCESS 28 35	Solving
+R1	Target Arg1:T90 Arg2:T2	
+R2	Attribute Arg1:T6 Arg2:T5	
+R3	Output Arg1:T7 Arg2:T6	
+R4	Attribute Arg1:T9 Arg2:T8	
+R5	Destination Arg1:T7 Arg2:T9	
+T91	PROCESS 118 124	formed
+R6	Output Arg1:T91 Arg2:T4	
+T92	DATA-ITEM 273 278	chain
+R7	Output Arg1:T14 Arg2:T13	
+R8	Condition Arg1:T14 Arg2:T92	
+R9	Attribute Arg1:T11 Arg2:T10	
+R10	Target Arg1:T11 Arg2:T13	
+R11	Target Arg1:T12 Arg2:T13	
+R12	Attribute Arg1:T12 Arg2:T10	
+R13	In_Out Arg1:T15 Arg2:T16	
+A1	Self T17
+A2	Intentional T18
+R14	Agent Arg1:T18 Arg2:T17	
+R15	Output Arg1:T18 Arg2:T19	
+R16	Destination Arg1:T18 Arg2:T20	
+R17	Apply-to Arg1:T18 Arg2:T11	
+R18	Apply-to Arg1:T18 Arg2:T12	
+R19	Apply-to Arg1:T18 Arg2:T15	
+T93	REFERENCE 395 404	This work
+A3	Self T93
+R20	Coreference Arg1:T24 Arg2:T23	
+R21	Attribute Arg1:T24 Arg2:T25	
+R22	Agent Arg1:T26 Arg2:T23	
+R23	Apply-to Arg1:T26 Arg2:T27	
+R24	Coreference Arg1:T28 Arg2:T24	
+R25	Attribute Arg1:T28 Arg2:T29	
+R26	In_Out Arg1:T27 Arg2:T29	
+R27	Attribute Arg1:T32 Arg2:T31	
+R28	Attribute Arg1:T32 Arg2:T30	
+R29	Attribute Arg1:T34 Arg2:T33	
+R30	Attribute Arg1:T36 Arg2:T35	
+R31	Agent Arg1:T37 Arg2:T36	
+R32	Attribute Arg1:T38 Arg2:T39	
+R33	In_Out Arg1:T34 Arg2:T30	
+R34	In_Out Arg1:T34 Arg2:T37	
+R35	In_Out Arg1:T34 Arg2:T39	
+A4	Intentional T21
+R36	Condition Arg1:T21 Arg2:T93	
+R37	Target Arg1:T21 Arg2:T22	
+R38	Other-rel Arg1:T23 Arg2:T22	
+A5	Self T40
+A6	Intentional T41
+R39	Agent Arg1:T41 Arg2:T40	
+R40	Output Arg1:T41 Arg2:T42	
+R41	Target Arg1:T46 Arg2:T47	
+R42	Agent Arg1:T46 Arg2:T45	
+R43	Target Arg1:T44 Arg2:T46	
+R44	Apply-to Arg1:T43 Arg2:T44	
+R45	Coreference Arg1:T43 Arg2:T42	
+R46	Coreference Arg1:T49 Arg2:T47	
+R47	Attribute Arg1:T52 Arg2:T51	
+R48	Agent Arg1:T52 Arg2:T50	
+R49	from Arg1:T48 Arg2:T52	
+R50	to Arg1:T48 Arg2:T49	
+R51	Attribute Arg1:T54 Arg2:T53	
+R52	Output Arg1:T52 Arg2:T54	
+R53	In_Out Arg1:T54 Arg2:T55	
+R54	Attribute Arg1:T58 Arg2:T59	
+R55	Attribute Arg1:T58 Arg2:T60	
+R56	In_Out Arg1:T57 Arg2:T58	
+R57	from Arg1:T56 Arg2:T57	
+R58	to Arg1:T56 Arg2:T52	
+R59	Coreference Arg1:T63 Arg2:T54	
+R60	Agent Arg1:T66 Arg2:T65	
+R61	Attribute Arg1:T68 Arg2:T67	
+R62	In_Out Arg1:T66 Arg2:T68	
+R63	Condition Arg1:T66 Arg2:T69	
+R64	Apply-to Arg1:T63 Arg2:T64	
+R65	Target Arg1:T64 Arg2:T66	
+R66	Attribute Arg1:T72 Arg2:T71	
+R67	Agent Arg1:T72 Arg2:T70	
+R68	Coreference Arg1:T73 Arg2:T49	
+R69	Input Arg1:T72 Arg2:T73	
+R70	Apply-to Arg1:T72 Arg2:T74	
+R71	Other-rel Arg1:T74 Arg2:T75	
+R72	Destination Arg1:T74 Arg2:T76	
+R73	Attribute Arg1:T81 Arg2:T80	
+R74	Target Arg1:T79 Arg2:T81	
+R75	Attribute Arg1:T79 Arg2:T78	
+R76	In_Out Arg1:T77 Arg2:T79	
+R77	Agent Arg1:T77 Arg2:T70	
+R78	Attribute Arg1:T87 Arg2:T88	
+R79	Attribute Arg1:T86 Arg2:T88	
+R80	Attribute Arg1:T85 Arg2:T89	
+R81	In_Out Arg1:T85 Arg2:T88	
+R82	Apply-to Arg1:T84 Arg2:T85	
+R83	to Arg1:T83 Arg2:T85	
+R84	from Arg1:T83 Arg2:T82	
+T61	QUALITY 1098 1109	appropriate
+R85	Attribute Arg1:T75 Arg2:T61	
+R86	Apply-to Arg1:T72 Arg2:T77	
+R87	Apply-to Arg1:T1 Arg2:T90	
+R88	Condition Arg1:T2 Arg2:T3	
+T62	QUALITY 139 146	related
+R89	Attribute Arg1:T6 Arg2:T62	
+T94	QUALITY 1174 1181	related
+R90	Attribute Arg1:T81 Arg2:T94	

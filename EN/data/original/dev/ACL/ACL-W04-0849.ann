@@ -1,0 +1,45 @@
+R1	Apply-to Arg1:T1 Arg2:T2
+A1	Self T23
+A2	Intentional T24
+R2	Condition Arg1:T24 Arg2:T23
+R3	Output Arg1:T24 Arg2:T3
+R4	to Arg1:T4 Arg2:T5
+R5	from Arg1:T4 Arg2:T3
+R6	Attribute Arg1:T7 Arg2:T6
+R7	Attribute Arg1:T12 Arg2:T11
+R8	In_Out Arg1:T10 Arg2:T12
+R9	Input Arg1:T8 Arg2:T9
+R10	Apply-to Arg1:T8 Arg2:T10
+R11	Target Arg1:T6 Arg2:T8
+R12	Attribute Arg1:T15 Arg2:T14
+R13	Attribute Arg1:T15 Arg2:T13
+R14	Condition Arg1:T15 Arg2:T16
+R15	from Arg1:T17 Arg2:T18
+R16	to Arg1:T17 Arg2:T15
+R17	Coreference Arg1:T18 Arg2:T9
+R18	Is-a Arg1:T20 Arg2:T15
+R19	Is-a Arg1:T21 Arg2:T15
+R20	Is-a Arg1:T22 Arg2:T15
+T1	PLAN-OR-PROCESS 0 24	Class-Based Collocations
+T2	PLAN-OR-PROCESS 29 54	Word Sense Disambiguation
+T23	REFERENCE 57 67	This paper
+T24	PROCESS 68 77	describes
+T3	PLAN 82 129	NMSU-Pitt-UNCA word-sense disambiguation system
+T4	APPLY-TO 130 143	participating
+T5	PLAN 151 189	Senseval-3 English lexical sample task
+T6	PLAN 196 201	focus
+T7	PLAN 209 213	work
+T8	PROCESS 220 225	using
+T9	PLAN-OR-PROCESS 226 259	semantic class-based collocations
+T10	PROCESS 263 270	augment
+T11	QUALITY 271 282	traditional
+T12	PLAN-OR-PROCESS 283 306	word-based collocations
+T13	QUANTITY 309 314	Three
+T14	QUALITY 315 323	separate
+T15	PLAN 324 331	sources
+T16	DATA-ITEM 335 351	word relatedness
+T17	INPUT 356 360	used
+T18	PLAN-OR-PROCESS 365 383	these collocations
+T20	PLAN 390 416	WordNet hypernym relations
+T21	PLAN 423 460	cluster-based word similarity classes
+T22	PLAN 471 501	dictionary definition analysis

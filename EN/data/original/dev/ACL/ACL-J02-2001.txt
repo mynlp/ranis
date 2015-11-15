@@ -1,0 +1,17 @@
+Near-Synonymy and Lexical Choice
+
+We develop a new computational model for representing the fine-grained meanings of near-synonyms and the differences between them.
+We also develop a lexical-choice process that can decide which of several near-synonyms is most appropriate in a particular situation.
+This research has direct applications in machine translation and text generation.
+We first identify the problems of representing near-synonyms in a computational lexicon and show that no previous model adequately accounts for near-synonymy.
+We then propose a preliminary theory to account for near-synonymy, relying crucially on the notion of granularity of representation, in which the meaning of a word arises out of a context-dependent combination of a context-independent core meaning and a set of explicit differences to its near-synonyms.
+That is, near-synonyms cluster together.
+We then develop a clustered model of lexical knowledge, derived from the conventional ontological model.
+The model cuts off the ontology at a coarse grain, thus avoiding an awkward proliferation of language-dependent concepts in the ontology, yet maintaining the advantages of efficient computation and reasoning.
+The model groups near-synonyms into subconceptual clusters that are linked to the ontology.
+A cluster differentiates near-synonyms in terms of fine-grained aspects of denotation, implication, expressed attitude, and style.
+The model is general enough to account for other types of variation, for instance, in collocational behavior.
+An efficient, robust, and flexible fine-grained lexical-choice process is a consequence of a clustered model of lexical knowledge.
+To make it work, we formalize criteria for lexical choice as preferences to express certain concepts with varying indirectness, to express attitudes, and to establish certain styles.
+The lexical-choice process itself works on two tiers: between clusters and between near-synonyns of clusters.
+We describe our prototype implementation of the system, called I-Saurus.

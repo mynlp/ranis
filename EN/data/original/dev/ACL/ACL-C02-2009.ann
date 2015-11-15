@@ -1,0 +1,127 @@
+R1	from Arg1:T47 Arg2:T2
+R2	to Arg1:T47 Arg2:T1
+R3	Component-object Arg1:T3 Arg2:T2
+A1	Self T48
+R4	Attribute Arg1:T48 Arg2:T4
+R5	Attribute Arg1:T7 Arg2:T6
+R6	Apply-to Arg1:T7 Arg2:T8
+R7	Output Arg1:T5 Arg2:T7
+R8	Is-a Arg1:T5 Arg2:T4
+A2	Self T49
+R9	Agent Arg1:T9 Arg2:T49
+R10	Attribute Arg1:T11 Arg2:T10
+A3	Name T50
+A4	Name T51
+R11	Apply-to Arg1:T11 Arg2:T12
+R12	Apply-to Arg1:T11 Arg2:T9
+R13	Attribute Arg1:T19 Arg2:T18
+R14	Is-a Arg1:T20 Arg2:T19
+R15	Is-a Arg1:T21 Arg2:T19
+R16	Is-a Arg1:T15 Arg2:T19
+R17	Is-a Arg1:T22 Arg2:T19
+R18	Output Arg1:T17 Arg2:T16
+R19	Output Arg1:T17 Arg2:T14
+R20	Condition Arg1:T16 Arg2:T19
+R21	Condition Arg1:T14 Arg2:T19
+A5	Name T53
+A6	Name T54
+R23	Agent Arg1:T28 Arg2:T27
+A7	Self T27
+A8	Intentional T28
+R24	Destination Arg1:T25 Arg2:T26
+R25	Output Arg1:T25 Arg2:T24
+R26	Input Arg1:T23 Arg2:T24
+R27	Coreference Arg1:T23 Arg2:T11
+R28	Coreference Arg1:T23 Arg2:T16
+R29	Apply-to Arg1:T29 Arg2:T28
+R30	Output Arg1:T32 Arg2:T31
+R31	Is-a Arg1:T31 Arg2:T33
+R32	Component-object Arg1:T29 Arg2:T31
+A9	Intentional T57
+R33	Agent Arg1:T57 Arg2:T56
+A10	Self T56
+R34	Input Arg1:T57 Arg2:T34
+R35	Output Arg1:T57 Arg2:T35
+A11	Intentional T36
+R36	Agent Arg1:T36 Arg2:T56
+R37	Attribute Arg1:T38 Arg2:T37
+A12	Name T58
+R38	Apply-to Arg1:T38 Arg2:T36
+R39	Output Arg1:T41 Arg2:T40
+R40	Apply-to Arg1:T42 Arg2:T41
+R41	Member-collection Arg1:T43 Arg2:T44
+R43	Attribute Arg1:T46 Arg2:T45
+R44	Attribute Arg1:T46 Arg2:T60
+R45	Is-a Arg1:T40 Arg2:T46
+A13	Intentional T5
+A14	Intentional T9
+R46	Condition Arg1:T11 Arg2:T13
+R47	Condition Arg1:T29 Arg2:T30
+R48	Condition Arg1:T38 Arg2:T39
+R22	Equivalence Arg1:T35 Arg2:T34
+A15	Intentional T41
+R49	Is-a Arg1:T40 Arg2:T43
+A16	Name T20
+A17	Name T15
+A18	Name T22
+A19	Name T21
+T1	PLAN 0 19	Machine Translation
+T47	APPLY-TO 20 28	Based On
+T2	PLAN 29 32	NLG
+T3	PLAN 38 44	XML-DB
+T4	PLAN-OR-PROCESS 51 58	purpose
+T48	REFERENCE 62 72	this study
+T5	PROCESS 79 86	propose
+T6	QUALITY 89 92	new
+T7	PLAN 93 99	method
+T8	PLAN-OR-PROCESS 104 123	machine translation
+T49	PERSON 126 128	We
+T9	PROCESS 134 143	proceeded
+T10	QUANTITY 157 160	two
+T11	PLAN 161 169	projects
+T12	PLAN-OR-PROCESS 174 191	report generation
+T13	EXTERNAL-REFERENCE 194 223	Kittredge and Polguere , 2000
+T50	PERSON 194 203	Kittredge
+T51	PERSON 208 216	Polguere
+T52	TIME 219 223	2000
+T14	DATA-ITEM 228 244	Weather Forecast
+T16	DATA-ITEM 249 272	Monthly Economic Report
+T17	PROCESS 279 287	produced
+T18	QUANTITY 291 295	four
+T19	LANGUAGE 296 305	languages
+T20	LANGUAGE 308 315	English
+T21	LANGUAGE 318 326	Japanese
+T15	LANGUAGE 329 335	French
+T22	LANGUAGE 342 348	German
+T23	REFERENCE 351 356	Their
+T24	DATA-ITEM 357 367	input data
+T25	PROCESS 371 377	stored
+T26	PLAN 381 387	XML-DB
+T27	PERSON 390 392	We
+T28	PROCESS 393 400	applied
+T29	PLAN 403 437	three-stage pipelined architecture
+T30	EXTERNAL-REFERENCE 440 462	Reiter and Dale , 2000
+T53	PERSON 440 446	Reiter
+T54	PERSON 451 455	Dale
+T55	TIME 458 462	2000
+T31	PLAN 476 481	stage
+T32	PROCESS 486 497	implemented
+T33	PLAN 501 529	XML transformation processes
+T56	PERSON 532 534	We
+T57	PROCESS 534 540	regard
+T34	DATA-ITEM 541 556	XML stored data
+T35	DATA-ITEM 560 594	language-neutral intermediate form
+T36	PROCESS 599 605	employ
+T37	QUALITY 610 619	so-called
+T38	PLAN 622 642	sublanguage approach
+T39	EXTERNAL-REFERENCE 647 660	Somers , 2000
+T58	PERSON 647 653	Somers
+T59	TIME 656 660	2000
+T40	PLAN 669 696	machine translation process
+T41	PROCESS 700 711	implemented
+T42	PLAN 716 721	XMLDB
+T43	PLAN 727 731	kind
+T44	PLAN 735 755	interlingua approach
+T60	MODALITY 756 763	instead
+T45	QUALITY 771 783	conventional
+T46	PLAN 784 811	structure transfer approach

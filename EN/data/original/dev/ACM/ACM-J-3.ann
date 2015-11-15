@@ -1,0 +1,172 @@
+T1	PLAN-OR-PROCESS 0 19	Budget Optimization
+T2	PLAN-OR-PROCESS 23 56	Search-Based Advertising Auctions
+T3	ORGANIZATION 57 82	Internet search companies
+T4	PROCESS 83 87	sell
+T5	DATA-ITEM 88 107	advertisement slots
+T6	CONDITION 108 116	based on
+T7	PERSON 117 122	users
+T8	DATA-ITEM 124 138	search queries
+T9	PLAN 146 153	auction
+T10	PLAN 176 189	previous work
+T11	PLAN-OR-PROCESS 197 212	auction process
+T12	REFERENCE 217 220	its
+T13	PLAN 221 243	game-theoretic aspects
+T14	QUANTITY 245 249	most
+T15	REFERENCE 253 255	it
+T16	PROCESS 256 263	focuses
+T17	ORGANIZATION 271 287	Internet company
+T18	REFERENCE 292 301	this work
+T19	PERSON 303 305	we
+T20	PROCESS 306 311	focus
+T21	ORGANIZATION 319 330	advertisers
+T22	REFERENCE 332 335	who
+T23	MODALITY 336 340	must
+T24	PROCESS 341 346	solve
+T25	QUALITY 349 356	complex
+T26	PLAN 357 377	optimization problem
+T27	PROCESS 381 387	decide
+T28	MODALITY 388 391	how
+T29	PROCESS 395 400	place
+T30	DATA-ITEM 401 405	bids
+T31	DATA-ITEM 409 417	keywords
+T32	PROCESS 421 429	maximize
+T33	REFERENCE 430 435	their
+T34	PLAN-OR-PROCESS 436 442	return
+T35	QUANTITY 448 454	number
+T36	PLAN-OR-PROCESS 463 469	clicks
+T37	REFERENCE 473 478	their
+T38	DATA-ITEM 479 482	ads
+T39	QUALITY 490 495	given
+T40	DATA-ITEM 496 502	budget
+T41	PERSON 504 506	We
+T42	PROCESS 507 512	model
+T43	QUALITY 517 523	entire
+T44	PLAN 542 574	this budget optimization problem
+T45	QUANTITY 582 586	most
+T46	PLAN 587 595	variants
+T47	QUALITY 600 607	NP-hard
+T48	PERSON 609 611	we
+T49	PROCESS 612 616	show
+T50	QUALITY 645 651	simply
+T51	PROCESS 652 663	randomizing
+T52	QUANTITY 672 675	two
+T53	PLAN 676 694	uniform strategies
+T54	REFERENCE 695 699	that
+T55	PROCESS 700 703	bid
+T56	QUALITY 704 711	equally
+T57	QUANTITY 715 718	all
+T58	DATA-ITEM 723 731	keywords
+T59	PROCESS 732 737	works
+T60	QUALITY 738 742	well
+T61	PLAN 760 773	this strategy
+T62	OUTPUT 774 778	gets
+T63	QUALITY 779 787	at least
+T65	DATA-ITEM 798 806	fraction
+T66	DATA-ITEM 814 828	maximum clicks
+T67	QUALITY 829 837	possible
+T68	PERSON 842 845	our
+T69	QUALITY 846 857	preliminary
+T70	PLAN-OR-PROCESS 858 869	experiments
+T71	PLAN 876 899	such uniform strategies
+T72	QUALITY 904 910	likely
+T73	QUALITY 917 926	practical
+T74	PERSON 928 930	We
+T75	PROCESS 936 943	present
+T76	DATA-ITEM 944 969	inapproximability results
+T77	QUALITY 975 982	optimal
+T78	PLAN 983 993	algorithms
+T79	PLAN 998 1006	variants
+T80	PLAN 1014 1041	budget optimization problem
+T64	QUANTITY 790 797	1 − 1/e
+A1	Self T19
+A2	Intentional T20
+A3	Self T41
+A4	Intentional T42
+T81	PROCESS 524 531	process
+T82	PROCESS 536 541	study
+A5	Intentional T82
+R1	Agent Arg1:T82 Arg2:T41	
+R2	Agent Arg1:T42 Arg2:T41	
+R3	Attribute Arg1:T81 Arg2:T43	
+R4	Output Arg1:T42 Arg2:T81	
+R5	Input Arg1:T82 Arg2:T44	
+R6	Attribute Arg1:T46 Arg2:T45	
+R7	Attribute Arg1:T46 Arg2:T47	
+A6	Self T48
+A7	Intentional T49
+R8	Agent Arg1:T49 Arg2:T48	
+R9	Attribute Arg1:T51 Arg2:T50	
+R10	Attribute Arg1:T53 Arg2:T52	
+R11	Coreference Arg1:T54 Arg2:T53	
+R12	Attribute Arg1:T55 Arg2:T56	
+R13	Attribute Arg1:T58 Arg2:T57	
+R14	Apply-to Arg1:T54 Arg2:T55	
+R15	Output Arg1:T49 Arg2:T59	
+R16	Attribute Arg1:T59 Arg2:T60	
+R17	Input Arg1:T55 Arg2:T58	
+R18	Result Arg1:T55 Arg2:T59	
+R19	Compare Arg1:T59 Arg2:T47	
+R20	from Arg1:T62 Arg2:T61	
+R21	Attribute Arg1:T64 Arg2:T63	
+R22	Attribute Arg1:T65 Arg2:T64	
+R23	to Arg1:T62 Arg2:T65	
+R24	Component-object Arg1:T65 Arg2:T66	
+A8	Self T68
+A9	Self T74
+A10	Intentional T75
+R25	Attribute Arg1:T70 Arg2:T69	
+R26	Poss Arg1:T68 Arg2:T70	
+T83	OUTPUT 870 874	show
+R27	from Arg1:T83 Arg2:T70	
+R28	Attribute Arg1:T71 Arg2:T73	
+R29	Attribute Arg1:T73 Arg2:T72	
+R30	to Arg1:T83 Arg2:T73	
+R31	Agent Arg1:T75 Arg2:T74	
+R32	Output Arg1:T75 Arg2:T76	
+R33	Attribute Arg1:T78 Arg2:T77	
+R34	Output Arg1:T75 Arg2:T78	
+R35	Attribute Arg1:T80 Arg2:T79	
+R36	Apply-to Arg1:T78 Arg2:T79	
+R37	Apply-to Arg1:T1 Arg2:T2	
+A11	Intentional T4
+R38	Agent Arg1:T4 Arg2:T3	
+R39	Poss Arg1:T7 Arg2:T8	
+R40	Input Arg1:T9 Arg2:T8	
+R41	from Arg1:T6 Arg2:T5	
+R42	to Arg1:T6 Arg2:T8	
+R43	Output Arg1:T4 Arg2:T5	
+R44	Apply-to Arg1:T10 Arg2:T11	
+R45	Coreference Arg1:T12 Arg2:T11	
+R46	Attribute Arg1:T12 Arg2:T13	
+R47	Apply-to Arg1:T10 Arg2:T13	
+R48	Coreference Arg1:T15 Arg2:T10	
+A12	Self T18
+R49	Condition Arg1:T20 Arg2:T18	
+R50	Agent Arg1:T20 Arg2:T19	
+R51	Target Arg1:T20 Arg2:T21	
+R52	Target Arg1:T16 Arg2:T17	
+R53	Apply-to Arg1:T15 Arg2:T16	
+R54	Coreference Arg1:T22 Arg2:T21	
+R55	Attribute Arg1:T24 Arg2:T23	
+A13	Intentional T24
+R56	Agent Arg1:T24 Arg2:T22	
+R57	Attribute Arg1:T26 Arg2:T25	
+R58	In_Out Arg1:T24 Arg2:T26	
+R59	Apply-to Arg1:T24 Arg2:T27	
+R60	Attribute Arg1:T29 Arg2:T28	
+R61	Output Arg1:T27 Arg2:T29	
+R62	In_Out Arg1:T29 Arg2:T30	
+R63	Destination Arg1:T29 Arg2:T31	
+R64	Apply-to Arg1:T29 Arg2:T32	
+R65	Coreference Arg1:T33 Arg2:T30	
+R66	Attribute Arg1:T33 Arg2:T34	
+R67	In_Out Arg1:T32 Arg2:T34	
+R68	Attribute Arg1:T36 Arg2:T35	
+T84	PERSON 458 462	user
+R69	Agent Arg1:T36 Arg2:T84	
+R70	Coreference Arg1:T37 Arg2:T84	
+R71	Poss Arg1:T37 Arg2:T38	
+R72	Target Arg1:T36 Arg2:T38	
+R73	Equivalence Arg1:T36 Arg2:T34	
+R74	Input Arg1:T34 Arg2:T40	
+R75	Attribute Arg1:T40 Arg2:T39	

@@ -1,0 +1,78 @@
+R1	Apply-to Arg1:T37 Arg2:T1
+R2	Is-a Arg1:T38 Arg2:T2
+R3	Equivalence Arg1:T7 Arg2:T6
+R4	Condition Arg1:T5 Arg2:T4
+R5	Destination Arg1:T5 Arg2:T6
+R6	Output Arg1:T5 Arg2:T3
+R7	Coreference Arg1:T3 Arg2:T2
+A1	Self T9
+R8	Attribute Arg1:T9 Arg2:T10
+R9	Attribute Arg1:T12 Arg2:T11
+R10	Condition Arg1:T12 Arg2:T13
+R11	Attribute Arg1:T38 Arg2:T8
+R12	Condition Arg1:T10 Arg2:T8
+R13	Equivalence Arg1:T12 Arg2:T38
+A2	Self T14
+R14	Attribute Arg1:T17 Arg2:T16
+R15	Attribute Arg1:T18 Arg2:T16
+R16	Output Arg1:T15 Arg2:T16
+R17	Condition Arg1:T15 Arg2:T14
+A3	Intentional T15
+A4	Intentional T19
+R18	Condition Arg1:T19 Arg2:T14
+R19	Output Arg1:T19 Arg2:T20
+R20	Output Arg1:T21 Arg2:T20
+R21	Apply-to Arg1:T21 Arg2:T22
+R22	Attribute Arg1:T25 Arg2:T24
+R23	Attribute Arg1:T25 Arg2:T23
+R24	Target Arg1:T22 Arg2:T25
+R25	Is-a Arg1:T26 Arg2:T25
+R26	from Arg1:T27 Arg2:T28
+R27	to Arg1:T27 Arg2:T26
+R28	Is-a Arg1:T29 Arg2:T25
+R29	Apply-to Arg1:T29 Arg2:T30
+R30	Attribute Arg1:T32 Arg2:T31
+R31	Is-a Arg1:T32 Arg2:T25
+R32	Apply-to Arg1:T32 Arg2:T33
+R33	Target Arg1:T33 Arg2:T34
+R34	Target Arg1:T33 Arg2:T35
+R35	Target Arg1:T33 Arg2:T36
+A5	Judgment T31
+T37	PLAN 2 33	Voice Enabled Procedure Browser
+T1	PLAN 42 69	International Space Station
+T38	PLAN 72 80	Clarissa
+T2	PLAN 86 130	experimental voice enabled procedure browser
+T3	REFERENCE 131 135	that
+T4	TIME 140 148	recently
+T5	PROCESS 154 162	deployed
+T6	PLAN 170 197	International Space Station
+T7	PLAN 200 203	ISS
+T8	QUALITY 218 222	best
+T9	PERSON 226 229	our
+T10	DATA-ITEM 230 239	knowledge
+T11	QUALITY 244 249	first
+T12	PLAN 250 270	spoken dialog system
+T13	LOCATION 274 279	space
+T14	REFERENCE 282 292	This paper
+T15	PROCESS 293 298	gives
+T16	DATA-ITEM 299 309	background
+T17	PLAN 317 323	system
+T18	PLAN 332 346	ISS procedures
+T19	PROCESS 354 363	discusses
+T20	PLAN 368 376	research
+T21	PROCESS 377 386	developed
+T22	PROCESS 390 397	address
+T23	QUANTITY 398 403	three
+T24	QUALITY 404 407	key
+T25	PLAN 408 416	problems
+T26	PLAN 419 451	grammar-based speech recognition
+T27	APPLY-TO 452 457	using
+T28	PLAN 462 477	Regulus toolkit
+T29	PLAN 480 497	SVM based methods
+T30	PLAN-OR-PROCESS 502 536	open microphone speech recognition
+T31	QUALITY 543 549	robust
+T32	PLAN 550 586	side-effect free dialogue management
+T33	PROCESS 591 599	handling
+T34	DATA-ITEM 600 605	undos
+T35	DATA-ITEM 608 619	corrections
+T36	DATA-ITEM 624 637	confirmations

@@ -1,0 +1,174 @@
+T1	PROCESS 0 10	Evaluating
+T2	PLAN 27 43	Treebank Parsers
+T3	DATA-ITEM 49 66	Biomedical Corpus
+T4	MODALITY 74 77	not
+T5	QUALITY 78 83	clear
+T6	QUALITY 84 92	a priori
+T7	PLAN 102 109	parsers
+T8	PROCESS 110 117	trained
+T9	DATA-ITEM 125 138	Penn Treebank
+T10	MODALITY 139 143	will
+T11	PROCESS 144 149	parse
+T12	QUALITY 150 163	significantly
+T13	QUALITY 164 173	different
+T14	DATA-ITEM 174 181	corpora
+T15	MODALITY 182 189	without
+T16	PROCESS 190 200	retraining
+T17	PERSON 202 204	We
+T18	PROCESS 205 216	carried out
+T19	QUALITY 219 230	competitive
+T20	PROCESS 231 241	evaluation
+T21	QUANTITY 245 250	three
+T22	PLAN 259 276	tree bank parsers
+T23	DATA-ITEM 283 299	annotated corpus
+T25	DOMAIN 309 339	human molecular biology domain
+T26	DATA-ITEM 351 358	extract
+T27	DATA-ITEM 368 381	Penn Treebank
+T28	PROCESS 386 396	comparison
+T29	PROCESS 398 408	performing
+T30	QUALITY 411 419	detailed
+T31	PLAN-OR-PROCESS 420 428	analysis
+T32	DATA-ITEM 436 441	kinds
+T33	DATA-ITEM 445 451	errors
+T34	PLAN 452 463	each parser
+T35	PROCESS 464 468	made
+T36	QUALITY 483 495	quantitative
+T37	PROCESS 496 506	comparison
+T38	DATA-ITEM 510 522	syntax usage
+T39	QUANTITY 535 538	two
+T40	DATA-ITEM 539 546	corpora
+T41	PERSON 548 551	Our
+T42	DATA-ITEM 552 559	results
+T43	RESULT 560 567	suggest
+T44	PLAN 573 584	these tools
+T47	REFERENCE 627 632	their
+T48	DOMAIN 633 648	training domain
+T49	CONDITION 656 663	expense
+T50	QUALITY 667 678	portability
+T51	RESULT 689 697	indicate
+T52	QUANTITY 703 710	some of
+T53	DATA-ITEM 715 721	errors
+T54	PROCESS 722 733	encountered
+T55	QUALITY 741 760	doubtful importance
+T56	PLAN 765 793	information extraction tasks
+T57	PERSON 808 811	our
+T58	QUALITY 812 818	inital
+T59	PLAN 819 830	experiments
+T60	PLAN 836 877	unsupervised parse combination techniques
+T61	PROCESS 890 901	integrating
+T62	DATA-ITEM 906 912	output
+T63	QUANTITY 916 923	several
+T64	PLAN 924 931	parsers
+T65	MODALITY 932 935	can
+T66	PROCESS 936 946	ameliorate
+T67	QUANTITY 947 954	some of
+T68	PLAN 959 979	performance problems
+T69	REFERENCE 980 984	they
+T70	PROCESS 985 994	encounter
+T71	QUALITY 998 1008	unfamiliar
+T72	DATA-ITEM 1009 1013	text
+T73	PROCESS 1015 1024	providing
+T74	PROCESS 1025 1033	accuracy
+T75	PROCESS 1038 1059	coverage improvements
+T76	QUALITY 1067 1072	novel
+T77	PLAN 1073 1080	measure
+T78	DATA-ITEM 1084 1099	trustworthiness
+T79	REFERENCE 1101 1124	Supplementary materials
+T80	QUALITY 1129 1138	available
+T83	PROCESS 15 26	Integrating
+R1	Input Arg1:T1 Arg2:T2	
+R2	Output Arg1:T83 Arg2:T2	
+R3	Destination Arg1:T83 Arg2:T3	
+R4	In_Out Arg1:T8 Arg2:T7	
+R5	Input Arg1:T8 Arg2:T9	
+R6	Attribute Arg1:T5 Arg2:T4	
+R7	Attribute Arg1:T5 Arg2:T6	
+R8	Apply-to Arg1:T7 Arg2:T11	
+R9	Attribute Arg1:T11 Arg2:T10	
+R10	Attribute Arg1:T11 Arg2:T12	
+R11	Attribute Arg1:T14 Arg2:T13	
+R12	Input Arg1:T11 Arg2:T14	
+R13	Attribute Arg1:T16 Arg2:T15	
+R14	Condition Arg1:T11 Arg2:T16	
+A1	Self T17
+A2	Intentional T18
+R15	Agent Arg1:T18 Arg2:T17	
+R16	Attribute Arg1:T20 Arg2:T19	
+R17	Output Arg1:T18 Arg2:T20	
+T84	QUALITY 251 258	leading
+R18	Attribute Arg1:T22 Arg2:T84	
+R19	Attribute Arg1:T22 Arg2:T21	
+R20	Input Arg1:T22 Arg2:T23	
+R21	Input Arg1:T20 Arg2:T22	
+R22	Condition Arg1:T23 Arg2:T25	
+R23	Component-object Arg1:T27 Arg2:T26	
+R24	Input Arg1:T22 Arg2:T26	
+R25	Input Arg1:T28 Arg2:T26	
+R26	Input Arg1:T28 Arg2:T27	
+R27	Component-object Arg1:T20 Arg2:T28	
+R28	Attribute Arg1:T31 Arg2:T30	
+R29	Output Arg1:T29 Arg2:T31	
+R30	Attribute Arg1:T33 Arg2:T32	
+R31	Input Arg1:T31 Arg2:T32	
+R32	Result Arg1:T34 Arg2:T35	
+R33	Output Arg1:T35 Arg2:T33	
+R34	Attribute Arg1:T37 Arg2:T36	
+R35	Input Arg1:T37 Arg2:T38	
+R36	Attribute Arg1:T40 Arg2:T39	
+R37	Condition Arg1:T38 Arg2:T40	
+R38	Output Arg1:T29 Arg2:T37	
+R39	Member-collection Arg1:T34 Arg2:T22	
+A3	Intentional T29
+R41	Agent Arg1:T29 Arg2:T17	
+A4	Self T41
+R42	Poss Arg1:T41 Arg2:T42	
+R43	Equivalence Arg1:T44 Arg2:T22	
+T24	PROCESS 607 623	over-specialised
+R44	Destination Arg1:T24 Arg2:T48	
+R45	Poss Arg1:T47 Arg2:T48	
+R46	Coreference Arg1:T47 Arg2:T44	
+R48	In_Out Arg1:T24 Arg2:T44	
+A5	Judgment T24
+R47	from Arg1:T49 Arg2:T24	
+R49	to Arg1:T49 Arg2:T50	
+R50	from Arg1:T43 Arg2:T42	
+R51	to Arg1:T43 Arg2:T24	
+R52	from Arg1:T51 Arg2:T42	
+R56	Condition Arg1:T55 Arg2:T56	
+R57	to Arg1:T51 Arg2:T55	
+A6	Judgment T55
+R58	Attribute Arg1:T59 Arg2:T58	
+R59	Poss Arg1:T57 Arg2:T59	
+A7	Self T57
+R60	Input Arg1:T59 Arg2:T60	
+R61	Attribute Arg1:T64 Arg2:T63	
+R62	Output Arg1:T64 Arg2:T62	
+R63	Attribute Arg1:T66 Arg2:T65	
+R65	In_Out Arg1:T66 Arg2:T68	
+R66	Input Arg1:T61 Arg2:T62	
+R67	Apply-to Arg1:T61 Arg2:T66	
+T45	RESULT 878 884	showed
+R68	Attribute Arg1:T72 Arg2:T71	
+R70	Coreference Arg1:T69 Arg2:T64	
+R71	Result Arg1:T69 Arg2:T70	
+R72	Input Arg1:T77 Arg2:T78	
+R73	Attribute Arg1:T77 Arg2:T76	
+R74	Output Arg1:T73 Arg2:T74	
+R75	Output Arg1:T73 Arg2:T75	
+R76	Output Arg1:T73 Arg2:T77	
+R77	Target Arg1:T70 Arg2:T68	
+R69	Input Arg1:T69 Arg2:T72	
+R78	Result Arg1:T61 Arg2:T73	
+A8	Judgment T66
+R79	to Arg1:T45 Arg2:T66	
+R80	from Arg1:T45 Arg2:T59	
+T46	LOCATION 1142 1182	http://textmining.cryst.bbk.ac.uk/acl05/
+R81	Attribute Arg1:T79 Arg2:T80	
+R82	Condition Arg1:T80 Arg2:T46	
+A9	Self T79
+R83	Output Arg1:T54 Arg2:T53	
+R54	Attribute Arg1:T53 Arg2:T55	
+R53	Attribute Arg1:T53 Arg2:T52	
+R55	Attribute Arg1:T68 Arg2:T67	
+A10	Judgment T75
+A11	Judgment T74

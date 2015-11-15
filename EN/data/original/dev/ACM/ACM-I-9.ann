@@ -1,0 +1,137 @@
+T1	PLAN 0 21	Temporal Linear Logic
+T2	APPLY-TO 27 32	Basis
+T3	PLAN-OR-PROCESS 37 64	Flexible Agent Interactions
+T4	PLAN-OR-PROCESS 65 77	Interactions
+T5	INTELLIGENT-AGENT 86 92	agents
+T6	PLAN 99 110	open system
+T7	PLAN 123 131	Internet
+T8	QUALITY 132 139	require
+T9	QUALITY 142 160	significant degree
+T10	DATA-ITEM 164 175	flexibility
+T11	QUALITY 179 186	crucial
+T12	DATA-ITEM 187 193	aspect
+T13	JUDGING-PROCESS 201 212	development
+T14	PLAN 216 228	such methods
+T15	PLAN 236 242	notion
+T16	PLAN 246 257	commitments
+T17	REFERENCE 259 264	which
+T18	PROCESS 265 273	provides
+T19	PLAN 276 285	mechanism
+T20	PROCESS 290 302	coordinating
+T21	PLAN-OR-PROCESS 303 324	interactive behaviors
+T22	INTELLIGENT-AGENT 331 337	agents
+T23	REFERENCE 342 352	this paper
+T24	PERSON 354 356	we
+T25	PROCESS 357 368	investigate
+T26	PLAN 372 380	approach
+T27	PLAN 390 401	commitments
+T28	QUALITY 407 412	tight
+T29	PLAN-OR-PROCESS 413 424	integration
+T30	PLAN 430 446	protocol actions
+T31	REFERENCE 448 452	This
+T32	QUANTITY 473 475	no
+T33	QUALITY 476 480	need
+T34	QUALITY 492 500	explicit
+T35	PLAN-OR-PROCESS 501 508	mapping
+T36	PLAN 514 531	protocols actions
+T37	PLAN 535 545	operations
+T38	PLAN 549 560	commitments
+T39	PLAN 577 586	mechanism
+T40	PROCESS 590 597	process
+T41	PLAN 610 621	commitments
+T42	PERSON 623 625	We
+T43	PROCESS 626 630	show
+T44	INTELLIGENT-AGENT 635 641	agents
+T45	MODALITY 642 645	can
+T46	PROCESS 646 652	reason
+T47	PLAN 659 670	commitments
+T48	PLAN 675 691	protocol actions
+T49	PROCESS 695 702	achieve
+T50	PLAN 707 718	end results
+T51	PLAN 722 731	protocols
+T52	APPLY-TO 732 737	using
+T53	PLAN 740 756	reasoning system
+T54	APPLY-TO 757 762	based
+T55	PLAN 766 787	temporal linear logic
+T56	REFERENCE 789 794	which
+T57	PROCESS 795 807	incorporates
+T58	PLAN-OR-PROCESS 826 854	resource-sensitive reasoning
+T59	PERSON 856 858	We
+T60	PROCESS 864 871	discuss
+T61	APPLY-TO 876 887	application
+T62	PLAN 891 905	this framework
+T63	PLAN 909 918	scenarios
+T64	PLAN 927 942	online commerce
+R1	Target Arg1:T4 Arg2:T5	
+R2	Is-a Arg1:T7 Arg2:T6	
+R3	Attribute Arg1:T10 Arg2:T9	
+R4	Attribute Arg1:T10 Arg2:T8	
+R5	Condition Arg1:T4 Arg2:T8	
+R6	Output Arg1:T13 Arg2:T14	
+R7	Attribute Arg1:T12 Arg2:T11	
+R8	Attribute Arg1:T13 Arg2:T12	
+R9	Other-rel Arg1:T15 Arg2:T12	
+R11	Coreference Arg1:T17 Arg2:T15	
+R12	Apply-to Arg1:T17 Arg2:T18	
+R13	Output Arg1:T18 Arg2:T19	
+R14	Apply-to Arg1:T19 Arg2:T20	
+R15	Target Arg1:T21 Arg2:T22	
+R16	Target Arg1:T20 Arg2:T21	
+A1	Self T23
+A2	Self T24
+A3	Intentional T25
+R17	Agent Arg1:T25 Arg2:T24	
+R18	Condition Arg1:T25 Arg2:T23	
+R19	Output Arg1:T25 Arg2:T26	
+R20	Attribute Arg1:T29 Arg2:T28	
+R21	In_Out Arg1:T29 Arg2:T30	
+T65	PROCESS 384 389	model
+R22	Apply-to Arg1:T26 Arg2:T65	
+R23	In_Out Arg1:T65 Arg2:T27	
+R24	In_Out Arg1:T29 Arg2:T27	
+R10	Is-a Arg1:T16 Arg2:T15	
+R25	Apply-to Arg1:T26 Arg2:T29	
+R26	Attribute Arg1:T35 Arg2:T34	
+R27	Origin Arg1:T35 Arg2:T36	
+R28	Destination Arg1:T35 Arg2:T37	
+R30	Attribute Arg1:T33 Arg2:T32	
+T66	PROCESS 602 609	enforce
+R31	Output Arg1:T66 Arg2:T41	
+R32	In_Out Arg1:T40 Arg2:T41	
+R33	Apply-to Arg1:T39 Arg2:T40	
+T67	QUALITY 568 576	external
+R34	Attribute Arg1:T39 Arg2:T67	
+R35	Attribute Arg1:T39 Arg2:T33	
+R36	In_Out Arg1:T37 Arg2:T38	
+A4	Self T42
+A5	Intentional T43
+R37	Agent Arg1:T43 Arg2:T42	
+R38	Agent Arg1:T46 Arg2:T44	
+R39	Attribute Arg1:T46 Arg2:T45	
+R40	Output Arg1:T46 Arg2:T47	
+R41	Output Arg1:T46 Arg2:T48	
+R42	Apply-to Arg1:T46 Arg2:T49	
+R43	Attribute Arg1:T51 Arg2:T50	
+R44	Output Arg1:T49 Arg2:T50	
+R45	from Arg1:T52 Arg2:T53	
+R46	to Arg1:T52 Arg2:T46	
+R47	from Arg1:T54 Arg2:T55	
+R48	to Arg1:T54 Arg2:T53	
+R49	Coreference Arg1:T56 Arg2:T55	
+T68	PLAN-OR-PROCESS 813 821	temporal
+R50	In_Out Arg1:T57 Arg2:T68	
+R51	In_Out Arg1:T57 Arg2:T58	
+R52	Apply-to Arg1:T56 Arg2:T57	
+A6	Self T59
+A7	Intentional T60
+R53	Agent Arg1:T60 Arg2:T59	
+R54	Output Arg1:T60 Arg2:T61	
+R55	from Arg1:T61 Arg2:T62	
+R56	to Arg1:T61 Arg2:T63	
+R57	Is-a Arg1:T64 Arg2:T63	
+R58	to Arg1:T2 Arg2:T3	
+R59	from Arg1:T2 Arg2:T1	
+R29	Attribute Arg1:T35 Arg2:T33	
+T69	PROCESS 453 458	means
+R60	Agent Arg1:T69 Arg2:T31	
+R61	Output Arg1:T69 Arg2:T33	

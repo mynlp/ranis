@@ -1,0 +1,147 @@
+T1	PROCESS 0 6	Review
+T2	PLAN 10 41	Hypothesis Alignment Algorithms
+T3	PLAN 46 67	MT System Combination
+T4	PLAN 72 98	Confusion Network Decoding
+T5	PLAN 100 126	Confusion network decoding
+T8	QUALITY 155 170	most successful
+T9	PLAN 171 181	approaches
+T10	PLAN 185 223	machine translation system combination
+T11	PLAN 229 259	hypothesis alignment algorithm
+T12	QUALITY 265 272	crucial
+T13	PROCESS 281 289	building
+T14	PLAN 294 312	confusion networks
+T15	QUANTITY 317 321	many
+T16	PLAN 322 334	alternatives
+T17	PROCESS 345 353	proposed
+T18	EXTERNAL-REFERENCE 361 371	literature
+T19	QUALITY 396 406	systematic
+T20	PROCESS 407 417	comparison
+T21	QUANTITY 421 425	five
+T22	QUALITY 426 436	well known
+T23	PLAN 437 468	hypothesis alignment algorithms
+T24	PLAN 473 494	MT system combination
+T25	PLAN 499 525	confusion network decoding
+T26	PLAN 527 549	Controlled experiments
+T27	APPLY-TO 550 555	using
+T28	QUALITY 556 565	identical
+T29	PLAN-OR-PROCESS 566 580	pre-processing
+T30	PROCESS 582 590	decoding
+T31	PLAN 596 617	weight tuning methods
+T33	DATA-ITEM 621 664	standard system combination evaluation sets
+T34	PROCESS 669 678	presented
+T35	DATA-ITEM 680 699	Translation quality
+T36	PROCESS 703 711	assessed
+T37	APPLY-TO 712 717	using
+T38	PLAN 718 746	case insensitive BLEU scores
+T39	PLAN 751 764	bootstrapping
+T40	APPLY-TO 768 772	used
+T41	PROCESS 776 785	establish
+T42	QUALITY 786 797	statistical
+T43	DATA-ITEM 798 810	significance
+T44	DATA-ITEM 818 835	score differences
+T45	QUANTITY 837 840	All
+T46	PLAN 841 849	aligners
+T47	RESULT 850 855	yield
+T48	QUALITY 856 867	significant
+T49	QUALITY 868 884	BLEU score gains
+T50	QUALITY 894 898	best
+T51	PLAN 899 916	individual system
+T52	COMPONENT-OBJECT 917 925	included
+T53	PLAN 933 944	combination
+T54	PLAN 946 986	Incremental indirect hidden Markov model
+T55	QUALITY 993 998	novel
+T56	PLAN 999 1041	incremental inversion transduction grammar
+T57	PLAN-OR-PROCESS 1047 1064	flexible matching
+T58	QUALITY 1065 1077	consistently
+T59	RESULT 1078 1083	yield
+T60	QUALITY 1088 1092	best
+T61	DATA-ITEM 1093 1112	translation quality
+T62	PROCESS 1121 1128	keeping
+T63	QUANTITY 1129 1132	all
+T64	DATA-ITEM 1133 1139	things
+T65	QUALITY 1140 1145	equal
+T66	DATA-ITEM 1151 1162	differences
+T67	PLAN 1171 1179	aligners
+T68	QUALITY 1184 1200	relatively small
+R1	Apply-to Arg1:T2 Arg2:T3	
+A1	Intentional T1
+R2	In_Out Arg1:T1 Arg2:T2	
+R3	Apply-to Arg1:T4 Arg2:T2	
+R4	Attribute Arg1:T9 Arg2:T8	
+A2	Judgment T8
+T6	IS-A 141 150	be one of
+T7	MODALITY 131 137	proven
+R5	Attribute Arg1:T6 Arg2:T7	
+R6	from Arg1:T6 Arg2:T5	
+R7	to Arg1:T6 Arg2:T9	
+R8	Apply-to Arg1:T9 Arg2:T10	
+T69	COMPONENT-OBJECT 273 277	part
+R9	Attribute Arg1:T69 Arg2:T12	
+A3	Judgment T12
+R10	from Arg1:T69 Arg2:T11	
+R11	to Arg1:T69 Arg2:T13	
+R12	Output Arg1:T13 Arg2:T14	
+R13	Attribute Arg1:T16 Arg2:T15	
+R14	Output Arg1:T17 Arg2:T16	
+R15	Condition Arg1:T17 Arg2:T18	
+T70	REFERENCE 373 383	This paper
+A4	Self T70
+T71	PROCESS 384 393	describes
+A5	Intentional T71
+R17	Condition Arg1:T71 Arg2:T70	
+R18	Attribute Arg1:T20 Arg2:T19	
+R19	Output Arg1:T71 Arg2:T20	
+R20	Attribute Arg1:T23 Arg2:T22	
+R21	Attribute Arg1:T23 Arg2:T21	
+R22	Apply-to Arg1:T23 Arg2:T24	
+R23	Input Arg1:T20 Arg2:T23	
+R24	Apply-to Arg1:T25 Arg2:T23	
+R25	Attribute Arg1:T29 Arg2:T28	
+R26	Attribute Arg1:T30 Arg2:T28	
+R27	Attribute Arg1:T31 Arg2:T28	
+R28	Output Arg1:T34 Arg2:T26	
+A6	Intentional T34
+R29	from Arg1:T27 Arg2:T29	
+R31	from Arg1:T27 Arg2:T30	
+R32	from Arg1:T27 Arg2:T31	
+R33	to Arg1:T27 Arg2:T26	
+R30	Input Arg1:T31 Arg2:T33	
+R34	Input Arg1:T30 Arg2:T33	
+R35	Input Arg1:T29 Arg2:T33	
+R36	Output Arg1:T36 Arg2:T35	
+A7	Intentional T36
+R37	from Arg1:T37 Arg2:T38	
+R39	to Arg1:T37 Arg2:T36	
+R38	to Arg1:T40 Arg2:T41	
+R40	from Arg1:T40 Arg2:T39	
+R41	Attribute Arg1:T44 Arg2:T43	
+R42	Attribute Arg1:T43 Arg2:T42	
+R43	Output Arg1:T41 Arg2:T43	
+R44	Attribute Arg1:T46 Arg2:T45	
+R45	Attribute Arg1:T49 Arg2:T48	
+R46	from Arg1:T47 Arg2:T46	
+R47	to Arg1:T47 Arg2:T49	
+R48	Attribute Arg1:T51 Arg2:T50	
+T32	COMPARE 885 889	over
+R49	from Arg1:T32 Arg2:T51	
+R50	to Arg1:T32 Arg2:T49	
+R51	from Arg1:T52 Arg2:T53	
+R52	to Arg1:T52 Arg2:T51	
+R53	Attribute Arg1:T56 Arg2:T55	
+R54	Component-object Arg1:T56 Arg2:T57	
+R55	Attribute Arg1:T59 Arg2:T58	
+R56	Attribute Arg1:T61 Arg2:T60	
+A9	Judgment T60
+R57	to Arg1:T59 Arg2:T60	
+R58	from Arg1:T59 Arg2:T56	
+R59	from Arg1:T59 Arg2:T54	
+R60	Attribute Arg1:T66 Arg2:T68	
+R61	Condition Arg1:T66 Arg2:T67	
+R62	Attribute Arg1:T64 Arg2:T65	
+R63	Attribute Arg1:T64 Arg2:T63	
+R64	Target Arg1:T62 Arg2:T64	
+A10	Judgment T68
+A11	Judgment T49
+T72	RESULT 1114 1120	though
+R16	from Arg1:T72 Arg2:T62	
+R66	to Arg1:T72 Arg2:T68	

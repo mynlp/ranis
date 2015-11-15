@@ -1,0 +1,5 @@
+A General Technique to Train Language Models on Language Models
+
+We show that under certain conditions, a language model can be trained on the basis of a second language model.
+The main instance of the technique trains a finite automaton on the basis of a probabilistic context-free grammar, such that the Kullback-Leibler distance between grammar and trained automaton is provably minimal.
+This is a substantial generalization of an existing algorithm to train an n-gram model on the basis of a probabilistic context-free grammar.

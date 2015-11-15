@@ -1,0 +1,8 @@
+Identifying Unknown Proper Names In Newswire Text .
+The identification of unknown proper names in text is a significant challenge for NLP systems operating on unrestricted text .
+A system which indexes documents according to name references can be useful for information retrieval or as a preprocessor for more knowledge intensive tasks such as database extraction .
+This paper describes a system which uses text skimming techniques for deriving proper names and their semantic attributes automatically from newswire text , without relying on any listing of name elements .
+In order to identify new names , the system treats proper names as ( potentially ) context-dependent linguistic expressions .
+In addition to using information in the local context , the system exploits a computational model of discourse which identifies individuals based on the way they are described in the text , instead of relying on their description in a pre-existing knowledge base .
+
+

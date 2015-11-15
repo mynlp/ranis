@@ -1,0 +1,91 @@
+T1	INPUT 155 164	makes use
+T2	PROCESS 211 219	converts
+T3	APPLY-TO 409 414	using
+T4	PROCESS 481 489	combines
+T5	PROCESS 600 609	comparing
+T6	INPUT 626 631	using
+T7	QUALITY 302 313	very simple
+T8	QUALITY 329 345	state-of-the-art
+T11	QUANTITY 505 508	two
+T12	QUANTITY 535 540	76.59
+T13	PLAN-OR-PROCESS 0 22	Semantic Role Labeling
+T14	PLAN-OR-PROCESS 26 44	Sequential Tagging
+T15	PLAN 73 102	semantic role labeling system
+T16	ORGANIZATION 120 125	CoNLL
+T17	PLAN 148 154	system
+T18	DATA-ITEM 185 206	syntactic information
+T19	PLAN 224 228	task
+T20	PLAN 236 258	sequential BIO-tagging
+T22	PLAN 277 298	labeling architecture
+T23	PROCESS 315 323	Building
+T24	DATA-ITEM 353 361	features
+T25	PLAN 365 382	binary classifier
+T26	DATA-ITEM 392 397	label
+T27	PLAN 429 455	fixed depth decision trees
+T28	PLAN 461 473	final system
+T29	DATA-ITEM 494 501	outputs
+T30	PLAN 509 521	base systems
+T31	DATA-ITEM 548 565	official test set
+T33	PLAN 614 620	system
+T34	QUALITY 632 639	partial
+T36	PROCESS 103 112	submitted
+T37	QUALITY 168 175	partial
+T38	QUALITY 180 184	full
+R1	Attribute Arg1:T18 Arg2:T38	
+R2	Attribute Arg1:T18 Arg2:T37	
+R3	Attribute Arg1:T22 Arg2:T7	
+T39	DATA-ITEM 346 349	set
+T9	QUALITY 387 391	each
+R4	Attribute Arg1:T26 Arg2:T9	
+T40	PROCESS 401 408	trained
+R5	Attribute Arg1:T30 Arg2:T11	
+T42	PROCESS 522 531	performed
+T10	QUALITY 644 648	full
+T44	PLAN 120 142	CoNLL-2005 shared task
+R9	Coreference Arg1:T17 Arg2:T15	
+T45	PLAN 415 423	AdaBoost
+R10	Member-collection Arg1:T24 Arg2:T39	
+R11	Is-a Arg1:T13 Arg2:T14	
+R12	Target Arg1:T36 Arg2:T15	
+R13	Destination Arg1:T36 Arg2:T44	
+R15	Input Arg1:T2 Arg2:T19	
+R16	Output Arg1:T2 Arg2:T20	
+R14	from Arg1:T1 Arg2:T17	
+R17	to Arg1:T1 Arg2:T18	
+R18	Apply-to Arg1:T17 Arg2:T2	
+R19	Attribute Arg1:T39 Arg2:T8	
+R20	Output Arg1:T23 Arg2:T39	
+R21	Output Arg1:T25 Arg2:T26	
+R22	In_Out Arg1:T40 Arg2:T25	
+R23	to Arg1:T3 Arg2:T40	
+R24	from Arg1:T3 Arg2:T45	
+R25	Component-object Arg1:T27 Arg2:T45	
+R27	Input Arg1:T4 Arg2:T29	
+R28	Output Arg1:T30 Arg2:T29	
+R29	Input Arg1:T42 Arg2:T31	
+R30	Output Arg1:T42 Arg2:T49	
+R31	Apply-to Arg1:T30 Arg2:T42	
+R32	from Arg1:T6 Arg2:T33	
+T41	DATA-ITEM 649 674	parsing input information
+R8	Attribute Arg1:T41 Arg2:T10	
+T48	DATA-ITEM 592 599	results
+R34	Output Arg1:T5 Arg2:T48	
+R38	Input Arg1:T5 Arg2:T33	
+R7	Attribute Arg1:T41 Arg2:T34	
+R33	to Arg1:T6 Arg2:T41	
+T32	REFERENCE 475 480	which
+R35	Coreference Arg1:T32 Arg2:T28	
+R36	Apply-to Arg1:T32 Arg2:T4	
+T35	TIME 126 130	2005
+T49	FORMULA 532 540	F1=76.59
+R26	Other-rel Arg1:T23 Arg2:T25	
+T21	REFERENCE 49 59	this paper
+T43	PERSON 60 62	we
+T46	PROCESS 63 70	present
+T47	PERSON 581 583	we
+T50	PROCESS 584 591	provide
+R6	Agent Arg1:T46 Arg2:T43	
+R37	Agent Arg1:T50 Arg2:T47	
+R39	Output Arg1:T46 Arg2:T15	
+R40	Output Arg1:T50 Arg2:T48	
+R41	Condition Arg1:T46 Arg2:T21	

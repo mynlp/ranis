@@ -1,0 +1,8 @@
+Context Dependent Modeling Of Phones In Continuous Speech Using Decision Trees .
+In a continuous speech recognition system it is important to model the context dependent variations in the pronunciations of words .
+In this paper we present an automatic method for modeling phonological variation using decision trees .
+For each phone we construct a decision tree that specifies the acoustic realization of the phone as a function of the context in which it appears .
+Several thousand sentences from a natural language corpus spoken by several talkers are used to construct these decision trees .
+Experimental results on a 5000-word vocabulary natural language speech recognition task are presented .
+
+

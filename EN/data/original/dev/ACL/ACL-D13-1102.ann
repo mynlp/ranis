@@ -1,0 +1,163 @@
+T1	PROCESS 0 11	Identifying
+T2	PLAN-OR-PROCESS 12 42	Web Search Query Reformulation
+T3	APPLY-TO 43 48	using
+T4	PLAN 49 71	Concept based Matching
+T5	PERSON 73 89	Web search users
+T6	QUALITY 90 100	frequently
+T7	PROCESS 101 107	modify
+T8	REFERENCE 108 113	their
+T9	DATA-ITEM 114 121	queries
+T10	PROCESS 133 142	receiving
+T11	QUALITY 143 149	better
+T12	DATA-ITEM 150 157	results
+T13	PLAN 159 171	This process
+T14	EQUIVALENCE 175 183	referred
+T15	PLAN-OR-PROCESS 192 211	Query Reformulation
+T16	EXTERNAL-REFERENCE 215 232	Previous research
+T17	QUALITY 237 243	mainly
+T18	PROCESS 244 251	focused
+T19	PROCESS 255 264	proposing
+T20	PLAN-OR-PROCESS 265 285	query reformulations
+T21	QUALITY 301 310	suggested
+T22	DATA-ITEM 311 318	queries
+T23	PERSON 323 328	users
+T24	QUANTITY 330 334	Some
+T25	PLAN 335 343	research
+T26	PROCESS 348 355	studied
+T27	PLAN 360 367	problem
+T28	PROCESS 371 381	predicting
+T29	MODALITY 382 389	whether
+T30	TIME 394 401	current
+T31	DATA-ITEM 402 407	query
+T32	PLAN-OR-PROCESS 413 426	reformulation
+T33	TIME 434 442	previous
+T34	DATA-ITEM 443 448	query
+T35	MODALITY 452 455	not
+T36	PROCESS 485 492	limited
+T37	PLAN 496 515	bag-of-words models
+T38	REFERENCE 516 521	where
+T39	DATA-ITEM 526 538	main signals
+T40	INPUT 545 549	used
+T41	DATA-ITEM 554 566	word overlap
+T42	DATA-ITEM 568 597	character level edit distance
+T43	DATA-ITEM 602 626	word level edit distance
+T44	REFERENCE 631 640	this work
+T45	PERSON 642 644	we
+T46	PROCESS 645 649	show
+T47	PROCESS 655 662	relying
+T48	QUALITY 663 669	solely
+T49	DATA-ITEM 673 702	surface level text similarity
+T50	QUANTITY 714 718	many
+T51	DATA-ITEM 719 734	false positives
+T52	DATA-ITEM 741 748	queries
+T53	QUALITY 754 763	different
+T54	DATA-ITEM 764 771	intents
+T55	QUALITY 776 783	similar
+T56	DATA-ITEM 784 790	topics
+T57	QUALITY 795 805	mistakenly
+T58	PROCESS 806 815	predicted
+T59	PLAN-OR-PROCESS 819 839	query reformulations
+T60	PERSON 841 843	We
+T61	PROCESS 844 851	propose
+T62	QUALITY 854 857	new
+T63	PLAN-OR-PROCESS 858 872	representation
+T64	DATA-ITEM 877 895	Web search queries
+T65	APPLY-TO 896 904	based on
+T66	PROCESS 905 916	identifying
+T67	DATA-ITEM 921 929	concepts
+T68	DATA-ITEM 933 940	queries
+T69	PERSON 955 957	we
+T70	MODALITY 958 961	can
+T71	QUALITY 962 975	significantly
+T72	JUDGING-PROCESS 976 983	improve
+T73	DATA-ITEM 984 1015	query reformulation performance
+T74	INPUT 1016 1021	using
+T75	DATA-ITEM 1022 1030	features
+T76	PLAN 1034 1048	query concepts
+T77	PROCESS 945 949	show
+T79	REFERENCE 466 475	this work
+R1	In_Out Arg1:T1 Arg2:T2	
+R2	from Arg1:T3 Arg2:T4	
+R3	to Arg1:T3 Arg2:T1	
+R4	Attribute Arg1:T7 Arg2:T6	
+R5	Agent Arg1:T7 Arg2:T5	
+R6	Poss Arg1:T8 Arg2:T9	
+R7	In_Out Arg1:T7 Arg2:T9	
+R8	Attribute Arg1:T12 Arg2:T11	
+R9	In_Out Arg1:T10 Arg2:T12	
+R10	Apply-to Arg1:T7 Arg2:T10	
+R11	from Arg1:T14 Arg2:T13	
+R12	to Arg1:T14 Arg2:T15	
+R13	Attribute Arg1:T18 Arg2:T17	
+R14	Condition Arg1:T18 Arg2:T16	
+R15	Target Arg1:T18 Arg2:T19	
+R16	Output Arg1:T19 Arg2:T20	
+R17	Attribute Arg1:T22 Arg2:T21	
+T78	DATA-ITEM 293 297	form
+R20	Is-a Arg1:T22 Arg2:T78	
+R21	Attribute Arg1:T25 Arg2:T24	
+R22	Condition Arg1:T26 Arg2:T25	
+R23	In_Out Arg1:T26 Arg2:T27	
+R24	Attribute Arg1:T31 Arg2:T30	
+R25	Attribute Arg1:T34 Arg2:T33	
+R26	Attribute Arg1:T32 Arg2:T29	
+R27	Attribute Arg1:T32 Arg2:T35	
+R28	Output Arg1:T32 Arg2:T31	
+R29	Input Arg1:T32 Arg2:T34	
+R30	Other-rel Arg1:T28 Arg2:T27	
+R31	Output Arg1:T28 Arg2:T32	
+A1	Self T79
+R32	Condition Arg1:T36 Arg2:T79	
+R33	Target Arg1:T36 Arg2:T37	
+R34	Coreference Arg1:T38 Arg2:T37	
+R35	from Arg1:T40 Arg2:T37	
+R36	to Arg1:T40 Arg2:T39	
+R37	Is-a Arg1:T41 Arg2:T39	
+R38	Is-a Arg1:T42 Arg2:T39	
+R39	Is-a Arg1:T43 Arg2:T39	
+A2	Self T44
+A3	Self T45
+A4	Intentional T46
+R40	Agent Arg1:T46 Arg2:T45	
+R41	Condition Arg1:T46 Arg2:T44	
+R42	Attribute Arg1:T47 Arg2:T48	
+R43	Target Arg1:T47 Arg2:T49	
+R44	Attribute Arg1:T51 Arg2:T50	
+T80	RESULT 703 710	results
+R45	from Arg1:T80 Arg2:T47	
+R46	to Arg1:T80 Arg2:T50	
+R47	Output Arg1:T46 Arg2:T80	
+R48	Attribute Arg1:T54 Arg2:T53	
+R49	Attribute Arg1:T52 Arg2:T54	
+R50	Attribute Arg1:T56 Arg2:T55	
+R51	Attribute Arg1:T58 Arg2:T57	
+R52	Output Arg1:T58 Arg2:T59	
+R53	Input Arg1:T58 Arg2:T52	
+R54	Attribute Arg1:T52 Arg2:T56	
+A5	Self T60
+A6	Intentional T61
+R55	Agent Arg1:T61 Arg2:T60	
+R56	Attribute Arg1:T63 Arg2:T62	
+R57	Output Arg1:T61 Arg2:T63	
+R58	In_Out Arg1:T66 Arg2:T67	
+R59	Attribute Arg1:T68 Arg2:T67	
+R60	from Arg1:T65 Arg2:T66	
+R61	to Arg1:T65 Arg2:T63	
+R62	In_Out Arg1:T63 Arg2:T64	
+A7	Intentional T77
+R63	Agent Arg1:T77 Arg2:T60	
+A8	Self T69
+R64	Attribute Arg1:T72 Arg2:T70	
+R65	Attribute Arg1:T72 Arg2:T71	
+R66	Agent Arg1:T72 Arg2:T69	
+R67	In_Out Arg1:T72 Arg2:T73	
+R68	Attribute Arg1:T75 Arg2:T76	
+R69	to Arg1:T74 Arg2:T75	
+R70	from Arg1:T74 Arg2:T72	
+R71	Output Arg1:T77 Arg2:T72	
+A9	Intentional T7
+R72	Coreference Arg1:T8 Arg2:T5	
+A10	Judgment T11
+R73	Coreference Arg1:T13 Arg2:T7	
+R18	Condition Arg1:T21 Arg2:T23	
+R19	Output Arg1:T20 Arg2:T78	

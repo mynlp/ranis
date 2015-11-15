@@ -1,0 +1,128 @@
+T1	PLAN 7 45	Sound Multi-agent Incremental LEarning
+T2	PLAN-OR-PROCESS 78 85	problem
+T3	PLAN-OR-PROCESS 89 111	collaborative learning
+T4	PLAN 117 135	multi-agent system
+T5	INTELLIGENT-AGENT 147 152	agent
+T6	MODALITY 153 156	can
+T7	PROCESS 157 163	update
+T8	QUALITY 164 177	incrementally
+T9	PLAN 182 191	beliefs B
+T10	PLAN-OR-PROCESS 197 219	concept representation
+T11	REFERENCE 229 231	it
+T12	QUALITY 235 243	in a way
+T13	ATTRIBUTE 244 248	kept
+T14	QUALITY 249 259	consistent
+T15	QUALITY 269 274	whole
+T16	DATA-ITEM 275 278	set
+T17	DATA-ITEM 282 295	information K
+T18	DATA-ITEM 301 309	examples
+T19	PROCESS 323 331	received
+T20	PLAN 341 352	environment
+T21	QUALITY 356 361	other
+T22	INTELLIGENT-AGENT 362 368	agents
+T23	PERSON 370 372	We
+T24	PROCESS 373 379	extend
+T25	PLAN 380 391	this notion
+T26	PLAN 395 406	consistency
+T27	PLAN 411 420	soundness
+T28	QUALITY 429 434	whole
+T29	PLAN 435 438	MAS
+T30	PROCESS 443 450	discuss
+T31	PROCESS 458 464	obtain
+T32	QUALITY 488 492	same
+T33	QUALITY 493 503	consistent
+T34	PLAN-OR-PROCESS 504 526	concept representation
+T35	COMPONENT-OBJECT 530 537	present
+T36	INTELLIGENT-AGENT 546 551	agent
+T37	PLAN 557 579	corresponding protocol
+T38	APPLY-TO 583 590	applied
+T39	PLAN 594 621	supervised concept learning
+T40	PLAN 627 643	resulting method
+T41	EQUIVALENCE 651 659	standing
+T42	PLAN 664 702	Sound Multi-agent Incremental LEarning
+T43	PROCESS 721 733	experimented
+T44	QUANTITY 753 757	some
+T45	QUALITY 758 767	difficult
+T46	PLAN 768 784	boolean formulas
+T47	QUALITY 789 795	better
+T48	QUALITY 815 819	same
+T49	DATA-ITEM 820 832	learning set
+T50	PLAN 839 857	Multi agent system
+T51	QUANTITY 868 874	single
+T52	INTELLIGENT-AGENT 875 880	agent
+T53	PLAN 0 5	SMILE
+R1	Equivalence Arg1:T1 Arg2:T53	
+T54	REFERENCE 50 62	This article
+A1	Self T54
+T55	PROCESS 63 73	deals with
+A2	Intentional T55
+R2	Condition Arg1:T55 Arg2:T54	
+R3	Is-a Arg1:T3 Arg2:T2	
+R4	Target Arg1:T55 Arg2:T2	
+R5	Attribute Arg1:T7 Arg2:T6	
+R6	Agent Arg1:T7 Arg2:T5	
+R7	Attribute Arg1:T7 Arg2:T8	
+T56	REFERENCE 178 181	its
+R8	Coreference Arg1:T56 Arg2:T5	
+R9	In_Out Arg1:T7 Arg2:T9	
+R10	to Arg1:T13 Arg2:T14	
+R12	Attribute Arg1:T16 Arg2:T15	
+R13	Member-collection Arg1:T17 Arg2:T16	
+R14	Condition Arg1:T14 Arg2:T16	
+R15	Attribute Arg1:T22 Arg2:T21	
+R16	Output Arg1:T19 Arg2:T17	
+R17	Origin Arg1:T19 Arg2:T20	
+R18	Origin Arg1:T19 Arg2:T22	
+R20	Coreference Arg1:T11 Arg2:T9	
+A3	Self T23
+A4	Intentional T24
+R21	Agent Arg1:T24 Arg2:T23	
+R22	In_Out Arg1:T24 Arg2:T25	
+R23	Is-a Arg1:T26 Arg2:T25	
+R24	Attribute Arg1:T29 Arg2:T28	
+A5	Intentional T30
+R26	Agent Arg1:T30 Arg2:T23	
+R27	Attribute Arg1:T34 Arg2:T33	
+R28	Attribute Arg1:T34 Arg2:T32	
+R29	Other-rel Arg1:T35 Arg2:T36	
+R30	to Arg1:T35 Arg2:T34	
+T57	TIME 471 484	at any moment
+R25	Destination Arg1:T24 Arg2:T29	
+R32	to Arg1:T38 Arg2:T39	
+R33	from Arg1:T38 Arg2:T37	
+T58	PLAN 644 649	SMILE
+R34	Equivalence Arg1:T58 Arg2:T40	
+R35	from Arg1:T41 Arg2:T42	
+R36	to Arg1:T41 Arg2:T58	
+T59	PROCESS 707 716	described
+A6	Intentional T59
+A7	Intentional T43
+R37	Output Arg1:T59 Arg2:T42	
+R38	In_Out Arg1:T43 Arg2:T42	
+R39	Attribute Arg1:T46 Arg2:T45	
+R40	Attribute Arg1:T46 Arg2:T44	
+T60	PROCESS 796 803	learned
+R41	Attribute Arg1:T60 Arg2:T47	
+R42	Output Arg1:T60 Arg2:T46	
+T61	INPUT 805 810	given
+R43	Attribute Arg1:T49 Arg2:T48	
+R44	Apply-to Arg1:T50 Arg2:T60	
+R45	Attribute Arg1:T52 Arg2:T51	
+T62	COMPARE 858 862	than
+R46	from Arg1:T62 Arg2:T52	
+R47	to Arg1:T62 Arg2:T47	
+A8	Judgment T47
+R48	to Arg1:T61 Arg2:T49	
+R49	from Arg1:T61 Arg2:T60	
+R50	Is-a Arg1:T27 Arg2:T25	
+R51	Other-rel Arg1:T10 Arg2:T9	
+R52	Equivalence Arg1:T18 Arg2:T17	
+R11	from Arg1:T13 Arg2:T11	
+R19	Attribute Arg1:T13 Arg2:T12	
+R53	Condition Arg1:T3 Arg2:T4	
+T63	INTELLIGENT-AGENT 316 318	he
+R54	Agent Arg1:T19 Arg2:T63	
+R55	Coreference Arg1:T63 Arg2:T5	
+R31	In_Out Arg1:T30 Arg2:T31	
+R56	Condition Arg1:T35 Arg2:T57	
+R57	Output Arg1:T31 Arg2:T35	

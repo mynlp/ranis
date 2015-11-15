@@ -1,0 +1,4 @@
+Getting More Mileage from Web Text Sources for Conversational Speech Language Modeling using Class-Dependent Mixtures
+
+Sources of training data suitable for language modeling of conversational speech are limited.
+In this paper, we show how training data can be supplemented with text from the web filtered to match the style and/or topic of the target recognition task, but also that it is possible to get bigger performance gains from the data by using class-dependent interpolation of N-grams.

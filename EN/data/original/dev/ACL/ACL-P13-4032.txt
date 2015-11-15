@@ -1,0 +1,6 @@
+VSEM: An open library for visual semantics representation
+
+VSEM is an open library for visual se-mantics.
+Starting from a collection of tagged images,  it is possible to automatically construct an image-based representation of concepts by using off-the-shelf VSEM functionalities.
+VSEM is entirely written in MATLAB and its object-oriented design allows a large flexibility and reusability.
+The software is accompanied by a website with supporting documentation and examples.

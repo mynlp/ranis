@@ -1,0 +1,106 @@
+T1	PLAN 0 4	EDAS
+T2	PROCESS 6 15	Providing
+T3	PLAN 19 30	Environment
+T4	PLAN 35 66	Decentralized Adaptive Services
+T5	PLAN 74 78	idea
+T6	PLAN 82 96	virtualisation
+T7	DATA-ITEM 100 113	compute power
+T8	DATA-ITEM 127 136	bandwidth
+T11	QUALITY 145 168	more and more important
+T12	PLAN 170 184	grid computing
+T13	PROCESS 185 192	evolves
+T14	APPLY-TO 200 207	applied
+T15	QUANTITY 213 226	rising number
+T16	PLAN 230 242	applications
+T18	PLAN 248 295	environment for decentralized adaptive services
+T19	PLAN 297 301	EDAS
+T20	PROCESS 303 311	provides
+T21	PLAN 314 338	grid-like infrastructure
+T22	QUALITY 343 356	user-accessed
+T23	PLAN 358 375	longterm services
+T24	PLAN 393 415	source-code repository
+T25	REFERENCE 423 425	It
+T26	PROCESS 426 430	aims
+T27	PROCESS 434 444	supporting
+T28	QUALITY 449 459	autonomous
+T29	PLAN-OR-PROCESS 460 469	execution
+T30	PLAN-OR-PROCESS 474 483	evolution
+T31	PLAN-OR-PROCESS 487 495	services
+T32	DATA-ITEM 508 519	scalability
+T33	PLAN-OR-PROCESS 524 551	resource-aware distribution
+T34	PLAN 553 557	EDAS
+T35	PROCESS 558 564	offers
+T36	QUALITY 565 573	flexible
+T37	PLAN 574 588	service models
+T38	APPLY-TO 589 597	based on
+T39	PLAN 598 624	distributed mobile objects
+T40	IS-A 625 632	ranging
+T41	QUALITY 640 651	traditional
+T42	PLAN 652 674	client-server scenario
+T43	QUALITY 680 685	fully
+T44	PLAN 686 713	peer-to-peer based approach
+T45	QUALITY 715 724	Automatic
+T46	PLAN-OR-PROCESS 734 753	resource management
+T47	RESULT 754 760	allows
+T48	QUALITY 761 770	optimized
+T49	PROCESS 771 774	use
+T50	QUALITY 778 787	available
+T51	PLAN 788 797	resources
+T52	PROCESS 804 814	minimizing
+T53	DATA-ITEM 819 844	administrative complexity
+R1	Output Arg1:T2 Arg2:T3	
+R2	Apply-to Arg1:T3 Arg2:T4	
+T54	PLAN 115 122	storage
+R3	Input Arg1:T6 Arg2:T7	
+R4	Input Arg1:T6 Arg2:T54	
+R5	Input Arg1:T6 Arg2:T8	
+R6	Is-a Arg1:T6 Arg2:T5	
+R7	Attribute Arg1:T5 Arg2:T11	
+R8	In_Out Arg1:T13 Arg2:T12	
+R9	Attribute Arg1:T16 Arg2:T15	
+R10	to Arg1:T14 Arg2:T16	
+R11	from Arg1:T14 Arg2:T12	
+R12	Equivalence Arg1:T19 Arg2:T18	
+R13	Apply-to Arg1:T19 Arg2:T20	
+R14	Output Arg1:T20 Arg2:T21	
+R15	Attribute Arg1:T23 Arg2:T22	
+R16	Apply-to Arg1:T21 Arg2:T23	
+T9	PLAN 382 391	webserver
+R17	Is-a Arg1:T9 Arg2:T23	
+R18	Is-a Arg1:T24 Arg2:T23	
+R19	Attribute Arg1:T29 Arg2:T28	
+R20	Attribute Arg1:T30 Arg2:T28	
+R21	Output Arg1:T29 Arg2:T31	
+R22	In_Out Arg1:T30 Arg2:T31	
+R23	Target Arg1:T27 Arg2:T29	
+R24	Target Arg1:T27 Arg2:T30	
+R25	Target Arg1:T26 Arg2:T27	
+R26	Apply-to Arg1:T25 Arg2:T26	
+R27	Coreference Arg1:T25 Arg2:T19	
+T10	CONDITION 496 507	in terms of
+R28	to Arg1:T10 Arg2:T32	
+R29	to Arg1:T10 Arg2:T33	
+R30	from Arg1:T10 Arg2:T27	
+R31	Apply-to Arg1:T34 Arg2:T35	
+R32	Attribute Arg1:T37 Arg2:T36	
+R33	Output Arg1:T35 Arg2:T37	
+R34	from Arg1:T38 Arg2:T39	
+R35	to Arg1:T38 Arg2:T37	
+R36	Attribute Arg1:T42 Arg2:T41	
+R37	Attribute Arg1:T44 Arg2:T43	
+R38	from Arg1:T40 Arg2:T42	
+R39	from Arg1:T40 Arg2:T44	
+R40	to Arg1:T40 Arg2:T37	
+T17	QUALITY 726 733	dynamic
+R41	Attribute Arg1:T46 Arg2:T17	
+R42	Attribute Arg1:T46 Arg2:T45	
+R43	Attribute Arg1:T51 Arg2:T50	
+R44	Attribute Arg1:T49 Arg2:T48	
+R45	Input Arg1:T49 Arg2:T51	
+R46	In_Out Arg1:T52 Arg2:T53	
+R47	to Arg1:T47 Arg2:T48	
+R48	to Arg1:T47 Arg2:T52	
+R49	from Arg1:T47 Arg2:T46	
+A1	Judgment T48
+A2	Judgment T52
+A3	Judgment T36

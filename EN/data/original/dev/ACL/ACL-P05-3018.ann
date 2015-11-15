@@ -1,0 +1,54 @@
+R1	Attribute Arg1:T4 Arg2:T3
+R2	Is-a Arg1:T2 Arg2:T4
+R3	Output Arg1:T5 Arg2:T6
+R4	Input Arg1:T5 Arg2:T4
+A1	Self T25
+A2	Intentional T26
+R5	Condition Arg1:T26 Arg2:T25
+R6	Target Arg1:T26 Arg2:T7
+R7	In_Out Arg1:T7 Arg2:T8
+R8	Input Arg1:T9 Arg2:T8
+A3	Self T10
+A4	Intentional T11
+R9	Agent Arg1:T11 Arg2:T10
+R10	Output Arg1:T11 Arg2:T12
+R11	Apply-to Arg1:T13 Arg2:T14
+R12	Coreference Arg1:T13 Arg2:T12
+R13	Target Arg1:T14 Arg2:T15
+R14	Apply-to Arg1:T15 Arg2:T16
+R15	In_Out Arg1:T16 Arg2:T17
+R16	Target Arg1:T17 Arg2:T18
+R17	Target Arg1:T17 Arg2:T19
+R18	Target Arg1:T14 Arg2:T20
+R19	In_Out Arg1:T22 Arg2:T23
+R20	Agent Arg1:T22 Arg2:T21
+R21	Apply-to Arg1:T20 Arg2:T22
+A5	Judgment T3
+A6	Name T19
+A7	Name T18
+T24	PLAN-OR-PROCESS 0 14	Word Alignment
+T1	PLAN-OR-PROCESS 19 53	Cross-Lingual Resource Acquisition
+T2	DATA-ITEM 56 73	Annotated corpora
+T3	QUALITY 78 86	valuable
+T4	DATA-ITEM 87 96	resources
+T5	PROCESS 101 111	developing
+T6	PLAN 112 152	Natural Language Processing applications
+T25	REFERENCE 155 164	This work
+T26	PROCESS 165 172	focuses
+T7	PROCESS 176 185	acquiring
+T8	DATA-ITEM 186 200	annotated data
+T9	PLAN 205 241	multilingual processing applications
+T10	PERSON 244 246	We
+T11	PROCESS 247 254	present
+T12	PLAN 258 280	annotation environment
+T13	REFERENCE 281 285	that
+T14	PROCESS 286 294	supports
+T15	PLAN 297 321	web-based user-interface
+T16	PROCESS 326 335	acquiring
+T17	PLAN-OR-PROCESS 336 351	word alignments
+T18	LANGUAGE 360 367	English
+T19	LANGUAGE 372 379	Chinese
+T20	PLAN 393 411	visualization tool
+T21	PERSON 416 427	researchers
+T22	PROCESS 431 438	explore
+T23	DATA-ITEM 443 457	annotated data

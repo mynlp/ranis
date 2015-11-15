@@ -1,0 +1,85 @@
+T1	PLAN 0 9	UMCC_DLSI
+T2	DATA-ITEM 24 40	Lexical features
+T3	PLAN-OR-PROCESS 45 54	detection
+T4	DATA-ITEM 74 79	Drugs
+T5	DATA-ITEM 83 99	biomedical texts
+T6	REFERENCE 106 116	this paper
+T7	PERSON 117 119	we
+T8	PROCESS 120 128	describe
+T9	PLAN 129 151	UMCC_DLSI-(DDI) system
+T12	REFERENCE 152 157	which
+T13	PROCESS 158 166	attempts
+T14	PROCESS 170 176	detect
+T15	PROCESS 181 189	classify
+T16	DATA-ITEM 190 203	drug entities
+T17	DATA-ITEM 207 223	biomedical texts
+T18	PERSON 226 228	We
+T19	PROCESS 229 236	discuss
+T20	PROCESS 241 244	use
+T21	PLAN 248 262	semantic class
+T24	PLAN 267 288	words relevant domain
+T25	PROCESS 290 299	extracted
+T26	PLAN 305 311	ISR-WN
+T27	PLAN-OR-PROCESS 313 324	Integration
+T28	DATA-ITEM 328 346	Semantic Resources
+T30	PLAN 356 363	WordNet
+T31	PLAN 365 373	resource
+T32	PROCESS 377 383	obtain
+T33	PERSON 384 387	our
+T34	PLAN 388 392	goal
+T35	PLAN 404 417	this approach
+T36	PERSON 418 421	our
+T37	PLAN 422 428	system
+T38	RESULT 429 437	obtained
+T39	DATA-ITEM 441 450	F-Measure
+T40	QUANTITY 454 459	27.5%
+T41	PLAN 467 485	DDIExtraction 2013
+T42	PLAN 487 506	SemEval 2013 task 9
+T43	DATA-ITEM 11 19	Semantic
+T44	PLAN-OR-PROCESS 59 73	classification
+R1	Input Arg1:T3 Arg2:T2	
+R2	Input Arg1:T3 Arg2:T43	
+R3	Input Arg1:T44 Arg2:T2	
+R4	Input Arg1:T44 Arg2:T43	
+R5	In_Out Arg1:T3 Arg2:T4	
+R6	In_Out Arg1:T44 Arg2:T4	
+R7	Component-object Arg1:T5 Arg2:T4	
+A1	Self T6
+A2	Self T7
+A3	Intentional T8
+R8	Agent Arg1:T8 Arg2:T7	
+R9	Condition Arg1:T8 Arg2:T6	
+R10	Output Arg1:T8 Arg2:T9	
+R11	Coreference Arg1:T12 Arg2:T9	
+R12	Component-object Arg1:T17 Arg2:T16	
+R13	In_Out Arg1:T15 Arg2:T16	
+R14	In_Out Arg1:T14 Arg2:T16	
+R15	Apply-to Arg1:T13 Arg2:T14	
+R16	Apply-to Arg1:T12 Arg2:T13	
+A4	Name T18
+A5	Intentional T19
+R17	Agent Arg1:T19 Arg2:T18	
+R18	Output Arg1:T19 Arg2:T20	
+R19	Apply-to Arg1:T21 Arg2:T20	
+R20	Apply-to Arg1:T24 Arg2:T20	
+R21	Output Arg1:T25 Arg2:T24	
+R22	Output Arg1:T25 Arg2:T21	
+R23	Apply-to Arg1:T26 Arg2:T25	
+R24	In_Out Arg1:T27 Arg2:T28	
+A6	Self T33
+R27	Poss Arg1:T33 Arg2:T34	
+R28	In_Out Arg1:T32 Arg2:T34	
+R29	Split Arg1:T31 Arg2:T26	
+A7	Self T36
+R30	Poss Arg1:T36 Arg2:T37	
+R31	Attribute Arg1:T39 Arg2:T40	
+R32	Component-object Arg1:T41 Arg2:T42	
+R33	to Arg1:T38 Arg2:T40	
+R34	from Arg1:T38 Arg2:T37	
+R35	Attribute Arg1:T37 Arg2:T39	
+R36	Apply-to Arg1:T37 Arg2:T41	
+R37	Apply-to Arg1:T37 Arg2:T42	
+T10	PROCESS 347 355	based on
+R25	Input Arg1:T10 Arg2:T30	
+R26	Output Arg1:T10 Arg2:T28	
+R38	Apply-to Arg1:T20 Arg2:T32	

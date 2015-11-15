@@ -1,0 +1,81 @@
+R1	Apply-to Arg1:T1 Arg2:T2
+A1	Self T36
+A2	Intentional T37
+R2	Condition Arg1:T37 Arg2:T36
+R3	Output Arg1:T37 Arg2:T3
+R4	Input Arg1:T3 Arg2:T5
+R5	to Arg1:T6 Arg2:T7
+R6	from Arg1:T6 Arg2:T3
+R7	Equivalence Arg1:T9 Arg2:T8
+R9	Output Arg1:T7 Arg2:T8
+R10	Coreference Arg1:T11 Arg2:T8
+R11	Condition Arg1:T13 Arg2:T12
+R12	Target Arg1:T13 Arg2:T11
+R13	Is-a Arg1:T11 Arg2:T14
+R14	Attribute Arg1:T16 Arg2:T15
+R15	Agent Arg1:T13 Arg2:T16
+R16	Member-collection Arg1:T16 Arg2:T17
+A3	Self T18
+A4	Intentional T19
+R17	Agent Arg1:T19 Arg2:T18
+R18	Attribute Arg1:T21 Arg2:T20
+R19	In_Out Arg1:T19 Arg2:T21
+R20	Condition Arg1:T21 Arg2:T22
+R21	Equivalence Arg1:T14 Arg2:T22
+R22	Attribute Arg1:T25 Arg2:T24
+R23	Condition Arg1:T25 Arg2:T26
+R24	Attribute Arg1:T28 Arg2:T27
+R25	Attribute Arg1:T31 Arg2:T30
+R26	In_Out Arg1:T31 Arg2:T32
+R27	Apply-to Arg1:T33 Arg2:T31
+A5	Intentional T4
+R28	to Arg1:T23 Arg2:T21
+R29	from Arg1:T23 Arg2:T25
+R30	from Arg1:T23 Arg2:T27
+R31	from Arg1:T23 Arg2:T29
+R32	Coreference Arg1:T38 Arg2:T21
+R33	Poss Arg1:T34 Arg2:T35
+R34	Apply-to Arg1:T35 Arg2:T39
+R35	Target Arg1:T39 Arg2:T38
+R36	Agent Arg1:T4 Arg2:T18
+R37	Output Arg1:T4 Arg2:T39
+A6	Intentional T13
+T1	PLAN 0 35	Pattern-Based Context-Free Grammars
+T2	PLAN-OR-PROCESS 40 59	Machine Translation
+T36	REFERENCE 62 72	This paper
+T37	PROCESS 73 81	proposes
+T3	PROCESS 86 89	use
+T5	PLAN 93 134	`` pattern-based '' context-free grammars
+T6	APPLY-TO 140 145	basis
+T7	PROCESS 150 158	building
+T8	PLAN 159 178;186 193	machine translation systems
+T9	PLAN 181 183	MT
+T11	REFERENCE 196 201	which
+T12	TIME 206 209	now
+T13	PROCESS 216 223	adopted
+T14	PLAN 227 241	personal tools
+T15	QUALITY 247 258	broad range
+T16	PERSON 262 267	users
+T17	ORGANIZATION 275 293	cyberspace society
+T18	PERSON 296 298	We
+T19	PROCESS 299 306	discuss
+T20	QUALITY 307 312	major
+T21	PLAN 313 325	requirements
+T22	PLAN 330 340	such tools
+T23	IS-A 343 352	including
+T24	QUALITY 353 357	easy
+T25	PLAN-OR-PROCESS 358 371	customization
+T26	DOMAIN 376 391	diverse domains
+T27	QUALITY 398 408	efficiency
+T28	PLAN 416 437	translation algorithm
+T29	QUALITY 444 455	scalability
+T30	QUALITY 458 469	incremental
+T31	PROCESS 470 481	improvement
+T32	QUALITY 485 504	translation quality
+T33	PLAN-OR-PROCESS 513 529	user interaction
+T40	PERSON 513 517	user
+T4	PROCESS 538 546	describe
+T34	PERSON 551 554	our
+T35	PLAN 555 563	approach
+T39	PROCESS 564 569	meets
+T38	PLAN 570 588	these requirements

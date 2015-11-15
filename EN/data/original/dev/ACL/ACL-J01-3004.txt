@@ -1,0 +1,8 @@
+Towards Constructive Text, Diagram, and Layout Generation for Information Presentation
+
+Combining elements appropriately within a coherent page layout is a well-recognized and crucial aspect of sophisticated information presentation.
+The precise function and nature of layout has not, however, been sufficiently addressed within computational approaches; attention is often restricted to relatively local issues of typography and text-formatting, leaving broader issues of layout unaddressed.
+In this paper we focus on the selection and function of layout in pages that appropriately combine textual and graphical representation styles to yield coherent presentation designs.
+We demonstrate that layout offers a rich resource for achieving presentational coherence, alongside more traditional resources such as text-formatting and the text-internal marking of discourse connections.
+We also introduce an integrated approach to layout, text, and diagram generation.
+Our approach is developed on the basis of a preliminary empirical investigation of professionally produced layouts, followed by implementation within a prototype information system in the area of art history.

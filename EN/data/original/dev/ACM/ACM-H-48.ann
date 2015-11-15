@@ -1,0 +1,183 @@
+T1	RESULT 135 145	influenced
+T2	PROCESS 365 377	dealing with
+T3	PROCESS 404 416	implementing
+T4	PROCESS 447 456	evaluated
+T5	PROCESS 460 469	executing
+T6	PROCESS 531 540	comparing
+T7	PROCESS 637 644	measure
+T8	PROCESS 680 690	overcoming
+T9	PROCESS 781 788	provide
+T10	PROCESS 829 835	behave
+T11	PROCESS 930 940	evaluating
+T12	PROCESS 1016 1024	provides
+T13	INPUT 1117 1126	makes use
+T14	QUALITY 1182 1189	require
+T15	MODALITY 624 627	not
+T16	MODALITY 823 828	would
+T17	MODALITY 1178 1181	not
+T18	QUALITY 437 446	typically
+T19	QUALITY 628 636	directly
+T20	QUALITY 695 703	inherent
+T21	QUALITY 913 916	new
+T22	QUALITY 1130 1147	readily available
+T23	QUALITY 1194 1204	additional
+T24	QUANTITY 545 548	two
+T25	PLAN 6 14	Approach
+T26	PLAN-OR-PROCESS 30 45	Query Expansion
+T27	PLAN 47 75	Query-Document Term Mismatch
+T28	QUALITY 80 93	effectiveness
+T29	PLAN 97 118	information retrieval
+T30	PLAN 124 131	systems
+T31	QUALITY 163 175	term overlap
+T32	DATA-ITEM 184 196	user queries
+T33	DATA-ITEM 201 219	relevant documents
+T34	PLAN 221 249	Query-document term mismatch
+T35	PLAN 282 286	fact
+T36	PLAN 314 324	IR systems
+T37	PLAN 326 341	Query Expansion
+T38	PLAN 343 345	QE
+T39	PLAN 354 360	method
+T40	PLAN 378 391	term mismatch
+T41	PLAN 393 403	IR systems
+T42	PLAN 417 432	query expansion
+T43	DATA-ITEM 475 480	query
+T44	PLAN 505 520	query expansion
+T45	DATA-ITEM 549 560	result sets
+T46	DATA-ITEM 585 599	overall change
+T47	DATA-ITEM 603 614	performance
+T48	REFERENCE 616 618	it
+T49	QUALITY 649 662	effectiveness
+T50	PLAN 666 676	IR systems
+T51	PLAN 704 709	issue
+T52	PLAN 713 726	term mismatch
+T53	DATA-ITEM 739 744	query
+T54	DATA-ITEM 749 767	relevant documents
+T55	PLAN 810 822	such systems
+T56	MODALITY 843 851	presence
+T57	PLAN 855 883	query-document term mismatch
+T58	PLAN 917 925	approach
+T59	PLAN 941 967	query expansion techniques
+T60	PLAN 973 990	proposed approach
+T61	REFERENCE 1013 1015	it
+T62	DATA-ITEM 1028 1036	estimate
+T63	DATA-ITEM 1040 1058	system performance
+T64	QUANTITY 1065 1080	varying degrees
+T65	PLAN 1084 1112	query-document term mismatch
+T67	DATA-ITEM 1148 1164	test collections
+T68	REFERENCE 1170 1172	it
+T69	DATA-ITEM 1205 1224	relevance judgments
+T70	PLAN 1232 1236	form
+T71	PLAN 1240 1257	manual processing
+T72	QUALITY 2 5	New
+R1	Attribute Arg1:T25 Arg2:T72	
+T73	PROCESS 19 29	Evaluating
+T74	PLAN 120 122	IR
+R2	Equivalence Arg1:T74 Arg2:T29	
+R3	Split Arg1:T30 Arg2:T29	
+T75	QUANTITY 153 159	degree
+T76	PERSON 184 188	user
+T77	QUALITY 259 266	partial
+T78	QUALITY 270 275	total
+T79	MODALITY 292 296	must
+T80	PROCESS 300 310	dealt with
+R4	Attribute Arg1:T34 Arg2:T77	
+R5	Attribute Arg1:T34 Arg2:T78	
+R6	Attribute Arg1:T80 Arg2:T79	
+R7	Equivalence Arg1:T38 Arg2:T37	
+T81	QUANTITY 350 353	one
+R8	Attribute Arg1:T39 Arg2:T81	
+R9	Attribute Arg1:T4 Arg2:T18	
+T82	QUALITY 470 474	each
+T83	QUANTITY 481 486	twice
+R10	Attribute Arg1:T5 Arg2:T83	
+R11	Attribute Arg1:T43 Arg2:T82	
+T84	MODALITY 497 504	without
+R12	Attribute Arg1:T44 Arg2:T84	
+R13	Attribute Arg1:T45 Arg2:T24	
+T85	REFERENCE 568 572	this
+R14	Coreference Arg1:T48 Arg2:T85	
+R15	Attribute Arg1:T7 Arg2:T19	
+R16	Attribute Arg1:T19 Arg2:T15	
+R17	Attribute Arg1:T51 Arg2:T20	
+T86	MODALITY 769 772	nor
+R18	Attribute Arg1:T9 Arg2:T86	
+T87	PLAN 793 800	insight
+R19	Attribute Arg1:T10 Arg2:T16	
+R20	Attribute Arg1:T58 Arg2:T21	
+T88	QUALITY 994 1004	attractive
+R21	Attribute Arg1:T60 Arg2:T88	
+R22	Coreference Arg1:T61 Arg2:T60	
+T89	REFERENCE 1114 1116	it
+R23	Coreference Arg1:T89 Arg2:T61	
+R24	Attribute Arg1:T67 Arg2:T22	
+R25	Coreference Arg1:T68 Arg2:T89	
+R26	Attribute Arg1:T14 Arg2:T17	
+T90	PROCESS 573 581	measures
+R28	Attribute Arg1:T50 Arg2:T49	
+R29	Coreference Arg1:T85 Arg2:T4	
+R30	Coreference Arg1:T55 Arg2:T50	
+R31	Attribute Arg1:T69 Arg2:T23	
+T91	REFERENCE 778 780	it
+T93	REFERENCE 287 291	that
+R32	Coreference Arg1:T93 Arg2:T35	
+R27	Attribute Arg1:T30 Arg2:T28	
+R33	Input Arg1:T73 Arg2:T26	
+R34	Apply-to Arg1:T25 Arg2:T73	
+R35	to Arg1:T1 Arg2:T28	
+R36	Attribute Arg1:T31 Arg2:T75	
+R37	Attribute Arg1:T32 Arg2:T31	
+R38	Attribute Arg1:T33 Arg2:T31	
+R39	from Arg1:T1 Arg2:T75	
+R40	Is-a Arg1:T34 Arg2:T35	
+R41	Apply-to Arg1:T36 Arg2:T80	
+R42	Target Arg1:T80 Arg2:T93	
+R43	Is-a Arg1:T37 Arg2:T39	
+R44	Apply-to Arg1:T39 Arg2:T2	
+R45	Target Arg1:T2 Arg2:T40	
+R46	Apply-to Arg1:T41 Arg2:T3	
+R47	Output Arg1:T3 Arg2:T42	
+R48	Apply-to Arg1:T41 Arg2:T4	
+R49	Apply-to Arg1:T5 Arg2:T4	
+R50	Input Arg1:T5 Arg2:T43	
+R51	Condition Arg1:T5 Arg2:T44	
+R52	Apply-to Arg1:T6 Arg2:T4	
+R53	Input Arg1:T6 Arg2:T45	
+R54	Apply-to Arg1:T85 Arg2:T90	
+R55	In_Out Arg1:T90 Arg2:T46	
+R56	Condition Arg1:T46 Arg2:T47	
+R57	Apply-to Arg1:T48 Arg2:T7	
+R58	In_Out Arg1:T7 Arg2:T49	
+R59	Is-a Arg1:T52 Arg2:T51	
+R60	Target Arg1:T8 Arg2:T52	
+R61	Condition Arg1:T52 Arg2:T53	
+R62	Condition Arg1:T52 Arg2:T54	
+R63	Coreference Arg1:T91 Arg2:T48	
+R64	Apply-to Arg1:T91 Arg2:T9	
+R65	Output Arg1:T9 Arg2:T87	
+R66	Condition Arg1:T87 Arg2:T10	
+R67	Apply-to Arg1:T55 Arg2:T10	
+R68	Condition Arg1:T10 Arg2:T57	
+R69	Apply-to Arg1:T58 Arg2:T11	
+R70	Input Arg1:T11 Arg2:T59	
+R71	Apply-to Arg1:T61 Arg2:T12	
+R72	Output Arg1:T12 Arg2:T62	
+R73	Attribute Arg1:T63 Arg2:T62	
+R74	Condition Arg1:T63 Arg2:T65	
+R75	Attribute Arg1:T65 Arg2:T64	
+R76	from Arg1:T13 Arg2:T89	
+R77	to Arg1:T13 Arg2:T67	
+R78	Condition Arg1:T14 Arg2:T68	
+R79	Attribute Arg1:T69 Arg2:T14	
+R81	Member-collection Arg1:T70 Arg2:T71	
+R82	Is-a Arg1:T27 Arg2:T25	
+R83	Attribute Arg1:T57 Arg2:T56	
+R84	Attribute Arg1:T71 Arg2:T14	
+T66	MODALITY 251 258	whether
+R80	Attribute Arg1:T77 Arg2:T66	
+R85	Attribute Arg1:T78 Arg2:T66	
+T92	PERSON 900 902	we
+T94	REFERENCE 888 898	this paper
+T95	PROCESS 903 910	propose
+R86	Agent Arg1:T95 Arg2:T92	
+R87	Condition Arg1:T95 Arg2:T94	
+R88	Output Arg1:T95 Arg2:T58	

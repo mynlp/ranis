@@ -1,0 +1,123 @@
+T1	PLAN-OR-PROCESS 0 22	Semantic Role Labeling
+T2	DATA-ITEM 26 44	Implicit Arguments
+T3	DATA-ITEM 49 67	Nominal Predicates
+T4	DATA-ITEM 69 87	Nominal predicates
+T5	QUALITY 88 93	often
+T6	PROCESS 94 99	carry
+T7	DATA-ITEM 100 118	implicit arguments
+T8	EXTERNAL-REFERENCE 120 131	Recent work
+T9	PLAN-OR-PROCESS 135 157	semantic role labeling
+T10	PROCESS 162 169	focused
+T11	PROCESS 173 184	identifying
+T12	DATA-ITEM 185 194	arguments
+T13	DATA-ITEM 206 219	local context
+T14	DATA-ITEM 225 234	predicate
+T15	DATA-ITEM 236 254	implicit arguments
+T16	MODALITY 270 273	not
+T17	QUALITY 279 293	systematically
+T18	PROCESS 294 302	examined
+T19	PROCESS 307 314	address
+T20	OCCURENT 315 330	this limitation
+T21	PERSON 332 334	we
+T22	QUALITY 340 348	manually
+T23	PROCESS 349 358	annotated
+T24	DATA-ITEM 361 367	corpus
+T25	DATA-ITEM 371 389	implicit arguments
+T26	QUANTITY 394 397	ten
+T27	DATA-ITEM 398 408	predicates
+T28	PLAN 414 421	NomBank
+T29	PLAN-OR-PROCESS 431 439	analysis
+T30	DATA-ITEM 443 454	this corpus
+T31	PERSON 456 458	we
+T32	PROCESS 459 463	find
+T33	DATA-ITEM 469 487	implicit arguments
+T34	PROCESS 488 491	add
+T35	QUANTITY 492 495	71%
+T36	DATA-ITEM 503 522	argument structures
+T37	REFERENCE 523 527	that
+T38	COMPONENT-OBJECT 532 539	present
+T39	PLAN 543 550	NomBank
+T40	INPUT 552 557	Using
+T41	DATA-ITEM 562 568	corpus
+T42	PERSON 570 572	we
+T43	PROCESS 573 578	train
+T44	PLAN 581 601	discriminative model
+T45	REFERENCE 602 606	that
+T46	MODALITY 610 614	able
+T47	PROCESS 618 626	identify
+T48	DATA-ITEM 627 645	implicit arguments
+T49	DATA-ITEM 654 662	F1 score
+T50	QUANTITY 666 669	50%
+T51	QUALITY 671 684	significantly
+T52	QUALITY 685 698	outperforming
+T53	QUALITY 702 710	informed
+T54	PLAN 711 725	baseline model
+T55	PERSON 750 753	our
+T56	PROCESS 769 777	explores
+T57	QUALITY 780 792	wide variety
+T58	DATA-ITEM 796 804	features
+T59	QUALITY 805 814	important
+T60	PLAN 823 827	task
+R1	Input Arg1:T1 Arg2:T2	
+R2	Input Arg1:T1 Arg2:T3	
+R3	Attribute Arg1:T6 Arg2:T5	
+R4	Output Arg1:T6 Arg2:T7	
+R5	Agent Arg1:T6 Arg2:T4	
+R6	Condition Arg1:T8 Arg2:T9	
+R7	In_Out Arg1:T11 Arg2:T12	
+R8	Target Arg1:T10 Arg2:T11	
+R9	Condition Arg1:T10 Arg2:T8	
+R10	Attribute Arg1:T14 Arg2:T13	
+R12	Condition Arg1:T12 Arg2:T13	
+R13	Attribute Arg1:T18 Arg2:T17	
+R11	Attribute Arg1:T18 Arg2:T16	
+R14	In_Out Arg1:T18 Arg2:T15	
+R15	Coreference Arg1:T20 Arg2:T18	
+R16	Target Arg1:T19 Arg2:T20	
+A1	Self T21
+R17	Attribute Arg1:T23 Arg2:T22	
+R18	Agent Arg1:T23 Arg2:T21	
+R19	Output Arg1:T23 Arg2:T24	
+R20	Member-collection Arg1:T25 Arg2:T24	
+R21	Attribute Arg1:T27 Arg2:T26	
+R22	Other-rel Arg1:T27 Arg2:T28	
+R23	Condition Arg1:T25 Arg2:T27	
+R24	Coreference Arg1:T30 Arg2:T24	
+R25	Input Arg1:T29 Arg2:T30	
+A2	Self T31
+R26	Agent Arg1:T32 Arg2:T31	
+R27	Coreference Arg1:T37 Arg2:T36	
+R28	from Arg1:T38 Arg2:T37	
+R29	to Arg1:T38 Arg2:T39	
+R30	Attribute Arg1:T36 Arg2:T35	
+R31	In_Out Arg1:T43 Arg2:T44	
+A3	Intentional T43
+A4	Self T42
+R32	Agent Arg1:T43 Arg2:T42	
+R33	to Arg1:T40 Arg2:T41	
+R34	from Arg1:T40 Arg2:T43	
+R35	Attribute Arg1:T47 Arg2:T46	
+R36	Output Arg1:T47 Arg2:T48	
+R37	Apply-to Arg1:T45 Arg2:T47	
+R38	Coreference Arg1:T45 Arg2:T44	
+R39	Attribute Arg1:T49 Arg2:T50	
+R40	Attribute Arg1:T44 Arg2:T49	
+R41	Attribute Arg1:T52 Arg2:T51	
+R42	Attribute Arg1:T54 Arg2:T53	
+A5	Judgment T52
+R43	Compare Arg1:T54 Arg2:T52	
+R44	Attribute Arg1:T44 Arg2:T52	
+T66	REFERENCE 727 739	This article
+A6	Self T66
+T67	PROCESS 740 749	describes
+A7	Intentional T67
+R45	Condition Arg1:T67 Arg2:T66	
+T68	PLAN 754 767	investigation
+R46	Poss Arg1:T55 Arg2:T68	
+A8	Self T55
+R47	Output Arg1:T67 Arg2:T68	
+R48	Attribute Arg1:T58 Arg2:T57	
+R49	Attribute Arg1:T58 Arg2:T59	
+R50	Condition Arg1:T59 Arg2:T60	
+R51	In_Out Arg1:T56 Arg2:T58	
+R52	Condition Arg1:T56 Arg2:T66	

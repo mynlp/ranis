@@ -1,0 +1,4 @@
+Constructing Verb Semantic Classes For French : Methods And Evaluation .
+In this paper , we study a reformulation , which is better adapted to NLP , of the alternation system developed for English by B. Levin .
+We have studied a set of 1700 verbs from which we explain how verb semantic classes can be built in a systematic way .
+The quality of the results w.r.t. semantic classifications such as WordNet is then evaluated .

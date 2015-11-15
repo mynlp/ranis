@@ -1,0 +1,151 @@
+R1	Apply-to Arg1:T1 Arg2:T2
+A1	Self T69
+R2	Equivalence Arg1:T5 Arg2:T4
+R3	In_Out Arg1:T70 Arg2:T3
+R4	Apply-to Arg1:T3 Arg2:T6
+R5	Input Arg1:T3 Arg2:T4
+R6	Condition Arg1:T70 Arg2:T69
+R7	Equivalence Arg1:T8 Arg2:T7
+R8	In_Out Arg1:T6 Arg2:T7
+R9	Member-collection Arg1:T71 Arg2:T10
+R10	Is-a Arg1:T9 Arg2:T10
+R11	Attribute Arg1:T13 Arg2:T12
+R12	from Arg1:T11 Arg2:T71
+R13	to Arg1:T11 Arg2:T13
+R14	Attribute Arg1:T15 Arg2:T14
+R15	Member-collection Arg1:T16 Arg2:T15
+R16	to Arg1:T72 Arg2:T15
+R17	Apply-to Arg1:T17 Arg2:T18
+R18	Input Arg1:T18 Arg2:T19
+R19	Apply-to Arg1:T18 Arg2:T20
+R20	Output Arg1:T20 Arg2:T21
+R21	Attribute Arg1:T24 Arg2:T23
+R22	Member-collection Arg1:T24 Arg2:T25
+R23	from Arg1:T22 Arg2:T24
+R24	to Arg1:T22 Arg2:T21
+R25	Agent Arg1:T26 Arg2:T27
+R26	Output Arg1:T26 Arg2:T21
+R27	from Arg1:T72 Arg2:T18
+A2	Self T28
+A3	Intentional T29
+A4	Intentional T70
+R28	Agent Arg1:T29 Arg2:T28
+R29	In_Out Arg1:T29 Arg2:T30
+R30	from Arg1:T33 Arg2:T31
+R31	to Arg1:T33 Arg2:T34
+R32	Attribute Arg1:T33 Arg2:T32
+R33	In_Out Arg1:T34 Arg2:T35
+R34	Apply-to Arg1:T37 Arg2:T36
+R35	Output Arg1:T36 Arg2:T35
+R36	to Arg1:T33 Arg2:T38
+R37	Attribute Arg1:T40 Arg2:T39
+R38	Member-collection Arg1:T41 Arg2:T40
+R39	Output Arg1:T38 Arg2:T40
+R40	Coreference Arg1:T42 Arg2:T40
+R41	Attribute Arg1:T42 Arg2:T43
+R43	from Arg1:T73 Arg2:T64
+R44	to Arg1:T73 Arg2:T63
+R45	from Arg1:T74 Arg2:T44
+R46	to Arg1:T74 Arg2:T43
+R42	Output Arg1:T45 Arg2:T44
+R47	Apply-to Arg1:T46 Arg2:T45
+A5	Self T47
+A6	Intentional T48
+R48	Agent Arg1:T48 Arg2:T47
+R49	Output Arg1:T48 Arg2:T49
+R50	Coreference Arg1:T50 Arg2:T49
+R51	Output Arg1:T55 Arg2:T54
+R52	Output Arg1:T53 Arg2:T52
+R53	Output Arg1:T51 Arg2:T52
+R54	Output Arg1:T51 Arg2:T54
+R55	Apply-to Arg1:T50 Arg2:T51
+R56	Attribute Arg1:T59 Arg2:T58
+R57	Attribute Arg1:T59 Arg2:T57
+A7	Judgment T63
+R59	Attribute Arg1:T62 Arg2:T63
+R60	Apply-to Arg1:T61 Arg2:T62
+R61	Condition Arg1:T64 Arg2:T75
+R62	from Arg1:T60 Arg2:T56
+R63	to Arg1:T60 Arg2:T63
+R64	Condition Arg1:T68 Arg2:T67
+R65	Output Arg1:T68 Arg2:T66
+R66	Output Arg1:T65 Arg2:T56
+R67	Input Arg1:T65 Arg2:T66
+R68	Attribute Arg1:T7 Arg2:T9
+A8	Judgment T43
+R69	Input Arg1:T65 Arg2:T59
+T1	PLAN-OR-PROCESS 0 23	Automatic Set Expansion
+T2	PLAN-OR-PROCESS 28 51	List Question Answering
+T69	REFERENCE 54 64	This paper
+T70	PROCESS 65 73	explores
+T3	PROCESS 78 81	use
+T4	PLAN-OR-PROCESS 85 98	set expansion
+T5	PLAN-OR-PROCESS 101 103	SE
+T6	PROCESS 109 116	improve
+T7	PLAN-OR-PROCESS 117 135	question answering
+T8	PLAN-OR-PROCESS 138 140	QA
+T9	DATA-ITEM 152 167	expected answer
+T10	DATA-ITEM 173 177	list
+T71	DATA-ITEM 181 189	entities
+T11	IS-A 190 199	belonging
+T12	QUALITY 205 212	certain
+T13	DATA-ITEM 213 218	class
+T72	INPUT 221 226	Given
+T14	QUALITY 229 234	small
+T15	DATA-ITEM 235 238	set
+T16	DATA-ITEM 242 247	seeds
+T17	PLAN 250 263	SE algorithms
+T18	PROCESS 264 268	mine
+T19	DATA-ITEM 269 286	textual resources
+T20	PROCESS 290 297	produce
+T21	DATA-ITEM 301 314	extended list
+T22	MEMBER-COLLECTION 315 324	including
+T23	QUALITY 325 335	additional
+T24	DATA-ITEM 336 343	members
+T25	DATA-ITEM 351 356	class
+T26	PROCESS 357 368	represented
+T27	DATA-ITEM 376 381	seeds
+T28	PERSON 384 386	We
+T29	PROCESS 387 394	explore
+T30	PLAN 399 409	hypothesis
+T31	PLAN 417 445	noise-resistant SE algorithm
+T32	MODALITY 446 449	can
+T33	APPLY-TO 453 457	used
+T34	PROCESS 461 467	extend
+T35	DATA-ITEM 468 485	candidate answers
+T36	PROCESS 486 494	produced
+T37	PLAN 500 509	QA system
+T38	PROCESS 514 522	generate
+T39	QUALITY 525 528	new
+T40	DATA-ITEM 529 533	list
+T41	DATA-ITEM 537 544	answers
+T42	REFERENCE 545 549	that
+T43	QUALITY 553 559	better
+T74	COMPARE 560 564	than
+T44	DATA-ITEM 569 582	original list
+T45	PROCESS 583 591	produced
+T46	PLAN 599 608	QA system
+T47	PERSON 611 613	We
+T48	PROCESS 622 631	introduce
+T49	PLAN 634 649	hybrid approach
+T50	REFERENCE 650 655	which
+T51	PROCESS 656 664	combines
+T52	DATA-ITEM 669 685	original answers
+T53	PLAN 695 704	QA system
+T54	DATA-ITEM 714 720	output
+T55	PLAN 730 742	SE algorithm
+T56	DATA-ITEM 745 765	Experimental results
+T57	QUANTITY 770 777	several
+T58	QUALITY 778 794	state-of-the-art
+T59	PLAN 795 805	QA systems
+T60	RESULT 806 810	show
+T61	PLAN 820 833	hybrid system
+T62	PROCESS 834 842	performs
+T63	QUALITY 843 849	better
+T73	COMPARE 850 854	than
+T64	PLAN 859 869	QA systems
+T75	QUALITY 870 875	alone
+T65	PROCESS 881 887	tested
+T66	DATA-ITEM 891 909	list question data
+T67	TIME 915 919	past
+T68	PLAN 920 936	TREC evaluations

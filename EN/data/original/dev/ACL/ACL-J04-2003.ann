@@ -1,0 +1,183 @@
+T1	PLAN-OR-PROCESS 0 31	Statistical Machine Translation
+T2	QUALITY 37 43	Scarce
+T3	DATA-ITEM 44 53	Resources
+T4	INPUT 54 59	Using
+T5	DATA-ITEM 60 88	Morpho-syntactic Information
+T6	PLAN-OR-PROCESS 93 124	statistical machine translation
+T7	DATA-ITEM 126 141	correspondences
+T8	DATA-ITEM 154 159	words
+T9	LANGUAGE 167 173;189 197	source language
+T10	LANGUAGE 182 197	target language
+T11	PROCESS 202 209	learned
+T12	DATA-ITEM 215 231	parallel corpora
+T14	QUALITY 237 242	often
+T15	QUANTITY 243 249	little
+T16	MODALITY 253 255	no
+T17	DATA-ITEM 256 276	linguistic knowledge
+T18	INPUT 280 284	used
+T19	PROCESS 288 297	structure
+T20	PLAN 302 319	underlying models
+T22	PLAN 345 364	statistical systems
+T23	QUALITY 336 344	existing
+T24	PLAN-OR-PROCESS 369 388	machine translation
+T25	QUALITY 389 394	often
+T26	PROCESS 395 400	treat
+T27	DATA-ITEM 439 444	lemma
+T28	QUALITY 434 438	same
+T29	QUALITY 401 410	different
+T30	DATA-ITEM 411 426	inflected forms
+T31	REFERENCE 451 455	they
+R1	Coreference Arg1:T31 Arg2:T30	
+T32	QUALITY 461 472	independent
+T34	DATA-ITEM 493 516	bilingual training data
+T35	MODALITY 517 520	can
+T36	PROCESS 531 540	exploited
+T37	QUALITY 524 530	better
+T38	QUALITY 544 554	explicitly
+T39	PROCESS 555 574	taking into account
+T41	DATA-ITEM 579 596	interdependencies
+T42	QUALITY 600 607	related
+T43	DATA-ITEM 608 623	inflected forms
+T40	PLAN-OR-PROCESS 640 652	construction
+T44	DATA-ITEM 656 683	hierarchical lexicon models
+T45	DATA-ITEM 700 719	equivalence classes
+T46	DATA-ITEM 723 728	words
+T47	PLAN 756 800	sentence-level restructuring transformations
+T48	PROCESS 807 810	aim
+T49	PROCESS 818 830	assimilation
+T50	DATA-ITEM 834 844	word order
+T51	DATA-ITEM 856 865	sentences
+T52	QUALITY 848 855	related
+T53	DATA-ITEM 917 940	bilingual training data
+T54	DATA-ITEM 907 913	amount
+T55	CONDITION 941 949	required
+T56	PROCESS 953 961	maintain
+T57	QUALITY 965 975	acceptable
+T58	DATA-ITEM 976 983	quality
+T59	PLAN-OR-PROCESS 987 1006	machine translation
+T60	PLAN 1012 1023	combination
+T61	PLAN 1031 1048	suggested methods
+T63	PROCESS 1053 1062	improving
+T64	DATA-ITEM 1063 1082	translation quality
+T65	PLAN 1086 1096	frameworks
+T66	QUALITY 1102 1108	scarce
+T67	DATA-ITEM 1109 1118	resources
+T68	QUALITY 1128 1140	successfully
+T69	PROCESS 1141 1147	tested
+T70	MODALITY 1157 1161	able
+T71	PROCESS 1165 1171	reduce
+T72	DATA-ITEM 1186 1209	bilingual training data
+T73	QUALITY 1176 1182	amount
+T75	QUANTITY 1213 1226	less than 10%
+T76	DATA-ITEM 1234 1249	original corpus
+T77	DATA-ITEM 1277 1296	translation quality
+T78	QUANTITY 1269 1273	1.6%
+T79	PROCESS 1257 1263	losing
+T80	JUDGING-PROCESS 1302 1313	improvement
+T81	DATA-ITEM 1321 1340	translation results
+T82	PROCESS 1344 1356	demonstrated
+T83	QUANTITY 1360 1363	two
+T84	DATA-ITEM 1364 1386	German-English corpora
+T85	LANGUAGE 1364 1370	German
+T86	LANGUAGE 1371 1378	English
+T87	PROCESS 1387 1392	taken
+T88	PLAN 1402 1411	Verbmobil
+T89	PLAN 1425 1433	Nespole!
+T90	PLAN 1402 1416	Verbmobil task
+T91	PLAN 1425 1438	Nespole! task
+R2	Attribute Arg1:T3 Arg2:T2	
+R3	Attribute Arg1:T22 Arg2:T23	
+R4	Attribute Arg1:T30 Arg2:T29	
+R5	Attribute Arg1:T27 Arg2:T28	
+R6	Attribute Arg1:T43 Arg2:T42	
+R7	Attribute Arg1:T51 Arg2:T52	
+R8	Attribute Arg1:T58 Arg2:T57	
+R9	Attribute Arg1:T67 Arg2:T66	
+R10	Attribute Arg1:T84 Arg2:T83	
+R11	Attribute Arg1:T26 Arg2:T25	
+R14	Attribute Arg1:T37 Arg2:T35	
+R15	Attribute Arg1:T36 Arg2:T37	
+R16	Attribute Arg1:T39 Arg2:T38	
+R18	Attribute Arg1:T17 Arg2:T16	
+R19	Attribute Arg1:T17 Arg2:T15	
+R20	Attribute Arg1:T18 Arg2:T14	
+R21	Attribute Arg1:T71 Arg2:T70	
+R22	Attribute Arg1:T69 Arg2:T68	
+R23	Member-collection Arg1:T72 Arg2:T76	
+R24	Attribute Arg1:T77 Arg2:T78	
+T13	QUALITY 476 487	one another
+T33	REFERENCE 801 806	which
+R28	Coreference Arg1:T33 Arg2:T47	
+R29	from Arg1:T4 Arg2:T1	
+R30	to Arg1:T4 Arg2:T5	
+R31	Attribute Arg1:T7 Arg2:T8	
+R32	Attribute Arg1:T8 Arg2:T9	
+R33	Attribute Arg1:T8 Arg2:T10	
+R34	Input Arg1:T11 Arg2:T12	
+R35	Output Arg1:T11 Arg2:T7	
+R36	Output Arg1:T19 Arg2:T20	
+R37	to Arg1:T18 Arg2:T17	
+R38	from Arg1:T18 Arg2:T19	
+R39	Apply-to Arg1:T6 Arg2:T11	
+R40	Apply-to Arg1:T6 Arg2:T19	
+R41	Apply-to Arg1:T22 Arg2:T24	
+R42	Apply-to Arg1:T22 Arg2:T26	
+R43	Target Arg1:T26 Arg2:T30	
+R44	Attribute Arg1:T27 Arg2:T30	
+R45	Attribute Arg1:T31 Arg2:T32	
+R46	Output Arg1:T36 Arg2:T34	
+R47	Target Arg1:T39 Arg2:T41	
+R48	Apply-to Arg1:T39 Arg2:T36	
+R49	Attribute Arg1:T43 Arg2:T41	
+R50	Output Arg1:T40 Arg2:T44	
+R51	Attribute Arg1:T46 Arg2:T45	
+T94	INPUT 684 696	on the basis
+R52	to Arg1:T94 Arg2:T45	
+R53	from Arg1:T94 Arg2:T40	
+R54	Apply-to Arg1:T33 Arg2:T48	
+R55	Target Arg1:T48 Arg2:T49	
+R56	In_Out Arg1:T49 Arg2:T50	
+R57	Condition Arg1:T50 Arg2:T51	
+R17	Attribute Arg1:T53 Arg2:T54	
+R59	Attribute Arg1:T59 Arg2:T58	
+R60	Target Arg1:T56 Arg2:T58	
+R58	from Arg1:T55 Arg2:T54	
+R61	from Arg1:T55 Arg2:T56	
+R62	Input Arg1:T60 Arg2:T61	
+R63	Apply-to Arg1:T60 Arg2:T63	
+R64	In_Out Arg1:T63 Arg2:T64	
+R65	Attribute Arg1:T65 Arg2:T64	
+R66	Attribute Arg1:T65 Arg2:T67	
+R67	Input Arg1:T1 Arg2:T3	
+R68	Input Arg1:T69 Arg2:T60	
+R69	Attribute Arg1:T72 Arg2:T73	
+R70	In_Out Arg1:T71 Arg2:T73	
+R71	Attribute Arg1:T73 Arg2:T75	
+R25	Compare Arg1:T76 Arg2:T75	
+R72	In_Out Arg1:T79 Arg2:T77	
+R73	In_Out Arg1:T80 Arg2:T81	
+R74	Output Arg1:T87 Arg2:T84	
+R75	Input Arg1:T87 Arg2:T90	
+R76	Input Arg1:T87 Arg2:T91	
+R77	Output Arg1:T82 Arg2:T80	
+R78	Input Arg1:T82 Arg2:T84	
+R12	Attribute Arg1:T32 Arg2:T13	
+T21	MODALITY 445 450	as if
+R13	Attribute Arg1:T32 Arg2:T21	
+T62	PERSON 625 627	We
+T74	PROCESS 628 635	propose
+T92	PERSON 743 745	we
+T93	PROCESS 746 755	introduce
+T95	PERSON 867 869	We
+T96	PROCESS 890 902	investigated
+T97	QUALITY 875 889	systematically
+R26	Attribute Arg1:T96 Arg2:T97	
+R27	Agent Arg1:T96 Arg2:T95	
+R79	In_Out Arg1:T96 Arg2:T54	
+T98	PERSON 1149 1151	We
+R80	Condition Arg1:T71 Arg2:T79	
+R81	Agent Arg1:T74 Arg2:T62	
+R82	Agent Arg1:T93 Arg2:T92	
+R83	Agent Arg1:T71 Arg2:T98	
+R84	Output Arg1:T74 Arg2:T40	
+R85	Output Arg1:T93 Arg2:T47	

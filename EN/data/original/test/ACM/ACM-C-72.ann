@@ -1,0 +1,163 @@
+T1	PLAN 0 5	GUESS
+T2	PLAN 7 55	Gossiping Updates for Efficient Spectrum Sensing
+R1	Equivalence Arg1:T2 Arg2:T1	
+T3	ARTIFACT 56 71	Wireless radios
+T4	TIME 79 85	future
+T5	MODALITY 91 97	likely
+T6	QUALITY 101 116	frequency-agile
+T7	PROCESS 127 137	supporting
+T8	PLAN-OR-PROCESS 165 168	use
+T9	DATA-ITEM 176 187	RF spectrum
+T11	ARTIFACT 189 200	Such radios
+T12	MODALITY 201 205	must
+T13	PROCESS 206 216	coordinate
+T14	REFERENCE 222 232	each other
+T15	PROCESS 236 241	build
+T16	QUALITY 245 253	accurate
+T17	QUALITY 258 268	consistent
+T18	DATA-ITEM 269 272	map
+T19	PROCESS 276 296	spectral utilization
+T20	LOCATION 306 318	surroundings
+T22	PLAN 336 343	problem
+T23	PROCESS 347 354	sharing
+T24	DATA-ITEM 355 371	RF spectrum data
+T25	ARTIFACT 380 390	collection
+T26	ARTIFACT 394 410	wireless devices
+T27	QUALITY 425 437	requirements
+T28	DATA-ITEM 441 450	such data
+T29	QUALITY 459 475	time-granularity
+T30	REFERENCE 479 484	which
+T31	REFERENCE 485 487	it
+T32	MODALITY 488 492	must
+T33	PROCESS 496 505	collected
+T34	RESULT 506 511	makes
+T35	PLAN 512 524	this problem
+T36	QUALITY 530 541	interesting
+T37	QUALITY 546 569	technically challenging
+R3	Coreference Arg1:T30 Arg2:T29	
+T21	PLAN 582 587	GUESS
+T39	QUALITY 591 596	novel
+T40	PLAN 597 627	incremental gossiping approach
+T41	PLAN-OR-PROCESS 631 659	coordinated spectral sensing
+T42	PROCESS 668 675	reduces
+T43	REFERENCE 661 663	It
+R4	Coreference Arg1:T43 Arg2:T21	
+T44	QUALITY 676 693	protocol overhead
+T45	PROCESS 697 705	limiting
+T46	QUANTITY 710 716	amount
+T47	DATA-ITEM 720 731	information
+T48	PROCESS 732 741	exchanged
+T49	ARTIFACT 750 769	participating nodes
+T50	QUALITY 778 787	resilient
+T51	PLAN-OR-PROCESS 791 810	network alterations
+T52	PLAN-OR-PROCESS 819 832	node movement
+T53	PLAN-OR-PROCESS 836 849	node failures
+T54	APPLY-TO 859 865	allows
+T55	PLAN-OR-PROCESS 885 908	information convergence
+T56	QUALITY 866 884	exponentially-fast
+T57	PLAN 932 940	solution
+T58	APPLY-TO 941 954	incorporating
+T59	PLAN 955 966	these ideas
+T60	PLAN 989 997	approach
+T61	JUDGING-PROCESS 998 1005	reduces
+T62	QUALITY 1006 1022	network overhead
+T65	ATTRIBUTE 1052 1062	results in
+T66	QUANTITY 1063 1078	up to 2.7 times
+T67	QUALITY 1079 1085	faster
+T68	PLAN-OR-PROCESS 1086 1109	information convergence
+T64	QUANTITY 1026 1047	up to a factor of 2.4
+T69	PLAN 1127 1137	approaches
+T70	QUALITY 1115 1126	alternative
+R5	Coreference Arg1:T11 Arg2:T3	
+R6	Attribute Arg1:T18 Arg2:T16	
+R7	Attribute Arg1:T18 Arg2:T17	
+R8	Member-collection Arg1:T26 Arg2:T25	
+R9	Coreference Arg1:T28 Arg2:T24	
+R10	Coreference Arg1:T31 Arg2:T28	
+R11	Attribute Arg1:T40 Arg2:T39	
+T38	PERSON 985 988	our
+R2	Coreference Arg1:T35 Arg2:T22	
+R12	Attribute Arg1:T35 Arg2:T36	
+R13	Attribute Arg1:T35 Arg2:T37	
+R14	Attribute Arg1:T47 Arg2:T46	
+R15	Attribute Arg1:T55 Arg2:T56	
+R16	Poss Arg1:T38 Arg2:T60	
+T73	REFERENCE 300 305	their
+R17	Poss Arg1:T73 Arg2:T20	
+R18	Coreference Arg1:T73 Arg2:T11	
+R19	Attribute Arg1:T69 Arg2:T70	
+R20	Attribute Arg1:T3 Arg2:T4	
+R21	Attribute Arg1:T3 Arg2:T6	
+R23	Attribute Arg1:T6 Arg2:T5	
+R24	Apply-to Arg1:T3 Arg2:T7	
+R25	Target Arg1:T7 Arg2:T8	
+T10	QUALITY 138 151	opportunistic
+T78	QUALITY 156 164	adaptive
+R26	Attribute Arg1:T8 Arg2:T10	
+R27	Attribute Arg1:T8 Arg2:T78	
+R28	Input Arg1:T8 Arg2:T9	
+R29	Apply-to Arg1:T11 Arg2:T13	
+R30	Attribute Arg1:T13 Arg2:T12	
+R31	Coreference Arg1:T14 Arg2:T11	
+R32	Apply-to Arg1:T13 Arg2:T15	
+R33	Output Arg1:T15 Arg2:T18	
+R34	Attribute Arg1:T18 Arg2:T19	
+R35	Attribute Arg1:T19 Arg2:T20	
+R36	Attribute Arg1:T23 Arg2:T22	
+R37	In_Out Arg1:T23 Arg2:T24	
+R38	Ori_Dest Arg1:T23 Arg2:T25	
+R39	Attribute Arg1:T28 Arg2:T27	
+T79	QUALITY 416 424	inherent
+R40	Attribute Arg1:T27 Arg2:T79	
+R41	Attribute Arg1:T33 Arg2:T32	
+R42	Input Arg1:T33 Arg2:T31	
+R43	Condition Arg1:T33 Arg2:T30	
+R44	from Arg1:T34 Arg2:T27	
+R45	from Arg1:T34 Arg2:T29	
+R46	to Arg1:T34 Arg2:T36	
+R47	Is-a Arg1:T21 Arg2:T40	
+R48	Apply-to Arg1:T40 Arg2:T41	
+R49	Apply-to Arg1:T43 Arg2:T42	
+R50	In_Out Arg1:T42 Arg2:T44	
+R51	Apply-to Arg1:T45 Arg2:T42	
+R52	Target Arg1:T45 Arg2:T46	
+R53	In_Out Arg1:T48 Arg2:T47	
+R54	Ori_Dest Arg1:T48 Arg2:T49	
+R55	Attribute Arg1:T43 Arg2:T50	
+R56	Condition Arg1:T50 Arg2:T51	
+R59	from Arg1:T54 Arg2:T43	
+R60	to Arg1:T54 Arg2:T55	
+T80	QUALITY 924 931	initial
+R61	Attribute Arg1:T57 Arg2:T80	
+R62	from Arg1:T58 Arg2:T59	
+R63	to Arg1:T58 Arg2:T57	
+R64	Apply-to Arg1:T60 Arg2:T61	
+R65	In_Out Arg1:T61 Arg2:T62	
+R66	Attribute Arg1:T61 Arg2:T64	
+R67	from Arg1:T65 Arg2:T60	
+R68	Attribute Arg1:T67 Arg2:T66	
+R69	Attribute Arg1:T68 Arg2:T67	
+R70	Compare Arg1:T69 Arg2:T67	
+R71	to Arg1:T65 Arg2:T68	
+R72	In_Out Arg1:T13 Arg2:T14	
+R73	to Arg1:T34 Arg2:T37	
+T63	RESULT 812 818	due to
+R74	from Arg1:T63 Arg2:T52	
+R75	to Arg1:T63 Arg2:T51	
+R57	from Arg1:T63 Arg2:T53	
+T71	PERSON 320 322	We
+T72	PROCESS 323 328	focus
+T74	PERSON 571 573	We
+T75	PROCESS 574 581	propose
+T76	PERSON 910 912	We
+T77	PROCESS 913 920	outline
+T81	PROCESS 976 980	show
+R22	Agent Arg1:T72 Arg2:T71	
+R58	Target Arg1:T72 Arg2:T22	
+R76	Agent Arg1:T75 Arg2:T74	
+R77	Output Arg1:T75 Arg2:T21	
+R78	Agent Arg1:T77 Arg2:T76	
+R79	Output Arg1:T77 Arg2:T57	
+R80	Agent Arg1:T81 Arg2:T76	
+T82	MODALITY 86 90	will
+R81	Attribute Arg1:T6 Arg2:T82	

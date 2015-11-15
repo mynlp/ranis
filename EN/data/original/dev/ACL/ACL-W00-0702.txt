@@ -1,0 +1,7 @@
+Corpus-Based Grammar Specialization .
+Broad-coverage grammars tend to be highly ambiguous .
+When such grammars are used in a restricted domain , it may be desirable to specialize them , in effect trading some coverage for a reduction in ambiguity .
+Grammar specialization is here given a novel formulation as an optimization problem , in which the search is guided by a global measure combining coverage , ambiguity and grammar size .
+The method , applicable to any unification grammar with a phrase-structure backbone , is shown to be effective in specializing a broad-coverage LFG for French .
+
+

@@ -1,0 +1,147 @@
+T2	PROCESS 357 362	using
+T4	ATTRIBUTE 475 483	performs
+T5	APPLY-TO 673 681	utilizes
+T7	OUTPUT 856 862	yields
+T8	OUTPUT 918 926	observed
+T9	RESULT 944 957	demonstrating
+T10	PROCESS 994 1002	captured
+T11	PROCESS 1046 1054	captured
+T12	RESULT 1111 1123	demonstrates
+T13	TIME 334 342	previous
+T14	QUALITY 484 493	very well
+T16	QUALITY 606 610	best
+T17	QUALITY 649 652	new
+T18	JUDGING-PROCESS 766 774	improves
+T20	QUALITY 866 889	exceptional improvement
+T21	QUALITY 1077 1082	small
+T22	QUANTITY 329 333	some
+T23	PLAN-OR-PROCESS 0 30	Probabilistic Top-Down Parsing
+T24	PLAN-OR-PROCESS 35 52	Language Modeling
+T25	QUALITY 79 90	functioning
+T26	PLAN 111 140	probabilistic top-down parser
+T27	APPLY-TO 150 161	application
+T28	PLAN 169 176	problem
+T29	PLAN 180 197	language modeling
+T30	PLAN 202 220	speech recognition
+T31	PLAN 253 260	notions
+T32	PLAN 264 281	language modeling
+T33	PLAN 286 307	probabilistic parsing
+T34	PLAN 343 353	approaches
+T35	DATA-ITEM 363 382	syntactic structure
+T36	PLAN-OR-PROCESS 387 404	language modeling
+T37	PLAN 408 449	lexicalized probabilistic top-down parser
+T38	CONDITION 495 506	in terms of
+T39	QUALITY 516 524	accuracy
+T40	DATA-ITEM 528 543	returned parses
+T41	QUALITY 552 562	efficiency
+T42	REFERENCE 574 578	they
+T43	PLAN 626 645	statistical parsers
+T44	PLAN 653 667	language model
+T45	PLAN 682 712	probabilistic top-down parsing
+T46	DATA-ITEM 735 752	empirical results
+T47	REFERENCE 763 765	it
+T49	QUALITY 797 819	test corpus perplexity
+T50	PLAN-OR-PROCESS 821 834	Interpolation
+T51	PLAN 842 855	trigram model
+T53	QUALITY 906 917	improvement
+T54	PLAN 936 942	models
+T55	QUALITY 962 968	degree
+T56	DATA-ITEM 982 993	information
+T57	PLAN 1010 1023	parsing model
+T58	PLAN 1060 1073	trigram model
+T59	PLAN-OR-PROCESS 1083 1105	recognition experiment
+T60	QUALITY 1128 1135	utility
+T61	PLAN 1143 1148	model
+T62	QUALITY 96 110	broad-coverage
+T63	REFERENCE 146 149	its
+R1	Coreference Arg1:T63 Arg2:T26	
+T64	QUALITY 249 252	key
+R2	Attribute Arg1:T26 Arg2:T62	
+R3	Attribute Arg1:T31 Arg2:T64	
+R4	Attribute Arg1:T34 Arg2:T22	
+R5	Attribute Arg1:T34 Arg2:T13	
+R6	to Arg1:T4 Arg2:T14	
+R7	Coreference Arg1:T42 Arg2:T40	
+T1	PROCESS 583 588	found
+R8	Attribute Arg1:T43 Arg2:T16	
+T3	QUALITY 611 625	broad-coverage
+R9	Attribute Arg1:T43 Arg2:T3	
+R10	Attribute Arg1:T44 Arg2:T17	
+R11	Coreference Arg1:T47 Arg2:T44	
+T15	PERSON 1006 1009	our
+T52	QUALITY 1027 1037	orthogonal
+R14	Attribute Arg1:T56 Arg2:T52	
+R15	Attribute Arg1:T59 Arg2:T21	
+T6	REFERENCE 1041 1045	that
+T67	EXTERNAL-REFERENCE 780 793	previous work
+T19	REFERENCE 469 474	which
+R12	Coreference Arg1:T19 Arg2:T37	
+T68	REFERENCE 568 573	which
+R13	Coreference Arg1:T68 Arg2:T41	
+T69	REFERENCE 668 672	that
+R16	Coreference Arg1:T69 Arg2:T44	
+R17	Coreference Arg1:T6 Arg2:T56	
+R18	Poss Arg1:T15 Arg2:T57	
+R20	Attribute Arg1:T61 Arg2:T60	
+R19	from Arg1:T27 Arg2:T63	
+R21	Is-a Arg1:T29 Arg2:T28	
+R22	to Arg1:T27 Arg2:T29	
+R23	Attribute Arg1:T26 Arg2:T25	
+R24	Apply-to Arg1:T29 Arg2:T30	
+R26	Apply-to Arg1:T2 Arg2:T36	
+R27	from Arg1:T4 Arg2:T19	
+R28	Condition Arg1:T31 Arg2:T32	
+R29	Condition Arg1:T31 Arg2:T33	
+R31	Attribute Arg1:T40 Arg2:T39	
+R32	Output Arg1:T1 Arg2:T42	
+R33	Attribute Arg1:T1 Arg2:T68	
+T74	COMPARE 590 598	relative
+R35	from Arg1:T74 Arg2:T43	
+R36	from Arg1:T5 Arg2:T45	
+R37	to Arg1:T5 Arg2:T44	
+R38	Compare Arg1:T6 Arg2:T52	
+R39	In_Out Arg1:T18 Arg2:T47	
+R41	In_Out Arg1:T18 Arg2:T49	
+T76	ATTRIBUTE 753 757	show
+R42	from Arg1:T76 Arg2:T46	
+R44	Apply-to Arg1:T51 Arg2:T50	
+R45	from Arg1:T7 Arg2:T50	
+R46	to Arg1:T7 Arg2:T20	
+R47	to Arg1:T8 Arg2:T53	
+R48	from Arg1:T8 Arg2:T54	
+R49	Attribute Arg1:T52 Arg2:T55	
+T77	COMPARE 890 901	relative to
+R50	to Arg1:T77 Arg2:T20	
+R51	from Arg1:T77 Arg2:T53	
+R52	from Arg1:T9 Arg2:T7	
+R53	to Arg1:T9 Arg2:T55	
+R54	Output Arg1:T10 Arg2:T56	
+R55	Apply-to Arg1:T57 Arg2:T10	
+R56	Output Arg1:T11 Arg2:T6	
+R57	Apply-to Arg1:T58 Arg2:T11	
+R58	from Arg1:T12 Arg2:T59	
+R59	to Arg1:T12 Arg2:T60	
+R30	Input Arg1:T2 Arg2:T35	
+R25	Apply-to Arg1:T34 Arg2:T2	
+R60	from Arg1:T38 Arg2:T14	
+R61	to Arg1:T38 Arg2:T39	
+R62	to Arg1:T38 Arg2:T41	
+R63	to Arg1:T74 Arg2:T14	
+T78	COMPARE 775 779	upon
+R34	from Arg1:T78 Arg2:T67	
+R40	to Arg1:T78 Arg2:T18	
+R43	to Arg1:T76 Arg2:T18	
+T48	REFERENCE 54 64	This paper
+T65	PROCESS 65 74	describes
+R64	Condition Arg1:T65 Arg2:T48	
+R65	Output Arg1:T65 Arg2:T26	
+R66	Output Arg1:T65 Arg2:T27	
+T66	REFERENCE 222 231	The paper
+T70	PROCESS 238 248	introduces
+R67	Condition Arg1:T70 Arg2:T66	
+R68	Output Arg1:T70 Arg2:T31	
+T71	QUALITY 313 320	briefly
+T72	PROCESS 321 328	reviews
+R69	Attribute Arg1:T72 Arg2:T71	
+R70	Condition Arg1:T72 Arg2:T66	
+R71	In_Out Arg1:T72 Arg2:T34	

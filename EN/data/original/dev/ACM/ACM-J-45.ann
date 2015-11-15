@@ -1,0 +1,105 @@
+T1	PLAN-OR-PROCESS 0 26	Empirical Mechanism Design
+T2	PLAN-OR-PROCESS 28 35	Methods
+T3	APPLY-TO 42 53	Application
+T4	PLAN 59 80	Supply-Chain Scenario
+T5	APPLY-TO 102 108	employ
+T6	PLAN 109 117;129 139	learning techniques
+T7	PLAN 122 139	search techniques
+T8	PROCESS 143 151	estimate
+T9	DATA-ITEM 152 168	outcome features
+T10	QUALITY 172 180	interest
+T11	PLAN 186 194	function
+T12	DATA-ITEM 198 226	mechanism parameter settings
+T13	PLAN 85 101	proposed methods
+T15	PLAN 246 254	approach
+T16	PLAN 262 273	design task
+T17	PLAN 281 313	supply-chain trading competition
+T18	PERSON 315 324	Designers
+T19	PROCESS 325 332	adopted
+T20	QUANTITY 333 340	several
+T21	PLAN-OR-PROCESS 341 353	rule changes
+T22	PROCESS 366 371	deter
+T23	PLAN-OR-PROCESS 383 403	procurement behavior
+T24	PLAN-OR-PROCESS 413 421	measures
+T25	QUALITY 429 441	insufficient
+T27	PLAN-OR-PROCESS 447 475	empirical mechanism analysis
+T28	DATA-ITEM 487 495	relation
+T29	DATA-ITEM 510 526	design parameter
+T30	DATA-ITEM 531 539	outcomes
+T31	PROCESS 541 551	confirming
+T32	PLAN-OR-PROCESS 565 573	behavior
+T33	QUALITY 556 564	observed
+T34	RESULT 578 588	indicating
+T35	PROCESS 476 482	models
+T36	QUALITY 597 607	reasonable
+T37	QUANTITY 594 596	no
+T38	DATA-ITEM 608 626	parameter settings
+T39	QUALITY 643 649	likely
+T40	RESULT 653 660	achieve
+T41	QUALITY 665 672	desired
+T42	PLAN-OR-PROCESS 673 679	effect
+T43	PLAN 724 734	conditions
+T44	PLAN 740 749	estimator
+T45	DATA-ITEM 761 788	mechanism parameter setting
+T46	QUALITY 753 760	optimal
+T48	DATA-ITEM 798 812	empirical data
+T49	QUALITY 816 826	consistent
+R1	Attribute Arg1:T21 Arg2:T20	
+R3	Attribute Arg1:T32 Arg2:T33	
+R5	Attribute Arg1:T38 Arg2:T36	
+R6	Attribute Arg1:T42 Arg2:T41	
+R7	from Arg1:T40 Arg2:T38	
+R8	Attribute Arg1:T45 Arg2:T46	
+R9	Attribute Arg1:T44 Arg2:T49	
+T14	PERSON 81 84	Our
+T47	PERSON 242 245	our
+T50	QUALITY 506 509	key
+R10	Attribute Arg1:T29 Arg2:T50	
+T53	PERSON 443 446	Our
+R11	Poss Arg1:T53 Arg2:T27	
+R12	Poss Arg1:T14 Arg2:T13	
+R13	Poss Arg1:T47 Arg2:T15	
+R14	Attribute Arg1:T9 Arg2:T10	
+R4	Attribute Arg1:T36 Arg2:T37	
+R15	from Arg1:T3 Arg2:T2	
+R16	to Arg1:T3 Arg2:T4	
+R17	Is-a Arg1:T1 Arg2:T2	
+R18	to Arg1:T5 Arg2:T13	
+R19	from Arg1:T5 Arg2:T7	
+R20	from Arg1:T5 Arg2:T6	
+R22	Output Arg1:T8 Arg2:T9	
+R23	Condition Arg1:T8 Arg2:T11	
+R24	Input Arg1:T11 Arg2:T12	
+R25	Condition Arg1:T16 Arg2:T17	
+R26	Agent Arg1:T19 Arg2:T18	
+R27	In_Out Arg1:T19 Arg2:T21	
+R28	Apply-to Arg1:T19 Arg2:T22	
+R29	Target Arg1:T22 Arg2:T23	
+R2	Attribute Arg1:T24 Arg2:T25	
+R30	Apply-to Arg1:T27 Arg2:T35	
+R31	Output Arg1:T35 Arg2:T28	
+R32	Attribute Arg1:T28 Arg2:T29	
+R33	Attribute Arg1:T28 Arg2:T30	
+R34	Apply-to Arg1:T35 Arg2:T31	
+R35	Target Arg1:T31 Arg2:T32	
+R36	from Arg1:T34 Arg2:T35	
+R37	to Arg1:T34 Arg2:T38	
+R38	to Arg1:T40 Arg2:T42	
+R39	Attribute Arg1:T38 Arg2:T39	
+R40	Output Arg1:T44 Arg2:T45	
+T55	INPUT 789 794	based
+R42	Condition Arg1:T49 Arg2:T43	
+R21	Apply-to Arg1:T13 Arg2:T8	
+R43	to Arg1:T55 Arg2:T48	
+R44	from Arg1:T55 Arg2:T44	
+T26	PERSON 228 230	We
+T51	PROCESS 231 241	illustrate
+T52	QUALITY 686 695	generally
+T54	PERSON 697 699	we
+T56	PROCESS 700 704	show
+R41	Attribute Arg1:T56 Arg2:T52	
+R45	Agent Arg1:T56 Arg2:T54	
+R46	Agent Arg1:T51 Arg2:T26	
+R47	Output Arg1:T51 Arg2:T15	
+R48	Output Arg1:T51 Arg2:T16	
+R49	Output Arg1:T56 Arg2:T49	

@@ -1,0 +1,69 @@
+R1	Input Arg1:T1 Arg2:T2
+R2	Apply-to Arg1:T1 Arg2:T36
+R3	Output Arg1:T36 Arg2:T3
+R4	Attribute Arg1:T6 Arg2:T5
+R5	Attribute Arg1:T6 Arg2:T4
+R6	Attribute Arg1:T8 Arg2:T7
+R7	Attribute Arg1:T12 Arg2:T11
+R8	Attribute Arg1:T15 Arg2:T13
+R9	Output Arg1:T12 Arg2:T15
+R10	to Arg1:T10 Arg2:T11
+R11	Condition Arg1:T10 Arg2:T9
+R13	from Arg1:T10 Arg2:T4
+R12	from Arg1:T10 Arg2:T8
+A1	Self T16
+A2	Intentional T17
+R14	Agent Arg1:T17 Arg2:T16
+R15	Output Arg1:T17 Arg2:T18
+R16	Output Arg1:T19 Arg2:T20
+R17	Attribute Arg1:T19 Arg2:T18
+R18	Attribute Arg1:T22 Arg2:T21
+R19	Output Arg1:T17 Arg2:T22
+R20	Apply-to Arg1:T22 Arg2:T23
+R21	Output Arg1:T23 Arg2:T24
+R22	Attribute Arg1:T28 Arg2:T27
+R23	In_Out Arg1:T28 Arg2:T29
+R24	Apply-to Arg1:T26 Arg2:T28
+R25	Coreference Arg1:T26 Arg2:T24
+R26	Input Arg1:T24 Arg2:T25
+R27	Attribute Arg1:T32 Arg2:T31
+R28	Attribute Arg1:T30 Arg2:T32
+R29	Condition Arg1:T35 Arg2:T34
+A3	Judgment T33
+R31	Attribute Arg1:T31 Arg2:T33
+R32	Compare Arg1:T34 Arg2:T33
+T1	PLAN-OR-PROCESS 0 6	Mining
+T2	DATA-ITEM 10 21	Parsed Data
+T36	PROCESS 25 31	Derive
+T3	DATA-ITEM 32 59	Deverbal Argument Structure
+T4	DATA-ITEM 66 78	availability
+T5	QUALITY 82 87	large
+T6	DATA-ITEM 88 102	parsed corpora
+T7	QUALITY 107 115	improved
+T8	PLAN 116 135	computing resources
+T9	TIME 136 139	now
+T10	RESULT 140 144	make
+T11	QUALITY 148 156	possible
+T12	PROCESS 160 167	extract
+T13	QUANTITY 168 180	vast amounts
+T15	DATA-ITEM 184 196	lexical data
+T16	PERSON 199 201	We
+T17	PROCESS 202 210	describe
+T18	PLAN 215 222	process
+T19	PROCESS 226 236	extracting
+T20	DATA-ITEM 237 252	structured data
+T21	QUANTITY 257 264	several
+T22	PLAN 265 272	methods
+T23	PROCESS 276 284	deriving
+T24	PLAN-OR-PROCESS 285 312	argument structure mappings
+T25	DATA-ITEM 317 331	deverbal nouns
+T26	REFERENCE 332 336	that
+T27	QUALITY 337 350	significantly
+T28	PROCESS 351 359	improves
+T29	PLAN 365 399	non-lexicalized rule-based methods
+T30	PLAN 408 421	typical model
+T31	DATA-ITEM 428 437	F-measure
+T32	DATA-ITEM 441 452	performance
+T33	QUALITY 453 461	improves
+T34	PLAN 469 477	baseline
+T35	QUANTITY 481 499	about 0.72 to 0.81

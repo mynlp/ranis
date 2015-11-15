@@ -1,0 +1,75 @@
+R1	Input Arg1:T4 Arg2:T5
+R2	Attribute Arg1:T7 Arg2:T6
+R3	Input Arg1:T4 Arg2:T7
+R4	Output Arg1:T4 Arg2:T8
+R5	Component-object Arg1:T7 Arg2:T5
+R6	Is-a Arg1:T4 Arg2:T3
+R7	Equivalence Arg1:T3 Arg2:T2
+A1	Self T9
+A2	Intentional T10
+R8	Agent Arg1:T10 Arg2:T9
+R9	Attribute Arg1:T12 Arg2:T11
+R10	Output Arg1:T10 Arg2:T12
+R11	Apply-to Arg1:T12 Arg2:T13
+#3	AnnotatorNotes T15	phrase-based models
+R12	Apply-to Arg1:T15 Arg2:T16
+R13	Result Arg1:T15 Arg2:T14
+R14	Target Arg1:T14 Arg2:T12
+A3	Self T17
+A4	Intentional T18
+R15	Agent Arg1:T18 Arg2:T17
+R16	Attribute Arg1:T20 Arg2:T19
+R17	In_Out Arg1:T18 Arg2:T20
+#5	AnnotatorNotes T21	substring-based transliteration
+R18	Output Arg1:T20 Arg2:T21
+R19	Is-a Arg1:T22 Arg2:T20
+R20	Is-a Arg1:T23 Arg2:T20
+A5	Self T24
+A6	Intentional T25
+R21	Agent Arg1:T25 Arg2:T24
+A7	Self T26
+R22	Poss Arg1:T26 Arg2:T27
+A8	Judgment T29
+R23	Attribute Arg1:T27 Arg2:T29
+#6	AnnotatorNotes T31	letter-based approach
+R24	Attribute Arg1:T31 Arg2:T30
+R25	Compare Arg1:T31 Arg2:T29
+R26	Attribute Arg1:T28 Arg2:T32
+R27	Attribute Arg1:T29 Arg2:T28
+A9	Judgment T34
+R28	Attribute Arg1:T27 Arg2:T34
+R29	Output Arg1:T25 Arg2:T29
+R30	Output Arg1:T25 Arg2:T34
+T1	PLAN-OR-PROCESS 0 31	Substring-Based Transliteration
+T2	PLAN-OR-PROCESS 34 49	Transliteration
+T3	PLAN-OR-PROCESS 57 61	task
+T4	PROCESS 65 75	converting
+T5	DATA-ITEM 78 82	word
+T6	QUANTITY 88 91	one
+T7	DATA-ITEM 92 109	alphabetic script
+T8	DATA-ITEM 113 120	another
+T9	PERSON 123 125	We
+T10	PROCESS 126 133	present
+T11	QUALITY 136 141	novel
+T12	PLAN 144 168	substring-based approach
+T13	PLAN-OR-PROCESS 172 187	transliteration
+T14	PROCESS 190 198	inspired
+T15	PLAN 202 220	phrasebased models
+T16	PLAN-OR-PROCESS 224 243	machine translation
+T17	PERSON 246 248	We
+T18	PROCESS 249 260	investigate
+T19	QUANTITY 261 264	two
+T20	PLAN 265 280	implementations
+T21	PLAN-OR-PROCESS 284 315	substring-based transliteration
+T22	PLAN 320 349	dynamic programming algorithm
+T23	PLAN 358 381	finite-state transducer
+T24	PERSON 384 386	We
+T25	PROCESS 387 391	show
+T26	PERSON 397 400	our
+T27	PLAN 401 427	substring-based transducer
+T29	QUALITY 437 448	outperforms
+T30	QUALITY 451 467	state-of-the-art
+T31	PLAN 468 489	letter-based approach
+T32	QUALITY 495 506	significant
+T28	DATA-ITEM 507 513	margin
+T34	QUALITY 528 554	orders of magnitude faster

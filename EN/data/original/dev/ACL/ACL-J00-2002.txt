@@ -1,0 +1,13 @@
+A Model for Multimodal Reference Resolution
+
+An important aspect of the interpretation of multimodal messages is the ability to identify when the same object in the world is the referent of symbols in different modalities.
+To understand the caption of a picture, for instance, one needs to identify the graphical symbols that are referred to by names and pronouns in the natural language text.
+One way to think of this problem is in terms of the notion of anaphora; however, unlike linguistic anaphoric inference, in which antecedents for pronouns are selected from a linguistic context, in the interpretation of the textual part of multimodal messages the antecedents are selected from a graphical context.
+Under this view, resolving multimodal references is like resolving anaphora across modalities.
+Another way to see the same problem is to look at pronouns in texts about drawings as deictic.
+In this second view, the context of interpretation of a natural language term is defined as a set of expressions of a graphical language with well-defined syntax and semantics.
+Natural language and graphical terms are thought of as standing in a relation of translation similar to the translation relation that holds between natural languages.
+In this paper a theory based on this second view is presented.
+In this theory, the relations between multimodal representation and spatial deixis, on the one hand, and multimodal reasoning and deictic inference, on the other, are discussed.
+An integrated model of anaphoric and deictic resolution in the context of the interpretation of multimodal discourse is also advanced.
+

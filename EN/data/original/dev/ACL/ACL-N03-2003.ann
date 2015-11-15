@@ -1,0 +1,71 @@
+T1	PROCESS 0 7	Getting
+T2	DATA-ITEM 13 20	Mileage
+T3	DATA-ITEM 26 42	Web Text Sources
+T4	PLAN-OR-PROCESS 47 86	Conversational Speech Language Modeling
+T5	APPLY-TO 87 92	using
+T6	PLAN 93 117	Class-Dependent Mixtures
+T7	DATA-ITEM 119 126	Sources
+T8	DATA-ITEM 130 143	training data
+T9	QUALITY 144 152	suitable
+T10	PLAN-OR-PROCESS 157 174	language modeling
+T11	DATA-ITEM 178 199	conversational speech
+T12	QUALITY 204 211	limited
+T13	REFERENCE 216 226	this paper
+T14	PERSON 228 230	we
+T15	PROCESS 231 235	show
+T16	DATA-ITEM 240 253	training data
+T17	MODALITY 254 257	can
+T18	PROCESS 261 273	supplemented
+T19	DATA-ITEM 279 283	text
+T20	DATA-ITEM 293 296	web
+T21	PROCESS 297 305	filtered
+T22	PROCESS 309 314	match
+T23	DATA-ITEM 319 324	style
+T24	DATA-ITEM 332 337	topic
+T25	PLAN 345 368	target recognition task
+T27	MODALITY 390 398	possible
+T28	PROCESS 402 405	get
+T29	QUALITY 406 412	bigger
+T30	QUALITY 413 430	performance gains
+T31	DATA-ITEM 440 444	data
+T32	APPLY-TO 448 453	using
+T33	PLAN 454 483	class-dependent interpolation
+T34	DATA-ITEM 487 494	N-grams
+T35	QUANTITY 8 12	More
+R1	Attribute Arg1:T2 Arg2:T35	
+R2	Output Arg1:T1 Arg2:T2	
+R3	Input Arg1:T1 Arg2:T3	
+R4	Apply-to Arg1:T1 Arg2:T4	
+R5	from Arg1:T5 Arg2:T6	
+R6	to Arg1:T5 Arg2:T1	
+R8	Condition Arg1:T9 Arg2:T10	
+R9	In_Out Arg1:T10 Arg2:T11	
+R10	Attribute Arg1:T7 Arg2:T12	
+R11	Attribute Arg1:T10 Arg2:T8	
+R7	Attribute Arg1:T8 Arg2:T9	
+R12	Attribute Arg1:T8 Arg2:T7	
+A1	Self T13
+A2	Self T14
+A3	Intentional T15
+R13	Agent Arg1:T15 Arg2:T14	
+R14	Condition Arg1:T15 Arg2:T13	
+R15	Output Arg1:T18 Arg2:T16	
+R16	Attribute Arg1:T18 Arg2:T17	
+R17	Component-object Arg1:T20 Arg2:T19	
+R18	Input Arg1:T18 Arg2:T19	
+R19	Apply-to Arg1:T21 Arg2:T22	
+R20	Output Arg1:T21 Arg2:T19	
+R21	Input Arg1:T21 Arg2:T20	
+R22	Destination Arg1:T22 Arg2:T23	
+R23	Destination Arg1:T22 Arg2:T24	
+R24	Attribute Arg1:T25 Arg2:T24	
+R25	Attribute Arg1:T25 Arg2:T23	
+R26	Attribute Arg1:T28 Arg2:T27	
+R27	Attribute Arg1:T30 Arg2:T29	
+R28	Output Arg1:T28 Arg2:T30	
+R29	Input Arg1:T28 Arg2:T31	
+R30	from Arg1:T32 Arg2:T33	
+R31	to Arg1:T32 Arg2:T28	
+R32	In_Out Arg1:T33 Arg2:T34	
+A4	Judgment T29
+A5	Judgment T30

@@ -1,0 +1,65 @@
+R1	Target Arg1:T1 Arg2:T30
+A1	Self T3
+A2	Intentional T4
+R2	Agent Arg1:T4 Arg2:T3
+R3	Output Arg1:T4 Arg2:T5
+R4	Coreference Arg1:T6 Arg2:T5
+R5	Apply-to Arg1:T6 Arg2:T7
+R6	Target Arg1:T7 Arg2:T8
+R7	Attribute Arg1:T10 Arg2:T9
+R8	Output Arg1:T8 Arg2:T10
+R9	Input Arg1:T8 Arg2:T11
+A3	Intentional T13
+R10	Agent Arg1:T13 Arg2:T3
+R11	Input Arg1:T13 Arg2:T14
+R12	Apply-to Arg1:T13 Arg2:T15
+R13	Coreference Arg1:T14 Arg2:T5
+R16	Input Arg1:T16 Arg2:T17
+R17	Attribute Arg1:T20 Arg2:T19
+R18	to Arg1:T18 Arg2:T19
+R19	from Arg1:T18 Arg2:T16
+A4	Judgment T19
+R20	Attribute Arg1:T23 Arg2:T22
+A5	Judgment T23
+R21	Attribute Arg1:T21 Arg2:T23
+R22	Attribute Arg1:T25 Arg2:T31
+R23	Condition Arg1:T25 Arg2:T24
+R24	Compare Arg1:T25 Arg2:T23
+R25	Attribute Arg1:T27 Arg2:T26
+R26	Target Arg1:T27 Arg2:T28
+R27	Attribute Arg1:T27 Arg2:T29
+A6	Judgment T29
+R14	Condition Arg1:T1 Arg2:T2
+R29	Condition Arg1:T10 Arg2:T12
+R30	Coreference Arg1:T21 Arg2:T5
+T1	PLAN-OR-PROCESS 0 7	Ranking
+T30	DATA-ITEM 8 19	Paraphrases
+T2	DATA-ITEM 23 30	Context
+T3	PERSON 33 35	We
+T4	PROCESS 36 43	present
+T5	PLAN 46 64	vector space model
+T6	REFERENCE 65 69	that
+T7	PROCESS 70 78	supports
+T8	PLAN-OR-PROCESS 83 94	computation
+T9	QUALITY 98 109	appropriate
+T10	DATA-ITEM 110 132	vector representations
+T11	DATA-ITEM 137 142	words
+T12	DATA-ITEM 146 153	context
+T13	PROCESS 160 165	apply
+T14	REFERENCE 166 168	it
+T15	PLAN 174 197	paraphrase ranking task
+T16	PROCESS 203 213	evaluation
+T17	DATA-ITEM 221 264	SemEval 2007 lexical substitution task data
+T18	RESULT 265 270	shows
+T19	QUALITY 271 280	promising
+T20	DATA-ITEM 281 288	results
+T21	PLAN 291 300	the model
+T22	QUALITY 301 314	significantly
+T23	QUALITY 315 326	outperforms
+T24	TIME 329 336	current
+T31	QUALITY 337 353	state of the art
+T25	PLAN 354 359	model
+T26	PERSON 366 369	our
+T27	PROCESS 370 379	treatment
+T28	DATA-ITEM 383 390	context
+T29	QUALITY 394 403	effective

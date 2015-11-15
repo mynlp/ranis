@@ -1,0 +1,92 @@
+R1	Apply-to Arg1:T2 Arg2:T1
+A1	Self T3
+A2	Intentional T4
+R2	Agent Arg1:T4 Arg2:T3
+R3	Attribute Arg1:T6 Arg2:T5
+R4	Output Arg1:T4 Arg2:T6
+R5	Coreference Arg1:T7 Arg2:T6
+R6	from Arg1:T8 Arg2:T7
+R7	to Arg1:T8 Arg2:T9
+R8	to Arg1:T8 Arg2:T10
+R9	Attribute Arg1:T44 Arg2:T12
+R10	Attribute Arg1:T8 Arg2:T11
+R11	Equivalence Arg1:T44 Arg2:T10
+R12	Equivalence Arg1:T44 Arg2:T9
+R13	Coreference Arg1:T13 Arg2:T7
+R14	Output Arg1:T13 Arg2:T14
+R15	Component-object Arg1:T14 Arg2:T44
+R16	Attribute Arg1:T16 Arg2:T15
+R17	Attribute Arg1:T18 Arg2:T17
+R18	Is-a Arg1:T16 Arg2:T18
+R19	Attribute Arg1:T20 Arg2:T19
+R20	Input Arg1:T18 Arg2:T20
+R21	Attribute Arg1:T21 Arg2:T45
+R22	Is-a Arg1:T21 Arg2:T22
+R23	Attribute Arg1:T24 Arg2:T23
+R24	Input Arg1:T22 Arg2:T24
+A3	Self T25
+R25	Attribute Arg1:T27 Arg2:T26
+A4	Judgment T26
+R26	Poss Arg1:T25 Arg2:T27
+R27	Attribute Arg1:T29 Arg2:T30
+R28	from Arg1:T28 Arg2:T27
+R29	to Arg1:T28 Arg2:T30
+R30	Condition Arg1:T30 Arg2:T31
+R31	Attribute Arg1:T29 Arg2:T32
+R32	to Arg1:T28 Arg2:T32
+R33	Condition Arg1:T32 Arg2:T33
+R34	Input Arg1:T27 Arg2:T31
+R35	Input Arg1:T27 Arg2:T33
+R36	Attribute Arg1:T37 Arg2:T36
+R37	Output Arg1:T35 Arg2:T37
+R38	Attribute Arg1:T39 Arg2:T38
+R39	Attribute Arg1:T43 Arg2:T40
+R40	Input Arg1:T39 Arg2:T43
+R41	Compare Arg1:T39 Arg2:T36
+R42	Coreference Arg1:T34 Arg2:T30
+R43	Agent Arg1:T35 Arg2:T34
+A5	Name T46
+T1	PLAN-OR-PROCESS 0 24	Named Entity Recognition
+T2	PLAN 30 52	Character-Level Models
+T3	PERSON 55 57	We
+T4	PROCESS 58 65	discuss
+T5	QUANTITY 66 69	two
+T6	PLAN 70 101	named-entity recognition models
+T7	REFERENCE 102 107	which
+T8	INPUT 108 111	use
+T9	DATA-ITEM 112 122	characters
+T10	DATA-ITEM 127 144	character n-grams
+T11	QUALITY 152 163	exclusively
+T12	QUALITY 173 182	important
+T44	DATA-ITEM 183 187	part
+T13	REFERENCE 191 196	their
+T14	DATA-ITEM 197 216	data representation
+T15	QUALITY 223 228	first
+T16	PLAN 229 234	model
+T17	QUALITY 240 255	character-level
+T18	PLAN 256 259	HMM
+T19	QUALITY 265 272	minimal
+T20	DATA-ITEM 273 292	context information
+T45	QUALITY 303 309	second
+T21	PLAN 310 315	model
+T22	PLAN 321 361	maximum-entropy conditional markov model
+T23	QUALITY 367 387	substantially richer
+T24	DATA-ITEM 388 404	context features
+T25	PERSON 407 410	Our
+T26	QUALITY 411 415	best
+T27	PLAN 416 421	model
+T28	RESULT 422 430	achieves
+T29	DATA-ITEM 434 444	overall F1
+T30	QUANTITY 448 455	86.07 %
+T31	DATA-ITEM 463 480	English test data
+T46	LANGUAGE 463 470	English
+T32	QUANTITY 483 490	92.31 %
+T33	DATA-ITEM 498 514	development data
+T34	DATA-ITEM 519 530	This number
+T35	PROCESS 531 541	represents
+T36	QUANTITY 544 548	25 %
+T37	DATA-ITEM 549 564	error reduction
+T38	QUALITY 574 578	same
+T39	PLAN 579 584	model
+T40	MODALITY 585 592	without
+T43	DATA-ITEM 593 629	word-internal ( substring ) features

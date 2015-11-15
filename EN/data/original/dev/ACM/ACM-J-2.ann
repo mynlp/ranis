@@ -1,0 +1,312 @@
+T1	PLAN 0 33	Worst-Case Optimal Redistribution
+T2	PLAN 37 49	VCG Payments
+T3	PLAN 54 73	allocation problems
+T4	QUANTITY 79 90	one or more
+T5	DATA-ITEM 91 96	items
+T6	QUALITY 102 112	well-known
+T7	PERSON 113 120	Vickrey
+T9	PLAN 113 150	Vickrey-Clarke-Groves (VCG) mechanism
+T10	QUALITY 154 163	efficient
+T11	QUALITY 165 179	strategy-proof
+T12	QUALITY 181 202	individually rational
+T13	MODALITY 213 216	not
+T14	PROCESS 217 222	incur
+T15	DATA-ITEM 225 232	deficit
+T16	PLAN 247 260	VCG mechanism
+T17	MODALITY 264 267	not
+T18	QUALITY 269 277	strongly
+T19	QUALITY 279 294	budget balanced
+T20	QUALITY 296 305	generally
+T21	INTELLIGENT-AGENT 311 317	agents
+T22	DATA-ITEM 319 327	payments
+T23	MODALITY 328 332	will
+T24	PROCESS 333 336	sum
+T25	QUANTITY 340 351	more than 0
+T27	INTELLIGENT-AGENT 368 378	auctioneer
+T28	REFERENCE 379 382	who
+T29	PROCESS 386 393	selling
+T30	DATA-ITEM 398 403	items
+T31	MODALITY 410 413	may
+T32	QUALITY 417 426	desirable
+T33	DATA-ITEM 440 455	surplus payment
+T34	DATA-ITEM 471 478	revenue
+T35	INTELLIGENT-AGENT 487 497	auctioneer
+T37	DATA-ITEM 515 520	items
+T38	MODALITY 524 527	not
+T39	ATTRIBUTE 528 532	have
+T40	INTELLIGENT-AGENT 536 541	owner
+T41	INTELLIGENT-AGENT 550 556	agents
+T42	QUALITY 561 578	merely interested
+T43	PROCESS 582 592	allocating
+T44	DATA-ITEM 597 602	items
+T45	QUALITY 603 614	efficiently
+T46	REFERENCE 621 631	themselves
+T47	DATA-ITEM 637 652	surplus payment
+T48	QUALITY 656 667	undesirable
+T49	REFERENCE 677 679	it
+T50	PROCESS 693 697	flow
+T51	PLAN 709 715	system
+T52	INTELLIGENT-AGENT 719 725	agents
+T53	PERSON 736 743	Cavallo
+T54	EXTERNAL-REFERENCE 744 747	[3]
+T55	PROCESS 748 756	proposed
+T56	PLAN 759 768	mechanism
+T57	REFERENCE 769 773	that
+T58	PROCESS 774 787	redistributes
+T59	QUANTITY 788 792	some
+T60	DATA-ITEM 800 811	VCG payment
+T61	INTELLIGENT-AGENT 824 830	agents
+T62	ATTRIBUTE 838 849	maintaining
+T63	QUALITY 850 860	efficiency
+T64	QUALITY 862 880	strategy-proofness
+T65	QUALITY 882 892	individual
+T66	QUALITY 893 904	rationality
+T67	QUALITY 914 934	non-deficit property
+T68	REFERENCE 939 949	this paper
+T69	PERSON 951 953	we
+T70	PROCESS 954 960	extend
+T71	PLAN 961 972	this result
+T72	QUALITY 978 988	restricted
+T73	PLAN 989 996	setting
+T74	PERSON 998 1000	We
+T75	PROCESS 1001 1006	study
+T76	PLAN 1007 1026	allocation settings
+T77	QUANTITY 1043 1051	multiple
+T78	DATA-ITEM 1070 1075	units
+T79	QUANTITY 1081 1087	single
+T80	DATA-ITEM 1088 1092	good
+T81	INTELLIGENT-AGENT 1098 1104	agents
+T82	DATA-ITEM 1110 1121	unit demand
+T83	PLAN 1128 1149	this specific setting
+T84	PLAN 1151 1170	Cavallo's mechanism
+T85	PLAN 1188 1197	mechanism
+T86	PROCESS 1198 1206	proposed
+T87	PERSON 1210 1216	Bailey
+T88	TIME 1220 1224	1997
+T89	EXTERNAL-REFERENCE 1225 1228	[2]
+T90	PERSON 1236 1238	we
+T91	PROCESS 1239 1246	propose
+T92	PLAN 1249 1255	family
+T93	PLAN 1259 1269	mechanisms
+T94	REFERENCE 1270 1274	that
+T95	PROCESS 1275 1287	redistribute
+T96	QUANTITY 1288 1292	some
+T97	DATA-ITEM 1300 1311	VCG payment
+T98	INTELLIGENT-AGENT 1324 1330	agents
+T99	QUANTITY 1332 1335	All
+T100	PLAN 1336 1346	mechanisms
+T101	PLAN 1354 1360	family
+T102	QUALITY 1365 1374	efficient
+T103	QUALITY 1376 1390	strategy-proof
+T104	QUALITY 1392 1413	individually rational
+T105	MODALITY 1419 1424	never
+T106	PROCESS 1425 1430	incur
+T107	DATA-ITEM 1433 1440	deficit
+T108	PLAN 1446 1452	family
+T109	MEMBER-COLLECTION 1453 1461	includes
+T110	PLAN 1466 1490	Bailey-Cavallo mechanism
+T111	PLAN 1496 1508	special case
+T112	PERSON 1510 1512	We
+T113	PROCESS 1518 1525	provide
+T114	PLAN 1529 1547	optimization model
+T115	PROCESS 1552 1559	finding
+T116	QUALITY 1564 1571	optimal
+T117	PLAN 1572 1581	mechanism
+T118	PLAN 1598 1607	mechanism
+T119	REFERENCE 1608 1612	that
+T120	PROCESS 1613 1622	maximizes
+T121	PLAN 1670 1676	family
+T122	PROCESS 1682 1686	show
+T123	PLAN 1699 1709	this model
+T124	PLAN 1715 1729	linear program
+T125	PERSON 1731 1733	We
+T126	PROCESS 1734 1738	give
+T127	PLAN 1758 1778	analytical solutions
+T128	PLAN 1782 1801	this linear program
+T129	PLAN 1830 1839	mechanism
+T130	RESULT 1840 1845	shows
+T131	QUALITY 1846 1857	significant
+T132	QUALITY 1858 1869	improvement
+T133	PLAN 1879 1903	Bailey-Cavallo mechanism
+T134	PLAN 1912 1922	worst case
+T135	PERSON 1934 1936	we
+T136	PROCESS 1937 1942	prove
+T137	PLAN 1948 1970	the obtained mechanism
+T138	QUALITY 1974 1981	optimal
+T139	QUANTITY 1988 1991	all
+T140	QUALITY 1992 2001	anonymous
+T141	PLAN 2002 2026	deterministic mechanisms
+T142	REFERENCE 2027 2031	that
+T143	QUALITY 2032 2039	satisfy
+T144	DATA-ITEM 2044 2060	above properties
+R1	Attribute Arg1:T5 Arg2:T4	
+A1	Name T7
+T145	PERSON 121 127	Clarke
+A2	Name T145
+T146	PERSON 128 134	Groves
+A3	Name T146
+R2	Attribute Arg1:T9 Arg2:T6	
+R3	Attribute Arg1:T9 Arg2:T10	
+R4	Attribute Arg1:T9 Arg2:T12	
+R5	Apply-to Arg1:T9 Arg2:T3	
+R6	Attribute Arg1:T9 Arg2:T11	
+R7	Attribute Arg1:T14 Arg2:T13	
+R8	Output Arg1:T14 Arg2:T15	
+R9	Apply-to Arg1:T9 Arg2:T14	
+R10	Input Arg1:T3 Arg2:T5	
+R11	Attribute Arg1:T19 Arg2:T17	
+R12	Attribute Arg1:T18 Arg2:T17	
+R13	Attribute Arg1:T16 Arg2:T19	
+R14	Attribute Arg1:T19 Arg2:T18	
+R15	Attribute Arg1:T21 Arg2:T22	
+R16	Attribute Arg1:T24 Arg2:T23	
+R17	Output Arg1:T24 Arg2:T25	
+R18	Input Arg1:T24 Arg2:T22	
+R19	Attribute Arg1:T24 Arg2:T20	
+R20	Coreference Arg1:T28 Arg2:T27	
+R21	Agent Arg1:T29 Arg2:T28	
+R22	Target Arg1:T29 Arg2:T30	
+R23	Attribute Arg1:T32 Arg2:T31	
+T8	QUALITY 456 467	corresponds
+R24	Condition Arg1:T8 Arg2:T34	
+R25	Attribute Arg1:T33 Arg2:T8	
+R26	Attribute Arg1:T35 Arg2:T34	
+T147	REFERENCE 405 409	this
+R27	Attribute Arg1:T147 Arg2:T32	
+R29	Attribute Arg1:T39 Arg2:T38	
+R30	from Arg1:T39 Arg2:T37	
+R31	to Arg1:T39 Arg2:T40	
+R32	Attribute Arg1:T41 Arg2:T42	
+R33	Condition Arg1:T42 Arg2:T43	
+R34	Target Arg1:T43 Arg2:T44	
+R35	Attribute Arg1:T43 Arg2:T45	
+R36	Coreference Arg1:T46 Arg2:T41	
+R37	Ori_Dest Arg1:T43 Arg2:T46	
+R38	Attribute Arg1:T47 Arg2:T48	
+R39	Origin Arg1:T50 Arg2:T51	
+R40	Coreference Arg1:T49 Arg2:T47	
+R41	Target Arg1:T50 Arg2:T49	
+R42	Other-rel Arg1:T51 Arg2:T52	
+T36	TIME 730 734	2006
+A4	Name T53
+R43	Agent Arg1:T55 Arg2:T53	
+R44	Condition Arg1:T55 Arg2:T54	
+R45	Condition Arg1:T55 Arg2:T36	
+R46	Output Arg1:T55 Arg2:T56	
+R47	Coreference Arg1:T57 Arg2:T56	
+R48	Apply-to Arg1:T57 Arg2:T58	
+R49	Attribute Arg1:T60 Arg2:T59	
+R50	Target Arg1:T58 Arg2:T60	
+R51	Destination Arg1:T58 Arg2:T61	
+R52	Attribute Arg1:T66 Arg2:T65	
+R53	from Arg1:T62 Arg2:T57	
+R54	to Arg1:T62 Arg2:T63	
+R55	to Arg1:T62 Arg2:T64	
+R56	to Arg1:T62 Arg2:T66	
+R57	to Arg1:T62 Arg2:T67	
+A5	Self T68
+A6	Self T69
+A7	Intentional T70
+R28	Agent Arg1:T70 Arg2:T69	
+R58	Condition Arg1:T70 Arg2:T68	
+R59	In_Out Arg1:T70 Arg2:T71	
+R60	Attribute Arg1:T73 Arg2:T72	
+R61	Destination Arg1:T70 Arg2:T73	
+A8	Self T74
+A9	Intentional T75
+R62	Agent Arg1:T75 Arg2:T74	
+R63	In_Out Arg1:T75 Arg2:T76	
+T148	QUALITY 1052 1069	indistinguishable
+R64	Attribute Arg1:T78 Arg2:T148	
+R65	Attribute Arg1:T78 Arg2:T77	
+R66	Attribute Arg1:T80 Arg2:T79	
+R67	Component-object Arg1:T78 Arg2:T80	
+T149	ATTRIBUTE 1105 1109	have
+R68	from Arg1:T149 Arg2:T81	
+R69	to Arg1:T149 Arg2:T82	
+R70	Coreference Arg1:T83 Arg2:T76	
+T150	PERSON 1151 1160	Cavallo's
+T151	QUALITY 1171 1180	coincides
+R71	Output Arg1:T86 Arg2:T85	
+A10	Name T87
+R72	Agent Arg1:T86 Arg2:T87	
+R73	Condition Arg1:T86 Arg2:T88	
+R74	Condition Arg1:T86 Arg2:T89	
+R75	Compare Arg1:T85 Arg2:T151	
+R76	Attribute Arg1:T84 Arg2:T151	
+R77	Condition Arg1:T151 Arg2:T83	
+A11	Self T90
+A12	Intentional T91
+R78	Agent Arg1:T91 Arg2:T90	
+R79	Member-collection Arg1:T92 Arg2:T93	
+R80	Output Arg1:T91 Arg2:T92	
+R81	Coreference Arg1:T94 Arg2:T92	
+R82	Apply-to Arg1:T94 Arg2:T95	
+R83	Attribute Arg1:T97 Arg2:T96	
+R84	Target Arg1:T95 Arg2:T97	
+R85	Destination Arg1:T95 Arg2:T98	
+R86	Attribute Arg1:T100 Arg2:T99	
+R87	Member-collection Arg1:T100 Arg2:T101	
+R88	Attribute Arg1:T100 Arg2:T102	
+R89	Attribute Arg1:T100 Arg2:T103	
+R90	Attribute Arg1:T100 Arg2:T104	
+R91	Attribute Arg1:T106 Arg2:T105	
+R92	Output Arg1:T106 Arg2:T107	
+R93	Apply-to Arg1:T100 Arg2:T106	
+R94	from Arg1:T109 Arg2:T110	
+R95	to Arg1:T109 Arg2:T108	
+R96	Is-a Arg1:T110 Arg2:T111	
+A13	Self T112
+A14	Intentional T113
+R97	Agent Arg1:T113 Arg2:T112	
+R98	Output Arg1:T113 Arg2:T114	
+R99	Apply-to Arg1:T114 Arg2:T115	
+R100	Attribute Arg1:T117 Arg2:T116	
+R101	Output Arg1:T115 Arg2:T117	
+R102	Coreference Arg1:T119 Arg2:T118	
+T152	PLAN-OR-PROCESS 1623 1637	redistribution
+R103	Apply-to Arg1:T119 Arg2:T120	
+R104	In_Out Arg1:T120 Arg2:T152	
+T153	PLAN 1645 1655	worst case
+R105	Condition Arg1:T120 Arg2:T153	
+R106	Member-collection Arg1:T117 Arg2:T121	
+A15	Intentional T122
+R107	Agent Arg1:T122 Arg2:T112	
+T154	PROCESS 1694 1698	cast
+A16	Intentional T154
+R108	Target Arg1:T154 Arg2:T123	
+R109	Destination Arg1:T154 Arg2:T124	
+A17	Self T125
+A18	Intentional T126
+R110	Agent Arg1:T126 Arg2:T125	
+T155	PLAN 1744 1753	numerical
+R111	Output Arg1:T126 Arg2:T155	
+R112	Output Arg1:T126 Arg2:T127	
+R113	Apply-to Arg1:T127 Arg2:T128	
+R114	Apply-to Arg1:T155 Arg2:T128	
+T156	QUALITY 1820 1829	resulting
+R115	Attribute Arg1:T129 Arg2:T156	
+T157	QUALITY 1812 1818	unique
+R116	Attribute Arg1:T129 Arg2:T157	
+R117	to Arg1:T130 Arg2:T132	
+R118	Attribute Arg1:T132 Arg2:T131	
+R119	from Arg1:T130 Arg2:T129	
+T158	COMPARE 1870 1874	over
+R120	from Arg1:T158 Arg2:T133	
+R121	to Arg1:T158 Arg2:T132	
+R122	Condition Arg1:T132 Arg2:T134	
+A19	Self T135
+A20	Intentional T136
+R123	Agent Arg1:T136 Arg2:T135	
+R124	Coreference Arg1:T137 Arg2:T129	
+R125	Attribute Arg1:T137 Arg2:T138	
+R126	Attribute Arg1:T141 Arg2:T140	
+R127	Attribute Arg1:T141 Arg2:T139	
+R128	Compare Arg1:T141 Arg2:T138	
+A21	Judgment T138
+A22	Judgment T132
+R129	Coreference Arg1:T142 Arg2:T141	
+R130	Attribute Arg1:T142 Arg2:T143	
+R131	Condition Arg1:T143 Arg2:T144	
+R132	Output Arg1:T136 Arg2:T138	
+A23	Judgment T143

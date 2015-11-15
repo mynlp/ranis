@@ -1,0 +1,84 @@
+R1	Output Arg1:T33 Arg2:T32
+R2	Input Arg1:T1 Arg2:T32
+A1	Intentional T33
+A2	Self T2
+A3	Intentional T3
+R3	Condition Arg1:T3 Arg2:T2
+R4	Attribute Arg1:T4 Arg2:T34
+R5	Output Arg1:T3 Arg2:T4
+R6	Output Arg1:T5 Arg2:T4
+R7	Attribute Arg1:T7 Arg2:T6
+R8	Condition Arg1:T5 Arg2:T6
+R9	Output Arg1:T35 Arg2:T9
+R10	Input Arg1:T11 Arg2:T9
+R11	Is-a Arg1:T9 Arg2:T10
+R12	Output Arg1:T3 Arg2:T35
+A4	Self T8
+A5	Intentional T36
+R13	Condition Arg1:T36 Arg2:T8
+R14	Output Arg1:T36 Arg2:T12
+R15	In_Out Arg1:T14 Arg2:T15
+R16	to Arg1:T13 Arg2:T14
+R17	from Arg1:T13 Arg2:T12
+R18	In_Out Arg1:T37 Arg2:T17
+R19	In_Out Arg1:T16 Arg2:T17
+R20	Component-object Arg1:T14 Arg2:T37
+R21	Component-object Arg1:T14 Arg2:T16
+A6	Intentional T38
+R22	Condition Arg1:T38 Arg2:T8
+R23	Output Arg1:T38 Arg2:T18
+R24	Attribute Arg1:T20 Arg2:T19
+R25	Attribute Arg1:T20 Arg2:T18
+R26	Attribute Arg1:T22 Arg2:T21
+R27	Compare Arg1:T22 Arg2:T18
+R28	Target Arg1:T39 Arg2:T22
+R29	Condition Arg1:T39 Arg2:T23
+R30	Coreference Arg1:T23 Arg2:T12
+A7	Intentional T24
+R31	Condition Arg1:T24 Arg2:T8
+R32	Input Arg1:T25 Arg2:T26
+R33	Target Arg1:T27 Arg2:T26
+R34	Attribute Arg1:T31 Arg2:T30
+R35	In_Out Arg1:T29 Arg2:T30
+R36	Result Arg1:T28 Arg2:T29
+R37	Coreference Arg1:T28 Arg2:T26
+R38	Component-object Arg1:T24 Arg2:T25
+T33	PROCESS 0 8	Building
+T32	DATA-ITEM 9 25	Parallel Corpora
+T1	PLAN 30 52	eContent Professionals
+T2	REFERENCE 55 65	This paper
+T3	PROCESS 66 73	reports
+T34	QUALITY 77 86	completed
+T4	PLAN 87 91	work
+T5	PROCESS 92 103	carried out
+T6	PLAN 111 120	framework
+T7	PLAN 128 142	INTERA project
+T35	PROCESS 171 181	production
+T9	DATA-ITEM 185 207	multilingual resources
+T10	DATA-ITEM 210 213	LRs
+T11	PLAN 220 237	eContent purposes
+T8	REFERENCE 240 249	The paper
+T36	PROCESS 250 258	presents
+T12	PLAN 263 274	methodology
+T13	APPLY-TO 275 282	adopted
+T14	PROCESS 291 302	development
+T15	DATA-ITEM 310 316	corpus
+T37	PROCESS 319 330	acquisition
+T16	PROCESS 335 345	processing
+T17	DATA-ITEM 353 365	textual data
+T38	PROCESS 370 379	discusses
+T18	QUALITY 384 394	divergence
+T19	QUALITY 402 409	initial
+T20	DATA-ITEM 410 421	assumptions
+T21	QUALITY 431 437	actual
+T22	DATA-ITEM 438 447	situation
+T39	PROCESS 448 451	met
+T23	PLAN 459 473	this procedure
+T24	PROCESS 480 489	concludes
+T25	PLAN-OR-PROCESS 497 510	summarization
+T26	PLAN 518 526	problems
+T27	PROCESS 527 535	attested
+T28	REFERENCE 536 541	which
+T29	PROCESS 542 551	undermine
+T30	DATA-ITEM 556 565	viability
+T31	PLAN-OR-PROCESS 569 611	multilingual parallel corpora construction

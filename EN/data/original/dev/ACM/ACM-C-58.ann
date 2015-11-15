@@ -1,0 +1,204 @@
+T1	PLAN 2 52	Scalable Distributed Information Management System
+T2	PLAN 66 116	Scalable Distributed Information Management System
+T3	PLAN 118 123	SDIMS
+R1	Equivalence Arg1:T3 Arg2:T2	
+T4	REFERENCE 125 129	that
+R2	Coreference Arg1:T4 Arg2:T2	
+T5	PROCESS 130 140	aggregates
+T6	DATA-ITEM 141 152	information
+T7	PLAN 171 188	networked systems
+T8	QUALITY 159 170	large-scale
+T9	REFERENCE 193 197	that
+R3	Coreference Arg1:T9 Arg2:T4	
+T10	MODALITY 198 201	can
+T11	PROCESS 202 207	serve
+T12	PLAN 219 233	building block
+T14	QUALITY 255 266	large-scale
+T15	PLAN 267 291	distributed applications
+T16	QUALITY 240 251	broad range
+T17	PROCESS 295 304	providing
+T18	DATA-ITEM 314 319	views
+T19	DATA-ITEM 323 341	nearby information
+T20	DATA-ITEM 346 359	summary views
+T21	DATA-ITEM 363 381	global information
+T22	PROCESS 386 391	serve
+T23	PLAN 403 417	building block
+T24	PLAN 421 426	SDIMS
+T25	MODALITY 427 433	should
+T26	ATTRIBUTE 434 438	have
+T27	QUANTITY 439 443	four
+T28	QUALITY 444 454	properties
+T29	QUALITY 456 467	scalability
+T30	QUANTITY 471 475	many
+T31	ARTIFACT 476 481	nodes
+T32	DATA-ITEM 486 496	attributes
+T33	QUALITY 498 509	flexibility
+T34	APPLY-TO 513 524	accommodate
+T35	PLAN 542 554	applications
+T13	QUALITY 527 538	broad range
+T36	QUALITY 556 580	administrative isolation
+T37	QUALITY 585 593	security
+T38	QUALITY 598 610	availability
+T39	QUALITY 616 626	robustness
+T40	PLAN-OR-PROCESS 630 634;647 655	node failures
+T41	PLAN-OR-PROCESS 639 655	network failures
+T42	PROCESS 660 666	design
+T43	PROCESS 668 677	implement
+T44	PROCESS 682 690	evaluate
+T45	PLAN 693 698	SDIMS
+T46	REFERENCE 699 703	that
+R4	Coreference Arg1:T46 Arg2:T45	
+T47	APPLY-TO 708 717	leverages
+T48	PLAN 718 741	Distributed Hash Tables
+T49	PLAN 743 746	DHT
+T50	PROCESS 751 757	create
+T51	DATA-ITEM 758 784	scalable aggregation trees
+T52	PROCESS 790 798	provides
+T53	QUALITY 799 810	flexibility
+T54	PLAN 828 831	API
+T55	REFERENCE 832 836	that
+R5	Coreference Arg1:T55 Arg2:T54	
+T56	PROCESS 837 841	lets
+T57	PLAN 842 854	applications
+T58	PLAN-OR-PROCESS 878 883	reads
+T59	PLAN-OR-PROCESS 888 894	writes
+T60	PROCESS 900 908	provides
+T61	QUALITY 909 933	administrative isolation
+T62	PLAN 949 959	extensions
+T63	PLAN 971 985	DHT algorithms
+T64	TIME 963 970	current
+T65	ATTRIBUTE 995 1003	achieves
+T66	QUALITY 1004 1014	robustness
+T67	PLAN-OR-PROCESS 1018 1022;1035 1051	node reconfigurations
+T68	PLAN-OR-PROCESS 1027 1051	network reconfigurations
+T69	PLAN 1060 1078	lazy reaggregation
+T70	PLAN 1080 1103	on-demand reaggregation
+T71	PLAN 1117 1136	spatial replication
+T72	PLAN-OR-PROCESS 1156 1167	simulations
+T73	PLAN-OR-PROCESS 1172 1199	micro-benchmark experiments
+T74	PLAN 1221 1227	system
+T77	QUALITY 1253 1266	more scalable
+T78	PLAN 1272 1291	existing approaches
+T79	ATTRIBUTE 1293 1301	achieves
+T80	QUALITY 1302 1322	isolation properties
+T81	QUALITY 1330 1334	cost
+T82	QUALITY 1357 1369	read latency
+T83	QUALITY 1338 1356	modestly increased
+T84	COMPARE 1373 1383	comparison
+T85	PLAN 1387 1396	flat DHTs
+T86	QUALITY 1402 1412	gracefully
+T87	PROCESS 1413 1420	handles
+T88	PLAN-OR-PROCESS 1421 1429	failures
+R6	Attribute Arg1:T7 Arg2:T8	
+R7	Attribute Arg1:T15 Arg2:T14	
+R8	Attribute Arg1:T28 Arg2:T27	
+R9	Equivalence Arg1:T49 Arg2:T48	
+T89	PROCESS 855 862	control
+T90	PLAN-OR-PROCESS 863 874	propagation
+T91	QUALITY 1109 1116	tunable
+T92	QUALITY 1146 1155	extensive
+R10	Attribute Arg1:T72 Arg2:T92	
+T93	PERSON 1217 1220	our
+T75	QUANTITY 1234 1252	order of magnitude
+R11	Attribute Arg1:T87 Arg2:T86	
+R12	Attribute Arg1:T31 Arg2:T30	
+R13	Attribute Arg1:T11 Arg2:T10	
+R14	Attribute Arg1:T82 Arg2:T83	
+R15	Poss Arg1:T93 Arg2:T74	
+R16	Attribute Arg1:T15 Arg2:T16	
+T95	QUALITY 397 402	basic
+R17	Attribute Arg1:T23 Arg2:T95	
+R18	Attribute Arg1:T35 Arg2:T13	
+T97	QUALITY 821 827	simple
+R19	Attribute Arg1:T54 Arg2:T97	
+T98	QUALITY 942 948	simple
+R20	Attribute Arg1:T62 Arg2:T98	
+R21	Attribute Arg1:T63 Arg2:T64	
+R22	Attribute Arg1:T71 Arg2:T91	
+R23	Attribute Arg1:T77 Arg2:T75	
+R24	Apply-to Arg1:T4 Arg2:T5	
+R25	Input Arg1:T5 Arg2:T6	
+R26	Attribute Arg1:T6 Arg2:T7	
+R27	Output Arg1:T11 Arg2:T9	
+T99	QUALITY 213 218	basic
+R29	Attribute Arg1:T12 Arg2:T99	
+R30	Apply-to Arg1:T12 Arg2:T15	
+R31	Output Arg1:T17 Arg2:T18	
+R32	Attribute Arg1:T18 Arg2:T19	
+R33	Output Arg1:T17 Arg2:T20	
+R34	Apply-to Arg1:T17 Arg2:T11	
+R35	Attribute Arg1:T20 Arg2:T21	
+R36	Other-rel Arg1:T22 Arg2:T23	
+R37	Attribute Arg1:T26 Arg2:T25	
+R38	from Arg1:T26 Arg2:T24	
+R39	to Arg1:T26 Arg2:T28	
+R41	Is-a Arg1:T29 Arg2:T28	
+R42	Other-rel Arg1:T29 Arg2:T31	
+R43	Attribute Arg1:T32 Arg2:T30	
+R44	Other-rel Arg1:T29 Arg2:T32	
+R45	Is-a Arg1:T33 Arg2:T28	
+R46	Is-a Arg1:T36 Arg2:T28	
+R47	Is-a Arg1:T39 Arg2:T28	
+R48	Other-rel Arg1:T33 Arg2:T34	
+R49	to Arg1:T34 Arg2:T35	
+R50	Other-rel Arg1:T36 Arg2:T37	
+R51	Other-rel Arg1:T36 Arg2:T38	
+R52	Condition Arg1:T39 Arg2:T41	
+R53	Condition Arg1:T39 Arg2:T40	
+R54	Output Arg1:T42 Arg2:T45	
+R55	Output Arg1:T43 Arg2:T45	
+R56	Input Arg1:T44 Arg2:T45	
+R57	to Arg1:T47 Arg2:T46	
+R58	from Arg1:T47 Arg2:T48	
+R60	Output Arg1:T50 Arg2:T51	
+R61	Apply-to Arg1:T46 Arg2:T52	
+R62	Output Arg1:T52 Arg2:T53	
+R63	Apply-to Arg1:T54 Arg2:T52	
+R64	Other-rel Arg1:T56 Arg2:T55	
+R65	Other-rel Arg1:T56 Arg2:T89	
+R66	Apply-to Arg1:T57 Arg2:T89	
+R67	Target Arg1:T89 Arg2:T90	
+R68	In_Out Arg1:T90 Arg2:T58	
+R69	In_Out Arg1:T90 Arg2:T59	
+R70	Apply-to Arg1:T46 Arg2:T60	
+R71	Output Arg1:T60 Arg2:T61	
+R72	Apply-to Arg1:T62 Arg2:T60	
+R73	Destination Arg1:T62 Arg2:T63	
+R74	from Arg1:T65 Arg2:T46	
+R75	to Arg1:T65 Arg2:T66	
+R76	Condition Arg1:T66 Arg2:T68	
+R77	Condition Arg1:T66 Arg2:T67	
+R78	Apply-to Arg1:T69 Arg2:T65	
+R79	Apply-to Arg1:T70 Arg2:T65	
+R80	Apply-to Arg1:T71 Arg2:T65	
+R81	Result Arg1:T72 Arg2:T74	
+R82	Result Arg1:T73 Arg2:T74	
+R83	Attribute Arg1:T74 Arg2:T77	
+R84	Compare Arg1:T78 Arg2:T77	
+R85	from Arg1:T79 Arg2:T74	
+R86	to Arg1:T79 Arg2:T80	
+R87	Condition Arg1:T79 Arg2:T81	
+R88	Attribute Arg1:T81 Arg2:T82	
+R89	to Arg1:T84 Arg2:T82	
+R90	from Arg1:T84 Arg2:T85	
+R91	Apply-to Arg1:T74 Arg2:T87	
+R92	Input Arg1:T87 Arg2:T88	
+R28	Is-a Arg1:T9 Arg2:T12	
+R93	Other-rel Arg1:T11 Arg2:T12	
+R40	Other-rel Arg1:T26 Arg2:T22	
+R94	from Arg1:T34 Arg2:T24	
+R95	Apply-to Arg1:T46 Arg2:T50	
+T76	PERSON 53 55	We
+T94	PROCESS 56 63	present
+T96	PERSON 657 659	We
+T100	PERSON 1201 1203	we
+T101	PROCESS 1204 1211	observe
+R59	Agent Arg1:T94 Arg2:T76	
+R96	Output Arg1:T94 Arg2:T2	
+R97	Agent Arg1:T42 Arg2:T96	
+R98	Agent Arg1:T43 Arg2:T96	
+R99	Agent Arg1:T44 Arg2:T96	
+R100	Agent Arg1:T101 Arg2:T100	
+R101	In_Out Arg1:T101 Arg2:T77	
+R102	In_Out Arg1:T101 Arg2:T80	
+R103	In_Out Arg1:T101 Arg2:T86	

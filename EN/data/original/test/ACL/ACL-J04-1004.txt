@@ -1,0 +1,9 @@
+Accessor Variety Criteria for Chinese Word Extraction
+
+We are interested in the problem of word extraction from Chinese text collections.
+We define a word to be a meaningful string composed of several Chinese characters.
+For example, <767E><5206><4E4B>, `percent', and <8D8A><6765><8D8A>, `more and more', are not recognized as traditional Chinese words from the viewpoint of some people.
+However, in our work, they are words because they are very widely used and have specific meanings. We start with the viewpoint that a word is a distinguished linguistic entity that can be used in many different language environments.
+We consider the characters that are directly before a string (predecessors) and the characters that are directly after a string (successors) as important factors for determining the independence of the string.
+We call such characters accessors of the string, consider the number of distinct predecessors and successors of a string in a large corpus (TREC 5 and TREC 6 documents), and use them as the measurement of the context independency of a string from the rest of the sentences in the document.
+Our experiments confirm our hypothesis and show that this simple rule gives quite good results for Chinese word extraction and is comparable to, and for long words outperforms, other iterative methods.

@@ -1,0 +1,10 @@
+A Shared Task Involving Multi-label Classification of Clinical Free Text
+
+This paper reports on a shared task involving the assignment of ICD-9-CM codes to radiology reports.
+Two features distinguished this task from previous shared tasks in the biomedical domain.
+One is that it resulted in the first freely distributable corpus of fully anonymized clinical text.
+This resource is permanently available and will (we hope) facilitate future research.
+The other key feature of the task is that it required categorization with respect to a large and commercially significant set of labels.
+The number of participants was larger than in any previous biomedical challenge task.
+We describe the data production process and the evaluation measures, and give a preliminary analysis of the results.
+Many systems performed at levels approaching the inter-coder agreement, suggesting that human-like performance on this task is within the reach of currently available technologies.

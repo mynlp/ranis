@@ -1,0 +1,223 @@
+T1	PLAN-OR-PROCESS 0 3	MSP
+T2	PLAN-OR-PROCESS 5 31	Multi-Sequence Positioning
+T3	ARTIFACT 35 56	Wireless Sensor Nodes
+T4	ARTIFACT 57 81	Wireless Sensor Networks
+T5	PROCESS 92 100	proposed
+T6	QUANTITY 112 116	many
+T7	PLAN 117 148	location-dependent applications
+R2	Attribute Arg1:T7 Arg2:T6	
+R1	Equivalence Arg1:T2 Arg2:T1	
+T8	QUANTITY 150 154	Most
+T9	REFERENCE 158 163	these
+R3	Coreference Arg1:T9 Arg2:T7	
+R4	Attribute Arg1:T9 Arg2:T8	
+T10	APPLY-TO 105 108	use
+T11	MODALITY 164 168	need
+T12	PROCESS 172 180	identify
+T13	LOCATION 185 194	locations
+T14	ARTIFACT 198 219	wireless sensor nodes
+T15	PLAN 235 239	task
+T16	QUALITY 277 281	cost
+T17	PLAN 262 273	constraints
+T18	QUALITY 283 289	energy
+T20	QUALITY 294 309	effective range
+T21	ARTIFACT 313 327	sensor devices
+R6	Attribute Arg1:T12 Arg2:T11	
+T22	PROCESS 332 340	overcome
+T23	QUALITY 341 352	limitations
+T25	PLAN 356 374	existing solutions
+T26	PLAN 389 415	Multi-Sequence Positioning
+T27	PLAN 417 420	MSP
+T28	PLAN 422 428	method
+R7	Split Arg1:T28 Arg2:T26	
+R8	Equivalence Arg1:T27 Arg2:T26	
+T29	PLAN-OR-PROCESS 433 480	large-scale stationary sensor node localization
+T30	LOCATION 484 504	outdoor environments
+T33	PLAN 528 531	MSP
+T35	PROCESS 538 549	reconstruct
+T36	PROCESS 554 562	estimate
+T37	DATA-ITEM 563 599	two-dimensional location information
+T38	ARTIFACT 609 620	sensor node
+T39	PROCESS 624 634	processing
+T40	QUANTITY 635 643	multiple
+T41	DATA-ITEM 644 674	one-dimensional node sequences
+R10	Attribute Arg1:T41 Arg2:T40	
+T42	QUALITY 676 682	easily
+T43	PROCESS 683 691	obtained
+R11	Attribute Arg1:T43 Arg2:T42	
+T44	QUALITY 700 707	loosely
+T45	PROCESS 708 714	guided
+T46	DATA-ITEM 715 733	event distribution
+R12	Attribute Arg1:T45 Arg2:T44	
+T47	PLAN 757 767	MSP design
+T49	QUANTITY 780 784	four
+T50	PLAN 785 798	optimizations
+R13	Attribute Arg1:T50 Arg2:T49	
+T51	APPLY-TO 806 810	work
+T52	QUALITY 811 819	together
+R14	Attribute Arg1:T51 Arg2:T52	
+T53	PROCESS 823 831	increase
+T54	DATA-ITEM 836 857	localization accuracy
+T55	QUANTITY 870 877	several
+T56	QUALITY 878 889	interesting
+T57	PLAN 890 896	issues
+R15	Attribute Arg1:T57 Arg2:T56	
+R16	Attribute Arg1:T57 Arg2:T55	
+T58	QUALITY 906 916	incomplete
+T59	QUALITY 918 925	partial
+T60	PLAN 927 941	node sequences
+T61	PLAN 946 959	sequence flip
+R17	Equivalence Arg1:T59 Arg2:T58	
+R18	Attribute Arg1:T60 Arg2:T59	
+T62	PROCESS 961 966	found
+T63	ARTIFACT 974 989	Mirage test-bed
+T64	PLAN 1022 1032	MSP system
+T65	PLAN-OR-PROCESS 1041 1061	theoretical analysis
+T66	PLAN-OR-PROCESS 1073 1083	simulation
+T67	QUANTITY 1095 1098	two
+T68	ARTIFACT 1099 1115	physical systems
+T69	ARTIFACT 1120 1134	indoor version
+T70	QUANTITY 1140 1142	46
+T71	ARTIFACT 1143 1154	MICAz motes
+R20	Attribute Arg1:T71 Arg2:T70	
+R21	Attribute Arg1:T68 Arg2:T67	
+T72	ARTIFACT 1162 1177	outdoor version
+T73	QUANTITY 1183 1185	20
+T74	ARTIFACT 1186 1197	MICAz motes
+R22	Attribute Arg1:T74 Arg2:T73	
+T75	PLAN 1234 1237	MSP
+T76	DATA-ITEM 1253 1261	accuracy
+T77	QUANTITY 1269 1277	one foot
+R23	Attribute Arg1:T76 Arg2:T77	
+T78	ARTIFACT 1315 1323	hardware
+T79	ARTIFACT 1327 1339	sensor nodes
+T80	DATA-ITEM 1352 1370	event distribution
+T81	QUALITY 1297 1307	additional
+T82	QUALITY 1344 1351	precise
+R24	Attribute Arg1:T78 Arg2:T81	
+R25	Attribute Arg1:T80 Arg2:T82	
+T83	CONDITION 1279 1288	requiring
+T84	MODALITY 1289 1296	neither
+T85	MODALITY 1340 1343	nor
+T86	DATA-ITEM 1413 1426	physical cost
+T87	DATA-ITEM 1441 1450	soft cost
+T88	ARTIFACT 1428 1435	anchors
+T89	OCCURENT 1452 1458	events
+T90	QUALITY 1391 1395	nice
+T92	THING 1396 1404	tradeoff
+R29	Attribute Arg1:T92 Arg2:T90	
+T91	PROCESS 1467 1478	maintaining
+T93	DATA-ITEM 1479 1500	localization accuracy
+T19	ARTIFACT 974 980	Mirage
+T31	QUALITY 223 234	challenging
+T32	QUALITY 255 261	severe
+R5	Attribute Arg1:T15 Arg2:T31	
+R9	Attribute Arg1:T17 Arg2:T32	
+R28	Attribute Arg1:T25 Arg2:T23	
+T24	QUALITY 751 756	basic
+R30	Attribute Arg1:T47 Arg2:T24	
+T34	QUALITY 1063 1072	extensive
+R19	Attribute Arg1:T66 Arg2:T34	
+T48	ARTIFACT 1143 1148	MICAz
+T94	ARTIFACT 1186 1191	MICAz
+T95	MODALITY 1238 1241	can
+T96	OUTPUT 1242 1249	achieve
+R31	Attribute Arg1:T96 Arg2:T95	
+T97	REFERENCE 1372 1374	It
+R32	Coreference Arg1:T97 Arg2:T75	
+T98	OUTPUT 1380 1388	provides
+T99	QUALITY 1308 1314	costly
+R33	Attribute Arg1:T78 Arg2:T99	
+T100	REFERENCE 800 805	which
+R34	Coreference Arg1:T100 Arg2:T50	
+R26	Attribute Arg1:T78 Arg2:T84	
+T101	PLAN-OR-PROCESS 1200 1215	This evaluation
+T102	RESULT 1216 1228	demonstrates
+T105	PROCESS 1008 1017	evaluated
+R35	Input Arg1:T2 Arg2:T3	
+R36	Output Arg1:T5 Arg2:T4	
+R37	from Arg1:T10 Arg2:T5	
+R38	to Arg1:T10 Arg2:T7	
+R39	Apply-to Arg1:T9 Arg2:T12	
+R40	Output Arg1:T12 Arg2:T13	
+R42	Attribute Arg1:T14 Arg2:T13	
+R41	Is-a Arg1:T9 Arg2:T15	
+R43	Condition Arg1:T17 Arg2:T16	
+T106	RESULT 240 250	because of
+R44	from Arg1:T106 Arg2:T17	
+R45	to Arg1:T106 Arg2:T31	
+R48	Attribute Arg1:T21 Arg2:T18	
+R49	Attribute Arg1:T21 Arg2:T20	
+R50	Input Arg1:T22 Arg2:T23	
+R52	Apply-to Arg1:T28 Arg2:T29	
+R51	Apply-to Arg1:T28 Arg2:T22	
+R53	Condition Arg1:T29 Arg2:T30	
+T107	QUALITY 510 520	novel idea
+R54	Attribute Arg1:T33 Arg2:T107	
+R55	Apply-to Arg1:T33 Arg2:T35	
+R56	Apply-to Arg1:T33 Arg2:T36	
+R57	Output Arg1:T36 Arg2:T37	
+R58	Destination Arg1:T36 Arg2:T38	
+R59	Apply-to Arg1:T39 Arg2:T36	
+R60	Output Arg1:T35 Arg2:T37	
+R61	Apply-to Arg1:T39 Arg2:T35	
+R62	Input Arg1:T39 Arg2:T41	
+R63	Output Arg1:T43 Arg2:T41	
+R64	Input Arg1:T43 Arg2:T46	
+R65	Other-rel Arg1:T45 Arg2:T46	
+R66	from Arg1:T51 Arg2:T100	
+R67	to Arg1:T51 Arg2:T53	
+R68	In_Out Arg1:T53 Arg2:T54	
+R69	Apply-to Arg1:T47 Arg2:T50	
+R70	Is-a Arg1:T60 Arg2:T57	
+R71	Is-a Arg1:T61 Arg2:T57	
+R72	Output Arg1:T62 Arg2:T61	
+R73	Output Arg1:T62 Arg2:T60	
+R74	Other-rel Arg1:T62 Arg2:T63	
+R75	Input Arg1:T105 Arg2:T64	
+R76	Apply-to Arg1:T65 Arg2:T105	
+R77	Apply-to Arg1:T66 Arg2:T105	
+R78	Condition Arg1:T105 Arg2:T68	
+R79	Is-a Arg1:T69 Arg2:T68	
+R80	Component-object Arg1:T71 Arg2:T69	
+R81	Is-a Arg1:T72 Arg2:T68	
+R82	Component-object Arg1:T74 Arg2:T72	
+R83	Coreference Arg1:T101 Arg2:T105	
+R84	from Arg1:T102 Arg2:T101	
+R85	from Arg1:T96 Arg2:T75	
+R86	to Arg1:T96 Arg2:T76	
+R87	to Arg1:T102 Arg2:T96	
+R27	Attribute Arg1:T80 Arg2:T85	
+R88	from Arg1:T83 Arg2:T96	
+R89	to Arg1:T83 Arg2:T78	
+R90	to Arg1:T83 Arg2:T80	
+R91	Component-object Arg1:T78 Arg2:T79	
+R92	from Arg1:T98 Arg2:T97	
+R93	to Arg1:T98 Arg2:T92	
+R94	Attribute Arg1:T86 Arg2:T88	
+R95	Attribute Arg1:T87 Arg2:T89	
+R96	Attribute Arg1:T92 Arg2:T86	
+R97	In_Out Arg1:T91 Arg2:T93	
+R98	Condition Arg1:T98 Arg2:T91	
+R99	Attribute Arg1:T92 Arg2:T87	
+R46	Condition Arg1:T17 Arg2:T18	
+R47	Condition Arg1:T17 Arg2:T20	
+R100	Attribute Arg1:T21 Arg2:T16	
+T103	PERSON 376 378	we
+T104	PROCESS 379 386	present
+T108	PERSON 769 771	we
+T109	PROCESS 772 779	propose
+T110	PERSON 859 861	We
+T111	PROCESS 862 869	address
+T112	PERSON 1000 1002	We
+R101	Agent Arg1:T104 Arg2:T103	
+R102	Output Arg1:T104 Arg2:T28	
+R103	Agent Arg1:T109 Arg2:T108	
+R104	Output Arg1:T109 Arg2:T50	
+R105	Agent Arg1:T111 Arg2:T110	
+R106	Target Arg1:T111 Arg2:T57	
+R107	Agent Arg1:T105 Arg2:T112	
+T113	PERSON 990 992	we
+T114	PROCESS 993 998	built
+R108	Agent Arg1:T114 Arg2:T113	
+R109	Output Arg1:T114 Arg2:T63	

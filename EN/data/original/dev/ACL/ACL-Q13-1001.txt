@@ -1,0 +1,10 @@
+Token and Type Constraints for Cross-Lingual Part-of-Speech Tagging
+
+We consider the construction of part-of-speech taggers for resource-poor languages.
+Recently, manually constructed tag dictionaries from Wiktionary and dictionaries projected via bitext have been used as type constraints to overcome the scarcity of annotated data in this setting.
+In this paper, we show that additional token constraints can be projected from a resource-rich source language to a resource-poor target
+language via word-aligned bitext.
+We present several models to this end; in particular a partially observed conditional random field model, where coupled token and type constraints provide a partial signal for training.
+Averaged across eight previously studied Indo-European languages, our model achieves a 25% relative error reduction over the prior state of the art.
+We further present successful results on seven additional languages from different families, empirically demonstrating the applicability
+of coupled token and type constraints across a diverse set of languages.

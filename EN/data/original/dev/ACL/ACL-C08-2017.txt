@@ -1,0 +1,5 @@
+Modelling Multilinguality in Ontologies
+
+Multilinguality in ontologies has become an impending need for institutions worldwide with valuable linguistic resources in different natural languages.
+Since most ontologies are developed in one language, obtaining multilingual ontologies implies to localize or adapt them to a concrete language and culture com munity.
+As the adaptation of the ontology conceptualization demands considerable efforts, we propose to modify the ontology terminological layer, and provide a model called Linguistic Information Repository (LIR) that associated to the ontology meta-model allows terminological layer localization.

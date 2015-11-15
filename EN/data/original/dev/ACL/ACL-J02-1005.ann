@@ -1,0 +1,72 @@
+T1	PLAN 4 25	DOP Estimation Method
+T2	QUALITY 40 52	Inconsistent
+T3	PLAN 56 77	data-oriented parsing
+T4	PLAN 81 90	DOP model
+T5	PLAN-OR-PROCESS 95 114	statistical parsing
+T6	PROCESS 115 125	associates
+T7	DATA-ITEM 126 135	fragments
+T8	DATA-ITEM 139 165	linguistic representations
+T9	DATA-ITEM 171 188	numerical weights
+T10	DATA-ITEM 196 209	these weights
+T11	PROCESS 214 223	estimated
+T12	PROCESS 227 238	normalizing
+T13	DATA-ITEM 243 262	empirical frequency
+T14	QUALITY 266 270	each
+T15	DATA-ITEM 271 279	fragment
+T16	DATA-ITEM 285 300	training corpus
+T18	EXTERNAL-REFERENCE 306 316	Bod [1998]
+T19	EXTERNAL-REFERENCE 321 331	references
+T20	PROCESS 332 337	cited
+T21	PLAN 372 394	this estimation method
+T22	QUALITY 409 421	inconsistent
+T23	DATA-ITEM 436 458	estimated distribution
+T24	MODALITY 464 467	not
+T25	QUALITY 471 478	general
+T26	PROCESS 479 487	converge
+T27	DATA-ITEM 495 512	true distribution
+T28	DATA-ITEM 520 524	size
+T29	DATA-ITEM 532 547	training corpus
+R1	Attribute Arg1:T1 Arg2:T2	
+T30	QUALITY 29 35	Biased
+R2	Attribute Arg1:T1 Arg2:T30	
+R5	Apply-to Arg1:T4 Arg2:T5	
+R6	Component-object Arg1:T8 Arg2:T7	
+R7	Apply-to Arg1:T4 Arg2:T6	
+R8	Destination Arg1:T6 Arg2:T7	
+R9	Input Arg1:T6 Arg2:T9	
+R10	Coreference Arg1:T10 Arg2:T9	
+R11	Output Arg1:T11 Arg2:T10	
+R12	Apply-to Arg1:T12 Arg2:T11	
+R13	Input Arg1:T12 Arg2:T13	
+R14	Attribute Arg1:T15 Arg2:T14	
+R15	Attribute Arg1:T13 Arg2:T15	
+R16	Component-object Arg1:T16 Arg2:T15	
+R18	Other-rel Arg1:T20 Arg2:T19	
+T17	PROCESS 302 305	see
+R19	Other-rel Arg1:T17 Arg2:T18	
+R20	Other-rel Arg1:T17 Arg2:T19	
+T33	REFERENCE 348 357	This note
+A1	Self T33
+T34	PROCESS 358 366	observes
+R21	Coreference Arg1:T21 Arg2:T11	
+T35	QUALITY 398 404	biased
+R22	Attribute Arg1:T21 Arg2:T35	
+R23	Attribute Arg1:T21 Arg2:T22	
+R24	Attribute Arg1:T26 Arg2:T25	
+R25	Attribute Arg1:T26 Arg2:T24	
+R26	Destination Arg1:T26 Arg2:T27	
+T36	PROCESS 548 557	increases
+R27	Attribute Arg1:T29 Arg2:T28	
+R28	In_Out Arg1:T36 Arg2:T28	
+R29	Output Arg1:T26 Arg2:T23	
+R30	Condition Arg1:T34 Arg2:T33	
+A2	Judgment T35
+A3	Judgment T22
+R31	In_Out Arg1:T34 Arg2:T35	
+R32	In_Out Arg1:T34 Arg2:T22	
+R3	Equivalence Arg1:T4 Arg2:T3	
+T31	PERSON 306 309	Bod
+A4	Name T31
+T32	TIME 311 315	1998
+A5	Judgment T30
+A6	Judgment T2

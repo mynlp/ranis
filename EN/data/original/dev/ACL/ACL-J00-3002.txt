@@ -1,0 +1,4 @@
+Incremental Processing and Acceptability
+
+We describe a left-to-right incremental procedure for the processing of Lambek categorial grammar by proof net construction.
+A simple metric of complexity, the profile in time of the number of unresolved valencies, correctly predicts a wide variety of performance phenomena including garden pathing, the unacceptability of center embedding, preference for lower attachment, left-to-right quantifier scope preference, and heavy noun phrase shift.

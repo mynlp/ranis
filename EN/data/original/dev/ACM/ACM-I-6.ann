@@ -1,0 +1,127 @@
+T1	PLAN 0 17	Dynamic Semantics
+T2	PLAN 22 51	Agent Communication Languages
+T4	PLAN 72 89	dynamic semantics
+T5	PLAN 94 123	agent communication languages
+T6	PLAN 125 129	ACLs
+T7	PLAN 136 142	method
+T8	PROCESS 147 155	tackling
+T9	QUANTITY 156 160	some
+T10	QUALITY 168 179	fundamental
+T11	PLAN 180 188	problems
+T12	QUALITY 189 199	associated
+T13	PLAN-OR-PROCESS 205 224	agent communication
+T14	PLAN 228 251	open multiagent systems
+T15	APPLY-TO 253 258	Based
+T16	PLAN 266 270	idea
+T17	PROCESS 274 283	providing
+T18	QUALITY 284 295	alternative
+T19	PLAN 296 313	semantic variants
+T20	PLAN 318 329	speech acts
+T21	PLAN 334 350	transition rules
+T22	REFERENCE 359 363	them
+T23	REFERENCE 364 368	that
+T24	QUALITY 373 383	contingent
+T25	TIME 387 395	previous
+T26	PLAN-OR-PROCESS 396 411	agent behaviour
+T27	PERSON 413 416	our
+T28	PLAN 417 426	framework
+T29	PROCESS 427 435	provides
+T30	QUALITY 439 447	improved
+T31	PLAN 448 454	notion
+T33	PLAN 458 477	grounding semantics
+T34	PLAN-OR-PROCESS 481 500	ongoing interaction
+T35	QUALITY 504 510	simple
+T36	PLAN 511 520	mechanism
+T37	PROCESS 525 539	distinguishing
+T38	PLAN-OR-PROCESS 548 557	compliant
+T39	PLAN-OR-PROCESS 562 580	expected behaviour
+T40	PLAN 588 591	way
+T41	PROCESS 595 602	specify
+T42	PLAN 603 611	sanction
+T44	PLAN 616 633	reward mechanisms
+T45	PLAN 649 652	ACL
+T47	PERSON 661 663	We
+T48	PROCESS 664 670	extend
+T49	QUALITY 673 679	common
+T50	PLAN 680 689	framework
+T51	PLAN 694 724	commitment-based ACL semantics
+T52	PROCESS 728 734	obtain
+T53	DATA-ITEM 735 751	these properties
+T54	OCCURENT 761 771	desiderata
+T55	PLAN-OR-PROCESS 780 786	design
+T56	QUALITY 790 798	concrete
+T57	PLAN 799 816	dynamic semantics
+T58	PLAN 831 839	examples
+T59	PROCESS 845 852	analyse
+T60	REFERENCE 853 858	their
+T61	DATA-ITEM 859 869	properties
+R1	Apply-to Arg1:T1 Arg2:T2	
+T3	REFERENCE 52 62	This paper
+A1	Self T3
+T62	PROCESS 63 71	proposes
+A2	Intentional T62
+R2	Condition Arg1:T62 Arg2:T3	
+R3	Output Arg1:T62 Arg2:T4	
+R4	Equivalence Arg1:T6 Arg2:T5	
+R5	Apply-to Arg1:T4 Arg2:T5	
+R6	Apply-to Arg1:T7 Arg2:T8	
+R7	Attribute Arg1:T11 Arg2:T10	
+R8	Attribute Arg1:T11 Arg2:T9	
+R9	Target Arg1:T8 Arg2:T11	
+R10	Condition Arg1:T12 Arg2:T13	
+R11	Attribute Arg1:T11 Arg2:T12	
+R12	Condition Arg1:T13 Arg2:T14	
+R13	Is-a Arg1:T4 Arg2:T7	
+R14	Attribute Arg1:T19 Arg2:T18	
+R15	Output Arg1:T17 Arg2:T19	
+R17	Condition Arg1:T21 Arg2:T22	
+R19	Output Arg1:T17 Arg2:T21	
+R20	Other-rel Arg1:T17 Arg2:T16	
+R21	Condition Arg1:T26 Arg2:T25	
+R22	Attribute Arg1:T23 Arg2:T24	
+R23	Condition Arg1:T24 Arg2:T26	
+A3	Self T27
+R25	Poss Arg1:T27 Arg2:T28	
+R26	Apply-to Arg1:T28 Arg2:T29	
+R27	Attribute Arg1:T31 Arg2:T30	
+R28	Output Arg1:T29 Arg2:T31	
+R29	from Arg1:T15 Arg2:T16	
+R30	to Arg1:T15 Arg2:T29	
+R31	Is-a Arg1:T33 Arg2:T31	
+R32	Attribute Arg1:T36 Arg2:T35	
+R33	Apply-to Arg1:T36 Arg2:T37	
+R34	In_Out Arg1:T37 Arg2:T38	
+R35	In_Out Arg1:T37 Arg2:T39	
+R36	Output Arg1:T29 Arg2:T36	
+R37	Output Arg1:T29 Arg2:T40	
+R38	Apply-to Arg1:T40 Arg2:T41	
+R39	In_Out Arg1:T41 Arg2:T42	
+R40	In_Out Arg1:T41 Arg2:T44	
+T32	COMPONENT-OBJECT 634 644	as part of
+R41	from Arg1:T32 Arg2:T45	
+R42	to Arg1:T32 Arg2:T42	
+R43	to Arg1:T32 Arg2:T44	
+A4	Self T47
+A5	Intentional T48
+R44	Agent Arg1:T48 Arg2:T47	
+R45	Attribute Arg1:T50 Arg2:T49	
+R46	Apply-to Arg1:T50 Arg2:T51	
+R47	In_Out Arg1:T48 Arg2:T50	
+R48	Apply-to Arg1:T48 Arg2:T52	
+R49	In_Out Arg1:T52 Arg2:T53	
+T43	PROCESS 753 760	discuss
+A6	Intentional T43
+R50	Agent Arg1:T43 Arg2:T47	
+R51	In_Out Arg1:T43 Arg2:T54	
+R52	Target Arg1:T54 Arg2:T55	
+R53	Attribute Arg1:T57 Arg2:T56	
+R54	Output Arg1:T55 Arg2:T57	
+R55	Agent Arg1:T59 Arg2:T47	
+A7	Intentional T59
+R56	Attribute Arg1:T60 Arg2:T61	
+R57	Input Arg1:T59 Arg2:T61	
+R58	Output Arg1:T55 Arg2:T58	
+R59	Condition Arg1:T33 Arg2:T34	
+R60	Apply-to Arg1:T19 Arg2:T20	
+R16	Coreference Arg1:T23 Arg2:T22	
+T46	INTELLIGENT-AGENT 396 401	agent

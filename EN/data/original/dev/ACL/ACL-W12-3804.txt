@@ -1,0 +1,7 @@
+Factuality Detection on the Cheap: Inferring Factuality for Increased Precision in Detecting Negated Events
+
+This paper describes a system for discriminating between factual and non-factual contexts,
+trained on weakly labeled data by taking advantage of information implicit in annotations of negated events. In addition to evaluating
+factuality detection in isolation, we also evaluate its impact on a system for event detection.
+The two components for factuality detection and event detection form part of a system for identifying negative factual events, or coun
+terfacts, with top-ranked results in the *SEM 2012 shared task.

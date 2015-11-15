@@ -1,0 +1,216 @@
+T1	PROCESS 364 372	optimize
+T2	PROCESS 429 436	finding
+T3	PROCESS 550 561	approximate
+T4	PROCESS 1023 1029	exists
+T5	PROCESS 1164 1170	design
+T6	PROCESS 1246 1253	compute
+T7	PROCESS 1333 1341	computed
+T8	PROCESS 704 710	design
+T10	MODALITY 609 612	may
+T11	MODALITY 613 622	no longer
+T12	MODALITY 700 703	can
+T13	MODALITY 949 952	not
+T14	MODALITY 1326 1329	can
+T15	QUALITY 129 137	arguably
+T16	QUALITY 296 307	utilitarian
+T18	QUALITY 459 486	computationally intractable
+T19	QUALITY 566 573	optimal
+T20	QUALITY 673 679	useful
+T21	QUALITY 753 778	computationally tractable
+T23	QUALITY 1037 1043	proper
+T24	QUALITY 1099 1106	certain
+T25	QUALITY 1256 1267	efficiently
+T26	QUALITY 1272 1279	various
+T27	QUANTITY 401 405	many
+T28	PLAN 17 27	Mechanisms
+T29	PLAN 32 51	Binary Demand Games
+T30	PLAN 55 72	General Framework
+T31	PLAN 77 83	family
+T32	PLAN 87 108	Vickrey-Clarke-Groves
+T33	PLAN 115 125	mechanisms
+T34	PLAN 158 169	achievement
+T35	PLAN 173 198	truthful mechanism design
+T36	PLAN 209 223	VCG mechanisms
+T37	QUALITY 235 246	limitations
+T38	REFERENCE 248 252	They
+T39	PLAN 267 288	optimization problems
+T40	PLAN 320 338	objective function
+T41	DATA-ITEM 350 356	output
+T42	PLAN 377 395	objective function
+T43	PLAN 406 427	optimization problems
+T44	DATA-ITEM 449 455	output
+T45	PLAN 500 514	VCG mechanisms
+T46	PLAN 518 544	polynomial-time algorithms
+T47	DATA-ITEM 574 582	solution
+T48	PLAN 598 608	mechanisms
+T49	QUALITY 648 665	these limitations
+T50	PLAN 722 744	non-VCG payment scheme
+T51	PLAN 791 808	allocation rule O
+T53	PLAN 851 870	binary demand games
+T54	PLAN-OR-PROCESS 907 914	actions
+T55	PLAN 941 945	game
+T56	PLAN 961 975	these problems
+T57	PLAN 993 1011	truthful mechanism
+T58	PLAN 1044 1060	payment method P
+T59	PLAN 1069 1086	allocation rule O
+T60	QUALITY 1107 1128	monotonicity property
+T61	PLAN 1151 1160	framework
+T62	PLAN 1176 1177	P
+T63	PLAN 1206 1242	general composition-based techniques
+T64	QUALITY 1280 1285	types
+T65	DATA-ITEM 1289 1295	output
+T66	PLAN 1324 1325	P
+T67	PLAN-OR-PROCESS 1350 1369	or/and combinations
+T68	PLAN-OR-PROCESS 1371 1395	round-based combinations
+T69	PLAN-OR-PROCESS 1419 1431	combinations
+T70	DATA-ITEM 1439 1446	outputs
+T71	PLAN-OR-PROCESS 1452 1460	subgames
+T72	QUALITY 8 16	Truthful
+R1	Attribute Arg1:T28 Arg2:T72	
+T73	PLAN 110 113	VCG
+R2	Split Arg1:T33 Arg2:T32	
+T75	QUALITY 142 157	most celebrated
+R4	Attribute Arg1:T34 Arg2:T75	
+R6	Coreference Arg1:T38 Arg2:T78	
+T78	REFERENCE 229 234	their
+R7	Coreference Arg1:T78 Arg2:T36	
+T79	APPLY-TO 258 263	apply
+T80	QUALITY 312 318	affine
+R8	Attribute Arg1:T40 Arg2:T16	
+R9	Attribute Arg1:T40 Arg2:T80	
+T81	REFERENCE 344 349	their
+R10	Coreference Arg1:T81 Arg2:T38	
+R11	Attribute Arg1:T43 Arg2:T27	
+T82	PROCESS 494 499	apply
+T83	QUALITY 441 448	optimal
+R13	Attribute Arg1:T44 Arg2:T83	
+R14	Attribute Arg1:T47 Arg2:T19	
+T84	QUALITY 626 634	truthful
+R15	Attribute Arg1:T84 Arg2:T11	
+R16	Attribute Arg1:T84 Arg2:T10	
+R17	Attribute Arg1:T48 Arg2:T84	
+R18	Coreference Arg1:T49 Arg2:T37	
+T85	PROCESS 683 688	study
+R19	Attribute Arg1:T8 Arg2:T12	
+T86	QUALITY 713 721	truthful
+R20	Attribute Arg1:T50 Arg2:T86	
+T87	REFERENCE 745 749	that
+R21	Coreference Arg1:T87 Arg2:T50	
+R22	Attribute Arg1:T87 Arg2:T21	
+T89	REFERENCE 874 879	which
+R24	Coreference Arg1:T89 Arg2:T53	
+T90	INTELLIGENT-AGENT 884 890	agents
+T91	QUALITY 892 906	only available
+R25	Attribute Arg1:T54 Arg2:T91	
+T92	PROCESS 922 931	take part
+R26	Attribute Arg1:T92 Arg2:T13	
+R27	Attribute Arg1:T58 Arg2:T23	
+T95	PROCESS 1087 1096	satisfies
+R28	Attribute Arg1:T60 Arg2:T24	
+T96	QUANTITY 1198 1205	several
+R29	Attribute Arg1:T63 Arg2:T96	
+T97	PLAN 1254 1255	P
+R30	Attribute Arg1:T6 Arg2:T25	
+R31	Attribute Arg1:T64 Arg2:T26	
+R32	Attribute Arg1:T7 Arg2:T14	
+T98	QUALITY 1406 1418	more complex
+R33	Attribute Arg1:T69 Arg2:T98	
+T76	MODALITY 357 363	should
+R5	Attribute Arg1:T1 Arg2:T76	
+R12	Attribute Arg1:T2 Arg2:T18	
+R23	Attribute Arg1:T85 Arg2:T20	
+R35	Equivalence Arg1:T32 Arg2:T73	
+T22	PERSON 87 94	Vickrey
+T74	PERSON 95 101	Clarke
+T100	PERSON 102 108	Groves
+T94	FORMULA 1012 1022	M = (O, P)
+T52	REFERENCE 545 549	that
+R34	Coreference Arg1:T52 Arg2:T46	
+R36	Poss Arg1:T90 Arg2:T54	
+R37	Attribute Arg1:T78 Arg2:T37	
+R38	Poss Arg1:T81 Arg2:T41	
+T93	QUALITY 1143 1150	general
+R39	Attribute Arg1:T61 Arg2:T93	
+R3	Attribute Arg1:T75 Arg2:T15	
+R40	Apply-to Arg1:T28 Arg2:T29	
+R41	Member-collection Arg1:T33 Arg2:T31	
+R43	Condition Arg1:T34 Arg2:T35	
+R42	Is-a Arg1:T31 Arg2:T34	
+R45	to Arg1:T79 Arg2:T39	
+R47	Other-rel Arg1:T1 Arg2:T41	
+R48	In_Out Arg1:T1 Arg2:T42	
+R49	Apply-to Arg1:T43 Arg2:T2	
+R50	Output Arg1:T2 Arg2:T44	
+R51	Input Arg1:T82 Arg2:T45	
+R52	Apply-to Arg1:T82 Arg2:T46	
+R53	Apply-to Arg1:T52 Arg2:T3	
+R54	Destination Arg1:T3 Arg2:T47	
+T102	QUALITY 588 597	resulting
+R55	Attribute Arg1:T48 Arg2:T102	
+R56	In_Out Arg1:T85 Arg2:T8	
+R57	Output Arg1:T8 Arg2:T50	
+R58	Condition Arg1:T21 Arg2:T51	
+T105	QUALITY 785 790	given
+R59	Attribute Arg1:T51 Arg2:T105	
+R60	Condition Arg1:T92 Arg2:T55	
+R61	Apply-to Arg1:T54 Arg2:T92	
+R62	Condition Arg1:T92 Arg2:T89	
+R63	Attribute Arg1:T57 Arg2:T94	
+R64	Apply-to Arg1:T57 Arg2:T4	
+R65	Condition Arg1:T4 Arg2:T58	
+R66	Condition Arg1:T4 Arg2:T95	
+R67	Apply-to Arg1:T59 Arg2:T95	
+R68	Target Arg1:T95 Arg2:T60	
+R69	Apply-to Arg1:T61 Arg2:T5	
+R70	Output Arg1:T5 Arg2:T62	
+R71	Apply-to Arg1:T63 Arg2:T6	
+R72	Output Arg1:T6 Arg2:T97	
+R73	Input Arg1:T6 Arg2:T64	
+R74	Attribute Arg1:T65 Arg2:T64	
+R75	Output Arg1:T7 Arg2:T66	
+R76	Apply-to Arg1:T67 Arg2:T7	
+R77	Apply-to Arg1:T68 Arg2:T7	
+T108	QUANTITY 1401 1405	some
+R78	Attribute Arg1:T69 Arg2:T108	
+R79	Apply-to Arg1:T69 Arg2:T7	
+R80	Attribute Arg1:T67 Arg2:T70	
+R81	Attribute Arg1:T68 Arg2:T70	
+R82	Attribute Arg1:T69 Arg2:T70	
+R83	Output Arg1:T71 Arg2:T70	
+R46	from Arg1:T79 Arg2:T40	
+R44	Apply-to Arg1:T38 Arg2:T79	
+T109	MODALITY 488 490	If
+R84	Attribute Arg1:T82 Arg2:T109	
+T110	MODALITY 689 696	whether
+R85	Attribute Arg1:T8 Arg2:T110	
+T9	PERSON 491 493	we
+R86	Agent Arg1:T82 Arg2:T9	
+T17	PERSON 697 699	we
+R87	Agent Arg1:T8 Arg2:T17	
+T77	REFERENCE 813 823	this paper
+T88	PERSON 825 827	we
+T99	PROCESS 828 833	focus
+T101	PERSON 834 837	our
+T103	OCCURENT 838 847	attention
+R88	Agent Arg1:T103 Arg2:T101	
+R89	Target Arg1:T103 Arg2:T53	
+R90	Target Arg1:T99 Arg2:T103	
+R91	Condition Arg1:T99 Arg2:T77	
+R92	Agent Arg1:T99 Arg2:T88	
+T104	PERSON 977 979	we
+T106	PROCESS 980 985	prove
+R93	Agent Arg1:T106 Arg2:T104	
+R94	Apply-to Arg1:T106 Arg2:T56	
+R95	Output Arg1:T106 Arg2:T4	
+T107	PERSON 1130 1132	We
+T111	PROCESS 1133 1140	provide
+R96	Agent Arg1:T111 Arg2:T107	
+R97	Output Arg1:T111 Arg2:T61	
+T112	PERSON 1179 1181	We
+T113	PROCESS 1190 1197	propose
+R98	Agent Arg1:T113 Arg2:T112	
+R99	Output Arg1:T113 Arg2:T63	
+T114	PERSON 1312 1314	we
+T115	PROCESS 1315 1319	show
+R100	Agent Arg1:T115 Arg2:T114	
+R101	Output Arg1:T115 Arg2:T7	

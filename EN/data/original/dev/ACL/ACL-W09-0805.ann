@@ -1,0 +1,147 @@
+R1	Attribute Arg1:T2 Arg2:T65
+R2	Apply-to Arg1:T2 Arg2:T1
+R3	Condition Arg1:T1 Arg2:T64
+R4	Input Arg1:T2 Arg2:T3
+R5	Input Arg1:T2 Arg2:T4
+R7	Apply-to Arg1:T6 Arg2:T7
+R8	In_Out Arg1:T7 Arg2:T8
+R9	Attribute Arg1:T12 Arg2:T11
+R10	Condition Arg1:T10 Arg2:T12
+R11	Attribute Arg1:T6 Arg2:T10
+R12	Attribute Arg1:T10 Arg2:T9
+R13	Coreference Arg1:T14 Arg2:T6
+R14	Attribute Arg1:T14 Arg2:T13
+R15	Attribute Arg1:T17 Arg2:T16
+R16	Attribute Arg1:T19 Arg2:T18
+R17	Target Arg1:T15 Arg2:T16
+R18	Apply-to Arg1:T14 Arg2:T15
+R19	Equivalence Arg1:T19 Arg2:T17
+R20	Attribute Arg1:T22 Arg2:T21
+R21	Is-a Arg1:T23 Arg2:T22
+R22	Is-a Arg1:T24 Arg2:T22
+R23	Attribute Arg1:T26 Arg2:T25
+R24	Attribute Arg1:T28 Arg2:T27
+R25	Output Arg1:T28 Arg2:T25
+R27	Equivalence Arg1:T29 Arg2:T25
+R28	Output Arg1:T30 Arg2:T29
+R29	Destination Arg1:T30 Arg2:T33
+R30	Attribute Arg1:T33 Arg2:T32
+R31	Equivalence Arg1:T31 Arg2:T29
+R26	Result Arg1:T36 Arg2:T35
+R32	Target Arg1:T35 Arg2:T34
+R33	to Arg1:T66 Arg2:T35
+R34	Is-a Arg1:T22 Arg2:T20
+R36	Condition Arg1:T25 Arg2:T20
+R37	Attribute Arg1:T39 Arg2:T38
+R38	Attribute Arg1:T39 Arg2:T37
+R39	Output Arg1:T40 Arg2:T39
+R40	to Arg1:T67 Arg2:T40
+R41	from Arg1:T67 Arg2:T35
+R42	In_Out Arg1:T41 Arg2:T42
+R43	to Arg1:T67 Arg2:T41
+R44	Attribute Arg1:T36 Arg2:T42
+R46	Attribute Arg1:T45 Arg2:T44
+R47	Target Arg1:T43 Arg2:T45
+A1	Self T46
+A2	Intentional T47
+R48	Agent Arg1:T47 Arg2:T46
+R49	Apply-to Arg1:T47 Arg2:T43
+R50	Attribute Arg1:T49 Arg2:T48
+R51	Output Arg1:T47 Arg2:T49
+R52	Coreference Arg1:T50 Arg2:T49
+R53	Apply-to Arg1:T50 Arg2:T51
+R54	In_Out Arg1:T51 Arg2:T52
+R55	Coreference Arg1:T52 Arg2:T29
+R56	from Arg1:T66 Arg2:T28
+A3	Self T53
+A4	Intentional T54
+R57	Agent Arg1:T54 Arg2:T53
+R58	In_Out Arg1:T54 Arg2:T55
+R59	Attribute Arg1:T56 Arg2:T55
+R60	Condition Arg1:T56 Arg2:T57
+R61	Condition Arg1:T56 Arg2:T58
+A5	Intentional T68
+R62	Agent Arg1:T68 Arg2:T53
+R63	Attribute Arg1:T60 Arg2:T69
+R64	Result Arg1:T59 Arg2:T60
+R65	Attribute Arg1:T62 Arg2:T61
+R66	In_Out Arg1:T60 Arg2:T62
+R67	Condition Arg1:T62 Arg2:T63
+R68	Coreference Arg1:T59 Arg2:T56
+R35	Coreference Arg1:T26 Arg2:T16
+A6	Name T4
+A7	Name T58
+A8	Name T24
+A9	Name T3
+A10	Name T23
+A11	Name T64
+A12	Name T57
+A13	Name T63
+T1	PLAN-OR-PROCESS 0 30	Unsupervised Concept Discovery
+T64	LANGUAGE 34 40	Hebrew
+T65	QUALITY 47 53	Simple
+T2	PLAN-OR-PROCESS 54 91	Unsupervised Word Prefix Segmentation
+T3	LANGUAGE 96 102	Hebrew
+T4	LANGUAGE 107 113	Arabic
+T6	PLAN 116 156	Fully unsupervised pattern-based methods
+T7	PROCESS 161 170	discovery
+T8	DATA-ITEM 174 189	word categories
+T9	MODALITY 200 206	proven
+T10	QUALITY 213 219	useful
+T11	QUANTITY 223 230	several
+T12	LANGUAGE 231 240	languages
+T13	QUANTITY 247 255	majority
+T14	PLAN 259 272	these methods
+T15	PROCESS 273 277	rely
+T16	DATA-ITEM 285 294	existence
+T17	DATA-ITEM 298 312	function words
+T18	QUALITY 316 324	separate
+T19	DATA-ITEM 325 335	text units
+T20	LANGUAGE 351 376	morphology-rich languages
+T21	QUALITY 382 392	particular
+T22	LANGUAGE 393 410	Semitic languages
+T23	LANGUAGE 419 425	Hebrew
+T24	LANGUAGE 430 436	Arabic
+T25	DATA-ITEM 443 454	equivalents
+T26	DATA-ITEM 458 477	such function words
+T27	QUALITY 482 489	usually
+T28	PROCESS 490 497	written
+T29	DATA-ITEM 501 510	morphemes
+T30	PROCESS 511 519	attached
+T31	DATA-ITEM 523 531	prefixes
+T32	QUALITY 535 540	other
+T33	DATA-ITEM 541 546	words
+T66	RESULT 554 560	result
+T34	REFERENCE 563 567	they
+T35	PROCESS 572 578	missed
+T36	PLAN 582 618	word-based pattern discovery methods
+T67	RESULT 621 628	causing
+T37	QUANTITY 629 633	many
+T38	QUALITY 634 640	useful
+T39	DATA-ITEM 641 649	patterns
+T40	PROCESS 656 666	undetected
+T41	JUDGING-PROCESS 673 694	drastic deterioration
+T42	DATA-ITEM 698 709	performance
+T43	PROCESS 715 721	enable
+T44	QUALITY 722 734	high quality
+T45	DATA-ITEM 735 763	lexical category acquisition
+T46	PERSON 766 768	we
+T47	PROCESS 769 776	propose
+T48	QUALITY 779 785	simple
+T49	PLAN 786 826	unsupervised word segmentation algorithm
+T50	REFERENCE 827 831	that
+T51	PROCESS 832 841	separates
+T52	DATA-ITEM 842 857	these morphemes
+T53	PERSON 860 862	We
+T54	PROCESS 863 868	study
+T55	DATA-ITEM 873 884	performance
+T56	PLAN 892 901	algorithm
+T57	LANGUAGE 906 912	Hebrew
+T58	LANGUAGE 917 923	Arabic
+T68	PROCESS 930 934	show
+T59	REFERENCE 940 942	it
+T69	QUALITY 943 949	indeed
+T60	JUDGING-PROCESS 950 958	improves
+T61	QUALITY 961 973	state-of-art
+T62	PLAN 974 1016	unsupervised concept acquisition algorithm
+T63	LANGUAGE 1020 1026	Hebrew

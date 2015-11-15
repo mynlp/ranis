@@ -1,0 +1,6 @@
+Consistent Validation of Manual and Automatic Sense Annotations with the Aid of Semantic Graphs
+
+The task of annotating texts with senses from a computational lexicon is widely recognized to be complex and often subjective.
+Although strategies like interannotator agreement and voting can be applied to deal with the divergences between sense taggers, the consistency of sense choices with respect to the reference dictionary is not always guaranteed.
+In this article, we introduce Valido, a visual tool for the validation of manual and auto-matic sense annotations.
+The tool employs semantic interconnection patterns to smooth possible divergences and support consistent decision making.

@@ -1,0 +1,171 @@
+T1	PLAN 0 8	StarDust
+T2	PLAN 21 33	Architecture
+T3	QUALITY 12 20	Flexible
+T4	PLAN-OR-PROCESS 38 58	Passive Localization
+T5	ARTIFACT 62 86	Wireless Sensor Networks
+T6	PLAN 91 98	problem
+T7	PLAN-OR-PROCESS 102 114	localization
+T8	ARTIFACT 118 142	wireless sensor networks
+T9	ARTIFACT 149 154	nodes
+T10	MODALITY 158 161	not
+T11	PROCESS 162 165	use
+T12	ARTIFACT 166 182	ranging hardware
+T13	PROCESS 184 191	remains
+T14	QUALITY 194 205	challenging
+T15	PLAN 206 213	problem
+T16	PROCESS 220 231	considering
+T17	QUALITY 245 262	location accuracy
+T18	QUALITY 236 244	required
+T19	QUALITY 264 282	energy expenditure
+T20	QUALITY 291 299	duration
+T21	TIME 307 325	localization phase
+T22	PLAN 354 363	framework
+T24	PROCESS 365 371	called
+T25	PLAN-OR-PROCESS 386 422	wireless sensor network localization
+T26	ARTIFACT 432 458	passive optical components
+T27	PLAN 467 475	StarDust
+T28	PLAN 467 485	StarDust framework
+T29	ARTIFACT 487 499	sensor nodes
+T30	PROCESS 504 512	equipped
+T31	ARTIFACT 518 542	optical retro-reflectors
+T32	ARTIFACT 547 560	aerial device
+T33	PROCESS 561 569	projects
+T34	QUALITY 588 596	deployed
+T35	ARTIFACT 597 611	sensor network
+T36	PROCESS 617 624	records
+T37	DATA-ITEM 628 633	image
+T38	OCCURENT 651 656	light
+T39	QUALITY 641 650	reflected
+T40	OCCURENT 570 575	light
+T41	PLAN 661 687	image processing algorithm
+T42	PROCESS 691 700	developed
+T43	PROCESS 705 714	obtaining
+T44	LOCATION 719 728	locations
+T45	ARTIFACT 732 744	sensor nodes
+T46	PROCESS 750 758	matching
+T47	DATA-ITEM 761 768	node ID
+T48	LOCATION 774 782	location
+T49	PLAN 796 839	constraint-based label relaxation algorithm
+T50	PROCESS 856 863	develop
+T51	PLAN-OR-PROCESS 864 887	localization techniques
+T52	QUANTITY 897 901	four
+T53	PLAN 902 907	types
+T54	PLAN 911 922	constraints
+T55	DATA-ITEM 924 934	node color
+T56	DATA-ITEM 936 956	neighbor information
+T57	TIME 958 973	deployment time
+T58	ARTIFACT 980 984	node
+T59	LOCATION 989 1008	deployment location
+T60	ARTIFACT 1015 1019	node
+T61	PROCESS 1024 1032	evaluate
+T62	DATA-ITEM 1037 1048	performance
+T63	PLAN 1054 1073	localization system
+T64	PLAN 1087 1096	framework
+T65	PROCESS 1100 1110	localizing
+T66	ARTIFACT 1113 1120	network
+T67	QUANTITY 1124 1126	26
+T68	ARTIFACT 1127 1139	sensor nodes
+T69	PROCESS 1140 1148	deployed
+T70	QUANTITY 1154 1166	120 × 60 ft2
+T71	LOCATION 1167 1171	area
+T72	APPLY-TO 1074 1079	based
+T73	DATA-ITEM 1177 1198	localization accuracy
+T74	ATTRIBUTE 1199 1205	ranges
+T75	QUANTITY 1206 1223	from 2 ft to 5 ft
+T76	TIME 1234 1251	localization time
+T77	ATTRIBUTE 1252 1258	ranges
+T78	QUANTITY 1259 1292	from 10 milliseconds to 2 minutes
+R1	Attribute Arg1:T2 Arg2:T3	
+R2	Attribute Arg1:T11 Arg2:T10	
+R3	Attribute Arg1:T15 Arg2:T14	
+R4	Attribute Arg1:T17 Arg2:T18	
+R5	Attribute Arg1:T35 Arg2:T34	
+R6	Attribute Arg1:T38 Arg2:T39	
+R9	Attribute Arg1:T53 Arg2:T52	
+R10	Attribute Arg1:T68 Arg2:T67	
+R11	Attribute Arg1:T71 Arg2:T70	
+T79	REFERENCE 143 148	where
+R12	Coreference Arg1:T79 Arg2:T8	
+T80	PLAN 372 380	StarDust
+R13	Component-object Arg1:T68 Arg2:T66	
+T81	PERSON 1083 1086	our
+R14	Poss Arg1:T81 Arg2:T64	
+R15	Attribute Arg1:T21 Arg2:T20	
+T82	TIME 1264 1279	10 milliseconds
+R16	Is-a Arg1:T1 Arg2:T2	
+R17	Apply-to Arg1:T2 Arg2:T4	
+R18	Condition Arg1:T4 Arg2:T5	
+R19	Attribute Arg1:T6 Arg2:T7	
+R20	Condition Arg1:T7 Arg2:T8	
+R21	Other-rel Arg1:T11 Arg2:T9	
+R22	Target Arg1:T11 Arg2:T12	
+R23	Condition Arg1:T11 Arg2:T79	
+R24	Apply-to Arg1:T6 Arg2:T13	
+R25	Is-a Arg1:T6 Arg2:T15	
+R26	Target Arg1:T16 Arg2:T17	
+R27	Target Arg1:T16 Arg2:T19	
+R28	Target Arg1:T16 Arg2:T20	
+R29	Condition Arg1:T13 Arg2:T16	
+R30	Input Arg1:T24 Arg2:T22	
+R31	Output Arg1:T24 Arg2:T80	
+R32	Apply-to Arg1:T22 Arg2:T25	
+T84	INPUT 423 428	based
+R33	from Arg1:T84 Arg2:T22	
+R34	to Arg1:T84 Arg2:T26	
+R35	Output Arg1:T30 Arg2:T31	
+R36	Destination Arg1:T30 Arg2:T29	
+R38	Apply-to Arg1:T32 Arg2:T33	
+R39	Output Arg1:T33 Arg2:T40	
+R40	Destination Arg1:T33 Arg2:T35	
+R41	Apply-to Arg1:T32 Arg2:T36	
+R42	Attribute Arg1:T38 Arg2:T37	
+R43	In_Out Arg1:T36 Arg2:T37	
+R44	Attribute Arg1:T45 Arg2:T44	
+R45	In_Out Arg1:T43 Arg2:T44	
+R46	Apply-to Arg1:T42 Arg2:T43	
+R47	Output Arg1:T42 Arg2:T41	
+R48	Output Arg1:T46 Arg2:T47	
+R49	Destination Arg1:T46 Arg2:T48	
+R50	Apply-to Arg1:T49 Arg2:T46	
+R51	Output Arg1:T50 Arg2:T51	
+R52	Member-collection Arg1:T53 Arg2:T54	
+R53	Is-a Arg1:T55 Arg2:T53	
+R54	Is-a Arg1:T56 Arg2:T53	
+R55	Is-a Arg1:T57 Arg2:T53	
+R56	Attribute Arg1:T58 Arg2:T57	
+R57	Attribute Arg1:T60 Arg2:T59	
+R58	Is-a Arg1:T59 Arg2:T53	
+T85	APPLY-TO 888 893	based
+R59	from Arg1:T85 Arg2:T54	
+R60	to Arg1:T85 Arg2:T50	
+R61	Attribute Arg1:T63 Arg2:T62	
+R62	Output Arg1:T61 Arg2:T62	
+R63	from Arg1:T72 Arg2:T64	
+R64	to Arg1:T72 Arg2:T63	
+R65	Target Arg1:T65 Arg2:T66	
+R66	Output Arg1:T69 Arg2:T68	
+R67	Destination Arg1:T69 Arg2:T71	
+R68	Apply-to Arg1:T63 Arg2:T65	
+R69	from Arg1:T74 Arg2:T73	
+R70	to Arg1:T74 Arg2:T75	
+R71	from Arg1:T77 Arg2:T76	
+T83	TIME 1283 1292	2 minutes
+R72	to Arg1:T77 Arg2:T78	
+R73	Condition Arg1:T30 Arg2:T28	
+T23	REFERENCE 330 340	this paper
+T86	PERSON 341 343	we
+T87	PROCESS 344 351	propose
+T88	PERSON 783 785	we
+T89	PROCESS 786 793	propose
+R7	Agent Arg1:T89 Arg2:T88	
+R8	Output Arg1:T89 Arg2:T49	
+T90	PERSON 841 843	We
+T91	PROCESS 844 851	propose
+T92	PERSON 1021 1023	We
+R37	Agent Arg1:T87 Arg2:T86	
+R74	Output Arg1:T87 Arg2:T22	
+R75	Agent Arg1:T91 Arg2:T90	
+R76	Agent Arg1:T50 Arg2:T90	
+R77	Output Arg1:T91 Arg2:T51	
+R78	Agent Arg1:T61 Arg2:T92	
+R79	Condition Arg1:T87 Arg2:T23	

@@ -1,0 +1,5 @@
+A Logic of Semantic Representations for Shallow Parsing
+
+One way to construct semantic representations in a robust manner is to enhance shallow language processors with semantic components.
+Here, we provide a model theory for a semantic formalism that is designed for this, namely Robust Minimal Recursion Semantics (RMRS).
+We show that RMRS supports a notion of entailment that allows it to form the basis for comparing the semantic output of different parses of varying depth.

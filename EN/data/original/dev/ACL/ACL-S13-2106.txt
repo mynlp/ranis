@@ -1,0 +1,5 @@
+UMCC_DLSI: Semantic and Lexical features for detection and classification Drugs in biomedical texts 
+ 
+In this paper we describe UMCC_DLSI-(DDI) system which attempts to detect and classify drug entities in biomedical texts. 
+We discuss the use of semantic class and words relevant domain, extracted with ISR-WN (Integration of Semantic Resources based on WordNet) resource to obtain our goal.
+Following this approach our system obtained an F-Measure of 27.5% in the DDIExtraction 2013 (SemEval 2013 task 9).

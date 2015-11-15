@@ -1,0 +1,252 @@
+T1	PLAN 0 30	Finite-State Chart Constraints
+T2	PROCESS 35 42	Reduced
+T3	DATA-ITEM 43 53	Complexity
+T4	PLAN 54 84	Context-Free Parsing Pipelines
+T5	PERSON 86 88	We
+T6	PROCESS 89 96	present
+T7	PLAN 97 104	methods
+T8	PROCESS 109 117	reducing
+T9	DATA-ITEM 122 132	worst-case
+T10	DATA-ITEM 137 160	typical-case complexity
+T11	PLAN 166 195	context-free parsing pipeline
+T12	PLAN 200 216	hard constraints
+T13	PROCESS 217 224	derived
+T14	PLAN 230 257	finite-state pre-processing
+T15	PERSON 259 261	We
+T16	PROCESS 262 269	perform
+T17	FORMULA 270 271	O
+T18	DATA-ITEM 270 286	O(n) predictions
+T19	PROCESS 290 299	determine
+T21	QUALITY 303 307	each
+T22	DATA-ITEM 308 312	word
+T23	DATA-ITEM 320 334	input sentence
+T24	MODALITY 335 338	may
+T25	PROCESS 348 351	end
+T26	DATA-ITEM 354 376	multi-word constituent
+T27	DATA-ITEM 380 391	chart cells
+T28	PROCESS 392 400	spanning
+T29	QUANTITY 401 412	two or more
+T30	DATA-ITEM 413 418	words
+T31	PROCESS 423 428	allow
+T32	DATA-ITEM 429 453	single-word constituents
+T33	DATA-ITEM 457 468	chart cells
+T34	PROCESS 469 477	spanning
+T35	DATA-ITEM 482 486	word
+T36	REFERENCE 487 493	itself
+T37	PLAN 495 527	These pre-processing constraints
+T38	PROCESS 528 533	prune
+T39	DATA-ITEM 538 550	search space
+T40	PLAN 559 588	chart-based parsing algorithm
+T41	QUALITY 593 606	significantly
+T42	JUDGING-PROCESS 607 615	decrease
+T43	DATA-ITEM 616 629	decoding time
+T44	QUANTITY 634 638	many
+T45	DATA-ITEM 645 660	cell population
+T46	PROCESS 664 671	reduced
+T47	QUANTITY 675 679	zero
+T48	REFERENCE 681 686	which
+T49	PERSON 687 689	we
+T50	PROCESS 690 694	term
+T52	DATA-ITEM 695 718	chart cell ``closing.''
+T53	PERSON 719 721	We
+T54	PROCESS 722 729	present
+T55	PLAN 730 737	methods
+T56	PROCESS 742 749	closing
+T57	QUALITY 752 762	sufficient
+T58	QUANTITY 763 769	number
+T59	DATA-ITEM 773 784	chart cells
+T60	PROCESS 788 794	ensure
+T61	QUALITY 795 813	provably quadratic
+T62	QUALITY 822 828	linear
+T63	DATA-ITEM 829 850	worst-case complexity
+T64	PLAN 854 876	context-free inference
+T65	PERSON 891 893	we
+T66	PROCESS 894 899	apply
+T68	PLAN 900 926	high precision constraints
+T69	PROCESS 930 937	achieve
+T70	QUALITY 938 943	large
+T71	QUALITY 944 965	typical-case speedups
+T72	PROCESS 970 977	combine
+T74	PLAN 983 997	high precision
+T75	PLAN 1002 1030	worst-case bound constraints
+T76	PROCESS 1034 1041	achieve
+T77	QUALITY 1042 1050	superior
+T78	DATA-ITEM 1051 1062	performance
+T79	QUALITY 1081 1085	long
+T80	DATA-ITEM 1086 1093	strings
+T81	QUALITY 1095 1107	These bounds
+T82	PLAN-OR-PROCESS 1111 1121	processing
+T83	PROCESS 1126 1134	achieved
+T84	MODALITY 1135 1142	without
+T85	PROCESS 1143 1151	reducing
+T86	DATA-ITEM 1156 1172	parsing accuracy
+T87	QUANTITY 1181 1185	some
+T88	DATA-ITEM 1192 1200	accuracy
+T89	JUDGING-PROCESS 1201 1209	improves
+T90	PERSON 1211 1213	We
+T91	PROCESS 1214 1225	demonstrate
+T92	PERSON 1231 1234	our
+T93	PLAN 1235 1241	method
+T94	PROCESS 1242 1253	generalizes
+T95	QUANTITY 1261 1269	multiple
+T96	PLAN 1270 1278	grammars
+T97	QUALITY 1286 1299	complementary
+T98	QUALITY 1303 1308	other
+T99	PLAN 1309 1327	pruning techniques
+T100	PROCESS 1331 1341	presenting
+T101	DATA-ITEM 1342 1359	empirical results
+T102	PLAN 1379 1400	approximate inference
+T103	APPLY-TO 1401 1406	using
+T104	PLAN 1411 1435	exhaustive CKY algorithm
+T105	PLAN 1441 1456	Charniak parser
+T106	PLAN 1466 1481	Berkeley parser
+T107	PERSON 1483 1485	We
+T108	PROCESS 1491 1497	report
+T109	DATA-ITEM 1498 1505	results
+T110	PROCESS 1506 1513	parsing
+T111	PERSON 1529 1531	we
+T112	RESULT 1532 1539	achieve
+T113	QUALITY 1544 1548	best
+T114	DATA-ITEM 1549 1565	reported results
+T115	PLAN 1573 1589	individual model
+T116	QUALITY 1597 1614	commonly reported
+T117	DATA-ITEM 1615 1622	data se
+R1	Apply-to Arg1:T1 Arg2:T2	
+R2	In_Out Arg1:T2 Arg2:T3	
+A1	Self T5
+A2	Intentional T6
+R3	Agent Arg1:T6 Arg2:T5	
+R4	Output Arg1:T6 Arg2:T7	
+R5	Apply-to Arg1:T7 Arg2:T8	
+R6	Attribute Arg1:T11 Arg2:T10	
+R7	Attribute Arg1:T11 Arg2:T9	
+R8	In_Out Arg1:T8 Arg2:T9	
+R9	In_Out Arg1:T8 Arg2:T10	
+R10	Output Arg1:T13 Arg2:T12	
+R11	Apply-to Arg1:T14 Arg2:T13	
+R12	Apply-to Arg1:T12 Arg2:T8	
+A3	Self T15
+A4	Intentional T16
+R13	Agent Arg1:T16 Arg2:T15	
+R14	Output Arg1:T16 Arg2:T18	
+R15	Attribute Arg1:T22 Arg2:T21	
+R16	Component-object Arg1:T23 Arg2:T22	
+T118	PROCESS 339 344	begin
+R17	Attribute Arg1:T118 Arg2:T24	
+R18	Attribute Arg1:T25 Arg2:T24	
+R19	Target Arg1:T25 Arg2:T26	
+R20	Target Arg1:T118 Arg2:T26	
+R21	Attribute Arg1:T30 Arg2:T29	
+R22	Ori_Dest Arg1:T28 Arg2:T30	
+R23	Output Arg1:T28 Arg2:T27	
+R24	Output Arg1:T34 Arg2:T33	
+R25	Attribute Arg1:T35 Arg2:T36	
+R26	Ori_Dest Arg1:T34 Arg2:T35	
+R27	Component-object Arg1:T27 Arg2:T26	
+R28	Component-object Arg1:T33 Arg2:T32	
+R29	Target Arg1:T31 Arg2:T32	
+R30	Apply-to Arg1:T16 Arg2:T19	
+R31	Agent Arg1:T118 Arg2:T22	
+R32	Agent Arg1:T25 Arg2:T22	
+R33	Agent Arg1:T31 Arg2:T22	
+R34	Attribute Arg1:T31 Arg2:T24	
+R35	Apply-to Arg1:T37 Arg2:T38	
+R36	Output Arg1:T38 Arg2:T39	
+R37	Attribute Arg1:T42 Arg2:T41	
+R38	In_Out Arg1:T42 Arg2:T43	
+R39	Apply-to Arg1:T37 Arg2:T42	
+R40	Input Arg1:T40 Arg2:T39	
+T119	PLAN 639 644	cases
+R41	Attribute Arg1:T119 Arg2:T44	
+R42	In_Out Arg1:T46 Arg2:T45	
+R43	Attribute Arg1:T45 Arg2:T47	
+A5	Self T49
+A6	Intentional T50
+R44	Agent Arg1:T50 Arg2:T49	
+R46	Output Arg1:T50 Arg2:T52	
+R47	Condition Arg1:T46 Arg2:T119	
+A7	Self T53
+A8	Intentional T54
+R48	Agent Arg1:T54 Arg2:T53	
+R49	Output Arg1:T54 Arg2:T55	
+R50	Apply-to Arg1:T55 Arg2:T56	
+R51	Attribute Arg1:T58 Arg2:T57	
+R52	Attribute Arg1:T59 Arg2:T58	
+R53	Target Arg1:T56 Arg2:T59	
+R54	Attribute Arg1:T63 Arg2:T62	
+R55	Attribute Arg1:T63 Arg2:T61	
+R56	Attribute Arg1:T64 Arg2:T63	
+R57	Target Arg1:T60 Arg2:T63	
+R58	Apply-to Arg1:T56 Arg2:T60	
+A9	Self T65
+A10	Intentional T66
+R59	Agent Arg1:T66 Arg2:T65	
+R61	Input Arg1:T66 Arg2:T68	
+R62	Apply-to Arg1:T66 Arg2:T69	
+R63	Attribute Arg1:T71 Arg2:T70	
+R64	Output Arg1:T69 Arg2:T71	
+A11	Intentional T72
+R65	Agent Arg1:T72 Arg2:T65	
+R66	Input Arg1:T72 Arg2:T74	
+R67	Input Arg1:T72 Arg2:T75	
+R68	Attribute Arg1:T78 Arg2:T77	
+R69	Output Arg1:T76 Arg2:T78	
+R70	Apply-to Arg1:T72 Arg2:T76	
+T73	QUALITY 1071 1076	short
+R71	Attribute Arg1:T80 Arg2:T79	
+R72	Attribute Arg1:T80 Arg2:T73	
+A12	Judgment T71
+A13	Judgment T77
+R73	Condition Arg1:T78 Arg2:T80	
+A14	Judgment T85
+R60	In_Out Arg1:T85 Arg2:T86	
+R74	Attribute Arg1:T85 Arg2:T84	
+R75	Output Arg1:T83 Arg2:T81	
+R76	Condition Arg1:T83 Arg2:T85	
+R77	Is-a Arg1:T71 Arg2:T81	
+R78	Is-a Arg1:T77 Arg2:T81	
+R79	Condition Arg1:T81 Arg2:T82	
+T67	PLAN 1186 1191	cases
+R80	In_Out Arg1:T89 Arg2:T88	
+R81	Attribute Arg1:T67 Arg2:T87	
+R82	Condition Arg1:T89 Arg2:T67	
+A15	Self T90
+A16	Intentional T91
+A17	Self T92
+R83	Poss Arg1:T92 Arg2:T93	
+R84	Agent Arg1:T91 Arg2:T90	
+R85	Apply-to Arg1:T93 Arg2:T94	
+R86	Attribute Arg1:T96 Arg2:T95	
+R87	In_Out Arg1:T94 Arg2:T96	
+R88	Attribute Arg1:T93 Arg2:T97	
+R89	Attribute Arg1:T99 Arg2:T98	
+R90	Condition Arg1:T97 Arg2:T99	
+R91	Output Arg1:T100 Arg2:T101	
+T120	PLAN 1369 1374	exact
+R92	Condition Arg1:T101 Arg2:T120	
+R93	Condition Arg1:T101 Arg2:T102	
+R94	from Arg1:T103 Arg2:T104	
+R95	to Arg1:T103 Arg2:T102	
+R96	from Arg1:T103 Arg2:T105	
+R97	from Arg1:T103 Arg2:T106	
+R98	Apply-to Arg1:T100 Arg2:T91	
+A18	Intentional T100
+R99	Agent Arg1:T100 Arg2:T90	
+A19	Self T107
+A20	Intentional T108
+R100	Agent Arg1:T108 Arg2:T107	
+R101	Output Arg1:T108 Arg2:T109	
+T121	LANGUAGE 1514 1521	Chinese
+R102	Output Arg1:T110 Arg2:T109	
+R103	Input Arg1:T110 Arg2:T121	
+A21	Self T111
+A22	Judgment T113
+R104	Attribute Arg1:T114 Arg2:T113	
+R105	Attribute Arg1:T117 Arg2:T116	
+R106	Input Arg1:T115 Arg2:T117	
+R107	to Arg1:T112 Arg2:T113	
+R108	from Arg1:T112 Arg2:T111	
+R109	Condition Arg1:T113 Arg2:T115	
+R110	Attribute Arg1:T4 Arg2:T3	
+R111	Coreference Arg1:T48 Arg2:T119	
+R112	Destination Arg1:T50 Arg2:T48	

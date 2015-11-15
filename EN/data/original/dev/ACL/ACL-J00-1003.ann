@@ -1,0 +1,80 @@
+T2	MEMBER-COLLECTION 170 179	including
+T3	OUTPUT 198 202	lead
+T4	OUTPUT 229 233	lead
+T6	INPUT 515 524	performed
+T7	PROCESS 592 600	filtered
+T9	QUALITY 337 340	new
+T11	QUALITY 468 477	different
+T13	QUANTITY 346 350	some
+T14	PROCESS 0 21	Practical Experiments
+T15	PLAN-OR-PROCESS 27 48	Regular Approximation
+T16	PLAN 52 74	Context-Free Languages
+T17	PLAN 84 91	methods
+T18	PLAN 123 139	finite automaton
+T19	PLAN 148 168	context-free grammar
+T20	PLAN 185 192	methods
+T21	PLAN-OR-PROCESS 237 246	supersets
+T22	PLAN-OR-PROCESS 254 284	original context-free language
+T23	PLAN 294 307	these methods
+T24	PLAN-OR-PROCESS 311 332	regular approximation
+T25	REFERENCE 351 357	others
+T26	QUALITY 395 399	form
+T28	PROCESS 437 458	Practical experiments
+T29	PLAN 478 485	methods
+T30	PLAN-OR-PROCESS 489 510	regular approximation
+T31	DATA-ITEM 529 550	spoken-language input
+T32	DATA-ITEM 552 562	hypotheses
+T33	PLAN 570 587	speech recognizer
+T34	PLAN 611 627	finite automaton
+T35	QUANTITY 76 83	Several
+R1	Attribute Arg1:T17 Arg2:T35	
+T36	PROCESS 111 120	construct
+T38	PLAN-OR-PROCESS 206 213	subsets
+T39	REFERENCE 218 223	those
+T40	QUANTITY 286 290	Some
+R4	Attribute Arg1:T23 Arg2:T40	
+R5	Coreference Arg1:T23 Arg2:T17	
+R7	Attribute Arg1:T25 Arg2:T13	
+T41	COMPARE 405 412	respect
+R9	Attribute Arg1:T29 Arg2:T11	
+T12	REFERENCE 193 197	that
+R3	Coreference Arg1:T12 Arg2:T20	
+T42	REFERENCE 106 110	that
+R11	Coreference Arg1:T42 Arg2:T17	
+R6	Attribute Arg1:T23 Arg2:T9	
+T44	EXTERNAL-REFERENCE 416 435	existing literature
+R8	Apply-to Arg1:T42 Arg2:T36	
+R12	Output Arg1:T36 Arg2:T18	
+T8	INPUT 140 145	given
+R13	from Arg1:T8 Arg2:T36	
+R14	to Arg1:T8 Arg2:T19	
+R2	from Arg1:T3 Arg2:T12	
+R15	to Arg1:T3 Arg2:T38	
+R17	to Arg1:T4 Arg2:T21	
+R18	Attribute Arg1:T22 Arg2:T38	
+R19	Attribute Arg1:T22 Arg2:T21	
+T10	REFERENCE 224 228	that
+R16	from Arg1:T4 Arg2:T10	
+R21	Coreference Arg1:T10 Arg2:T39	
+R22	Apply-to Arg1:T23 Arg2:T24	
+R23	Input Arg1:T15 Arg2:T16	
+R24	Attribute Arg1:T25 Arg2:T26	
+T27	QUALITY 382 394	more refined
+R25	Attribute Arg1:T26 Arg2:T27	
+R27	Output Arg1:T33 Arg2:T32	
+R28	In_Out Arg1:T7 Arg2:T32	
+R29	Apply-to Arg1:T34 Arg2:T7	
+R30	Attribute Arg1:T29 Arg2:T30	
+R31	Apply-to Arg1:T15 Arg2:T14	
+R32	Apply-to Arg1:T29 Arg2:T28	
+R33	from Arg1:T6 Arg2:T28	
+R34	to Arg1:T6 Arg2:T31	
+R26	from Arg1:T41 Arg2:T44	
+R35	to Arg1:T41 Arg2:T27	
+R36	from Arg1:T2 Arg2:T20	
+R37	from Arg1:T2 Arg2:T39	
+R38	to Arg1:T2 Arg2:T17	
+T1	PROCESS 362 371	presented
+R10	Output Arg1:T1 Arg2:T25	
+T5	REFERENCE 372 376	here
+R20	Condition Arg1:T1 Arg2:T5	

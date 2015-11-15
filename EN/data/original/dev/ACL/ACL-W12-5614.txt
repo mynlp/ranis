@@ -1,0 +1,8 @@
+CUNI: Feature Selection and Error Analysis of a Transition-Based Parser
+
+We describe the parsing system used at the Charles University (CUNI) for the Hindi Parsing Shared Task 2012.
+We used the publicly available Malt Parser, which is highly configurable.
+A substantial part of the paper describes the configuration that we selected.
+The parser performs reasonably well in identifying the head nodes.
+The main weakness is in labeling the dependency relations.
+We identify the most prominent error types, which should help to improve the parsing accuracy in future.

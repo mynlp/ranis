@@ -1,0 +1,189 @@
+T2	PLAN 11 29	Boosting Algorithm
+T3	PLAN-OR-PROCESS 34 55	Information Retrieval
+T4	PLAN 85 90	issue
+T5	PLAN-OR-PROCESS 94 102	learning
+T6	PLAN-OR-PROCESS 106 110	rank
+T7	PLAN-OR-PROCESS 115 133	document retrieval
+T8	PLAN 142 146	task
+T9	PLAN 150 155	model
+T10	QUALITY 159 172	automatically
+T11	PROCESS 173 180	created
+R1	Attribute Arg1:T11 Arg2:T10	
+T12	DATA-ITEM 191 204	training data
+T13	QUANTITY 186 190	some
+R2	Attribute Arg1:T12 Arg2:T13	
+T14	APPLY-TO 217 225	utilized
+T15	PLAN-OR-PROCESS 230 237	ranking
+T16	DATA-ITEM 241 250	documents
+T17	QUALITY 256 264	goodness
+T18	PLAN 270 275	model
+T19	QUANTITY 279 286	usually
+T20	PROCESS 287 296	evaluated
+T21	PLAN 302 322	performance measures
+T22	PLAN 331 334	MAP
+T23	PLAN 336 358	Mean Average Precision
+R3	Equivalence Arg1:T23 Arg2:T22	
+T24	PLAN 364 368	NDCG
+T25	PLAN 370 407	Normalized Discounted Cumulative Gain
+R4	Equivalence Arg1:T25 Arg2:T24	
+T26	QUALITY 410 417	Ideally
+T27	PLAN 420 438	learning algorithm
+T28	MODALITY 439 444	would
+T29	PROCESS 445 450	train
+T30	PLAN 453 466	ranking model
+T31	MODALITY 472 477	could
+R5	Attribute Arg1:T29 Arg2:T28	
+T32	QUALITY 478 486	directly
+T33	PROCESS 487 495	optimize
+R6	Attribute Arg1:T33 Arg2:T32	
+R7	Attribute Arg1:T33 Arg2:T31	
+T34	PLAN 500 520	performance measures
+T35	DATA-ITEM 541 554	training data
+T36	QUALITY 556 564	Existing
+T37	PLAN 565 572	methods
+R8	Attribute Arg1:T37 Arg2:T36	
+R9	Attribute Arg1:T29 Arg2:T26	
+T38	MODALITY 592 596	able
+T39	PROCESS 600 605	train
+T40	PLAN 606 620	ranking models
+R10	Attribute Arg1:T39 Arg2:T38	
+T41	PROCESS 624 634	minimizing
+T42	PLAN 635 649	loss functions
+T43	PLAN 673 693	performance measures
+T44	QUALITY 650 657	loosely
+T45	QUALITY 658 665	related
+R11	Attribute Arg1:T42 Arg2:T45	
+R12	Attribute Arg1:T45 Arg2:T44	
+T46	PLAN 708 719	Ranking SVM
+T47	PLAN 724 733	RankBoost
+T48	PROCESS 734 739	train
+T49	PLAN 740 754	ranking models
+T50	PROCESS 758 768	minimizing
+T51	DATA-ITEM 769 790	classification errors
+T52	DATA-ITEM 794 808	instance pairs
+T53	QUALITY 849 854	novel
+T54	PLAN 855 873	learning algorithm
+T55	PLAN 885 894	framework
+T56	PLAN 898 906	boosting
+R13	Attribute Arg1:T54 Arg2:T53	
+T57	MODALITY 914 917	can
+T58	PROCESS 918 926	minimize
+R14	Attribute Arg1:T58 Arg2:T57	
+T59	PLAN 929 942	loss function
+T60	QUALITY 943 951	directly
+T61	PROCESS 952 959	defined
+T62	PLAN 967 987	performance measures
+R15	Attribute Arg1:T61 Arg2:T60	
+T64	QUALITY 1028 1038	repeatedly
+T65	PROCESS 1039 1049	constructs
+R16	Attribute Arg1:T65 Arg2:T64	
+T66	PLAN 1051 1063	weak rankers
+T67	DATA-ITEM 1081 1106	re-weighted training data
+T68	QUALITY 1119 1127	linearly
+T69	PROCESS 1128 1136	combines
+T70	PLAN 1141 1153	weak rankers
+T71	PROCESS 1158 1164	making
+T72	DATA-ITEM 1165 1184	ranking predictions
+T73	PLAN 1204 1220	training process
+T76	PROCESS 1251 1260	enhancing
+T77	PLAN 1265 1284	performance measure
+T75	DATA-ITEM 1291 1311	Experimental results
+T78	QUANTITY 1315 1319	four
+T79	DATA-ITEM 1320 1338	benchmark datasets
+T81	QUALITY 1357 1370	significantly
+T82	JUDGING-PROCESS 1371 1382	outperforms
+R17	Attribute Arg1:T82 Arg2:T81	
+T83	PLAN 1387 1403	baseline methods
+T85	PLAN 1413 1424	Ranking SVM
+T86	PLAN 1430 1439	RankBoost
+R18	Attribute Arg1:T20 Arg2:T19	
+R19	Attribute Arg1:T79 Arg2:T78	
+T87	PLAN 0 7	AdaRank
+T89	PLAN 1019 1026	AdaRank
+T90	PLAN 1224 1231	AdaRank
+T91	PLAN 1349 1356	AdaRank
+T92	PLAN 1407 1411	BM25
+T94	REFERENCE 908 913	which
+R20	Coreference Arg1:T94 Arg2:T54	
+T96	PERSON 989 992	Our
+T97	PLAN 993 1002	algorithm
+T84	REFERENCE 467 471	that
+R21	Coreference Arg1:T84 Arg2:T30	
+T93	REFERENCE 1243 1247	that
+R22	Coreference Arg1:T93 Arg2:T73	
+R23	Poss Arg1:T96 Arg2:T97	
+R24	Is-a Arg1:T87 Arg2:T2	
+R25	Apply-to Arg1:T2 Arg2:T3	
+R26	Attribute Arg1:T4 Arg2:T5	
+R27	Apply-to Arg1:T5 Arg2:T6	
+R28	Apply-to Arg1:T6 Arg2:T7	
+R29	Output Arg1:T11 Arg2:T9	
+R30	Condition Arg1:T11 Arg2:T8	
+R31	Input Arg1:T11 Arg2:T12	
+R32	from Arg1:T14 Arg2:T9	
+R33	to Arg1:T14 Arg2:T15	
+R34	Input Arg1:T15 Arg2:T16	
+R35	Attribute Arg1:T18 Arg2:T17	
+R36	Input Arg1:T20 Arg2:T17	
+R37	Apply-to Arg1:T21 Arg2:T20	
+R38	Is-a Arg1:T22 Arg2:T21	
+R39	Is-a Arg1:T24 Arg2:T21	
+R40	Apply-to Arg1:T27 Arg2:T29	
+R41	Output Arg1:T29 Arg2:T30	
+R42	In_Out Arg1:T33 Arg2:T34	
+T98	INPUT 521 536	with respect to
+R44	Output Arg1:T39 Arg2:T40	
+R45	Apply-to Arg1:T37 Arg2:T39	
+R46	Apply-to Arg1:T41 Arg2:T39	
+R47	In_Out Arg1:T41 Arg2:T42	
+R48	Compare Arg1:T43 Arg2:T45	
+R49	Output Arg1:T48 Arg2:T49	
+R50	Apply-to Arg1:T84 Arg2:T33	
+R51	Apply-to Arg1:T46 Arg2:T48	
+R52	Apply-to Arg1:T47 Arg2:T48	
+R53	Apply-to Arg1:T50 Arg2:T48	
+R54	In_Out Arg1:T50 Arg2:T51	
+R55	Condition Arg1:T50 Arg2:T52	
+R56	Attribute Arg1:T56 Arg2:T55	
+R58	Apply-to Arg1:T94 Arg2:T58	
+R59	In_Out Arg1:T58 Arg2:T59	
+R60	Output Arg1:T61 Arg2:T59	
+R61	Input Arg1:T61 Arg2:T62	
+R62	Is-a Arg1:T89 Arg2:T97	
+R63	Apply-to Arg1:T97 Arg2:T65	
+R64	Output Arg1:T65 Arg2:T66	
+R66	Attribute Arg1:T69 Arg2:T68	
+R67	Input Arg1:T69 Arg2:T70	
+R68	Apply-to Arg1:T69 Arg2:T71	
+R69	Output Arg1:T71 Arg2:T72	
+R70	Attribute Arg1:T90 Arg2:T73	
+R71	Apply-to Arg1:T93 Arg2:T76	
+R72	In_Out Arg1:T76 Arg2:T77	
+R73	Attribute Arg1:T75 Arg2:T79	
+R74	Apply-to Arg1:T91 Arg2:T82	
+R75	Is-a Arg1:T92 Arg2:T83	
+R76	Is-a Arg1:T85 Arg2:T83	
+R77	Is-a Arg1:T86 Arg2:T83	
+R78	Compare Arg1:T83 Arg2:T82	
+R79	from Arg1:T98 Arg2:T33	
+R80	to Arg1:T98 Arg2:T35	
+T74	PROCESS 839 846	propose
+R43	Output Arg1:T74 Arg2:T54	
+R57	Condition Arg1:T74 Arg2:T55	
+T101	INPUT 1072 1077	basis
+R81	to Arg1:T101 Arg2:T67	
+R65	from Arg1:T101 Arg2:T65	
+T102	RESULT 1339 1343	show
+R82	from Arg1:T102 Arg2:T75	
+R83	to Arg1:T102 Arg2:T82	
+T1	REFERENCE 59 69	this paper
+T63	PERSON 70 72	we
+T80	PROCESS 73 80	address
+T88	PERSON 836 838	we
+T95	PERSON 1186 1188	We
+T99	PROCESS 1189 1194	prove
+R84	Agent Arg1:T80 Arg2:T63	
+R85	Target Arg1:T80 Arg2:T4	
+R86	Condition Arg1:T80 Arg2:T1	
+R87	Agent Arg1:T74 Arg2:T88	
+R88	Agent Arg1:T99 Arg2:T95	

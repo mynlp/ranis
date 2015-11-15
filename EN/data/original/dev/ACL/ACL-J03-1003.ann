@@ -1,0 +1,167 @@
+T3	PROCESS 145 154	formalize
+T4	COMPONENT-OBJECT 164 174	consisting
+T5	PROCESS 314 321	include
+T6	APPLY-TO 404 408	used
+T7	PROCESS 412 417	guide
+T8	PROCESS 444 448	give
+T9	PROCESS 597 603	moving
+T10	APPLY-TO 688 695	dealing
+T11	PROCESS 756 768	reformulated
+T12	PROCESS 887 893	allows
+T13	PROCESS 900 905	solve
+T14	ATTRIBUTE 937 944	plagued
+T17	PROCESS 569 576	studied
+T18	MODALITY 749 752	can
+T19	QUALITY 74 77	new
+T20	QUALITY 200 207	various
+T21	QUALITY 521 525	main
+T22	QUALITY 577 588	extensively
+T23	QUALITY 718 726	existing
+T24	QUALITY 841 848	various
+T25	TIME 945 952	earlier
+T26	QUANTITY 463 467	some
+T27	QUANTITY 516 520	four
+T28	QUANTITY 713 717	many
+T29	PLAN-OR-PROCESS 0 22	Graph-Based Generation
+T30	DATA-ITEM 26 47	Referring Expressions
+T31	PLAN 78 86	approach
+T32	PLAN-OR-PROCESS 94 104	generation
+T33	DATA-ITEM 108 129	referring expressions
+T34	DATA-ITEM 187 194	objects
+T35	QUALITY 208 218	properties
+T36	DATA-ITEM 223 232	relations
+T37	PLAN-OR-PROCESS 275 292	content selection
+T38	DATA-ITEM 300 310	properties
+T39	DATA-ITEM 327 347	referring expression
+T40	PLAN-OR-PROCESS 354 383	subgraph construction problem
+T41	PLAN 385 399	Cost functions
+T42	PLAN-OR-PROCESS 422 436	search process
+T43	QUALITY 449 459	preference
+T44	DATA-ITEM 468 477	solutions
+T45	PLAN 503 511	approach
+T46	QUALITY 526 536	advantages
+T47	DATA-ITEM 542 558	Graph structures
+T48	PLAN 609 626	graph perspective
+T49	PROCESS 641 647	access
+T50	PLAN 660 668	theories
+T51	PLAN 673 683	algorithms
+T52	DATA-ITEM 701 707	graphs
+T53	PLAN 727 748	generation algorithms
+T54	CONDITION 769 780	in terms of
+T55	DATA-ITEM 781 787	graphs
+T56	PLAN-OR-PROCESS 822 833	integration
+T57	PLAN 849 859	approaches
+T58	PLAN 869 886	graph perspective
+T59	PLAN 918 926	problems
+T60	PLAN 953 963	algorithms
+T61	PLAN-OR-PROCESS 972 982	generation
+T62	DATA-ITEM 986 1007	referring expressions
+T64	DATA-ITEM 1037 1043	graphs
+T65	PLAN 1048 1062	cost functions
+T67	PLAN-OR-PROCESS 1084 1095	integration
+T68	PLAN 1099 1131	rule-based generation techniques
+T69	PLAN 1149 1170	stochastic approaches
+R1	Attribute Arg1:T31 Arg2:T19	
+T2	DATA-ITEM 157 162	scene
+T71	DATA-ITEM 180 183	set
+R2	Attribute Arg1:T35 Arg2:T20	
+R3	Attribute Arg1:T36 Arg2:T20	
+T72	DATA-ITEM 239 261	labeled directed graph
+R4	Attribute Arg1:T44 Arg2:T26	
+T74	DATA-ITEM 483 489	others
+T75	QUALITY 495 502	current
+R5	Attribute Arg1:T45 Arg2:T75	
+R6	Attribute Arg1:T46 Arg2:T27	
+R7	Attribute Arg1:T46 Arg2:T21	
+R8	Attribute Arg1:T17 Arg2:T22	
+T76	QUALITY 634 640	direct
+R9	Attribute Arg1:T49 Arg2:T76	
+T77	QUANTITY 655 659	many
+R10	Attribute Arg1:T50 Arg2:T77	
+R11	Attribute Arg1:T51 Arg2:T77	
+R12	Attribute Arg1:T53 Arg2:T28	
+R13	Attribute Arg1:T53 Arg2:T23	
+T78	REFERENCE 793 797	this
+R14	Coreference Arg1:T78 Arg2:T11	
+T79	PROCESS 798 806	enhances
+T80	PLAN-OR-PROCESS 807 817	comparison
+R15	Attribute Arg1:T57 Arg2:T24	
+T82	QUANTITY 906 914	a number
+R16	Attribute Arg1:T59 Arg2:T82	
+T83	REFERENCE 927 931	that
+R17	Coreference Arg1:T83 Arg2:T59	
+R18	Attribute Arg1:T60 Arg2:T25	
+T15	TIME 1137 1148	more recent
+R19	Attribute Arg1:T69 Arg2:T15	
+T63	QUALITY 1021 1029	combined
+T84	PROCESS 1030 1033	use
+R20	Attribute Arg1:T84 Arg2:T63	
+R21	Member-collection Arg1:T34 Arg2:T71	
+R22	Output Arg1:T29 Arg2:T30	
+R23	Apply-to Arg1:T31 Arg2:T32	
+R24	Output Arg1:T32 Arg2:T33	
+R25	Attribute Arg1:T34 Arg2:T35	
+R26	Attribute Arg1:T34 Arg2:T36	
+R27	from Arg1:T4 Arg2:T71	
+R28	to Arg1:T4 Arg2:T2	
+R29	from Arg1:T6 Arg2:T41	
+R30	to Arg1:T6 Arg2:T7	
+R31	to Arg1:T6 Arg2:T8	
+R32	Output Arg1:T8 Arg2:T43	
+R35	Attribute Arg1:T45 Arg2:T46	
+R36	Output Arg1:T17 Arg2:T47	
+R37	from Arg1:T10 Arg2:T50	
+R38	from Arg1:T10 Arg2:T51	
+R39	to Arg1:T10 Arg2:T52	
+R40	Attribute Arg1:T11 Arg2:T18	
+R41	Input Arg1:T11 Arg2:T53	
+R43	Apply-to Arg1:T78 Arg2:T79	
+R44	In_Out Arg1:T79 Arg2:T80	
+R45	In_Out Arg1:T79 Arg2:T56	
+R46	Input Arg1:T80 Arg2:T57	
+R47	In_Out Arg1:T56 Arg2:T57	
+R48	Output Arg1:T61 Arg2:T62	
+R49	Apply-to Arg1:T60 Arg2:T61	
+R50	Input Arg1:T84 Arg2:T64	
+R51	Input Arg1:T84 Arg2:T65	
+T16	APPLY-TO 1063 1076	paves the way
+R52	Input Arg1:T67 Arg2:T68	
+R53	Input Arg1:T67 Arg2:T69	
+R54	Output Arg1:T9 Arg2:T48	
+R55	Apply-to Arg1:T9 Arg2:T49	
+R56	Destination Arg1:T49 Arg2:T50	
+R57	Destination Arg1:T49 Arg2:T51	
+R59	Input Arg1:T5 Arg2:T38	
+R60	Apply-to Arg1:T37 Arg2:T5	
+R61	Destination Arg1:T5 Arg2:T39	
+R62	Is-a Arg1:T37 Arg2:T40	
+R65	Input Arg1:T13 Arg2:T59	
+R66	to Arg1:T14 Arg2:T83	
+R67	from Arg1:T14 Arg2:T60	
+R68	from Arg1:T16 Arg2:T84	
+R69	to Arg1:T16 Arg2:T67	
+R70	Input Arg1:T3 Arg2:T2	
+R71	Output Arg1:T3 Arg2:T72	
+R58	Target Arg1:T7 Arg2:T42	
+T86	COMPARE 478 482	over
+R72	from Arg1:T86 Arg2:T74	
+R73	to Arg1:T86 Arg2:T43	
+R33	Destination Arg1:T8 Arg2:T44	
+R34	from Arg1:T54 Arg2:T11	
+R74	to Arg1:T54 Arg2:T55	
+T1	PERSON 131 133	We
+T66	PROCESS 134 141	propose
+T70	PERSON 627 629	we
+T73	PROCESS 630 633	get
+R42	Agent Arg1:T73 Arg2:T70	
+R75	Agent Arg1:T66 Arg2:T1	
+R76	Output Arg1:T73 Arg2:T49	
+R77	Output Arg1:T66 Arg2:T3	
+T81	PERSON 894 896	us
+R63	Apply-to Arg1:T58 Arg2:T12	
+R78	Target Arg1:T12 Arg2:T81	
+R64	Agent Arg1:T13 Arg2:T81	
+T85	REFERENCE 49 61	This article
+T87	PROCESS 62 71	describes
+R79	Condition Arg1:T87 Arg2:T85	
+R80	Output Arg1:T87 Arg2:T31	

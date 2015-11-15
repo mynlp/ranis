@@ -1,0 +1,169 @@
+R1	to Arg1:T1 Arg2:T2
+R2	from Arg1:T1 Arg2:T3
+R3	from Arg1:T1 Arg2:T4
+A1	Self T5
+A2	Intentional T6
+A3	Intentional T7
+A4	Intentional T8
+R4	Agent Arg1:T6 Arg2:T5
+R5	Agent Arg1:T7 Arg2:T5
+R6	Agent Arg1:T8 Arg2:T5
+R7	Output Arg1:T6 Arg2:T9
+R8	Output Arg1:T7 Arg2:T9
+R9	Input Arg1:T8 Arg2:T9
+R10	Coreference Arg1:T10 Arg2:T9
+R11	Attribute Arg1:T12 Arg2:T11
+R12	Attribute Arg1:T13 Arg2:T12
+R13	Condition Arg1:T12 Arg2:T10
+R14	Attribute Arg1:T17 Arg2:T76
+R15	Attribute Arg1:T17 Arg2:T16
+A5	Name T19
+A6	Intentional T20
+R16	Agent Arg1:T20 Arg2:T19
+R17	Input Arg1:T20 Arg2:T18
+R18	Output Arg1:T20 Arg2:T21
+R19	Condition Arg1:T21 Arg2:T22
+R20	Condition Arg1:T21 Arg2:T23
+R21	Coreference Arg1:T18 Arg2:T17
+R22	Is-a Arg1:T14 Arg2:T17
+A7	Intentional T15
+R23	Input Arg1:T15 Arg2:T14
+R24	Coreference Arg1:T24 Arg2:T14
+R25	to Arg1:T25 Arg2:T24
+R26	from Arg1:T25 Arg2:T26
+R27	Output Arg1:T26 Arg2:T27
+R28	Output Arg1:T26 Arg2:T28
+R29	Attribute Arg1:T31 Arg2:T30
+R30	Attribute Arg1:T31 Arg2:T29
+R31	Member-collection Arg1:T32 Arg2:T31
+R32	Attribute Arg1:T34 Arg2:T33
+R33	Component-object Arg1:T32 Arg2:T34
+R34	from Arg1:T35 Arg2:T36
+R35	to Arg1:T35 Arg2:T31
+R36	In_Out Arg1:T36 Arg2:T37
+R37	Attribute Arg1:T39 Arg2:T38
+R38	Attribute Arg1:T39 Arg2:T40
+A8	Self T41
+R39	Poss Arg1:T41 Arg2:T42
+R40	Attribute Arg1:T45 Arg2:T44
+R41	Attribute Arg1:T45 Arg2:T43
+R42	Attribute Arg1:T47 Arg2:T46
+R43	In_Out Arg1:T45 Arg2:T42
+R44	Destination Arg1:T45 Arg2:T47
+R45	Other-rel Arg1:T40 Arg2:T44
+R46	Attribute Arg1:T51 Arg2:T50
+R47	Component-object Arg1:T49 Arg2:T51
+R48	Condition Arg1:T49 Arg2:T52
+R49	Condition Arg1:T49 Arg2:T53
+R50	Input Arg1:T48 Arg2:T49
+A9	Self T54
+R51	Compare Arg1:T78 Arg2:T77
+R52	Attribute Arg1:T55 Arg2:T77
+R53	Poss Arg1:T54 Arg2:T55
+R54	Result Arg1:T48 Arg2:T77
+R55	Coreference Arg1:T56 Arg2:T78
+R56	to Arg1:T57 Arg2:T58
+R57	from Arg1:T57 Arg2:T56
+R58	Output Arg1:T59 Arg2:T58
+R59	Input Arg1:T59 Arg2:T60
+A11	Self T61
+R60	Poss Arg1:T61 Arg2:T62
+R61	to Arg1:T63 Arg2:T65
+R62	from Arg1:T63 Arg2:T62
+R63	Attribute Arg1:T65 Arg2:T64
+R64	Condition Arg1:T65 Arg2:T66
+A12	Self T67
+A13	Intentional T68
+R65	Agent Arg1:T68 Arg2:T67
+A14	Judgment T70
+R66	Attribute Arg1:T70 Arg2:T69
+R67	Attribute Arg1:T72 Arg2:T71
+R70	Output Arg1:T68 Arg2:T70
+R71	Attribute Arg1:T72 Arg2:T70
+A15	Intentional T48
+R72	Condition Arg1:T73 Arg2:T74
+R73	Condition Arg1:T73 Arg2:T75
+R74	Condition Arg1:T72 Arg2:T73
+A16	Name T75
+A17	Name T52
+A18	Name T66
+A19	Name T53
+A10	Name T74
+T1	INPUT 0 5	Using
+T2	DATA-ITEM 10 13	Web
+T3	PLAN-OR-PROCESS 18 52	Language Independent Spellchecking
+T4	PLAN-OR-PROCESS 57 71	Autocorrection
+T5	PERSON 74 76	We
+T6	PROCESS 82 90	designed
+T7	PROCESS 93 104	implemented
+T8	PROCESS 109 118	evaluated
+T9	PLAN 122 179	end-to-end system spellchecking and autocorrection system
+T10	REFERENCE 180 184	that
+T11	MODALITY 190 193	not
+T12	QUALITY 194 201	require
+T13	DATA-ITEM 206 238	manually annotated training data
+T14	DATA-ITEM 245 259	World Wide Web
+T15	PROCESS 263 267	used
+T16	QUALITY 273 278	large
+T76	QUALITY 279 284	noisy
+T17	DATA-ITEM 285 291	corpus
+T18	REFERENCE 297 302	which
+T19	PERSON 303 305	we
+T20	PROCESS 306 311	infer
+T21	DATA-ITEM 312 321	knowledge
+T22	DATA-ITEM 328 340	misspellings
+T23	DATA-ITEM 345 355	word usage
+T24	REFERENCE 358 362	This
+T25	INPUT 366 370	used
+T26	PROCESS 374 379	build
+T27	PLAN 383 394	error model
+T28	PLAN 402 423	n-gram language model
+T29	QUALITY 428 433	small
+T30	QUALITY 434 443	secondary
+T31	DATA-ITEM 444 447	set
+T32	DATA-ITEM 451 461	news texts
+T33	QUALITY 467 488	artificially inserted
+T34	DATA-ITEM 489 501	misspellings
+T35	INPUT 506 510	used
+T36	PROCESS 514 518	tune
+T37	PLAN 519 541	confidence classifiers
+T38	QUANTITY 552 554	no
+T39	DATA-ITEM 555 572	manual annotation
+T40	QUALITY 576 584	required
+T41	PERSON 587 590	our
+T42	PLAN 591 597	system
+T43	MODALITY 598 601	can
+T44	QUALITY 602 608	easily
+T45	PROCESS 612 624	instantiated
+T46	QUALITY 629 632	new
+T47	LANGUAGE 633 642	languages
+T48	PROCESS 650 659	evaluated
+T49	DATA-ITEM 663 679	human typed data
+T50	QUALITY 685 689	real
+T51	DATA-ITEM 690 702	misspellings
+T52	LANGUAGE 706 713	English
+T53	LANGUAGE 718 724	German
+T54	PERSON 727 730	our
+T55	PLAN 731 748	web-based systems
+T77	JUDGING-PROCESS 749 759	outperform
+T78	PLAN 760 769	baselines
+T56	REFERENCE 770 775	which
+T57	INPUT 776 779	use
+T58	DATA-ITEM 780 801	candidate corrections
+T59	PROCESS 802 807	based
+T60	DATA-ITEM 811 836	hand-curated dictionaries
+T61	PERSON 839 842	Our
+T62	PLAN 843 849	system
+T63	RESULT 850 858	achieves
+T64	QUANTITY 859 864	3.8 %
+T65	DATA-ITEM 865 881	total error rate
+T66	LANGUAGE 885 892	English
+T67	PERSON 895 897	We
+T68	PROCESS 898 902	show
+T69	QUALITY 903 910	similar
+T70	QUALITY 911 923	improvements
+T71	QUALITY 927 938	preliminary
+T72	DATA-ITEM 939 946	results
+T73	DATA-ITEM 950 965	artificial data
+T74	LANGUAGE 970 977	Russian
+T75	LANGUAGE 982 988	Arabic

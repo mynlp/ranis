@@ -1,0 +1,8 @@
+Textual Entailment Using Univariate Density Model and Maximizing Discriminant Function .
+The primary focuses of this entry this year was firstly , to develop a framework to allow multiple researchers from our group to easily contribute metrics measuring textual entailment , and secondly , to provide a baseline which we could use in our tools to evaluate and compare new metrics .
+A development environment tool was created to quickly allow for testing of various metrics and to easily randomize the development and test sets .
+For each test , this RTE tool calculated two sets of results by applying the metrics to both a univariate Gaussian density and by maximizing a linear discriminant function .
+The metrics used for the submission were a lexical similarity metric and a lexical similarity metric using synonym and antonym replacement .
+The two submissions for RTE 2007 scored an accuracy of 61.00 % and 62.62 % .
+
+

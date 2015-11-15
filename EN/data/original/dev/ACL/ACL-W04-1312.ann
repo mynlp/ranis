@@ -1,0 +1,121 @@
+R1	In_Out Arg1:T57 Arg2:T1
+A1	Self T2
+A2	Intentional T3
+R2	Agent Arg1:T3 Arg2:T2
+R3	Input Arg1:T3 Arg2:T4
+R4	Coreference Arg1:T5 Arg2:T4
+R5	Attribute Arg1:T7 Arg2:T6
+R6	Output Arg1:T7 Arg2:T5
+R7	Input Arg1:T7 Arg2:T8
+R8	Condition Arg1:T8 Arg2:T9
+R9	Condition Arg1:T10 Arg2:T11
+R10	Condition Arg1:T10 Arg2:T12
+R11	Output Arg1:T10 Arg2:T8
+A3	Self T13
+A4	Name T18
+R12	Target Arg1:T16 Arg2:T17
+R13	Condition Arg1:T17 Arg2:T58
+R14	Agent Arg1:T14 Arg2:T13
+A5	Intentional T14
+R15	Input Arg1:T14 Arg2:T15
+R16	Apply-to Arg1:T14 Arg2:T16
+R18	Attribute Arg1:T20 Arg2:T19
+R19	In_Out Arg1:T20 Arg2:T22
+R20	Attribute Arg1:T22 Arg2:T21
+R23	Is-a Arg1:T25 Arg2:T24
+R24	Condition Arg1:T17 Arg2:T19
+A6	Self T26
+A7	Intentional T27
+R25	Agent Arg1:T27 Arg2:T26
+R26	Attribute Arg1:T30 Arg2:T29
+R27	Output Arg1:T32 Arg2:T33
+R28	Attribute Arg1:T34 Arg2:T33
+R29	Apply-to Arg1:T31 Arg2:T32
+R30	Apply-to Arg1:T30 Arg2:T31
+R31	Apply-to Arg1:T28 Arg2:T31
+R32	Output Arg1:T36 Arg2:T35
+R33	Attribute Arg1:T38 Arg2:T37
+R34	Input Arg1:T36 Arg2:T37
+R35	Target Arg1:T41 Arg2:T42
+R36	Apply-to Arg1:T40 Arg2:T41
+R37	Attribute Arg1:T41 Arg2:T39
+R38	Input Arg1:T36 Arg2:T39
+R39	Input Arg1:T36 Arg2:T43
+R41	Apply-to Arg1:T44 Arg2:T45
+R42	Target Arg1:T45 Arg2:T46
+R40	Attribute Arg1:T45 Arg2:T43
+A8	Self T47
+A9	Intentional T48
+R43	Agent Arg1:T48 Arg2:T47
+R44	Attribute Arg1:T50 Arg2:T49
+R45	Output Arg1:T48 Arg2:T50
+R46	Input Arg1:T50 Arg2:T51
+R47	Coreference Arg1:T52 Arg2:T51
+R48	Attribute Arg1:T54 Arg2:T53
+R49	In_Out Arg1:T54 Arg2:T52
+R50	Is-a Arg1:T56 Arg2:T55
+R51	Condition Arg1:T54 Arg2:T55
+R21	Condition Arg1:T19 Arg2:T23
+R22	Condition Arg1:T19 Arg2:T24
+R52	Output Arg1:T27 Arg2:T31
+R53	Target Arg1:T41 Arg2:T61
+T57	PROCESS 0 9	Modelling
+T1	PLAN-OR-PROCESS 10 36	Atypical Syntax Processing
+T2	PERSON 39 41	We
+T3	PROCESS 42 50	evaluate
+T4	DATA-ITEM 55 65	inferences
+T5	REFERENCE 66 70	that
+T6	MODALITY 71 74	can
+T7	PROCESS 78 83	drawn
+T8	DATA-ITEM 89 102	dissociations
+T9	PLAN-OR-PROCESS 106 123	syntax processing
+T10	PROCESS 124 134	identified
+T11	OCCURENT 138 161	developmental disorders
+T12	OCCURENT 166 192	acquired language deficits
+T13	PERSON 195 197	We
+T14	PROCESS 198 201	use
+T15	PLAN 205 208	SRN
+T16	PROCESS 212 220	simulate
+T17	DATA-ITEM 221 235	empirical data
+T18	PERSON 241 245	Dick
+T58	EXTERNAL-REFERENCE 241 261	Dick et al. ( 2001 )
+T60	TIME 255 259	2001
+T19	DATA-ITEM 269 288	relative difficulty
+T20	PROCESS 292 305	comprehending
+T21	QUALITY 306 315	different
+T22	DATA-ITEM 316 339	syntactic constructions
+T23	OCCURENT 346 363	normal conditions
+T24	OCCURENT 368 378	conditions
+T25	OCCURENT 382 388	damage
+T26	PERSON 391 393	We
+T27	PROCESS 394 402	conclude
+T28	PLAN 408 424	task constraints
+T29	QUALITY 429 437	internal
+T30	PLAN 438 463	computational constraints
+T31	PROCESS 464 472	interact
+T32	PROCESS 476 483	predict
+T33	DATA-ITEM 484 492	patterns
+T34	DATA-ITEM 496 506	difficulty
+T35	DATA-ITEM 509 519	Difficulty
+T36	PROCESS 523 532	predicted
+T37	DATA-ITEM 536 545	frequency
+T38	DATA-ITEM 549 562	constructions
+T39	DATA-ITEM 572 583	requirement
+T40	PLAN 591 595	task
+T41	PROCESS 599 604	focus
+T42	DATA-ITEM 608 613	local
+T61	DATA-ITEM 618 645	global sequence information
+T43	DATA-ITEM 659 666	ability
+T44	PLAN 674 680	system
+T45	PROCESS 684 692	maintain
+T46	DATA-ITEM 693 713	sequence information
+T47	PERSON 716 718	We
+T48	PROCESS 719 727	generate
+T49	QUALITY 730 738	testable
+T50	PLAN-OR-PROCESS 739 749	prediction
+T51	DATA-ITEM 757 774	empirical pattern
+T52	REFERENCE 775 779	that
+T53	MODALITY 780 786	should
+T54	PROCESS 790 798	observed
+T55	OCCURENT 805 815	conditions
+T56	OCCURENT 819 839	developmental damage

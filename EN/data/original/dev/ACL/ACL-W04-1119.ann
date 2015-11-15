@@ -1,0 +1,132 @@
+R1	Apply-to Arg1:T1 Arg2:T60
+R2	Output Arg1:T60 Arg2:T59
+R3	Input Arg1:T2 Arg2:T59
+A1	Self T61
+A2	Intentional T62
+R4	Condition Arg1:T62 Arg2:T61
+R5	Output Arg1:T62 Arg2:T3
+R6	Apply-to Arg1:T3 Arg2:T4
+R7	In_Out Arg1:T4 Arg2:T5
+R8	Apply-to Arg1:T5 Arg2:T6
+R9	Output Arg1:T6 Arg2:T7
+R10	Attribute Arg1:T11 Arg2:T10
+R11	Attribute Arg1:T11 Arg2:T9
+R12	Attribute Arg1:T9 Arg2:T8
+R14	Attribute Arg1:T15 Arg2:T14
+R13	Attribute Arg1:T15 Arg2:T12
+R15	Output Arg1:T15 Arg2:T13
+R16	Equivalence Arg1:T12 Arg2:T9
+R17	Attribute Arg1:T18 Arg2:T16
+R18	Attribute Arg1:T18 Arg2:T19
+A3	Self T21
+A4	Intentional T22
+R19	Agent Arg1:T22 Arg2:T21
+R20	Output Arg1:T22 Arg2:T23
+R21	Attribute Arg1:T25 Arg2:T24
+R22	Component-object Arg1:T22 Arg2:T25
+R23	Condition Arg1:T22 Arg2:T20
+R24	Attribute Arg1:T27 Arg2:T26
+R25	Destination Arg1:T27 Arg2:T28
+R26	Attribute Arg1:T30 Arg2:T29
+R27	Attribute Arg1:T32 Arg2:T31
+R28	In_Out Arg1:T30 Arg2:T32
+R29	Attribute Arg1:T34 Arg2:T33
+R30	Component-object Arg1:T34 Arg2:T32
+R31	Attribute Arg1:T36 Arg2:T17
+R32	In_Out Arg1:T35 Arg2:T36
+R33	Is-a Arg1:T27 Arg2:T25
+R34	Is-a Arg1:T30 Arg2:T25
+R35	Is-a Arg1:T35 Arg2:T25
+R36	Attribute Arg1:T38 Arg2:T37
+R37	In_Out Arg1:T35 Arg2:T38
+R38	Condition Arg1:T35 Arg2:T39
+A5	Self T40
+R39	Poss Arg1:T40 Arg2:T41
+R40	Input Arg1:T42 Arg2:T41
+R41	Attribute Arg1:T44 Arg2:T43
+A6	Name T45
+A7	Intentional T42
+R43	Attribute Arg1:T50 Arg2:T49
+R44	Component-object Arg1:T51 Arg2:T50
+R45	Attribute Arg1:T50 Arg2:T52
+A8	Judgment T52
+R46	Condition Arg1:T52 Arg2:T53
+R47	Attribute Arg1:T55 Arg2:T54
+R48	Output Arg1:T53 Arg2:T55
+R49	Component-object Arg1:T57 Arg2:T56
+R50	Attribute Arg1:T56 Arg2:T55
+R51	from Arg1:T48 Arg2:T47
+R52	to Arg1:T48 Arg2:T52
+R53	Condition Arg1:T44 Arg2:T46
+R42	Apply-to Arg1:T41 Arg2:T44
+A9	Name T64
+A10	Name T58
+A11	Name T65
+A12	Name T63
+T1	PLAN 2 26	Semi-Supervised Approach
+T60	PROCESS 30 35	Build
+T59	DATA-ITEM 36 52	Annotated Corpus
+T2	PLAN-OR-PROCESS 57 89	Chinese Named Entity Recognition
+T58	LANGUAGE 57 64	Chinese
+T61	REFERENCE 92 102	This paper
+T62	PROCESS 103 111	presents
+T3	PLAN 114 138	semi-supervised approach
+T4	PROCESS 142 148	reduce
+T5	PLAN-OR-PROCESS 149 161	human effort
+T6	PROCESS 165 173	building
+T7	DATA-ITEM 177 201	annotated Chinese corpus
+T63	LANGUAGE 187 194	Chinese
+T8	QUANTITY 204 207	One
+T9	QUALITY 215 228	disadvantages
+T10	QUANTITY 232 236	many
+T11	PLAN 237 289	statistical Chinese named entity recognition systems
+T64	LANGUAGE 249 256	Chinese
+T13	DATA-ITEM 298 311	training data
+T14	MODALITY 312 315	may
+T12	QUALITY 322 327	short
+T15	PLAN-OR-PROCESS 328 334	supply
+T16	QUALITY 341 358	manually building
+T18	DATA-ITEM 359 375	annotated corpus
+T19	QUALITY 379 388	expensive
+T20	PLAN 398 415	proposed approach
+T21	PERSON 418 420	we
+T22	PROCESS 421 430	construct
+T23	DATA-ITEM 434 459	80M hand-annotated corpus
+T24	QUANTITY 463 468	three
+T25	PLAN-OR-PROCESS 469 474	steps
+T26	QUALITY 483 496	Automatically
+T27	PROCESS 497 505	annotate
+T28	DATA-ITEM 506 521	training corpus
+T29	QUALITY 530 538	Manually
+T30	PROCESS 539 545	refine
+T31	QUALITY 546 551	small
+T32	DATA-ITEM 552 559	subsets
+T33	QUALITY 567 590	automatically annotated
+T34	DATA-ITEM 591 597	corpus
+T35	PROCESS 606 613	Combine
+T17	QUALITY 614 619	small
+T36	DATA-ITEM 620 627	subsets
+T37	QUALITY 632 637	whole
+T38	DATA-ITEM 638 644	corpus
+T39	PLAN-OR-PROCESS 650 671	bootstrapping process
+T40	PERSON 674 677	Our
+T41	PLAN 678 686	approach
+T42	PROCESS 690 696	tested
+T43	QUALITY 702 717	state-ofthe-art
+T44	PLAN 718 750	Chinese word segmentation system
+T65	LANGUAGE 718 725	Chinese
+T45	PERSON 753 756	Gao
+T46	EXTERNAL-REFERENCE 753 777	Gao et al. , 2003 , 2004
+T66	TIME 766 770	2003
+T67	TIME 773 777	2004
+T47	PLAN 782 793	Experiments
+T48	RESULT 794 798	show
+T49	QUALITY 811 816	small
+T50	DATA-ITEM 817 823	subset
+T51	DATA-ITEM 827 848	hand-annotated corpus
+T52	QUALITY 852 862	sufficient
+T53	PROCESS 866 873	achieve
+T54	QUALITY 876 886	satisfying
+T55	DATA-ITEM 887 898	performance
+T56	PLAN 906 928	named entity component
+T57	PLAN 932 943	this system

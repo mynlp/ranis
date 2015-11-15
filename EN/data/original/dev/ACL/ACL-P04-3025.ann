@@ -1,0 +1,77 @@
+R1	Output Arg1:T1 Arg2:T36
+R2	Destination Arg1:T1 Arg2:T2
+A1	Self T37
+A2	Intentional T38
+R3	Condition Arg1:T38 Arg2:T37
+R4	Output Arg1:T38 Arg2:T3
+R5	Input Arg1:T4 Arg2:T5
+R6	Coreference Arg1:T7 Arg2:T5
+R7	Attribute Arg1:T7 Arg2:T8
+R8	to Arg1:T6 Arg2:T8
+R9	from Arg1:T6 Arg2:T4
+R10	Apply-to Arg1:T3 Arg2:T4
+R11	Condition Arg1:T10 Arg2:T9
+R12	Condition Arg1:T8 Arg2:T9
+R13	to Arg1:T11 Arg2:T12
+R14	from Arg1:T11 Arg2:T4
+R15	Output Arg1:T13 Arg2:T14
+R16	Destination Arg1:T13 Arg2:T12
+R17	Attribute Arg1:T16 Arg2:T15
+R18	Member-collection Arg1:T17 Arg2:T16
+R19	Destination Arg1:T18 Arg2:T17
+R20	Output Arg1:T18 Arg2:T19
+R21	Input Arg1:T3 Arg2:T16
+R22	Output Arg1:T21 Arg2:T20
+R23	Attribute Arg1:T29 Arg2:T28
+A3	Judgment T30
+R24	to Arg1:T29 Arg2:T30
+R25	Output Arg1:T25 Arg2:T26
+R26	Destination Arg1:T25 Arg2:T27
+R27	Condition Arg1:T25 Arg2:T24
+R28	Coreference Arg1:T24 Arg2:T23
+R29	from Arg1:T29 Arg2:T23
+R30	Agent Arg1:T22 Arg2:T20
+R31	Output Arg1:T22 Arg2:T29
+R32	Compare Arg1:T31 Arg2:T30
+R33	Coreference Arg1:T32 Arg2:T31
+R34	to Arg1:T34 Arg2:T35
+R35	from Arg1:T34 Arg2:T32
+R36	Attribute Arg1:T34 Arg2:T33
+T1	PROCESS 0 13	Incorporating
+T36	DATA-ITEM 14 31	Topic Information
+T2	PLAN 37 61	Semantic Analysis Models
+T37	REFERENCE 64 74	This paper
+T38	PROCESS 75 82	reports
+T3	PLAN 83 94	experiments
+T4	PROCESS 98 109	classifying
+T5	DATA-ITEM 110 115	texts
+T6	INPUT 116 126	based upon
+T7	REFERENCE 127 132	their
+T8	DATA-ITEM 133 145	favorability
+T9	DOMAIN 158 165	subject
+T10	DATA-ITEM 173 177	text
+T11	INPUT 178 183	using
+T12	DATA-ITEM 186 197	feature set
+T13	PROCESS 198 206	enriched
+T14	DATA-ITEM 212 229	topic information
+T15	QUALITY 235 240	small
+T16	DATA-ITEM 241 248	dataset
+T17	DATA-ITEM 252 265	music reviews
+T18	PROCESS 266 280	hand-annotated
+T19	DATA-ITEM 285 290	topic
+T20	DATA-ITEM 297 304	results
+T21	PLAN 308 325	these experiments
+T22	PROCESS 326 333	suggest
+T23	PLAN 334 338	ways
+T24	REFERENCE 342 347	which
+T25	PROCESS 348 361	incorporating
+T26	DATA-ITEM 362 379	topic information
+T27	PLAN 390 396	models
+T28	MODALITY 397 400	may
+T29	RESULT 401 406	yield
+T30	QUALITY 407 418	improvement
+T31	PLAN 424 430	models
+T32	REFERENCE 431 436	which
+T33	MODALITY 440 443	not
+T34	INPUT 444 447	use
+T35	DATA-ITEM 448 465	topic information

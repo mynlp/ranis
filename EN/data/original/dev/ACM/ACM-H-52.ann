@@ -1,0 +1,172 @@
+T1	PLAN 23 44	Spoken Term Detection
+T2	QUALITY 0 22	Vocabulary Independent
+T3	PROCESS 66 76	retrieving
+T4	DATA-ITEM 77 88	information
+T5	DATA-ITEM 94 105	speech data
+T6	DATA-ITEM 111 125	broadcast news
+T8	DATA-ITEM 127 150	telephone conversations
+T9	DATA-ITEM 155 174	roundtable meetings
+T11	TIME 176 181	Today
+T12	QUALITY 183 187	most
+T13	PLAN 188 195	systems
+T14	APPLY-TO 196 199	use
+T15	QUALITY 200 216	large vocabulary
+T16	PLAN 217 252	continuous speech recognition tools
+T17	PROCESS 256 263	produce
+T18	DATA-ITEM 264 280	word transcripts
+T19	DATA-ITEM 286 297	transcripts
+T20	PROCESS 302 309	indexed
+T21	PROCESS 330 339	retrieved
+T22	DATA-ITEM 349 354	index
+T23	DATA-ITEM 314 325	query terms
+T24	DATA-ITEM 365 376	query terms
+T25	MODALITY 386 389	not
+T26	MEMBER-COLLECTION 390 394	part
+T27	PLAN 402 412	recognizer
+T28	DATA-ITEM 415 425	vocabulary
+T29	MODALITY 426 432	cannot
+T30	PROCESS 436 445	retrieved
+T31	DATA-ITEM 455 461	recall
+T32	PLAN-OR-PROCESS 469 475	search
+T33	PROCESS 479 487	affected
+T34	DATA-ITEM 508 530	output word transcript
+T35	PLAN 541 548	systems
+T36	QUALITY 532 540	advanced
+T37	PROCESS 549 556	provide
+T38	DATA-ITEM 562 582	phonetic transcripts
+T39	DATA-ITEM 598 609	query terms
+T40	MODALITY 610 613	can
+T41	PROCESS 617 624	matched
+T42	QUALITY 625 637	phonetically
+T43	DATA-ITEM 644 664	phonetic transcripts
+T44	QUALITY 665 671	suffer
+T45	DATA-ITEM 683 691	accuracy
+T46	QUALITY 677 682	lower
+T47	MODALITY 696 702	cannot
+T48	DATA-ITEM 709 720	alternative
+T49	DATA-ITEM 724 740	word transcripts
+T50	PLAN 778 784	system
+T52	QUALITY 755 777	vocabulary independent
+T53	MODALITY 790 793	can
+T54	PROCESS 794 800	handle
+T55	QUALITY 801 810	arbitrary
+T56	DATA-ITEM 811 818	queries
+T57	PROCESS 820 830	exploiting
+T58	DATA-ITEM 835 846	information
+T59	PROCESS 847 855	provided
+T60	PROCESS 859 865	having
+T61	DATA-ITEM 871 887	word transcripts
+T62	DATA-ITEM 892 912	phonetic transcripts
+T63	PLAN-OR-PROCESS 916 933	speech recognizer
+T64	PROCESS 934 943	generates
+T65	DATA-ITEM 944 967	word confusion networks
+T66	DATA-ITEM 972 989	phonetic lattices
+T67	DATA-ITEM 995 1006	transcripts
+T68	PROCESS 1011 1018	indexed
+T69	PLAN-OR-PROCESS 1023 1039	query processing
+T70	PLAN-OR-PROCESS 1044 1059	ranking purpose
+T71	QUALITY 1065 1070	value
+T72	PLAN 1078 1093	proposed method
+T73	PROCESS 1097 1109	demonstrated
+T74	DATA-ITEM 1131 1142	performance
+T75	QUALITY 1117 1130	relative high
+T76	PLAN 1150 1156	system
+R1	Coreference Arg1:T76 Arg2:T50	
+T77	PROCESS 1164 1172	received
+T78	DATA-ITEM 1185 1200	overall ranking
+T79	QUALITY 1177 1184	highest
+T83	TIME 1235 1241	recent
+R2	Attribute Arg1:T1 Arg2:T2	
+R3	Attribute Arg1:T13 Arg2:T12	
+R4	Attribute Arg1:T16 Arg2:T15	
+R6	Attribute Arg1:T26 Arg2:T25	
+R7	Attribute Arg1:T30 Arg2:T29	
+R9	Attribute Arg1:T35 Arg2:T36	
+R10	Attribute Arg1:T41 Arg2:T40	
+R11	Attribute Arg1:T41 Arg2:T42	
+R12	Attribute Arg1:T45 Arg2:T46	
+R14	Attribute Arg1:T50 Arg2:T52	
+R15	Attribute Arg1:T54 Arg2:T53	
+T7	REFERENCE 785 789	that
+R16	Coreference Arg1:T7 Arg2:T50	
+R17	Attribute Arg1:T56 Arg2:T55	
+R18	Attribute Arg1:T74 Arg2:T75	
+R19	Attribute Arg1:T78 Arg2:T79	
+T10	DATA-ITEM 1205 1227	US English speech data
+T51	PLAN 1242 1279	NIST Spoken Term Detection evaluation
+R5	Attribute Arg1:T51 Arg2:T83	
+T81	ORGANIZATION 1242 1246	NIST
+R20	to Arg1:T26 Arg2:T28	
+T84	REFERENCE 592 597	which
+R21	Coreference Arg1:T84 Arg2:T38	
+T85	REFERENCE 1158 1163	which
+R22	Coreference Arg1:T85 Arg2:T76	
+T86	EXTERNAL-REFERENCE 1280 1283	[1]
+T87	REFERENCE 377 381	that
+R23	Coreference Arg1:T87 Arg2:T24	
+T89	PERSON 1146 1149	our
+R24	Poss Arg1:T89 Arg2:T76	
+T80	LANGUAGE 1205 1215	US English
+R25	Output Arg1:T3 Arg2:T4	
+R26	Input Arg1:T3 Arg2:T5	
+R27	Is-a Arg1:T6 Arg2:T5	
+R28	Is-a Arg1:T8 Arg2:T5	
+R29	Is-a Arg1:T9 Arg2:T5	
+R30	from Arg1:T14 Arg2:T16	
+R31	to Arg1:T14 Arg2:T13	
+R32	Apply-to Arg1:T13 Arg2:T17	
+R33	Output Arg1:T17 Arg2:T18	
+R34	Destination Arg1:T20 Arg2:T19	
+R35	Output Arg1:T21 Arg2:T23	
+R36	Input Arg1:T21 Arg2:T22	
+R37	Condition Arg1:T17 Arg2:T11	
+R38	Poss Arg1:T27 Arg2:T28	
+R39	from Arg1:T26 Arg2:T87	
+R40	Output Arg1:T30 Arg2:T24	
+R41	Attribute Arg1:T32 Arg2:T31	
+R8	In_Out Arg1:T33 Arg2:T31	
+R42	Apply-to Arg1:T35 Arg2:T37	
+R43	Output Arg1:T37 Arg2:T38	
+R44	Output Arg1:T37 Arg2:T34	
+R45	Output Arg1:T41 Arg2:T39	
+R46	Destination Arg1:T41 Arg2:T84	
+R47	Attribute Arg1:T43 Arg2:T45	
+R48	Attribute Arg1:T43 Arg2:T44	
+R49	Condition Arg1:T44 Arg2:T45	
+T91	IS-A 703 708	be an
+R50	from Arg1:T91 Arg2:T43	
+R51	to Arg1:T91 Arg2:T48	
+R52	Attribute Arg1:T91 Arg2:T47	
+R13	Attribute Arg1:T49 Arg2:T48	
+R53	Apply-to Arg1:T50 Arg2:T54	
+R54	Target Arg1:T54 Arg2:T56	
+R55	In_Out Arg1:T57 Arg2:T58	
+R56	Output Arg1:T59 Arg2:T58	
+R57	Apply-to Arg1:T50 Arg2:T57	
+R58	Apply-to Arg1:T50 Arg2:T60	
+R59	Input Arg1:T60 Arg2:T61	
+R60	Apply-to Arg1:T60 Arg2:T57	
+R61	Input Arg1:T60 Arg2:T62	
+R62	Apply-to Arg1:T63 Arg2:T64	
+R63	Output Arg1:T64 Arg2:T65	
+R64	Output Arg1:T64 Arg2:T66	
+R65	Destination Arg1:T68 Arg2:T67	
+R66	Apply-to Arg1:T68 Arg2:T69	
+R67	Apply-to Arg1:T68 Arg2:T70	
+R68	Attribute Arg1:T72 Arg2:T71	
+R69	Attribute Arg1:T76 Arg2:T74	
+R71	Output Arg1:T73 Arg2:T71	
+R70	Other-rel Arg1:T73 Arg2:T74	
+R72	Destination Arg1:T77 Arg2:T85	
+R73	Output Arg1:T77 Arg2:T78	
+R74	Condition Arg1:T78 Arg2:T10	
+R75	Attribute Arg1:T51 Arg2:T78	
+R76	Condition Arg1:T51 Arg2:T86	
+T82	PERSON 45 47	We
+T88	PERSON 742 744	We
+T90	PROCESS 745 752	present
+R77	Agent Arg1:T90 Arg2:T88	
+R78	Output Arg1:T90 Arg2:T50	
+T92	QUALITY 52 62	interested
+R79	Attribute Arg1:T82 Arg2:T92	
+R80	Condition Arg1:T92 Arg2:T3	

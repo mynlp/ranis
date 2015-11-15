@@ -1,0 +1,7 @@
+Fruit Carts: A Domain and Corpus for Research in Dialogue Systems and Psycholinguistics
+
+We describe a novel domain, Fruit Carts, aimed at eliciting human language production for the twin purposes of (a) dialogue system research and development and (b) psycholinguistic research.
+Fruit Carts contains five tasks: choosing a cart, placing it on a map, painting the cart, rotating the cart, and filling the cart with fruit.
+Fruit Carts has been used for research in psycholinguistics and in dialogue systems.
+Based on these experiences, we discuss how well the Fruit Carts domain meets four desired features: unscripted, context-constrained, controllable difficulty, and separability into semi-independent subdialogues.
+We describe the domain in sufficient detail to allow others to replicate it; researchers interested in using the corpora themselves are encouraged to contact the authors directly.

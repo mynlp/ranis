@@ -1,0 +1,124 @@
+T1	OUTPUT 72 79	produce
+T2	OUTPUT 103 115	highlighting
+T3	PROCESS 135 140	found
+T4	PROCESS 190 198	pinpoint
+T5	PROCESS 346 358	synthesizing
+T6	PROCESS 464 472	identify
+T7	PROCESS 481 490	conveying
+T8	PROCESS 541 548	combine
+T9	PROCESS 597 602	moves
+T11	PROCESS 727 732	found
+T12	MODALITY 68 71	can
+T13	MODALITY 723 726	not
+T14	MODALITY 767 770	can
+T15	QUALITY 234 243	extensive
+T16	QUALITY 302 307	novel
+T17	QUALITY 491 498	similar
+T20	QUANTITY 144 148	many
+T21	PLAN-OR-PROCESS 0 15	Sentence Fusion
+T22	PLAN-OR-PROCESS 20 52	Multidocument News Summarization
+T23	PLAN 56 62	system
+T24	DATA-ITEM 80 101	informative summaries
+T25	DATA-ITEM 116 134	common information
+T26	DATA-ITEM 149 165	online documents
+T27	PERSON 177 186	Web users
+T28	DATA-ITEM 199 210	information
+T29	PROCESS 244 251	reading
+T30	PLAN-OR-PROCESS 283 298	sentence fusion
+T31	PLAN-OR-PROCESS 308 341	text-to-text generation technique
+T32	DATA-ITEM 359 377	common information
+T33	DATA-ITEM 385 394	documents
+T34	PLAN-OR-PROCESS 396 411	Sentence fusion
+T35	PLAN-OR-PROCESS 431 460	local multisequence alignment
+T36	DATA-ITEM 473 480	phrases
+T37	DATA-ITEM 499 510	information
+T38	PLAN-OR-PROCESS 515 537	statistical generation
+T39	DATA-ITEM 549 563	common phrases
+T40	DATA-ITEM 571 579	sentence
+T41	PLAN-OR-PROCESS 581 596	Sentence fusion
+T42	DOMAIN 607 626	summarization field
+T43	PLAN 643 668	purely extractive methods
+T44	PROCESS 676 686	generation
+T45	DATA-ITEM 690 699	abstracts
+T46	DATA-ITEM 713 722	sentences
+T47	DATA-ITEM 747 762	input documents
+T48	DATA-ITEM 782 793	information
+T49	DATA-ITEM 801 808	sources
+R1	Attribute Arg1:T1 Arg2:T12	
+R2	Attribute Arg1:T26 Arg2:T20	
+T50	REFERENCE 216 220	they
+R3	Coreference Arg1:T50 Arg2:T27	
+T51	MODALITY 226 233	without
+R4	Attribute Arg1:T29 Arg2:T51	
+R5	Attribute Arg1:T29 Arg2:T15	
+R6	Attribute Arg1:T31 Arg2:T16	
+T53	APPLY-TO 412 420	involves
+T54	QUALITY 421 430	bottom-up
+R7	Attribute Arg1:T35 Arg2:T54	
+R8	Attribute Arg1:T37 Arg2:T17	
+T18	PROCESS 636 639	use
+R10	Attribute Arg1:T11 Arg2:T13	
+T55	PROCESS 771 781	synthesize
+R11	Attribute Arg1:T55 Arg2:T14	
+T19	REFERENCE 700 704	that
+R9	Coreference Arg1:T19 Arg2:T45	
+T56	QUANTITY 736 739	any
+R12	Attribute Arg1:T47 Arg2:T56	
+T57	REFERENCE 63 67	that
+R14	Coreference Arg1:T57 Arg2:T23	
+T58	REFERENCE 211 215	that
+R15	Coreference Arg1:T58 Arg2:T28	
+R16	Apply-to Arg1:T21 Arg2:T22	
+R17	from Arg1:T1 Arg2:T57	
+R18	to Arg1:T1 Arg2:T24	
+R19	from Arg1:T2 Arg2:T57	
+R20	to Arg1:T2 Arg2:T25	
+R21	Output Arg1:T3 Arg2:T25	
+R22	Input Arg1:T3 Arg2:T26	
+T59	MODALITY 167 171	will
+T60	PROCESS 172 176	help
+R23	Attribute Arg1:T60 Arg2:T59	
+R24	Target Arg1:T60 Arg2:T27	
+R25	Apply-to Arg1:T23 Arg2:T60	
+R26	Other-rel Arg1:T4 Arg2:T27	
+R27	Output Arg1:T4 Arg2:T28	
+R28	Is-a Arg1:T30 Arg2:T31	
+R29	Output Arg1:T5 Arg2:T32	
+R30	Apply-to Arg1:T31 Arg2:T5	
+R31	Condition Arg1:T33 Arg2:T5	
+R32	from Arg1:T53 Arg2:T34	
+R33	to Arg1:T53 Arg2:T35	
+R34	Apply-to Arg1:T35 Arg2:T6	
+R35	Output Arg1:T6 Arg2:T36	
+R36	In_Out Arg1:T7 Arg2:T37	
+R37	Input Arg1:T8 Arg2:T39	
+R38	Destination Arg1:T8 Arg2:T40	
+R39	Apply-to Arg1:T38 Arg2:T8	
+R40	to Arg1:T53 Arg2:T38	
+R41	Other-rel Arg1:T7 Arg2:T6	
+R42	Output Arg1:T55 Arg2:T48	
+T10	COMPONENT-OBJECT 705 712	contain
+R43	from Arg1:T10 Arg2:T46	
+R44	to Arg1:T10 Arg2:T19	
+R13	Apply-to Arg1:T41 Arg2:T9	
+R45	Other-rel Arg1:T9 Arg2:T42	
+R47	Origin Arg1:T9 Arg2:T18	
+R48	Destination Arg1:T9 Arg2:T44	
+R49	Output Arg1:T44 Arg2:T45	
+R46	Target Arg1:T18 Arg2:T43	
+R50	Condition Arg1:T47 Arg2:T11	
+R51	Output Arg1:T11 Arg2:T46	
+R52	Apply-to Arg1:T41 Arg2:T55	
+T61	CONDITION 794 800	across
+R53	to Arg1:T61 Arg2:T49	
+R54	from Arg1:T61 Arg2:T55	
+T52	REFERENCE 256 268	this article
+T62	PERSON 270 272	we
+T63	PROCESS 273 282	introduce
+R55	Condition Arg1:T63 Arg2:T52	
+R56	Agent Arg1:T63 Arg2:T62	
+R57	Output Arg1:T63 Arg2:T30	
+T64	PROCESS 221 225	need
+R58	Agent Arg1:T64 Arg2:T50	
+R59	Attribute Arg1:T64 Arg2:T51	
+R60	Target Arg1:T64 Arg2:T58	

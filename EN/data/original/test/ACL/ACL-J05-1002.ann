@@ -1,0 +1,52 @@
+T2	QUALITY 186 206	necessarily inferior
+T3	PLAN-OR-PROCESS 12 54	Template-Based Natural Language Generation
+T4	OCCURENT 64 74	Opposition
+T6	PLAN 126 151	template-based approaches
+T7	PLAN-OR-PROCESS 159 169	generation
+T8	LANGUAGE 173 181	language
+T9	PLAN 216 226	approaches
+T10	QUALITY 244 259	maintainability
+T11	QUALITY 261 288	linguistic well-foundedness
+T12	QUALITY 294 301	quality
+T13	DATA-ITEM 305 311	output
+T14	PLAN 325 336	NLG systems
+T15	REFERENCE 347 357	themselves
+T16	QUALITY 360 374	template-based
+T17	PLAN 397 403	claims
+T18	PLAN-OR-PROCESS 0 4;27 54	Real Natural Language Generation
+T19	QUALITY 58 63	False
+R1	Attribute Arg1:T4 Arg2:T19	
+T20	QUALITY 210 215	other
+R4	Attribute Arg1:T9 Arg2:T20	
+T21	REFERENCE 238 243	their
+R5	Coreference Arg1:T21 Arg2:T6	
+R6	Coreference Arg1:T15 Arg2:T24	
+T23	PROCESS 382 392	illustrate
+R9	Attribute Arg1:T13 Arg2:T12	
+T24	REFERENCE 337 341	that
+R10	Coreference Arg1:T24 Arg2:T14	
+T25	TIME 318 324	recent
+R11	Attribute Arg1:T14 Arg2:T25	
+T26	PERSON 393 396	our
+R12	Poss Arg1:T26 Arg2:T17	
+R13	Attribute Arg1:T21 Arg2:T10	
+R7	Attribute Arg1:T21 Arg2:T11	
+R8	Attribute Arg1:T21 Arg2:T12	
+R2	Apply-to Arg1:T6 Arg2:T7	
+R3	Attribute Arg1:T6 Arg2:T2	
+R14	Output Arg1:T7 Arg2:T8	
+R15	Compare Arg1:T9 Arg2:T2	
+R16	Attribute Arg1:T15 Arg2:T16	
+R17	Output Arg1:T23 Arg2:T17	
+R18	Apply-to Arg1:T14 Arg2:T23	
+T1	MODALITY 377 381	will
+R19	Attribute Arg1:T23 Arg2:T1	
+T27	QUANTITY 313 317	Some
+R20	Attribute Arg1:T14 Arg2:T27	
+T5	REFERENCE 77 89	This article
+T22	PROCESS 90 100	challenges
+R21	Condition Arg1:T22 Arg2:T5	
+T28	THING 114 120	wisdom
+T29	PROCESS 105 113	received
+R22	In_Out Arg1:T29 Arg2:T28	
+R23	Target Arg1:T22 Arg2:T28	

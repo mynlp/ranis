@@ -1,0 +1,13 @@
+Learning Methods to Combine Linguistic Indicators: Improving Aspectual Classification and Revealing Linguistic Insights
+
+Aspectual classification maps verbs to a small set of primitive categories in order to reason about time.
+This classification is necessary for interpreting temporal modifiers and assessing temporal relationships, and is therefore a required component for many natural language applications.
+A verb's aspectual category can be predicted by co-occurrence frequencies between the verb and certain linguistic modifiers.
+These frequency measures, called linguistic indicators, are chosen by linguistic insights.
+However, linguistic indicators used in isolation are predictively incomplete, and are therefore insufficient when used individually.
+In this article, we compare three supervised machine learning methods for combining multiple linguistic indicators for aspectual classification: decision trees, genetic programming, and logistic regression.
+A set of 14 indicators are combined for classification according to two aspectual distinctions.
+This approach improves the classification performance for both distinctions, as evaluated over unrestricted sets of verbs occurring across two corpora.
+This demonstrates the effectiveness of the linguistic indicators and provides a much-needed full-scale method for automatic aspectual classification.
+Moreover, the models resulting from learning reveal several linguistic insights that are relevant to aspectual classification.
+We also compare supervised learning methods with an unsupervised method for this task.

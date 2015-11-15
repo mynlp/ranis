@@ -1,0 +1,102 @@
+R1	Input Arg1:T1 Arg2:T2
+R2	Condition Arg1:T1 Arg2:T3
+A1	Self T4
+A2	Intentional T5
+R3	Agent Arg1:T5 Arg2:T4
+R4	Output Arg1:T5 Arg2:T6
+R5	Apply-to Arg1:T6 Arg2:T7
+R6	Input Arg1:T7 Arg2:T8
+R7	Component-object Arg1:T9 Arg2:T8
+R8	Attribute Arg1:T7 Arg2:T10
+R9	Apply-to Arg1:T6 Arg2:T11
+R10	Attribute Arg1:T13 Arg2:T12
+R11	Output Arg1:T11 Arg2:T13
+R12	Output Arg1:T11 Arg2:T14
+R13	Output Arg1:T15 Arg2:T14
+R14	Destination Arg1:T15 Arg2:T16
+R15	from Arg1:T18 Arg2:T19
+R16	to Arg1:T18 Arg2:T20
+R17	Attribute Arg1:T18 Arg2:T17
+R18	Attribute Arg1:T22 Arg2:T21
+R20	Attribute Arg1:T25 Arg2:T24
+R21	Condition Arg1:T25 Arg2:T26
+R22	to Arg1:T23 Arg2:T25
+R23	from Arg1:T23 Arg2:T20
+R24	Coreference Arg1:T19 Arg2:T6
+R25	Output Arg1:T20 Arg2:T50
+A3	Self T27
+A4	Intentional T28
+R26	Agent Arg1:T28 Arg2:T27
+R27	Attribute Arg1:T31 Arg2:T30
+R28	Attribute Arg1:T31 Arg2:T29
+R29	Output Arg1:T28 Arg2:T31
+R30	from Arg1:T32 Arg2:T31
+R31	to Arg1:T32 Arg2:T33
+R32	In_Out Arg1:T37 Arg2:T38
+R33	Attribute Arg1:T37 Arg2:T36
+R34	to Arg1:T35 Arg2:T37
+R35	from Arg1:T35 Arg2:T34
+R36	Coreference Arg1:T34 Arg2:T31
+R37	Apply-to Arg1:T41 Arg2:T40
+R38	Target Arg1:T40 Arg2:T39
+R39	Coreference Arg1:T42 Arg2:T41
+A5	Self T43
+A6	Intentional T44
+R40	Agent Arg1:T44 Arg2:T43
+R41	Output Arg1:T44 Arg2:T45
+R42	Output Arg1:T45 Arg2:T46
+R43	Member-collection Arg1:T48 Arg2:T47
+R44	Input Arg1:T46 Arg2:T47
+R45	Component-object Arg1:T49 Arg2:T48
+R19	Condition Arg1:T50 Arg2:T22
+R46	Condition Arg1:T44 Arg2:T42
+T1	PROCESS 0 7	Parsing
+T2	DATA-ITEM 8 37	Word-Aligned Parallel Corpora
+T3	DATA-ITEM 43 68	Grammar Induction Context
+T4	PERSON 71 73	We
+T5	PROCESS 74 81	present
+T6	PLAN 85 127	Earley-style dynamic programming algorithm
+T7	PROCESS 132 139	parsing
+T8	DATA-ITEM 140 154	sentence pairs
+T9	DATA-ITEM 162 177	parallel corpus
+T10	QUALITY 178 192	simultaneously
+T11	PROCESS 195 206	building up
+T12	QUANTITY 207 210	two
+T13	DATA-ITEM 211 233	phrase structure trees
+T14	DATA-ITEM 240 254	correspondence
+T15	PROCESS 255 262	mapping
+T16	DATA-ITEM 275 280	nodes
+T17	QUALITY 287 295	intended
+T18	APPLY-TO 296 299	use
+T19	PLAN 303 316	the algorithm
+T20	PLAN-OR-PROCESS 323 336	bootstrapping
+T50	PLAN 337 345	grammars
+T21	QUALITY 350 362	less studied
+T22	LANGUAGE 363 372	languages
+T23	INPUT 376 381	using
+T24	QUALITY 382 390	implicit
+T25	DATA-ITEM 391 414	grammatical information
+T26	DATA-ITEM 418 434	parallel corpora
+T27	PERSON 449 451	we
+T28	PROCESS 452 462	presuppose
+T29	QUALITY 465 470	given
+T30	QUALITY 473 484	statistical
+T31	PLAN-OR-PROCESS 487 501	word alignment
+T32	APPLY-TO 502 512	underlying
+T33	PLAN 520 544	synchronous parsing task
+T34	REFERENCE 547 551	this
+T35	RESULT 552 557	leads
+T36	QUALITY 563 574	significant
+T37	JUDGING-PROCESS 575 584	reduction
+T38	QUALITY 592 610	parsing complexity
+T39	DATA-ITEM 617 647	theoretical complexity results
+T40	PROCESS 652 664	corroborated
+T41	PLAN-OR-PROCESS 670 693	quantitative evaluation
+T42	REFERENCE 697 702	which
+T43	PERSON 703 705	we
+T44	PROCESS 706 709	ran
+T45	PLAN-OR-PROCESS 713 727	implementation
+T46	PLAN 735 744	algorithm
+T47	DATA-ITEM 750 755	suite
+T48	DATA-ITEM 759 773	test sentences
+T49	DATA-ITEM 783 807	Europarl parallel corpus

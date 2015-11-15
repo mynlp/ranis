@@ -1,0 +1,136 @@
+R1	Input Arg1:T4 Arg2:T5
+R2	Input Arg1:T3 Arg2:T4
+A1	Self T6
+A2	Intentional T7
+R3	Agent Arg1:T7 Arg2:T6
+R4	Output Arg1:T7 Arg2:T8
+R5	Output Arg1:T9 Arg2:T8
+R6	Member-collection Arg1:T11 Arg2:T10
+R7	Agent Arg1:T9 Arg2:T10
+R8	Input Arg1:T14 Arg2:T15
+R9	Apply-to Arg1:T14 Arg2:T16
+R10	Apply-to Arg1:T8 Arg2:T14
+R11	Attribute Arg1:T1 Arg2:T2
+A3	Self T17
+R12	Poss Arg1:T17 Arg2:T18
+R13	from Arg1:T19 Arg2:T20
+R14	to Arg1:T19 Arg2:T18
+R15	Attribute Arg1:T25 Arg2:T22
+R16	Attribute Arg1:T27 Arg2:T26
+R17	Target Arg1:T21 Arg2:T25
+R18	Target Arg1:T21 Arg2:T27
+R19	Component-object Arg1:T28 Arg2:T27
+R20	Apply-to Arg1:T21 Arg2:T18
+R21	Coreference Arg1:T29 Arg2:T28
+A4	Self T23
+A5	Intentional T24
+R22	Agent Arg1:T24 Arg2:T23
+R23	Attribute Arg1:T33 Arg2:T32
+R24	Attribute Arg1:T33 Arg2:T31
+R25	Attribute Arg1:T27 Arg2:T60
+R26	Attribute Arg1:T25 Arg2:T61
+R27	Output Arg1:T30 Arg2:T33
+R28	Input Arg1:T24 Arg2:T29
+A6	Intentional T30
+R29	Agent Arg1:T30 Arg2:T23
+R30	Output Arg1:T24 Arg2:T33
+A7	Self T34
+A8	Intentional T35
+R31	Agent Arg1:T35 Arg2:T34
+R32	Attribute Arg1:T37 Arg2:T36
+R33	Is-a Arg1:T62 Arg2:T37
+R34	Is-a Arg1:T38 Arg2:T37
+R35	Output Arg1:T35 Arg2:T37
+A9	Self T39
+A10	Intentional T40
+R36	Agent Arg1:T40 Arg2:T39
+R37	Attribute Arg1:T63 Arg2:T64
+R38	Attribute Arg1:T45 Arg2:T44
+R39	Attribute Arg1:T45 Arg2:T46
+R40	Attribute Arg1:T49 Arg2:T47
+R41	Attribute Arg1:T49 Arg2:T50
+R42	Is-a Arg1:T42 Arg2:T41
+R43	Is-a Arg1:T63 Arg2:T41
+R44	Input Arg1:T40 Arg2:T41
+R45	Output Arg1:T43 Arg2:T45
+R46	Output Arg1:T43 Arg2:T49
+R47	Attribute Arg1:T55 Arg2:T54
+R48	Apply-to Arg1:T51 Arg2:T56
+R49	Attribute Arg1:T53 Arg2:T52
+R50	to Arg1:T53 Arg2:T55
+R51	Condition Arg1:T56 Arg2:T57
+R52	Condition Arg1:T50 Arg2:T51
+R53	Condition Arg1:T46 Arg2:T51
+R54	Result Arg1:T40 Arg2:T43
+A11	Intentional T9
+A12	Name T13
+A13	Name T48
+A14	Name T58
+A15	Name T65
+A16	Name T12
+A17	Name T59
+T1	ORGANIZATION 0 3	NUS
+T2	PLAN 7 12	WMT09
+T3	PLAN 15 44	Domain Adaptation Experiments
+T4	PLAN-OR-PROCESS 49 84	English-Spanish Machine Translation
+T58	LANGUAGE 49 56	English
+T59	LANGUAGE 57 64	Spanish
+T5	DATA-ITEM 88 108	News Commentary Text
+T6	PERSON 111 113	We
+T7	PROCESS 114 122	describe
+T8	PLAN 127 133	system
+T9	PROCESS 134 143	developed
+T10	ORGANIZATION 151 155	team
+T11	ORGANIZATION 163 195	National University of Singapore
+T13	LANGUAGE 200 207	English
+T14	PLAN-OR-PROCESS 200 238	English to Spanish machine translation
+T12	LANGUAGE 211 218	Spanish
+T15	DATA-ITEM 242 262	News Commentary text
+T16	PLAN 271 300	WMT09 Shared Translation Task
+T17	PERSON 303 306	Our
+T18	PLAN 307 315	approach
+T19	APPLY-TO 319 327	based on
+T20	PLAN-OR-PROCESS 328 345	domain adaptation
+T21	PROCESS 348 357	combining
+T61	QUALITY 360 365	small
+T22	QUALITY 366 375	in-domain
+T25	DATA-ITEM 376 399	News Commentary bi-text
+T60	QUALITY 406 411	large
+T26	QUALITY 412 425	out-of-domain
+T27	DATA-ITEM 426 429	one
+T28	DATA-ITEM 439 454	Europarl corpus
+T29	REFERENCE 462 467	which
+T23	PERSON 468 470	we
+T24	PROCESS 471 476	built
+T30	PROCESS 481 489	combined
+T31	QUANTITY 490 493	two
+T32	QUALITY 494 502	separate
+T33	DATA-ITEM 503 516	phrase tables
+T34	PERSON 519 521	We
+T35	PROCESS 530 538	combined
+T36	QUANTITY 539 542	two
+T37	PLAN 543 558	language models
+T62	PLAN 561 570	in-domain
+T38	PLAN 575 588	out-of-domain
+T39	PERSON 597 599	we
+T40	PROCESS 600 612	experimented
+T41	PLAN 618 626	cognates
+T64	QUALITY 629 637	improved
+T63	PLAN 638 650	tokenization
+T42	PLAN 655 663	recasing
+T43	PROCESS 666 675	achieving
+T44	QUALITY 680 687	highest
+T45	DATA-ITEM 688 709	lowercased NIST score
+T46	QUANTITY 713 718	6.963
+T47	QUALITY 727 738	second best
+T49	DATA-ITEM 739 760	lowercased Bleu score
+T50	QUANTITY 764 771	24.91 %
+T51	PLAN-OR-PROCESS 776 784	training
+T52	MODALITY 785 792	without
+T53	INPUT 793 798	using
+T54	QUALITY 799 809	additional
+T55	DATA-ITEM 810 823	external data
+T56	PLAN-OR-PROCESS 828 858	English-to-Spanish translation
+T48	LANGUAGE 828 835	English
+T65	LANGUAGE 839 846	Spanish
+T57	PLAN 866 877	shared task

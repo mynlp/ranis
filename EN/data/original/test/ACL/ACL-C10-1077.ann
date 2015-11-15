@@ -1,0 +1,112 @@
+T1	PLAN-OR-PROCESS 38 54	Event Extraction
+T2	PLAN-OR-PROCESS 0 16	Filtered Ranking
+T3	PLAN-OR-PROCESS 21 34	Bootstrapping
+T4	PERSON 64 75	researchers
+T5	QUANTITY 56 63	Several
+T6	PROCESS 81 89	proposed
+T7	PLAN 90 122	semi-supervised learning methods
+T8	PROCESS 127 135	adapting
+T9	PLAN 136 160	event extraction systems
+T10	DATA-ITEM 168 179	event types
+T11	QUALITY 164 167	new
+T12	PLAN 218 239	bootstrapping methods
+T13	PLAN 209 214	kinds
+T14	QUANTITY 205 208	two
+T15	PLAN 249 265	event extraction
+T16	APPLY-TO 240 244	used
+T17	PLAN 271 287;311 321	document-centric approaches
+T18	PLAN 292 321	similarity-centric approaches
+T19	PLAN 338 361	filtered ranking method
+T20	PROCESS 367 375	combines
+T21	QUALITY 380 390	advantages
+T22	PLAN 394 401	the two
+R1	Coreference Arg1:T22 Arg2:T18	
+T23	PLAN 421 437	extraction tasks
+T24	PROCESS 441 448	compare
+T25	QUALITY 453 463	generality
+T26	PLAN 467 478	this method
+T27	EXTERNAL-REFERENCE 482 495	previous work
+R2	Coreference Arg1:T26 Arg2:T19	
+T29	DATA-ITEM 512 519	results
+T30	PROCESS 500 507	analyze
+T31	APPLY-TO 520 525	using
+T32	PLAN 530 548	evaluation metrics
+T33	QUANTITY 526 529	two
+T34	PROCESS 565 571	effect
+T35	DATA-ITEM 585 601	training corpora
+T36	QUALITY 575 584	different
+T37	PLAN-OR-PROCESS 603 614	Experiments
+T38	OUTPUT 615 619	show
+T39	PLAN 633 647	ranking method
+T40	ATTRIBUTE 657 665	achieves
+T41	DATA-ITEM 673 684	performance
+T42	QUALITY 666 672	higher
+T43	PLAN 698 716	evaluation metrics
+T44	QUALITY 688 697	different
+T45	QUALITY 730 741	more stable
+T46	DATA-ITEM 759 780	bootstrapping corpora
+T47	QUALITY 749 758	different
+T49	PROCESS 553 560	observe
+R4	Attribute Arg1:T4 Arg2:T5	
+R5	Attribute Arg1:T10 Arg2:T11	
+R6	Attribute Arg1:T13 Arg2:T14	
+R7	Coreference Arg1:T22 Arg2:T17	
+R8	Attribute Arg1:T32 Arg2:T33	
+R9	Attribute Arg1:T35 Arg2:T36	
+T28	PERSON 625 628	our
+R10	Attribute Arg1:T41 Arg2:T42	
+R11	Attribute Arg1:T46 Arg2:T47	
+R12	Attribute Arg1:T22 Arg2:T21	
+R13	Attribute Arg1:T26 Arg2:T25	
+R14	Attribute Arg1:T43 Arg2:T44	
+T50	REFERENCE 362 366	that
+R15	Coreference Arg1:T50 Arg2:T19	
+T53	QUALITY 629 632	new
+R3	Attribute Arg1:T39 Arg2:T53	
+R16	Poss Arg1:T28 Arg2:T39	
+R17	Attribute Arg1:T39 Arg2:T45	
+R18	from Arg1:T40 Arg2:T39	
+R19	to Arg1:T40 Arg2:T41	
+R20	Apply-to Arg1:T2 Arg2:T3	
+R21	Apply-to Arg1:T3 Arg2:T1	
+R22	Agent Arg1:T6 Arg2:T4	
+R23	Output Arg1:T6 Arg2:T7	
+R24	Apply-to Arg1:T7 Arg2:T8	
+R25	In_Out Arg1:T8 Arg2:T9	
+R26	Target Arg1:T8 Arg2:T10	
+R27	Is-a Arg1:T12 Arg2:T13	
+R28	from Arg1:T16 Arg2:T13	
+R29	to Arg1:T16 Arg2:T15	
+R30	Is-a Arg1:T17 Arg2:T13	
+R31	Is-a Arg1:T18 Arg2:T13	
+R32	Apply-to Arg1:T50 Arg2:T20	
+R33	Input Arg1:T20 Arg2:T21	
+T55	PLAN 412 417	range
+R34	Member-collection Arg1:T23 Arg2:T55	
+R38	Input Arg1:T30 Arg2:T29	
+R39	from Arg1:T31 Arg2:T32	
+R40	to Arg1:T31 Arg2:T30	
+R41	Attribute Arg1:T35 Arg2:T34	
+R42	In_Out Arg1:T49 Arg2:T34	
+R43	from Arg1:T38 Arg2:T37	
+R44	to Arg1:T38 Arg2:T45	
+R45	Condition Arg1:T39 Arg2:T43	
+R46	Condition Arg1:T45 Arg2:T46	
+T57	PROCESS 406 409	use
+R47	Input Arg1:T57 Arg2:T23	
+R35	Apply-to Arg1:T57 Arg2:T24	
+R48	Input Arg1:T24 Arg2:T25	
+R36	Compare Arg1:T27 Arg2:T25	
+R49	to Arg1:T38 Arg2:T40	
+T48	PERSON 403 405	We
+T51	PERSON 497 499	We
+R50	Agent Arg1:T30 Arg2:T51	
+R51	Agent Arg1:T57 Arg2:T48	
+R37	Agent Arg1:T49 Arg2:T51	
+T52	REFERENCE 181 191	This paper
+T54	PROCESS 192 204	investigates
+R52	Condition Arg1:T54 Arg2:T52	
+T56	PROCESS 327 335	proposes
+R53	Condition Arg1:T56 Arg2:T52	
+R54	Output Arg1:T56 Arg2:T19	
+R55	In_Out Arg1:T54 Arg2:T13	

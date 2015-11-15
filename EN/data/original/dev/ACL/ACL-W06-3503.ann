@@ -1,0 +1,77 @@
+T1	DATA-ITEM 22 51	Natural Language Explanations
+T2	PLAN 55 76	Tutorial Applications
+T3	PERSON 79 81	We
+T4	PROCESS 82 90	describe
+T5	PLAN 95 133	WHY2-ATLAS intelligent tutoring system
+T6	PLAN 138 157	qualitative physics
+T7	REFERENCE 158 162	that
+T8	PROCESS 163 172	interacts
+T9	PERSON 178 186	students
+T10	PLAN 191 216	natural language dialogue
+T11	PERSON 218 220	We
+T12	PROCESS 221 226	focus
+T13	PROCESS 234 239	issue
+T14	PROCESS 243 252	analyzing
+T15	PROCESS 257 267	responding
+T16	DATA-ITEM 271 300	multi-sentential explanations
+T17	PERSON 302 304	We
+T18	PROCESS 305 312	explore
+T19	PLAN 316 324	approach
+T20	REFERENCE 325 329	that
+T21	PROCESS 330 338	combines
+T22	PLAN 341 363	statistical classifier
+T23	QUANTITY 365 373	multiple
+T24	PLAN 374 390	semantic parsers
+T25	QUALITY 397 403	formal
+T26	PLAN 404 412	reasoner
+T27	PROCESS 417 426	achieving
+T28	QUALITY 429 435	deeper
+T29	PROCESS 436 449	understanding
+T30	DATA-ITEM 453 471	these explanations
+T31	PROCESS 484 491	provide
+T32	QUALITY 492 503	appropriate
+T33	PLAN-OR-PROCESS 504 512	feedback
+T34	REFERENCE 516 520	them
+T35	PROCESS 0 13	Understanding
+T36	QUALITY 14 21	Complex
+R1	Attribute Arg1:T1 Arg2:T36	
+R2	In_Out Arg1:T35 Arg2:T1	
+R3	Other-rel Arg1:T1 Arg2:T2	
+A1	Self T3
+A2	Intentional T4
+R4	Agent Arg1:T4 Arg2:T3	
+R5	Output Arg1:T4 Arg2:T5	
+R6	Apply-to Arg1:T5 Arg2:T6	
+R7	Coreference Arg1:T7 Arg2:T5	
+R8	Apply-to Arg1:T7 Arg2:T8	
+R9	Target Arg1:T8 Arg2:T9	
+R10	Apply-to Arg1:T10 Arg2:T8	
+A3	Self T11
+R11	Agent Arg1:T12 Arg2:T11	
+R12	Target Arg1:T12 Arg2:T13	
+R13	Is-a Arg1:T14 Arg2:T13	
+R14	Is-a Arg1:T15 Arg2:T13	
+R15	Input Arg1:T14 Arg2:T16	
+R16	Input Arg1:T15 Arg2:T16	
+A4	Self T17
+A5	Intentional T18
+R17	Agent Arg1:T18 Arg2:T17	
+R18	In_Out Arg1:T18 Arg2:T19	
+R19	Coreference Arg1:T20 Arg2:T19	
+R20	Apply-to Arg1:T20 Arg2:T21	
+R21	Input Arg1:T21 Arg2:T22	
+R22	Attribute Arg1:T24 Arg2:T23	
+R23	Input Arg1:T21 Arg2:T24	
+R24	Attribute Arg1:T26 Arg2:T25	
+R25	Input Arg1:T21 Arg2:T26	
+R26	Apply-to Arg1:T21 Arg2:T27	
+R27	Attribute Arg1:T29 Arg2:T28	
+R28	Output Arg1:T27 Arg2:T29	
+R29	In_Out Arg1:T29 Arg2:T30	
+R30	Attribute Arg1:T33 Arg2:T32	
+R31	Output Arg1:T31 Arg2:T33	
+R32	Apply-to Arg1:T27 Arg2:T31	
+R33	Coreference Arg1:T34 Arg2:T30	
+R34	Target Arg1:T33 Arg2:T34	
+A6	Judgment T32
+A7	Judgment T28

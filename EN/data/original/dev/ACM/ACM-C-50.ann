@@ -1,0 +1,168 @@
+T2	PLAN 11 64	Sensor-Based Loosely Coupled Search and Rescue System
+T3	THING 71 80	Witnesses
+T4	APPLY-TO 65 70	Using
+T5	PROCESS 106 112	design
+T6	PROCESS 114 128	implementation
+T7	PROCESS 133 143	evaluation
+T8	PLAN 149 173	search and rescue system
+T11	PROCESS 198 202	uses
+T12	QUANTITY 203 210	several
+T13	QUALITY 211 216	small
+T14	QUALITY 218 236	commonly-available
+T15	ARTIFACT 237 253	RF-based sensors
+T16	QUANTITY 261 273	small number
+T17	ARTIFACT 277 284;300 307	storage devices
+T18	ARTIFACT 289 307	processing devices
+T19	PROCESS 315 323	designed
+T20	PROCESS 328 334	search
+T21	PROCESS 339 345	rescue
+T22	PERSON 349 355	people
+T23	PLAN-OR-PROCESS 359 379	emergency situations
+T24	LOCATION 383 399	wilderness areas
+T25	QUALITY 407 414	feature
+T26	PLAN 418 425	CenWits
+T27	QUALITY 446 453	require
+T28	MODALITY 442 445	not
+T29	ARTIFACT 479 493	sensor network
+T30	QUALITY 456 478	continuously connected
+T31	PROCESS 502 511	operation
+T32	REFERENCE 434 436	it
+R1	Coreference Arg1:T32 Arg2:T26	
+T33	PROCESS 519 527	designed
+T34	REFERENCE 513 515	It
+R2	Coreference Arg1:T34 Arg2:T78	
+T35	QUALITY 535 559	intermittently connected
+T36	ARTIFACT 560 567	network
+T37	PROCESS 573 581	provides
+T38	QUALITY 598 610	connectivity
+T39	QUALITY 587 597	occasional
+T40	QUALITY 623 632	judicious
+T41	INPUT 615 620;633 636	makes use
+T42	QUALITY 644 671	combined storage capability
+T43	ARTIFACT 675 682	sensors
+T44	PROCESS 686 692	filter
+T45	PROCESS 694 702	organize
+T46	PROCESS 707 712	store
+T47	DATA-ITEM 723 734	information
+T48	QUALITY 713 722	important
+T50	REFERENCE 612 614	It
+R3	Coreference Arg1:T50 Arg2:T34	
+T51	QUALITY 736 758	combined battery power
+T52	ARTIFACT 762 769	sensors
+T53	PROCESS 773 779	ensure
+T54	ARTIFACT 789 795	system
+T55	PROCESS 796 803	remains
+T56	QUALITY 804 815	operational
+T57	TIME 827 839	time periods
+T58	QUALITY 820 826	longer
+T59	QUALITY 845 857	intermittent
+T60	QUALITY 858 878	network connectivity
+T61	PROCESS 882 891	propagate
+T62	DATA-ITEM 892 903	information
+T63	ARTIFACT 909 926	processing center
+T64	PLAN 930 939	prototype
+T66	PROCESS 960 971	implemented
+T67	PROCESS 972 977	using
+T68	ARTIFACT 987 992	Mica2
+T69	ARTIFACT 978 998	Berkeley Mica2 motes
+T70	DATA-ITEM 1059 1070	performance
+T71	PROCESS 1071 1079	measured
+T72	REFERENCE 1085 1087	it
+R4	Coreference Arg1:T72 Arg2:T73	
+T73	PLAN 1020 1039	this implementation
+T74	PLAN 0 7	CenWits
+T75	PLAN 181 188	CenWits
+T76	PLAN 190 197	CenWits
+T78	REFERENCE 498 501	its
+R5	Coreference Arg1:T78 Arg2:T32	
+T79	PLAN 943 950	CenWits
+R6	Coreference Arg1:T73 Arg2:T66	
+T80	ORGANIZATION 978 986	Berkeley
+R7	Attribute Arg1:T15 Arg2:T12	
+R8	Attribute Arg1:T15 Arg2:T13	
+R9	Attribute Arg1:T15 Arg2:T14	
+R10	Attribute Arg1:T17 Arg2:T16	
+R11	Attribute Arg1:T18 Arg2:T16	
+R12	Attribute Arg1:T27 Arg2:T28	
+R13	Attribute Arg1:T29 Arg2:T30	
+R14	Attribute Arg1:T36 Arg2:T35	
+R15	Attribute Arg1:T38 Arg2:T39	
+R16	Attribute Arg1:T41 Arg2:T40	
+R17	Attribute Arg1:T47 Arg2:T48	
+R18	Attribute Arg1:T57 Arg2:T58	
+R19	Attribute Arg1:T54 Arg2:T56	
+R20	Attribute Arg1:T60 Arg2:T59	
+T81	REFERENCE 568 572	that
+R21	Coreference Arg1:T81 Arg2:T36	
+T1	REFERENCE 309 311	It
+R22	Coreference Arg1:T1 Arg2:T76	
+T77	REFERENCE 429 433	that
+R23	Coreference Arg1:T77 Arg2:T25	
+T82	QUALITY 403 406	key
+R24	Attribute Arg1:T25 Arg2:T82	
+R25	Poss Arg1:T78 Arg2:T31	
+R28	In_Out Arg1:T61 Arg2:T62	
+R29	from Arg1:T4 Arg2:T3	
+R30	to Arg1:T4 Arg2:T2	
+R31	Is-a Arg1:T74 Arg2:T2	
+R32	Is-a Arg1:T75 Arg2:T8	
+T84	PROCESS 174 180	called
+R33	Output Arg1:T84 Arg2:T75	
+R34	Input Arg1:T7 Arg2:T75	
+R35	Output Arg1:T6 Arg2:T75	
+R36	Output Arg1:T5 Arg2:T75	
+R37	Target Arg1:T11 Arg2:T15	
+R38	Apply-to Arg1:T76 Arg2:T11	
+R39	Target Arg1:T11 Arg2:T18	
+R40	Target Arg1:T11 Arg2:T17	
+R43	Output Arg1:T19 Arg2:T1	
+R41	Apply-to Arg1:T1 Arg2:T20	
+R42	Apply-to Arg1:T1 Arg2:T21	
+R44	Attribute Arg1:T22 Arg2:T23	
+R45	Attribute Arg1:T22 Arg2:T24	
+R46	Target Arg1:T21 Arg2:T22	
+R47	Target Arg1:T20 Arg2:T22	
+R48	Attribute Arg1:T26 Arg2:T25	
+R49	Attribute Arg1:T29 Arg2:T27	
+R50	Condition Arg1:T27 Arg2:T31	
+R27	Output Arg1:T33 Arg2:T34	
+R52	Apply-to Arg1:T81 Arg2:T37	
+R53	Output Arg1:T37 Arg2:T38	
+R54	Attribute Arg1:T43 Arg2:T42	
+R26	Apply-to Arg1:T50 Arg2:T44	
+R56	to Arg1:T41 Arg2:T42	
+R57	from Arg1:T41 Arg2:T50	
+R60	Input Arg1:T44 Arg2:T47	
+R61	In_Out Arg1:T45 Arg2:T47	
+R62	In_Out Arg1:T46 Arg2:T47	
+R63	to Arg1:T41 Arg2:T51	
+R64	Attribute Arg1:T52 Arg2:T51	
+R66	Target Arg1:T55 Arg2:T56	
+R68	to Arg1:T41 Arg2:T60	
+R70	Destination Arg1:T61 Arg2:T63	
+R71	Attribute Arg1:T79 Arg2:T64	
+R72	Output Arg1:T66 Arg2:T64	
+R73	Target Arg1:T67 Arg2:T69	
+R74	Apply-to Arg1:T67 Arg2:T66	
+R75	In_Out Arg1:T71 Arg2:T70	
+R76	Condition Arg1:T71 Arg2:T72	
+R55	Other-rel Arg1:T33 Arg2:T36	
+R51	Apply-to Arg1:T50 Arg2:T45	
+R58	Apply-to Arg1:T50 Arg2:T46	
+R59	Apply-to Arg1:T50 Arg2:T53	
+R65	Output Arg1:T53 Arg2:T56	
+R67	Condition Arg1:T56 Arg2:T57	
+R69	Apply-to Arg1:T50 Arg2:T61	
+T9	REFERENCE 81 91	This paper
+T10	PROCESS 92 101	describes
+R77	Condition Arg1:T10 Arg2:T9	
+R78	Output Arg1:T10 Arg2:T5	
+R79	Output Arg1:T10 Arg2:T6	
+R80	Output Arg1:T10 Arg2:T7	
+T49	REFERENCE 1000 1009	The paper
+T65	PROCESS 1010 1019	describes
+R81	Condition Arg1:T65 Arg2:T49	
+R82	Output Arg1:T65 Arg2:T73	
+T83	PROCESS 1044 1051	reports
+R83	Condition Arg1:T83 Arg2:T49	
+R84	Output Arg1:T83 Arg2:T70	

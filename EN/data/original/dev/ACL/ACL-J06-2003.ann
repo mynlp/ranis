@@ -1,0 +1,170 @@
+T1	PROCESS 0 8	Building
+T2	PROCESS 13 18	Using
+T3	DATA-ITEM 21 43	Lexical Knowledge Base
+T4	DATA-ITEM 47 71	Near-Synonym Differences
+T5	PROCESS 73 81	Choosing
+T6	QUALITY 86 91	wrong
+T7	DATA-ITEM 92 96	word
+T8	PLAN-OR-PROCESS 102 121	machine translation
+T9	PLAN 125 159	natural language generation system
+T10	MODALITY 160 163	can
+T11	PROCESS 164 170	convey
+T12	DATA-ITEM 180 192	connotations
+T13	DATA-ITEM 194 206	implications
+T14	DATA-ITEM 211 220	attitudes
+T15	PLAN-OR-PROCESS 226 232	choice
+T16	DATA-ITEM 241 254	near-synonyms
+T17	DATA-ITEM 270 277	mistake
+T18	DATA-ITEM 300 305	words
+T19	REFERENCE 306 310	that
+T20	ATTRIBUTE 311 316	share
+T21	QUALITY 321 325	same
+T22	DATA-ITEM 326 338	core meaning
+T23	QUALITY 344 350	differ
+T24	REFERENCE 354 359	their
+T25	DATA-ITEM 360 367	nuances
+T26	MODALITY 371 374	can
+T27	PROCESS 378 382	made
+T29	DATA-ITEM 391 400	knowledge
+T30	REFERENCE 407 412	their
+T31	DATA-ITEM 413 424	differences
+T32	QUALITY 428 437	available
+T33	PERSON 439 441	We
+T34	PROCESS 442 449	present
+T35	PLAN 452 458	method
+T36	QUALITY 462 475	automatically
+T37	PROCESS 476 483	acquire
+T38	QUALITY 486 489	new
+T39	DATA-ITEM 490 494	type
+T40	DATA-ITEM 498 514	lexical resource
+T41	DATA-ITEM 518 532	knowledge base
+T42	DATA-ITEM 536 560	near-synonym differences
+T43	PERSON 562 564	We
+T44	PROCESS 565 572	develop
+T45	PLAN 576 612	unsupervised decision-list algorithm
+T46	REFERENCE 613 617	that
+T47	PROCESS 618 624	learns
+T48	DATA-ITEM 625 644	extraction patterns
+T49	QUALITY 652 659	special
+T50	DATA-ITEM 660 670	dictionary
+T51	DATA-ITEM 674 693	synonym differences
+T52	DATA-ITEM 699 707	patterns
+T53	INPUT 717 721	used
+T54	PROCESS 725 732	extract
+T55	DATA-ITEM 733 742	knowledge
+T56	DATA-ITEM 752 756	text
+T57	DATA-ITEM 764 774	dictionary
+T58	QUALITY 780 787	initial
+T59	DATA-ITEM 788 802	knowledge base
+T60	TIME 806 811	later
+T61	PROCESS 812 820	enriched
+T62	DATA-ITEM 826 837	information
+T63	QUALITY 843 848	other
+T64	DATA-ITEM 849 878	machine-readable dictionaries
+T65	DATA-ITEM 880 891	Information
+T66	DATA-ITEM 902 924	collocational behavior
+T67	DATA-ITEM 932 945	near-synonyms
+T68	PROCESS 949 957	acquired
+T69	DATA-ITEM 963 972	free text
+T70	DATA-ITEM 978 992	knowledge base
+T71	INPUT 996 1000	used
+T72	PLAN 1004 1009	Xenon
+T73	PLAN 1013 1047	natural language generation system
+T74	REFERENCE 1048 1052	that
+T75	PROCESS 1053 1058	shows
+T76	QUALITY 1067 1070	new
+T77	DATA-ITEM 1071 1087	lexical resource
+T78	MODALITY 1088 1091	can
+T79	INPUT 1095 1099	used
+T80	PROCESS 1103 1109	choose
+T81	QUALITY 1114 1118	best
+T82	DATA-ITEM 1119 1131	near-synonym
+T83	DATA-ITEM 1135 1154	specific situations
+R1	Output Arg1:T1 Arg2:T3	
+R2	Input Arg1:T2 Arg2:T3	
+R3	Condition Arg1:T3 Arg2:T4	
+R4	Attribute Arg1:T7 Arg2:T6	
+R5	In_Out Arg1:T5 Arg2:T7	
+A1	Judgment T6
+R6	Condition Arg1:T5 Arg2:T8	
+R7	Condition Arg1:T5 Arg2:T9	
+T84	QUALITY 171 179	unwanted
+A2	Judgment T84
+R8	Attribute Arg1:T12 Arg2:T84	
+R9	Target Arg1:T11 Arg2:T12	
+R10	Attribute Arg1:T13 Arg2:T84	
+R11	Attribute Arg1:T14 Arg2:T84	
+R12	Target Arg1:T11 Arg2:T13	
+R13	Target Arg1:T11 Arg2:T14	
+R14	Attribute Arg1:T11 Arg2:T10	
+R15	Result Arg1:T5 Arg2:T11	
+T85	DATA-ITEM 263 268	error
+T86	DATA-ITEM 279 283	slip
+T87	DATA-ITEM 289 296	blunder
+R16	Member-collection Arg1:T85 Arg2:T16	
+R17	Member-collection Arg1:T17 Arg2:T16	
+R18	Member-collection Arg1:T86 Arg2:T16	
+R19	Member-collection Arg1:T87 Arg2:T16	
+R20	In_Out Arg1:T15 Arg2:T16	
+R21	Equivalence Arg1:T18 Arg2:T16	
+R22	Coreference Arg1:T19 Arg2:T18	
+R23	Attribute Arg1:T22 Arg2:T21	
+R24	Attribute Arg1:T24 Arg2:T25	
+R25	Coreference Arg1:T24 Arg2:T19	
+R27	Attribute Arg1:T25 Arg2:T23	
+R28	Attribute Arg1:T27 Arg2:T26	
+R29	Attribute Arg1:T30 Arg2:T31	
+R30	Coreference Arg1:T30 Arg2:T24	
+R31	Condition Arg1:T29 Arg2:T31	
+R32	Attribute Arg1:T29 Arg2:T32	
+A3	Self T33
+A4	Intentional T34
+R34	Agent Arg1:T34 Arg2:T33	
+R35	Output Arg1:T34 Arg2:T35	
+R36	Attribute Arg1:T37 Arg2:T36	
+R37	Apply-to Arg1:T35 Arg2:T37	
+R38	Attribute Arg1:T39 Arg2:T38	
+R39	Member-collection Arg1:T39 Arg2:T40	
+R40	In_Out Arg1:T37 Arg2:T39	
+R41	Condition Arg1:T41 Arg2:T42	
+R42	Is-a Arg1:T39 Arg2:T41	
+A5	Self T43
+A6	Intentional T44
+R43	Agent Arg1:T44 Arg2:T43	
+R44	Output Arg1:T44 Arg2:T45	
+R45	Coreference Arg1:T46 Arg2:T45	
+R46	Apply-to Arg1:T46 Arg2:T47	
+R47	Output Arg1:T47 Arg2:T48	
+R48	Attribute Arg1:T50 Arg2:T49	
+R49	Input Arg1:T47 Arg2:T50	
+R50	Condition Arg1:T50 Arg2:T51	
+R51	from Arg1:T53 Arg2:T54	
+R52	to Arg1:T53 Arg2:T52	
+R53	Output Arg1:T54 Arg2:T55	
+R54	Input Arg1:T54 Arg2:T56	
+R55	Component-object Arg1:T57 Arg2:T56	
+R56	Attribute Arg1:T59 Arg2:T58	
+R57	In_Out Arg1:T61 Arg2:T59	
+R58	Attribute Arg1:T61 Arg2:T60	
+R59	Output Arg1:T61 Arg2:T62	
+R60	Attribute Arg1:T64 Arg2:T63	
+R61	Component-object Arg1:T64 Arg2:T62	
+R62	Attribute Arg1:T67 Arg2:T66	
+R63	Condition Arg1:T65 Arg2:T66	
+R64	Output Arg1:T68 Arg2:T65	
+R65	Input Arg1:T68 Arg2:T69	
+R66	Is-a Arg1:T72 Arg2:T73	
+R67	from Arg1:T71 Arg2:T72	
+R68	to Arg1:T71 Arg2:T70	
+R69	Coreference Arg1:T74 Arg2:T73	
+R70	Apply-to Arg1:T74 Arg2:T75	
+R71	Attribute Arg1:T77 Arg2:T76	
+R72	Attribute Arg1:T79 Arg2:T78	
+R73	from Arg1:T79 Arg2:T80	
+R74	to Arg1:T79 Arg2:T77	
+R75	Attribute Arg1:T82 Arg2:T81	
+R76	In_Out Arg1:T80 Arg2:T82	
+R26	from Arg1:T20 Arg2:T19	
+R78	to Arg1:T20 Arg2:T22	
+R79	Output Arg1:T27 Arg2:T16	
+R77	Condition Arg1:T81 Arg2:T83	

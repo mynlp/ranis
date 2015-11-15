@@ -1,0 +1,62 @@
+T2	PLAN-OR-PROCESS 6 23	Feature Selection
+T3	PLAN-OR-PROCESS 28 42	Error Analysis
+T4	PLAN 48 71	Transition-Based Parser
+T5	PLAN 89 103	parsing system
+T7	ORGANIZATION 116 134	Charles University
+T8	ORGANIZATION 136 140	CUNI
+T10	TIME 176 180	2012
+T11	QUALITY 194 212	publicly available
+T13	QUALITY 235 254	highly configurable
+T14	REFERENCE 226 231	which
+R1	Coreference Arg1:T14 Arg2:T33	
+T15	DATA-ITEM 302 315	configuration
+T16	PROCESS 324 332	selected
+T17	PLAN 338 344	parser
+T18	RESULT 345 353	performs
+T19	QUALITY 354 369	reasonably well
+T20	PROCESS 373 384	identifying
+T21	DATA-ITEM 389 399	head nodes
+T22	QUALITY 410 418	weakness
+T23	QUALITY 405 409	main
+T24	PROCESS 425 433	labeling
+T25	DATA-ITEM 438 458	dependency relations
+T26	QUALITY 476 490	most prominent
+T27	DATA-ITEM 491 502	error types
+T28	PROCESS 185 189	used
+T29	LANGUAGE 150 155	Hindi
+T30	ORGANIZATION 0 4	CUNI
+R2	Equivalence Arg1:T8 Arg2:T7	
+T9	PLAN 150 180	Hindi Parsing Shared Task 2012
+T33	PLAN 213 224	Malt Parser
+T34	PERSON 321 323	we
+R6	Attribute Arg1:T22 Arg2:T23	
+R7	Attribute Arg1:T27 Arg2:T26	
+R8	Attribute Arg1:T33 Arg2:T11	
+T1	REFERENCE 316 320	that
+R3	Coreference Arg1:T1 Arg2:T15	
+T6	APPLY-TO 104 108	used
+R9	from Arg1:T6 Arg2:T5	
+R10	to Arg1:T6 Arg2:T9	
+R11	Condition Arg1:T6 Arg2:T7	
+R4	Attribute Arg1:T14 Arg2:T13	
+R13	Agent Arg1:T16 Arg2:T34	
+R14	In_Out Arg1:T16 Arg2:T1	
+R5	from Arg1:T18 Arg2:T17	
+R15	to Arg1:T18 Arg2:T19	
+R16	Apply-to Arg1:T17 Arg2:T20	
+R17	In_Out Arg1:T20 Arg2:T21	
+R18	Destination Arg1:T24 Arg2:T25	
+R19	Attribute Arg1:T24 Arg2:T22	
+R20	Apply-to Arg1:T3 Arg2:T4	
+R21	Apply-to Arg1:T2 Arg2:T4	
+T12	PERSON 73 75	We
+T31	PROCESS 76 84	describe
+T32	PERSON 182 184	We
+T35	PERSON 460 462	We
+T36	PROCESS 463 471	identify
+R22	Agent Arg1:T31 Arg2:T12	
+R23	Agent Arg1:T36 Arg2:T35	
+R24	Output Arg1:T31 Arg2:T5	
+R25	Agent Arg1:T28 Arg2:T32	
+R12	Input Arg1:T28 Arg2:T33	
+R26	Output Arg1:T36 Arg2:T27	

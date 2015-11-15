@@ -1,0 +1,144 @@
+R1	In_Out Arg1:T1 Arg2:T2
+R2	from Arg1:T3 Arg2:T4
+R3	to Arg1:T3 Arg2:T2
+R4	Condition Arg1:T4 Arg2:T5
+A1	Self T60
+A2	Intentional T61
+R5	Condition Arg1:T61 Arg2:T60
+R6	Output Arg1:T61 Arg2:T6
+R7	Attribute Arg1:T8 Arg2:T7
+R8	Apply-to Arg1:T8 Arg2:T9
+R9	In_Out Arg1:T6 Arg2:T8
+R10	Equivalence Arg1:T12 Arg2:T11
+R12	Attribute Arg1:T15 Arg2:T14
+R13	from Arg1:T10 Arg2:T11
+R14	to Arg1:T10 Arg2:T8
+R15	from Arg1:T10 Arg2:T15
+R16	to Arg1:T10 Arg2:T8
+R17	from Arg1:T16 Arg2:T8
+R18	to Arg1:T16 Arg2:T17
+A3	Self T18
+A4	Intentional T19
+R19	Agent Arg1:T19 Arg2:T18
+R20	Input Arg1:T19 Arg2:T20
+R21	Attribute Arg1:T21 Arg2:T20
+R22	Coreference Arg1:T21 Arg2:T8
+R23	Attribute Arg1:T23 Arg2:T22
+R24	Condition Arg1:T19 Arg2:T23
+R25	Attribute Arg1:T27 Arg2:T26
+R26	Input Arg1:T24 Arg2:T25
+R27	Condition Arg1:T24 Arg2:T27
+R28	Apply-to Arg1:T24 Arg2:T19
+A5	Intentional T29
+A6	Self T28
+R29	Agent Arg1:T29 Arg2:T28
+R30	Target Arg1:T29 Arg2:T30
+R31	In_Out Arg1:T30 Arg2:T31
+R32	Output Arg1:T32 Arg2:T31
+R33	Equivalence Arg1:T34 Arg2:T33
+R34	from Arg1:T63 Arg2:T31
+R35	to Arg1:T63 Arg2:T33
+R36	Coreference Arg1:T36 Arg2:T31
+R37	Attribute Arg1:T38 Arg2:T37
+R38	Target Arg1:T35 Arg2:T36
+R39	Target Arg1:T35 Arg2:T37
+R40	Apply-to Arg1:T35 Arg2:T30
+R41	In_Out Arg1:T39 Arg2:T37
+R42	Is-a Arg1:T41 Arg2:T42
+R43	from Arg1:T40 Arg2:T41
+R44	to Arg1:T40 Arg2:T39
+A7	Self T43
+A8	Intentional T44
+R45	Agent Arg1:T44 Arg2:T43
+R46	Attribute Arg1:T64 Arg2:T46
+R47	Target Arg1:T64 Arg2:T47
+R48	Attribute Arg1:T48 Arg2:T47
+A9	Judgment T46
+R50	Agent Arg1:T49 Arg2:T43
+A10	Judgment T52
+R51	Attribute Arg1:T50 Arg2:T52
+R52	Compare Arg1:T53 Arg2:T52
+R53	to Arg1:T51 Arg2:T54
+R54	Attribute Arg1:T56 Arg2:T55
+R55	Output Arg1:T54 Arg2:T56
+R56	from Arg1:T51 Arg2:T52
+R57	Result Arg1:T50 Arg2:T54
+R58	Compare Arg1:T53 Arg2:T55
+R59	Compare Arg1:T53 Arg2:T57
+R60	Attribute Arg1:T65 Arg2:T58
+R61	Attribute Arg1:T59 Arg2:T58
+R62	Condition Arg1:T57 Arg2:T58
+A12	Judgment T57
+R63	Attribute Arg1:T50 Arg2:T57
+A13	Judgment T55
+R64	Output Arg1:T44 Arg2:T46
+R65	Output Arg1:T49 Arg2:T52
+R66	Output Arg1:T49 Arg2:T57
+R49	Result Arg1:T45 Arg2:T64
+A11	Intentional T49
+A14	Intentional T24
+A15	Name T62
+T1	PLAN 3 18	Empirical Study
+T2	PLAN 22 47	Language Model Adaptation
+T3	APPLY-TO 48 53	Using
+T4	PLAN 56 62	Metric
+T5	DATA-ITEM 66 83	Domain Similarity
+T60	REFERENCE 86 96	This paper
+T61	PROCESS 97 105	presents
+T6	PLAN 109 124	empirical study
+T7	QUANTITY 128 132	four
+T8	PLAN 133 143	techniques
+T9	PLAN 147 172	language model adaptation
+T10	IS-A 175 184	including
+T11	PLAN 187 207;216 222	maximum a posteriori method
+T12	PLAN 210 213	MAP
+T14	QUANTITY 227 232	three
+T15	PLAN 233 263	discriminative training models
+T16	APPLY-TO 273 284	application
+T17	PLAN 288 318	Japanese Kana-Kanji conversion
+T62	LANGUAGE 288 296	Japanese
+T18	PERSON 321 323	We
+T19	PROCESS 324 331	compare
+T20	DATA-ITEM 336 347	performance
+T21	PLAN 351 364	these methods
+T22	QUALITY 370 377	various
+T23	DATA-ITEM 378 384	angles
+T24	PROCESS 388 396	adapting
+T25	PLAN 401 415	baseline model
+T26	QUANTITY 419 423	four
+T27	DOMAIN 424 442	adaptation domains
+T28	PERSON 461 463	we
+T29	PROCESS 464 471	attempt
+T30	PROCESS 475 484	interpret
+T31	DATA-ITEM 489 496	results
+T32	PROCESS 497 502	given
+T63	CONDITION 503 514	in terms of
+T33	DATA-ITEM 519 539	character error rate
+T34	DATA-ITEM 542 545	CER
+T35	PROCESS 551 562	correlating
+T36	REFERENCE 563 567	them
+T37	DATA-ITEM 577 592	characteristics
+T38	DOMAIN 600 617	adaptation domain
+T39	PROCESS 618 626	measured
+T40	APPLY-TO 627 632	using
+T41	PLAN 637 665	information-theoretic notion
+T42	PLAN 669 682	cross entropy
+T43	PERSON 685 687	We
+T44	PROCESS 688 692	show
+T45	PLAN 705 711	metric
+T64	PROCESS 712 722	correlates
+T46	QUALITY 723 727	well
+T47	DATA-ITEM 737 752	CER performance
+T48	PLAN 760 778	adaptation methods
+T49	PROCESS 790 794	show
+T50	PLAN 804 826	discriminative methods
+T52	QUALITY 840 848	superior
+T53	PLAN 854 870	MAP-based method
+T51	CONDITION 871 882	in terms of
+T54	PROCESS 883 892	achieving
+T55	QUALITY 893 899	larger
+T56	PROCESS 900 913	CER reduction
+T57	QUALITY 929 940	more robust
+T58	DATA-ITEM 953 963	similarity
+T65	DOMAIN 967 977	background
+T59	DOMAIN 982 1000	adaptation domains

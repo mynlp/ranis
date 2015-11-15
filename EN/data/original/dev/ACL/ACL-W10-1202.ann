@@ -1,0 +1,146 @@
+T1	PERSON 0 7	Experts
+T2	PLAN-OR-PROCESS 9 18	Retrieval
+T3	PLAN 24 61	Multiword-Enhanced Author Topic Model
+T4	PLAN 91 128	multiword-enhanced author topic model
+T5	PROCESS 134 142	clusters
+T6	PERSON 143 150	authors
+T7	QUALITY 156 163	similar
+T8	QUALITY 164 173	interests
+T9	QUALITY 178 187	expertise
+R1	Attribute Arg1:T8 Arg2:T7	
+R2	Attribute Arg1:T9 Arg2:T7	
+T10	APPLY-TO 193 198	apply
+T11	PLAN 208 236	information retrieval system
+T12	PROCESS 242 249	returns
+T13	DATA-ITEM 252 263	ranked list
+T14	PERSON 267 274	authors
+T15	QUALITY 275 282	related
+T16	DATA-ITEM 288 295	keyword
+T17	PROCESS 317 325	retrieve
+T18	PERSON 326 341	Eugene Charniak
+T19	PLAN-OR-PROCESS 346 352	search
+T20	PLAN-OR-PROCESS 357 376	statistical parsing
+T21	EXTERNAL-REFERENCE 382 396	existing works
+T22	PLAN-OR-PROCESS 400 421	author topic modeling
+T23	PROCESS 422 428	assume
+T24	PLAN 431 462	``bag-of-words'' representation
+T25	QUANTITY 473 477	many
+T26	DATA-ITEM 478 502	semantic atomic concepts
+R4	Attribute Arg1:T26 Arg2:T25	
+T27	PROCESS 507 518	represented
+T28	DATA-ITEM 522 532	multiwords
+T29	DATA-ITEM 536 550	text documents
+T30	PLAN 574 594	pre-computation step
+T31	PLAN 600 603	way
+T32	PROCESS 607 615	discover
+T33	DATA-ITEM 616 632	these multiwords
+R5	Coreference Arg1:T33 Arg2:T28	
+T34	DATA-ITEM 640 646	corpus
+T35	QUALITY 647 660	automatically
+R6	Attribute Arg1:T32 Arg2:T35	
+T36	PROCESS 665 669	tags
+T37	REFERENCE 670 674	them
+R7	Coreference Arg1:T37 Arg2:T33	
+T38	DATA-ITEM 682 702	term-document matrix
+T39	QUALITY 712 721	advantage
+T40	PLAN 725 736	this method
+T41	REFERENCE 745 747	it
+R8	Coreference Arg1:T41 Arg2:T40	
+T42	PROCESS 748 755	retains
+T43	QUALITY 760 770	simplicity
+T44	QUALITY 779 803	computational efficiency
+T45	PLAN 811 824	unigram model
+T46	PROCESS 843 865	qualitative evaluation
+T47	PROCESS 870 878	evaluate
+T48	DATA-ITEM 883 890	results
+T49	APPLY-TO 894 899	using
+T50	PLAN 904 916	topic models
+T51	PLAN 922 931	component
+T52	PLAN 937 950	search engine
+T53	QUALITY 963 971	improved
+T54	DATA-ITEM 972 988	retrieval scores
+R9	Attribute Arg1:T54 Arg2:T53	
+T55	DATA-ITEM 998 1007	documents
+T56	PROCESS 1012 1023	represented
+T57	DATA-ITEM 1028 1032	sets
+T58	DATA-ITEM 1036 1049	latent topics
+T59	PERSON 1054 1061	authors
+T60	REFERENCE 199 201	it
+R10	Coreference Arg1:T60 Arg2:T4	
+R11	Member-collection Arg1:T58 Arg2:T57	
+R12	Member-collection Arg1:T14 Arg2:T13	
+T61	QUALITY 708 711	key
+R13	Attribute Arg1:T39 Arg2:T61	
+T65	REFERENCE 129 133	that
+R14	Coreference Arg1:T65 Arg2:T4	
+T66	REFERENCE 237 241	that
+R15	Coreference Arg1:T66 Arg2:T11	
+R16	Attribute Arg1:T41 Arg2:T43	
+R17	Attribute Arg1:T41 Arg2:T44	
+R18	Attribute Arg1:T45 Arg2:T43	
+R19	Attribute Arg1:T45 Arg2:T44	
+R20	Poss Arg1:T1 Arg2:T2	
+R21	Apply-to Arg1:T3 Arg2:T2	
+R22	Apply-to Arg1:T65 Arg2:T5	
+R23	Input Arg1:T5 Arg2:T6	
+R25	Attribute Arg1:T6 Arg2:T9	
+R24	Attribute Arg1:T6 Arg2:T8	
+R26	Input Arg1:T5 Arg2:T8	
+R27	Input Arg1:T5 Arg2:T9	
+R28	from Arg1:T10 Arg2:T60	
+R29	to Arg1:T10 Arg2:T11	
+R30	Output Arg1:T12 Arg2:T13	
+R31	Apply-to Arg1:T66 Arg2:T12	
+R32	Condition Arg1:T15 Arg2:T16	
+R3	Attribute Arg1:T14 Arg2:T15	
+R33	In_Out Arg1:T17 Arg2:T18	
+R34	Apply-to Arg1:T19 Arg2:T17	
+R35	Apply-to Arg1:T17 Arg2:T20	
+R36	Attribute Arg1:T21 Arg2:T22	
+R38	Input Arg1:T27 Arg2:T26	
+R39	Component-object Arg1:T28 Arg2:T29	
+R37	Output Arg1:T27 Arg2:T28	
+R40	Output Arg1:T23 Arg2:T24	
+R41	Other-rel Arg1:T23 Arg2:T21	
+R42	In_Out Arg1:T32 Arg2:T33	
+R43	Component-object Arg1:T33 Arg2:T34	
+R44	Destination Arg1:T36 Arg2:T37	
+R45	Condition Arg1:T37 Arg2:T38	
+R46	Attribute Arg1:T40 Arg2:T39	
+R47	Apply-to Arg1:T41 Arg2:T42	
+R48	Target Arg1:T42 Arg2:T43	
+R49	Target Arg1:T42 Arg2:T44	
+R50	Other-rel Arg1:T42 Arg2:T39	
+R51	Input Arg1:T47 Arg2:T48	
+R52	from Arg1:T49 Arg2:T50	
+R53	to Arg1:T49 Arg2:T47	
+R54	Equivalence Arg1:T51 Arg2:T50	
+R55	Component-object Arg1:T51 Arg2:T52	
+R56	Input Arg1:T56 Arg2:T55	
+R57	Output Arg1:T56 Arg2:T57	
+R58	Member-collection Arg1:T59 Arg2:T57	
+R59	Condition Arg1:T53 Arg2:T56	
+R60	Apply-to Arg1:T31 Arg2:T32	
+R61	Is-a Arg1:T30 Arg2:T31	
+T71	PERSON 43 49	Author
+T72	PERSON 110 116	author
+T62	REFERENCE 66 76	this paper
+T63	PERSON 78 80	we
+T64	PROCESS 81 88	propose
+T67	PERSON 310 312	we
+T68	MODALITY 313 316	can
+R62	Attribute Arg1:T17 Arg2:T68	
+T69	REFERENCE 552 562	This paper
+T70	PROCESS 563 571	presents
+R63	Condition Arg1:T70 Arg2:T69	
+R64	Output Arg1:T70 Arg2:T30	
+T73	PERSON 952 954	We
+T74	PROCESS 955 962	exhibit
+R65	Agent Arg1:T64 Arg2:T63	
+R66	Agent Arg1:T17 Arg2:T67	
+R67	Agent Arg1:T74 Arg2:T73	
+R68	Output Arg1:T64 Arg2:T4	
+R69	Condition Arg1:T64 Arg2:T62	
+T75	PERSON 867 869	we
+R70	Agent Arg1:T47 Arg2:T75	
+R71	Output Arg1:T74 Arg2:T54	

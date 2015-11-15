@@ -1,0 +1,244 @@
+T1	JUDGING-PROCESS 28 37	Improving
+T2	PROCESS 123 131	relating
+T3	DATA-ITEM 143 148	sound
+T4	PROCESS 298 306	included
+T6	PROCESS 396 405	including
+T8	PROCESS 611 618	scoring
+T9	PROCESS 689 697	obtained
+T10	OUTPUT 754 761	produce
+T11	PROCESS 832 840	obtained
+T12	PROCESS 904 911	perform
+T13	PROCESS 1085 1093	included
+T14	PROCESS 1230 1238	obtained
+T15	PROCESS 1268 1276	combined
+T16	PROCESS 558 570	experimented
+T17	PROCESS 812 819	studied
+T19	QUALITY 309 313	full
+T22	QUALITY 586 595	different
+T23	QUALITY 853 861	possible
+T24	QUALITY 912 922	comparably
+T25	QUALITY 951 975	very marginally superior
+T26	JUDGING-PROCESS 1053 1061	improves
+T29	QUALITY 1128 1151	very highly significant
+T30	TIME 1342 1350	previous
+T33	QUALITY 1432 1455	very highly significant
+T34	QUALITY 1494 1501	Similar
+T35	QUALITY 1603 1609	easier
+T37	QUALITY 1748 1760	very similar
+T38	QUALITY 1804 1810	mostly
+T39	QUANTITY 576 584	multiple
+T41	QUANTITY 846 852	all 31
+T42	QUANTITY 880 883	two
+T43	QUANTITY 1158 1164	0.0005
+T45	QUANTITY 1248 1252	five
+T46	QUANTITY 1305 1310	65.5%
+T47	QUANTITY 1323 1328	61.7%
+T48	QUANTITY 1362 1367	63.0%
+T49	QUANTITY 1471 1478	0.00011
+T50	PLAN 2 24	Multistrategy Approach
+T52	PLAN 38 62	Pronunciation by Analogy
+T53	PLAN 64 88	Pronunciation by analogy
+T54	PLAN 100 118	data-driven method
+T55	DATA-ITEM 132 139	letters
+T56	APPLY-TO 165 176	application
+T57	PLAN 196 218	text-to-speech systems
+T59	QUALITY 271 281	directions
+T60	PLAN-OR-PROCESS 316 332	pattern matching
+T61	DATA-ITEM 341 360	input letter string
+T62	DATA-ITEM 365 383	dictionary entries
+T63	DATA-ITEM 406 420	lexical stress
+T64	PLAN-OR-PROCESS 424 452	letter-to-phoneme conversion
+T65	PLAN 483 489	method
+T66	PROCESS 493 521	phoneme-to-letter conversion
+T67	PLAN 596 606	strategies
+T68	DATA-ITEM 623 647	candidate pronunciations
+T69	DATA-ITEM 660 666	scores
+T70	PLAN 676 684	strategy
+T71	DATA-ITEM 714 718	rank
+T73	PLAN 791 801	strategies
+T74	DATA-ITEM 824 831	results
+T75	PLAN 862 874	combinations
+T76	PLAN 884 903	combination methods
+T77	PLAN 933 945	product rule
+T78	PLAN 983 991	sum rule
+T79	PROCESS 993 1027	Nonparametric statistical analysis
+T80	DATA-ITEM 1041 1052	performance
+T81	PLAN 1070 1080	strategies
+T82	PLAN 1101 1112	combination
+T83	PROCESS 1114 1124	this trend
+T84	PLAN-OR-PROCESS 1183 1211	letter-to-phoneme conversion
+T85	DATA-ITEM 1218 1225	results
+T86	PLAN 1253 1263	strategies
+T87	DATA-ITEM 1278 1291	word accuracy
+T88	DATA-ITEM 1351 1357	result
+T89	PLAN 1399 1407	strategy
+T90	JUDGING-PROCESS 1409 1427	These improvements
+T91	DATA-ITEM 1502 1509	results
+T92	PLAN-OR-PROCESS 1525 1542;1564 1574	phoneme-to-letter conversion
+T93	PLAN-OR-PROCESS 1547 1574	letter-to-stress conversion
+T94	REFERENCE 1589 1595	former
+T95	PLAN-OR-PROCESS 1610 1617	problem
+T96	PLAN-OR-PROCESS 1631 1659	letter-to-phoneme conversion
+T97	PLAN-OR-PROCESS 1696 1703	sources
+T98	PLAN-OR-PROCESS 1707 1712	error
+T99	PLAN 1721 1743	multistrategy approach
+T100	PLAN 1790 1798	strategy
+T101	DATA-ITEM 1819 1832	vowel letters
+T102	DATA-ITEM 1837 1845	phonemes
+T104	PLAN 90 93	PbA
+R1	Equivalence Arg1:T104 Arg2:T53	
+T105	PLAN 256 259	PbA
+T106	QUANTITY 263 270	several
+R3	Attribute Arg1:T59 Arg2:T106	
+R4	Attribute Arg1:T60 Arg2:T19	
+T20	PROCESS 470 478	extended
+R5	Attribute Arg1:T67 Arg2:T22	
+R6	Attribute Arg1:T67 Arg2:T39	
+T7	QUALITY 649 659	Individual
+R7	Attribute Arg1:T69 Arg2:T7	
+T107	QUALITY 671 675	each
+R8	Attribute Arg1:T70 Arg2:T107	
+T27	DATA-ITEM 779 784	score
+T28	PROCESS 730 740	multiplied
+T108	PROCESS 744 750	summed
+R9	Attribute Arg1:T75 Arg2:T23	
+R10	Attribute Arg1:T75 Arg2:T41	
+T40	QUANTITY 786 790	Five
+R11	Attribute Arg1:T73 Arg2:T40	
+R12	Attribute Arg1:T76 Arg2:T42	
+R13	Attribute Arg1:T12 Arg2:T24	
+R14	Attribute Arg1:T77 Arg2:T25	
+T109	RESULT 1028 1035	reveals
+T110	QUANTITY 1065 1069	more
+R15	Attribute Arg1:T81 Arg2:T110	
+R16	Attribute Arg1:T83 Arg2:T29	
+T111	QUALITY 1337 1341	best
+T112	QUALITY 1213 1217	best
+R18	Attribute Arg1:T85 Arg2:T112	
+R19	Attribute Arg1:T86 Arg2:T45	
+T44	JUDGING-PROCESS 1295 1301	raised
+R20	Attribute Arg1:T87 Arg2:T46	
+R22	Attribute Arg1:T88 Arg2:T111	
+R23	Attribute Arg1:T88 Arg2:T30	
+T113	QUALITY 1376 1391	best-performing
+T114	QUANTITY 1392 1398	single
+R24	Attribute Arg1:T89 Arg2:T114	
+R25	Attribute Arg1:T89 Arg2:T113	
+R21	Attribute Arg1:T88 Arg2:T47	
+R26	Attribute Arg1:T89 Arg2:T48	
+T117	QUANTITY 1461 1462	0
+R29	Attribute Arg1:T90 Arg2:T33	
+R30	Attribute Arg1:T91 Arg2:T34	
+T31	PROCESS 1515 1520	found
+R31	Attribute Arg1:T95 Arg2:T35	
+T32	PLAN 1622 1625	PbA
+T118	QUALITY 1679 1685	harder
+T36	REFERENCE 1668 1674	latter
+T119	QUALITY 1691 1695	main
+R32	Attribute Arg1:T97 Arg2:T119	
+T120	REFERENCE 1764 1769	those
+R34	Coreference Arg1:T120 Arg2:T97	
+T121	QUALITY 1778 1782	best
+T122	QUANTITY 1783 1789	single
+R35	Attribute Arg1:T100 Arg2:T122	
+R36	Attribute Arg1:T100 Arg2:T121	
+T123	MEMBER-COLLECTION 1811 1818	involve
+R37	Attribute Arg1:T123 Arg2:T38	
+T124	QUALITY 180 195	next-generation
+R38	Attribute Arg1:T57 Arg2:T124	
+T5	QUALITY 764 769	final
+T72	QUALITY 771 778	overall
+R39	Attribute Arg1:T27 Arg2:T5	
+R40	Attribute Arg1:T27 Arg2:T72	
+R41	Coreference Arg1:T94 Arg2:T92	
+R42	Coreference Arg1:T36 Arg2:T93	
+R43	Coreference Arg1:T83 Arg2:T26	
+R44	Coreference Arg1:T90 Arg2:T44	
+T18	EXTERNAL-REFERENCE 239 252	previous work
+T58	PERSON 1333 1336	our
+R2	Poss Arg1:T58 Arg2:T88	
+T129	FORMULA 1153 1164	p << 0.0005
+T130	FORMULA 1457 1462	p ~ 0
+T131	FORMULA 1467 1478	p = 0.00011
+R46	Attribute Arg1:T36 Arg2:T118	
+R33	Attribute Arg1:T97 Arg2:T37	
+R47	Compare Arg1:T120 Arg2:T37	
+R48	Is-a Arg1:T53 Arg2:T54	
+T133	QUALITY 155 164	potential
+R49	Attribute Arg1:T56 Arg2:T133	
+R50	Input Arg1:T60 Arg2:T61	
+R51	Input Arg1:T60 Arg2:T62	
+R52	Apply-to Arg1:T67 Arg2:T8	
+R53	Input Arg1:T8 Arg2:T68	
+T103	QUANTITY 1244 1247	all
+R17	Attribute Arg1:T45 Arg2:T103	
+R27	Apply-to Arg1:T54 Arg2:T2	
+R28	Input Arg1:T2 Arg2:T55	
+R45	Output Arg1:T2 Arg2:T3	
+R54	from Arg1:T56 Arg2:T53	
+R55	to Arg1:T56 Arg2:T57	
+R56	Input Arg1:T28 Arg2:T69	
+R57	Input Arg1:T108 Arg2:T69	
+R58	from Arg1:T10 Arg2:T28	
+R59	from Arg1:T10 Arg2:T108	
+R60	to Arg1:T10 Arg2:T27	
+R61	Apply-to Arg1:T50 Arg2:T1	
+R62	In_Out Arg1:T1 Arg2:T52	
+T115	PROCESS 231 238	extends
+R63	In_Out Arg1:T115 Arg2:T18	
+R64	Attribute Arg1:T18 Arg2:T105	
+R65	Condition Arg1:T115 Arg2:T59	
+R66	Input Arg1:T4 Arg2:T60	
+R67	Input Arg1:T6 Arg2:T63	
+R68	Condition Arg1:T64 Arg2:T6	
+R69	Input Arg1:T20 Arg2:T65	
+R70	Output Arg1:T20 Arg2:T66	
+R71	Input Arg1:T16 Arg2:T67	
+R72	Attribute Arg1:T70 Arg2:T69	
+R73	Output Arg1:T9 Arg2:T69	
+T116	INPUT 698 713	on the basis of
+R74	to Arg1:T116 Arg2:T71	
+R75	from Arg1:T116 Arg2:T9	
+R76	Output Arg1:T11 Arg2:T74	
+R77	In_Out Arg1:T17 Arg2:T73	
+R78	Origin Arg1:T11 Arg2:T75	
+R79	Apply-to Arg1:T76 Arg2:T12	
+R80	Compare Arg1:T78 Arg2:T25	
+R81	from Arg1:T109 Arg2:T79	
+R82	In_Out Arg1:T26 Arg2:T80	
+R83	to Arg1:T109 Arg2:T26	
+R84	Input Arg1:T13 Arg2:T81	
+R85	Destination Arg1:T13 Arg2:T82	
+R86	Result Arg1:T13 Arg2:T26	
+R87	Result Arg1:T15 Arg2:T14	
+R88	Condition Arg1:T14 Arg2:T84	
+R89	Output Arg1:T14 Arg2:T85	
+R90	Input Arg1:T15 Arg2:T86	
+R91	Output Arg1:T44 Arg2:T87	
+R92	Other-rel Arg1:T44 Arg2:T46	
+T134	COMPARE 1311 1319	relative
+R93	to Arg1:T134 Arg2:T46	
+R94	from Arg1:T134 Arg2:T47	
+R95	from Arg1:T134 Arg2:T48	
+R96	Output Arg1:T31 Arg2:T91	
+R97	Condition Arg1:T31 Arg2:T93	
+R98	Condition Arg1:T31 Arg2:T92	
+R99	Is-a Arg1:T94 Arg2:T95	
+R100	Apply-to Arg1:T32 Arg2:T95	
+R101	Compare Arg1:T96 Arg2:T35	
+R102	Result Arg1:T97 Arg2:T98	
+R103	Condition Arg1:T97 Arg2:T99	
+R104	Condition Arg1:T120 Arg2:T100	
+R105	to Arg1:T123 Arg2:T97	
+R106	from Arg1:T123 Arg2:T101	
+R107	from Arg1:T123 Arg2:T102	
+T21	REFERENCE 220 230	This paper
+R108	Condition Arg1:T115 Arg2:T21	
+T51	PERSON 290 292	we
+R109	Agent Arg1:T4 Arg2:T51	
+T125	PERSON 462 464	we
+R110	Agent Arg1:T20 Arg2:T125	
+T126	QUALITY 534 548	most important
+T127	PERSON 550 552	we
+R111	Agent Arg1:T16 Arg2:T127	
+R112	Attribute Arg1:T16 Arg2:T126	

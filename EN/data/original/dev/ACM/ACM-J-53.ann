@@ -1,0 +1,127 @@
+T1	PLAN 2 50	Price-Anticipating Resource Allocation Mechanism
+T2	ARTIFACT 55 82	Distributed Shared Clusters
+T3	PLAN 114 151	fixed budget resource allocation game
+T4	QUALITY 170 181	performance
+T5	PLAN 187 238	distributed market-based resource allocation system
+T6	PROCESS 155 165	understand
+T7	PROCESS 100 109	formulate
+T8	PERSON 249 254	users
+T9	QUANTITY 240 248	Multiple
+T10	PROCESS 255 261	decide
+T11	PROCESS 269 279	distribute
+T12	DATA-ITEM 286 292	budget
+T13	DATA-ITEM 294 298	bids
+T14	ARTIFACT 315 323	machines
+T15	QUANTITY 306 314	multiple
+T16	QUALITY 354 365	preferences
+T17	PROCESS 369 377	maximize
+T18	QUALITY 395 402	utility
+T19	QUALITY 424 434	efficiency
+T20	QUALITY 443 451	fairness
+T21	PLAN-OR-PROCESS 459 469	allocation
+T22	PLAN 477 488	equilibrium
+T23	QUALITY 496 504	fairness
+T24	PROCESS 508 517	evaluated
+T25	PLAN 530 538	measures
+T26	PLAN 542 560	utility uniformity
+T27	PLAN 565 578	envy-freeness
+T29	PLAN-OR-PROCESS 613 624	simulations
+T30	QUALITY 644 664	highly decentralized
+T31	PLAN 666 679	such a system
+T32	PROCESS 680 689	converges
+T33	QUALITY 690 697	quickly
+T34	PLAN 704 715	equilibrium
+T35	PLAN 731 745	social optimum
+T36	OUTPUT 751 759	achieves
+T37	QUALITY 765 775	efficiency
+T38	QUALITY 760 764	high
+T39	QUALITY 785 793	fairness
+T40	QUALITY 780 784	poor
+T41	PLAN 808 825	allocation scheme
+T42	QUALITY 799 807	proposed
+T43	OUTPUT 826 834	achieves
+T44	QUALITY 837 841	nice
+T45	QUALITY 842 849	balance
+T46	QUALITY 869 879	efficiency
+T47	QUALITY 853 865	high degrees
+T48	QUALITY 884 892	fairness
+T49	PLAN 900 911	equilibrium
+R1	Attribute Arg1:T8 Arg2:T9	
+R2	Attribute Arg1:T14 Arg2:T15	
+R4	Attribute Arg1:T32 Arg2:T33	
+R5	Attribute Arg1:T37 Arg2:T38	
+R6	Attribute Arg1:T39 Arg2:T40	
+R7	Attribute Arg1:T41 Arg2:T42	
+R8	Attribute Arg1:T45 Arg2:T44	
+R9	Attribute Arg1:T46 Arg2:T47	
+R10	Attribute Arg1:T48 Arg2:T47	
+R11	Attribute Arg1:T45 Arg2:T46	
+R12	Attribute Arg1:T45 Arg2:T48	
+R3	Attribute Arg1:T31 Arg2:T30	
+T50	REFERENCE 337 342	their
+R13	Coreference Arg1:T50 Arg2:T8	
+T51	QUALITY 343 353	individual
+R14	Attribute Arg1:T16 Arg2:T51	
+T52	REFERENCE 378 383	their
+R15	Coreference Arg1:T52 Arg2:T50	
+T53	QUALITY 384 394	individual
+T57	REFERENCE 746 750	that
+R16	Coreference Arg1:T57 Arg2:T35	
+T58	REFERENCE 280 285	their
+R17	Coreference Arg1:T58 Arg2:T8	
+R18	Poss Arg1:T58 Arg2:T12	
+R19	Attribute Arg1:T50 Arg2:T16	
+R20	Attribute Arg1:T52 Arg2:T18	
+R21	Attribute Arg1:T18 Arg2:T53	
+R22	Attribute Arg1:T21 Arg2:T19	
+R23	Attribute Arg1:T21 Arg2:T20	
+R24	Attribute Arg1:T5 Arg2:T4	
+R25	Equivalence Arg1:T13 Arg2:T12	
+R26	Target Arg1:T6 Arg2:T4	
+R27	In_Out Arg1:T7 Arg2:T3	
+R28	Apply-to Arg1:T7 Arg2:T6	
+R29	Agent Arg1:T10 Arg2:T8	
+R30	Output Arg1:T10 Arg2:T11	
+R31	In_Out Arg1:T11 Arg2:T12	
+R32	Destination Arg1:T11 Arg2:T14	
+R33	Condition Arg1:T11 Arg2:T16	
+R34	Apply-to Arg1:T11 Arg2:T17	
+R35	Condition Arg1:T21 Arg2:T22	
+R36	Input Arg1:T24 Arg2:T23	
+R37	Apply-to Arg1:T25 Arg2:T24	
+R38	Attribute Arg1:T25 Arg2:T26	
+R39	Attribute Arg1:T25 Arg2:T27	
+R40	Apply-to Arg1:T31 Arg2:T32	
+R41	Coreference Arg1:T31 Arg2:T5	
+R42	Destination Arg1:T32 Arg2:T34	
+R43	from Arg1:T36 Arg2:T57	
+R44	to Arg1:T36 Arg2:T37	
+R45	to Arg1:T36 Arg2:T39	
+R46	Condition Arg1:T46 Arg2:T49	
+R47	Condition Arg1:T48 Arg2:T49	
+R48	from Arg1:T43 Arg2:T41	
+R49	to Arg1:T43 Arg2:T45	
+R50	Condition Arg1:T1 Arg2:T2	
+T28	REFERENCE 86 96	this paper
+T54	PERSON 97 99	we
+T55	PERSON 404 406	We
+T56	PROCESS 407 411	look
+T59	PERSON 580 582	We
+T60	PROCESS 583 587	show
+T61	QUALITY 588 600	analytically
+R51	Attribute Arg1:T60 Arg2:T61	
+T62	CONDITION 605 612	through
+R52	to Arg1:T62 Arg2:T29	
+R53	from Arg1:T62 Arg2:T60	
+R54	Output Arg1:T60 Arg2:T32	
+R55	Output Arg1:T60 Arg2:T43	
+T63	COMPARE 720 726	unlike
+R56	from Arg1:T63 Arg2:T35	
+R57	to Arg1:T63 Arg2:T41	
+R58	Agent Arg1:T60 Arg2:T59	
+R60	Target Arg1:T56 Arg2:T19	
+R61	Target Arg1:T56 Arg2:T20	
+R59	Condition Arg1:T56 Arg2:T24	
+R62	Agent Arg1:T56 Arg2:T55	
+R63	Agent Arg1:T7 Arg2:T54	
+R64	Condition Arg1:T7 Arg2:T28	

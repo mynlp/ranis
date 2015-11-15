@@ -1,0 +1,10 @@
+A Lexicon-Constrained Character Model for Chinese Morphological Analysis .
+This paper proposes a lexicon-constrained character model that combines both word and character features to solve complicated issues in Chinese morphological analysis .
+A Chinese character-based model constrained by a lexicon is built to acquire word building rules .
+Each character in a Chinese sentence is assigned a tag by the proposed model .
+The word segmentation and part-of-speech tagging results are then generated based on the character tags .
+The proposed method solves such problems as unknown word identification , data sparseness , and estimation bias in an integrated , unified framework .
+Preliminary experiments indicate that the proposed method outperforms the best SIGHAN word segmentation systems in the open track on 3 out of the 4 test corpora .
+Additionally , our method can be conveniently integrated with any other Chinese morphological systems as a post-processing module leading to significant improvement in performance .
+
+

@@ -1,0 +1,133 @@
+T1	PLAN-OR-PROCESS 0 26	Cross-Domain Co-Extraction
+T2	DATA-ITEM 30 39;50 58	Sentiment Lexicons
+T3	DATA-ITEM 44 58	Topic Lexicons
+T4	QUALITY 103 112	important
+T5	PLAN-OR-PROCESS 117 131	opinion mining
+T6	DATA-ITEM 71 80;91 99	sentiment lexicons
+T7	DATA-ITEM 85 99	topic lexicons
+T8	PLAN-OR-PROCESS 60 70	Extracting
+T9	EXTERNAL-REFERENCE 133 147	Previous works
+T11	RESULT 153 159	showed
+T12	PLAN 165 192	supervised learning methods
+T13	QUALITY 197 205	superior
+T14	PLAN-OR-PROCESS 210 219	this task
+T15	DATA-ITEM 234 245	performance
+T16	PLAN 249 267	supervised methods
+T17	CONDITION 275 281	relies
+T18	QUALITY 268 274	highly
+T19	DATA-ITEM 285 315	manually labeled training data
+T20	PLAN 345 372	domain adaptation framework
+T21	PLAN 377 420	sentiment- and topic- lexicon co-extraction
+T22	DOMAIN 426 432	domain
+T23	QUALITY 436 444	interest
+T24	PROCESS 461 468	require
+T25	MODALITY 457 460	not
+T26	DATA-ITEM 473 485	labeled data
+T27	QUANTITY 496 500	lots
+T28	DATA-ITEM 504 516	labeled data
+T29	DOMAIN 536 542	domain
+T30	PLAN 548 557	framework
+T31	QUALITY 561 568	twofold
+T33	QUANTITY 601 606	a few
+T34	DOMAIN 656 669	target domain
+T35	QUALITY 607 622	high-confidence
+T36	DATA-ITEM 637 648	topic seeds
+T37	DATA-ITEM 623 632;643 648	sentiment seeds
+T39	QUALITY 704 709	novel
+T40	PLAN 710 743	Relational Adaptive bootstraPping
+T41	PLAN 745 748	RAP
+R1	Equivalence Arg1:T41 Arg2:T40	
+T42	PLAN 750 759	algorithm
+R2	Split Arg1:T42 Arg2:T40	
+T43	PROCESS 763 769	expand
+T44	DATA-ITEM 774 779	seeds
+T45	DOMAIN 787 800	target domain
+T46	PROCESS 804 814	exploiting
+T47	DATA-ITEM 819 845	labeled source domain data
+T48	DATA-ITEM 854 867	relationships
+T49	DATA-ITEM 886 901	sentiment words
+T50	DATA-ITEM 876 881;896 901	topic words
+T51	DATA-ITEM 903 923	Experimental results
+T52	PLAN 938 965	domain adaptation framework
+T53	MODALITY 966 969	can
+T54	PROCESS 970 977	extract
+T55	DATA-ITEM 986 994	lexicons
+T56	DOMAIN 1002 1015	target domain
+T57	MODALITY 1016 1023	without
+T58	DATA-ITEM 1028 1038	annotation
+T59	RESULT 924 928	show
+T60	PROCESS 592 600	generate
+R4	Attribute Arg1:T12 Arg2:T13	
+R5	Coreference Arg1:T14 Arg2:T8	
+R6	Attribute Arg1:T28 Arg2:T27	
+T61	QUALITY 520 527	another
+R7	Attribute Arg1:T29 Arg2:T61	
+R10	Attribute Arg1:T17 Arg2:T18	
+R11	Attribute Arg1:T58 Arg2:T57	
+R12	Attribute Arg1:T42 Arg2:T39	
+R13	Attribute Arg1:T37 Arg2:T35	
+R14	Attribute Arg1:T36 Arg2:T35	
+T62	PERSON 934 937	our
+R3	Attribute Arg1:T30 Arg2:T31	
+R15	Poss Arg1:T62 Arg2:T52	
+R16	Output Arg1:T1 Arg2:T3	
+R17	Output Arg1:T1 Arg2:T2	
+R18	Output Arg1:T8 Arg2:T7	
+R19	Output Arg1:T8 Arg2:T6	
+R8	Attribute Arg1:T8 Arg2:T4	
+R9	Condition Arg1:T4 Arg2:T5	
+R20	Apply-to Arg1:T8 Arg2:T5	
+R21	Condition Arg1:T13 Arg2:T14	
+R22	from Arg1:T11 Arg2:T9	
+R23	to Arg1:T11 Arg2:T13	
+R24	Attribute Arg1:T16 Arg2:T15	
+R25	to Arg1:T17 Arg2:T19	
+R26	from Arg1:T17 Arg2:T15	
+R27	Apply-to Arg1:T20 Arg2:T21	
+R28	Attribute Arg1:T22 Arg2:T23	
+R29	Condition Arg1:T21 Arg2:T22	
+R30	Attribute Arg1:T24 Arg2:T25	
+T65	REFERENCE 445 450	where
+R31	Coreference Arg1:T65 Arg2:T22	
+R32	Condition Arg1:T24 Arg2:T65	
+R34	Attribute Arg1:T28 Arg2:T29	
+T66	QUALITY 528 535	related
+R35	Attribute Arg1:T29 Arg2:T66	
+R36	Compare Arg1:T22 Arg2:T66	
+R33	Target Arg1:T24 Arg2:T26	
+R37	Attribute Arg1:T36 Arg2:T33	
+R38	Attribute Arg1:T37 Arg2:T33	
+R41	Output Arg1:T60 Arg2:T36	
+R42	Output Arg1:T60 Arg2:T37	
+R44	In_Out Arg1:T43 Arg2:T44	
+R45	Apply-to Arg1:T42 Arg2:T43	
+R46	Input Arg1:T46 Arg2:T47	
+R47	Apply-to Arg1:T46 Arg2:T43	
+R48	Attribute Arg1:T48 Arg2:T50	
+R49	Attribute Arg1:T48 Arg2:T49	
+R50	Input Arg1:T46 Arg2:T48	
+R51	from Arg1:T59 Arg2:T51	
+T67	QUALITY 978 985	precise
+R52	Attribute Arg1:T55 Arg2:T67	
+R53	to Arg1:T59 Arg2:T54	
+R54	Attribute Arg1:T54 Arg2:T53	
+R55	Output Arg1:T54 Arg2:T55	
+R56	Apply-to Arg1:T52 Arg2:T54	
+R58	Condition Arg1:T54 Arg2:T58	
+R59	Condition Arg1:T60 Arg2:T34	
+R60	Condition Arg1:T43 Arg2:T45	
+R39	Condition Arg1:T54 Arg2:T56	
+T10	REFERENCE 320 330	this paper
+T32	PERSON 332 334	we
+T38	PROCESS 335 342	propose
+T63	PERSON 451 453	we
+R40	Agent Arg1:T24 Arg2:T63	
+T64	PERSON 589 591	we
+T68	PERSON 691 693	we
+T69	PROCESS 694 701	propose
+R43	Agent Arg1:T38 Arg2:T32	
+R57	Agent Arg1:T60 Arg2:T64	
+R61	Agent Arg1:T69 Arg2:T68	
+R62	Output Arg1:T38 Arg2:T20	
+R63	Output Arg1:T69 Arg2:T42	
+R64	Condition Arg1:T38 Arg2:T10	

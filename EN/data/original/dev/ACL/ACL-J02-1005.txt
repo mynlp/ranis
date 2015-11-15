@@ -1,0 +1,5 @@
+The DOP Estimation Method Is Biased and Inconsistent
+
+A data-oriented parsing or DOP model for statistical parsing associates fragments of linguistic representations with numerical weights, where these weights are estimated by normalizing the empirical frequency of each fragment in a training corpus (see Bod [1998] and references cited
+therein).
+This note observes that this estimation method is biased and inconsistent; that is, the estimated distribution does not in general converge on the true distribution as the size of the training corpus increases.

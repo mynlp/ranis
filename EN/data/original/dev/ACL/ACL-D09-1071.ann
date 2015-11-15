@@ -1,0 +1,123 @@
+R2	Apply-to Arg1:T2 Arg2:T3
+A1	Self T4
+A2	Intentional T5
+R3	Agent Arg1:T5 Arg2:T4
+R4	Condition Arg1:T59 Arg2:T6
+R5	In_Out Arg1:T5 Arg2:T59
+R7	In_Out Arg1:T59 Arg2:T8
+R8	Is-a Arg1:T10 Arg2:T11
+R9	Equivalence Arg1:T14 Arg2:T13
+R1	from Arg1:T1 Arg2:T13
+R10	to Arg1:T1 Arg2:T10
+A3	Self T15
+A4	Intentional T16
+R11	Agent Arg1:T16 Arg2:T15
+R12	Target Arg1:T16 Arg2:T17
+R13	Is-a Arg1:T18 Arg2:T17
+R14	Attribute Arg1:T20 Arg2:T19
+R15	In_Out Arg1:T18 Arg2:T19
+R16	Apply-to Arg1:T21 Arg2:T22
+R17	Attribute Arg1:T21 Arg2:T20
+R18	from Arg1:T9 Arg2:T10
+R19	to Arg1:T9 Arg2:T16
+A5	Self T23
+A6	Intentional T24
+R20	Agent Arg1:T24 Arg2:T23
+R21	Attribute Arg1:T26 Arg2:T25
+R22	Is-a Arg1:T12 Arg2:T26
+R23	Is-a Arg1:T27 Arg2:T26
+R25	Input Arg1:T24 Arg2:T26
+R26	from Arg1:T29 Arg2:T30
+R27	to Arg1:T29 Arg2:T24
+R28	Output Arg1:T30 Arg2:T31
+A7	Self T32
+A8	Intentional T33
+R29	Agent Arg1:T33 Arg2:T32
+R30	Input Arg1:T33 Arg2:T34
+R31	Attribute Arg1:T37 Arg2:T35
+A9	Judgment T39
+A10	Judgment T40
+R32	Attribute Arg1:T41 Arg2:T40
+R33	Attribute Arg1:T41 Arg2:T39
+R34	Condition Arg1:T43 Arg2:T42
+R35	from Arg1:T36 Arg2:T43
+R36	to Arg1:T36 Arg2:T40
+R37	to Arg1:T36 Arg2:T39
+R38	Output Arg1:T38 Arg2:T41
+R39	Agent Arg1:T38 Arg2:T32
+R40	Apply-to Arg1:T37 Arg2:T33
+R41	Coreference Arg1:T45 Arg2:T41
+A11	Self T46
+A12	Intentional T47
+R42	Agent Arg1:T47 Arg2:T46
+R43	Input Arg1:T47 Arg2:T48
+R44	Output Arg1:T49 Arg2:T48
+R47	Output Arg1:T53 Arg2:T51
+R49	Is-a Arg1:T55 Arg2:T54
+R50	Apply-to Arg1:T53 Arg2:T54
+R51	Attribute Arg1:T58 Arg2:T57
+R52	Input Arg1:T56 Arg2:T58
+A13	Intentional T56
+R53	Agent Arg1:T56 Arg2:T46
+R54	Target Arg1:T44 Arg2:T45
+R55	Apply-to Arg1:T44 Arg2:T47
+R24	Input Arg1:T24 Arg2:T28
+R45	Is-a Arg1:T48 Arg2:T50
+R6	Condition Arg1:T50 Arg2:T51
+T2	PLAN 4 16	infinite HMM
+T3	PLAN-OR-PROCESS 21 45	unsupervised PoS tagging
+T4	PERSON 48 50	We
+T5	PROCESS 51 57	extend
+T6	TIME 58 66	previous
+T59	PLAN 67 71	work
+T8	PLAN-OR-PROCESS 75 116	fully unsupervised part-of-speech tagging
+T9	APPLY-TO 119 124	Using
+T10	PLAN 127 149	non-parametric version
+T11	PLAN 157 160	HMM
+T1	IS-A 163 169	called
+T13	PLAN 174 186	infinite HMM
+T14	PLAN 189 193	iHMM
+T15	PERSON 198 200	we
+T16	PROCESS 201 208	address
+T17	PROCESS 213 220	problem
+T18	PROCESS 224 232	choosing
+T19	DATA-ITEM 237 243	number
+T20	DATA-ITEM 247 260	hidden states
+T21	PLAN 264 290	unsupervised Markov models
+T22	PLAN 295 306	PoS tagging
+T23	PERSON 309 311	We
+T24	PROCESS 312 322	experiment
+T25	QUANTITY 328 331	two
+T26	PLAN 332 353	non-parametric priors
+T12	PLAN 360 369	Dirichlet
+T27	PLAN 374 394	Pitman-Yor processes
+T28	DATA-ITEM 404 431	Wall Street Journal dataset
+T29	APPLY-TO 432 437	using
+T30	PLAN 440 467	parallelized implementation
+T31	PLAN 474 498	iHMM inference algorithm
+T32	PERSON 501 503	We
+T33	PROCESS 504 512	evaluate
+T34	DATA-ITEM 517 524	results
+T35	QUALITY 532 539	variety
+T37	PLAN 543 572	clustering evaluation metrics
+T38	PROCESS 577 584	achieve
+T39	QUALITY 585 595	equivalent
+T40	QUALITY 599 605	better
+T41	DATA-ITEM 606 618	performances
+T36	COMPARE 619 623	than
+T42	TIME 624 634	previously
+T43	PROCESS 635 643	reported
+T44	PROCESS 646 654	Building
+T45	DATA-ITEM 658 679	this promising result
+T46	PERSON 680 682	we
+T47	PROCESS 683 691	evaluate
+T48	DATA-ITEM 696 702	output
+T49	PLAN 710 733	unsupervised PoS tagger
+T50	DATA-ITEM 739 757	direct replacement
+T51	DATA-ITEM 766 772	output
+T53	PLAN 778 805	fully supervised PoS tagger
+T54	PLAN-OR-PROCESS 814 818	task
+T55	PLAN-OR-PROCESS 822 837	shallow parsing
+T56	PROCESS 842 849	compare
+T57	QUANTITY 854 857	two
+T58	PLAN 858 869	evaluations

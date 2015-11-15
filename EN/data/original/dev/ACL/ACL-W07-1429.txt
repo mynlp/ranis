@@ -1,0 +1,8 @@
+Biology Based Alignments of Paraphrases for Sentence Compression .
+In this paper , we present a study for extracting and aligning paraphrases in the context of Sentence Compression .
+First , we justify the application of a new measure for the automatic extraction of paraphrase corpora .
+Second , we discuss the work done by ( Barzilay & Lee , 2003 ) who use clustering of paraphrases to induce rewriting rules .
+We will see , through classical visualization methodologies ( Kruskal & Wish , 1977 ) and exhaustive experiments , that clustering may not be the best approach for automatic pattern identification .
+Finally , we will provide some results of different biology based methodologies for pairwise paraphrase alignment .
+
+

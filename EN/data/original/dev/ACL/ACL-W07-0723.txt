@@ -1,0 +1,8 @@
+Getting to Know Moses : Initial Experiments on German-English Factored Translation .
+We present results and experiences from our experiments with phrase-based statistical machine translation using Moses .
+The paper is based on the idea of using an off-the-shelf parser to supply linguistic information to a factored translation model and compare the results of German-English translation to the shared task baseline system based on word form .
+We report partial results for this model and results for two simplified setups .
+Our best setup takes advantage of the parser 's lemmatization and decompounding .
+A qualitative analysis of compound translation shows that decompounding improves translation quality .
+
+

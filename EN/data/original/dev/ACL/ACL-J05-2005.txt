@@ -1,0 +1,10 @@
+Representing Discourse Coherence: A Corpus-Based Study
+
+This article aims to present a set of discourse structure relations that are easy to code and to develop criteria for an appropriate data structure for representing these relations.
+Discourse structure here refers to informational relations that hold between sentences in a discourse.
+The set of discourse relations introduced here is based on Hobbs (1985).
+We present a method for annotating discourse coherence structures that we used to manually annotate a database of 135 texts from the Wall Street Journal and the AP Newswire.
+All texts were independently annotated by two annotators.
+Kappa values of greater than 0.8 indicated good interannotator agreement.
+We furthermore present evidence that trees are not a descriptively adequate data structure for representing discourse structure: In coherence structures of naturally occurring texts, we found many different kinds of crossed dependencies, as well as many nodes with multiple parents.
+The claims are supported by statistical results from our hand-annotated database of 135 texts.

@@ -1,0 +1,110 @@
+R1	In_Out Arg1:T4 Arg2:T5
+R2	Output Arg1:T3 Arg2:T4
+R3	to Arg1:T1 Arg2:T2
+R4	from Arg1:T1 Arg2:T3
+R5	Attribute Arg1:T7 Arg2:T6
+R6	Attribute Arg1:T9 Arg2:T8
+R7	Condition Arg1:T7 Arg2:T9
+R8	Attribute Arg1:T10 Arg2:T11
+R9	In_Out Arg1:T10 Arg2:T6
+R10	Attribute Arg1:T15 Arg2:T14
+R11	Attribute Arg1:T22 Arg2:T21
+R12	In_Out Arg1:T20 Arg2:T22
+R13	Attribute Arg1:T20 Arg2:T19
+R14	Agent Arg1:T15 Arg2:T13
+R15	Agent Arg1:T15 Arg2:T12
+R16	Coreference Arg1:T16 Arg2:T13
+R17	Coreference Arg1:T16 Arg2:T12
+R18	Attribute Arg1:T20 Arg2:T18
+R19	In_Out Arg1:T15 Arg2:T16
+R20	Agent Arg1:T20 Arg2:T16
+A1	Self T23
+A2	Self T24
+A3	Intentional T25
+R21	Agent Arg1:T25 Arg2:T24
+R22	Condition Arg1:T25 Arg2:T23
+R23	Attribute Arg1:T27 Arg2:T26
+R24	Output Arg1:T25 Arg2:T27
+R25	Attribute Arg1:T31 Arg2:T30
+R26	Attribute Arg1:T31 Arg2:T29
+R27	Output Arg1:T28 Arg2:T31
+R28	Component-object Arg1:T28 Arg2:T27
+A4	Self T32
+A5	Intentional T33
+R29	Agent Arg1:T33 Arg2:T32
+R30	In_Out Arg1:T33 Arg2:T34
+R31	Output Arg1:T34 Arg2:T35
+R32	Output Arg1:T34 Arg2:T36
+R33	Attribute Arg1:T33 Arg2:T50
+A6	Name T52
+R35	Condition Arg1:T53 Arg2:T37
+R36	Attribute Arg1:T39 Arg2:T40
+A7	Judgment T40
+R38	Condition Arg1:T40 Arg2:T41
+A8	Self T42
+A9	Intentional T43
+R39	Agent Arg1:T43 Arg2:T42
+R40	Output Arg1:T53 Arg2:T40
+R41	Output Arg1:T48 Arg2:T55
+R42	Attribute Arg1:T55 Arg2:T49
+R43	Attribute Arg1:T48 Arg2:T47
+R44	Agent Arg1:T48 Arg2:T46
+R45	Input Arg1:T44 Arg2:T46
+R46	Component-object Arg1:T45 Arg2:T44
+A10	Judgment T49
+R47	Output Arg1:T43 Arg2:T49
+A11	Intentional T53
+R34	Condition Arg1:T37 Arg2:T38
+T1	INPUT 0 5	Using
+T2	DATA-ITEM 6 15	Citations
+T3	PROCESS 19 27	Generate
+T4	PLAN 28 35	surveys
+T5	PLAN 39 59	Scientific Paradigms
+T6	DATA-ITEM 66 72	number
+T7	DATA-ITEM 76 97	research publications
+T8	QUALITY 101 108	various
+T9	DOMAIN 109 120	disciplines
+T10	PROCESS 124 131	growing
+T11	QUALITY 132 145	exponentially
+T12	PERSON 148 159	Researchers
+T13	PERSON 164 174	scientists
+T14	QUALITY 179 191	increasingly
+T15	PROCESS 192 199	finding
+T16	REFERENCE 200 210	themselves
+T18	MODALITY 230 236	having
+T19	QUALITY 240 247	quickly
+T20	PROCESS 248 258	understand
+T21	QUANTITY 259 272	large amounts
+T22	DATA-ITEM 276 294	technical material
+T23	REFERENCE 300 310	this paper
+T24	PERSON 311 313	we
+T25	PROCESS 314 321	present
+T26	QUALITY 326 331	first
+T27	PLAN-OR-PROCESS 332 337	steps
+T28	PROCESS 341 350	producing
+T29	QUALITY 354 377	automatically generated
+T30	QUALITY 380 398	readily consumable
+T31	PLAN 401 417	technical survey
+T50	QUALITY 420 432	Specifically
+T32	PERSON 433 435	we
+T33	PROCESS 436 443	explore
+T34	PLAN-OR-PROCESS 448 459	combination
+T35	DATA-ITEM 463 483	citation information
+T36	PLAN 488 512	summarization techniques
+T37	EXTERNAL-REFERENCE 527 537	prior work
+T38	EXTERNAL-REFERENCE 540 560	Teufel et al. , 2006
+T52	PERSON 540 546	Teufel
+T51	TIME 556 560	2006
+T53	PROCESS 563 569	argues
+T39	DATA-ITEM 575 588	citation text
+T40	QUALITY 592 602	unsuitable
+T41	PLAN-OR-PROCESS 607 620	summarization
+T42	PERSON 623 625	we
+T43	PROCESS 626 630	show
+T44	PLAN 643 652	framework
+T45	PLAN-OR-PROCESS 656 686	multi-document survey creation
+T46	DATA-ITEM 689 703	citation texts
+T47	MODALITY 704 707	can
+T48	PROCESS 708 712	play
+T49	QUALITY 715 722	crucial
+T55	DATA-ITEM 723 727	role

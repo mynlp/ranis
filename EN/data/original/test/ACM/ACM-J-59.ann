@@ -1,0 +1,98 @@
+T1	PLAN-OR-PROCESS 0 12	Cost Sharing
+T2	PLAN 18 40	Job Scheduling Problem
+T3	APPLY-TO 41 46	Using
+T4	PLAN 51 64	Shapley Value
+T5	PLAN 67 70	set
+T6	PLAN 74 78	jobs
+T7	MODALITY 79 83	need
+T8	PROCESS 90 96	served
+T9	PLAN-OR-PROCESS 109 115	server
+T10	QUANTITY 102 108	single
+T11	REFERENCE 116 121	which
+R1	Coreference Arg1:T11 Arg2:T9	
+T12	MODALITY 122 125	can
+T13	PROCESS 126 131	serve
+T14	PLAN 141 144	job
+T15	QUANTITY 137 140	one
+T16	QUALITY 132 136	only
+T17	QUALITY 145 154	at a time
+T18	PLAN 156 160	Jobs
+T19	ATTRIBUTE 161 165	have
+T20	TIME 166 182	processing times
+T21	RESULT 187 192	incur
+T22	DATA-ITEM 193 206	waiting costs
+T23	QUALITY 208 214	linear
+T24	TIME 224 236	waiting time
+T25	PLAN 243 247	jobs
+T26	PROCESS 248 253	share
+T27	DATA-ITEM 260 265	costs
+T28	PLAN-OR-PROCESS 274 286	compensation
+T29	APPLY-TO 287 292	using
+T30	PLAN-OR-PROCESS 293 311	monetary transfers
+T31	PERSON 333 340	Shapley
+T32	PLAN 333 351	Shapley value rule
+T33	PLAN 356 366	this model
+T34	PLAN 373 388	fairness axioms
+T35	APPLY-TO 367 372	using
+T36	PLAN 394 400	axioms
+T37	MEMBER-COLLECTION 401 408	include
+T38	PLAN 411 416	bound
+T39	PLAN-OR-PROCESS 424 434	cost share
+T40	PLAN 438 442	jobs
+T41	PLAN 448 453	group
+T42	QUALITY 455 465	efficiency
+T43	QUALITY 476 499	independence properties
+T44	QUANTITY 471 475	some
+T45	PLAN-OR-PROCESS 511 521	cost share
+T46	PLAN 527 530	job
+R2	Attribute Arg1:T8 Arg2:T7	
+R3	Attribute Arg1:T9 Arg2:T10	
+R4	Attribute Arg1:T13 Arg2:T12	
+R5	Attribute Arg1:T15 Arg2:T16	
+R6	Attribute Arg1:T14 Arg2:T15	
+R7	Attribute Arg1:T13 Arg2:T17	
+R8	Attribute Arg1:T22 Arg2:T23	
+R9	Attribute Arg1:T43 Arg2:T44	
+R10	Member-collection Arg1:T6 Arg2:T5	
+R11	Member-collection Arg1:T40 Arg2:T41	
+T48	PERSON 390 393	Our
+R12	Poss Arg1:T48 Arg2:T36	
+T49	REFERENCE 218 223	their
+R13	Coreference Arg1:T49 Arg2:T18	
+R14	Attribute Arg1:T49 Arg2:T24	
+T50	REFERENCE 254 259	their
+R15	Coreference Arg1:T50 Arg2:T25	
+R16	Attribute Arg1:T50 Arg2:T27	
+T51	PERSON 51 58	Shapley
+R17	Apply-to Arg1:T1 Arg2:T2	
+R18	from Arg1:T3 Arg2:T4	
+R19	to Arg1:T3 Arg2:T2	
+R20	Input Arg1:T8 Arg2:T5	
+R21	Apply-to Arg1:T9 Arg2:T8	
+R22	Apply-to Arg1:T11 Arg2:T13	
+R23	Input Arg1:T13 Arg2:T14	
+R24	from Arg1:T19 Arg2:T18	
+R25	to Arg1:T19 Arg2:T20	
+R26	from Arg1:T21 Arg2:T18	
+R27	to Arg1:T21 Arg2:T23	
+R28	Condition Arg1:T23 Arg2:T24	
+R29	Apply-to Arg1:T25 Arg2:T26	
+R30	Target Arg1:T26 Arg2:T27	
+R31	from Arg1:T29 Arg2:T30	
+R32	to Arg1:T29 Arg2:T28	
+R33	Condition Arg1:T26 Arg2:T28	
+R34	Apply-to Arg1:T32 Arg2:T33	
+T52	PROCESS 316 328	characterize
+R35	Input Arg1:T52 Arg2:T32	
+R36	from Arg1:T35 Arg2:T34	
+R37	to Arg1:T35 Arg2:T52	
+R38	from Arg1:T37 Arg2:T36	
+R39	to Arg1:T37 Arg2:T38	
+R40	Condition Arg1:T38 Arg2:T39	
+R41	Attribute Arg1:T40 Arg2:T39	
+R42	to Arg1:T37 Arg2:T42	
+R43	to Arg1:T37 Arg2:T43	
+R44	Condition Arg1:T43 Arg2:T45	
+R45	Attribute Arg1:T46 Arg2:T45	
+T47	PERSON 313 315	We
+R46	Agent Arg1:T52 Arg2:T47	

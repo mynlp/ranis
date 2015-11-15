@@ -1,0 +1,8 @@
+Parsing a Polysynthetic Language
+
+We present the results of a project of building a lexical-functional grammar of Aymara, an Amerindian language.
+There was almost no research on Aymara in computational linguistics to date.
+The goal ofthe project is two-fold: First, we want to provide a formal description of the language.
+Second, NLP resources (lexicon and grammar) are being developed that could be used in machine translation and other NLP tasks.
+The paper presents formal description of selected properties of Aymara which are uncommon in well-researched Western languages.
+Furthermore, we present an experimental machine translation system into Spanish and English.

@@ -1,0 +1,13 @@
+Syntactic Processing Using the Generalized Perceptron and Beam Search
+
+We study a range of syntactic processing tasks using a general statistical framework that consists of a global linear model, trained by the generalized perceptron together with a generic beam-search decoder.
+We apply the framework to word segmentation, joint segmentation and POS-tagging, dependency parsing, and phrase-structure parsing.
+Both components of the framework
+are conceptually and computationally very simple.
+The beam-search decoder only requires the syntactic processing task to be broken into a sequence of decisions, such that, at each stage in the process, the decoder is able to consider the top-n candidates and generate all possibilities for the next stage.
+Once the decoder has been defined, it is applied to the training data, using trivial updates according to the generalized perceptron to induce a model.
+This simple framework performs surprisingly well, giving accuracy results competitive with the state-of-the-art on all the tasks we consider.
+The computational simplicity of the decoder and training algorithm leads to significantly higher test speeds and lower training times than their main alternatives, including log-linear and large-margin training algorithms and dynamic-programming for decoding.
+Moreover, the framework offers the freedom to define arbitrary features which can make alternative training and decoding algorithms prohibitively slow. We discuss how the general framework is applied to each of the problems studied in this article, making comparisons with alternative learning and decoding algorithms.
+We also show how the comparability of candidates considered by the beam is an important factor in the performance.
+We argue that the conceptual and computational simplicity of the framework, together with its language-independent nature, make it a competitive choice for a range of syntactic processing tasks and one that should be considered for comparison by developers of alternative approaches.

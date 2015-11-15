@@ -1,0 +1,59 @@
+T1	PLAN-OR-PROCESS 0 13	Understanding
+T2	PLAN 18 36	Yarowsky Algorithm
+T3	PERSON 18 26	Yarowsky
+T4	QUANTITY 38 42	Many
+T5	PLAN 43 51	problems
+T6	DOMAIN 55 80	computational linguistics
+T7	PROCESS 90 96	suited
+T8	PLAN 101 151	bootstrapping (semisupervised learning) techniques
+T9	PLAN 157 175	Yarowsky algorithm
+T10	PERSON 157 165	Yarowsky
+T11	QUALITY 181 191	well-known
+T12	PLAN 192 215	bootstrapping algorithm
+T13	QUALITY 231 245	mathematically
+T14	QUALITY 246 261	well understood
+T15	MODALITY 227 230	not
+T16	REFERENCE 221 223	it
+R1	Coreference Arg1:T16 Arg2:T9	
+T18	REFERENCE 285 287	it
+R2	Coreference Arg1:T18 Arg2:T16	
+T19	PROCESS 291 301	optimizing
+T20	PLAN 305 323	objective function
+T21	PLAN 372 390	Yarowsky algorithm
+T22	PERSON 372 380	Yarowsky
+T23	PLAN 356 364	variants
+T24	QUANTITY 344 352	a number
+T25	MODALITY 399 402	not
+T26	PLAN 407 425	original algorithm
+T27	PROCESS 447 455	optimize
+T28	PLAN 463 473	likelihood
+T29	QUALITY 479 494	closely related
+T30	PLAN 495 515	objective function K
+R3	Attribute Arg1:T5 Arg2:T4	
+R4	Apply-to Arg1:T7 Arg2:T8	
+R5	Attribute Arg1:T12 Arg2:T11	
+R6	Attribute Arg1:T23 Arg2:T24	
+R7	Attribute Arg1:T30 Arg2:T29	
+T17	REFERENCE 426 432	itself
+R8	Coreference Arg1:T17 Arg2:T26	
+R9	Attribute Arg1:T14 Arg2:T15	
+R10	Attribute Arg1:T14 Arg2:T13	
+R11	In_Out Arg1:T1 Arg2:T2	
+R12	Condition Arg1:T5 Arg2:T6	
+R13	In_Out Arg1:T7 Arg2:T5	
+R14	Is-a Arg1:T9 Arg2:T12	
+T33	PROCESS 276 284	analyzes
+R15	Input Arg1:T33 Arg2:T18	
+R16	In_Out Arg1:T19 Arg2:T20	
+R17	Output Arg1:T33 Arg2:T19	
+R18	Is-a Arg1:T23 Arg2:T21	
+R19	Attribute Arg1:T26 Arg2:T25	
+T34	INPUT 438 443	shown
+R20	In_Out Arg1:T27 Arg2:T28	
+R21	In_Out Arg1:T27 Arg2:T30	
+R22	to Arg1:T34 Arg2:T27	
+R23	from Arg1:T34 Arg2:T23	
+T35	QUALITY 85 89	well
+R25	Attribute Arg1:T7 Arg2:T35	
+T31	REFERENCE 263 275	This article
+R24	Condition Arg1:T33 Arg2:T31	

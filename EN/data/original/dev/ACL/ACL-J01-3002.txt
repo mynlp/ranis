@@ -1,0 +1,5 @@
+A Statistical Model for Word Discovery in Transcribed Speech
+
+A statistical model for segmentation and word discovery in continuous speech is presented.
+An incremental unsupervised learning algorithm to infer word boundaries based on this model is described.
+Results are also presented of empirical tests showing that the algorithm is competitive with other models that have been used for similar tasks.

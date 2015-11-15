@@ -1,0 +1,6 @@
+Finite-State Morphological Analysis Of Persian .
+This paper describes a two-level morphological analyzer for Persian using a system based on the Xerox finite state tools .
+Persian language presents certain challenges to computational analysis : There is a complex verbal conjugation paradigm which includes long-distance morphological dependencies ; phonological alternations apply at morpheme boundaries ; word and noun phrase boundaries are difficult to define since morphemes may be detached from their stems and distinct words can appear without an intervening space .
+In this work , we develop these problems and provide solutions in a finitestate morphology system .
+
+

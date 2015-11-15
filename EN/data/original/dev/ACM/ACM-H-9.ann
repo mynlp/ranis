@@ -1,0 +1,186 @@
+T1	PROCESS 0 5	Learn
+T2	DATA-ITEM 11 26	Web Search Logs
+T3	PLAN-OR-PROCESS 30 38	Organize
+T4	PLAN-OR-PROCESS 64 76	organization
+T5	DATA-ITEM 80 94	search results
+T6	QUALITY 98 106	critical
+T7	PROCESS 111 120	improving
+T8	DATA-ITEM 125 132	utility
+T9	PLAN 140 153	search engine
+T10	PROCESS 155 165	Clustering
+T11	DATA-ITEM 166 180	search results
+T12	QUALITY 187 196	effective
+T13	PLAN 197 200	way
+T14	PROCESS 204 212	organize
+T15	DATA-ITEM 213 227	search results
+T16	REFERENCE 229 234	which
+T17	PROCESS 235 241	allows
+T18	PERSON 244 248	user
+T19	PROCESS 252 260	navigate
+T20	DATA-ITEM 266 284	relevant documents
+T21	QUALITY 285 292	quickly
+T22	QUANTITY 303 306	two
+T23	QUALITY 307 319	deficiencies
+T24	PLAN 323 336	this approach
+T25	RESULT 337 341	make
+T26	REFERENCE 342 344	it
+T27	MODALITY 345 348	not
+T28	TIME 349 355	always
+T29	PROCESS 356 360	work
+T30	QUALITY 361 365	well
+T31	DATA-ITEM 375 383	clusters
+T32	PROCESS 384 394	discovered
+T33	MODALITY 398 401	not
+T34	QUALITY 402 413	necessarily
+T35	QUALITY 414 424	correspond
+T36	QUALITY 432 443	interesting
+T37	DATA-ITEM 457 462	topic
+T38	PERSON 472 476	user
+T39	DATA-ITEM 504 518	cluster labels
+T40	PROCESS 519 528	generated
+T41	MODALITY 533 536	not
+T42	QUALITY 537 548	informative
+T43	QUALITY 549 555	enough
+T44	PROCESS 559 564	allow
+T45	PERSON 567 571	user
+T46	PROCESS 575 583	identify
+T47	QUALITY 588 593	right
+T48	DATA-ITEM 594 601	cluster
+T49	REFERENCE 606 616	this paper
+T50	PERSON 618 620	we
+T51	PROCESS 621 628	propose
+T52	PROCESS 632 639	address
+T53	DATA-ITEM 640 662	these two deficiencies
+T54	PROCESS 670 678	learning
+T55	QUALITY 679 690	interesting
+T56	DATA-ITEM 704 709	topic
+T57	DATA-ITEM 715 730	Web search logs
+T58	PROCESS 735 745	organizing
+T59	DATA-ITEM 746 760	search results
+T60	PROCESS 782 792	generating
+T61	QUALITY 793 808	more meaningful
+T62	DATA-ITEM 809 823	cluster labels
+T63	INPUT 824 829	using
+T64	DATA-ITEM 835 846	query words
+T65	PROCESS 847 854	entered
+T66	PERSON 858 863	users
+T67	PERSON 865 867	We
+T68	PROCESS 868 876	evaluate
+T69	PERSON 877 880	our
+T70	PLAN 881 896	proposed method
+T71	DATA-ITEM 902 935	commercial search engine log data
+T72	COMPARE 937 945	Compared
+T73	QUALITY 955 966	traditional
+T74	PLAN 967 974	methods
+T75	PROCESS 978 988	clustering
+T76	DATA-ITEM 989 1003	search results
+T77	PERSON 1005 1008	our
+T78	PLAN 1009 1015	method
+T79	MODALITY 1016 1019	can
+T80	RESULT 1020 1024	give
+T81	QUALITY 1025 1031	better
+T82	PLAN-OR-PROCESS 1032 1051	result organization
+T83	QUALITY 1056 1070	more meaningfu
+T84	DATA-ITEM 1072 1078	labels
+R1	Input Arg1:T1 Arg2:T2	
+R2	In_Out Arg1:T4 Arg2:T5	
+T85	QUALITY 54 63	Effective
+R3	Attribute Arg1:T4 Arg2:T85	
+T86	DATA-ITEM 39 53	Search Results
+R4	In_Out Arg1:T3 Arg2:T86	
+R5	Apply-to Arg1:T1 Arg2:T3	
+R6	Attribute Arg1:T4 Arg2:T6	
+R7	Condition Arg1:T6 Arg2:T7	
+R8	In_Out Arg1:T7 Arg2:T8	
+R9	Attribute Arg1:T9 Arg2:T8	
+R10	In_Out Arg1:T10 Arg2:T11	
+R11	Attribute Arg1:T13 Arg2:T12	
+R12	Other-rel Arg1:T10 Arg2:T13	
+R13	Apply-to Arg1:T13 Arg2:T14	
+R14	In_Out Arg1:T14 Arg2:T15	
+R15	Agent Arg1:T19 Arg2:T18	
+R16	Attribute Arg1:T19 Arg2:T21	
+R17	Destination Arg1:T19 Arg2:T20	
+R18	Target Arg1:T17 Arg2:T19	
+R19	Apply-to Arg1:T16 Arg2:T17	
+R20	Coreference Arg1:T16 Arg2:T10	
+R21	Attribute Arg1:T23 Arg2:T22	
+R22	Attribute Arg1:T24 Arg2:T23	
+R23	Coreference Arg1:T24 Arg2:T10	
+R24	Attribute Arg1:T29 Arg2:T30	
+R25	Attribute Arg1:T28 Arg2:T27	
+R26	Condition Arg1:T29 Arg2:T28	
+R27	Apply-to Arg1:T26 Arg2:T29	
+R28	Coreference Arg1:T26 Arg2:T24	
+R29	to Arg1:T25 Arg2:T29	
+R30	from Arg1:T25 Arg2:T23	
+R31	Attribute Arg1:T35 Arg2:T34	
+T87	DATA-ITEM 444 451	aspects
+R32	Attribute Arg1:T37 Arg2:T87	
+R33	Attribute Arg1:T87 Arg2:T36	
+R34	Attribute Arg1:T34 Arg2:T33	
+R35	Condition Arg1:T35 Arg2:T87	
+R36	Output Arg1:T32 Arg2:T31	
+R37	Attribute Arg1:T31 Arg2:T35	
+T88	THING 479 490	perspective
+R38	Poss Arg1:T38 Arg2:T88	
+R39	Condition Arg1:T36 Arg2:T88	
+R40	Output Arg1:T40 Arg2:T39	
+R41	Attribute Arg1:T42 Arg2:T43	
+R42	Attribute Arg1:T39 Arg2:T42	
+R43	Attribute Arg1:T43 Arg2:T41	
+R44	Condition Arg1:T43 Arg2:T44	
+R45	Agent Arg1:T46 Arg2:T45	
+R46	Attribute Arg1:T48 Arg2:T47	
+R47	In_Out Arg1:T46 Arg2:T48	
+R48	Target Arg1:T44 Arg2:T46	
+A1	Self T49
+A2	Self T50
+A3	Intentional T51
+R49	Agent Arg1:T51 Arg2:T50	
+R50	Condition Arg1:T51 Arg2:T49	
+R51	Coreference Arg1:T53 Arg2:T23	
+R52	Target Arg1:T52 Arg2:T53	
+R53	Output Arg1:T51 Arg2:T52	
+T89	DATA-ITEM 691 698	aspects
+R54	Attribute Arg1:T56 Arg2:T89	
+R55	Attribute Arg1:T89 Arg2:T55	
+R56	Output Arg1:T54 Arg2:T89	
+R57	Apply-to Arg1:T54 Arg2:T52	
+R58	Input Arg1:T54 Arg2:T57	
+T90	QUALITY 761 772	accordingly
+R59	In_Out Arg1:T58 Arg2:T59	
+R60	Attribute Arg1:T58 Arg2:T90	
+R61	Apply-to Arg1:T58 Arg2:T52	
+R62	Attribute Arg1:T62 Arg2:T61	
+R63	Output Arg1:T60 Arg2:T62	
+R64	Apply-to Arg1:T60 Arg2:T52	
+R65	Agent Arg1:T65 Arg2:T66	
+R66	Output Arg1:T65 Arg2:T64	
+R67	to Arg1:T63 Arg2:T64	
+R68	from Arg1:T63 Arg2:T60	
+T91	TIME 830 834	past
+R69	Condition Arg1:T64 Arg2:T91	
+A4	Self T67
+A5	Intentional T68
+A6	Self T69
+R70	Poss Arg1:T69 Arg2:T70	
+R71	Agent Arg1:T68 Arg2:T67	
+R72	Input Arg1:T68 Arg2:T70	
+R73	Input Arg1:T70 Arg2:T71	
+R74	Attribute Arg1:T74 Arg2:T73	
+R75	Apply-to Arg1:T74 Arg2:T75	
+R76	In_Out Arg1:T75 Arg2:T76	
+A7	Self T77
+R77	Poss Arg1:T77 Arg2:T78	
+R78	Attribute Arg1:T82 Arg2:T81	
+R79	to Arg1:T80 Arg2:T81	
+R80	from Arg1:T80 Arg2:T78	
+R81	Attribute Arg1:T80 Arg2:T79	
+R82	Attribute Arg1:T84 Arg2:T83	
+R83	to Arg1:T80 Arg2:T83	
+A8	Judgment T81
+A9	Judgment T83
+R84	from Arg1:T72 Arg2:T74	
+R85	to Arg1:T72 Arg2:T81	
+R86	to Arg1:T72 Arg2:T83	

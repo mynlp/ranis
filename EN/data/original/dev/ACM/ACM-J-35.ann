@@ -1,0 +1,91 @@
+T1	QUALITY 0 10	Efficiency
+T2	PLAN 15 30	Nash Equilibria
+T3	PERSON 15 19	Nash
+T4	PLAN 36 48	Scrip System
+T5	PLAN 53 65	P2P Networks
+T6	PLAN 68 73	model
+T7	PLAN-OR-PROCESS 77 94	providing service
+T8	PLAN 100 111	P2P network
+T10	PROCESS 145 151	adding
+T11	PLAN 154 166	scrip system
+T12	PLAN 170 179	mechanism
+T13	REFERENCE 180 184	that
+R2	Coreference Arg1:T13 Arg2:T12	
+T14	PROCESS 185 191	admits
+T15	QUALITY 194 204	reasonable
+T16	PLAN 205 221	Nash equilibrium
+T17	PERSON 205 209	Nash
+T18	REFERENCE 222 226	that
+R3	Coreference Arg1:T18 Arg2:T16	
+T19	PROCESS 227 234	reduces
+T20	PLAN-OR-PROCESS 235 246	free riding
+T21	MODALITY 247 250	can
+T22	PROCESS 254 262	obtained
+T23	PROCESS 268 274	effect
+T24	PLAN-OR-PROCESS 278 285	varying
+T25	QUANTITY 290 302	total amount
+T26	CONTINUANT 306 311	money
+T27	CONTINUANT 313 318	scrip
+T28	PLAN-OR-PROCESS 327 333	system
+T29	QUALITY 337 347	efficiency
+T30	QUALITY 355 369	social welfare
+T32	PROCESS 408 419	maintaining
+T33	QUALITY 424 435	appropriate
+T34	DATA-ITEM 436 441	ratio
+T35	QUANTITY 454 466	total amount
+T36	CONTINUANT 470 475	money
+T37	QUANTITY 484 490	number
+T38	INTELLIGENT-AGENT 494 500	agents
+T39	QUALITY 502 512	efficiency
+T40	JUDGING-PROCESS 516 525	maximized
+T43	QUANTITY 557 561	many
+T44	PLAN 562 576	online systems
+T46	PLAN 587 599	P2P networks
+T47	QUANTITY 611 623	wide variety
+T48	PLAN 627 640	online forums
+T45	REFERENCE 645 650	which
+T49	PLAN 651 664	scrip systems
+T50	PLAN-OR-PROCESS 682 697	formal analyses
+T51	QUALITY 708 715	lacking
+T52	QUALITY 669 676	popular
+R4	Coreference Arg1:T45 Arg2:T48	
+R1	Attribute Arg1:T16 Arg2:T15	
+R5	Attribute Arg1:T34 Arg2:T33	
+R6	Attribute Arg1:T48 Arg2:T47	
+R7	Attribute Arg1:T38 Arg2:T37	
+R8	Attribute Arg1:T50 Arg2:T51	
+R9	Apply-to Arg1:T4 Arg2:T5	
+R10	Attribute Arg1:T4 Arg2:T1	
+R11	Attribute Arg1:T4 Arg2:T2	
+R12	Attribute Arg1:T6 Arg2:T7	
+R13	Condition Arg1:T7 Arg2:T8	
+R14	In_Out Arg1:T10 Arg2:T11	
+R16	Apply-to Arg1:T13 Arg2:T14	
+R17	Target Arg1:T14 Arg2:T16	
+R18	Apply-to Arg1:T18 Arg2:T19	
+R19	In_Out Arg1:T19 Arg2:T20	
+R15	Attribute Arg1:T22 Arg2:T21	
+R20	Output Arg1:T22 Arg2:T12	
+R21	Result Arg1:T10 Arg2:T22	
+R22	Target Arg1:T24 Arg2:T26	
+R24	Attribute Arg1:T26 Arg2:T25	
+R25	Output Arg1:T23 Arg2:T24	
+R26	Condition Arg1:T26 Arg2:T28	
+R27	Destination Arg1:T23 Arg2:T29	
+R28	Is-a Arg1:T30 Arg2:T29	
+R29	In_Out Arg1:T32 Arg2:T34	
+R30	Attribute Arg1:T36 Arg2:T35	
+R31	Condition Arg1:T34 Arg2:T35	
+R32	Condition Arg1:T34 Arg2:T37	
+R33	In_Out Arg1:T40 Arg2:T39	
+R34	Apply-to Arg1:T32 Arg2:T40	
+R35	Attribute Arg1:T44 Arg2:T43	
+T42	MODALITY 600 608	but also
+R36	Attribute Arg1:T46 Arg2:T53	
+R37	Attribute Arg1:T48 Arg2:T42	
+R38	Attribute Arg1:T49 Arg2:T52	
+R39	Condition Arg1:T52 Arg2:T48	
+R40	Other-rel Arg1:T50 Arg2:T52	
+T53	MODALITY 578 586	not only
+R41	Condition Arg1:T52 Arg2:T46	
+R23	Is-a Arg1:T27 Arg2:T26	

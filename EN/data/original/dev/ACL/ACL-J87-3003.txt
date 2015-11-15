@@ -1,0 +1,9 @@
+Tools And Methods For Computational Lexicology .
+This paper presents a set of tools and methods for acquiring , manipulating , and analyzing machinereadable dictionaries .
+We give several detailed examples of the use of these tools and methods for particular analyses .
+A novel aspect of our work is that it allows the combined processing of multiple machine-readable dictionaries .
+Our examples describe analyses of data from Webster 's Seventh Collegiate Dictionary , the Longman Dictionary of Contemporary English , the Collins bilingual dictionaries , the Collins Thesaurus , and the Zingarelli Italian dictionary .
+We describe existing facilities and results they have produced as well as planned enhancements to those facilities , particularly in the area of managing associations involving the senses of polysemous words .
+We show how these enhancements expand the ways in which we can exploit machine-readable dictionaries in the construction of large lexicons for natural language processing systems .
+
+

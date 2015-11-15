@@ -1,0 +1,167 @@
+T1	IS-A 90 99	including
+T2	PLAN-OR-PROCESS 209 218	combating
+T3	PROCESS 336 342	filter
+T4	PROCESS 365 374	advocated
+T5	PROCESS 661 665	cite
+T6	PROCESS 701 707	prefer
+T8	RESULT 1023 1031	achieved
+T9	MODALITY 1016 1019	may
+T11	QUALITY 100 111	large-scale
+T12	QUALITY 190 198	reliable
+T13	QUALITY 238 245	various
+T14	QUALITY 489 505	state-of-the-art
+T15	QUALITY 552 559	similar
+T16	QUALITY 633 645	Additionally
+T17	QUALITY 670 674	high
+T18	QUALITY 708 714	faster
+T20	QUALITY 719 744	less statistically robust
+T21	QUALITY 866 882	state-of-the-art
+T22	QUALITY 938 943	large
+T23	QUALITY 986 1003	nearly equivalent
+T24	QUALITY 1067 1074	greatly
+T25	QUALITY 1119 1133	experimentally
+T26	QUANTITY 257 261	some
+T27	PLAN 0 19	Relaxed Online SVMs
+T28	PLAN-OR-PROCESS 24 38	Spam Filtering
+T29	DATA-ITEM 39 43	Spam
+T30	QUALITY 53 60	problem
+T31	PLAN-OR-PROCESS 64 88	electronic communication
+T32	PLAN 112 125	email systems
+T33	DATA-ITEM 152 157	blogs
+T34	PLAN 159 182	Content-based filtering
+T35	PLAN 199 205	method
+T36	DATA-ITEM 219 230	this threat
+T37	DATA-ITEM 246 251	forms
+T38	PERSON 262 282	academic researchers
+T40	DATA-ITEM 343 347	spam
+T41	APPLY-TO 379 382	use
+T42	PLAN 386 409	Support Vector Machines
+T43	PLAN 411 415	SVMs
+T44	PLAN 421 444	content-based filtering
+T45	PLAN 449 482	this machine learning methodology
+T46	QUALITY 506 517	performance
+T47	PLAN-OR-PROCESS 522 541	text classification
+T48	DATA-ITEM 560 577	performance gains
+T49	PLAN 610 631	online spam filtering
+T50	QUALITY 675 679	cost
+T51	PLAN 683 687	SVMs
+T52	THING 691 697	reason
+T53	PLAN 746 762	Bayesian methods
+T56	PLAN 842 853	online SVMs
+T57	QUALITY 883 909	classification performance
+T58	PLAN 913 934	online spam filtering
+T59	DATA-ITEM 944 963	benchmark data sets
+T60	QUALITY 1004 1015	performance
+T63	QUALITY 1083 1101	computational cost
+T64	DATA-ITEM 1107 1114	results
+T66	PLAN 1158 1167;1179 1194	blog spam detection tasks
+T67	PLAN 1173 1194	splog detection tasks
+R1	Attribute Arg1:T32 Arg2:T11	
+T69	QUALITY 134 141	growing
+T70	QUANTITY 142 148	number
+R2	Attribute Arg1:T70 Arg2:T69	
+R3	Attribute Arg1:T33 Arg2:T70	
+T71	QUANTITY 186 189	one
+R4	Attribute Arg1:T35 Arg2:T71	
+R5	Attribute Arg1:T35 Arg2:T12	
+R6	Coreference Arg1:T36 Arg2:T29	
+T72	REFERENCE 234 237	its
+R7	Coreference Arg1:T72 Arg2:T36	
+R8	Attribute Arg1:T37 Arg2:T13	
+R9	Attribute Arg1:T38 Arg2:T26	
+T73	PERSON 287 311	industrial practitioners
+T74	PROCESS 312 320	disagree
+T75	QUALITY 328 332	best
+R10	Attribute Arg1:T3 Arg2:T75	
+T76	REFERENCE 353 359	former
+R11	Coreference Arg1:T76 Arg2:T38	
+R12	Equivalence Arg1:T43 Arg2:T42	
+T77	RESULT 483 488	gives
+R13	Attribute Arg1:T46 Arg2:T14	
+T78	RESULT 593 605	demonstrated
+T79	PERSON 647 660	practitioners
+R14	Attribute Arg1:T5 Arg2:T16	
+R15	Attribute Arg1:T50 Arg2:T17	
+R16	Attribute Arg1:T53 Arg2:T18	
+R17	Attribute Arg1:T53 Arg2:T20	
+T80	RESULT 861 865	give
+R18	Attribute Arg1:T57 Arg2:T21	
+R19	Attribute Arg1:T59 Arg2:T22	
+R20	Attribute Arg1:T60 Arg2:T23	
+R21	Attribute Arg1:T8 Arg2:T9	
+T7	QUALITY 1075 1082	reduced
+R23	Attribute Arg1:T7 Arg2:T24	
+T81	PROCESS 1134 1142	verified
+R24	Attribute Arg1:T81 Arg2:T25	
+R25	Attribute Arg1:T29 Arg2:T30	
+R26	Attribute Arg1:T48 Arg2:T15	
+T10	PERSON 746 754	Bayesian
+T19	PLAN 1037 1055	Relaxed Online SVM
+T39	PLAN 1057 1062	ROSVM
+T68	PERSON 1103 1106	Our
+T65	PLAN 1146 1156;1179 1194	email spam detection tasks
+R27	Coreference Arg1:T45 Arg2:T42	
+R28	Poss Arg1:T68 Arg2:T64	
+R29	Poss Arg1:T72 Arg2:T37	
+R22	Equivalence Arg1:T39 Arg2:T19	
+T61	QUALITY 49 52	key
+R30	Attribute Arg1:T30 Arg2:T61	
+T83	MODALITY 583 592	yet to be
+R31	Attribute Arg1:T63 Arg2:T7	
+R32	Apply-to Arg1:T27 Arg2:T28	
+R33	Condition Arg1:T30 Arg2:T31	
+R34	to Arg1:T1 Arg2:T31	
+R35	from Arg1:T1 Arg2:T32	
+R36	from Arg1:T1 Arg2:T33	
+R37	Is-a Arg1:T34 Arg2:T35	
+R38	Apply-to Arg1:T35 Arg2:T2	
+R40	Attribute Arg1:T73 Arg2:T26	
+R41	Agent Arg1:T74 Arg2:T38	
+R42	Agent Arg1:T74 Arg2:T73	
+R43	Target Arg1:T74 Arg2:T3	
+R44	Output Arg1:T3 Arg2:T40	
+R45	Agent Arg1:T4 Arg2:T76	
+R46	Other-rel Arg1:T4 Arg2:T41	
+R47	from Arg1:T41 Arg2:T42	
+R48	to Arg1:T41 Arg2:T44	
+R49	from Arg1:T77 Arg2:T45	
+R50	to Arg1:T77 Arg2:T46	
+R51	Condition Arg1:T46 Arg2:T47	
+R52	Attribute Arg1:T78 Arg2:T83	
+R53	to Arg1:T78 Arg2:T48	
+R54	from Arg1:T78 Arg2:T49	
+R55	Agent Arg1:T5 Arg2:T79	
+R56	Attribute Arg1:T51 Arg2:T50	
+R57	Output Arg1:T5 Arg2:T50	
+R58	Attribute Arg1:T52 Arg2:T50	
+R59	Condition Arg1:T52 Arg2:T6	
+R60	In_Out Arg1:T6 Arg2:T53	
+R61	from Arg1:T80 Arg2:T56	
+R62	to Arg1:T80 Arg2:T57	
+R64	Input Arg1:T58 Arg2:T59	
+R65	to Arg1:T8 Arg2:T60	
+R66	from Arg1:T8 Arg2:T19	
+R67	to Arg1:T8 Arg2:T63	
+R68	Input Arg1:T81 Arg2:T64	
+R69	Condition Arg1:T81 Arg2:T67	
+R70	Condition Arg1:T81 Arg2:T66	
+R71	Condition Arg1:T81 Arg2:T65	
+R72	Apply-to Arg1:T56 Arg2:T58	
+R39	Target Arg1:T2 Arg2:T36	
+T54	REFERENCE 767 777	this paper
+T55	PERSON 779 781	we
+T62	PROCESS 782 787	offer
+T82	PLAN 790 800	resolution
+T84	PLAN 809 820	controversy
+T85	PERSON 829 831	we
+T86	PROCESS 832 836	show
+T87	PERSON 973 975	we
+T88	PROCESS 976 980	show
+R63	Agent Arg1:T62 Arg2:T55	
+R73	Condition Arg1:T62 Arg2:T54	
+R74	Output Arg1:T62 Arg2:T82	
+R75	Target Arg1:T62 Arg2:T84	
+R76	Agent Arg1:T86 Arg2:T85	
+R77	Agent Arg1:T88 Arg2:T87	
+R78	Output Arg1:T86 Arg2:T21	
+R79	Output Arg1:T88 Arg2:T23	

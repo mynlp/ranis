@@ -1,0 +1,72 @@
+T1	PLAN 2 7	Logic
+T2	DATA-ITEM 11 35	Semantic Representations
+T3	PLAN-OR-PROCESS 40 55	Shallow Parsing
+T4	PLAN 61 64	way
+T5	QUANTITY 57 60	One
+T6	PROCESS 68 77	construct
+T7	DATA-ITEM 78 102	semantic representations
+T8	QUALITY 108 121	robust manner
+T9	PROCESS 128 135	enhance
+T10	PLAN 136 163	shallow language processors
+T11	PLAN 169 188	semantic components
+T12	PLAN 209 221	model theory
+T13	PLAN 228 246	semantic formalism
+T14	REFERENCE 247 251	that
+R1	Coreference Arg1:T14 Arg2:T13	
+T15	PROCESS 255 263	designed
+T16	REFERENCE 268 272	this
+T17	PLAN 281 315	Robust Minimal Recursion Semantics
+T18	PLAN 317 321	RMRS
+T19	PLAN 337 341	RMRS
+T20	PROCESS 342 350	supports
+T21	PLAN 353 359	notion
+T22	PROCESS 363 373	entailment
+T23	REFERENCE 374 378	that
+T24	APPLY-TO 379 385	allows
+T25	PROCESS 392 396	form
+T26	PLAN 401 406	basis
+R2	Coreference Arg1:T23 Arg2:T21	
+T27	REFERENCE 386 388	it
+R3	Coreference Arg1:T27 Arg2:T19	
+T28	PROCESS 411 420	comparing
+T29	DATA-ITEM 425 440	semantic output
+T30	QUALITY 444 453	different
+T31	DATA-ITEM 454 460	parses
+T32	QUALITY 464 477	varying depth
+R4	Attribute Arg1:T4 Arg2:T5	
+R5	Equivalence Arg1:T18 Arg2:T17	
+R6	Attribute Arg1:T31 Arg2:T30	
+R8	Attribute Arg1:T6 Arg2:T8	
+R9	Coreference Arg1:T16 Arg2:T4	
+R7	Attribute Arg1:T31 Arg2:T32	
+R10	Attribute Arg1:T1 Arg2:T2	
+R11	Apply-to Arg1:T4 Arg2:T6	
+R12	Apply-to Arg1:T6 Arg2:T9	
+R13	In_Out Arg1:T9 Arg2:T10	
+R14	Input Arg1:T9 Arg2:T11	
+R15	Apply-to Arg1:T12 Arg2:T13	
+R16	Output Arg1:T15 Arg2:T14	
+R17	Apply-to Arg1:T15 Arg2:T16	
+R18	Output Arg1:T6 Arg2:T7	
+R20	Input Arg1:T20 Arg2:T19	
+R21	Target Arg1:T20 Arg2:T21	
+R22	Output Arg1:T22 Arg2:T21	
+R23	Apply-to Arg1:T23 Arg2:T24	
+R24	from Arg1:T24 Arg2:T27	
+R25	to Arg1:T24 Arg2:T25	
+R26	Output Arg1:T25 Arg2:T26	
+R27	Apply-to Arg1:T26 Arg2:T28	
+R28	Input Arg1:T28 Arg2:T29	
+R29	Attribute Arg1:T31 Arg2:T29	
+T35	IS-A 274 280	namely
+R30	from Arg1:T35 Arg2:T17	
+R31	to Arg1:T35 Arg2:T12	
+T33	PERSON 196 198	we
+T34	PROCESS 199 206	provide
+R19	Agent Arg1:T34 Arg2:T33	
+R32	Output Arg1:T34 Arg2:T12	
+T36	PERSON 324 326	We
+T37	PROCESS 327 331	show
+R33	Agent Arg1:T37 Arg2:T36	
+R34	Output Arg1:T37 Arg2:T20	
+R35	Apply-to Arg1:T1 Arg2:T3	

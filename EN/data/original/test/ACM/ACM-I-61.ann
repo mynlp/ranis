@@ -1,0 +1,241 @@
+T1	QUALITY 0 11	Distributed
+T2	PLAN-OR-PROCESS 12 51	Agent-Based Air Traffic Flow Management
+T3	PLAN-OR-PROCESS 52 79	Air traffic flow management
+T4	PLAN 106 116	challenges
+T5	PROCESS 117 123	facing
+T6	ORGANIZATION 128 159	Federal Aviation Administration
+T7	ORGANIZATION 161 164	FAA
+R1	Equivalence Arg1:T7 Arg2:T6	
+T8	TIME 166 171	today
+T10	PROCESS 181 190	estimates
+T11	TIME 199 203	2005
+T12	QUALITY 204 209	alone
+T13	QUANTITY 222 234	over 322,000
+T15	TIME 244 250	delays
+T16	QUALITY 256 260	cost
+T17	ORGANIZATION 268 276	industry
+T18	QUANTITY 290 311	three billion dollars
+T20	QUALITY 280 286	excess
+T21	QUALITY 321 329	reliable
+T22	QUALITY 334 342	adaptive
+T23	PLAN-OR-PROCESS 343 352	solutions
+T24	PROCESS 313 320	Finding
+T25	PLAN 360 383	flow management problem
+T27	QUALITY 390 410	paramount importance
+T28	PLAN 434 460	Air Transportation Systems
+T29	PROCESS 468 475	achieve
+T30	PLAN 480 491	stated goal
+T31	PROCESS 495 508	accommodating
+T32	QUANTITY 509 520	three times
+T33	QUALITY 533 547	traffic volume
+T34	TIME 525 532	current
+T35	PLAN 549 561	This problem
+T36	QUALITY 578 585	complex
+T37	QUALITY 565 577	particularly
+T38	QUALITY 592 600	requires
+T39	PROCESS 605 616	integration
+T40	PROCESS 624 636	coordination
+T41	THING 645 652	factors
+T42	QUANTITY 640 644	many
+T43	DATA-ITEM 668 672	data
+T44	QUALITY 664 667	new
+T45	DATA-ITEM 689 701	weather info
+T46	QUALITY 680 688	changing
+T47	DATA-ITEM 728 738	priorities
+T48	QUALITY 716 727	conflicting
+T49	QUALITY 704 715	potentially
+T50	ORGANIZATION 756 764	airlines
+T51	QUALITY 746 755	different
+T52	INTELLIGENT-AGENT 775 784	resources
+T53	QUALITY 767 774	limited
+T54	INTELLIGENT-AGENT 792 815	air traffic controllers
+T55	QUALITY 832 846	traffic volume
+T56	QUALITY 821 831	very heavy
+T57	QUANTITY 854 865	over 40,000
+T58	PROCESS 866 873	flights
+T59	LOCATION 883 885	US
+T60	LOCATION 883 894	US airspace
+T62	PLAN 930 956	air traffic flow simulator
+T63	PROCESS 957 966	developed
+T66	PROCESS 979 983	used
+T67	QUALITY 984 995	extensively
+T69	ORGANIZATION 1011 1019	industry
+T70	PROCESS 1026 1030	test
+T71	PLAN 1033 1054	multi-agent algorithm
+T72	PLAN-OR-PROCESS 1059 1082	traffic flow management
+T73	INTELLIGENT-AGENT 1087 1092	agent
+T74	LOCATION 1114 1117	fix
+T75	LOCATION 1121 1138	specific location
+T77	ATTRIBUTE 1096 1106	associated
+T78	PLAN-OR-PROCESS 1160 1166	action
+T79	COMPONENT-OBJECT 1167 1175	consists
+T80	PLAN-OR-PROCESS 1179 1186	setting
+T81	QUALITY 1191 1201	separation
+T82	QUALITY 1202 1210	required
+T83	ARTIFACT 1221 1230	airplanes
+T84	LOCATION 1244 1252	that fix
+T85	PROCESS 1231 1236	going
+R2	Coreference Arg1:T84 Arg2:T74	
+T86	INTELLIGENT-AGENT 1254 1260	Agents
+T87	PROCESS 1261 1264	use
+T88	PLAN 1265 1287	reinforcement learning
+T89	PROCESS 1291 1294	set
+T90	QUALITY 1295 1310	this separation
+R3	Coreference Arg1:T90 Arg2:T81	
+T91	PLAN-OR-PROCESS 1321 1328	actions
+T92	PROCESS 1362 1368	manage
+T93	QUALITY 1369 1379	congestion
+T94	PROCESS 1351 1358	traffic
+T95	PROCESS 1341 1350	slow down
+T96	PROCESS 1329 1337	speed up
+T97	PLAN 1385 1390	FACET
+T98	DATA-ITEM 1385 1404	FACET based results
+T99	INTELLIGENT-AGENT 1415 1421	agents
+T100	PROCESS 1422 1431	receiving
+T101	DATA-ITEM 1432 1452	personalized rewards
+T102	PROCESS 1453 1459	reduce
+T103	QUALITY 1460 1470	congestion
+T104	QUANTITY 1474 1483	up to 45%
+T105	INTELLIGENT-AGENT 1489 1495	agents
+T106	PROCESS 1496 1505	receiving
+T107	DATA-ITEM 1508 1521	global reward
+T108	QUANTITY 1529 1538	up to 67%
+T109	TIME 1546 1553	current
+T110	PLAN 1554 1571	industry approach
+R4	Attribute Arg1:T2 Arg2:T1	
+R6	Attribute Arg1:T15 Arg2:T13	
+R7	Attribute Arg1:T20 Arg2:T18	
+R9	Attribute Arg1:T23 Arg2:T21	
+R10	Attribute Arg1:T23 Arg2:T22	
+T19	QUANTITY 83 86	one
+R11	Attribute Arg1:T23 Arg2:T27	
+T26	QUALITY 418 433	Next Generation
+R12	Attribute Arg1:T28 Arg2:T26	
+R13	Attribute Arg1:T33 Arg2:T34	
+R14	Attribute Arg1:T33 Arg2:T32	
+R15	Attribute Arg1:T36 Arg2:T37	
+R16	Attribute Arg1:T35 Arg2:T36	
+R17	Attribute Arg1:T41 Arg2:T42	
+R18	Attribute Arg1:T43 Arg2:T44	
+R19	Attribute Arg1:T45 Arg2:T46	
+R20	Attribute Arg1:T48 Arg2:T49	
+R21	Attribute Arg1:T47 Arg2:T48	
+R22	Attribute Arg1:T50 Arg2:T51	
+R23	Attribute Arg1:T52 Arg2:T53	
+R24	Attribute Arg1:T55 Arg2:T56	
+R25	Attribute Arg1:T58 Arg2:T57	
+R26	Attribute Arg1:T66 Arg2:T67	
+T113	REFERENCE 1156 1159	its
+R28	Coreference Arg1:T113 Arg2:T73	
+T114	PERSON 1381 1384	Our
+R29	Attribute Arg1:T102 Arg2:T104	
+R30	Attribute Arg1:T102 Arg2:T108	
+R31	Attribute Arg1:T110 Arg2:T109	
+R32	Attribute Arg1:T4 Arg2:T19	
+R8	Coreference Arg1:T35 Arg2:T25	
+T14	REFERENCE 589 591	it
+R33	Coreference Arg1:T14 Arg2:T35	
+T117	PLAN 918 923	FACET
+T118	ORGANIZATION 970 974	NASA
+T119	ORGANIZATION 1003 1006	FAA
+T120	ORGANIZATION 177 180	FAA
+T121	PLAN 1573 1595	Monte Carlo estimation
+T9	REFERENCE 1315 1320	their
+R34	Coreference Arg1:T9 Arg2:T86	
+T65	RESULT 1405 1414	show that
+R35	Poss Arg1:T114 Arg2:T98	
+R36	Poss Arg1:T113 Arg2:T78	
+R37	Poss Arg1:T9 Arg2:T91	
+T68	LOCATION 1142 1150	2D space
+T76	TIME 235 240	hours
+T111	QUALITY 94 105	fundamental
+R27	Attribute Arg1:T4 Arg2:T111	
+T112	IS-A 80 82	is
+R38	from Arg1:T112 Arg2:T3	
+R39	to Arg1:T112 Arg2:T4	
+R40	Destination Arg1:T5 Arg2:T6	
+R41	Apply-to Arg1:T4 Arg2:T5	
+R42	Condition Arg1:T5 Arg2:T8	
+R43	Agent Arg1:T10 Arg2:T120	
+R5	Attribute Arg1:T11 Arg2:T12	
+R44	Attribute Arg1:T16 Arg2:T20	
+R45	Condition Arg1:T16 Arg2:T17	
+R46	Attribute Arg1:T76 Arg2:T13	
+R48	Condition Arg1:T15 Arg2:T11	
+R49	Output Arg1:T10 Arg2:T15	
+R50	Output Arg1:T10 Arg2:T16	
+R51	Output Arg1:T24 Arg2:T23	
+R52	Target Arg1:T23 Arg2:T25	
+T116	MODALITY 461 467	are to
+R53	Attribute Arg1:T29 Arg2:T116	
+R54	Apply-to Arg1:T28 Arg2:T29	
+R55	Output Arg1:T29 Arg2:T30	
+R56	Target Arg1:T31 Arg2:T33	
+R57	Attribute Arg1:T30 Arg2:T31	
+R58	Attribute Arg1:T39 Arg2:T38	
+R59	Attribute Arg1:T40 Arg2:T38	
+R60	Condition Arg1:T38 Arg2:T14	
+R61	Apply-to Arg1:T41 Arg2:T40	
+R62	In_Out Arg1:T39 Arg2:T41	
+T122	IS-A 653 662	including
+R63	from Arg1:T122 Arg2:T43	
+R64	to Arg1:T122 Arg2:T41	
+R65	Is-a Arg1:T45 Arg2:T43	
+R66	from Arg1:T122 Arg2:T47	
+R68	from Arg1:T122 Arg2:T52	
+R69	from Arg1:T122 Arg2:T55	
+R70	Is-a Arg1:T54 Arg2:T52	
+R71	Condition Arg1:T58 Arg2:T60	
+R73	Is-a Arg1:T117 Arg2:T62	
+R74	Output Arg1:T63 Arg2:T62	
+R75	Condition Arg1:T63 Arg2:T118	
+R76	Agent Arg1:T66 Arg2:T119	
+R77	Agent Arg1:T66 Arg2:T69	
+R78	Apply-to Arg1:T62 Arg2:T66	
+T123	PROCESS 914 917	use
+R79	Input Arg1:T123 Arg2:T117	
+R80	Apply-to Arg1:T123 Arg2:T70	
+R81	Input Arg1:T70 Arg2:T71	
+R82	Apply-to Arg1:T71 Arg2:T72	
+R83	Attribute Arg1:T75 Arg2:T68	
+R84	Is-a Arg1:T74 Arg2:T75	
+R85	to Arg1:T77 Arg2:T74	
+R87	In_Out Arg1:T80 Arg2:T81	
+R88	Attribute Arg1:T81 Arg2:T82	
+R89	Condition Arg1:T82 Arg2:T83	
+R90	from Arg1:T79 Arg2:T80	
+R91	to Arg1:T79 Arg2:T78	
+R92	Apply-to Arg1:T83 Arg2:T85	
+R93	Condition Arg1:T85 Arg2:T84	
+R94	Agent Arg1:T87 Arg2:T86	
+R95	Apply-to Arg1:T88 Arg2:T87	
+R96	Apply-to Arg1:T87 Arg2:T89	
+R97	In_Out Arg1:T89 Arg2:T90	
+R98	Apply-to Arg1:T91 Arg2:T96	
+R99	Apply-to Arg1:T91 Arg2:T95	
+R100	In_Out Arg1:T95 Arg2:T94	
+R101	In_Out Arg1:T96 Arg2:T94	
+R102	Target Arg1:T92 Arg2:T93	
+R103	Apply-to Arg1:T95 Arg2:T92	
+R104	Apply-to Arg1:T96 Arg2:T92	
+R105	from Arg1:T65 Arg2:T98	
+R106	In_Out Arg1:T100 Arg2:T101	
+R107	Agent Arg1:T100 Arg2:T99	
+R108	In_Out Arg1:T102 Arg2:T103	
+R109	Agent Arg1:T102 Arg2:T99	
+R110	In_Out Arg1:T106 Arg2:T107	
+R111	Agent Arg1:T106 Arg2:T105	
+R112	Is-a Arg1:T121 Arg2:T110	
+T124	COMPARE 1539 1543	over
+R113	from Arg1:T124 Arg2:T110	
+R114	to Arg1:T124 Arg2:T108	
+R115	to Arg1:T124 Arg2:T104	
+R116	Agent Arg1:T102 Arg2:T105	
+R117	Other-rel Arg1:T65 Arg2:T102	
+T125	MODALITY 411 413	if
+R67	Attribute Arg1:T29 Arg2:T125	
+R72	from Arg1:T77 Arg2:T73	
+T61	PERSON 911 913	we
+T64	REFERENCE 900 910	this paper
+R47	Agent Arg1:T123 Arg2:T61	
+R86	Condition Arg1:T123 Arg2:T64	

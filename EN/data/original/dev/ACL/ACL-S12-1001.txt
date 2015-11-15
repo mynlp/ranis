@@ -1,0 +1,7 @@
+Casting Implicit Role Linking as an Anaphora Resolution Task
+
+Linking implicit semantic roles is a challenging problem in discourse processing.
+Unlike prior work inspired by SRL, we cast this problem as an anaphora resolution task and embed it in an entity-based coreference resolution (CR) architecture.
+Our experiments clearly show that CR-oriented features yield strongest performance exceeding a strong baseline.
+We address the problem of data sparsity by applying heuristic labeling techniques, guided by the anaphoric nature of the phenomenon.
+We achieve performance beyond state-of-the art.

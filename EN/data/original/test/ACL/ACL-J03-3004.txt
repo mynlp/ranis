@@ -1,0 +1,8 @@
+wEBMT: Developing and Validating an Example-Based Machine Translation System Using the World Wide Web
+
+We have developed an example-based machine translation (EBMT) system that uses the World Wide Web for two different purposes: First, we populate the system's memory with translations gathered from rule-based MT systems located on the Web.
+The source strings input to these systems were extracted automatically from an extremely small subset of the rule types in the Penn-II Treebank.
+In subsequent stages, the <source, target> translation pairs obtained are automatically transformed into a series of resources that render the translation process more successful.
+Despite the fact that the output from on-line MT systems is often faulty, we demonstrate in a number of experiments that when used to seed the memories of an EBMT system, they can in fact prove useful in generating translations of high quality in a robust fashion.
+In addition, we demonstrate the relative gain of EBMT in comparison to on-line systems.
+Second, despite the perception that the documents available on the Web are of questionable quality, we demonstrate in contrast that such resources are extremely useful in automatically postediting translation candidates proposed by our system.

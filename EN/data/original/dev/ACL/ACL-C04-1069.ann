@@ -1,0 +1,126 @@
+R1	Attribute Arg1:T58 Arg2:T59
+R2	from Arg1:T61 Arg2:T1
+R3	to Arg1:T61 Arg2:T58
+R4	Apply-to Arg1:T1 Arg2:T2
+R5	Attribute Arg1:T7 Arg2:T6
+R6	Attribute Arg1:T4 Arg2:T5
+R7	Condition Arg1:T5 Arg2:T6
+R8	Attribute Arg1:T9 Arg2:T8
+R9	Condition Arg1:T5 Arg2:T9
+R10	Output Arg1:T3 Arg2:T7
+A1	Self T10
+A2	Self T11
+A3	Intentional T12
+R11	Agent Arg1:T12 Arg2:T11
+R12	Condition Arg1:T12 Arg2:T10
+R13	Output Arg1:T12 Arg2:T13
+R14	Apply-to Arg1:T13 Arg2:T14
+R15	In_Out Arg1:T14 Arg2:T15
+R16	Attribute Arg1:T16 Arg2:T15
+R17	Target Arg1:T17 Arg2:T18
+R18	Output Arg1:T19 Arg2:T18
+R19	Apply-to Arg1:T17 Arg2:T14
+R21	Target Arg1:T20 Arg2:T21
+A4	Self T22
+R22	Attribute Arg1:T24 Arg2:T23
+R23	Agent Arg1:T24 Arg2:T22
+R24	Output Arg1:T24 Arg2:T25
+R25	Input Arg1:T24 Arg2:T26
+R26	Attribute Arg1:T29 Arg2:T28
+R27	In_Out Arg1:T30 Arg2:T31
+R28	Input Arg1:T27 Arg2:T29
+R29	Apply-to Arg1:T27 Arg2:T30
+R30	Attribute Arg1:T33 Arg2:T32
+R31	Component-object Arg1:T33 Arg2:T31
+R32	Component-object Arg1:T34 Arg2:T31
+A5	Self T36
+A6	Intentional T37
+R33	Agent Arg1:T37 Arg2:T36
+R34	Component-object Arg1:T40 Arg2:T39
+R35	Component-object Arg1:T41 Arg2:T39
+R36	Attribute Arg1:T44 Arg2:T43
+R37	Target Arg1:T42 Arg2:T44
+R38	Apply-to Arg1:T37 Arg2:T42
+R39	Input Arg1:T37 Arg2:T39
+R40	Attribute Arg1:T37 Arg2:T35
+R41	Input Arg1:T45 Arg2:T46
+R42	from Arg1:T47 Arg2:T45
+A7	Judgment T51
+A8	Judgment T49
+R43	Attribute Arg1:T49 Arg2:T48
+R44	Attribute Arg1:T51 Arg2:T50
+R45	Attribute Arg1:T52 Arg2:T51
+R46	Attribute Arg1:T52 Arg2:T49
+R48	Attribute Arg1:T54 Arg2:T53
+R49	Output Arg1:T54 Arg2:T51
+R50	Output Arg1:T54 Arg2:T49
+R51	to Arg1:T47 Arg2:T54
+A9	Intentional T24
+R20	Agent Arg1:T27 Arg2:T22
+A10	Intentional T27
+R47	Condition Arg1:T51 Arg2:T57
+R52	Condition Arg1:T49 Arg2:T55
+R53	Apply-to Arg1:T24 Arg2:T20
+R54	Apply-to Arg1:T27 Arg2:T20
+R55	Attribute Arg1:T19 Arg2:T38
+A11	Name T60
+T1	PLAN 0 19	Document Re-Ranking
+T61	INPUT 20 28	Based On
+T59	QUALITY 29 51	Automatically Acquired
+T58	DATA-ITEM 52 61	Key Terms
+T60	LANGUAGE 65 72	Chinese
+T2	PLAN-OR-PROCESS 65 94	Chinese Information Retrieval
+T3	PLAN-OR-PROCESS 101 122	Information Retrieval
+T4	PERSON 125 130	users
+T5	QUALITY 135 149	more concerned
+T6	DATA-ITEM 160 169	precision
+T7	DATA-ITEM 173 194	top ranking documents
+T8	QUALITY 198 212	most practical
+T9	DATA-ITEM 213 223	situations
+T10	REFERENCE 229 239	this paper
+T11	PERSON 242 244	we
+T12	PROCESS 245 252	propose
+T13	PLAN 255 261	method
+T14	PROCESS 265 272	improve
+T15	DATA-ITEM 277 286	precision
+T16	DATA-ITEM 290 313	top N ranking documents
+T17	PROCESS 317 327	reordering
+T18	DATA-ITEM 332 351	retrieved documents
+T38	QUALITY 361 368	initial
+T19	PLAN-OR-PROCESS 369 378	retrieval
+T20	PROCESS 384 391	reorder
+T21	DATA-ITEM 392 401	documents
+T22	PERSON 404 406	we
+T23	QUALITY 413 426	automatically
+T24	PROCESS 427 434	extract
+T25	DATA-ITEM 435 451	Global Key Terms
+T26	DATA-ITEM 457 469	document set
+T27	PROCESS 477 480	use
+T28	QUALITY 481 490	extracted
+T29	DATA-ITEM 491 507	Global Key Terms
+T30	PROCESS 511 519	identify
+T31	DATA-ITEM 520 535	Local Key Terms
+T32	QUANTITY 541 547	single
+T33	DATA-ITEM 548 556	document
+T34	DATA-ITEM 560 571	query topic
+T35	QUALITY 574 581	finally
+T36	PERSON 582 584	we
+T37	PROCESS 585 593	make use
+T39	DATA-ITEM 597 612	Local Key Terms
+T40	DATA-ITEM 616 621	query
+T41	DATA-ITEM 626 635	documents
+T42	PROCESS 639 646	reorder
+T43	QUALITY 651 658	initial
+T44	DATA-ITEM 659 676	ranking documents
+T45	PLAN 683 693	experiment
+T46	DATA-ITEM 699 718	NTCIR3 CLIR dataset
+T47	RESULT 719 724	shows
+T48	QUANTITY 733 752	average 10 % - 11 %
+T49	QUALITY 753 764	improvement
+T50	QUANTITY 769 778	2 % - 5 %
+T51	QUALITY 779 790	improvement
+T52	DATA-ITEM 794 803	precision
+T53	MODALITY 804 807	can
+T54	PROCESS 811 819	achieved
+T55	DATA-ITEM 823 829	top 10
+T57	DATA-ITEM 834 861	100 ranking documents level

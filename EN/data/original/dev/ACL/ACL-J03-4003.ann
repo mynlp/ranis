@@ -1,0 +1,180 @@
+T1	RESULT 231 238	leading
+T2	PROCESS 278 289	represented
+T3	OUTPUT 416 420	lead
+T4	PLAN-OR-PROCESS 440 446	encode
+T5	PROCESS 484 492	ordering
+T6	PROCESS 641 650	expressed
+T7	PROCESS 668 679	conditioned
+T8	PROCESS 713 722	evaluated
+T9	PROCESS 848 852	gain
+T10	PROCESS 998 1008	recovering
+T12	PROCESS 1133 1143	collecting
+T13	PLAN-OR-PROCESS 1309 1316	parsing
+T15	PROCESS 1341 1345	give
+T16	PROCESS 899 903	give
+T17	PROCESS 1254 1261	compare
+T18	APPLY-TO 1298 1305	applied
+T21	QUALITY 855 861	better
+T22	QUALITY 915 924	different
+T23	QUALITY 1009 1016	various
+T24	QUALITY 1051 1058	various
+T25	QUALITY 1159 1166	various
+T26	QUALITY 1370 1380	difference
+T27	QUALITY 1403 1410	various
+T28	QUANTITY 84 89	three
+T29	PLAN 0 30	Head-Driven Statistical Models
+T30	PLAN-OR-PROCESS 35 59	Natural Language Parsing
+T31	PLAN 90 108	statistical models
+T32	PLAN-OR-PROCESS 113 137	natural language parsing
+T33	PLAN 143 149	models
+T34	PLAN 157 164	methods
+T35	PLAN 170 205	probabilistic context-free grammars
+T36	PLAN 209 229	lexicalized grammars
+T37	PLAN 242 252	approaches
+T38	DATA-ITEM 264 274	parse tree
+T39	PLAN 297 305	sequence
+T40	PLAN 309 318	decisions
+T42	PLAN-OR-PROCESS 338 372	head-centered, top-down derivation
+T43	PLAN 386 410	Independence assumptions
+T44	PLAN 451 463	X-bar schema
+T45	PLAN-OR-PROCESS 465 482	subcategorization
+T46	DATA-ITEM 496 507	complements
+T47	DATA-ITEM 522 530	adjuncts
+T48	DATA-ITEM 532 559	bigram lexical dependencies
+T49	PROCESS 561 572	wh-movement
+T50	PLAN 578 589	preferences
+T51	PLAN-OR-PROCESS 594 610	close attachment
+T52	PLAN 619 636	these preferences
+T53	DATA-ITEM 654 667	probabilities
+T54	DATA-ITEM 683 696	lexical heads
+T55	PLAN 702 708	models
+T56	DATA-ITEM 784 792	accuracy
+T57	PLAN 819 825	models
+T58	EXTERNAL-REFERENCE 833 843	literature
+T59	OCCURENT 862 875	understanding
+T60	PLAN 883 889	models
+T61	DATA-ITEM 904 911	results
+T62	DATA-ITEM 925 942	constituent types
+T63	DATA-ITEM 957 966	breakdown
+T64	DATA-ITEM 970 994	precision/recall results
+T65	DATA-ITEM 1017 1022	types
+T66	DATA-ITEM 1026 1038	dependencies
+T67	QUALITY 1059 1074	characteristics
+T68	PLAN 1082 1088	models
+T69	PLAN-OR-PROCESS 1097 1108	experiments
+T70	DATA-ITEM 1112 1128	parsing accuracy
+T71	DATA-ITEM 1144 1155	frequencies
+T72	DATA-ITEM 1167 1177	structures
+T73	DATA-ITEM 1185 1193	treebank
+T74	DATA-ITEM 1207 1240	linguistically motivated examples
+T75	PLAN 1266 1272	models
+T76	DATA-ITEM 1321 1329	treebank
+T77	DATA-ITEM 1351 1362	explanation
+T78	QUALITY 1384 1395	performance
+T79	PLAN 1411 1417	models
+R1	Attribute Arg1:T31 Arg2:T28	
+T80	PROCESS 150 156	extend
+T81	IS-A 319 332	corresponding
+T82	DATA-ITEM 380 384	tree
+T83	DATA-ITEM 424 434	parameters
+T84	PROCESS 509 518	placement
+T85	REFERENCE 778 783	their
+R2	Coreference Arg1:T85 Arg2:T55	
+T86	QUALITY 796 807	competitive
+R3	Attribute Arg1:T56 Arg2:T86	
+R4	Attribute Arg1:T59 Arg2:T21	
+R5	Attribute Arg1:T62 Arg2:T22	
+R6	Attribute Arg1:T65 Arg2:T23	
+R7	Attribute Arg1:T67 Arg2:T24	
+R8	Attribute Arg1:T72 Arg2:T25	
+T87	PLAN 1276 1282	others
+R9	Attribute Arg1:T79 Arg2:T27	
+T19	DATA-ITEM 730 763	Penn Wall Street Journal Treebank
+R10	Member-collection Arg1:T40 Arg2:T39	
+T11	QUANTITY 612 615	All
+R11	Attribute Arg1:T52 Arg2:T11	
+R12	Component-object Arg1:T63 Arg2:T64	
+T20	REFERENCE 256 261	which
+R13	Coreference Arg1:T20 Arg2:T37	
+T88	REFERENCE 435 439	that
+R14	Coreference Arg1:T88 Arg2:T83	
+T90	REFERENCE 1283 1287	that
+R15	Coreference Arg1:T90 Arg2:T87	
+R16	Attribute Arg1:T85 Arg2:T56	
+R17	Apply-to Arg1:T29 Arg2:T30	
+R18	Apply-to Arg1:T31 Arg2:T32	
+R19	Apply-to Arg1:T33 Arg2:T80	
+R20	In_Out Arg1:T80 Arg2:T34	
+R21	Input Arg1:T80 Arg2:T35	
+R22	Output Arg1:T80 Arg2:T36	
+R23	from Arg1:T1 Arg2:T80	
+R24	Input Arg1:T2 Arg2:T38	
+R25	Output Arg1:T2 Arg2:T39	
+R26	from Arg1:T81 Arg2:T39	
+R27	Output Arg1:T42 Arg2:T82	
+R28	to Arg1:T81 Arg2:T42	
+R29	to Arg1:T1 Arg2:T37	
+R30	Other-rel Arg1:T20 Arg2:T2	
+R31	to Arg1:T3 Arg2:T83	
+R32	from Arg1:T3 Arg2:T43	
+R33	In_Out Arg1:T5 Arg2:T46	
+R34	In_Out Arg1:T84 Arg2:T47	
+R35	Input Arg1:T4 Arg2:T88	
+R36	Output Arg1:T4 Arg2:T44	
+R37	Output Arg1:T4 Arg2:T45	
+R38	Output Arg1:T4 Arg2:T5	
+R39	Output Arg1:T4 Arg2:T84	
+R40	Output Arg1:T4 Arg2:T48	
+R41	Output Arg1:T4 Arg2:T49	
+R42	Attribute Arg1:T50 Arg2:T51	
+R43	Output Arg1:T4 Arg2:T50	
+R46	Input Arg1:T6 Arg2:T53	
+R47	Output Arg1:T6 Arg2:T52	
+R48	Input Arg1:T8 Arg2:T55	
+R49	Input Arg1:T8 Arg2:T19	
+R50	Compare Arg1:T57 Arg2:T86	
+R51	Other-rel Arg1:T57 Arg2:T58	
+R52	Attribute Arg1:T60 Arg2:T59	
+R53	Output Arg1:T9 Arg2:T59	
+R54	Apply-to Arg1:T16 Arg2:T9	
+R55	Output Arg1:T16 Arg2:T61	
+R56	Output Arg1:T16 Arg2:T63	
+R57	Attribute Arg1:T66 Arg2:T65	
+R58	Output Arg1:T10 Arg2:T66	
+R59	Condition Arg1:T10 Arg2:T63	
+R60	Attribute Arg1:T68 Arg2:T67	
+R61	Output Arg1:T69 Arg2:T70	
+R62	Input Arg1:T12 Arg2:T71	
+R63	Attribute Arg1:T72 Arg2:T71	
+R64	Component-object Arg1:T72 Arg2:T73	
+T41	PROCESS 1043 1050	analyze
+R65	Input Arg1:T41 Arg2:T67	
+R66	Apply-to Arg1:T12 Arg2:T41	
+T93	APPLY-TO 1089 1096	through
+R67	from Arg1:T93 Arg2:T69	
+R68	to Arg1:T93 Arg2:T41	
+T94	INPUT 1199 1206	through
+R69	from Arg1:T94 Arg2:T41	
+R70	to Arg1:T94 Arg2:T74	
+R71	Input Arg1:T17 Arg2:T75	
+R72	Input Arg1:T17 Arg2:T87	
+R73	from Arg1:T18 Arg2:T90	
+R74	to Arg1:T18 Arg2:T13	
+R75	Input Arg1:T13 Arg2:T76	
+R76	Output Arg1:T15 Arg2:T77	
+R78	Attribute Arg1:T78 Arg2:T26	
+R79	Attribute Arg1:T79 Arg2:T78	
+R77	Apply-to Arg1:T17 Arg2:T15	
+R44	Other-rel Arg1:T7 Arg2:T53	
+R45	Other-rel Arg1:T7 Arg2:T54	
+R80	Attribute Arg1:T77 Arg2:T26	
+T14	PERSON 891 893	we
+R81	Agent Arg1:T16 Arg2:T14	
+T89	PERSON 1040 1042	We
+R82	Agent Arg1:T41 Arg2:T89	
+T91	PERSON 1251 1253	we
+R83	Agent Arg1:T17 Arg2:T91	
+T92	REFERENCE 61 73	This article
+T95	PROCESS 74 83	describes
+R84	Condition Arg1:T95 Arg2:T92	
+R85	Output Arg1:T95 Arg2:T31	

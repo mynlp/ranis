@@ -1,0 +1,202 @@
+T3	DATA-ITEM 57 66	Resources
+T4	QUALITY 47 56	Identical
+T5	PLAN 83 88	class
+T6	QUALITY 79 82	new
+T7	PLAN 92 97	games
+T8	PLAN 99 144	congestion games with load-dependent failures
+T9	PLAN 146 151	CGLFs
+R1	Equivalence Arg1:T9 Arg2:T8	
+T2	PROCESS 160 171	generalizes
+T10	PLAN 187 192	class
+T11	QUALITY 176 186	well-known
+T12	PLAN 196 212	congestion games
+T13	PROCESS 217 230	incorporating
+T14	PLAN 235 240	issue
+T15	PLAN-OR-PROCESS 244 261	resource failures
+T16	PLAN 267 283	congestion games
+T18	INTELLIGENT-AGENT 296 302	agents
+T19	PROCESS 303 308	share
+T20	DATA-ITEM 311 321	common set
+T21	DATA-ITEM 325 334	resources
+T22	DATA-ITEM 347 355	resource
+T23	DATA-ITEM 362 366	cost
+T24	DATA-ITEM 373 384	probability
+T25	PLAN-OR-PROCESS 388 395	failure
+T26	INTELLIGENT-AGENT 402 407	agent
+T27	PROCESS 408 415	chooses
+T28	DATA-ITEM 418 424	subset
+T29	DATA-ITEM 432 441	resources
+T30	PLAN-OR-PROCESS 450 459	execution
+T31	PLAN 467 471	task
+T32	PROCESS 485 493	maximize
+T33	DATA-ITEM 502 509	utility
+T34	QUALITY 515 522	utility
+T35	INTELLIGENT-AGENT 529 534	agent
+T36	QUALITY 542 552	difference
+T37	DATA-ITEM 565 572	benefit
+T38	PLAN-OR-PROCESS 589 604	task completion
+T39	QUALITY 578 588	successful
+T40	DATA-ITEM 613 616	sum
+T41	DATA-ITEM 624 629	costs
+T42	DATA-ITEM 639 648	resources
+T43	REFERENCE 649 651	he
+T44	PROCESS 652 656	uses
+T46	ATTRIBUTE 664 671	possess
+T47	QUANTITY 672 675	two
+T48	QUALITY 676 681	novel
+T49	QUALITY 682 690	features
+T50	PLAN 708 713	model
+T51	QUALITY 702 707	first
+T52	PROCESS 717 728	incorporate
+T53	PLAN-OR-PROCESS 729 737	failures
+T54	THING 743 762	congestion settings
+T55	RESULT 770 777	results
+T56	REFERENCE 764 769	which
+T57	QUALITY 783 789	strict
+T58	PLAN-OR-PROCESS 790 804	generalization
+T59	PLAN 808 824	congestion games
+T60	PLAN 855 860	model
+T61	QUALITY 849 854	first
+T62	PLAN-OR-PROCESS 873 896	load-dependent failures
+T63	PROCESS 864 872	consider
+T64	PLAN 905 914	framework
+T65	DATA-ITEM 926 945	failure probability
+T66	DATA-ITEM 954 962	resource
+T67	RESULT 963 970	depends
+T68	QUANTITY 978 984	number
+T69	INTELLIGENT-AGENT 988 994	agents
+T70	PROCESS 995 1004	selecting
+T71	DATA-ITEM 1005 1018	this resource
+R2	Coreference Arg1:T71 Arg2:T66	
+T73	MODALITY 1051 1054	not
+T74	PROCESS 1055 1060	admit
+T76	PLAN 1063 1081	potential function
+T77	MODALITY 1101 1104	not
+T78	QUALITY 1087 1097	in general
+T79	ATTRIBUTE 1105 1109	have
+T80	PERSON 1126 1130	Nash
+T81	PLAN 1112 1142	pure strategy Nash equilibrium
+T82	PLAN 1153 1160	theorem
+T83	PROCESS 1161 1167	proves
+T84	QUALITY 1172 1181	existence
+T85	PLAN 1187 1217	pure strategy Nash equilibrium
+T86	PERSON 1201 1205	Nash
+T88	DATA-ITEM 1247 1256	resources
+T89	QUALITY 1237 1246	identical
+T90	QUALITY 1261 1274	nondecreasing
+T91	PLAN 1275 1289	cost functions
+T92	PLAN 0 45	Congestion Games with Load-Dependent Failures
+T95	PLAN 1042 1047	CGLFs
+R3	Coreference Arg1:T56 Arg2:T52	
+T97	PLAN 1227 1231	CGLF
+T98	PLAN 658 663	CGLFs
+R4	Attribute Arg1:T3 Arg2:T4	
+R5	Attribute Arg1:T5 Arg2:T6	
+R6	Attribute Arg1:T10 Arg2:T11	
+T99	REFERENCE 463 466	his
+R7	Coreference Arg1:T99 Arg2:T26	
+T100	REFERENCE 494 501	his own
+R8	Coreference Arg1:T100 Arg2:T99	
+R9	Coreference Arg1:T43 Arg2:T101	
+T101	REFERENCE 561 564	his
+R10	Coreference Arg1:T101 Arg2:T35	
+R11	Attribute Arg1:T38 Arg2:T39	
+R12	Attribute Arg1:T49 Arg2:T48	
+R13	Attribute Arg1:T49 Arg2:T47	
+R14	Attribute Arg1:T50 Arg2:T51	
+R15	Attribute Arg1:T58 Arg2:T57	
+R16	Attribute Arg1:T60 Arg2:T61	
+R17	Attribute Arg1:T74 Arg2:T73	
+R19	Attribute Arg1:T79 Arg2:T78	
+R20	Attribute Arg1:T79 Arg2:T77	
+T102	PERSON 1144 1147	our
+R21	Attribute Arg1:T88 Arg2:T89	
+R22	Attribute Arg1:T91 Arg2:T90	
+R23	Member-collection Arg1:T21 Arg2:T20	
+T103	PLAN 290 294	CGLF
+T75	REFERENCE 692 694	It
+R18	Coreference Arg1:T75 Arg2:T98	
+T104	REFERENCE 839 841	it
+R24	Coreference Arg1:T104 Arg2:T75	
+T1	REFERENCE 154 159	which
+R25	Coreference Arg1:T1 Arg2:T5	
+R26	Poss Arg1:T102 Arg2:T82	
+R27	Poss Arg1:T101 Arg2:T37	
+T93	REFERENCE 916 921	where
+R28	Coreference Arg1:T93 Arg2:T64	
+R29	Attribute Arg1:T69 Arg2:T68	
+T94	QUALITY 1148 1152	main
+R30	Attribute Arg1:T82 Arg2:T94	
+R31	Member-collection Arg1:T5 Arg2:T7	
+R32	Member-collection Arg1:T8 Arg2:T5	
+R33	In_Out Arg1:T2 Arg2:T10	
+R34	Member-collection Arg1:T10 Arg2:T12	
+R35	Apply-to Arg1:T1 Arg2:T2	
+R36	Attribute Arg1:T14 Arg2:T15	
+R37	Output Arg1:T13 Arg2:T14	
+R38	Destination Arg1:T13 Arg2:T16	
+R39	Apply-to Arg1:T13 Arg2:T2	
+R41	Target Arg1:T19 Arg2:T20	
+R42	Condition Arg1:T19 Arg2:T103	
+R43	Attribute Arg1:T24 Arg2:T25	
+T96	ATTRIBUTE 356 359	has
+R44	from Arg1:T96 Arg2:T22	
+R45	to Arg1:T96 Arg2:T23	
+R46	to Arg1:T96 Arg2:T24	
+R47	Member-collection Arg1:T22 Arg2:T20	
+R48	Attribute Arg1:T23 Arg2:T25	
+R50	Member-collection Arg1:T29 Arg2:T28	
+R51	In_Out Arg1:T27 Arg2:T28	
+R52	Apply-to Arg1:T27 Arg2:T30	
+R53	Poss Arg1:T99 Arg2:T31	
+R40	Agent Arg1:T19 Arg2:T18	
+R49	Agent Arg1:T27 Arg2:T26	
+R54	Output Arg1:T30 Arg2:T31	
+R55	Poss Arg1:T100 Arg2:T33	
+R56	In_Out Arg1:T32 Arg2:T33	
+R57	Apply-to Arg1:T27 Arg2:T32	
+R58	Attribute Arg1:T35 Arg2:T34	
+R59	Attribute Arg1:T41 Arg2:T40	
+R60	Output Arg1:T38 Arg2:T37	
+R61	Agent Arg1:T44 Arg2:T43	
+R62	Target Arg1:T44 Arg2:T42	
+R63	Attribute Arg1:T42 Arg2:T41	
+R64	Attribute Arg1:T37 Arg2:T36	
+R65	Compare Arg1:T40 Arg2:T36	
+R67	from Arg1:T46 Arg2:T98	
+R68	to Arg1:T46 Arg2:T49	
+R66	Is-a Arg1:T34 Arg2:T36	
+R69	Is-a Arg1:T104 Arg2:T60	
+R70	Is-a Arg1:T75 Arg2:T50	
+R71	Apply-to Arg1:T60 Arg2:T63	
+R72	Apply-to Arg1:T50 Arg2:T52	
+R73	Output Arg1:T52 Arg2:T53	
+R74	Condition Arg1:T52 Arg2:T54	
+R75	from Arg1:T55 Arg2:T56	
+R76	to Arg1:T55 Arg2:T58	
+R77	Output Arg1:T58 Arg2:T59	
+R78	Target Arg1:T63 Arg2:T62	
+R79	Condition Arg1:T62 Arg2:T64	
+R80	Attribute Arg1:T66 Arg2:T65	
+R81	from Arg1:T67 Arg2:T68	
+R82	to Arg1:T67 Arg2:T65	
+R83	In_Out Arg1:T70 Arg2:T71	
+R84	Agent Arg1:T70 Arg2:T69	
+R85	Condition Arg1:T67 Arg2:T93	
+R86	Apply-to Arg1:T95 Arg2:T74	
+R87	Target Arg1:T74 Arg2:T76	
+R88	from Arg1:T79 Arg2:T95	
+R89	to Arg1:T79 Arg2:T81	
+R90	Apply-to Arg1:T82 Arg2:T83	
+R91	Output Arg1:T83 Arg2:T84	
+R92	Attribute Arg1:T85 Arg2:T84	
+R93	Attribute Arg1:T97 Arg2:T85	
+R94	Condition Arg1:T84 Arg2:T88	
+R95	Condition Arg1:T84 Arg2:T91	
+T17	PERSON 67 69	We
+T45	PROCESS 70 76	define
+T72	PERSON 1033 1035	we
+T87	PROCESS 1036 1040	show
+R96	Agent Arg1:T45 Arg2:T17	
+R97	Output Arg1:T45 Arg2:T5	
+R98	Agent Arg1:T87 Arg2:T72	

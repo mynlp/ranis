@@ -1,0 +1,57 @@
+T1	PLAN 0 4	VSEM
+T2	PLAN 9 21	open library
+T3	PLAN-OR-PROCESS 26 57	visual semantics representation
+T5	PLAN 70 82	open library
+T6	PLAN-OR-PROCESS 87 104	visual se-mantics
+T7	INPUT 106 114	Starting
+T8	DATA-ITEM 122 132	collection
+T9	DATA-ITEM 136 149	tagged images
+T10	MODALITY 158 166	possible
+T11	PROCESS 184 193	construct
+T12	QUALITY 170 183	automatically
+T13	DATA-ITEM 197 223	image-based representation
+T14	DATA-ITEM 227 235	concepts
+T15	APPLY-TO 239 244	using
+T16	PLAN 259 263	VSEM
+T17	PLAN 245 279	off-the-shelf VSEM functionalities
+T19	PROCESS 298 305	written
+T20	QUALITY 289 297	entirely
+T22	PLAN 324 346	object-oriented design
+T23	ATTRIBUTE 347 353	allows
+T25	QUALITY 356 373	large flexibility
+T26	QUALITY 356 361;378 389	large reusability
+T27	PLAN 395 403	software
+T28	PROCESS 407 418	accompanied
+T29	DATA-ITEM 424 431	website
+T30	DATA-ITEM 437 461	supporting documentation
+T31	DATA-ITEM 466 474	examples
+T33	PLAN 59 63	VSEM
+R1	Attribute Arg1:T11 Arg2:T12	
+T34	PLAN 281 285	VSEM
+T35	PLAN 309 315	MATLAB
+R2	Coreference Arg1:T27 Arg2:T34	
+R3	Member-collection Arg1:T9 Arg2:T8	
+R5	Is-a Arg1:T1 Arg2:T2	
+R6	Apply-to Arg1:T2 Arg2:T3	
+R7	Is-a Arg1:T33 Arg2:T5	
+R8	Apply-to Arg1:T5 Arg2:T6	
+R9	Output Arg1:T11 Arg2:T13	
+R10	Attribute Arg1:T14 Arg2:T13	
+R11	Attribute Arg1:T19 Arg2:T20	
+R12	to Arg1:T7 Arg2:T8	
+R13	from Arg1:T7 Arg2:T11	
+R14	from Arg1:T15 Arg2:T17	
+R15	to Arg1:T15 Arg2:T11	
+T4	REFERENCE 320 323	its
+R16	Coreference Arg1:T4 Arg2:T34	
+R17	Attribute Arg1:T4 Arg2:T22	
+R18	from Arg1:T23 Arg2:T22	
+R19	to Arg1:T23 Arg2:T26	
+R20	to Arg1:T23 Arg2:T25	
+R21	Apply-to Arg1:T35 Arg2:T19	
+R22	Output Arg1:T19 Arg2:T34	
+R23	Component-object Arg1:T30 Arg2:T29	
+R24	Component-object Arg1:T31 Arg2:T29	
+R25	Output Arg1:T28 Arg2:T27	
+R26	Destination Arg1:T28 Arg2:T29	
+R4	Attribute Arg1:T11 Arg2:T10	

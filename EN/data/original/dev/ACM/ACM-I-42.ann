@@ -1,0 +1,207 @@
+T1	PROCESS 173 178	model
+T2	PROCESS 417 424	handles
+T3	PROCESS 493 499	solves
+T4	COMPONENT-OBJECT 536 543	include
+T5	PROCESS 605 611	solves
+T6	APPLY-TO 663 668	using
+T7	APPLY-TO 732 737	using
+T8	IS-A 754 763	including
+T9	PROCESS 981 989	generate
+T10	APPLY-TO 1015 1020	using
+T11	JUDGING-PROCESS 1057 1067	outperform
+T12	PROCESS 1124 1132	generate
+T13	PROCESS 1149 1155	choose
+T14	PROCESS 700 707	compare
+T15	COMPARE 1305 1313	compared
+T16	MODALITY 169 172	can
+T17	MODALITY 965 968	not
+T19	MODALITY 1052 1056	will
+T20	QUALITY 179 186	complex
+T21	QUALITY 330 341	traditional
+T22	QUALITY 567 575	separate
+T24	QUALITY 673 677	same
+T25	QUALITY 969 977	possible
+T27	QUALITY 1247 1258	significant
+T28	QUANTITY 1101 1109	multiple
+T29	QUANTITY 1213 1217	some
+T30	PLAN 11 53	Distributed Constraint Optimization Method
+T31	DATA-ITEM 58 97	Non-Traditional Pseudotree Arrangements
+T32	PLAN 98 133	Distributed Constraint Optimization
+T33	PLAN 135 139	DCOP
+T34	PLAN 154 163	framework
+T35	PLAN 187 195	problems
+T36	PLAN 199 218	multi-agent systems
+T37	PLAN 228 246	current algorithms
+T38	PLAN 266 280	DCOP instances
+T40	INTELLIGENT-AGENT 316 322	agents
+T41	DATA-ITEM 342 362	pseudotree structure
+T42	PLAN 380 389	extension
+T43	PLAN 397 411	DPOP algorithm
+T44	DATA-ITEM 428 440	extended set
+T45	DATA-ITEM 444 467	pseudotree arrangements
+T46	PLAN 473 482	algorithm
+T47	PLAN 500 514	DCOP instances
+T48	DATA-ITEM 519 530	pseudotrees
+T49	DATA-ITEM 544 549	edges
+T50	DATA-ITEM 558 563	nodes
+T51	DATA-ITEM 576 584	branches
+T52	PLAN 590 599	algorithm
+T53	DATA-ITEM 612 621	instances
+T54	DATA-ITEM 639 662	pseudotree arrangements
+T55	PLAN 678 687	procedure
+T57	PLAN 712 721	algorithm
+T58	PLAN 746 753	metrics
+T59	DATA-ITEM 776 781	width
+T60	DATA-ITEM 789 800	pseudotrees
+T61	DATA-ITEM 806 828	maximum dimensionality
+T62	DATA-ITEM 832 840	messages
+T63	PLAN-OR-PROCESS 845 856	computation
+T64	DATA-ITEM 866 894	maximum sequential path cost
+T65	PLAN 907 916	algorithm
+T66	PLAN 941 958	problem instances
+T67	DATA-ITEM 992 1014	traditional pseudotree
+T68	PLAN 1021 1046	edge-traversal heuristics
+T69	DATA-ITEM 1070 1092	cross-edged pseudotree
+T70	PLAN 1110 1120	heuristics
+T71	DATA-ITEM 1133 1144	pseudotrees
+T72	QUALITY 1179 1207	linear space-time complexity
+T73	PLAN 1218 1235	problem instances
+T75	DATA-ITEM 1275 1282;1299 1304	message sizes
+T76	DATA-ITEM 1287 1304	computation sizes
+T77	QUALITY 2 10	Complete
+R1	Attribute Arg1:T30 Arg2:T77	
+R2	Equivalence Arg1:T33 Arg2:T32	
+R3	Attribute Arg1:T1 Arg2:T16	
+R4	Attribute Arg1:T35 Arg2:T20	
+T78	QUANTITY 220 227	Several
+R5	Attribute Arg1:T37 Arg2:T78	
+T79	PROCESS 252 257	solve
+T80	PLAN 266 270	DCOP
+T82	PROCESS 308 315	arrange
+R6	Attribute Arg1:T41 Arg2:T21	
+T83	PLAN 397 401	DPOP
+T84	PLAN 500 504	DCOP
+R7	Attribute Arg1:T51 Arg2:T22	
+R8	Attribute Arg1:T55 Arg2:T24	
+T23	PLAN 727 731	DPOP
+T85	QUANTITY 738 745	several
+R9	Attribute Arg1:T58 Arg2:T85	
+T86	PROCESS 768 775	induced
+R10	Attribute Arg1:T25 Arg2:T17	
+R11	Attribute Arg1:T9 Arg2:T25	
+R12	Attribute Arg1:T11 Arg2:T19	
+R13	Attribute Arg1:T70 Arg2:T28	
+T18	QUALITY 1160 1164	best
+T26	DATA-ITEM 1165 1175	pseudotree
+R14	Attribute Arg1:T26 Arg2:T18	
+R15	Attribute Arg1:T73 Arg2:T29	
+T88	QUANTITY 936 940	some
+R16	Attribute Arg1:T66 Arg2:T88	
+T90	PLAN 1317 1321	DPOP
+R18	Apply-to Arg1:T30 Arg2:T31	
+T91	QUALITY 146 153	general
+R19	Attribute Arg1:T34 Arg2:T91	
+T92	REFERENCE 164 168	that
+R22	Coreference Arg1:T92 Arg2:T34	
+R23	Apply-to Arg1:T92 Arg2:T1	
+R24	In_Out Arg1:T1 Arg2:T35	
+R26	Target Arg1:T79 Arg2:T38	
+R29	Target Arg1:T82 Arg2:T40	
+R30	Destination Arg1:T82 Arg2:T41	
+R31	Apply-to Arg1:T37 Arg2:T82	
+T93	PROCESS 367 376	introduce
+R32	Output Arg1:T93 Arg2:T42	
+R33	Destination Arg1:T93 Arg2:T43	
+R35	In_Out Arg1:T3 Arg2:T47	
+R34	Apply-to Arg1:T46 Arg2:T3	
+R37	Condition Arg1:T49 Arg2:T50	
+R40	Attribute Arg1:T47 Arg2:T48	
+R41	Apply-to Arg1:T52 Arg2:T5	
+R42	In_Out Arg1:T5 Arg2:T53	
+R43	Attribute Arg1:T53 Arg2:T54	
+R46	Input Arg1:T14 Arg2:T57	
+R47	Input Arg1:T14 Arg2:T23	
+R50	In_Out Arg1:T86 Arg2:T59	
+R51	Attribute Arg1:T60 Arg2:T59	
+R53	Attribute Arg1:T62 Arg2:T61	
+R54	Attribute Arg1:T63 Arg2:T61	
+R56	Attribute Arg1:T65 Arg2:T64	
+R57	Output Arg1:T9 Arg2:T67	
+T87	REFERENCE 1047 1051	that
+R59	Coreference Arg1:T87 Arg2:T68	
+R60	Attribute Arg1:T87 Arg2:T11	
+R61	Compare Arg1:T69 Arg2:T11	
+R64	Output Arg1:T12 Arg2:T71	
+R67	Output Arg1:T13 Arg2:T26	
+T74	QUALITY 1259 1271	improvements
+R17	Attribute Arg1:T74 Arg2:T27	
+R68	Attribute Arg1:T75 Arg2:T74	
+R69	Attribute Arg1:T76 Arg2:T74	
+R70	Compare Arg1:T90 Arg2:T74	
+T89	PLAN 11 46	Distributed Constraint Optimization
+T95	REFERENCE 247 251	that
+R72	Coreference Arg1:T95 Arg2:T37	
+T96	PLAN 292 297	ADOPT
+T97	PLAN 302 306	DPOP
+R73	Member-collection Arg1:T45 Arg2:T44	
+T98	PERSON 469 472	Our
+T99	QUALITY 627 638	traditional
+R74	Attribute Arg1:T54 Arg2:T99	
+T100	PLAN 691 695	DPOP
+T101	PERSON 708 711	our
+R20	Compare Arg1:T100 Arg2:T24	
+T39	REFERENCE 412 416	that
+R27	Coreference Arg1:T39 Arg2:T42	
+T56	REFERENCE 531 535	that
+R28	Coreference Arg1:T56 Arg2:T48	
+R36	Poss Arg1:T98 Arg2:T46	
+R38	Poss Arg1:T101 Arg2:T57	
+T102	QUALITY 258 265	general
+R25	Attribute Arg1:T38 Arg2:T102	
+T94	PROCESS 1097 1100	use
+R39	Is-a Arg1:T32 Arg2:T34	
+R21	Condition Arg1:T35 Arg2:T36	
+R45	Apply-to Arg1:T95 Arg2:T79	
+T104	IS-A 282 291	including
+R52	to Arg1:T104 Arg2:T37	
+R55	from Arg1:T104 Arg2:T96	
+R75	from Arg1:T104 Arg2:T97	
+R76	Apply-to Arg1:T39 Arg2:T2	
+R77	Target Arg1:T2 Arg2:T44	
+T106	QUALITY 483 492	correctly
+R78	Attribute Arg1:T3 Arg2:T106	
+R79	to Arg1:T4 Arg2:T56	
+R80	from Arg1:T4 Arg2:T49	
+R81	Component-object Arg1:T50 Arg2:T51	
+R82	from Arg1:T6 Arg2:T55	
+R83	to Arg1:T6 Arg2:T5	
+R84	from Arg1:T7 Arg2:T58	
+R85	to Arg1:T7 Arg2:T14	
+R44	to Arg1:T8 Arg2:T58	
+R48	from Arg1:T8 Arg2:T59	
+R86	from Arg1:T8 Arg2:T61	
+R87	from Arg1:T8 Arg2:T64	
+R62	Apply-to Arg1:T66 Arg2:T9	
+R58	from Arg1:T10 Arg2:T68	
+R88	to Arg1:T10 Arg2:T9	
+R63	Input Arg1:T94 Arg2:T70	
+R89	Apply-to Arg1:T94 Arg2:T12	
+R65	Apply-to Arg1:T94 Arg2:T13	
+R66	Condition Arg1:T13 Arg2:T72	
+R71	Condition Arg1:T74 Arg2:T73	
+R90	from Arg1:T15 Arg2:T90	
+R91	to Arg1:T15 Arg2:T74	
+T81	PERSON 364 366	We
+T103	PERSON 697 699	We
+T105	PERSON 918 920	We
+T107	PROCESS 921 926	prove
+T108	PERSON 1094 1096	We
+T109	PERSON 1236 1238	we
+T110	PROCESS 1239 1246	observe
+R49	Agent Arg1:T93 Arg2:T81	
+R92	Agent Arg1:T14 Arg2:T103	
+R93	Agent Arg1:T107 Arg2:T105	
+R94	Agent Arg1:T94 Arg2:T108	
+R95	Agent Arg1:T110 Arg2:T109	
+R96	In_Out Arg1:T110 Arg2:T74	
+R97	Output Arg1:T107 Arg2:T25	

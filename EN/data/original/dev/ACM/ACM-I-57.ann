@@ -1,0 +1,220 @@
+T1	THING 0 7	Rumours
+T2	THING 12 22	Reputation
+T3	PROCESS 24 34	Evaluating
+T4	PLAN 35 58	Multi-Dimensional Trust
+T5	PLAN 68 99	Decentralised Reputation System
+T7	QUALITY 127 132	novel
+T8	PLAN 133 152	probabilistic model
+T9	PLAN 156 175	computational trust
+T10	REFERENCE 176 180	that
+T11	QUALITY 181 191	explicitly
+T12	PROCESS 192 202	deals with
+T13	PLAN 214 241	multi-dimensional contracts
+T14	QUALITY 203 213	correlated
+T17	INTELLIGENT-AGENT 280 285	agent
+T18	PROCESS 286 296	attempting
+T19	PROCESS 300 308	estimate
+T20	QUALITY 313 320	utility
+T21	DATA-ITEM 326 334	contract
+T22	REFERENCE 353 357	this
+T23	RESULT 358 363	leads
+T24	PLAN 369 374	model
+T25	PLAN 378 397	computational trust
+R1	Coreference Arg1:T22 Arg2:T19	
+T26	INTELLIGENT-AGENT 409 414	agent
+T27	MODALITY 415 419	must
+T28	PROCESS 420 429	determine
+T29	DATA-ITEM 432 438	vector
+T30	DATA-ITEM 442 451	estimates
+T31	REFERENCE 452 456	that
+T32	IS-A 457 466	represent
+T33	DATA-ITEM 471 482	probability
+T34	QUALITY 492 501	dimension
+T35	DATA-ITEM 509 517	contract
+T36	MODALITY 518 522	will
+T37	QUALITY 526 538	successfully
+T38	PROCESS 539 548	fulfilled
+T39	QUALITY 488 491	any
+T40	DATA-ITEM 556 573	covariance matrix
+T41	REFERENCE 574 578	that
+R2	Coreference Arg1:T41 Arg2:T40	
+T42	PROCESS 579 588	describes
+T43	QUALITY 593 604	uncertainty
+T44	DATA-ITEM 609 621	correlations
+T45	DATA-ITEM 625 644	these probabilities
+R3	Coreference Arg1:T45 Arg2:T33	
+T46	PLAN 659 668	formalism
+T47	INPUT 669 677	based on
+T48	DATA-ITEM 682 704	Dirichlet distribution
+T49	PERSON 682 691	Dirichlet
+T50	REFERENCE 705 709	that
+R4	Coreference Arg1:T50 Arg2:T46	
+T51	APPLY-TO 710 716	allows
+T52	INTELLIGENT-AGENT 720 725	agent
+T53	PROCESS 729 738	calculate
+T54	DATA-ITEM 739 758	these probabilities
+R5	Coreference Arg1:T54 Arg2:T45	
+T55	DATA-ITEM 739 744;763 775	these correlations
+T56	OCCURENT 787 804	direct experience
+T57	DATA-ITEM 808 825	contract outcomes
+T58	REFERENCE 844 848	this
+T59	RESULT 849 854	leads
+T60	QUALITY 858 866	superior
+T61	DATA-ITEM 867 876	estimates
+T62	COMPARE 877 885	compared
+T63	PLAN 892 912	alternative approach
+T64	INPUT 913 918	using
+T65	QUANTITY 919 927	multiple
+T66	DATA-ITEM 928 958	independent beta distributions
+T67	INTELLIGENT-AGENT 977 983	agents
+T69	MODALITY 984 987	may
+T70	INPUT 988 991	use
+T71	DATA-ITEM 996 1017	sufficient statistics
+T73	DATA-ITEM 1021 1048	this Dirichlet distribution
+T74	PERSON 1026 1035	Dirichlet
+T75	PROCESS 1052 1063	communicate
+T76	PROCESS 1068 1072	fuse
+T77	THING 1073 1083	reputation
+T78	PLAN 1093 1124	decentralised reputation system
+T79	QUALITY 1148 1153	novel
+T80	PLAN 1154 1162	solution
+T81	PLAN 1170 1177	problem
+T82	PLAN-OR-PROCESS 1181 1199	rumour propagation
+T83	PLAN 1207 1219	such systems
+T84	PLAN 1221 1234	This solution
+R6	Coreference Arg1:T84 Arg2:T80	
+T85	INPUT 1235 1239	uses
+T86	DATA-ITEM 1244 1250	notion
+T87	DATA-ITEM 1254 1261;1273 1284	private information
+T88	DATA-ITEM 1266 1284	shared information
+T89	OUTPUT 1290 1298	provides
+T90	DATA-ITEM 1299 1308	estimates
+T91	QUALITY 1309 1319	consistent
+T92	PLAN 1327 1356	centralised reputation system
+T93	PROCESS 1365 1376	maintaining
+T94	QUALITY 1381 1390	anonymity
+T95	INTELLIGENT-AGENT 1398 1404	agents
+T96	PROCESS 1410 1418	avoiding
+T97	QUALITY 1419 1423	bias
+T98	QUALITY 1428 1442	overconfidence
+R7	Attribute Arg1:T8 Arg2:T7	
+R8	Coreference Arg1:T10 Arg2:T8	
+R9	Attribute Arg1:T13 Arg2:T14	
+R10	Component-object Arg1:T30 Arg2:T29	
+R11	Coreference Arg1:T31 Arg2:T30	
+R12	Coreference Arg1:T58 Arg2:T50	
+R13	Attribute Arg1:T61 Arg2:T60	
+R14	Coreference Arg1:T73 Arg2:T48	
+R15	Attribute Arg1:T80 Arg2:T79	
+R16	Attribute Arg1:T12 Arg2:T11	
+T72	REFERENCE 781 786	their
+R17	Coreference Arg1:T72 Arg2:T52	
+R18	Poss Arg1:T72 Arg2:T56	
+R19	Attribute Arg1:T38 Arg2:T37	
+R20	Attribute Arg1:T90 Arg2:T91	
+R21	Apply-to Arg1:T80 Arg2:T81	
+R22	Attribute Arg1:T81 Arg2:T82	
+R24	to Arg1:T85 Arg2:T86	
+R25	from Arg1:T85 Arg2:T84	
+R26	Attribute Arg1:T86 Arg2:T88	
+R27	Attribute Arg1:T86 Arg2:T87	
+R28	from Arg1:T89 Arg2:T84	
+R29	to Arg1:T89 Arg2:T90	
+R30	Compare Arg1:T92 Arg2:T91	
+R31	Apply-to Arg1:T84 Arg2:T93	
+R32	In_Out Arg1:T93 Arg2:T94	
+R33	Attribute Arg1:T95 Arg2:T94	
+R34	Apply-to Arg1:T84 Arg2:T96	
+R35	Target Arg1:T96 Arg2:T97	
+R36	Target Arg1:T96 Arg2:T98	
+R37	Input Arg1:T3 Arg2:T4	
+R38	Apply-to Arg1:T5 Arg2:T3	
+R39	Attribute Arg1:T8 Arg2:T9	
+R40	Other-rel Arg1:T12 Arg2:T10	
+R41	Other-rel Arg1:T12 Arg2:T13	
+R42	Attribute Arg1:T21 Arg2:T20	
+R43	Agent Arg1:T18 Arg2:T17	
+R44	Apply-to Arg1:T18 Arg2:T19	
+R45	Output Arg1:T19 Arg2:T20	
+R46	Attribute Arg1:T24 Arg2:T25	
+R47	from Arg1:T23 Arg2:T22	
+R48	to Arg1:T23 Arg2:T24	
+R49	Attribute Arg1:T28 Arg2:T27	
+R50	Agent Arg1:T28 Arg2:T26	
+T16	APPLY-TO 398 405	whereby
+R51	from Arg1:T16 Arg2:T24	
+R52	to Arg1:T16 Arg2:T28	
+R53	Output Arg1:T28 Arg2:T29	
+R54	to Arg1:T32 Arg2:T33	
+R55	from Arg1:T32 Arg2:T31	
+R56	Attribute Arg1:T34 Arg2:T39	
+R57	Attribute Arg1:T35 Arg2:T34	
+R58	Attribute Arg1:T38 Arg2:T36	
+R59	Output Arg1:T38 Arg2:T33	
+R60	Output Arg1:T28 Arg2:T40	
+R61	Input Arg1:T42 Arg2:T41	
+R62	Output Arg1:T42 Arg2:T43	
+R63	Output Arg1:T42 Arg2:T44	
+R64	Condition Arg1:T44 Arg2:T45	
+R65	to Arg1:T47 Arg2:T48	
+R66	from Arg1:T47 Arg2:T46	
+R67	from Arg1:T51 Arg2:T50	
+R68	to Arg1:T51 Arg2:T53	
+R69	Agent Arg1:T53 Arg2:T52	
+R70	Output Arg1:T53 Arg2:T54	
+R71	Output Arg1:T53 Arg2:T55	
+R72	Coreference Arg1:T55 Arg2:T44	
+R73	Input Arg1:T53 Arg2:T56	
+R74	Condition Arg1:T56 Arg2:T57	
+R75	from Arg1:T59 Arg2:T58	
+R76	to Arg1:T62 Arg2:T60	
+R77	from Arg1:T62 Arg2:T63	
+R78	Attribute Arg1:T66 Arg2:T65	
+R79	to Arg1:T64 Arg2:T66	
+R80	from Arg1:T64 Arg2:T63	
+R81	to Arg1:T59 Arg2:T60	
+R82	to Arg1:T70 Arg2:T71	
+R83	Attribute Arg1:T73 Arg2:T71	
+R84	from Arg1:T70 Arg2:T75	
+R85	from Arg1:T70 Arg2:T76	
+R86	Attribute Arg1:T70 Arg2:T69	
+R87	Agent Arg1:T70 Arg2:T67	
+R88	Output Arg1:T75 Arg2:T77	
+R89	Output Arg1:T76 Arg2:T77	
+R90	Condition Arg1:T75 Arg2:T78	
+R91	Condition Arg1:T76 Arg2:T78	
+R23	Condition Arg1:T82 Arg2:T83	
+R92	Coreference Arg1:T83 Arg2:T78	
+T6	REFERENCE 103 113	this paper
+T15	PERSON 114 116	we
+T68	PROCESS 117 124	develop
+T99	PERSON 646 648	We
+T100	PROCESS 649 656	present
+T101	PERSON 340 342	we
+T102	PROCESS 343 347	show
+R93	Agent Arg1:T102 Arg2:T101	
+R94	Output Arg1:T102 Arg2:T23	
+T103	PERSON 831 833	we
+T104	PROCESS 834 838	show
+T105	PERSON 960 962	We
+T106	PROCESS 968 972	show
+T107	PERSON 1135 1137	we
+T108	PROCESS 1138 1145	present
+R95	Condition Arg1:T68 Arg2:T6	
+R96	Agent Arg1:T68 Arg2:T15	
+R97	Output Arg1:T68 Arg2:T8	
+T109	PERSON 243 246	Our
+T110	PLAN 247 261	starting point
+R98	Poss Arg1:T109 Arg2:T110	
+T111	PROCESS 268 276	consider
+R99	Agent Arg1:T111 Arg2:T109	
+R100	Input Arg1:T111 Arg2:T110	
+R101	Target Arg1:T111 Arg2:T17	
+R102	Agent Arg1:T100 Arg2:T99	
+R103	Output Arg1:T100 Arg2:T46	
+R104	Agent Arg1:T104 Arg2:T103	
+R105	Output Arg1:T104 Arg2:T59	
+R106	Agent Arg1:T106 Arg2:T105	
+R107	Output Arg1:T106 Arg2:T70	
+R108	Agent Arg1:T108 Arg2:T107	
+R109	Output Arg1:T108 Arg2:T80	

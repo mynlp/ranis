@@ -1,0 +1,5 @@
+Ranking Paraphrases in Context .
+We present a vector space model that supports the computation of appropriate vector representations for words in context , and apply it to a paraphrase ranking task .
+An evaluation on the SemEval 2007 lexical substitution task data shows promising results : the model significantly outperforms a current state of the art model , and our treatment of context is effective .
+
+

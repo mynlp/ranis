@@ -1,0 +1,8 @@
+JU: A Supervised Approach to Identify Semantic Relations from Paired Nominals 
+
+This article presents the experiments carried out at Jadavpur University as part of the participation in Multi-Way Classification of Semantic Relations between Pairs of Nominals in the SemEval 2010 exercise.
+Separate rules for each type of the relations are identified in the baseline model based on the verbs and prepositions present in the segment between each pair of nominals. Inclusion of WordNet features associated with the paired nominals play an important role in distinguishing the relations from each other.
+The Conditional Random Field (CRF) based machine-learning framework is adopted for classifying the pair of nominals.  
+Application of dependency relations, Named Entities (NE) and various types of WordNet features along with several combinations of these features help to improve the performance of the system.
+Error analysis suggests that the performance can be improved by applying suitable strategies to differentiate each paired nominal in an already identified relation.
+Evaluation result gives an overall macro-averaged F1 score of 52.16%.     

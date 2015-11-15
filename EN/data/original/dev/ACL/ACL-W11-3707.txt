@@ -1,0 +1,5 @@
+Sense-level Subjectivity in a Multilingual Setting
+
+This paper explores the ability of senses aligned across languages to carry coherent subjectivity information.
+We start out with a manual annotation study, and then seek to create an automatic framework to determine subjectivity labeling for unseen senses.
+We identify two methods that are able to incorporate subjectivity information originating from different languages, namely co-training and multilingual vector spaces, and show that for this task the latter method is better suited and obtains superior results.

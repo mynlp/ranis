@@ -1,0 +1,278 @@
+T1	APPLY-TO 0 5	Using
+T2	PLAN 6 19	Suffix Arrays
+T3	PROCESS 23 30	Compute
+T4	DATA-ITEM 31 45	Term Frequency
+T5	DATA-ITEM 50 68	Document Frequency
+T6	QUANTITY 73 76	All
+T7	DATA-ITEM 77 87	Substrings
+T8	DATA-ITEM 93 99	Corpus
+T9	DATA-ITEM 101 108	Bigrams
+T10	DATA-ITEM 113 121	trigrams
+T11	QUALITY 126 134	commonly
+T12	APPLY-TO 135 139	used
+T13	PLAN-OR-PROCESS 143 182	statistical natural language processing
+T14	PLAN 209 219	techniques
+T15	PROCESS 224 231	working
+T16	QUALITY 237 248	much longer
+T17	DATA-ITEM 249 256	n-grams
+T18	PLAN 258 271	Suffix arrays
+T19	PERSON 273 279	Manber
+T20	PERSON 284 289	Myers
+T21	TIME 290 294	1990
+T22	QUALITY 301 306	first
+T23	PROCESS 307 317	introduced
+T24	PROCESS 321 328	compute
+T25	DATA-ITEM 333 342	frequency
+T26	DATA-ITEM 347 355	location
+T27	DATA-ITEM 361 370	substring
+T28	DATA-ITEM 372 378	n-gram
+T29	DATA-ITEM 385 393	sequence
+T30	DATA-ITEM 395 401	corpus
+T31	DATA-ITEM 406 412	length
+T33	PROCESS 419 426	compute
+T34	DATA-ITEM 427 438	frequencies
+T35	QUANTITY 444 447	all
+T36	DATA-ITEM 459 469	substrings
+T37	FORMULA 448 458	N(N + 1)/2
+R3	Other-rel Arg1:T36 Arg2:T37	
+R4	Attribute Arg1:T36 Arg2:T35	
+T38	DATA-ITEM 475 481	corpus
+T39	DATA-ITEM 487 497	substrings
+T40	PROCESS 502 509	grouped
+T41	QUALITY 517 527	manageable
+T42	QUANTITY 528 534	number
+T43	DATA-ITEM 538 557	equivalence classes
+T44	PROCESS 586 597	computation
+T45	DATA-ITEM 603 613	substrings
+T46	PROCESS 617 624	reduced
+T47	QUALITY 630 640	manageable
+T48	PROCESS 641 652	computation
+T49	DATA-ITEM 658 665	classes
+T50	PLAN 696 706	algorithms
+T51	PLAN 715 719	code
+T52	PROCESS 738 745	compute
+T53	DATA-ITEM 746 760	term frequency
+T54	DATA-ITEM 762 764	tf
+R5	Equivalence Arg1:T54 Arg2:T53	
+T55	DATA-ITEM 770 788	document frequency
+T56	DATA-ITEM 790 792	df
+R6	Equivalence Arg1:T56 Arg2:T55	
+T57	QUANTITY 798 801	all
+T58	DATA-ITEM 802 809	n-grams
+T59	QUANTITY 813 816	two
+T60	QUALITY 817 822	large
+T61	DATA-ITEM 823 830	corpora
+T62	DATA-ITEM 835 849	English corpus
+T63	QUANTITY 853 863	50 million
+T64	DATA-ITEM 864 869	words
+R7	Attribute Arg1:T61 Arg2:T60	
+R8	Attribute Arg1:T61 Arg2:T59	
+R9	Attribute Arg1:T64 Arg2:T63	
+T66	DATA-ITEM 899 914	Japanese corpus
+T67	QUANTITY 918 929	216 million
+T68	DATA-ITEM 930 940	characters
+T72	INPUT 992 996	uses
+T73	REFERENCE 997 1014	these frequencies
+T74	PROCESS 1018 1022	find
+T75	QUALITY 1025 1036	interesting
+T76	DATA-ITEM 1039 1049	substrings
+T77	PERSON 1051 1065	Lexicographers
+T78	QUALITY 1076 1086	interested
+T79	DATA-ITEM 1090 1097	n-grams
+T80	QUALITY 1103 1107	high
+T81	DATA-ITEM 1108 1126	mutual information
+T82	DATA-ITEM 1128 1130	MI
+R11	Equivalence Arg1:T82 Arg2:T81	
+T83	DATA-ITEM 1142 1162	joint term frequency
+T84	QUALITY 1166 1172	higher
+T85	PROCESS 1192 1200	expected
+T86	QUALITY 1201 1210	by chance
+T87	DATA-ITEM 1230 1235	parts
+T88	DATA-ITEM 1243 1249	n-gram
+T89	PROCESS 1250 1257	combine
+T90	QUALITY 1258 1271	independently
+R13	Attribute Arg1:T89 Arg2:T90	
+T91	PLAN 1273 1308	Residual inverse document frequency
+T92	PLAN 1310 1314	RIDF
+R14	Equivalence Arg1:T92 Arg2:T91	
+T93	PROCESS 1316 1324	compares
+T94	PLAN 1325 1343	document frequency
+T95	PLAN 1355 1360	model
+T96	PROCESS 1364 1370	chance
+T97	DATA-ITEM 1377 1382	terms
+T98	QUALITY 1390 1400	particular
+T99	DATA-ITEM 1401 1415	term frequency
+R15	Attribute Arg1:T99 Arg2:T98	
+R16	Attribute Arg1:T83 Arg2:T84	
+T100	PROCESS 1420 1431	distributed
+T101	QUALITY 1432 1440	randomly
+R17	Attribute Arg1:T100 Arg2:T101	
+T102	DATA-ITEM 1456 1466	collection
+T103	PLAN 1468 1470	MI
+T104	MODALITY 1471 1476	tends
+T105	PROCESS 1480 1488	pick out
+T106	DATA-ITEM 1489 1496	phrases
+T107	QUALITY 1502 1528	noncompositional semantics
+T108	QUALITY 1536 1541	often
+T109	PROCESS 1542 1549	violate
+R18	Attribute Arg1:T109 Arg2:T108	
+T110	PLAN 1554 1577	independence assumption
+T111	PLAN 1587 1591	RIDF
+T112	MODALITY 1592 1597	tends
+T113	PROCESS 1601 1610	highlight
+T114	DATA-ITEM 1611 1632	technical terminology
+T115	DATA-ITEM 1634 1639	names
+T116	QUALITY 1645 1649	good
+T117	DATA-ITEM 1650 1658	keywords
+T118	PLAN-OR-PROCESS 1663 1684	information retrieval
+T119	MODALITY 1692 1696	tend
+T120	PROCESS 1700 1707	exhibit
+T121	DATA-ITEM 1708 1731	nonrandom distributions
+T122	DATA-ITEM 1737 1746	documents
+T123	PLAN 1753 1764	combination
+T124	PLAN 1773 1775	MI
+T125	PLAN 1780 1784	RIDF
+T126	QUALITY 1788 1794	better
+T128	PLAN 1822 1851	Japanese word extraction task
+T129	LANGUAGE 1822 1830	Japanese
+T130	LANGUAGE 899 907	Japanese
+T131	LANGUAGE 835 842	English
+R19	Attribute Arg1:T113 Arg2:T112	
+R20	Attribute Arg1:T105 Arg2:T104	
+R21	Attribute Arg1:T120 Arg2:T119	
+R22	Attribute Arg1:T7 Arg2:T6	
+R23	Attribute Arg1:T17 Arg2:T16	
+T132	QUALITY 574 585	prohibitive
+R24	Attribute Arg1:T44 Arg2:T132	
+R25	Attribute Arg1:T48 Arg2:T47	
+R26	Attribute Arg1:T58 Arg2:T57	
+R27	Attribute Arg1:T68 Arg2:T67	
+R2	Attribute Arg1:T76 Arg2:T75	
+R10	Attribute Arg1:T81 Arg2:T80	
+R28	Attribute Arg1:T117 Arg2:T116	
+T70	REFERENCE 1800 1806	either
+R29	Coreference Arg1:T70 Arg2:T124	
+R30	Coreference Arg1:T70 Arg2:T125	
+R31	Attribute Arg1:T42 Arg2:T41	
+T71	DATA-ITEM 873 892	Wall Street Journal
+T127	DATA-ITEM 944 960	Mainichi Shimbun
+T133	QUALITY 1347 1354	another
+R32	Attribute Arg1:T95 Arg2:T133	
+T65	EXTERNAL-REFERENCE 273 294	Manber and Myers 1990
+T69	REFERENCE 1530 1535	which
+R33	Coreference Arg1:T69 Arg2:T106	
+T134	QUALITY 1807 1816	by itself
+T135	REFERENCE 1686 1691	which
+R34	Coreference Arg1:T135 Arg2:T114	
+R35	Coreference Arg1:T135 Arg2:T115	
+R36	Coreference Arg1:T135 Arg2:T117	
+T136	REFERENCE 720 724	that
+R37	Coreference Arg1:T136 Arg2:T50	
+R38	Coreference Arg1:T136 Arg2:T51	
+R39	Attribute Arg1:T43 Arg2:T42	
+T142	REFERENCE 1371 1376	where
+R40	Coreference Arg1:T142 Arg2:T95	
+R41	Attribute Arg1:T123 Arg2:T126	
+R42	Attribute Arg1:T70 Arg2:T134	
+R43	Component-object Arg1:T7 Arg2:T8	
+R44	Attribute Arg1:T7 Arg2:T5	
+R45	Attribute Arg1:T7 Arg2:T4	
+R46	Output Arg1:T3 Arg2:T4	
+R47	Output Arg1:T3 Arg2:T5	
+R48	from Arg1:T1 Arg2:T2	
+R49	to Arg1:T1 Arg2:T3	
+R53	Apply-to Arg1:T14 Arg2:T15	
+R54	Input Arg1:T15 Arg2:T17	
+R55	Attribute Arg1:T23 Arg2:T22	
+R56	Output Arg1:T23 Arg2:T18	
+R57	Apply-to Arg1:T23 Arg2:T24	
+R58	Output Arg1:T24 Arg2:T25	
+R59	Output Arg1:T24 Arg2:T26	
+R60	Attribute Arg1:T27 Arg2:T26	
+R61	Attribute Arg1:T27 Arg2:T25	
+R62	Component-object Arg1:T27 Arg2:T29	
+R63	Equivalence Arg1:T30 Arg2:T29	
+R64	Equivalence Arg1:T28 Arg2:T27	
+R65	Attribute Arg1:T27 Arg2:T31	
+T143	DATA-ITEM 413 414	N
+R66	Equivalence Arg1:T143 Arg2:T31	
+R67	Output Arg1:T33 Arg2:T34	
+R68	Input Arg1:T33 Arg2:T36	
+R69	Component-object Arg1:T36 Arg2:T38	
+R71	Output Arg1:T40 Arg2:T43	
+R72	Apply-to Arg1:T40 Arg2:T33	
+R73	Input Arg1:T44 Arg2:T45	
+R74	Result Arg1:T44 Arg2:T46	
+R75	Output Arg1:T46 Arg2:T48	
+R76	Input Arg1:T48 Arg2:T49	
+T144	APPLY-TO 730 734	used
+R77	from Arg1:T144 Arg2:T136	
+R78	to Arg1:T144 Arg2:T52	
+R79	Output Arg1:T52 Arg2:T53	
+R80	Output Arg1:T52 Arg2:T55	
+R81	Attribute Arg1:T58 Arg2:T55	
+R82	Attribute Arg1:T58 Arg2:T53	
+R83	Condition Arg1:T58 Arg2:T61	
+R84	Component-object Arg1:T64 Arg2:T62	
+R85	Member-collection Arg1:T62 Arg2:T61	
+R86	Component-object Arg1:T64 Arg2:T71	
+R87	Component-object Arg1:T68 Arg2:T66	
+R88	Component-object Arg1:T68 Arg2:T127	
+R89	Member-collection Arg1:T66 Arg2:T61	
+R90	In_Out Arg1:T74 Arg2:T76	
+R91	to Arg1:T72 Arg2:T73	
+R92	from Arg1:T72 Arg2:T74	
+R95	Attribute Arg1:T79 Arg2:T81	
+R96	Attribute Arg1:T79 Arg2:T83	
+T145	DATA-ITEM 1178 1182	what
+R97	Output Arg1:T85 Arg2:T145	
+R98	Compare Arg1:T145 Arg2:T84	
+R99	Component-object Arg1:T87 Arg2:T88	
+R100	Input Arg1:T89 Arg2:T87	
+R101	Apply-to Arg1:T91 Arg2:T93	
+R102	Input Arg1:T93 Arg2:T94	
+R103	Input Arg1:T93 Arg2:T95	
+R104	Attribute Arg1:T96 Arg2:T95	
+R105	Attribute Arg1:T97 Arg2:T99	
+R106	Output Arg1:T100 Arg2:T97	
+R107	Destination Arg1:T100 Arg2:T102	
+R108	Condition Arg1:T142 Arg2:T100	
+R109	Apply-to Arg1:T103 Arg2:T105	
+R110	Output Arg1:T105 Arg2:T106	
+R111	Attribute Arg1:T106 Arg2:T107	
+R112	Apply-to Arg1:T69 Arg2:T109	
+R113	Target Arg1:T109 Arg2:T110	
+R114	Apply-to Arg1:T111 Arg2:T113	
+R115	In_Out Arg1:T113 Arg2:T114	
+R116	In_Out Arg1:T113 Arg2:T115	
+R117	In_Out Arg1:T113 Arg2:T117	
+R118	Input Arg1:T118 Arg2:T117	
+R119	Apply-to Arg1:T135 Arg2:T120	
+R120	Output Arg1:T120 Arg2:T121	
+R121	Condition Arg1:T121 Arg2:T122	
+R122	Component-object Arg1:T124 Arg2:T123	
+R123	Component-object Arg1:T125 Arg2:T123	
+R124	Compare Arg1:T70 Arg2:T126	
+R125	Apply-to Arg1:T123 Arg2:T128	
+R126	Apply-to Arg1:T70 Arg2:T128	
+R50	from Arg1:T12 Arg2:T10	
+R51	from Arg1:T12 Arg2:T9	
+R52	to Arg1:T12 Arg2:T13	
+R1	Attribute Arg1:T12 Arg2:T11	
+R70	Input Arg1:T40 Arg2:T39	
+R93	Attribute Arg1:T77 Arg2:T78	
+R94	Other-rel Arg1:T78 Arg2:T79	
+R12	Attribute Arg1:T84 Arg2:T86	
+R127	Member-collection Arg1:T53 Arg2:T73	
+R128	Member-collection Arg1:T55 Arg2:T73	
+T32	REFERENCE 184 194	this paper
+T137	PROCESS 200 208	describe
+R129	Condition Arg1:T137 Arg2:T32	
+R130	Output Arg1:T137 Arg2:T14	
+T138	REFERENCE 667 677	This paper
+T139	PROCESS 678 686	presents
+R131	Condition Arg1:T139 Arg2:T138	
+R132	Output Arg1:T139 Arg2:T50	
+R133	Output Arg1:T139 Arg2:T51	
+T140	MODALITY 195 199	will
+R134	Attribute Arg1:T137 Arg2:T140	

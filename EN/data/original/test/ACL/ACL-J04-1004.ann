@@ -1,0 +1,209 @@
+T1	COMPONENT-OBJECT 181 189	composed
+T2	PROCESS 314 324	recognized
+T3	PROCESS 577 581	used
+T4	PROCESS 789 800	determining
+T7	PROCESS 141 147	define
+T8	APPLY-TO 1007 1010	use
+T9	MODALITY 310 313	not
+T10	MODALITY 570 573	can
+T11	PERSON 381 387	people
+T14	QUALITY 443 459	very widely used
+T15	QUALITY 533 546	distinguished
+T16	QUALITY 590 599	different
+T18	LOCATION 727 741	directly after
+T19	QUALITY 767 776	important
+T20	QUALITY 959 964	large
+T21	QUALITY 1181 1187	simple
+T22	QUALITY 1199 1209	quite good
+T24	QUALITY 1253 1263	comparable
+T25	QUANTITY 376 380	some
+T26	QUANTITY 585 589	many
+T27	PLAN 0 25	Accessor Variety Criteria
+T28	PLAN-OR-PROCESS 30 53	Chinese Word Extraction
+T29	PLAN 80 87	problem
+T30	PLAN 91 106	word extraction
+T31	DATA-ITEM 112 136	Chinese text collections
+T32	DATA-ITEM 150 154	word
+T33	DATA-ITEM 163 180	meaningful string
+T34	DATA-ITEM 201 219	Chinese characters
+T35	DATA-ITEM 234 252	<767E><5206><4E4B>
+T36	DATA-ITEM 269 287	<8D8A><6765><8D8A>
+T37	DATA-ITEM 328 353	traditional Chinese words
+T38	THING 363 372	viewpoint
+T40	REFERENCE 411 415	they
+T41	DATA-ITEM 420 425	words
+T42	REFERENCE 434 438	they
+T43	QUALITY 478 486	meanings
+T45	DATA-ITEM 523 527	word
+T46	DATA-ITEM 547 564	linguistic entity
+T47	LANGUAGE 600 621	language environments
+T48	DATA-ITEM 639 649	characters
+T49	DATA-ITEM 677 683	string
+T50	DATA-ITEM 685 697	predecessors
+T51	DATA-ITEM 707 717	characters
+T52	DATA-ITEM 744 750	string
+T53	DATA-ITEM 752 762	successors
+T54	DATA-ITEM 777 784	factors
+T55	QUALITY 805 817	independence
+T56	DATA-ITEM 825 831	string
+T57	DATA-ITEM 841 856	such characters
+T58	DATA-ITEM 874 880	string
+T59	DATA-ITEM 914 926	predecessors
+T60	DATA-ITEM 931 941	successors
+T61	DATA-ITEM 947 953	string
+T62	DATA-ITEM 965 971	corpus
+T63	DATA-ITEM 984 1000	TREC 6 documents
+T64	REFERENCE 1011 1015	them
+T65	PLAN 1023 1034	measurement
+T66	QUALITY 1042 1062	context independency
+T67	DATA-ITEM 1068 1074	string
+T68	DATA-ITEM 1096 1105	sentences
+T69	DATA-ITEM 1113 1121	document
+T71	PLAN 1176 1180;1188 1192	this rule
+T72	DATA-ITEM 1210 1217	results
+T73	PLAN-OR-PROCESS 1222 1245	Chinese word extraction
+T74	DATA-ITEM 1281 1286	words
+T75	PLAN 1306 1323	iterative methods
+T76	LANGUAGE 112 119	Chinese
+T77	QUANTITY 193 200	several
+R1	Attribute Arg1:T34 Arg2:T77	
+T78	DATA-ITEM 255 262	percent
+T79	DATA-ITEM 290 303	more and more
+T80	LANGUAGE 340 347	Chinese
+T81	LANGUAGE 30 37	Chinese
+R2	Attribute Arg1:T11 Arg2:T25	
+R3	Coreference Arg1:T40 Arg2:T35	
+R4	Coreference Arg1:T40 Arg2:T36	
+R5	Attribute Arg1:T46 Arg2:T15	
+R6	Attribute Arg1:T47 Arg2:T26	
+R7	Attribute Arg1:T47 Arg2:T16	
+T6	PLAN 973 979	TREC 5
+T83	PLAN 984 990	TREC 6
+T84	DATA-ITEM 973 979;991 1000	TREC 5 documents
+T85	DATA-ITEM 857 866	accessors
+T86	QUANTITY 895 901	number
+T87	QUALITY 905 913	distinct
+R8	Attribute Arg1:T59 Arg2:T87	
+R9	Attribute Arg1:T71 Arg2:T21	
+R10	Attribute Arg1:T72 Arg2:T22	
+T23	LANGUAGE 1222 1229	Chinese
+T88	QUALITY 1276 1280	long
+R11	Attribute Arg1:T74 Arg2:T88	
+T89	JUDGING-PROCESS 1287 1298	outperforms
+R12	Attribute Arg1:T2 Arg2:T9	
+R14	Attribute Arg1:T3 Arg2:T10	
+T17	LOCATION 659 674	directly before
+R17	Attribute Arg1:T54 Arg2:T19	
+R18	Coreference Arg1:T57 Arg2:T48	
+R19	Coreference Arg1:T57 Arg2:T51	
+R20	Attribute Arg1:T60 Arg2:T87	
+R21	Attribute Arg1:T62 Arg2:T20	
+R23	Coreference Arg1:T64 Arg2:T85	
+R25	Coreference Arg1:T42 Arg2:T40	
+R26	Attribute Arg1:T56 Arg2:T55	
+T94	QUALITY 1300 1305	other
+R27	Attribute Arg1:T75 Arg2:T94	
+R28	Component-object Arg1:T68 Arg2:T69	
+T95	REFERENCE 565 569	that
+R22	Coreference Arg1:T95 Arg2:T46	
+T96	REFERENCE 718 722	that
+R29	Coreference Arg1:T96 Arg2:T51	
+R30	Attribute Arg1:T96 Arg2:T18	
+T97	REFERENCE 650 654	that
+R15	Coreference Arg1:T97 Arg2:T48	
+R16	Attribute Arg1:T97 Arg2:T17	
+R13	Attribute Arg1:T42 Arg2:T14	
+R31	Attribute Arg1:T59 Arg2:T86	
+R32	Attribute Arg1:T60 Arg2:T86	
+R24	Is-a Arg1:T30 Arg2:T29	
+R33	Input Arg1:T30 Arg2:T31	
+R34	Is-a Arg1:T32 Arg2:T33	
+R35	from Arg1:T1 Arg2:T34	
+R36	to Arg1:T1 Arg2:T33	
+R37	Equivalence Arg1:T78 Arg2:T35	
+R38	Equivalence Arg1:T79 Arg2:T36	
+R39	Input Arg1:T2 Arg2:T35	
+R40	Input Arg1:T2 Arg2:T36	
+R41	Output Arg1:T2 Arg2:T37	
+R42	Poss Arg1:T11 Arg2:T38	
+R43	Condition Arg1:T2 Arg2:T38	
+R44	Is-a Arg1:T40 Arg2:T41	
+T98	QUALITY 469 477	specific
+R45	Attribute Arg1:T43 Arg2:T98	
+R46	Attribute Arg1:T42 Arg2:T43	
+R47	Is-a Arg1:T45 Arg2:T46	
+R48	In_Out Arg1:T3 Arg2:T95	
+R49	Condition Arg1:T3 Arg2:T47	
+R50	Other-rel Arg1:T49 Arg2:T17	
+R51	Other-rel Arg1:T52 Arg2:T18	
+R52	Is-a Arg1:T48 Arg2:T54	
+R53	Is-a Arg1:T51 Arg2:T54	
+R54	Input Arg1:T4 Arg2:T54	
+R55	Output Arg1:T4 Arg2:T55	
+R57	Attribute Arg1:T58 Arg2:T85	
+R58	Attribute Arg1:T61 Arg2:T59	
+R59	Attribute Arg1:T61 Arg2:T60	
+R60	Member-collection Arg1:T63 Arg2:T62	
+R61	Member-collection Arg1:T84 Arg2:T62	
+R62	Condition Arg1:T62 Arg2:T101	
+R63	Output Arg1:T65 Arg2:T66	
+R64	from Arg1:T8 Arg2:T64	
+R65	to Arg1:T8 Arg2:T65	
+R66	Attribute Arg1:T67 Arg2:T66	
+R67	Compare Arg1:T68 Arg2:T66	
+T99	OUTPUT 1193 1198	gives
+R68	from Arg1:T99 Arg2:T71	
+R69	to Arg1:T99 Arg2:T72	
+R70	Attribute Arg1:T72 Arg2:T73	
+R71	Attribute Arg1:T71 Arg2:T24	
+R72	Condition Arg1:T74 Arg2:T89	
+R73	Apply-to Arg1:T71 Arg2:T89	
+R74	Compare Arg1:T75 Arg2:T24	
+R75	Compare Arg1:T75 Arg2:T89	
+R76	Apply-to Arg1:T27 Arg2:T28	
+R77	Output Arg1:T7 Arg2:T32	
+R78	Is-a Arg1:T97 Arg2:T50	
+R79	Is-a Arg1:T96 Arg2:T53	
+T100	PROCESS 836 840	call
+R80	Destination Arg1:T100 Arg2:T57	
+R81	Output Arg1:T100 Arg2:T85	
+T101	PROCESS 882 890	consider
+R56	Other-rel Arg1:T101 Arg2:T59	
+R82	Other-rel Arg1:T101 Arg2:T60	
+R83	Is-a Arg1:T59 Arg2:T85	
+R84	Is-a Arg1:T60 Arg2:T85	
+T5	PERSON 55 57	We
+T13	PERSON 138 140	We
+T39	PERSON 488 490	We
+T44	PROCESS 491 496	start
+T70	THING 506 515	viewpoint
+T82	PERSON 623 625	We
+T90	PROCESS 626 634	consider
+T91	PERSON 833 835	We
+T92	PERSON 1123 1126	Our
+T93	PLAN-OR-PROCESS 1127 1138	experiments
+T102	PROCESS 1139 1146	confirm
+T103	PERSON 1147 1150	our
+T104	PLAN 1151 1161	hypothesis
+T105	PROCESS 1166 1170	show
+R87	Agent Arg1:T7 Arg2:T13	
+R88	Agent Arg1:T44 Arg2:T39	
+R89	Origin Arg1:T44 Arg2:T70	
+R90	Attribute Arg1:T45 Arg2:T70	
+R91	Agent Arg1:T90 Arg2:T82	
+R92	In_Out Arg1:T90 Arg2:T48	
+R93	Agent Arg1:T100 Arg2:T91	
+R94	Poss Arg1:T92 Arg2:T93	
+R95	Apply-to Arg1:T93 Arg2:T102	
+R96	Poss Arg1:T103 Arg2:T104	
+R97	Apply-to Arg1:T93 Arg2:T105	
+R98	Target Arg1:T102 Arg2:T104	
+R99	Output Arg1:T105 Arg2:T99	
+R100	Output Arg1:T105 Arg2:T89	
+T106	PERSON 401 404	our
+T107	PLAN 405 409	work
+R101	Poss Arg1:T106 Arg2:T107	
+R102	Condition Arg1:T40 Arg2:T107	
+T12	QUALITY 62 72	interested
+R85	Attribute Arg1:T5 Arg2:T12	
+R86	Condition Arg1:T12 Arg2:T29	

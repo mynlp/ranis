@@ -1,0 +1,198 @@
+T1	PLAN-OR-PROCESS 12 21	Induction
+T2	PLAN-OR-PROCESS 26 36	Evaluation
+T3	DATA-ITEM 40 57	Lexical Resources
+T4	DATA-ITEM 67 74	Penn-II
+T5	DATA-ITEM 79 97	Penn-III Treebanks
+T6	PERSON 99 101	We
+T7	PROCESS 102 109	present
+T8	PLAN 112 123	methodology
+T9	PROCESS 128 138	extracting
+T10	PLAN 139 163	subcategorization frames
+T11	APPLY-TO 164 172	based on
+T12	PLAN 176 212	automatic lexical-functional grammar
+T13	PLAN 214 217	LFG
+T14	PLAN 219 251	f-structure annotation algorithm
+T15	DATA-ITEM 260 267	Penn-II
+T16	DATA-ITEM 272 290	Penn-III Treebanks
+T17	PERSON 292 294	We
+T18	PROCESS 295 302	extract
+T19	PLAN 303 352	syntactic-function-based subcategorization frames
+T20	PLAN 354 372	LFG semantic forms
+T21	QUALITY 378 389	traditional
+T22	PLAN 390 433	CFG category-based subcategorization frames
+T23	PLAN 445 481	mixed function/category-based frames
+T24	MODALITY 491 498	without
+T25	DATA-ITEM 499 522	preposition information
+T26	DATA-ITEM 527 535	obliques
+T27	DATA-ITEM 540 560	particle information
+T28	DATA-ITEM 565 579	particle verbs
+T29	PERSON 581 584	Our
+T30	PLAN 585 593	approach
+T31	DATA-ITEM 605 618	probabilities
+T32	PLAN 624 630	frames
+T33	PLAN 631 642	conditional
+T34	PLAN 650 655	lemma
+T35	PROCESS 657 670	distinguishes
+T36	PLAN 690 704	passive frames
+T37	QUALITY 710 715	fully
+T38	PROCESS 716 724	reflects
+T39	PROCESS 729 736	effects
+T40	DATA-ITEM 740 766	long-distance dependencies
+T41	DATA-ITEM 774 796	source data structures
+T42	QUANTITY 813 817	many
+T43	QUALITY 818 823	other
+T44	PLAN 824 834	approaches
+T45	PLAN 836 840	ours
+T46	MODALITY 846 849	not
+T47	PROCESS 850 859	predefine
+T48	DATA-ITEM 864 893	subcategorization frame types
+T49	PROCESS 894 903	extracted
+T50	PROCESS 905 913	learning
+T51	REFERENCE 914 918	them
+T52	QUALITY 919 926	instead
+T53	DATA-ITEM 936 947	source data
+T54	DATA-ITEM 959 968	particles
+T55	DATA-ITEM 973 985	prepositions
+T56	PERSON 987 989	we
+T57	PROCESS 990 997	extract
+T58	QUANTITY 998 1004	21,005
+T59	DATA-ITEM 1005 1022	lemma frame types
+T60	QUANTITY 1027 1032	4,362
+T61	PLAN 1033 1044	verb lemmas
+T62	DATA-ITEM 1053 1058	total
+T63	QUANTITY 1062 1065	577
+T64	DATA-ITEM 1066 1077	frame types
+T65	DATA-ITEM 1085 1092	average
+T66	QUANTITY 1096 1099	4.8
+T67	DATA-ITEM 1100 1111	frame types
+T68	DATA-ITEM 1116 1120	verb
+T69	PERSON 1122 1124	We
+T70	PROCESS 1125 1132	present
+T71	QUALITY 1135 1146	large-scale
+T72	PROCESS 1147 1157	evaluation
+T73	QUALITY 1165 1173	complete
+T74	PLAN 1174 1177	set
+T75	PLAN 1181 1186	forms
+T76	PROCESS 1187 1196	extracted
+T77	QUALITY 1209 1213	full
+T78	DATA-ITEM 1214 1229	COMLEX resource
+T79	PERSON 1234 1237	our
+T80	DATA-ITEM 1238 1247	knowledge
+T81	REFERENCE 1249 1253	this
+T82	QUALITY 1261 1268	largest
+T83	QUALITY 1273 1286	most complete
+T84	PROCESS 1287 1297	evaluation
+T85	PLAN 1301 1325	subcategorization frames
+T86	PROCESS 1326 1334	acquired
+T87	QUALITY 1335 1348	automatically
+T88	LANGUAGE 1353 1360	English
+T89	QUALITY 0 11	Large-Scale
+R1	Attribute Arg1:T1 Arg2:T89	
+R2	Attribute Arg1:T2 Arg2:T89	
+R3	Input Arg1:T2 Arg2:T3	
+R4	Output Arg1:T1 Arg2:T3	
+A1	Self T6
+A2	Intentional T7
+R8	Agent Arg1:T7 Arg2:T6	
+R9	Output Arg1:T7 Arg2:T8	
+R10	Apply-to Arg1:T8 Arg2:T9	
+R11	Output Arg1:T9 Arg2:T10	
+R12	Is-a Arg1:T14 Arg2:T12	
+R13	Is-a Arg1:T12 Arg2:T13	
+R17	from Arg1:T11 Arg2:T14	
+R18	to Arg1:T11 Arg2:T8	
+A3	Self T17
+A4	Intentional T18
+R19	Agent Arg1:T18 Arg2:T17	
+R20	Attribute Arg1:T22 Arg2:T21	
+R21	Output Arg1:T18 Arg2:T19	
+R22	Output Arg1:T18 Arg2:T22	
+R23	Output Arg1:T18 Arg2:T23	
+R24	Equivalence Arg1:T20 Arg2:T19	
+R25	Attribute Arg1:T26 Arg2:T25	
+R6	Input Arg1:T1 Arg2:T4	
+R7	Input Arg1:T1 Arg2:T5	
+R26	Attribute Arg1:T28 Arg2:T27	
+R27	Attribute Arg1:T25 Arg2:T24	
+R28	Attribute Arg1:T27 Arg2:T24	
+R29	Attribute Arg1:T23 Arg2:T25	
+R30	Attribute Arg1:T23 Arg2:T27	
+R31	Attribute Arg1:T22 Arg2:T27	
+R32	Attribute Arg1:T22 Arg2:T25	
+R33	Attribute Arg1:T19 Arg2:T25	
+R34	Attribute Arg1:T19 Arg2:T27	
+A5	Self T29
+R35	Poss Arg1:T29 Arg2:T30	
+T92	PROCESS 594 604	associates
+R36	Apply-to Arg1:T30 Arg2:T92	
+R37	Output Arg1:T92 Arg2:T31	
+R38	Destination Arg1:T92 Arg2:T32	
+R39	Apply-to Arg1:T30 Arg2:T35	
+T93	PLAN 679 685	active
+R5	In_Out Arg1:T35 Arg2:T93	
+R14	In_Out Arg1:T35 Arg2:T36	
+R40	Attribute Arg1:T38 Arg2:T37	
+R41	Apply-to Arg1:T30 Arg2:T38	
+R42	Other-rel Arg1:T40 Arg2:T39	
+R43	In_Out Arg1:T38 Arg2:T39	
+R44	Is-a Arg1:T40 Arg2:T41	
+R45	Attribute Arg1:T44 Arg2:T43	
+R46	Attribute Arg1:T44 Arg2:T42	
+A6	Self T45
+R47	Attribute Arg1:T47 Arg2:T46	
+R48	Apply-to Arg1:T45 Arg2:T47	
+R49	Output Arg1:T47 Arg2:T48	
+R50	Output Arg1:T49 Arg2:T48	
+R51	Coreference Arg1:T51 Arg2:T48	
+R52	Output Arg1:T50 Arg2:T51	
+R53	Apply-to Arg1:T45 Arg2:T50	
+R54	Attribute Arg1:T50 Arg2:T52	
+R55	Input Arg1:T50 Arg2:T53	
+T90	IS-A 949 958	Including
+A7	Self T56
+A8	Intentional T57
+R58	Agent Arg1:T57 Arg2:T56	
+R59	Attribute Arg1:T59 Arg2:T58	
+R60	Output Arg1:T57 Arg2:T59	
+R56	from Arg1:T90 Arg2:T54	
+R57	to Arg1:T90 Arg2:T59	
+R61	from Arg1:T90 Arg2:T55	
+R62	to Arg1:T90 Arg2:T59	
+R63	Attribute Arg1:T61 Arg2:T60	
+R64	Attribute Arg1:T64 Arg2:T63	
+R65	Condition Arg1:T63 Arg2:T62	
+R66	Condition Arg1:T66 Arg2:T65	
+R67	Attribute Arg1:T67 Arg2:T66	
+A9	Self T69
+A10	Intentional T70
+R69	Agent Arg1:T70 Arg2:T69	
+R70	Attribute Arg1:T72 Arg2:T71	
+R71	Output Arg1:T70 Arg2:T72	
+R72	Attribute Arg1:T74 Arg2:T73	
+R73	Member-collection Arg1:T75 Arg2:T74	
+R74	Input Arg1:T72 Arg2:T75	
+R75	Output Arg1:T76 Arg2:T75	
+R76	Attribute Arg1:T78 Arg2:T77	
+R77	Input Arg1:T76 Arg2:T78	
+A11	Self T79
+R78	Attribute Arg1:T79 Arg2:T80	
+R79	Attribute Arg1:T84 Arg2:T83	
+R80	Attribute Arg1:T84 Arg2:T82	
+R81	Attribute Arg1:T86 Arg2:T87	
+R82	Output Arg1:T86 Arg2:T85	
+R83	Input Arg1:T84 Arg2:T85	
+R86	Coreference Arg1:T81 Arg2:T72	
+R87	Is-a Arg1:T81 Arg2:T84	
+R15	Output Arg1:T14 Arg2:T15	
+R16	Output Arg1:T14 Arg2:T16	
+R88	Is-a Arg1:T33 Arg2:T32	
+R89	Is-a Arg1:T34 Arg2:T32	
+R90	Attribute Arg1:T61 Arg2:T59	
+T91	CONDITION 1112 1115	per
+R91	from Arg1:T91 Arg2:T67	
+R92	to Arg1:T91 Arg2:T68	
+R68	Member-collection Arg1:T64 Arg2:T59	
+R93	Member-collection Arg1:T67 Arg2:T59	
+A12	Judgment T82
+A13	Judgment T83
+R84	Condition Arg1:T85 Arg2:T88	

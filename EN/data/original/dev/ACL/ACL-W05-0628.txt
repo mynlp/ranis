@@ -1,0 +1,8 @@
+Semantic Role Labeling as Sequential Tagging
+
+In this paper we present a semantic role labeling system submitted to the CoNLL-2005 shared task.
+The system makes use of partial and full syntactic information and converts the task into a sequential BIO-tagging.
+As a result, the labeling architecture is very simple.
+Building on a state-of-the-art set of features, a binary classifier for each label is trained using AdaBoost with fixed depth decision trees.
+The final system, which combines the outputs of two base systems performed F1=76.59 on the official test set.
+Additionally, we provide results comparing the system when using partial vs. full parsing input information.

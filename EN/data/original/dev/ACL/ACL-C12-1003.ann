@@ -1,0 +1,127 @@
+T1	PROCESS 273 282	detecting
+T2	PROCESS 478 485	predict
+T3	PROCESS 742 749	detects
+T4	PROCESS 467 474	trained
+T5	DATA-ITEM 653 659;672 682	Arabic Wikipedias
+T6	DATA-ITEM 664 682	English Wikipedias
+T7	QUALITY 194 198;208 216	more negative
+T8	QUALITY 366 374	positive
+T9	QUALITY 425 430	given
+T10	QUALITY 729 741	successfully
+T11	QUANTITY 121 124	two
+T12	PLAN-OR-PROCESS 0 19	Automatic Detection
+T14	THING 23 48	Point of View Differences
+T15	DATA-ITEM 52 61	Wikipedia
+T16	QUALITY 78 89	differences
+T17	THING 93 106	point of view
+T19	THING 108 111	POV
+T20	DATA-ITEM 125 144	objective documents
+T21	THING 174 188	subject matter
+T23	PLAN 252 268	automatic method
+T24	THING 288 303	POV differences
+T25	PLAN 312 334	Amazon Mechanical Turk
+T26	DATA-ITEM 353 362	sentences
+T27	THING 411 414	POV
+T28	CONTINUANT 431 437	target
+T29	PLAN 441 463	statistical classifier
+T30	DATA-ITEM 490 499	POV score
+T31	DATA-ITEM 505 513	document
+T32	DATA-ITEM 556 564	document
+T33	THING 567 570	POV
+T34	CONTINUANT 583 589	target
+T35	DATA-ITEM 598 605	results
+T36	DATA-ITEM 637 645	articles
+T38	PLAN 722 728	method
+T39	THING 750 765	POV differences
+R1	Equivalence Arg1:T19 Arg2:T17	
+T18	PROCESS 66 77	investigate
+T37	PROCESS 159 169	describing
+T22	QUALITY 194 207	more positive
+T40	QUALITY 217 220	way
+R2	Attribute Arg1:T40 Arg2:T7	
+R3	Attribute Arg1:T40 Arg2:T22	
+T41	DATA-ITEM 230 235	other
+T42	REFERENCE 152 155	one
+T43	PROCESS 241 248	present
+T13	PLAN 336 339	AMT
+R4	Equivalence Arg1:T13 Arg2:T25	
+T44	PROCESS 344 352	annotate
+R5	Attribute Arg1:T26 Arg2:T8	
+T45	QUALITY 376 384	negative
+T46	QUALITY 388 395	neutral
+R6	Attribute Arg1:T26 Arg2:T45	
+T48	REFERENCE 515 520	which
+R8	Coreference Arg1:T48 Arg2:T30	
+T49	PROCESS 521 529	reflects
+T50	QUALITY 534 542	positive
+T51	QUALITY 543 551	negative
+R9	Attribute Arg1:T33 Arg2:T51	
+R10	Attribute Arg1:T33 Arg2:T50	
+T52	REFERENCE 579 582	its
+T53	PROCESS 613 624	experiments
+T54	DATA-ITEM 630 633	set
+T55	DATA-ITEM 692 707	people category
+R12	Attribute Arg1:T3 Arg2:T10	
+R11	Coreference Arg1:T52 Arg2:T32	
+T57	RESULT 708 712	show
+T56	PERSON 609 612	our
+T58	PERSON 718 721	our
+T59	LANGUAGE 653 659	Arabic
+T60	LANGUAGE 664 671	English
+R13	Attribute Arg1:T28 Arg2:T9	
+R14	Attribute Arg1:T26 Arg2:T46	
+R7	Input Arg1:T44 Arg2:T26	
+T47	INPUT 396 404	based on
+R16	from Arg1:T47 Arg2:T44	
+R17	to Arg1:T47 Arg2:T27	
+T61	REFERENCE 405 410	their
+R18	Coreference Arg1:T61 Arg2:T26	
+R19	Member-collection Arg1:T36 Arg2:T54	
+R20	Poss Arg1:T56 Arg2:T53	
+R21	Poss Arg1:T58 Arg2:T38	
+R22	Poss Arg1:T61 Arg2:T27	
+R23	Poss Arg1:T52 Arg2:T34	
+R24	Output Arg1:T12 Arg2:T14	
+R25	Input Arg1:T12 Arg2:T15	
+R26	Condition Arg1:T14 Arg2:T15	
+R27	In_Out Arg1:T18 Arg2:T16	
+R29	Attribute Arg1:T20 Arg2:T11	
+R28	Condition Arg1:T16 Arg2:T17	
+R30	Coreference Arg1:T42 Arg2:T20	
+R31	Condition Arg1:T37 Arg2:T40	
+R32	Output Arg1:T37 Arg2:T21	
+R33	Condition Arg1:T37 Arg2:T42	
+R34	Compare Arg1:T41 Arg2:T7	
+R35	Compare Arg1:T41 Arg2:T22	
+R36	Output Arg1:T43 Arg2:T23	
+R37	Apply-to Arg1:T23 Arg2:T1	
+R38	Output Arg1:T1 Arg2:T24	
+T63	PROCESS 308 311	use
+R39	Input Arg1:T63 Arg2:T25	
+R40	Apply-to Arg1:T63 Arg2:T44	
+R15	Other-rel Arg1:T27 Arg2:T28	
+R41	Output Arg1:T4 Arg2:T29	
+R42	Apply-to Arg1:T4 Arg2:T2	
+R43	Output Arg1:T2 Arg2:T30	
+R44	Attribute Arg1:T31 Arg2:T30	
+R45	Attribute Arg1:T32 Arg2:T33	
+R46	Other-rel Arg1:T33 Arg2:T34	
+R47	In_Out Arg1:T49 Arg2:T50	
+R48	In_Out Arg1:T49 Arg2:T51	
+R49	Destination Arg1:T49 Arg2:T48	
+R50	Output Arg1:T53 Arg2:T35	
+R51	Input Arg1:T53 Arg2:T54	
+R52	Member-collection Arg1:T36 Arg2:T6	
+R53	Member-collection Arg1:T36 Arg2:T5	
+R54	Attribute Arg1:T6 Arg2:T55	
+R55	Attribute Arg1:T5 Arg2:T55	
+R56	Output Arg1:T3 Arg2:T39	
+R57	Apply-to Arg1:T38 Arg2:T3	
+R58	from Arg1:T57 Arg2:T35	
+R59	to Arg1:T57 Arg2:T10	
+R60	Attribute Arg1:T16 Arg2:T20	
+T62	PERSON 63 65	We
+R61	Agent Arg1:T18 Arg2:T62	
+T64	PERSON 305 307	We
+R62	Agent Arg1:T63 Arg2:T64	
+R63	Condition Arg1:T43 Arg2:T42	

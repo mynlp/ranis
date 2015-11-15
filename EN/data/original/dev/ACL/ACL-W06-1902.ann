@@ -1,0 +1,115 @@
+T1	PROCESS 4 10	Affect
+T2	PLAN-OR-PROCESS 14 33	Machine Translation
+T3	QUALITY 41 52	Performance
+T4	LANGUAGE 56 62	Arabic
+T5	LANGUAGE 63 70	English
+T6	PLAN 56 80	Arabic-English QA System
+T7	QUALITY 135 148	effectiveness
+T8	PLAN 154 172	Question Answering
+T9	PLAN 174 176	QA
+R1	Equivalence Arg1:T9 Arg2:T8	
+T10	PLAN 178 184	system
+R2	Split Arg1:T10 Arg2:T8	
+T11	CONDITION 189 197	affected
+T12	QUALITY 205 216	performance
+T13	PLAN 220 239	Machine Translation
+T14	PLAN 241 243	MT
+R3	Equivalence Arg1:T14 Arg2:T13	
+T15	PLAN 245 271	based question translation
+R4	Split Arg1:T15 Arg2:T13	
+T16	QUANTITY 273 283	Nearly 200
+T17	DATA-ITEM 284 293	questions
+T18	PROCESS 299 307	selected
+T19	DATA-ITEM 313 327	TREC QA tracks
+T20	INPUT 332 335	ran
+T21	PLAN 346 371	question answering system
+T22	MODALITY 380 384	able
+T23	PROCESS 388 394	answer
+T24	QUANTITY 395 400	42.6%
+T25	DATA-ITEM 408 417	questions
+T26	QUALITY 418 427	correctly
+T27	PLAN-OR-PROCESS 433 448	monolingual run
+T28	REFERENCE 373 375	It
+R5	Coreference Arg1:T28 Arg2:T21	
+T29	DATA-ITEM 450 465	These questions
+R6	Coreference Arg1:T29 Arg2:T17	
+T30	PROCESS 476 486	translated
+T31	QUALITY 487 495	manually
+T32	LANGUAGE 501 508	English
+T33	LANGUAGE 514 520	Arabic
+T34	LANGUAGE 535 542	English
+T35	PROCESS 525 529	back
+T36	APPLY-TO 543 548	using
+T37	PLAN 552 561	MT system
+T38	INPUT 572 582	re-applied
+T39	PLAN 590 599	QA system
+T40	PLAN 605 611	system
+T41	MODALITY 616 620	able
+T42	PROCESS 624 630	answer
+T43	QUANTITY 631 636	10.2%
+T45	PROCESS 669 677	analysis
+T46	PLAN-OR-PROCESS 694 711	translation error
+T48	CONDITION 712 720	affected
+T49	DATA-ITEM 721 736	which questions
+T50	PROCESS 741 750	conducted
+T51	RESULT 752 762	concluding
+T52	DATA-ITEM 781 790	questions
+T53	JUDGING-PROCESS 800 805	prone
+T54	PLAN-OR-PROCESS 809 826	translation error
+T55	DATA-ITEM 832 838	others
+T57	PLAN 313 317	TREC
+T44	DATA-ITEM 644 664	translated questions
+T58	QUALITY 768 780	factoid type
+R7	Attribute Arg1:T52 Arg2:T58	
+R8	Attribute Arg1:T25 Arg2:T24	
+R9	Attribute Arg1:T23 Arg2:T26	
+R10	Attribute Arg1:T30 Arg2:T31	
+R11	Attribute Arg1:T42 Arg2:T41	
+R12	Attribute Arg1:T44 Arg2:T43	
+R13	Attribute Arg1:T17 Arg2:T16	
+R14	Attribute Arg1:T10 Arg2:T7	
+R15	Condition Arg1:T53 Arg2:T54	
+R16	Attribute Arg1:T2 Arg2:T1	
+R17	Attribute Arg1:T6 Arg2:T3	
+R18	Destination Arg1:T1 Arg2:T3	
+R19	to Arg1:T11 Arg2:T7	
+R20	Attribute Arg1:T15 Arg2:T12	
+R21	from Arg1:T11 Arg2:T12	
+R22	In_Out Arg1:T18 Arg2:T17	
+R23	Input Arg1:T18 Arg2:T19	
+R24	to Arg1:T20 Arg2:T17	
+R25	from Arg1:T20 Arg2:T21	
+R26	Attribute Arg1:T23 Arg2:T22	
+R27	Apply-to Arg1:T28 Arg2:T23	
+R28	Input Arg1:T23 Arg2:T25	
+R29	Condition Arg1:T23 Arg2:T27	
+R30	Input Arg1:T30 Arg2:T29	
+R31	Input Arg1:T30 Arg2:T32	
+R32	Output Arg1:T30 Arg2:T33	
+R33	Output Arg1:T35 Arg2:T34	
+R34	from Arg1:T36 Arg2:T37	
+R35	to Arg1:T36 Arg2:T30	
+R36	to Arg1:T36 Arg2:T35	
+R37	to Arg1:T38 Arg2:T29	
+R38	from Arg1:T38 Arg2:T39	
+R39	Apply-to Arg1:T40 Arg2:T42	
+R40	Input Arg1:T42 Arg2:T44	
+R41	In_Out Arg1:T45 Arg2:T46	
+R43	to Arg1:T48 Arg2:T50	
+R44	from Arg1:T48 Arg2:T46	
+R46	from Arg1:T51 Arg2:T45	
+R47	to Arg1:T51 Arg2:T53	
+R48	Attribute Arg1:T52 Arg2:T53	
+R49	Compare Arg1:T55 Arg2:T61	
+R50	In_Out Arg1:T50 Arg2:T49	
+T61	QUALITY 795 799	less
+R42	Attribute Arg1:T53 Arg2:T61	
+R45	Input Arg1:T35 Arg2:T33	
+R51	Attribute Arg1:T29 Arg2:T32	
+R52	Attribute Arg1:T29 Arg2:T33	
+R53	Attribute Arg1:T29 Arg2:T34	
+T47	REFERENCE 93 103	this paper
+T56	THING 86 89	aim
+R54	Attribute Arg1:T47 Arg2:T56	
+T59	PROCESS 110 121	investigate
+R55	Is-a Arg1:T59 Arg2:T56	

@@ -1,0 +1,45 @@
+R1	Attribute Arg1:T4 Arg2:T3
+R2	to Arg1:T2 Arg2:T4
+R3	from Arg1:T2 Arg2:T1
+R4	Attribute Arg1:T5 Arg2:T4
+A1	Self T22
+A2	Intentional T23
+R5	Condition Arg1:T23 Arg2:T22
+R6	Attribute Arg1:T7 Arg2:T6
+R7	Output Arg1:T23 Arg2:T7
+R8	to Arg1:T8 Arg2:T9
+R9	from Arg1:T8 Arg2:T7
+R10	Output Arg1:T10 Arg2:T9
+R11	Attribute Arg1:T12 Arg2:T11
+R12	Attribute Arg1:T13 Arg2:T12
+R13	Input Arg1:T10 Arg2:T12
+R14	Attribute Arg1:T18 Arg2:T17
+R15	Target Arg1:T18 Arg2:T19
+R16	Attribute Arg1:T20 Arg2:T21
+R17	Attribute Arg1:T18 Arg2:T20
+R18	Apply-to Arg1:T16 Arg2:T18
+R19	from Arg1:T15 Arg2:T14
+R20	to Arg1:T15 Arg2:T21
+T1	PLAN-OR-PROCESS 0 14	Event Matching
+T2	INPUT 15 20	Using
+T3	QUALITY 25 35	Transitive
+T4	DATA-ITEM 36 43	Closure
+T5	DATA-ITEM 47 67	Dependency Relations
+T22	REFERENCE 70 80	This paper
+T23	PROCESS 81 90	describes
+T6	QUALITY 93 98	novel
+T7	PLAN 99 122	event-matching strategy
+T8	INPUT 123 128	using
+T9	DATA-ITEM 129 137	features
+T10	PROCESS 138 146	obtained
+T11	QUALITY 156 166	transitive
+T12	DATA-ITEM 167 174	closure
+T13	DATA-ITEM 178 198	dependency relations
+T14	PLAN 205 211	method
+T15	RESULT 212 218	yields
+T16	PLAN 221 226	model
+T17	QUALITY 227 234	capable
+T18	PROCESS 238 246	matching
+T19	DATA-ITEM 247 253	events
+T20	DATA-ITEM 262 271	F-measure
+T21	QUANTITY 275 281	66.5 %

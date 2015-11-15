@@ -1,0 +1,7 @@
+Document Re-Ranking Based On Automatically Acquired Key Terms In Chinese Information Retrieval .
+For Information Retrieval , users are more concerned about the precision of top ranking documents in most practical situations .
+In this paper , we propose a method to improve the precision of top N ranking documents by reordering the retrieved documents from the initial retrieval .
+To reorder documents , we first automatically extract Global Key Terms from document set , then use extracted Global Key Terms to identify Local Key Terms in a single document or query topic , finally we make use of Local Key Terms in query and documents to reorder the initial ranking documents .
+The experiment with NTCIR3 CLIR dataset shows that an average 10 % - 11 % improvement and 2 % - 5 % improvement in precision can be achieved at top 10 and 100 ranking documents level respectively .
+
+

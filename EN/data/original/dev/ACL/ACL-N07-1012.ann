@@ -1,0 +1,110 @@
+T1	PLAN-OR-PROCESS 65 75	retrieving
+T2	INPUT 131 136	using
+T3	APPLY-TO 238 243	based
+T4	COMPONENT-OBJECT 331 339	provided
+T5	INPUT 414 419	using
+T6	MODALITY 527 534	missing
+T7	PROCESS 602 610	retrieve
+T8	OUTPUT 662 670	achieves
+T9	PROCESS 305 313	inferred
+T10	MODALITY 296 301	could
+T11	MODALITY 596 601	would
+T12	QUALITY 261 270	plausible
+T13	PLAN-OR-PROCESS 0 21	Information Retrieval
+T14	PLAN-OR-PROCESS 54 61	problem
+T15	DATA-ITEM 76 101	semi-structured documents
+T16	DATA-ITEM 109 130	real-world collection
+T17	DATA-ITEM 139 155	structured query
+T18	PLAN 177 204	Structured Relevance Models
+T19	PLAN 206 209	SRM
+T20	PLAN 214 229	retrieval model
+T21	PLAN 251 255	idea
+T22	DATA-ITEM 271 277	values
+T23	DATA-ITEM 323 330	context
+T24	DATA-ITEM 367 373	record
+T25	PROCESS 402 413	experiments
+T26	DATA-ITEM 422 430	snapshot
+T27	ORGANIZATION 438 470	National Science Digital Library
+T28	ORGANIZATION 472 476	NSDL
+T30	DATA-ITEM 438 470;478 488	National Science Digital Library repository
+T31	DATA-ITEM 520 526	fields
+T32	DATA-ITEM 544 553	test data
+T33	DATA-ITEM 559 571	such queries
+T34	PLAN 581 595	field matching
+T35	DATA-ITEM 614 623	documents
+T36	PLAN 649 661	SRM approach
+T37	DATA-ITEM 673 695	mean average precision
+T38	QUALITY 25 30	Empty
+T39	DATA-ITEM 31 37	Fields
+R1	Attribute Arg1:T39 Arg2:T38	
+T40	PROCESS 169 176	develop
+R2	Equivalence Arg1:T19 Arg2:T18	
+T41	DATA-ITEM 290 295	field
+T42	QUALITY 284 289	given
+R3	Attribute Arg1:T41 Arg2:T42	
+T43	QUALITY 347 352	other
+T44	DATA-ITEM 353 359	fields
+R4	Attribute Arg1:T44 Arg2:T43	
+T46	PROCESS 395 398	set
+R5	Attribute Arg1:T22 Arg2:T12	
+R6	Attribute Arg1:T9 Arg2:T10	
+R7	Equivalence Arg1:T28 Arg2:T27	
+T47	DATA-ITEM 494 501	queries
+T48	COMPONENT-OBJECT 512 519	mention
+R9	Attribute Arg1:T31 Arg2:T6	
+R10	Attribute Arg1:T7 Arg2:T11	
+T49	MODALITY 611 613	no
+R11	Attribute Arg1:T35 Arg2:T49	
+T50	PLAN 649 652	SRM
+T51	QUANTITY 699 718	over twenty percent
+R12	Attribute Arg1:T37 Arg2:T51	
+T29	QUALITY 573 580	typical
+R8	Attribute Arg1:T34 Arg2:T29	
+R13	Member-collection Arg1:T25 Arg2:T46	
+R14	Member-collection Arg1:T15 Arg2:T16	
+T52	REFERENCE 230 234	that
+R15	Coreference Arg1:T52 Arg2:T20	
+T53	REFERENCE 256 260	that
+R16	Coreference Arg1:T53 Arg2:T21	
+T54	REFERENCE 502 506	that
+R17	Coreference Arg1:T54 Arg2:T47	
+R18	Condition Arg1:T39 Arg2:T13	
+R19	Output Arg1:T1 Arg2:T15	
+R20	Origin Arg1:T1 Arg2:T16	
+R21	to Arg1:T2 Arg2:T17	
+R22	from Arg1:T2 Arg2:T1	
+R23	Is-a Arg1:T1 Arg2:T14	
+R24	Is-a Arg1:T18 Arg2:T20	
+R25	from Arg1:T3 Arg2:T21	
+R26	to Arg1:T3 Arg2:T52	
+R27	Attribute Arg1:T41 Arg2:T22	
+R28	Output Arg1:T9 Arg2:T22	
+R29	Input Arg1:T9 Arg2:T23	
+R30	Component-object Arg1:T44 Arg2:T24	
+R31	from Arg1:T4 Arg2:T23	
+R32	to Arg1:T4 Arg2:T44	
+R33	Other-rel Arg1:T53 Arg2:T9	
+R34	from Arg1:T5 Arg2:T25	
+R35	to Arg1:T5 Arg2:T26	
+R36	Component-object Arg1:T26 Arg2:T30	
+R37	to Arg1:T5 Arg2:T47	
+R38	Component-object Arg1:T31 Arg2:T32	
+R39	from Arg1:T48 Arg2:T31	
+R40	to Arg1:T48 Arg2:T54	
+R41	Coreference Arg1:T33 Arg2:T47	
+R42	Output Arg1:T7 Arg2:T35	
+R43	Apply-to Arg1:T34 Arg2:T7	
+R44	Input Arg1:T7 Arg2:T33	
+R45	to Arg1:T8 Arg2:T37	
+R46	from Arg1:T8 Arg2:T36	
+R47	Output Arg1:T40 Arg2:T18	
+T45	PERSON 39 41	We
+T55	PROCESS 42 49	explore
+T56	PERSON 157 159	We
+T57	PERSON 375 377	We
+T58	PROCESS 383 392	carry out
+R48	Agent Arg1:T58 Arg2:T57	
+R49	Agent Arg1:T55 Arg2:T45	
+R50	Agent Arg1:T40 Arg2:T56	
+R51	In_Out Arg1:T55 Arg2:T14	
+R52	Output Arg1:T58 Arg2:T25	

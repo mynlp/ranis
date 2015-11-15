@@ -1,0 +1,6 @@
+A methodology for obtaining concept graphs from word graphs
+
+In this work, we describe a methodology based on the Stochastic Finite State Transducers paradigm for Spoken Language Understanding (SLU) for obtaining concept graphs from word graphs.
+In the edges of these concept graphs, both semantic and lexical information are represented.
+This makes these graphs a very useful representation of the information for SLU.
+The best path in these concept graphs provides the best sequence of concepts.

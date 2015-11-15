@@ -1,0 +1,8 @@
+Efficiently Computed Lexical Chains as an Intermediate Representation for Automatic Text Summarization
+
+While automatic text summarization is an area that has received a great deal of attention in recent research, the problem of efficiency in this task has not been frequently addressed.
+When the size and quantity of documents available on the Internet and from other sources are considered, the need for a highly efficient tool that produces usable summaries is clear.
+We present a linear-time algorithm for lexical chain computation.
+The algorithm makes lexical chains a computationally feasible candidate as an intermediate representation for automatic text summarization.
+A method for evaluating lexical chains as an intermediate step in summarization is also presented and carried out.
+Such an evaluation was heretofore not possible because of the computational complexity of previous lexical chains algorithms.

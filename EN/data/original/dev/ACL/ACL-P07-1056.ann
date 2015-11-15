@@ -1,0 +1,153 @@
+T1	PLAN 0 17	Domain Adaptation
+T2	PLAN-OR-PROCESS 22 46	Sentiment Classification
+T3	PLAN 48 82	Automatic sentiment classification
+T4	QUALITY 92 103	extensively
+T5	PROCESS 104 111	studied
+T6	PROCESS 116 123	applied
+T7	TIME 127 139	recent years
+T8	PROCESS 163 172	expressed
+T10	QUALITY 173 186	dif- ferently
+T11	QUALITY 190 199	different
+T12	DOMAIN 200 207	domains
+T13	PROCESS 213 223	annotating
+T14	DATA-ITEM 224 231	corpora
+T15	QUANTITY 236 241	every
+T16	QUALITY 242 250	possible
+T17	DOMAIN 251 257	domain
+T18	QUALITY 261 269	interest
+T19	QUALITY 273 284	impractical
+T20	PERSON 286 288	We
+T21	PROCESS 289 300	investigate
+T22	PLAN-OR-PROCESS 301 318	domain adaptation
+T23	PLAN 323 344	sentiment classifiers
+T24	DATA-ITEM 358 372	online reviews
+T25	QUALITY 377 386	different
+T26	DATA-ITEM 387 392	types
+T27	DATA-ITEM 396 404	products
+T28	PERSON 413 415	we
+T29	PROCESS 416 422	extend
+T30	PLAN 426 450	sentiment classification
+T31	QUALITY 455 472	recently-proposed
+T32	PLAN 473 507	structural correspondence learning
+T34	PLAN 514 523	algorithm
+T35	PROCESS 525 533	reducing
+T38	PROCESS 560 570	adaptation
+T39	DOMAIN 579 586	domains
+T40	DATA-ITEM 593 600	average
+T41	QUANTITY 604 607	30%
+T42	PLAN 617 639	original SCL algorithm
+T43	QUANTITY 644 647	46%
+T44	PLAN 655 674	supervised baseline
+T45	PERSON 684 686	we
+T46	PROCESS 687 695	identify
+T47	PLAN 698 705	measure
+T48	DATA-ITEM 709 726	domain similarity
+T49	REFERENCE 727 731	that
+T50	PROCESS 732 742	correlates
+T51	QUALITY 743 747	well
+T52	DATA-ITEM 757 766	potential
+T53	APPLY-TO 771 781	adaptation
+T54	PLAN 787 797	classifier
+T56	DOMAIN 807 813	domain
+T57	PLAN 826 838	This measure
+T58	MODALITY 839 844	could
+T59	APPLY-TO 861 865	used
+T60	PROCESS 869 875	select
+T61	QUALITY 878 883	small
+T62	DOMAIN 884 887	set
+T63	DOMAIN 891 898	domains
+T64	PROCESS 902 910	annotate
+T65	REFERENCE 911 916	whose
+T66	PLAN 917 936	trained classifiers
+T67	MODALITY 937 942	would
+T68	APPLY-TO 943 951	transfer
+T69	QUALITY 952 956	well
+T70	QUANTITY 960 964	many
+T71	DOMAIN 971 978	domains
+R1	Apply-to Arg1:T1 Arg2:T2	
+R2	Attribute Arg1:T5 Arg2:T4	
+R3	In_Out Arg1:T5 Arg2:T3	
+R4	Input Arg1:T6 Arg2:T3	
+R5	Condition Arg1:T6 Arg2:T7	
+R6	Condition Arg1:T5 Arg2:T7	
+T72	OCCURENT 150 159	sentiment
+R7	Output Arg1:T8 Arg2:T72	
+R8	Attribute Arg1:T8 Arg2:T10	
+R9	Attribute Arg1:T12 Arg2:T11	
+R10	Condition Arg1:T8 Arg2:T12	
+R11	In_Out Arg1:T13 Arg2:T14	
+R12	Attribute Arg1:T17 Arg2:T16	
+R13	Attribute Arg1:T17 Arg2:T15	
+R14	Attribute Arg1:T17 Arg2:T18	
+R15	Condition Arg1:T14 Arg2:T17	
+R16	Attribute Arg1:T13 Arg2:T19	
+A1	Self T20
+A2	Intentional T21
+R17	Agent Arg1:T21 Arg2:T20	
+R18	In_Out Arg1:T21 Arg2:T22	
+R19	Apply-to Arg1:T22 Arg2:T23	
+R20	Attribute Arg1:T26 Arg2:T25	
+R21	Member-collection Arg1:T26 Arg2:T27	
+R22	Condition Arg1:T24 Arg2:T26	
+T9	PROCESS 346 354	focusing
+R23	Target Arg1:T9 Arg2:T24	
+A3	Self T28
+A4	Intentional T29
+R25	Agent Arg1:T29 Arg2:T28	
+R26	Destination Arg1:T29 Arg2:T30	
+R29	Attribute Arg1:T32 Arg2:T31	
+T73	DATA-ITEM 538 552	relative error
+R31	In_Out Arg1:T35 Arg2:T73	
+R32	Destination Arg1:T38 Arg2:T39	
+T36	RESULT 553 559	due to
+R33	from Arg1:T36 Arg2:T38	
+R34	to Arg1:T36 Arg2:T73	
+R35	Attribute Arg1:T40 Arg2:T41	
+T37	COMPARE 608 612	over
+R37	to Arg1:T37 Arg2:T41	
+T74	COMPARE 648 652	over
+R36	from Arg1:T37 Arg2:T42	
+R38	to Arg1:T74 Arg2:T43	
+R39	from Arg1:T74 Arg2:T44	
+R40	Attribute Arg1:T73 Arg2:T41	
+R41	Attribute Arg1:T73 Arg2:T43	
+A7	Self T45
+A8	Intentional T46
+R43	Agent Arg1:T46 Arg2:T45	
+R44	Input Arg1:T47 Arg2:T48	
+R45	Output Arg1:T46 Arg2:T47	
+R46	Attribute Arg1:T50 Arg2:T51	
+R48	Attribute Arg1:T54 Arg2:T52	
+T75	REFERENCE 817 824	another
+R47	from Arg1:T53 Arg2:T54	
+R50	Other-rel Arg1:T53 Arg2:T75	
+R51	Other-rel Arg1:T53 Arg2:T56	
+R49	Coreference Arg1:T49 Arg2:T48	
+R52	Target Arg1:T50 Arg2:T52	
+R53	Agent Arg1:T50 Arg2:T49	
+R54	Coreference Arg1:T57 Arg2:T47	
+R55	to Arg1:T59 Arg2:T60	
+R56	from Arg1:T59 Arg2:T57	
+R57	Attribute Arg1:T59 Arg2:T58	
+R58	Attribute Arg1:T62 Arg2:T61	
+R59	Other-rel Arg1:T63 Arg2:T62	
+R60	Other-rel Arg1:T60 Arg2:T62	
+T55	QUALITY 965 970	other
+R62	Attribute Arg1:T71 Arg2:T55	
+R63	Attribute Arg1:T71 Arg2:T70	
+R64	Attribute Arg1:T68 Arg2:T69	
+R65	Attribute Arg1:T68 Arg2:T67	
+R66	Other-rel Arg1:T68 Arg2:T71	
+R67	from Arg1:T68 Arg2:T66	
+R68	Other-rel Arg1:T64 Arg2:T62	
+R61	Coreference Arg1:T65 Arg2:T62	
+R69	Attribute Arg1:T65 Arg2:T66	
+A9	Judgment T69
+A10	Judgment T51
+R70	Attribute Arg1:T6 Arg2:T4	
+R24	Agent Arg1:T9 Arg2:T20	
+T33	PLAN 509 512	SCL
+R27	Equivalence Arg1:T33 Arg2:T32	
+R28	Split Arg1:T34 Arg2:T32	
+R30	Is-a Arg1:T30 Arg2:T32	
+R42	Result Arg1:T29 Arg2:T35	

@@ -1,0 +1,7 @@
+Multilingual and cross-lingual news topic tracking
+
+We are presenting a working system for automated news analysis that ingests an average total of 7600 news articles per day in five languages.
+For each language, the system detects the major news stories of the day using a group-average unsupervised agglomerative clustering process.
+It also tracks, for each cluster, related groups of articles published over the previous seven days, using a cosine of weighted terms. The system furthermore tracks related news across languages, in all language pairs involved.
+The cross-lingual news cluster similarity is based on a linear combination of three types of input: (a) cognates, (b) automatically detected references to geographical place names and (c) the results of a mapping process onto a multilingual classification system.
+A manual evaluation showed that the system produces good results.

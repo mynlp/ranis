@@ -1,0 +1,120 @@
+T1	DATA-ITEM 0 8	Networks
+T2	ATTRIBUTE 9 19	Preserving
+T3	PLAN 20 43	Evolutionary Equilibria
+T4	QUALITY 52 57	Power
+T5	PLAN-OR-PROCESS 61 74	Randomization
+T6	PLAN-OR-PROCESS 94 103	extension
+T7	PLAN 117 141	evolutionary game theory
+T8	PLAN 147 154	setting
+T9	REFERENCE 158 163	which
+R1	Coreference Arg1:T9 Arg2:T8	
+T10	PLAN-OR-PROCESS 164 185	pairwise interactions
+T11	PROCESS 190 200	restricted
+T12	DATA-ITEM 208 213	edges
+T13	DATA-ITEM 220 236	undirected graph
+T14	DATA-ITEM 220 230;240 247	undirected network
+T15	PLAN 267 277	definition
+T16	PLAN 284 312	evolutionary stable strategy
+T17	PLAN 314 317	ESS
+R2	Equivalence Arg1:T17 Arg2:T16	
+T18	QUANTITY 331 335	pair
+T19	DATA-ITEM 339 360	complementary results
+T20	REFERENCE 361 365	that
+R3	Coreference Arg1:T20 Arg2:T18	
+T21	OUTPUT 366 373	exhibit
+T22	QUALITY 378 383	power
+T23	PLAN-OR-PROCESS 387 400	randomization
+T24	PLAN 408 415	setting
+T25	PLAN 428 434;451 461	degree conditions
+T26	PLAN 438 461	edge density conditions
+T27	PLAN 477 480	ESS
+T28	QUALITY 107 116	classical
+T29	QUALITY 467 476	classical
+T30	PLAN 488 492	game
+T31	PROCESS 497 506	preserved
+T32	DATA-ITEM 516 521	graph
+T33	PROCESS 525 531	chosen
+T34	QUALITY 532 540	randomly
+T35	DATA-ITEM 549 561	mutation set
+T36	PROCESS 565 571	chosen
+T37	QUALITY 572 585	adversarially
+T38	DATA-ITEM 599 604	graph
+T39	PROCESS 608 614	chosen
+T40	QUALITY 615 628	adversarially
+T41	DATA-ITEM 637 649	mutation set
+T42	PROCESS 653 659	chosen
+T43	QUALITY 660 668	randomly
+T44	PLAN 689 703	strengthenings
+T45	QUALITY 711 722	generalized
+T46	PLAN 723 737	ESS definition
+T47	THING 770 777	results
+T48	QUALITY 753 769	similarly strong
+T49	MODALITY 782 785	not
+T50	QUALITY 786 794	possible
+T51	REFERENCE 799 803	them
+T52	PROCESS 252 262	generalize
+R4	Coreference Arg1:T51 Arg2:T44	
+R5	Attribute Arg1:T7 Arg2:T28	
+T53	PERSON 404 407	our
+R6	Attribute Arg1:T27 Arg2:T29	
+R7	Attribute Arg1:T33 Arg2:T34	
+R8	Attribute Arg1:T36 Arg2:T37	
+R9	Attribute Arg1:T39 Arg2:T40	
+R10	Attribute Arg1:T42 Arg2:T43	
+T55	PERSON 707 710	our
+R12	Attribute Arg1:T46 Arg2:T45	
+R13	Attribute Arg1:T47 Arg2:T48	
+R14	Attribute Arg1:T47 Arg2:T50	
+R15	Attribute Arg1:T50 Arg2:T49	
+R11	Poss Arg1:T55 Arg2:T46	
+R16	Poss Arg1:T53 Arg2:T24	
+R17	from Arg1:T2 Arg2:T1	
+R18	to Arg1:T2 Arg2:T3	
+R19	Attribute Arg1:T5 Arg2:T4	
+T58	QUALITY 86 93	natural
+R20	Attribute Arg1:T6 Arg2:T58	
+R21	In_Out Arg1:T6 Arg2:T7	
+R22	Apply-to Arg1:T6 Arg2:T8	
+R23	Condition Arg1:T11 Arg2:T9	
+R24	Target Arg1:T11 Arg2:T10	
+R25	Component-object Arg1:T12 Arg2:T13	
+R26	Component-object Arg1:T12 Arg2:T14	
+R27	In_Out Arg1:T52 Arg2:T15	
+R28	Attribute Arg1:T16 Arg2:T15	
+R29	Attribute Arg1:T19 Arg2:T18	
+R30	from Arg1:T21 Arg2:T20	
+R31	Attribute Arg1:T23 Arg2:T22	
+R32	to Arg1:T21 Arg2:T22	
+R33	Condition Arg1:T21 Arg2:T24	
+R34	Attribute Arg1:T30 Arg2:T27	
+T61	CONDITION 417 424	subject
+R37	Output Arg1:T33 Arg2:T32	
+R38	Output Arg1:T36 Arg2:T35	
+R39	Output Arg1:T39 Arg2:T38	
+R40	Output Arg1:T42 Arg2:T41	
+T62	QUALITY 681 688	natural
+R41	Attribute Arg1:T44 Arg2:T62	
+R42	Attribute Arg1:T46 Arg2:T44	
+R43	Condition Arg1:T11 Arg2:T12	
+R44	to Arg1:T61 Arg2:T25	
+R45	to Arg1:T61 Arg2:T26	
+R46	from Arg1:T61 Arg2:T31	
+R47	from Arg1:T61 Arg2:T31	
+R35	Target Arg1:T31 Arg2:T27	
+R36	Condition Arg1:T31 Arg2:T33	
+R48	Condition Arg1:T31 Arg2:T36	
+R49	Condition Arg1:T31 Arg2:T39	
+R50	Condition Arg1:T31 Arg2:T42	
+T54	PERSON 75 77	We
+T56	PERSON 249 251	We
+T57	PERSON 670 672	We
+T59	PROCESS 78 83	study
+T60	PROCESS 673 680	examine
+T63	PROCESS 324 328	show
+R51	Agent Arg1:T59 Arg2:T54	
+R52	In_Out Arg1:T59 Arg2:T6	
+R53	Agent Arg1:T52 Arg2:T56	
+R54	Agent Arg1:T63 Arg2:T56	
+R55	Output Arg1:T63 Arg2:T19	
+R56	Agent Arg1:T60 Arg2:T57	
+R57	Input Arg1:T60 Arg2:T44	

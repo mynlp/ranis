@@ -1,0 +1,149 @@
+T1	DATA-ITEM 5 13	Referent
+T2	QUALITY 15 24	Different
+T3	DATA-ITEM 25 30	Words
+T4	PLAN-OR-PROCESS 32 51	Unsupervised Mining
+T5	DATA-ITEM 55 81	Opaque Coreferent Mentions
+T6	PLAN 83 113	Coreference resolution systems
+T7	PROCESS 114 118	rely
+T8	QUALITY 119 126	heavily
+T10	OCCURENT 130 144	string overlap
+T11	DATA-ITEM 152 162	Google Inc
+T12	DATA-ITEM 168 174	Google
+T13	PROCESS 177 187	performing
+T14	QUALITY 188 193	badly
+T15	DATA-ITEM 197 205	mentions
+T17	QUALITY 211 225	very different
+T18	DATA-ITEM 226 231	words
+T19	DATA-ITEM 233 248	opaque mentions
+T20	DATA-ITEM 255 261	Google
+T21	DATA-ITEM 270 282	search giant
+T22	QUALITY 288 293	prior
+T23	PLAN-OR-PROCESS 294 302	attempts
+T24	PROCESS 306 313	resolve
+T25	DATA-ITEM 314 326	opaque pairs
+T26	APPLY-TO 327 332	using
+T27	PLAN 333 343	ontologies
+T28	PLAN 347 371	distributional semantics
+T29	PROCESS 372 376	hurt
+T30	DATA-ITEM 377 386	precision
+T31	QUALITY 397 405	improved
+T32	DATA-ITEM 406 412	recall
+T33	PERSON 414 416	We
+T34	PROCESS 417 424	present
+T35	QUALITY 427 430	new
+T36	PLAN 431 450	unsupervised method
+T37	PROCESS 455 461	mining
+T38	DATA-ITEM 462 474	opaque pairs
+T39	PERSON 476 479	Our
+T40	PROCESS 496 504	restrict
+T41	DATA-ITEM 505 529	distributional semantics
+T42	DATA-ITEM 533 541	articles
+T43	QUALITY 552 556	same
+T44	PROCESS 569 578	promoting
+T45	PLAN-OR-PROCESS 579 596	referential match
+T46	INPUT 598 603	Using
+T47	DATA-ITEM 607 632	English comparable corpus
+T48	DATA-ITEM 636 645	tech news
+T49	PERSON 647 649	we
+T50	PROCESS 650 655	built
+T51	DATA-ITEM 658 668	dictionary
+T52	DATA-ITEM 672 698	opaque coreferent mentions
+T53	QUANTITY 700 707	only 3%
+T54	DATA-ITEM 715 722	WordNet
+T55	PERSON 725 728	Our
+T56	DATA-ITEM 729 739	dictionary
+T57	MODALITY 740 743	can
+T58	PROCESS 747 757	integrated
+T59	PLAN 767 785	coreference system
+T60	REFERENCE 787 789	it
+T61	JUDGING-PROCESS 790 799	increases
+T62	DATA-ITEM 804 815	performance
+T63	QUALITY 821 837	state-of-the-art
+T64	PLAN 838 844	system
+T65	QUANTITY 848 853	1% F1
+T66	QUANTITY 857 860	all
+T67	DATA-ITEM 861 869	measures
+T68	QUALITY 878 895	easily extendable
+T69	PROCESS 899 904	using
+T70	INTELLIGENT-AGENT 905 921	news aggregators
+R1	Input Arg1:T4 Arg2:T5	
+R2	Attribute Arg1:T3 Arg2:T2	
+T71	QUALITY 0 4	Same
+R3	Attribute Arg1:T1 Arg2:T71	
+R4	Apply-to Arg1:T6 Arg2:T7	
+R5	Attribute Arg1:T7 Arg2:T8	
+R6	Target Arg1:T7 Arg2:T10	
+R7	Attribute Arg1:T13 Arg2:T14	
+R8	Input Arg1:T13 Arg2:T15	
+R9	Attribute Arg1:T18 Arg2:T17	
+R10	Equivalence Arg1:T19 Arg2:T15	
+R11	Component-object Arg1:T15 Arg2:T18	
+R12	Member-collection Arg1:T20 Arg2:T19	
+R13	Member-collection Arg1:T21 Arg2:T19	
+R14	Attribute Arg1:T23 Arg2:T22	
+R15	Apply-to Arg1:T23 Arg2:T24	
+R16	Input Arg1:T24 Arg2:T25	
+R17	from Arg1:T26 Arg2:T27	
+R18	to Arg1:T26 Arg2:T24	
+R19	from Arg1:T26 Arg2:T28	
+R20	to Arg1:T26 Arg2:T24	
+T9	QUALITY 387 391	more
+A1	Judgment T31
+A2	Judgment T29
+R21	Result Arg1:T23 Arg2:T29	
+R22	Attribute Arg1:T32 Arg2:T31	
+R23	In_Out Arg1:T29 Arg2:T30	
+R24	Attribute Arg1:T29 Arg2:T9	
+T16	COMPARE 392 396	than
+R25	from Arg1:T16 Arg2:T32	
+R26	to Arg1:T16 Arg2:T9	
+A3	Self T33
+A4	Intentional T34
+R27	Agent Arg1:T34 Arg2:T33	
+R28	Attribute Arg1:T36 Arg2:T35	
+R29	Output Arg1:T34 Arg2:T36	
+R30	Apply-to Arg1:T36 Arg2:T37	
+R31	Input Arg1:T37 Arg2:T38	
+T72	OCCURENT 480 489	intuition
+R32	Poss Arg1:T39 Arg2:T72	
+R33	Destination Arg1:T40 Arg2:T42	
+R34	Target Arg1:T40 Arg2:T41	
+T73	DATA-ITEM 557 562	event
+R35	Attribute Arg1:T73 Arg2:T43	
+R36	Condition Arg1:T42 Arg2:T73	
+R37	Output Arg1:T44 Arg2:T45	
+T74	RESULT 564 568	thus
+R38	from Arg1:T74 Arg2:T40	
+R39	to Arg1:T74 Arg2:T44	
+R40	Other-rel Arg1:T40 Arg2:T72	
+R41	Condition Arg1:T47 Arg2:T48	
+A5	Self T49
+A6	Intentional T50
+R42	Agent Arg1:T50 Arg2:T49	
+R43	to Arg1:T46 Arg2:T47	
+R44	from Arg1:T46 Arg2:T50	
+R45	Output Arg1:T50 Arg2:T51	
+R46	Condition Arg1:T51 Arg2:T52	
+R47	Attribute Arg1:T52 Arg2:T53	
+R48	Condition Arg1:T53 Arg2:T54	
+A7	Self T55
+R49	Poss Arg1:T55 Arg2:T56	
+R50	Attribute Arg1:T58 Arg2:T57	
+R51	Destination Arg1:T58 Arg2:T59	
+R52	Output Arg1:T58 Arg2:T56	
+R53	Coreference Arg1:T60 Arg2:T56	
+R54	In_Out Arg1:T61 Arg2:T62	
+R55	Result Arg1:T60 Arg2:T61	
+R56	Attribute Arg1:T64 Arg2:T63	
+R57	Attribute Arg1:T64 Arg2:T62	
+R58	Attribute Arg1:T67 Arg2:T66	
+R60	Attribute Arg1:T62 Arg2:T67	
+R59	Attribute Arg1:T67 Arg2:T65	
+R61	Attribute Arg1:T56 Arg2:T68	
+R62	Other-rel Arg1:T69 Arg2:T70	
+R63	Other-rel Arg1:T69 Arg2:T68	
+R64	Condition Arg1:T10 Arg2:T11	
+R65	Condition Arg1:T10 Arg2:T12	
+A8	Judgment T14
+R66	Apply-to Arg1:T6 Arg2:T13	
+A9	Judgment T68

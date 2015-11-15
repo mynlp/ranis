@@ -1,0 +1,232 @@
+T2	APPLY-TO 401 407	assume
+T3	PROCESS 472 481	measuring
+T4	APPLY-TO 711 716	using
+T5	PROCESS 758 763	infer
+T6	PROCESS 788 797	generated
+T7	APPLY-TO 801 809	applying
+T8	QUALITY 912 922	prevailing
+T9	PROCESS 1070 1076	reveal
+T12	PROCESS 1304 1314	evaluating
+T17	PROCESS 1686 1695	evaluated
+T18	QUALITY 79 88	important
+T20	QUALITY 215 226	appropriate
+T22	QUALITY 459 467	suitable
+T23	QUALITY 1022 1025	new
+T24	QUALITY 1077 1080	new
+T25	QUALITY 1140 1147	current
+T26	QUALITY 1165 1168	new
+T27	QUALITY 1197 1220	qualitatively different
+T29	APPLY-TO 1241 1245	used
+T30	QUALITY 1337 1352	less applicable
+T31	QUALITY 1382 1400	more sophisticated
+T32	QUALITY 1582 1589	certain
+T33	QUANTITY 444 447	all
+T34	PLAN 11 20;34 48	Discourse Coding Schemes
+T35	PLAN 25 48	Dialogue Coding Schemes
+T36	PLAN 50 70	Agreement statistics
+T38	PLAN-OR-PROCESS 101 111	evaluation
+T39	PLAN 115 129	coding schemes
+T40	PLAN 134 143	discourse
+T41	PLAN 148 156	dialogue
+T42	PLAN 227 245	agreement measures
+T43	DATA-ITEM 260 267	results
+T44	QUALITY 323 327	role
+T45	PLAN 331 349	agreement measures
+T46	PLAN 370 395	chance-corrected measures
+T47	DATA-ITEM 410 429	common distribution
+T48	DATA-ITEM 433 439	labels
+T49	PERSON 448 454	coders
+T50	DATA-ITEM 482 491	agreement
+T51	PLAN-OR-PROCESS 495 514	reliability studies
+T53	QUALITY 556 567	reliability
+T54	DATA-ITEM 596 603	results
+T55	PLAN 607 627	agreement statistics
+T56	PERSON 664 687	computational linguists
+T57	QUALITY 695 707	desirability
+T58	PLAN 717 754	chance-corrected agreement statistics
+T59	QUALITY 768 779	reliability
+T60	DATA-ITEM 783 787	data
+T61	PLAN 810 824	coding schemes
+T64	DOMAIN 886 891	field
+T65	DATA-ITEM 952 972	agreement statistics
+T66	QUALITY 981 988	meaning
+T67	QUALITY 992 1003	reliability
+T68	PROCESS 1005 1018	Investigation
+T69	DATA-ITEM 1026 1040	dialogue types
+T70	DATA-ITEM 1026 1034;1045 1051	dialogue genres
+T71	PROCESS 1081 1090	phenomena
+T72	DATA-ITEM 1094 1102	dialogue
+T73	PLAN-OR-PROCESS 1126 1136	annotation
+T74	PLAN 1148 1155	methods
+T75	PLAN 1169 1187	annotation schemes
+T76	PLAN-OR-PROCESS 1249 1266	dialogue analysis
+T77	PLAN 1290 1299	practices
+T78	PLAN 1315 1329	coding schemes
+T79	PLAN 1356 1374	annotation schemes
+T80	PLAN 1435 1448	understanding
+T81	PLAN 1452 1474	reliability statistics
+T82	REFERENCE 1483 1487	they
+T83	QUALITY 1542 1549	purpose
+T84	PLAN-OR-PROCESS 1553 1572	reliability testing
+T85	OCCURENT 1590 1607	misunderstandings
+T86	PLAN 1618 1633	recommendations
+T87	PLAN 1648 1651	way
+T88	PLAN 1661 1675	coding schemes
+T89	TIME 650 654	1996
+T90	PROCESS 0 10	Evaluating
+T37	APPLY-TO 71 75;89 93	play role
+R1	Attribute Arg1:T42 Arg2:T20	
+T1	REFERENCE 254 259	their
+R2	Coreference Arg1:T1 Arg2:T42	
+T91	MODALITY 268 274	should
+T92	PROCESS 278 289	interpreted
+R3	Attribute Arg1:T92 Arg2:T91	
+R4	Attribute Arg1:T49 Arg2:T33	
+T95	PROCESS 578 586	inferred
+T96	MODALITY 568 574	should
+R5	Attribute Arg1:T95 Arg2:T96	
+T97	PERSON 635 648	Jean Carletta
+T98	PROCESS 656 663	exposed
+T99	QUALITY 843 861	general acceptance
+T100	REFERENCE 865 870	their
+R7	Coreference Arg1:T100 Arg2:T58	
+T101	OCCURENT 923 940	misunderstandings
+R8	Attribute Arg1:T101 Arg2:T8	
+R9	Attribute Arg1:T69 Arg2:T23	
+R10	Attribute Arg1:T70 Arg2:T23	
+R11	Attribute Arg1:T71 Arg2:T24	
+T10	QUALITY 1112 1122	ill suited
+R12	Attribute Arg1:T74 Arg2:T25	
+R13	Attribute Arg1:T75 Arg2:T26	
+T28	REFERENCE 1226 1231	those
+T102	QUALITY 1268 1289	Previously prescribed
+R15	Attribute Arg1:T77 Arg2:T102	
+R17	Attribute Arg1:T77 Arg2:T30	
+R18	Attribute Arg1:T79 Arg2:T31	
+T105	QUALITY 1427 1434	greater
+R19	Attribute Arg1:T80 Arg2:T105	
+R20	Coreference Arg1:T82 Arg2:T81	
+T106	MODALITY 1488 1494	should
+T107	PROCESS 1498 1509	interpreted
+R21	Attribute Arg1:T85 Arg2:T32	
+T14	MODALITY 1676 1682	should
+R22	Attribute Arg1:T37 Arg2:T18	
+T15	PLAN-OR-PROCESS 191 204	understanding
+T16	MODALITY 183 187	lack
+R23	Attribute Arg1:T15 Arg2:T16	
+R24	Attribute Arg1:T3 Arg2:T22	
+R25	Attribute Arg1:T107 Arg2:T106	
+R26	Attribute Arg1:T17 Arg2:T14	
+T63	APPLY-TO 871 874	use
+R27	Attribute Arg1:T60 Arg2:T59	
+R28	Attribute Arg1:T4 Arg2:T57	
+R30	Coreference Arg1:T28 Arg2:T115	
+T112	REFERENCE 1655 1660	which
+R31	Coreference Arg1:T112 Arg2:T87	
+T113	EXTERNAL-REFERENCE 635 655	Jean Carletta (1996)
+T114	REFERENCE 396 400	that
+R32	Coreference Arg1:T114 Arg2:T46	
+T115	REFERENCE 1188 1192	that
+R33	Coreference Arg1:T115 Arg2:T75	
+R16	Attribute Arg1:T115 Arg2:T27	
+T116	REFERENCE 1103 1107	that
+R34	Coreference Arg1:T116 Arg2:T71	
+R35	Poss Arg1:T1 Arg2:T43	
+R29	Attribute Arg1:T116 Arg2:T10	
+R14	Compare Arg1:T28 Arg2:T27	
+R38	Attribute Arg1:T84 Arg2:T83	
+R39	Apply-to Arg1:T74 Arg2:T73	
+T111	QUALITY 1232 1240	commonly
+R37	Attribute Arg1:T29 Arg2:T111	
+R40	from Arg1:T29 Arg2:T28	
+R41	to Arg1:T29 Arg2:T76	
+R42	Input Arg1:T90 Arg2:T35	
+R43	Input Arg1:T90 Arg2:T34	
+R44	from Arg1:T37 Arg2:T36	
+R45	to Arg1:T37 Arg2:T38	
+R46	Input Arg1:T38 Arg2:T39	
+R47	Apply-to Arg1:T39 Arg2:T40	
+R48	Apply-to Arg1:T39 Arg2:T41	
+T117	OUTPUT 205 214	regarding
+R49	from Arg1:T117 Arg2:T15	
+R50	to Arg1:T117 Arg2:T42	
+R51	Attribute Arg1:T48 Arg2:T47	
+R52	Attribute Arg1:T45 Arg2:T44	
+R53	Attribute Arg1:T46 Arg2:T22	
+R54	to Arg1:T2 Arg2:T114	
+R55	from Arg1:T2 Arg2:T47	
+R56	Condition Arg1:T47 Arg2:T49	
+R57	Input Arg1:T3 Arg2:T50	
+R58	Apply-to Arg1:T3 Arg2:T51	
+R59	Output Arg1:T95 Arg2:T53	
+R60	Input Arg1:T95 Arg2:T54	
+R61	Output Arg1:T55 Arg2:T54	
+R63	Destination Arg1:T98 Arg2:T56	
+R64	In_Out Arg1:T98 Arg2:T57	
+R65	from Arg1:T4 Arg2:T58	
+R66	Output Arg1:T6 Arg2:T60	
+R67	from Arg1:T7 Arg2:T61	
+R68	to Arg1:T7 Arg2:T6	
+R69	to Arg1:T4 Arg2:T5	
+R70	Output Arg1:T5 Arg2:T59	
+R6	from Arg1:T63 Arg2:T100	
+R36	Condition Arg1:T63 Arg2:T64	
+R71	Attribute Arg1:T63 Arg2:T99	
+R72	Attribute Arg1:T101 Arg2:T65	
+R73	Other-rel Arg1:T67 Arg2:T66	
+R74	Attribute Arg1:T101 Arg2:T66	
+R75	Apply-to Arg1:T77 Arg2:T12	
+R76	Input Arg1:T12 Arg2:T78	
+R77	Output Arg1:T107 Arg2:T82	
+R78	Output Arg1:T80 Arg2:T81	
+R80	Output Arg1:T80 Arg2:T107	
+R81	Input Arg1:T17 Arg2:T88	
+R82	Condition Arg1:T112 Arg2:T17	
+R83	Input Arg1:T92 Arg2:T43	
+R84	to Arg1:T63 Arg2:T5	
+R85	Input Arg1:T68 Arg2:T70	
+R86	Input Arg1:T68 Arg2:T69	
+T108	APPLY-TO 1061 1066	shown
+R87	from Arg1:T108 Arg2:T68	
+R88	to Arg1:T108 Arg2:T9	
+R89	Condition Arg1:T71 Arg2:T72	
+R90	Apply-to Arg1:T116 Arg2:T73	
+R91	Output Arg1:T9 Arg2:T10	
+R92	Output Arg1:T9 Arg2:T27	
+R93	Other-rel Arg1:T31 Arg2:T30	
+T104	CONDITION 1634 1643	regarding
+R79	from Arg1:T104 Arg2:T86	
+R94	to Arg1:T104 Arg2:T87	
+R95	Agent Arg1:T98 Arg2:T97	
+T11	PERSON 307 309	we
+T13	REFERENCE 294 306	this article
+T19	PROCESS 310 318	describe
+T21	PERSON 516 518	We
+T52	PROCESS 524 531	provide
+T62	PLAN 532 547	recommendations
+T93	PERSON 1417 1419	we
+T94	PERSON 1527 1529	we
+T103	REFERENCE 1514 1526	this article
+R62	Agent Arg1:T19 Arg2:T11	
+R96	Agent Arg1:T52 Arg2:T21	
+T109	PROCESS 1530 1537	discuss
+R97	Agent Arg1:T109 Arg2:T94	
+R98	Output Arg1:T19 Arg2:T44	
+R99	Output Arg1:T52 Arg2:T62	
+R100	Output Arg1:T109 Arg2:T83	
+T110	PROCESS 1574 1581	address
+T118	PROCESS 1613 1617	make
+R101	Agent Arg1:T110 Arg2:T94	
+R102	Condition Arg1:T109 Arg2:T103	
+R103	Condition Arg1:T110 Arg2:T103	
+R104	Condition Arg1:T118 Arg2:T103	
+R105	Agent Arg1:T118 Arg2:T94	
+R106	Output Arg1:T118 Arg2:T86	
+R107	Condition Arg1:T19 Arg2:T13	
+T119	PROCESS 1420 1424	need
+R108	Agent Arg1:T119 Arg2:T93	
+R109	Target Arg1:T119 Arg2:T80	
+T120	PROCESS 354 359	argue
+R110	Agent Arg1:T120 Arg2:T11	
+R111	Target Arg1:T110 Arg2:T85	
+R112	Output Arg1:T120 Arg2:T22	

@@ -1,0 +1,82 @@
+T1	PLAN 2 13	Topic Model
+T2	PLAN-OR-PROCESS 18 43	Word Sense Disambiguation
+T3	PERSON 45 47	We
+T4	PROCESS 48 55	develop
+T6	PLAN 56 95	latent Dirichlet alocation with WORDNET
+T7	PLAN 97 102	LDAWN
+T8	PLAN 108 146	unsupervised probabilistic topic model
+T9	REFERENCE 147 151	that
+T10	COMPONENT-OBJECT 152 160	includes
+T11	DATA-ITEM 161 171	word sense
+T12	DATA-ITEM 177 192	hidden variable
+T13	PERSON 194 196	We
+T14	PROCESS 197 204	develop
+T15	PLAN 207 250	probabilistic posterior inference algorithm
+T16	QUALITY 255 269	simultaneously
+T17	PROCESS 270 284	disambiguating
+T18	DATA-ITEM 287 293	corpus
+T19	PROCESS 298 306	learning
+T20	DOMAIN 311 318	domains
+T21	REFERENCE 322 327	which
+T22	PROCESS 331 339	consider
+T23	DATA-ITEM 345 349	word
+T24	APPLY-TO 351 356	Using
+T25	PLAN 361 378	WORDNET hierarchy
+T26	PERSON 380 382	we
+T27	PROCESS 383 388	embed
+T28	PLAN-OR-PROCESS 393 405	construction
+T29	EXTERNAL-REFERENCE 409 431	Abney and Light (1999)
+T30	PLAN 439 450	topic model
+T32	DOMAIN 465 494	automatically learned domains
+T33	DATA-ITEM 502 514	WSD accuracy
+T34	COMPARE 515 523	compared
+T35	QUALITY 527 538	alternative
+T36	DATA-ITEM 539 547	contexts
+T37	PROCESS 455 459	show
+R1	Apply-to Arg1:T1 Arg2:T2	
+A1	Self T3
+A2	Intentional T4
+R2	Agent Arg1:T4 Arg2:T3	
+R3	Equivalence Arg1:T7 Arg2:T6	
+R4	Output Arg1:T4 Arg2:T6	
+R5	Is-a Arg1:T7 Arg2:T8	
+R6	Coreference Arg1:T9 Arg2:T8	
+R7	from Arg1:T10 Arg2:T9	
+R8	to Arg1:T10 Arg2:T11	
+R10	Is-a Arg1:T11 Arg2:T12	
+A3	Self T13
+A4	Intentional T14
+R11	Agent Arg1:T14 Arg2:T13	
+R12	Output Arg1:T14 Arg2:T15	
+R13	Attribute Arg1:T17 Arg2:T16	
+R14	Apply-to Arg1:T15 Arg2:T17	
+R15	Input Arg1:T17 Arg2:T18	
+R16	Apply-to Arg1:T15 Arg2:T19	
+R17	Other-rel Arg1:T19 Arg2:T20	
+R18	Coreference Arg1:T21 Arg2:T20	
+R19	Input Arg1:T22 Arg2:T23	
+R20	Condition Arg1:T22 Arg2:T21	
+A5	Self T26
+A6	Intentional T27
+R21	Agent Arg1:T27 Arg2:T26	
+R22	from Arg1:T24 Arg2:T25	
+R23	to Arg1:T24 Arg2:T27	
+R24	Output Arg1:T27 Arg2:T28	
+R25	Condition Arg1:T28 Arg2:T29	
+R26	Destination Arg1:T27 Arg2:T30	
+A7	Intentional T37
+R27	Agent Arg1:T37 Arg2:T26	
+R28	Attribute Arg1:T36 Arg2:T35	
+T5	PROCESS 494 501	improve
+A8	Judgment T5
+R29	In_Out Arg1:T5 Arg2:T33	
+R30	from Arg1:T34 Arg2:T36	
+R31	to Arg1:T34 Arg2:T5	
+R33	Output Arg1:T37 Arg2:T5	
+R9	Attribute Arg1:T9 Arg2:T12	
+T31	PERSON 409 414	Abney
+A9	Name T31
+T38	PERSON 419 424	Light
+A10	Name T38
+T39	TIME 426 430	1999
+R32	Other-rel Arg1:T5 Arg2:T32	

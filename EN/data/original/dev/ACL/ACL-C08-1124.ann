@@ -1,0 +1,142 @@
+T1	PLAN-OR-PROCESS 0 24	Extractive Summarization
+T2	APPLY-TO 25 30	Using
+T3	PLAN-OR-PROCESS 31 41;62 70	Supervised Learning
+T4	PLAN-OR-PROCESS 46 70	Semi-supervised Learning
+T5	QUALITY 78 87	difficult
+T6	PROCESS 91 99	identify
+T7	QUALITY 100 119	sentence importance
+T8	QUANTITY 127 133	single
+T9	THING 134 147	point of view
+R1	Attribute Arg1:T9 Arg2:T8	
+T10	PLAN 177 200	learning-based approach
+T11	PROCESS 204 211	combine
+T12	QUALITY 212 219	various
+T13	PLAN 220 237	sentence features
+R2	Attribute Arg1:T13 Arg2:T12	
+T14	REFERENCE 239 243	They
+R3	Coreference Arg1:T14 Arg2:T13	
+T15	PROCESS 248 259	categorized
+T16	PLAN 263 270;301 309	surface features
+T17	PLAN 272 279;301 309	content features
+T18	PLAN 281 290;301 309	relevance features
+T19	PLAN 295 309	event features
+T20	PLAN 311 327	Surface features
+T21	QUALITY 332 339	related
+T22	QUALITY 343 360	extrinsic aspects
+T23	DATA-ITEM 366 374	sentence
+T24	PLAN 376 392	Content features
+T25	PROCESS 393 400	measure
+T26	DATA-ITEM 403 411	sentence
+T27	DATA-ITEM 421 444	content-conveying words
+T28	PLAN 446 460	Event features
+T29	PROCESS 461 470	represent
+T30	DATA-ITEM 471 480	sentences
+T31	DATA-ITEM 484 490	events
+T32	COMPONENT-OBJECT 496 505	contained
+T33	REFERENCE 491 495	they
+R4	Coreference Arg1:T33 Arg2:T30	
+T34	PLAN 507 525	Relevance features
+T35	PROCESS 526 534	evaluate
+T36	DATA-ITEM 537 545	sentence
+T37	REFERENCE 551 554	its
+R5	Coreference Arg1:T37 Arg2:T36	
+T38	QUALITY 555 566	relatedness
+T39	QUALITY 572 577	other
+T40	DATA-ITEM 578 587	sentences
+R6	Attribute Arg1:T40 Arg2:T39	
+T41	PROCESS 589 600	Experiments
+T42	RESULT 601 605	show
+T43	PLAN 615 632	combined features
+T44	JUDGING-PROCESS 633 641	improved
+T45	DATA-ITEM 642 667	summarization performance
+T46	QUALITY 668 681	significantly
+R7	Attribute Arg1:T44 Arg2:T46	
+T47	DATA-ITEM 696 714	evaluation results
+T48	QUALITY 719 730	encouraging
+T49	PLAN 732 760	supervised learning approach
+T50	CONDITION 761 769	requires
+T51	QUANTITY 770 774	much
+T52	DATA-ITEM 775 787	labeled data
+R8	Attribute Arg1:T52 Arg2:T51	
+T53	PLAN-OR-PROCESS 814 825	co-training
+T54	PROCESS 829 838	combining
+T55	DATA-ITEM 839 846;861 865	labeled data
+T56	DATA-ITEM 851 865	unlabeled data
+T57	PROCESS 867 878	Experiments
+T58	RESULT 879 883	show
+T59	PLAN 894 927	semi-supervised learning approach
+T60	RESULT 928 936	achieves
+T61	QUALITY 937 947	comparable
+T62	DATA-ITEM 948 959	performance
+T63	REFERENCE 963 966	its
+R9	Coreference Arg1:T63 Arg2:T59	
+T64	PLAN 967 989	supervised counterpart
+T65	PROCESS 994 999	saves
+T66	QUANTITY 1000 1010	about half
+T67	DATA-ITEM 1018 1036	labeling time cost
+R10	Attribute Arg1:T67 Arg2:T66	
+R11	Attribute Arg1:T62 Arg2:T61	
+R12	Member-collection Arg1:T16 Arg2:T14	
+R13	Member-collection Arg1:T17 Arg2:T14	
+R14	Member-collection Arg1:T18 Arg2:T14	
+R15	Member-collection Arg1:T19 Arg2:T14	
+R16	Input Arg1:T25 Arg2:T26	
+T68	INPUT 412 420	based on
+R17	from Arg1:T68 Arg2:T25	
+R18	to Arg1:T68 Arg2:T27	
+R19	Apply-to Arg1:T24 Arg2:T25	
+R21	Attribute Arg1:T37 Arg2:T38	
+R22	Poss Arg1:T63 Arg2:T64	
+R23	Attribute Arg1:T6 Arg2:T5	
+R24	Attribute Arg1:T47 Arg2:T48	
+R25	Compare Arg1:T64 Arg2:T61	
+R26	Attribute Arg1:T23 Arg2:T22	
+R27	to Arg1:T2 Arg2:T1	
+R28	from Arg1:T2 Arg2:T3	
+R29	from Arg1:T2 Arg2:T4	
+R30	Condition Arg1:T6 Arg2:T9	
+R31	Output Arg1:T6 Arg2:T7	
+R32	Apply-to Arg1:T10 Arg2:T11	
+R33	Input Arg1:T11 Arg2:T13	
+R34	Input Arg1:T15 Arg2:T14	
+R35	Output Arg1:T15 Arg2:T16	
+R36	Output Arg1:T15 Arg2:T17	
+R37	Output Arg1:T15 Arg2:T18	
+R38	Output Arg1:T15 Arg2:T19	
+R41	Apply-to Arg1:T28 Arg2:T29	
+R42	Output Arg1:T29 Arg2:T31	
+R43	Input Arg1:T29 Arg2:T30	
+R46	Apply-to Arg1:T34 Arg2:T35	
+R47	Input Arg1:T35 Arg2:T36	
+R48	Condition Arg1:T38 Arg2:T40	
+R49	Input Arg1:T35 Arg2:T38	
+R51	Apply-to Arg1:T43 Arg2:T44	
+R52	In_Out Arg1:T44 Arg2:T45	
+R54	In_Out Arg1:T54 Arg2:T55	
+R55	In_Out Arg1:T54 Arg2:T56	
+R56	Apply-to Arg1:T54 Arg2:T53	
+R57	to Arg1:T60 Arg2:T61	
+R59	Apply-to Arg1:T59 Arg2:T65	
+R60	Output Arg1:T65 Arg2:T67	
+R53	from Arg1:T42 Arg2:T41	
+R61	to Arg1:T42 Arg2:T44	
+R44	from Arg1:T32 Arg2:T31	
+R45	to Arg1:T32 Arg2:T33	
+R39	Attribute Arg1:T20 Arg2:T21	
+R20	from Arg1:T58 Arg2:T57	
+R63	to Arg1:T58 Arg2:T61	
+R64	to Arg1:T58 Arg2:T66	
+R58	from Arg1:T60 Arg2:T59	
+R62	from Arg1:T50 Arg2:T49	
+R50	to Arg1:T50 Arg2:T52	
+R40	Other-rel Arg1:T22 Arg2:T21	
+T69	REFERENCE 152 162	this paper
+T70	PERSON 164 166	we
+T71	PROCESS 167 174	propose
+R65	Agent Arg1:T71 Arg2:T70	
+R66	Condition Arg1:T71 Arg2:T69	
+R67	Output Arg1:T71 Arg2:T10	
+T72	PERSON 799 801	we
+T73	PROCESS 802 813	investigate
+R68	Agent Arg1:T73 Arg2:T72	
+R69	In_Out Arg1:T73 Arg2:T53	

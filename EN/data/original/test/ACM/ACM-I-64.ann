@@ -1,0 +1,193 @@
+T1	PLAN-OR-PROCESS 0 26	Organizational Self-Design
+T2	THING 30 55	Semi-dynamic Environments
+T3	INTELLIGENT-AGENT 56 69	Organizations
+T4	QUALITY 77 86	important
+T5	CONTINUANT 87 92	basis
+T6	PLAN-OR-PROCESS 97 109	coordination
+T7	PLAN 113 131	multiagent systems
+T8	QUANTITY 151 153	no
+T9	QUALITY 154 158	best
+T10	PLAN 159 162	way
+T11	PROCESS 166 174	organize
+T12	PLAN 183 187	ways
+T13	QUANTITY 179 182	all
+T14	PROCESS 191 201	organizing
+T15	MODALITY 206 209	not
+T16	QUALITY 218 227	effective
+T17	QUALITY 210 217	equally
+T18	PROCESS 229 239	Attempting
+T19	PROCESS 243 251	optimize
+T20	QUALITY 255 279	organizational structure
+T21	RESULT 280 287	depends
+T22	QUALITY 288 296	strongly
+T23	QUALITY 300 322	environmental features
+T24	QUALITY 333 356	problem characteristics
+T25	IS-A 323 332	including
+T26	QUALITY 358 367	available
+T27	DATA-ITEM 368 377	resources
+T28	QUALITY 383 401	agent capabilities
+T29	THING 410 421	environment
+T30	QUALITY 425 432	dynamic
+T31	QUALITY 438 462	environmental conditions
+T32	QUALITY 470 492	problem task structure
+T33	MODALITY 493 496	may
+T34	PROCESS 497 503	change
+T35	TIME 504 513	over time
+T36	PROCESS 520 529	precludes
+T37	REFERENCE 515 519	This
+T38	APPLY-TO 534 537	use
+T39	QUALITY 572 597	organizational structures
+T40	PLAN 606 613	systems
+T41	QUANTITY 638 642	many
+T42	THING 648 660	environments
+T43	PLAN 666 674	problems
+T44	MODALITY 679 682	not
+T45	QUALITY 683 697	totally unique
+T47	QUALITY 714 729	characteristics
+T48	PLAN 734 744	conditions
+T49	PROCESS 745 751	change
+T50	QUALITY 752 758	slowly
+T51	REFERENCE 775 780	these
+T53	QUALITY 793 802	important
+T54	RESULT 803 809	effect
+T55	PROCESS 813 821	creating
+T56	QUALITY 829 854	organizational structures
+T60	PROCESS 898 906	proposed
+T61	PLAN 913 921	approach
+T62	PROCESS 926 938	constructing
+T63	QUALITY 939 947	suitable
+T64	PLAN 948 973	organizational structures
+T65	TIME 974 984	at runtime
+T67	PLAN 1009 1012	OSD
+T68	PLAN 1009 1021	OSD approach
+T69	QUALITY 1000 1008	existing
+T70	PROCESS 1025 1032	include
+T71	DOMAIN 1033 1055	worth-oriented domains
+T72	PROCESS 1057 1062	model
+T73	CONTINUANT 1069 1078	resources
+T74	QUALITY 1063 1068	other
+T75	CONTINUANT 1099 1118	processor resources
+T76	PROCESS 1123 1131	build in
+T77	QUALITY 1132 1142	robustness
+T78	INTELLIGENT-AGENT 1152 1164	organization
+T79	PROCESS 1174 1182	evaluate
+T80	PLAN 1187 1195	approach
+T81	PLAN 1208 1229	contract-net approach
+T82	PLAN 1248 1251	OSD
+T83	INTELLIGENT-AGENT 1248 1258	OSD agents
+T84	PROCESS 1259 1266	perform
+T85	QUALITY 1267 1273	better
+T86	QUALITY 1279 1293	more efficient
+T87	QUALITY 1299 1312	more flexible
+T88	PROCESS 1316 1323	changes
+T89	THING 1331 1342	environment
+R2	Attribute Arg1:T5 Arg2:T4	
+R4	Attribute Arg1:T10 Arg2:T9	
+R5	Attribute Arg1:T12 Arg2:T13	
+R6	Attribute Arg1:T17 Arg2:T15	
+R7	Attribute Arg1:T16 Arg2:T17	
+R8	Attribute Arg1:T12 Arg2:T16	
+R9	Attribute Arg1:T21 Arg2:T22	
+R10	Attribute Arg1:T27 Arg2:T26	
+R11	Attribute Arg1:T29 Arg2:T30	
+R12	Attribute Arg1:T34 Arg2:T33	
+R13	Attribute Arg1:T34 Arg2:T35	
+R14	Attribute Arg1:T42 Arg2:T41	
+R15	Attribute Arg1:T45 Arg2:T44	
+R16	Attribute Arg1:T49 Arg2:T50	
+R17	Attribute Arg1:T54 Arg2:T53	
+R18	Attribute Arg1:T64 Arg2:T63	
+R19	Attribute Arg1:T68 Arg2:T69	
+R20	Attribute Arg1:T73 Arg2:T74	
+T46	QUALITY 1094 1098	only
+R21	Attribute Arg1:T75 Arg2:T46	
+T52	PERSON 1183 1186	our
+T57	PERSON 1244 1247	our
+T90	MODALITY 760 769	if at all
+T91	PLAN 856 882	Organizational-Self Design
+T92	PLAN 884 887	OSD
+R26	Equivalence Arg1:T92 Arg2:T91	
+T58	QUALITY 541 547	static
+T59	QUALITY 549 570	design-time generated
+R27	Attribute Arg1:T39 Arg2:T59	
+T93	QUALITY 822 828	stable
+R28	Attribute Arg1:T56 Arg2:T93	
+R29	Poss Arg1:T52 Arg2:T80	
+R30	Poss Arg1:T57 Arg2:T83	
+R31	Coreference Arg1:T51 Arg2:T47	
+R32	Coreference Arg1:T51 Arg2:T48	
+T98	MODALITY 781 784	can
+R33	Attribute Arg1:T43 Arg2:T45	
+R34	Condition Arg1:T87 Arg2:T88	
+R35	Condition Arg1:T88 Arg2:T89	
+R36	Condition Arg1:T1 Arg2:T2	
+R37	Condition Arg1:T6 Arg2:T7	
+T100	IS-A 70 76	are an
+R38	from Arg1:T100 Arg2:T3	
+R39	to Arg1:T100 Arg2:T5	
+R40	Apply-to Arg1:T5 Arg2:T6	
+R3	Attribute Arg1:T10 Arg2:T8	
+R41	Apply-to Arg1:T10 Arg2:T11	
+R42	Apply-to Arg1:T12 Arg2:T14	
+R43	Target Arg1:T18 Arg2:T19	
+R44	In_Out Arg1:T19 Arg2:T20	
+R45	from Arg1:T21 Arg2:T23	
+R46	to Arg1:T21 Arg2:T18	
+R47	from Arg1:T25 Arg2:T24	
+R49	from Arg1:T25 Arg2:T27	
+R51	from Arg1:T25 Arg2:T28	
+R53	In_Out Arg1:T34 Arg2:T32	
+R54	In_Out Arg1:T34 Arg2:T31	
+R55	Condition Arg1:T34 Arg2:T29	
+R56	Apply-to Arg1:T37 Arg2:T36	
+R1	Attribute Arg1:T39 Arg2:T58	
+R57	from Arg1:T38 Arg2:T39	
+R58	to Arg1:T38 Arg2:T40	
+R59	Output Arg1:T36 Arg2:T38	
+R60	Condition Arg1:T43 Arg2:T42	
+R61	In_Out Arg1:T49 Arg2:T48	
+R62	In_Out Arg1:T49 Arg2:T47	
+R63	Output Arg1:T55 Arg2:T56	
+R64	Attribute Arg1:T54 Arg2:T98	
+R65	from Arg1:T54 Arg2:T51	
+R66	to Arg1:T54 Arg2:T55	
+R25	Attribute Arg1:T49 Arg2:T90	
+R68	Output Arg1:T60 Arg2:T91	
+R69	Is-a Arg1:T91 Arg2:T61	
+R70	Apply-to Arg1:T61 Arg2:T62	
+R71	Output Arg1:T62 Arg2:T64	
+R72	Condition Arg1:T62 Arg2:T65	
+T101	PROCESS 989 995	extend
+R73	Input Arg1:T101 Arg2:T68	
+R75	Condition Arg1:T70 Arg2:T71	
+R77	Input Arg1:T72 Arg2:T73	
+R78	Input Arg1:T72 Arg2:T75	
+R79	Output Arg1:T76 Arg2:T77	
+R80	Destination Arg1:T76 Arg2:T78	
+R81	Attribute Arg1:T78 Arg2:T77	
+R82	Input Arg1:T79 Arg2:T80	
+R83	Input Arg1:T79 Arg2:T81	
+R22	Agent Arg1:T84 Arg2:T83	
+R84	Attribute Arg1:T84 Arg2:T85	
+R87	Compare Arg1:T81 Arg2:T85	
+R88	Compare Arg1:T81 Arg2:T86	
+R89	Compare Arg1:T81 Arg2:T87	
+T102	QUALITY 643 647	real
+R92	Attribute Arg1:T42 Arg2:T102	
+R23	Attribute Arg1:T83 Arg2:T86	
+R24	Attribute Arg1:T83 Arg2:T87	
+R48	to Arg1:T25 Arg2:T23	
+T105	MODALITY 403 405	If
+R50	Attribute Arg1:T30 Arg2:T105	
+T66	PERSON 986 988	We
+T94	PERSON 1166 1168	We
+R52	Agent Arg1:T101 Arg2:T66	
+R67	Apply-to Arg1:T101 Arg2:T70	
+R74	Apply-to Arg1:T101 Arg2:T72	
+R76	Apply-to Arg1:T101 Arg2:T76	
+R85	Agent Arg1:T79 Arg2:T94	
+T95	PROCESS 1234 1238	show
+R86	Agent Arg1:T95 Arg2:T94	
+R90	Output Arg1:T95 Arg2:T85	
+R91	Output Arg1:T95 Arg2:T86	
+R93	Output Arg1:T95 Arg2:T87	

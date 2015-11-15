@@ -1,0 +1,149 @@
+T1	PROCESS 537 546	construct
+T2	PROCESS 701 708	collect
+T3	PROCESS 825 833	recorded
+T4	PROCESS 862 869	enables
+T5	APPLY-TO 917 922	using
+T6	PROCESS 1020 1028	achieved
+T7	PROCESS 1101 1107	derive
+T8	PROCESS 398 409	implemented
+T9	PROCESS 876 885	implement
+T10	PROCESS 1080 1085	apply
+T11	MODALITY 388 394	cannot
+T12	MODALITY 654 657	can
+T13	INTELLIGENT-AGENT 309 316	players
+T14	QUALITY 53 71	Partially Informed
+T15	QUALITY 194 204	celebrated
+T17	QUALITY 248 273	computationally efficient
+T18	QUALITY 289 308	severely restricted
+T20	QUALITY 1029 1040	independent
+T21	QUANTITY 362 366	many
+T22	QUANTITY 594 598	many
+T23	QUANTITY 839 843	some
+T24	PLAN 3 48	Decentralized Incentive Compatible Mechanisms
+T25	PLAN 72 84	Environments
+T26	PLAN-OR-PROCESS 85 113	Algorithmic Mechanism Design
+T27	PLAN 125 158	Dominant Strategy Implementations
+T28	PLAN 178 185	results
+T29	PLAN 205 226	Vickrey-Clarke-Groves
+T30	PLAN 233 243	mechanisms
+T31	PLAN 274 284	mechanisms
+T32	PLAN 318 342	single-parameter domains
+T33	PLAN 375 387	social goals
+T34	PLAN 420 445	dominant strategy concept
+T35	PLAN 496 508	requirements
+T36	PLAN 547 573	general-purpose mechanisms
+T37	PLAN 606 630	distributed environments
+T39	QUALITY 680 697	network structure
+T40	DATA-ITEM 724 735	information
+T41	PLAN 755 761	notion
+T42	PLAN 784 796	environments
+T43	DATA-ITEM 810 821	information
+T44	DATA-ITEM 844 855	probability
+T45	PLAN 903 915	social goals
+T46	THING 927 934	concept
+T47	PLAN-OR-PROCESS 938 959	iterative elimination
+T48	PLAN 980 990	strategies
+T50	PLAN-OR-PROCESS 1005 1016	cooperation
+T51	OCCURENT 1052 1058	belief
+T53	PLAN 1090 1097	methods
+T54	PLAN 1108 1138	Peer-to-Peer network mechanism
+T55	PLAN-OR-PROCESS 1143 1155	file sharing
+R1	Attribute Arg1:T25 Arg2:T14	
+R2	Attribute Arg1:T29 Arg2:T15	
+T56	PLAN 228 231	VCG
+R3	Equivalence Arg1:T56 Arg2:T29	
+R4	Split Arg1:T30 Arg2:T29	
+R6	Attribute Arg1:T31 Arg2:T17	
+R7	Attribute Arg1:T13 Arg2:T18	
+R8	Attribute Arg1:T33 Arg2:T21	
+R9	Attribute Arg1:T8 Arg2:T11	
+T57	APPLY-TO 410 415	using
+T59	MODALITY 509 513	must
+T60	PROCESS 517 524	relaxed
+R10	Attribute Arg1:T60 Arg2:T59	
+R11	Attribute Arg1:T37 Arg2:T22	
+T61	PROCESS 658 672	take advantage
+R12	Attribute Arg1:T61 Arg2:T12	
+T62	PROCESS 713 723	distribute
+T63	QUALITY 765 783	partially informed
+R13	Attribute Arg1:T42 Arg2:T63	
+R15	Attribute Arg1:T44 Arg2:T23	
+T64	QUALITY 888 893	wider
+T65	PLAN 894 899	range
+R16	Attribute Arg1:T65 Arg2:T64	
+T67	QUALITY 963 979	weakly dominated
+R17	Attribute Arg1:T48 Arg2:T67	
+T68	INTELLIGENT-AGENT 1044 1050	agents
+R19	Attribute Arg1:T51 Arg2:T20	
+T69	PERSON 205 212	Vickrey
+T70	PERSON 213 219	Clarke
+T71	PERSON 220 226	Groves
+T72	PROCESS 114 121	focuses
+T73	QUALITY 164 168	main
+T74	QUALITY 169 177	positive
+R20	Attribute Arg1:T28 Arg2:T73	
+R21	Attribute Arg1:T28 Arg2:T74	
+T16	QUALITY 367 374	natural
+R5	Attribute Arg1:T33 Arg2:T16	
+T75	QUALITY 599 605	common
+R22	Attribute Arg1:T37 Arg2:T75	
+T76	INTELLIGENT-AGENT 631 653	computational entities
+R14	Member-collection Arg1:T45 Arg2:T65	
+T19	PERSON 1086 1089	our
+T38	EXTERNAL-REFERENCE 446 462	[35, 32, 22, 20]
+T66	REFERENCE 464 468	This
+T79	REFERENCE 857 861	this
+R18	Poss Arg1:T19 Arg2:T53	
+R23	Poss Arg1:T68 Arg2:T51	
+T81	QUALITY 487 495	standard
+R24	Attribute Arg1:T35 Arg2:T81	
+R25	Apply-to Arg1:T24 Arg2:T25	
+R26	Apply-to Arg1:T26 Arg2:T72	
+R27	Target Arg1:T72 Arg2:T27	
+R28	Is-a Arg1:T30 Arg2:T28	
+R29	Is-a Arg1:T31 Arg2:T28	
+R30	Condition Arg1:T31 Arg2:T13	
+R31	from Arg1:T57 Arg2:T34	
+R32	to Arg1:T57 Arg2:T8	
+R33	Output Arg1:T8 Arg2:T33	
+R34	Output Arg1:T1 Arg2:T36	
+R35	Apply-to Arg1:T60 Arg2:T1	
+R36	In_Out Arg1:T60 Arg2:T35	
+R37	Agent Arg1:T61 Arg2:T76	
+R38	Target Arg1:T61 Arg2:T39	
+R39	In_Out Arg1:T2 Arg2:T40	
+R40	Apply-to Arg1:T61 Arg2:T2	
+R41	Output Arg1:T62 Arg2:T40	
+R42	Condition Arg1:T61 Arg2:T37	
+R43	Attribute Arg1:T41 Arg2:T42	
+R44	In_Out Arg1:T3 Arg2:T43	
+R45	Output Arg1:T3 Arg2:T44	
+R46	Apply-to Arg1:T79 Arg2:T4	
+R47	Output Arg1:T9 Arg2:T45	
+R48	from Arg1:T5 Arg2:T46	
+R49	Is-a Arg1:T47 Arg2:T46	
+R50	Output Arg1:T47 Arg2:T48	
+R51	Target Arg1:T4 Arg2:T82	
+R52	to Arg1:T5 Arg2:T9	
+R53	Output Arg1:T6 Arg2:T50	
+R54	Condition Arg1:T6 Arg2:T20	
+R55	Input Arg1:T10 Arg2:T53	
+R56	Apply-to Arg1:T10 Arg2:T7	
+R57	Output Arg1:T7 Arg2:T54	
+R58	Apply-to Arg1:T54 Arg2:T55	
+R59	Apply-to Arg1:T31 Arg2:T32	
+R60	Apply-to Arg1:T61 Arg2:T62	
+T49	MODALITY 798 805	Even if
+R61	Attribute Arg1:T3 Arg2:T49	
+T52	PERSON 575 577	We
+T58	PROCESS 578 585	observe
+T77	PERSON 737 739	We
+T78	PROCESS 745 752	suggest
+T80	PERSON 1077 1079	we
+R62	Agent Arg1:T58 Arg2:T52	
+R63	Agent Arg1:T78 Arg2:T77	
+R64	Output Arg1:T78 Arg2:T41	
+R65	Agent Arg1:T10 Arg2:T80	
+T82	PERSON 870 872	us
+R66	Agent Arg1:T9 Arg2:T82	
+R67	In_Out Arg1:T58 Arg2:T61	

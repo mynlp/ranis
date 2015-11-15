@@ -1,0 +1,11 @@
+Finite-State Chart Constraints for Reduced Complexity Context-Free Parsing Pipelines
+
+We present methods for reducing the worst-case and typical-case complexity of a context-free parsing pipeline via hard constraints derived from finite-state pre-processing.
+We perform O(n) predictions to determine if each word in the input sentence may begin or end a multi-word constituent in chart cells spanning two or more words, or allow single-word constituents in chart cells spanning the word itself.
+These pre-processing constraints prune the search space for any chart-based parsing algorithm and significantly decrease decoding time.
+In many cases cell population is reduced to zero, which we term chart cell ``closing.''
+We present methods for closing a sufficient number of chart cells to ensure provably quadratic or even linear worst-case complexity of context-free inference.
+In addition, we apply high precision constraints to achieve large typical-case speedups and combine both high precision and worst-case bound constraints to achieve superior performance on both short and long strings.
+These bounds on processing are achieved without reducing the parsing accuracy, and in some cases accuracy improves.
+We demonstrate that our method generalizes across multiple grammars and is complementary to other pruning techniques by presenting empirical results for both exact and approximate inference using the exhaustive CKY algorithm, the Charniak parser, and the Berkeley parser.
+We also report results parsing Chinese, where we achieve the best reported results for an individual model on the commonly reported data set.

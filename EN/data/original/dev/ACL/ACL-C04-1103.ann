@@ -1,0 +1,105 @@
+R1	Apply-to Arg1:T1 Arg2:T2
+R2	Attribute Arg1:T7 Arg2:T6
+R4	Attribute Arg1:T5 Arg2:T4
+A1	Self T44
+R7	Attribute Arg1:T9 Arg2:T8
+R8	Apply-to Arg1:T9 Arg2:T10
+R9	Coreference Arg1:T11 Arg2:T10
+A2	Self T13
+R10	Equivalence Arg1:T17 Arg2:T16
+R11	Output Arg1:T14 Arg2:T16
+R12	Agent Arg1:T14 Arg2:T13
+R15	Attribute Arg1:T20 Arg2:T19
+R16	Attribute Arg1:T20 Arg2:T18
+R17	Target Arg1:T17 Arg2:T20
+A3	Intentional T15
+R18	Condition Arg1:T15 Arg2:T44
+R19	Output Arg1:T15 Arg2:T9
+R20	Coreference Arg1:T21 Arg2:T9
+R21	Equivalence Arg1:T25 Arg2:T24
+R22	from Arg1:T22 Arg2:T24
+R23	to Arg1:T22 Arg2:T23
+A4	Intentional T45
+R24	Output Arg1:T45 Arg2:T25
+R25	Apply-to Arg1:T25 Arg2:T26
+R26	In_Out Arg1:T26 Arg2:T27
+R27	Component-object Arg1:T21 Arg2:T23
+A5	Self T28
+A6	Intentional T29
+R28	Agent Arg1:T29 Arg2:T28
+R29	Input Arg1:T29 Arg2:T30
+R30	Input Arg1:T32 Arg2:T35
+R31	Attribute Arg1:T32 Arg2:T31
+R32	Apply-to Arg1:T32 Arg2:T29
+A7	Self T48
+R33	Coreference Arg1:T36 Arg2:T30
+A8	Judgment T38
+R34	In_Out Arg1:T38 Arg2:T39
+R35	Apply-to Arg1:T36 Arg2:T38
+R36	Apply-to Arg1:T36 Arg2:T40
+R37	from Arg1:T37 Arg2:T48
+R38	to Arg1:T37 Arg2:T38
+R39	to Arg1:T37 Arg2:T40
+R40	In_Out Arg1:T40 Arg2:T41
+R41	Attribute Arg1:T40 Arg2:T42
+R3	Output Arg1:T43 Arg2:T5
+R5	Attribute Arg1:T49 Arg2:T6
+R42	Apply-to Arg1:T3 Arg2:T43
+R13	Apply-to Arg1:T11 Arg2:T12
+R14	Target Arg1:T12 Arg2:T14
+R44	Coreference Arg1:T30 Arg2:T21
+R45	Input Arg1:T32 Arg2:T50
+R6	Apply-to Arg1:T5 Arg2:T49
+R43	Apply-to Arg1:T5 Arg2:T7
+A9	Name T33
+A10	Name T34
+T1	PLAN 0 29	Direct Orthographical Mapping
+T2	PLAN-OR-PROCESS 34 57	Machine Transliteration
+T3	PLAN 60 104	Machine transliteration/back-transliteration
+T43	PROCESS 105 110	plays
+T4	QUALITY 114 123	important
+T5	PLAN 124 128	role
+T6	QUANTITY 132 136	many
+T49	PLAN 137 156	multilingual speech
+T7	PLAN 161 182	language applications
+T44	REFERENCE 188 198	this paper
+T8	QUALITY 203 208	novel
+T9	PLAN 209 218	framework
+T10	PLAN 223 266	machine transliteration/backtransliteration
+T11	REFERENCE 267 271	that
+T12	PROCESS 272 278	allows
+T13	PERSON 279 281	us
+T14	PROCESS 285 294	carry out
+T16	PLAN-OR-PROCESS 295 324	direct orthographical mapping
+T17	PLAN-OR-PROCESS 327 330	DOM
+T18	QUANTITY 341 344	two
+T19	QUALITY 345 354	different
+T20	LANGUAGE 355 364	languages
+T15	PROCESS 368 377	presented
+T21	PLAN 386 400	this framework
+T23	PLAN 405 447	joint source-channel transliteration model
+T22	EQUIVALENCE 455 461	called
+T24	PLAN 462 490	n-gram transliteration model
+T25	PLAN 493 502	n-gram TM
+T45	PROCESS 518 526	proposed
+T26	PROCESS 530 535	model
+T27	PLAN-OR-PROCESS 540 563	transliteration process
+T28	PERSON 566 568	We
+T29	PROCESS 569 577	evaluate
+T30	PLAN 582 598	proposed methods
+T31	QUANTITY 607 614	several
+T32	PLAN 615 662	transliteration/backtransliteration experiments 
+T33	LANGUAGE 667 674	English
+T50	DATA-ITEM 667 682	English/Chinese
+T47	LANGUAGE 675 682	Chinese
+T34	LANGUAGE 687 694	English
+T35	DATA-ITEM 687 718	English/Japanese language pairs
+T46	LANGUAGE 695 703	Japanese
+T48	REFERENCE 721 730	Our study
+T37	RESULT 731 738	reveals
+T36	PLAN 748 763	proposed method
+T38	PROCESS 773 780	reduces
+T39	PLAN 784 819	extensive system development effort
+T40	JUDGING-PROCESS 829 837	improves
+T41	DATA-ITEM 842 866	transliteration accuracy
+T42	QUALITY 867 880	significantly

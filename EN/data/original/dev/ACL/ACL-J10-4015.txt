@@ -1,0 +1,4 @@
+Commentary and Discussion A Response to Richard Sproat on Random Systems, Writing, and Entropy
+
+In his article "Ancient symbols and computational linguistics" (Sproat 2010), Professor Sproat raised two concerns over a method that we have proposed for analyzing small data sets of symbols using entropy (Lee, Jonathan, and Ziman 2010): first, that the method is unable to detect random but non-equiprobable systems; and second, that it misclassifies kudurru texts.
+We address these concerns in the following response.

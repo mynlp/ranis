@@ -1,0 +1,118 @@
+T1	PLAN 3 23	Agent-Based Approach
+T2	PLAN 47 66	Recommender Systems
+T3	PLAN 67 86	Recommender Systems
+T4	APPLY-TO 91 95	used
+T5	DOMAIN 107 114	domains
+T6	QUALITY 99 106	various
+T7	PROCESS 118 126	generate
+T8	DATA-ITEM 127 151	personalized information
+T9	APPLY-TO 152 160	based on
+T10	DATA-ITEM 161 179	personal user data
+T11	PERSON 170 174	user
+T12	QUALITY 185 192	ability
+T13	PROCESS 196 204	preserve
+T14	QUALITY 209 216	privacy
+T15	PERSON 224 236	participants
+T16	QUANTITY 220 223	all
+T17	QUALITY 253 264	requirement
+T18	QUALITY 243 252	essential
+T19	PLAN 283 318	Information Filtering architectures
+T20	QUALITY 332 340	deployed
+T21	PLAN 341 360	Recommender Systems
+T22	MODALITY 361 365	have
+T23	PROCESS 372 380	accepted
+T24	PERSON 398 403	users
+T25	ORGANIZATION 415 426;439 448	information providers
+T26	ORGANIZATION 431 448	service providers
+T27	PLAN 459 469	approaches
+T28	PROCESS 470 477	neglect
+T29	PROCESS 481 488	address
+T30	QUALITY 489 496	privacy
+T31	PLAN 500 521	this multilateral way
+T33	PLAN 544 552	approach
+T34	PLAN 576 595	Recommender Systems
+T35	APPLY-TO 596 604	based on
+T36	PLAN 605 634	Multi-Agent System technology
+T37	REFERENCE 635 640	which
+R1	Coreference Arg1:T37 Arg2:T33	
+T38	PROCESS 641 648	enables
+T39	PLAN 649 661	applications
+T40	PROCESS 665 673	generate
+T41	DATA-ITEM 674 689	recommendations
+T42	PLAN 702 722	filtering techniques
+T43	QUALITY 694 701	various
+T44	PROCESS 729 739	preserving
+T45	QUALITY 744 751	privacy
+T46	PERSON 759 771	participants
+T47	QUANTITY 755 758	all
+T48	PLAN 789 801	main modules
+T49	PLAN 809 817	solution
+T50	PLAN 832 843	application
+T51	PROCESS 852 863	implemented
+T53	PLAN 873 886	this approach
+R2	Coreference Arg1:T53 Arg2:T49	
+T54	QUALITY 450 458	Existing
+R3	Attribute Arg1:T15 Arg2:T16	
+T55	QUALITY 272 282	underlying
+R4	Attribute Arg1:T21 Arg2:T20	
+T56	QUALITY 28 46	Privacy-Preserving
+R5	Attribute Arg1:T2 Arg2:T56	
+T57	QUALITY 557 575	privacy-preserving
+R6	Attribute Arg1:T34 Arg2:T57	
+R7	Attribute Arg1:T42 Arg2:T43	
+R8	Attribute Arg1:T46 Arg2:T47	
+T58	PERSON 805 808	our
+R9	Attribute Arg1:T5 Arg2:T6	
+R10	Component-object Arg1:T48 Arg2:T49	
+R11	Poss Arg1:T58 Arg2:T49	
+R12	Attribute Arg1:T17 Arg2:T18	
+T60	QUALITY 384 397	privacy-aware
+R13	Attribute Arg1:T24 Arg2:T60	
+R14	Attribute Arg1:T27 Arg2:T54	
+R15	Apply-to Arg1:T1 Arg2:T2	
+R16	Condition Arg1:T4 Arg2:T5	
+R17	from Arg1:T4 Arg2:T3	
+R18	to Arg1:T4 Arg2:T7	
+R19	Output Arg1:T7 Arg2:T8	
+R20	from Arg1:T9 Arg2:T10	
+R21	to Arg1:T9 Arg2:T7	
+R22	Other-rel Arg1:T12 Arg2:T13	
+R23	Attribute Arg1:T15 Arg2:T14	
+R24	Target Arg1:T13 Arg2:T14	
+R25	Is-a Arg1:T12 Arg2:T17	
+R26	Attribute Arg1:T19 Arg2:T55	
+R27	Attribute Arg1:T19 Arg2:T17	
+R28	Attribute Arg1:T23 Arg2:T22	
+R29	Target Arg1:T23 Arg2:T21	
+R30	Agent Arg1:T23 Arg2:T24	
+R31	Agent Arg1:T23 Arg2:T25	
+R32	Agent Arg1:T23 Arg2:T26	
+R33	Apply-to Arg1:T27 Arg2:T28	
+R34	Target Arg1:T28 Arg2:T29	
+R35	Target Arg1:T29 Arg2:T30	
+R36	Condition Arg1:T29 Arg2:T31	
+R37	Apply-to Arg1:T33 Arg2:T34	
+R38	from Arg1:T35 Arg2:T36	
+R39	to Arg1:T35 Arg2:T33	
+R40	Apply-to Arg1:T37 Arg2:T38	
+R41	Apply-to Arg1:T38 Arg2:T40	
+R42	Apply-to Arg1:T39 Arg2:T40	
+R43	Output Arg1:T40 Arg2:T41	
+R44	Apply-to Arg1:T42 Arg2:T40	
+R45	Apply-to Arg1:T37 Arg2:T44	
+R46	Target Arg1:T44 Arg2:T45	
+R47	Attribute Arg1:T46 Arg2:T45	
+R48	Output Arg1:T51 Arg2:T50	
+T52	APPLY-TO 864 872	based on
+R49	from Arg1:T52 Arg2:T53	
+R50	to Arg1:T52 Arg2:T51	
+T32	PERSON 523 525	We
+T59	PROCESS 531 540	developed
+T61	PERSON 773 775	We
+T62	PROCESS 776 784	describe
+T63	PERSON 844 846	we
+R51	Agent Arg1:T51 Arg2:T63	
+R52	Agent Arg1:T59 Arg2:T32	
+R53	Output Arg1:T59 Arg2:T33	
+R54	Agent Arg1:T62 Arg2:T61	
+R55	Output Arg1:T62 Arg2:T48	

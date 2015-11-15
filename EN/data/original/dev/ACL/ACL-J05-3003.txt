@@ -1,0 +1,10 @@
+Large-Scale Induction and Evaluation of Lexical Resources from the Penn-II and Penn-III Treebanks
+
+We present a methodology for extracting subcategorization frames based on an automatic lexical-functional grammar (LFG) f-structure annotation algorithm for the Penn-II and Penn-III Treebanks.
+We extract syntactic-function-based subcategorization frames (LFG semantic forms) and traditional CFG category-based subcategorization frames as well as mixed function/category-based frames, with or without preposition information for obliques and particle information for particle verbs. Our approach associates probabilities with frames conditional on the lemma, distinguishes between active and passive frames, and fully
+reflects the effects of long-distance dependencies in the source data structures.
+In contrast to many other approaches, ours does not predefine the subcategorization frame types extracted,
+learning them instead from the source data.
+Including particles and prepositions, we extract 21,005 lemma frame types for 4,362 verb lemmas, with a total of 577 frame types and an average of 4.8 frame types per verb.
+We present a large-scale evaluation of the complete set of forms extracted against the full COMLEX resource.
+To our knowledge, this is the largest and most complete evaluation of subcategorization frames acquired automatically for English.

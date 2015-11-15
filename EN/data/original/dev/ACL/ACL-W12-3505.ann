@@ -1,0 +1,104 @@
+T1	APPLY-TO 65 70	using
+T2	QUALITY 260 279	promising solutions
+T3	PROCESS 306 318	acknowledged
+T4	PROCESS 434 441	achieve
+T5	PROCESS 581 589	produced
+T6	PROCESS 620 627	degrade
+T7	PROCESS 786 794	produced
+T9	MODALITY 616 619	can
+T10	PERSON 460 465	users
+T11	QUALITY 195 205	inevitable
+T12	QUALITY 744 755	efficiently
+T13	PROCESS 0 9	Reduction
+T14	DATA-ITEM 13 33	Non-stationary Noise
+T15	ARTIFACT 40 64	Robotic Living Assistant
+T16	PLAN 71 111	Sparse Non-negative Matrix Factorization
+T17	PROCESS 124 143	demographic changes
+T18	PROCESS 145 152	support
+T19	APPLY-TO 156 161	means
+T20	ARTIFACT 165 182	assistive systems
+T21	ORGANIZATION 227 240	nursing homes
+T22	ARTIFACT 242 255	Robot systems
+T24	QUALITY 290 295	value
+T25	PERSON 326 334	patients
+T26	PERSON 343 357	care personnel
+T28	QUALITY 423 430	feature
+T29	QUALITY 442 452	acceptance
+T30	PLAN-OR-PROCESS 478 506	automatic speech recognition
+T32	ARTIFACT 546 563	assistive devices
+T33	DATA-ITEM 574 580	noises
+T34	PROCESS 597 605	movement
+T35	ARTIFACT 609 615	robots
+T36	QUALITY 632 648	ASR performances
+T38	PLAN-OR-PROCESS 671 686	noise reduction
+T39	PLAN 692 725	non-negative matrix factorization
+T40	PLAN 727 730	NMF
+T41	PLAN 732 740	approach
+T42	DATA-ITEM 765 785	non stationary noise
+T43	ARTIFACT 802 809	sensors
+T44	ARTIFACT 826 838	robot system
+T8	PROCESS 210 219	home care
+T45	REFERENCE 284 289	their
+R3	Coreference Arg1:T45 Arg2:T22	
+R4	Input Arg1:T3 Arg2:T24	
+T46	PLAN 381 405	human-machine interfaces
+T47	PLAN-OR-PROCESS 508 511	ASR
+R5	Equivalence Arg1:T47 Arg2:T30	
+T48	QUALITY 518 527	promising
+R6	Is-a Arg1:T30 Arg2:T31	
+R7	Attribute Arg1:T6 Arg2:T9	
+R8	Equivalence Arg1:T40 Arg2:T39	
+R9	Split Arg1:T41 Arg2:T39	
+T37	PROCESS 756 764	suppress
+R10	Attribute Arg1:T37 Arg2:T12	
+T50	QUALITY 816 825	assisting
+R12	Attribute Arg1:T44 Arg2:T50	
+T51	PERSON 381 386	human
+T27	QUALITY 359 366	Natural
+T52	QUALITY 371 380	intuitive
+R13	Attribute Arg1:T46 Arg2:T27	
+R14	Attribute Arg1:T46 Arg2:T52	
+T53	QUALITY 413 422	essential
+R11	Component-object Arg1:T43 Arg2:T44	
+R15	Attribute Arg1:T28 Arg2:T53	
+R16	Attribute Arg1:T45 Arg2:T24	
+R1	Attribute Arg1:T18 Arg2:T11	
+T56	MODALITY 296 305	has to be
+R17	In_Out Arg1:T13 Arg2:T14	
+R18	Apply-to Arg1:T13 Arg2:T15	
+R19	from Arg1:T1 Arg2:T16	
+R20	to Arg1:T1 Arg2:T13	
+R21	from Arg1:T19 Arg2:T20	
+R22	to Arg1:T19 Arg2:T18	
+R23	Apply-to Arg1:T18 Arg2:T8	
+R24	Condition Arg1:T18 Arg2:T21	
+R26	Attribute Arg1:T3 Arg2:T56	
+R27	Agent Arg1:T3 Arg2:T25	
+R28	Agent Arg1:T3 Arg2:T26	
+R29	Is-a Arg1:T46 Arg2:T28	
+R30	Attribute Arg1:T4 Arg2:T28	
+R31	Target Arg1:T4 Arg2:T29	
+R32	Attribute Arg1:T10 Arg2:T29	
+R33	Apply-to Arg1:T30 Arg2:T32	
+T31	PLAN-OR-PROCESS 528 536	modality
+R34	Attribute Arg1:T31 Arg2:T48	
+R35	Agent Arg1:T34 Arg2:T35	
+R36	Output Arg1:T5 Arg2:T33	
+R37	Condition Arg1:T5 Arg2:T34	
+R38	Result Arg1:T33 Arg2:T6	
+R39	In_Out Arg1:T6 Arg2:T36	
+R40	Apply-to Arg1:T41 Arg2:T38	
+R41	Apply-to Arg1:T41 Arg2:T37	
+R42	In_Out Arg1:T37 Arg2:T42	
+R43	Output Arg1:T7 Arg2:T42	
+R44	Apply-to Arg1:T43 Arg2:T7	
+T57	RESULT 113 119	Due to
+R45	from Arg1:T57 Arg2:T17	
+R46	to Arg1:T57 Arg2:T11	
+R2	Attribute Arg1:T22 Arg2:T2	
+T23	MODALITY 183 187	will
+R25	Attribute Arg1:T11 Arg2:T23	
+T49	REFERENCE 650 659	This work
+T54	PROCESS 660 667	focuses
+R47	Condition Arg1:T54 Arg2:T49	
+R48	Target Arg1:T54 Arg2:T38	

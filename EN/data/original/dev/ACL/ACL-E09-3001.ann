@@ -1,0 +1,184 @@
+T1	PROCESS 0 9	Modelling
+T2	PLAN 56 94	General Statistical Learning Mechanism
+T3	REFERENCE 98 108	This paper
+T4	PROCESS 109 116	reports
+T5	PLAN 121 138	on-going research
+T6	PLAN 144 158	thesis project
+T7	PROCESS 159 172	investigating
+T8	PLAN 175 194	computational model
+T9	PLAN-OR-PROCESS 198 224	early language acquisition
+T10	PLAN 230 235	model
+T11	PROCESS 236 245	discovers
+T12	DATA-ITEM 246 261	word-like units
+T13	DATA-ITEM 267 289	cross-modal input data
+T14	PROCESS 294 300	builds
+T15	QUALITY 301 313	continuously
+T16	QUALITY 314 322	evolving
+T17	DATA-ITEM 323 347	internal representations
+T19	PLAN 357 372	cognitive model
+T20	PLAN 376 382	memory
+T21	QUALITY 384 391	Current
+T22	PLAN 392 410	cognitive theories
+T23	PROCESS 411 418	suggest
+T24	PERSON 424 437	young infants
+T25	PROCESS 438 444	employ
+T26	QUALITY 445 452	general
+T27	PLAN 453 475	statistical mechanisms
+T28	REFERENCE 476 480	that
+T29	INPUT 481 488	exploit
+T30	DATA-ITEM 493 517	statistical regularities
+T31	REFERENCE 525 530	their
+T32	THING 531 542	environment
+T33	PROCESS 546 553	acquire
+T34	DATA-ITEM 554 569	language skills
+T35	PROCESS 575 584	discovery
+T36	DATA-ITEM 588 601	lexical units
+T37	PROCESS 605 613	modelled
+T38	PLAN 617 631	this behaviour
+T39	PLAN 639 645	system
+T40	PROCESS 646 653	detects
+T41	QUALITY 654 663	repeating
+T42	DATA-ITEM 664 672	patterns
+T43	DATA-ITEM 682 695	speech signal
+T44	PROCESS 700 710	associates
+T45	REFERENCE 711 715	them
+T46	QUALITY 719 727	discrete
+T47	DATA-ITEM 728 750	abstract semantic tags
+T48	REFERENCE 755 758	its
+T49	TIME 759 766	current
+T50	PLAN 778 787	algorithm
+T51	QUALITY 793 798	novel
+T52	PLAN 799 807	approach
+T53	PROCESS 812 822	segmenting
+T54	QUALITY 830 838	directly
+T55	DATA-ITEM 848 863	acoustic signal
+T56	PLAN 870 889	unsupervised manner
+T57	PROCESS 901 911	liberating
+T58	REFERENCE 912 914	it
+T59	DATA-ITEM 922 941	pre-defined lexicon
+T60	THING 950 953	end
+T61	PLAN 961 968	project
+T63	PROCESS 976 983	planned
+T64	PROCESS 987 991	have
+T65	PLAN 995 1007	architecture
+T66	REFERENCE 1008 1012	that
+T67	QUALITY 1016 1023	capable
+T68	PROCESS 1027 1036	acquiring
+T69	LANGUAGE 1037 1045	language
+T71	PLAN 1050 1070	communicative skills
+T72	PLAN 1077 1090	online manner
+T73	PROCESS 1096 1105	carry out
+T74	PLAN-OR-PROCESS 1113 1131	speech recognition
+T75	QUALITY 1133 1144	Preliminary
+T76	DATA-ITEM 1145 1152	results
+T77	TIME 1153 1160	already
+T78	RESULT 1161 1165	show
+T79	PLAN 1171 1182	this method
+T80	QUALITY 1186 1193	capable
+T81	PLAN-OR-PROCESS 1197 1207	segmenting
+T82	PROCESS 1212 1220	building
+T83	QUALITY 1221 1229	accurate
+T84	DATA-ITEM 1230 1254	internal representations
+T85	QUALITY 1258 1267	important
+T86	DATA-ITEM 1268 1281	lexical units
+T87	QUALITY 1286 1294	emergent
+T88	DATA-ITEM 1296 1306	properties
+T89	DATA-ITEM 1312 1328	cross-modal data
+T90	DATA-ITEM 10 43	Early Language Acquisition Skills
+R1	In_Out Arg1:T1 Arg2:T90	
+R2	Apply-to Arg1:T1 Arg2:T2	
+A1	Self T3
+A2	Intentional T4
+R3	Condition Arg1:T4 Arg2:T3	
+R4	Output Arg1:T4 Arg2:T5	
+R5	Condition Arg1:T7 Arg2:T6	
+R6	In_Out Arg1:T7 Arg2:T8	
+R7	Apply-to Arg1:T8 Arg2:T9	
+R8	Is-a Arg1:T5 Arg2:T6	
+R9	Output Arg1:T11 Arg2:T12	
+R10	Input Arg1:T11 Arg2:T13	
+R11	Apply-to Arg1:T10 Arg2:T11	
+R12	Apply-to Arg1:T10 Arg2:T14	
+R13	Attribute Arg1:T16 Arg2:T15	
+R14	Output Arg1:T14 Arg2:T17	
+R15	Attribute Arg1:T16 Arg2:T17	
+R17	Input Arg1:T19 Arg2:T20	
+R18	Attribute Arg1:T22 Arg2:T21	
+R19	Attribute Arg1:T27 Arg2:T26	
+R20	Agent Arg1:T25 Arg2:T24	
+R21	Input Arg1:T25 Arg2:T27	
+R22	Coreference Arg1:T28 Arg2:T27	
+R23	from Arg1:T29 Arg2:T28	
+R24	to Arg1:T29 Arg2:T30	
+R25	Coreference Arg1:T31 Arg2:T24	
+R26	Poss Arg1:T31 Arg2:T32	
+R27	Condition Arg1:T30 Arg2:T32	
+R28	In_Out Arg1:T33 Arg2:T34	
+R30	Apply-to Arg1:T22 Arg2:T23	
+R31	In_Out Arg1:T35 Arg2:T36	
+R32	Apply-to Arg1:T39 Arg2:T40	
+R33	Attribute Arg1:T42 Arg2:T41	
+R34	Output Arg1:T40 Arg2:T42	
+R35	Input Arg1:T40 Arg2:T43	
+R36	Apply-to Arg1:T39 Arg2:T44	
+R37	Coreference Arg1:T45 Arg2:T42	
+R38	Output Arg1:T44 Arg2:T45	
+R39	Attribute Arg1:T47 Arg2:T46	
+R40	Destination Arg1:T44 Arg2:T47	
+R41	Destination Arg1:T37 Arg2:T38	
+R42	In_Out Arg1:T37 Arg2:T35	
+T18	DATA-ITEM 767 772	state
+R43	Attribute Arg1:T18 Arg2:T49	
+R44	Poss Arg1:T48 Arg2:T18	
+R45	Coreference Arg1:T48 Arg2:T39	
+R46	Attribute Arg1:T52 Arg2:T51	
+R47	Is-a Arg1:T50 Arg2:T52	
+T91	DATA-ITEM 823 829	speech
+R48	In_Out Arg1:T53 Arg2:T91	
+R49	Input Arg1:T53 Arg2:T55	
+R50	Apply-to Arg1:T52 Arg2:T53	
+R51	Apply-to Arg1:T56 Arg2:T53	
+R52	Apply-to Arg1:T52 Arg2:T57	
+R53	Target Arg1:T57 Arg2:T58	
+R54	Origin Arg1:T57 Arg2:T59	
+R55	Coreference Arg1:T58 Arg2:T50	
+R56	Attribute Arg1:T61 Arg2:T60	
+A3	Intentional T63
+R57	In_Out Arg1:T64 Arg2:T65	
+R58	Coreference Arg1:T66 Arg2:T65	
+R59	Attribute Arg1:T68 Arg2:T67	
+R60	Apply-to Arg1:T66 Arg2:T68	
+R61	In_Out Arg1:T68 Arg2:T69	
+R62	In_Out Arg1:T68 Arg2:T71	
+R63	Apply-to Arg1:T72 Arg2:T68	
+R64	Apply-to Arg1:T66 Arg2:T73	
+R65	Output Arg1:T73 Arg2:T74	
+R66	Output Arg1:T63 Arg2:T64	
+R67	Attribute Arg1:T63 Arg2:T60	
+R68	Attribute Arg1:T53 Arg2:T54	
+R69	Attribute Arg1:T76 Arg2:T75	
+R70	Attribute Arg1:T78 Arg2:T77	
+R72	Attribute Arg1:T81 Arg2:T80	
+R73	Attribute Arg1:T82 Arg2:T80	
+A4	Judgment T80
+R74	Apply-to Arg1:T79 Arg2:T81	
+R75	Apply-to Arg1:T79 Arg2:T82	
+R76	Attribute Arg1:T84 Arg2:T83	
+A5	Judgment T83
+R77	Output Arg1:T82 Arg2:T84	
+R78	Attribute Arg1:T86 Arg2:T85	
+R80	Attribute Arg1:T88 Arg2:T87	
+R81	from Arg1:T78 Arg2:T76	
+R82	to Arg1:T78 Arg2:T80	
+R83	Is-a Arg1:T84 Arg2:T88	
+R16	Destination Arg1:T14 Arg2:T19	
+R85	Apply-to Arg1:T25 Arg2:T33	
+T70	RESULT 891 900	therefore
+R29	from Arg1:T70 Arg2:T53	
+R86	to Arg1:T70 Arg2:T57	
+T92	QUALITY 1106 1112	robust
+A6	Judgment T92
+R87	Attribute Arg1:T74 Arg2:T92	
+R71	Input Arg1:T82 Arg2:T86	
+R79	Attribute Arg1:T89 Arg2:T88	
+A7	Judgment T85

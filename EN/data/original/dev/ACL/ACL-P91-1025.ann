@@ -1,0 +1,97 @@
+R1	Target Arg1:T1 Arg2:T44
+R2	Apply-to Arg1:T2 Arg2:T1
+R3	Attribute Arg1:T3 Arg2:T4
+R4	Condition Arg1:T4 Arg2:T5
+R5	Compare Arg1:T6 Arg2:T4
+R6	Attribute Arg1:T3 Arg2:T5
+R9	Coreference Arg1:T8 Arg2:T3
+R10	Coreference Arg1:T7 Arg2:T6
+R11	Destination Arg1:T45 Arg2:T7
+R12	Output Arg1:T45 Arg2:T9
+R7	Output Arg1:T45 Arg2:T10
+R8	Condition Arg1:T45 Arg2:T8
+R13	Is-a Arg1:T14 Arg2:T15
+R14	Attribute Arg1:T14 Arg2:T13
+R15	Attribute Arg1:T14 Arg2:T12
+R16	Is-a Arg1:T11 Arg2:T14
+R17	Destination Arg1:T15 Arg2:T16
+R18	Attribute Arg1:T17 Arg2:T16
+R19	In_Out Arg1:T18 Arg2:T19
+R20	Condition Arg1:T19 Arg2:T20
+R21	Attribute Arg1:T18 Arg2:T46
+R22	Is-a Arg1:T14 Arg2:T18
+A1	Self T21
+A2	Intentional T22
+R23	Agent Arg1:T22 Arg2:T21
+R24	Output Arg1:T22 Arg2:T23
+R25	from Arg1:T24 Arg2:T25
+R26	to Arg1:T24 Arg2:T23
+R27	Attribute Arg1:T27 Arg2:T26
+R28	Is-a Arg1:T28 Arg2:T27
+R29	Is-a Arg1:T29 Arg2:T27
+R30	Is-a Arg1:T33 Arg2:T27
+R31	Output Arg1:T31 Arg2:T30
+R32	Destination Arg1:T31 Arg2:T32
+R33	Output Arg1:T29 Arg2:T30
+R34	Output Arg1:T34 Arg2:T33
+R35	to Arg1:T47 Arg2:T34
+R36	from Arg1:T47 Arg2:T35
+A3	Self T36
+A4	Intentional T37
+R37	Agent Arg1:T37 Arg2:T36
+A5	Self T38
+R38	Poss Arg1:T38 Arg2:T39
+R39	Output Arg1:T37 Arg2:T39
+R40	In_Out Arg1:T41 Arg2:T42
+R41	In_Out Arg1:T41 Arg2:T43
+R42	Is-a Arg1:T40 Arg2:T41
+R43	Apply-to Arg1:T39 Arg2:T40
+A6	Name T42
+A7	Name T43
+T1	PROCESS 0 9	Resolving
+T44	DATA-ITEM 10 32	Translation Mismatches
+T2	PLAN-OR-PROCESS 38 54	Information Flow
+T3	LANGUAGE 57 66	Languages
+T4	QUALITY 67 73	differ
+T5	DATA-ITEM 81 89	concepts
+T6	DATA-ITEM 94 113	real-world entities
+T7	REFERENCE 118 123	which
+T8	REFERENCE 124 128	they
+T45	PROCESS 129 133	have
+T9	DATA-ITEM 134 139	words
+T10	DATA-ITEM 144 166	grammatical constructs
+T11	PROCESS 179 190	translation
+T12	MODALITY 191 195	must
+T13	QUALITY 196 205	sometimes
+T14	PROCESS 211 217	matter
+T15	PROCESS 221 234	approximating
+T16	DATA-ITEM 239 246	meaning
+T17	DATA-ITEM 252 272	source language text
+T46	MODALITY 273 284	rather than
+T18	PROCESS 285 292	finding
+T19	DATA-ITEM 296 313	exact counterpart
+T20	LANGUAGE 321 336	target language
+T21	PERSON 339 341	We
+T22	PROCESS 342 349	propose
+T23	PLAN 352 373	translation framework
+T24	APPLY-TO 374 382	based on
+T25	PLAN 383 399	Situation Theory
+T26	QUALITY 406 411	basic
+T27	PLAN 412 423	ingredients
+T28	PLAN 431 450	information lattice
+T29	PLAN 455 476	representation scheme
+T30	DATA-ITEM 481 491	utterances
+T31	PROCESS 492 500	embedded
+T32	DATA-ITEM 504 512	contexts
+T33	PLAN 521 547	mismatch resolution scheme
+T34	PROCESS 548 555	defined
+T47	APPLY-TO 556 567	in terms of
+T35	PLAN-OR-PROCESS 568 584	information flow
+T36	PERSON 587 589	We
+T37	PROCESS 590 598	motivate
+T38	PERSON 599 602	our
+T39	PLAN 603 611	approach
+T40	PLAN-OR-PROCESS 617 625	examples
+T41	PLAN-OR-PROCESS 629 640	translation
+T42	LANGUAGE 649 656	English
+T43	LANGUAGE 661 669	Japanese

@@ -1,0 +1,8 @@
+The Disambiguation of Nominalizations
+
+This article addresses the interpretation of nominalizations, a particular class of compound nouns whose head noun is derived from a verb and whose modifier is interpreted as an argument of this verb.
+Any attempt to automatically interpret nominalizations needs to take into account: (a) the selectional constraints imposed by the nominalized compound head, (b) the fact that the relation of the modifier and the head noun can be ambiguous, and (c) the fact that these constraints can be easily overridden by contextual or pragmatic factors.
+The interpretation of nominalizations poses a further challenge for probabilistic approaches since the argument relations between a head and its modifier are not readily available in the corpus.
+Even an approximation that maps the compound head to its underlying verb provides insufficient evidence.
+We present an approach that treats the interpretation task as a disambiguation problem and show how we can “re-create”the missing distributional evidence by exploiting partial parsing, smoothing techniques, and contextual information.
+We combine these distinct information sources using Ripper, a system that learns sets of rules from data, and achieve an accuracy of 86.1% (over a baseline of 61.5%) on the British National Corpus.

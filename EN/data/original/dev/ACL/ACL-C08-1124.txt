@@ -1,0 +1,13 @@
+Extractive Summarization Using Supervised and Semi-supervised Learning
+
+It is difficult to identify sentence importance from a single point of view.
+In this paper, we propose a learning-based approach to combine various sentence features.
+They are categorized as surface, content, relevance and event features.
+Surface features are related to extrinsic aspects of a sentence.
+Content features measure a sentence based on content-conveying words.
+Event features represent sentences by events they contained.
+Relevance features evaluate a sentence from its relatedness with other sentences.
+Experiments show that the combined features improved summarization performance significantly.
+Although the evaluation results are encouraging, supervised learning approach requires much labeled data.
+Therefore we investigate co-training by combining labeled and unlabeled data.
+Experiments show that this semi-supervised learning approach achieves comparable performance to its supervised counterpart and saves about half of the labeling time cost.

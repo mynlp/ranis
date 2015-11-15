@@ -1,0 +1,6 @@
+Simple Preposition Correspondence: A problem in English to Indian language Machine Translation
+
+The paper describes an approach to automatically select from Indian Language the appropriate lexical correspondence of English simple preposition.
+The paper describes this task from a Machine Translation (MT) perspective.
+We use the properties of the head and complement of the preposition to select the appropriate sense in the target language.
+We later show that the results obtained from this approach are promising.

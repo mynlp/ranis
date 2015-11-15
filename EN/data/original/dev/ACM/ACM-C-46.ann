@@ -1,0 +1,197 @@
+T1	PLAN 0 4	TSAR
+T2	PLAN 8 44	Two Tier Sensor Storage Architecture
+T3	PLAN-OR-PROCESS 51 71	Interval Skip Graphs
+T4	PLAN-OR-PROCESS 72 88	Archival storage
+T5	DATA-ITEM 92 103	sensor data
+T6	QUALITY 107 116	necessary
+T7	PLAN 121 133	applications
+T8	PROCESS 139 144	query
+T9	PROCESS 146 150	mine
+T10	PROCESS 156 163	analyze
+T11	DATA-ITEM 164 173	such data
+T12	QUALITY 178 189	interesting
+T13	DATA-ITEM 190 198	features
+T14	DATA-ITEM 203 209	trends
+R1	Attribute Arg1:T13 Arg2:T12	
+T15	QUALITY 225 233	existing
+T16	PLAN 234 249	storage systems
+T17	PROCESS 254 262	designed
+T18	QUALITY 263 272	primarily
+R2	Attribute Arg1:T17 Arg2:T18	
+R4	Attribute Arg1:T16 Arg2:T15	
+T19	QUALITY 277 281	flat
+T20	ARTIFACT 282 293	hierarchies
+R5	Attribute Arg1:T20 Arg2:T19	
+T21	QUALITY 297 308	homogeneous
+T22	ARTIFACT 309 321	sensor nodes
+R6	Attribute Arg1:T22 Arg2:T21	
+T23	MODALITY 329 332	not
+T24	QUALITY 333 338	fully
+T25	PROCESS 339 346	exploit
+R7	Attribute Arg1:T25 Arg2:T23	
+R8	Attribute Arg1:T25 Arg2:T24	
+T26	QUALITY 351 368	multi-tier nature
+T27	ARTIFACT 381 396	sensor networks
+T28	PLAN 407 418	application
+T29	MODALITY 419 422	can
+T30	APPLY-TO 423 431	comprise
+T31	QUANTITY 432 436	tens
+T32	ARTIFACT 440 456	tethered proxies
+R9	Attribute Arg1:T14 Arg2:T12	
+R10	Attribute Arg1:T30 Arg2:T29	
+R11	Attribute Arg1:T32 Arg2:T31	
+T33	PROCESS 463 471	managing
+T34	QUANTITY 472 488	tens to hundreds
+T35	ARTIFACT 492 510	untethered sensors
+R12	Attribute Arg1:T35 Arg2:T34	
+T40	ARTIFACT 1167 1175	Stargate
+T41	QUALITY 531 554	fundamentally different
+T42	PLAN 555 575	storage architecture
+R13	Attribute Arg1:T42 Arg2:T41	
+T43	OUTPUT 581 590	envisions
+T44	PLAN-OR-PROCESS 591 601	separation
+T45	DATA-ITEM 605 609	data
+T46	DATA-ITEM 615 623	metadata
+T47	APPLY-TO 627 636	employing
+T48	PLAN-OR-PROCESS 637 652	local archiving
+T49	ARTIFACT 660 667	sensors
+T50	PLAN-OR-PROCESS 672 692	distributed indexing
+T51	ARTIFACT 700 707	proxies
+T52	ARTIFACT 716 726	proxy tier
+T53	PROCESS 733 740	employs
+T54	QUALITY 743 748	novel
+T55	PLAN-OR-PROCESS 749 801	multi-resolution ordered distributed index structure
+R14	Attribute Arg1:T55 Arg2:T54	
+T56	PLAN-OR-PROCESS 807 826	Interval Skip Graph
+T57	QUALITY 832 843	efficiently
+T58	PROCESS 844 854	supporting
+R15	Attribute Arg1:T58 Arg2:T57	
+T59	DATA-ITEM 855 870;881 888	spatio-temporal queries
+T60	DATA-ITEM 875 888	value queries
+T61	ARTIFACT 897 908	sensor tier
+T62	APPLY-TO 915 923	supports
+T63	PLAN-OR-PROCESS 924 959	energy-aware adaptive summarization
+T64	MODALITY 965 968	can
+T65	JUDGING-PROCESS 969 978	trade off
+T66	DATA-ITEM 983 987	cost
+T67	PROCESS 991 1003	transmitting
+T68	DATA-ITEM 1004 1012	metadata
+T69	ARTIFACT 1020 1027	proxies
+T70	DATA-ITEM 1040 1048	overhead
+T71	DATA-ITEM 1052 1062	false hits
+T72	RESULT 1063 1072	resulting
+T73	PROCESS 1078 1086	querying
+T74	DATA-ITEM 1089 1108	coarse-grain index.
+T75	ARTIFACT 1132 1155	two-tier sensor testbed
+T76	COMPONENT-OBJECT 1156 1166	comprising
+T77	ARTIFACT 1167 1189	Stargate-based proxies
+T78	ARTIFACT 1194 1212	Mote-based sensors
+T79	QUALITY 1246 1254	benefits
+T80	QUALITY 1259 1270	feasibility
+T81	PLAN 1301 1321	storage architecture
+T82	ARTIFACT 1325 1351	multi-tier sensor networks
+R17	Attribute Arg1:T81 Arg2:T80	
+R18	Attribute Arg1:T81 Arg2:T79	
+R19	Attribute Arg1:T65 Arg2:T64	
+R3	Attribute Arg1:T4 Arg2:T6	
+R20	Coreference Arg1:T11 Arg2:T5	
+T83	QUALITY 372 380	emerging
+R21	Attribute Arg1:T27 Arg2:T83	
+T84	PLAN 523 527	TSAR
+R22	Member-collection Arg1:T22 Arg2:T20	
+T85	PLAN 728 732	TSAR
+T86	PLAN 910 914	TSAR
+T87	PLAN 1122 1126	TSAR
+R25	Attribute Arg1:T27 Arg2:T26	
+T38	REFERENCE 134 138	that
+R16	Coreference Arg1:T38 Arg2:T7	
+T39	REFERENCE 576 580	that
+R26	Coreference Arg1:T39 Arg2:T42	
+T88	REFERENCE 960 964	that
+R27	Coreference Arg1:T88 Arg2:T63	
+T92	PERSON 1280 1283	our
+R28	Poss Arg1:T92 Arg2:T81	
+T93	QUALITY 1284 1300	energy-efficient
+R29	Attribute Arg1:T81 Arg2:T93	
+R30	Is-a Arg1:T1 Arg2:T2	
+R31	Apply-to Arg1:T3 Arg2:T2	
+R32	Attribute Arg1:T4 Arg2:T5	
+R33	Apply-to Arg1:T4 Arg2:T7	
+R34	Apply-to Arg1:T38 Arg2:T8	
+R35	Apply-to Arg1:T38 Arg2:T9	
+R36	Apply-to Arg1:T38 Arg2:T10	
+R37	Output Arg1:T17 Arg2:T16	
+R38	Condition Arg1:T16 Arg2:T20	
+R39	Input Arg1:T8 Arg2:T11	
+R40	Input Arg1:T9 Arg2:T11	
+R41	Input Arg1:T10 Arg2:T11	
+R42	Condition Arg1:T8 Arg2:T13	
+R43	Condition Arg1:T8 Arg2:T14	
+R44	Condition Arg1:T9 Arg2:T13	
+R45	Condition Arg1:T9 Arg2:T14	
+R46	Condition Arg1:T10 Arg2:T13	
+R47	Condition Arg1:T10 Arg2:T14	
+R48	Attribute Arg1:T82 Arg2:T81	
+R49	Apply-to Arg1:T16 Arg2:T25	
+R50	Input Arg1:T25 Arg2:T26	
+R52	to Arg1:T30 Arg2:T28	
+R53	from Arg1:T30 Arg2:T32	
+R51	In_Out Arg1:T33 Arg2:T35	
+R54	from Arg1:T76 Arg2:T77	
+R55	from Arg1:T76 Arg2:T78	
+R56	to Arg1:T76 Arg2:T75	
+T90	PROCESS 1112 1121	implement
+R23	Output Arg1:T90 Arg2:T87	
+R24	Destination Arg1:T90 Arg2:T75	
+R57	from Arg1:T62 Arg2:T86	
+R58	to Arg1:T62 Arg2:T63	
+R59	Condition Arg1:T62 Arg2:T61	
+R60	Apply-to Arg1:T85 Arg2:T53	
+R61	Input Arg1:T53 Arg2:T55	
+R62	Condition Arg1:T53 Arg2:T52	
+R63	Is-a Arg1:T55 Arg2:T56	
+R64	Input Arg1:T58 Arg2:T59	
+R65	Input Arg1:T58 Arg2:T60	
+R66	Apply-to Arg1:T53 Arg2:T58	
+R67	Apply-to Arg1:T88 Arg2:T65	
+R68	In_Out Arg1:T65 Arg2:T66	
+R69	In_Out Arg1:T67 Arg2:T68	
+R70	Attribute Arg1:T68 Arg2:T66	
+R71	Destination Arg1:T67 Arg2:T69	
+T94	COMPARE 1028 1035	against
+R72	from Arg1:T94 Arg2:T70	
+R73	to Arg1:T94 Arg2:T65	
+R74	Attribute Arg1:T71 Arg2:T70	
+R75	from Arg1:T72 Arg2:T73	
+R76	Output Arg1:T73 Arg2:T74	
+R77	to Arg1:T72 Arg2:T71	
+R78	Is-a Arg1:T84 Arg2:T42	
+R79	from Arg1:T43 Arg2:T39	
+R80	to Arg1:T43 Arg2:T44	
+R81	Output Arg1:T44 Arg2:T45	
+R82	Input Arg1:T44 Arg2:T46	
+R83	to Arg1:T47 Arg2:T44	
+R84	from Arg1:T47 Arg2:T48	
+R85	Condition Arg1:T47 Arg2:T49	
+R86	from Arg1:T47 Arg2:T50	
+R87	Condition Arg1:T47 Arg2:T51	
+R88	Condition Arg1:T30 Arg2:T27	
+T95	REFERENCE 458 462	each
+R89	Coreference Arg1:T95 Arg2:T32	
+R90	Apply-to Arg1:T95 Arg2:T33	
+T36	PERSON 211 213	We
+T37	PERSON 512 514	We
+T89	PROCESS 515 522	present
+T91	PERSON 1109 1111	We
+T96	PROCESS 214 219	argue
+T97	PERSON 1214 1217	Our
+T98	PLAN 1218 1229	experiments
+T99	PROCESS 1230 1241	demonstrate
+R91	Agent Arg1:T89 Arg2:T37	
+R92	Output Arg1:T89 Arg2:T84	
+R93	Agent Arg1:T96 Arg2:T36	
+R94	Poss Arg1:T97 Arg2:T98	
+R95	Condition Arg1:T99 Arg2:T98	
+R96	Output Arg1:T99 Arg2:T79	
+R97	Output Arg1:T99 Arg2:T80	
+R98	Agent Arg1:T90 Arg2:T91	

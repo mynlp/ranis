@@ -1,0 +1,4 @@
+Multilingual Coreference Resolution
+
+In this paper we present a new, multilingual data-driven method for coreference resolution as implemented in the SWIZZLE system.
+The results obtained after training this system on a bilingual corpus of English and Romanian tagged texts, outperformed coreference resolution in each of the individual languages.

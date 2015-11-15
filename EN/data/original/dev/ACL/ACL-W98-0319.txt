@@ -1,0 +1,10 @@
+Lexical , Prosodic , And Syntactic Cues For Dialog Acts .
+The structure of a discourse is reflected in many aspects of its linguistic realization , including its lexical , prosodic , syntactic , and semantic nature .
+Multiparty dialog contains a particular kind of discourse structure , the dialog act ( DA ) .
+Like other types of structure , the dialog act sequence of a conversation is also reflected in its lexical , prosodic , and syntactic realization .
+This paper presents a preliminary investigation into the realization of a particular class of dialog acts which play an essential structuring role in dialog , the backchannels or acknowledgements tokens .
+We discuss the lexical , prosodic , and syntactic realization of these and subsumed or related dialog acts like continuers , assessments , yesanswers , agreements , and incipient-speakership .
+We show that lexical knowledge plays a role in distinguishing these dialog acts , despite the widespread ambiguity of words such as yeah , and that prosodic knowledge plays a role in DA identification for certain DA types , while lexical cues may be sufficient for the remainder .
+Finally , our investigation of the syntax of assessments suggests that at least some dialog acts have a very constrained syntactic realization , a per-dialog act ` microsyntax ' .
+
+

@@ -1,0 +1,8 @@
+German Particle Verbs And Pleonastic Prepositions .
+This paper discusses the behavior of German particle verbs formed by two-way prepositions in combination with pleonastic PPs including the verb particle as a preposition .
+These particle verbs have a characteristic feature : some of them license directional prepositional phrases in the accusative , some only allow for locative PPs in the dative , and some particle verbs can occur with PPs in the accusative and in the dative .
+Directional particle verbs together with directional PPs present an additional problem : the particle and the preposition in the PP seem to provide redundant information .
+The paper gives an overview of the semantic verb classes in uencing this phenomenon , based on corpus data , and explains the underlying reasons for the behavior of the particle verbs .
+We also show how the restrictions on particle verbs and pleonastic PPs can be expressed in a grammar theory like Lexical Functional Grammar ( LFG ) .
+
+

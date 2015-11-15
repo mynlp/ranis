@@ -1,0 +1,216 @@
+T1	PLAN-OR-PROCESS 0 46	Approximate and Online Multi-Issue Negotiation
+T2	PLAN-OR-PROCESS 67 100	bilateral multi-issue negotiation
+T3	INTELLIGENT-AGENT 109 142	self-interested autonomous agents
+T4	INTELLIGENT-AGENT 148 154	agents
+T5	PLAN 160 176	time constraints
+T7	TIME 197 206	deadlines
+T8	CONTINUANT 211 227	discount factors
+T9	PLAN-OR-PROCESS 256 267	negotiation
+T10	DATA-ITEM 279 284	issue
+T11	ATTRIBUTE 288 294	viewed
+T12	QUALITY 307 311	size
+T13	QUANTITY 312 315	one
+T15	DATA-ITEM 321 327	issues
+T16	QUALITY 332 343	indivisible
+T17	MODALITY 369 375	cannot
+T18	PROCESS 379 384	split
+T19	INTELLIGENT-AGENT 397 404	parties
+T20	DATA-ITEM 362 368	issues
+T21	DATA-ITEM 406 416	each issue
+T22	MODALITY 417 421	must
+T23	PROCESS 425 434	allocated
+T24	QUALITY 442 450	entirety
+T25	INTELLIGENT-AGENT 461 466	agent
+T26	PROCESS 491 496	value
+T27	INTELLIGENT-AGENT 484 490	agents
+T28	DATA-ITEM 507 513	issues
+T29	QUALITY 514 525	differently
+T30	QUALITY 474 483	different
+T31	QUALITY 497 506	different
+T32	PLAN 537 544	problem
+T33	INTELLIGENT-AGENT 556 562	agents
+T34	PROCESS 566 572	decide
+T35	PROCESS 580 588	allocate
+T36	DATA-ITEM 593 599	issues
+T37	REFERENCE 608 618	themselves
+T38	PROCESS 628 636	maximize
+T39	DATA-ITEM 643 663	individual utilities
+T40	PLAN-OR-PROCESS 669 686	such negotiations
+T41	PLAN 708 730	equilibrium strategies
+T42	PLAN 739 743	case
+T43	DATA-ITEM 754 760	issues
+T44	PLAN-OR-PROCESS 765 776	negotiation
+T45	QUALITY 781 786	known
+T46	INTELLIGENT-AGENT 803 810	parties
+T47	PROCESS 697 703	obtain
+T49	QUALITY 835 850	time complexity
+T50	DATA-ITEM 877 895	equilibrium offers
+T51	PLAN-OR-PROCESS 865 872	finding
+T52	QUALITY 902 917	NP-hard problem
+T53	PLAN 929 957	complete information setting
+T54	PROCESS 971 979	overcome
+T55	QUALITY 980 1009	this computational complexity
+T56	PLAN 1027 1049	negotiation strategies
+T57	QUALITY 1059 1080	approximately optimal
+T59	QUALITY 1085 1110	computationally efficient
+T60	REFERENCE 1126 1130	they
+T61	OUTPUT 1131 1135	form
+T62	PLAN 1139 1150	equilibrium
+R2	Coreference Arg1:T60 Arg2:T107	
+T63	PROCESS 1160 1167	analyze
+T64	DATA-ITEM 1172 1186	relative error
+T65	DATA-ITEM 1198 1208	difference
+T66	DATA-ITEM 1221 1233	true optimum
+T67	DATA-ITEM 1242 1253	approximate
+T68	QUALITY 1260 1275	time complexity
+T69	PLAN 1283 1317	approximate equilibrium strategies
+T70	FORMULA 1321 1330	O(nm/ 2 )
+T71	DATA-ITEM 1337 1338	n
+T72	DATA-ITEM 1346 1366	negotiation deadline
+T73	DATA-ITEM 1375 1389	relative error
+T74	PLAN-OR-PROCESS 1414 1422	analysis
+T75	PLAN-OR-PROCESS 1426 1444	online negotiation
+T76	DATA-ITEM 1461 1467	issues
+T77	QUALITY 1451 1460	different
+T78	ATTRIBUTE 1468 1474	become
+T79	QUALITY 1475 1484	available
+T80	TIME 1498 1509	time points
+T81	QUALITY 1488 1497	different
+T82	INTELLIGENT-AGENT 1518 1524	agents
+T83	QUALITY 1529 1538	uncertain
+T84	QUALITY 1551 1561	valuations
+T85	DATA-ITEM 1566 1578	these issues
+R3	Coreference Arg1:T85 Arg2:T76	
+T86	PLAN 1610 1633	approximate equilibrium
+T87	ATTRIBUTE 1634 1640	exists
+T88	PLAN-OR-PROCESS 1645 1663	online negotiation
+T89	DATA-ITEM 1682 1701	expected difference
+T91	DATA-ITEM 1714 1721	optimum
+T92	DATA-ITEM 1730 1741	approximate
+T93	FORMULA 1745 1752	O( √ m)
+T94	PLAN 1755 1783	These approximate strategies
+T95	QUALITY 1794 1820	polynomial time complexity
+R6	Attribute Arg1:T12 Arg2:T13	
+R7	Attribute Arg1:T18 Arg2:T17	
+R8	Attribute Arg1:T15 Arg2:T16	
+T99	QUALITY 351 361	individual
+R9	Attribute Arg1:T20 Arg2:T99	
+R10	Attribute Arg1:T23 Arg2:T22	
+R11	Attribute Arg1:T27 Arg2:T30	
+R12	Attribute Arg1:T28 Arg2:T31	
+R13	Attribute Arg1:T26 Arg2:T29	
+R17	Attribute Arg1:T76 Arg2:T77	
+R18	Attribute Arg1:T80 Arg2:T81	
+R20	Attribute Arg1:T82 Arg2:T83	
+T14	QUANTITY 300 303	pie
+R1	Coreference Arg1:T37 Arg2:T33	
+T100	REFERENCE 637 642	their
+R5	Coreference Arg1:T100 Arg2:T37	
+T101	QUALITY 787 795	a priori
+R22	Attribute Arg1:T45 Arg2:T101	
+T58	FORMULA 239 244	m > 1
+T90	DATA-ITEM 245 251	issues
+T97	REFERENCE 829 834	their
+R4	Coreference Arg1:T97 Arg2:T40	
+R15	Coreference Arg1:T55 Arg2:T52	
+T107	REFERENCE 1050 1054	that
+R21	Coreference Arg1:T107 Arg2:T56	
+R23	Attribute Arg1:T107 Arg2:T57	
+R14	Attribute Arg1:T107 Arg2:T59	
+T108	REFERENCE 438 441	its
+R16	Coreference Arg1:T108 Arg2:T21	
+R24	Poss Arg1:T108 Arg2:T24	
+R25	Attribute Arg1:T100 Arg2:T39	
+R26	Attribute Arg1:T97 Arg2:T49	
+T109	REFERENCE 1545 1550	their
+R27	Coreference Arg1:T109 Arg2:T82	
+R28	Attribute Arg1:T109 Arg2:T84	
+R29	Ori_Dest Arg1:T2 Arg2:T3	
+R30	Attribute Arg1:T5 Arg2:T7	
+R31	Attribute Arg1:T4 Arg2:T5	
+R32	Attribute Arg1:T5 Arg2:T8	
+R33	Attribute Arg1:T90 Arg2:T58	
+R34	Attribute Arg1:T90 Arg2:T9	
+R35	from Arg1:T11 Arg2:T10	
+R36	to Arg1:T11 Arg2:T14	
+R37	Attribute Arg1:T12 Arg2:T14	
+R38	Input Arg1:T18 Arg2:T20	
+R39	Destination Arg1:T18 Arg2:T19	
+R40	In_Out Arg1:T23 Arg2:T21	
+R41	Condition Arg1:T23 Arg2:T24	
+R42	Destination Arg1:T23 Arg2:T25	
+R43	Agent Arg1:T26 Arg2:T27	
+R44	Input Arg1:T26 Arg2:T28	
+R45	Attribute Arg1:T32 Arg2:T34	
+R46	Agent Arg1:T34 Arg2:T33	
+R47	Output Arg1:T34 Arg2:T35	
+R48	In_Out Arg1:T35 Arg2:T36	
+R50	Apply-to Arg1:T35 Arg2:T38	
+R51	In_Out Arg1:T38 Arg2:T39	
+R52	Condition Arg1:T47 Arg2:T40	
+R53	Output Arg1:T47 Arg2:T41	
+R55	Attribute Arg1:T43 Arg2:T45	
+R56	Input Arg1:T44 Arg2:T43	
+T111	REFERENCE 744 749	where
+R57	Coreference Arg1:T111 Arg2:T42	
+R58	Condition Arg1:T45 Arg2:T111	
+R59	Other-rel Arg1:T45 Arg2:T46	
+R60	Output Arg1:T51 Arg2:T50	
+R61	Attribute Arg1:T51 Arg2:T52	
+R62	Condition Arg1:T51 Arg2:T53	
+R63	In_Out Arg1:T54 Arg2:T55	
+R64	from Arg1:T61 Arg2:T60	
+R65	to Arg1:T61 Arg2:T62	
+R66	Input Arg1:T63 Arg2:T64	
+R67	Is-a Arg1:T65 Arg2:T64	
+R68	Condition Arg1:T65 Arg2:T66	
+R69	Condition Arg1:T65 Arg2:T67	
+R70	Attribute Arg1:T69 Arg2:T68	
+R71	Attribute Arg1:T68 Arg2:T70	
+R72	Is-a Arg1:T71 Arg2:T72	
+T114	PROCESS 1403 1409	extend
+R73	Input Arg1:T114 Arg2:T74	
+R74	Output Arg1:T114 Arg2:T75	
+R75	Condition Arg1:T75 Arg2:T79	
+R76	Condition Arg1:T79 Arg2:T80	
+R77	Condition Arg1:T75 Arg2:T83	
+R78	Attribute Arg1:T85 Arg2:T84	
+R79	to Arg1:T87 Arg2:T86	
+R80	from Arg1:T87 Arg2:T88	
+R81	Condition Arg1:T89 Arg2:T91	
+R82	Condition Arg1:T89 Arg2:T92	
+R83	Attribute Arg1:T89 Arg2:T93	
+R84	Attribute Arg1:T94 Arg2:T95	
+R49	Condition Arg1:T35 Arg2:T37	
+T115	MODALITY 573 576	how
+R85	Attribute Arg1:T35 Arg2:T115	
+R86	Coreference Arg1:T40 Arg2:T9	
+R54	Condition Arg1:T47 Arg2:T42	
+R87	Apply-to Arg1:T56 Arg2:T54	
+R19	from Arg1:T78 Arg2:T76	
+R88	to Arg1:T78 Arg2:T79	
+T6	PERSON 688 690	we
+T48	PERSON 818 820	we
+T96	PROCESS 821 828	analyse
+T98	PERSON 1152 1154	We
+T102	PERSON 1400 1402	we
+T103	PERSON 1594 1596	we
+T104	PROCESS 1597 1601	show
+T105	PROCESS 1668 1672	show
+R89	Agent Arg1:T105 Arg2:T103	
+R90	Agent Arg1:T104 Arg2:T103	
+R91	Output Arg1:T104 Arg2:T86	
+R92	Output Arg1:T105 Arg2:T89	
+T106	PERSON 1011 1013	we
+T110	PROCESS 1019 1026	present
+T112	REFERENCE 47 57	This paper
+T113	PROCESS 58 66	analyzes
+R93	Condition Arg1:T113 Arg2:T112	
+R94	In_Out Arg1:T113 Arg2:T2	
+R95	Agent Arg1:T110 Arg2:T106	
+R96	Agent Arg1:T47 Arg2:T6	
+R97	Agent Arg1:T96 Arg2:T48	
+R98	Output Arg1:T96 Arg2:T49	
+R99	Output Arg1:T110 Arg2:T56	
+R100	Agent Arg1:T63 Arg2:T98	
+R101	Agent Arg1:T114 Arg2:T102	

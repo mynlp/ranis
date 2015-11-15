@@ -1,0 +1,9 @@
+Modelling Early Language Acquisition Skills:  Towards a General Statistical Learning Mechanism 
+ 
+This paper reports the on-going research of a thesis project investigating a computational model of early language acquisition.
+The model discovers word-like units from cross-modal input data and builds continuously evolving internal representations within a cognitive model of memory.
+Current cognitive theories suggest that young infants employ general statistical mechanisms that exploit the statistical regularities within their environment to acquire language skills.
+The discovery of lexical units is modelled on this behaviour as the system detects repeating patterns from the speech signal and associates them to discrete abstract semantic tags.
+In its current state, the algorithm is a novel approach for segmenting speech directly from the acoustic signal in an unsupervised manner, therefore liberating it from a pre-defined lexicon.
+By the end of the project, it is planned to have an architecture that is capable of acquiring language and communicative skills in an online manner, and carry out robust speech recognition.
+Preliminary results already show that this method is capable of segmenting and building accurate internal representations of important lexical units as `emergent' properties from cross-modal data.  

@@ -1,0 +1,156 @@
+T1	PLAN-OR-PROCESS 0 11	Computation
+T2	PLAN 17 47	Distributed Information Market
+T3	PLAN 61 76	economic theory
+T4	PROCESS 80 89	supported
+T5	DATA-ITEM 107 126	laboratory evidence
+T6	DATA-ITEM 134 151	equilibrium price
+T7	PLAN 157 175	financial security
+T8	PROCESS 176 184	reflects
+T9	QUANTITY 185 188	all
+T10	DATA-ITEM 196 207	information
+T11	CONDITION 208 217	regarding
+T12	DATA-ITEM 233 238	value
+T13	PERSON 240 242	We
+T14	PROCESS 243 254	investigate
+T15	PLAN-OR-PROCESS 259 280	computational process
+T16	PLAN 300 311	equilibrium
+T17	DATA-ITEM 319 330	information
+T18	PROCESS 331 342	distributed
+T19	PERSON 349 356	traders
+T20	PROCESS 360 368	revealed
+T21	QUALITY 369 381	step-by-step
+T22	TIME 382 391	over time
+T23	PROCESS 396 408	incorporated
+T24	DATA-ITEM 418 430	market price
+T25	PERSON 432 434	We
+T26	PROCESS 435 442	develop
+T27	PLAN 445 461	simplified model
+T28	PLAN-OR-PROCESS 468 486	information market
+T29	PLAN 499 517	trading strategies
+T30	PROCESS 531 540	formalize
+T31	DATA-ITEM 545 569	computational properties
+T32	PLAN-OR-PROCESS 577 584	process
+T33	PERSON 586 588	We
+T34	PROCESS 589 593	show
+T35	PLAN 599 609	securities
+T36	REFERENCE 610 615	whose
+T37	DATA-ITEM 616 623	payoffs
+T38	MODALITY 624 630	cannot
+T39	PROCESS 634 643	expressed
+T40	PLAN 647 675	weighted threshold functions
+T41	DATA-ITEM 679 701	distributed input bits
+T42	MODALITY 706 709	not
+T43	PROCESS 710 720	guaranteed
+T44	PROCESS 724 732	converge
+T45	QUALITY 740 746	proper
+T46	PLAN 747 758	equilibrium
+T47	PROCESS 759 768	predicted
+T48	PLAN 772 787	economic theory
+T49	PLAN 808 818	securities
+T50	REFERENCE 819 824	whose
+T51	DATA-ITEM 825 832	payoffs
+T52	PLAN 837 856	threshold functions
+T53	PROCESS 861 871	guaranteed
+T54	PROCESS 875 883	converge
+T55	QUANTITY 889 892	all
+T56	TIME 893 898	prior
+T57	PLAN-OR-PROCESS 899 924	probability distributions
+T58	PLAN 942 962	threshold securities
+T59	PROCESS 963 971	converge
+T60	QUALITY 978 982	most
+T61	DATA-ITEM 983 991	n rounds
+T62	DATA-ITEM 999 1000	n
+T63	EQUIVALENCE 1001 1003	is
+T64	QUANTITY 1008 1014	number
+T65	DATA-ITEM 1018 1022	bits
+T66	DATA-ITEM 1026 1049	distributed information
+T67	PERSON 1051 1053	We
+T68	PROCESS 1059 1064	prove
+T69	DATA-ITEM 1067 1078	lower bound
+T70	PROCESS 1080 1087	showing
+T71	DATA-ITEM 1090 1094	type
+T72	DATA-ITEM 1098 1116	threshold security
+T73	REFERENCE 1117 1121	that
+T74	QUALITY 1122 1130	requires
+T76	DATA-ITEM 1131 1150	at least n/2 rounds
+T77	PROCESS 1154 1162	converge
+T78	PLAN 1170 1180	worst case
+T79	DATA-ITEM 93 102	empirical
+R1	Target Arg1:T4 Arg2:T3	
+R2	Agent Arg1:T4 Arg2:T79	
+R3	Agent Arg1:T4 Arg2:T5	
+R4	Attribute Arg1:T7 Arg2:T6	
+R5	Attribute Arg1:T10 Arg2:T9	
+R6	Output Arg1:T8 Arg2:T10	
+R7	Agent Arg1:T8 Arg2:T6	
+T80	PLAN 222 230	security
+R8	Attribute Arg1:T80 Arg2:T12	
+R9	from Arg1:T11 Arg2:T10	
+R10	to Arg1:T11 Arg2:T12	
+T81	CONDITION 48 60	According to
+R11	to Arg1:T81 Arg2:T3	
+R12	from Arg1:T81 Arg2:T8	
+A1	Self T13
+A2	Intentional T14
+R13	Agent Arg1:T14 Arg2:T13	
+R14	Output Arg1:T14 Arg2:T15	
+R15	Destination Arg1:T15 Arg2:T16	
+R16	Output Arg1:T18 Arg2:T17	
+R17	Agent Arg1:T18 Arg2:T19	
+R18	Attribute Arg1:T20 Arg2:T21	
+R19	Output Arg1:T20 Arg2:T17	
+R20	Condition Arg1:T20 Arg2:T22	
+R21	In_Out Arg1:T23 Arg2:T24	
+R22	In_Out Arg1:T23 Arg2:T17	
+A3	Self T25
+A4	Intentional T26
+R23	Agent Arg1:T26 Arg2:T25	
+R24	Output Arg1:T26 Arg2:T27	
+R25	In_Out Arg1:T27 Arg2:T28	
+R26	Output Arg1:T26 Arg2:T29	
+R27	Attribute Arg1:T32 Arg2:T31	
+R28	In_Out Arg1:T30 Arg2:T31	
+R29	Apply-to Arg1:T27 Arg2:T30	
+A5	Self T33
+A6	Intentional T34
+R30	Agent Arg1:T34 Arg2:T33	
+R31	Coreference Arg1:T36 Arg2:T35	
+R32	Attribute Arg1:T36 Arg2:T37	
+R33	Attribute Arg1:T39 Arg2:T38	
+R34	Output Arg1:T39 Arg2:T37	
+R35	Attribute Arg1:T41 Arg2:T40	
+R36	Other-rel Arg1:T40 Arg2:T37	
+R37	Attribute Arg1:T43 Arg2:T42	
+R38	Target Arg1:T43 Arg2:T44	
+R39	Attribute Arg1:T46 Arg2:T45	
+R40	Destination Arg1:T44 Arg2:T46	
+R42	Apply-to Arg1:T48 Arg2:T47	
+R43	Output Arg1:T47 Arg2:T46	
+R44	Coreference Arg1:T50 Arg2:T49	
+R45	Attribute Arg1:T50 Arg2:T51	
+R46	Other-rel Arg1:T51 Arg2:T52	
+R41	Result Arg1:T35 Arg2:T44	
+R47	Result Arg1:T49 Arg2:T54	
+R48	Target Arg1:T53 Arg2:T54	
+R49	Condition Arg1:T57 Arg2:T56	
+R50	Attribute Arg1:T57 Arg2:T55	
+R51	Condition Arg1:T54 Arg2:T57	
+R52	Result Arg1:T59 Arg2:T58	
+R53	Attribute Arg1:T61 Arg2:T60	
+R54	Destination Arg1:T59 Arg2:T61	
+R55	from Arg1:T63 Arg2:T64	
+R56	to Arg1:T63 Arg2:T62	
+R57	Attribute Arg1:T65 Arg2:T64	
+R58	Attribute Arg1:T66 Arg2:T65	
+A7	Self T67
+A8	Intentional T68
+R59	Agent Arg1:T68 Arg2:T67	
+R60	Output Arg1:T68 Arg2:T69	
+R61	Member-collection Arg1:T71 Arg2:T72	
+R62	Output Arg1:T70 Arg2:T71	
+R63	Agent Arg1:T70 Arg2:T67	
+R64	Coreference Arg1:T73 Arg2:T72	
+R65	Attribute Arg1:T76 Arg2:T74	
+R66	Condition Arg1:T74 Arg2:T77	
+R67	Result Arg1:T73 Arg2:T77	
+R68	Condition Arg1:T77 Arg2:T78	

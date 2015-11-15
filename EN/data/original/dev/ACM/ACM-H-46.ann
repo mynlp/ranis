@@ -1,0 +1,170 @@
+T1	PLAN-OR-PROCESS 0 25	Broad Expertise Retrieval
+T2	THING 29 53	Sparse Data Environments
+T3	PLAN 54 73	Expertise retrieval
+T4	QUALITY 91 101	unexplored
+T5	QUALITY 83 90	largely
+T6	DATA-ITEM 105 109	data
+T7	DATA-ITEM 125 139	W3C collection
+T8	QUANTITY 159 163	many
+T9	ARTIFACT 164 173	intranets
+T10	ORGANIZATION 177 189	universities
+T11	ORGANIZATION 220 233	organisations
+T12	QUALITY 194 199	other
+T13	PROCESS 234 239	offer
+T14	DATA-ITEM 240 248	examples
+T15	QUALITY 263 268	small
+T16	QUALITY 273 278	clean
+T17	DATA-ITEM 279 306	multilingual expertise data
+T18	ATTRIBUTE 308 316	covering
+T19	DOMAIN 317 329	broad ranges
+T20	DOMAIN 333 348	expertise areas
+T21	QUANTITY 367 370	two
+T22	PLAN 376 401	expertise retrieval tasks
+T23	PLAN 416 419	set
+T24	PLAN 423 442	baseline approaches
+T25	PLAN 452 480	generative language modeling
+T26	APPLY-TO 482 487	aimed
+T27	PROCESS 491 498	finding
+T28	DATA-ITEM 499 518	expertise relations
+T29	DATA-ITEM 527 533	topics
+T30	PERSON 538 544	people
+T31	PLAN-OR-PROCESS 554 577	experimental evaluation
+T32	QUALITY 608 611	new
+T33	DATA-ITEM 612 620	test set
+T34	PROCESS 632 637	crawl
+T35	DATA-ITEM 643 658	university site
+T36	DATA-ITEM 666 679	this test set
+R1	Coreference Arg1:T36 Arg2:T33	
+T37	INPUT 660 665	Using
+T38	PLAN 706 717	experiments
+T39	PLAN 696 702	series
+T40	QUANTITY 692 695	two
+T41	PROCESS 684 691	conduct
+T42	APPLY-TO 732 737	aimed
+T43	PROCESS 741 752	determining
+T44	QUALITY 757 770	effectiveness
+T45	PLAN 774 810	baseline expertise retrieval methods
+T46	INPUT 811 818	applied
+T47	QUALITY 826 829	new
+T48	DATA-ITEM 830 838	test set
+T49	REFERENCE 723 728	first
+T50	REFERENCE 844 850	second
+T51	APPLY-TO 854 859	aimed
+T52	PROCESS 863 872	assessing
+T53	QUALITY 873 880	refined
+T54	PLAN 881 887	models
+T55	REFERENCE 888 892	that
+R2	Coreference Arg1:T55 Arg2:T54	
+T56	INPUT 893 900	exploit
+T57	QUALITY 901 924	characteristic features
+T58	DATA-ITEM 936 944	test set
+T59	QUALITY 932 935	new
+T60	QUALITY 958 982	organizational structure
+T61	ORGANIZATION 990 1000	university
+T62	QUALITY 1010 1032	hierarchical structure
+T63	DATA-ITEM 1040 1046	topics
+T64	DATA-ITEM 1054 1062	test set
+T65	PLAN 1064 1090	Expertise retrieval models
+T67	QUALITY 1107 1113	robust
+T68	DATA-ITEM 1130 1142	environments
+T69	QUALITY 1143 1150	smaller
+T70	DATA-ITEM 1160 1174	W3C collection
+T71	PLAN 1188 1198	techniques
+T72	TIME 1180 1187	current
+T74	QUALITY 1212 1225	generalizable
+T75	PLAN 1235 1243	settings
+T76	QUALITY 1229 1234	other
+R3	Attribute Arg1:T4 Arg2:T5	
+R4	Attribute Arg1:T33 Arg2:T32	
+R5	Attribute Arg1:T11 Arg2:T12	
+R6	Attribute Arg1:T17 Arg2:T15	
+R7	Attribute Arg1:T17 Arg2:T16	
+R8	Attribute Arg1:T9 Arg2:T8	
+R9	Attribute Arg1:T22 Arg2:T21	
+R10	Attribute Arg1:T39 Arg2:T40	
+R11	Attribute Arg1:T48 Arg2:T47	
+R12	Attribute Arg1:T54 Arg2:T53	
+R13	Attribute Arg1:T58 Arg2:T59	
+R14	Attribute Arg1:T65 Arg2:T67	
+R15	Attribute Arg1:T68 Arg2:T69	
+R16	Compare Arg1:T70 Arg2:T69	
+R17	Attribute Arg1:T71 Arg2:T72	
+R19	Attribute Arg1:T71 Arg2:T74	
+R18	Attribute Arg1:T75 Arg2:T76	
+R20	Member-collection Arg1:T24 Arg2:T23	
+R21	Member-collection Arg1:T38 Arg2:T39	
+T73	LANGUAGE 463 471	language
+R22	Attribute Arg1:T45 Arg2:T44	
+T79	ORGANIZATION 125 128	W3C
+T80	QUALITY 200 219	knowledge-intensive
+R23	Attribute Arg1:T11 Arg2:T80	
+R24	Coreference Arg1:T49 Arg2:T38	
+R25	Coreference Arg1:T50 Arg2:T38	
+T81	ORGANIZATION 1160 1163	W3C
+T84	PERSON 550 553	our
+R26	Poss Arg1:T84 Arg2:T31	
+T85	TIME 153 157	time
+T77	QUALITY 252 262	relatively
+R27	Attribute Arg1:T15 Arg2:T77	
+R28	Member-collection Arg1:T20 Arg2:T19	
+T78	QUALITY 371 375	main
+R29	Attribute Arg1:T22 Arg2:T78	
+R30	Condition Arg1:T1 Arg2:T2	
+R31	Attribute Arg1:T3 Arg2:T4	
+R32	Condition Arg1:T4 Arg2:T6	
+R33	Compare Arg1:T7 Arg2:T4	
+R34	Apply-to Arg1:T9 Arg2:T13	
+R35	Attribute Arg1:T10 Arg2:T9	
+R36	Attribute Arg1:T11 Arg2:T9	
+R37	Output Arg1:T13 Arg2:T14	
+R38	Is-a Arg1:T14 Arg2:T17	
+R39	from Arg1:T18 Arg2:T14	
+R40	to Arg1:T18 Arg2:T19	
+T87	APPLY-TO 443 451	based on
+R41	to Arg1:T87 Arg2:T24	
+R42	from Arg1:T87 Arg2:T25	
+R43	from Arg1:T26 Arg2:T22	
+R44	to Arg1:T26 Arg2:T27	
+R45	Output Arg1:T27 Arg2:T28	
+T88	OUTPUT 621 629	based on
+R48	to Arg1:T88 Arg2:T33	
+R49	from Arg1:T88 Arg2:T34	
+R50	Input Arg1:T34 Arg2:T35	
+R51	to Arg1:T37 Arg2:T36	
+R52	from Arg1:T37 Arg2:T41	
+R53	Target Arg1:T41 Arg2:T39	
+R54	from Arg1:T42 Arg2:T49	
+R55	from Arg1:T51 Arg2:T50	
+R56	to Arg1:T42 Arg2:T43	
+R57	to Arg1:T51 Arg2:T52	
+R58	Output Arg1:T43 Arg2:T44	
+R59	to Arg1:T46 Arg2:T48	
+R60	from Arg1:T46 Arg2:T45	
+R61	Input Arg1:T52 Arg2:T54	
+R62	to Arg1:T56 Arg2:T57	
+R63	from Arg1:T56 Arg2:T55	
+R64	Attribute Arg1:T58 Arg2:T57	
+R65	Is-a Arg1:T60 Arg2:T57	
+R66	Is-a Arg1:T62 Arg2:T57	
+R67	Attribute Arg1:T61 Arg2:T60	
+R68	Attribute Arg1:T63 Arg2:T62	
+R69	Component-object Arg1:T63 Arg2:T64	
+R70	Condition Arg1:T67 Arg2:T68	
+R71	Condition Arg1:T74 Arg2:T75	
+R72	from Arg1:T26 Arg2:T24	
+R46	Attribute Arg1:T28 Arg2:T29	
+R47	Attribute Arg1:T28 Arg2:T30	
+T66	PERSON 350 352	We
+T82	PROCESS 359 366	present
+T83	PERSON 579 581	we
+T86	PROCESS 582 591	introduce
+T89	PROCESS 597 604	release
+T90	PERSON 681 683	we
+R73	Agent Arg1:T82 Arg2:T66	
+R74	Output Arg1:T82 Arg2:T22	
+R75	Agent Arg1:T86 Arg2:T83	
+R76	Agent Arg1:T89 Arg2:T83	
+R77	Output Arg1:T86 Arg2:T33	
+R78	Output Arg1:T89 Arg2:T33	
+R79	Agent Arg1:T41 Arg2:T90	
+R80	Target Arg1:T86 Arg2:T31	

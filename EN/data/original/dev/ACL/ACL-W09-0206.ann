@@ -1,0 +1,156 @@
+R1	Apply-to Arg1:T1 Arg2:T2
+R2	from Arg1:T3 Arg2:T4
+R3	to Arg1:T3 Arg2:T1
+R4	Attribute Arg1:T7 Arg2:T8
+R5	Condition Arg1:T6 Arg2:T7
+R6	In_Out Arg1:T5 Arg2:T6
+R7	Target Arg1:T10 Arg2:T11
+R8	Is-a Arg1:T10 Arg2:T9
+R9	Attribute Arg1:T13 Arg2:T12
+R11	Destination Arg1:T10 Arg2:T13
+R12	Attribute Arg1:T16 Arg2:T15
+R13	Input Arg1:T17 Arg2:T18
+R14	Attribute Arg1:T17 Arg2:T16
+R15	Result Arg1:T9 Arg2:T75
+R16	Output Arg1:T75 Arg2:T16
+A1	Self T76
+R17	Equivalence Arg1:T21 Arg2:T20
+R18	Input Arg1:T19 Arg2:T20
+R19	Apply-to Arg1:T19 Arg2:T22
+R20	Target Arg1:T22 Arg2:T23
+R21	Coreference Arg1:T24 Arg2:T23
+R22	In_Out Arg1:T25 Arg2:T24
+A2	Intentional T77
+R23	Condition Arg1:T77 Arg2:T76
+R24	In_Out Arg1:T77 Arg2:T19
+R25	Destination Arg1:T22 Arg2:T25
+A3	Self T26
+A4	Intentional T27
+R26	Agent Arg1:T27 Arg2:T26
+R27	Attribute Arg1:T30 Arg2:T29
+R28	Attribute Arg1:T30 Arg2:T28
+R29	Attribute Arg1:T31 Arg2:T30
+R30	Output Arg1:T27 Arg2:T30
+A5	Intentional T32
+R31	Agent Arg1:T32 Arg2:T26
+R32	Coreference Arg1:T33 Arg2:T30
+R33	Attribute Arg1:T33 Arg2:T34
+R34	Output Arg1:T32 Arg2:T34
+R35	Condition Arg1:T34 Arg2:T35
+R36	Apply-to Arg1:T33 Arg2:T35
+R37	Apply-to Arg1:T36 Arg2:T32
+R38	Target Arg1:T37 Arg2:T38
+R39	to Arg1:T78 Arg2:T37
+R40	from Arg1:T78 Arg2:T32
+R41	Attribute Arg1:T40 Arg2:T39
+R42	Attribute Arg1:T42 Arg2:T41
+R44	Condition Arg1:T38 Arg2:T39
+R45	Result Arg1:T42 Arg2:T38
+R46	from Arg1:T78 Arg2:T27
+R43	Target Arg1:T44 Arg2:T43
+R47	Attribute Arg1:T46 Arg2:T45
+R48	Destination Arg1:T44 Arg2:T45
+R49	Output Arg1:T47 Arg2:T48
+R50	Destination Arg1:T44 Arg2:T47
+R51	Is-a Arg1:T50 Arg2:T51
+R52	to Arg1:T49 Arg2:T50
+R53	from Arg1:T49 Arg2:T52
+R54	Attribute Arg1:T52 Arg2:T51
+R55	In_Out Arg1:T52 Arg2:T53
+R56	In_Out Arg1:T57 Arg2:T58
+R57	Result Arg1:T56 Arg2:T57
+R58	to Arg1:T55 Arg2:T57
+R59	from Arg1:T55 Arg2:T54
+R60	Attribute Arg1:T61 Arg2:T60
+R61	Attribute Arg1:T59 Arg2:T61
+R62	Attribute Arg1:T63 Arg2:T62
+R63	Attribute Arg1:T59 Arg2:T63
+R64	Attribute Arg1:T65 Arg2:T64
+R65	Attribute Arg1:T63 Arg2:T65
+R66	In_Out Arg1:T66 Arg2:T67
+R67	Condition Arg1:T63 Arg2:T66
+R68	Attribute Arg1:T69 Arg2:T68
+R69	Attribute Arg1:T71 Arg2:T70
+R70	Apply-to Arg1:T69 Arg2:T71
+R71	Output Arg1:T71 Arg2:T72
+R72	Attribute Arg1:T74 Arg2:T73
+R73	Output Arg1:T74 Arg2:T69
+R10	Component-object Arg1:T13 Arg2:T14
+T1	PLAN-OR-PROCESS 0 11	Positioning
+T2	PLAN-OR-PROCESS 16 38	Conceptual Development
+T3	APPLY-TO 39 44	using
+T4	PLAN 45 69	Latent Semantic Analysis
+T5	PROCESS 77 87	increasing
+T6	DATA-ITEM 88 101	opportunities
+T7	PROCESS 105 110	learn
+T8	QUALITY 111 117	online
+T9	PLAN-OR-PROCESS 124 131	problem
+T10	PLAN-OR-PROCESS 135 146	positioning
+T11	PERSON 147 155	learners
+T12	QUALITY 162 173	educational
+T13	PLAN 174 181	network
+T14	PLAN 185 192	content
+T75	PROCESS 193 199	offers
+T15	QUALITY 200 203	new
+T16	DATA-ITEM 204 217	possibilities
+T17	PLAN-OR-PROCESS 226 237	utilisation
+T18	PLAN 241 294	geometry-based natural language processing techniques
+T76	REFERENCE 300 312	this article
+T19	PLAN-OR-PROCESS 319 327	adoption
+T20	PLAN 331 355	latent semantic analysis
+T21	PLAN 358 361	LSA
+T22	PROCESS 368 375	guiding
+T23	PERSON 376 384	learners
+T24	REFERENCE 388 393	their
+T25	PLAN-OR-PROCESS 394 416	conceptual development
+T77	PROCESS 420 432	investigated
+T26	PERSON 435 437	We
+T27	PROCESS 438 445	propose
+T28	QUANTITY 446 450	five
+T29	QUALITY 451 454	new
+T30	PLAN 455 478	algorithmic derivations
+T31	PLAN 482 485	LSA
+T32	PROCESS 490 494	test
+T33	REFERENCE 495 500	their
+T34	QUALITY 501 509	validity
+T35	PROCESS 514 525	positioning
+T36	PLAN 532 542	experiment
+T78	APPLY-TO 543 554	in order to
+T37	PROCESS 555 564	draw back
+T38	PLAN 565 576	conclusions
+T39	QUALITY 584 595	suitability
+T40	PLAN-OR-PROCESS 599 615	machine learning
+T41	QUALITY 621 642	previously accredited
+T42	PLAN 643 651	evidence
+T43	PLAN 654 671	Special attention
+T44	PROCESS 683 691	directed
+T45	DATA-ITEM 704 708	role
+T46	DATA-ITEM 712 723	distractors
+T47	PLAN-OR-PROCESS 732 743	calculation
+T48	DATA-ITEM 747 757	thresholds
+T49	INPUT 763 768	using
+T50	DATA-ITEM 769 781	similarities
+T51	DATA-ITEM 787 792	proxy
+T52	PROCESS 797 806	assessing
+T53	DATA-ITEM 807 827	conceptual closeness
+T54	DATA-ITEM 830 837	Results
+T55	RESULT 838 846	indicate
+T56	PLAN-OR-PROCESS 852 860	learning
+T57	JUDGING-PROCESS 861 869	improves
+T58	PLAN-OR-PROCESS 870 881	positioning
+T59	DATA-ITEM 884 895	Distractors
+T60	QUALITY 903 906	low
+T61	DATA-ITEM 907 912	value
+T62	MODALITY 917 921	seem
+T63	QUALITY 928 939	replaceable
+T64	QUALITY 943 950	generic
+T65	DATA-ITEM 951 956	noise
+T66	PROCESS 960 967	improve
+T67	PLAN-OR-PROCESS 968 989	threshold calculation
+T68	QUALITY 1006 1009	new
+T69	PLAN 1010 1014	ways
+T70	QUALITY 1018 1026	flexibly
+T71	PROCESS 1027 1036	calculate
+T72	DATA-ITEM 1037 1047	thresholds
+T73	MODALITY 1048 1053	could
+T74	PROCESS 1057 1067	identified

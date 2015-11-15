@@ -1,0 +1,6 @@
+Corpus-Based Syntactic Error Detection Using Syntactic Patterns .
+This paper presents a parsing system for the detection of syntactic errors .
+It combines a robust partial parser which obtains the main sentence components and a finite-state parser used for the description of syntactic error patterns .
+The system has been tested on a corpus of real texts , containing both correct and incorrect sentences , with promising results .
+
+

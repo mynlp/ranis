@@ -1,0 +1,129 @@
+T1	PROCESS 0 10	Evaluating
+T2	PLAN-OR-PROCESS 11 39	Adaptive Resource Management
+T3	PLAN 44 82	Distributed Real-Time Embedded Systems
+T4	PLAN 97 104	problem
+T5	QUALITY 85 96	challenging
+R1	Attribute Arg1:T4 Arg2:T5	
+T6	PERSON 114 125	researchers
+T7	PERSON 130 140	developers
+T8	PLAN 144 178	distributed real-time and embedded
+T9	PLAN 297 315	quality of service
+T10	PLAN 317 320	QoS
+R2	Equivalence Arg1:T10 Arg2:T9	
+T13	PLAN 456 467	DRE systems
+T14	PROCESS 411 419	research
+T15	PLAN-OR-PROCESS 423 451	adaptive resource management
+T17	PLAN 506 519	functionality
+T20	PLAN 492 501	structure
+T21	PROCESS 588 596	provides
+T22	PLAN-OR-PROCESS 597 625	adaptive resource management
+T23	PROCESS 734 742	evaluate
+T24	QUALITY 747 764	adaptive behavior
+T25	PLAN 768 773	HyARM
+T26	ATTRIBUTE 105 110	faced
+T27	PLAN-OR-PROCESS 196 204	devising
+T28	PLAN-OR-PROCESS 209 221	implementing
+T29	QUALITY 222 231	effective
+T30	PLAN 232 271	adaptive resource management strategies
+T31	MODALITY 277 280	can
+T32	PROCESS 281 285	meet
+T33	QUALITY 286 296	end-to-end
+R6	Attribute Arg1:T9 Arg2:T33	
+T34	PLAN 322 334	requirements
+T35	QUALITY 338 345	varying
+T36	PLAN 346 368	operational conditions
+T16	APPLY-TO 626 631	using
+T37	PLAN 632 657	hybrid control techniques
+T38	PROCESS 662 670	adapting
+T39	QUALITY 674 695	workload fluctuations
+T40	QUALITY 700 721	resource availability
+T41	PLAN-OR-PROCESS 778 789	experiments
+T42	PLAN 795 816	DRE multimedia system
+T43	PROCESS 822 833	distributes
+T44	DATA-ITEM 834 839	video
+T45	QUALITY 843 852	real-time
+T47	OUTPUT 886 892	yields
+T48	QUALITY 893 904	predictable
+T49	QUALITY 906 912	stable
+T50	QUALITY 918 922	high
+T51	DATA-ITEM 923 941	system performance
+T54	QUALITY 963 983	fluctuating workload
+T55	QUALITY 988 1009	resource availability
+T56	PLAN 180 183	DRE
+T57	PLAN 185 192	systems
+R7	Equivalence Arg1:T56 Arg2:T8	
+R8	Split Arg1:T57 Arg2:T8	
+R9	Attribute Arg1:T32 Arg2:T31	
+R10	Split Arg1:T34 Arg2:T9	
+R5	Attribute Arg1:T43 Arg2:T45	
+R11	Attribute Arg1:T51 Arg2:T48	
+R12	Attribute Arg1:T51 Arg2:T49	
+R13	Attribute Arg1:T51 Arg2:T50	
+R14	Attribute Arg1:T30 Arg2:T29	
+T52	PLAN 527 572	Hybrid Adaptive Resourcemanagement Middleware
+T53	PLAN 574 579	HyARM
+R15	Equivalence Arg1:T53 Arg2:T52	
+T58	PLAN 880 885	HyARM
+T18	REFERENCE 582 587	which
+R4	Coreference Arg1:T18 Arg2:T52	
+T59	REFERENCE 817 821	that
+R3	Coreference Arg1:T59 Arg2:T42	
+T60	REFERENCE 272 276	that
+R16	Coreference Arg1:T60 Arg2:T30	
+R17	Attribute Arg1:T36 Arg2:T35	
+R18	Input Arg1:T1 Arg2:T2	
+R20	to Arg1:T26 Arg2:T4	
+R21	from Arg1:T26 Arg2:T6	
+R22	from Arg1:T26 Arg2:T7	
+R23	Attribute Arg1:T7 Arg2:T8	
+R24	Attribute Arg1:T6 Arg2:T8	
+R25	Is-a Arg1:T4 Arg2:T27	
+R26	Is-a Arg1:T4 Arg2:T28	
+R27	Output Arg1:T28 Arg2:T30	
+R28	Output Arg1:T27 Arg2:T30	
+R29	Apply-to Arg1:T60 Arg2:T32	
+R30	Target Arg1:T32 Arg2:T34	
+R31	Condition Arg1:T32 Arg2:T36	
+R32	Input Arg1:T14 Arg2:T15	
+R33	Apply-to Arg1:T15 Arg2:T13	
+R34	Attribute Arg1:T52 Arg2:T17	
+R35	Attribute Arg1:T52 Arg2:T20	
+R36	Apply-to Arg1:T18 Arg2:T21	
+R37	Output Arg1:T21 Arg2:T22	
+R38	to Arg1:T16 Arg2:T21	
+R39	from Arg1:T16 Arg2:T37	
+R40	Apply-to Arg1:T37 Arg2:T38	
+R41	In_Out Arg1:T38 Arg2:T39	
+R42	In_Out Arg1:T38 Arg2:T40	
+R43	Input Arg1:T23 Arg2:T24	
+R44	Attribute Arg1:T25 Arg2:T24	
+R45	Apply-to Arg1:T41 Arg2:T23	
+R46	Condition Arg1:T41 Arg2:T42	
+R47	Apply-to Arg1:T59 Arg2:T43	
+R48	Output Arg1:T43 Arg2:T44	
+R49	from Arg1:T47 Arg2:T58	
+R50	to Arg1:T47 Arg2:T51	
+R51	Condition Arg1:T47 Arg2:T54	
+R52	Condition Arg1:T47 Arg2:T55	
+R19	Apply-to Arg1:T2 Arg2:T3	
+T11	REFERENCE 370 380	This paper
+T12	PROCESS 381 389	presents
+T19	QUANTITY 390 393	two
+T46	THING 394 407	contributions
+R53	Attribute Arg1:T46 Arg2:T19	
+R54	Condition Arg1:T12 Arg2:T11	
+R55	Output Arg1:T12 Arg2:T46	
+R56	Apply-to Arg1:T46 Arg2:T14	
+T61	PERSON 476 478	we
+T62	PROCESS 479 487	describe
+R57	Agent Arg1:T62 Arg2:T61	
+R58	Output Arg1:T62 Arg2:T20	
+R59	Output Arg1:T62 Arg2:T17	
+T63	PERSON 731 733	we
+R60	Agent Arg1:T23 Arg2:T63	
+T64	PERSON 854 857	Our
+T65	PLAN 858 865	results
+R61	Poss Arg1:T64 Arg2:T65	
+T66	RESULT 866 874	indicate
+R62	from Arg1:T66 Arg2:T65	
+R63	to Arg1:T66 Arg2:T47	

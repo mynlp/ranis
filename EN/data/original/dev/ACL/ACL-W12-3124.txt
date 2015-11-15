@@ -1,0 +1,9 @@
+Review of Hypothesis Alignment Algorithms for MT System Combination via Confusion Network Decoding
+
+Confusion network decoding has proven to be one of the most successful approaches to machine translation system combination.
+The hypothesis alignment algorithm is a crucial part of building the confusion networks and many alternatives have been proposed in the literature.
+This paper describes a systematic comparison of five well known hypothesis alignment algorithms for MT system combination via confusion network decoding.
+Controlled experiments using identical pre-processing, decoding, and weight tuning methods on standard system combination evaluation sets are presented.
+Translation quality is assessed using case insensitive BLEU scores and bootstrapping is used to establish statistical significance of the score differences.
+All aligners yield significant BLEU score gains over the best individual system included in the combination.
+Incremental indirect hidden Markov model and a novel incremental inversion transduction grammar with flexible matching consistently yield the best translation quality, though keeping all things equal, the differences between aligners are relatively small.

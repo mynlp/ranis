@@ -1,0 +1,170 @@
+T1	INPUT 0 5	Using
+T2	DATA-ITEM 6 20	Query Contexts
+T3	PLAN-OR-PROCESS 24 45	Information Retrieval
+T4	DATA-ITEM 46 56	User query
+T5	DATA-ITEM 63 70	element
+T6	REFERENCE 71 75	that
+T7	PROCESS 76 85	specifies
+T8	DATA-ITEM 89 105	information need
+T9	REFERENCE 111 113	it
+T10	MODALITY 117 120	not
+T11	QUALITY 125 129	only
+T12	QUANTITY 130 133	one
+T13	PLAN 135 142	Studies
+T14	EXTERNAL-REFERENCE 146 156	literature
+T15	PROCESS 162 167	found
+T16	QUANTITY 168 172	many
+T17	DATA-ITEM 173 191	contextual factors
+T18	REFERENCE 192 196	that
+T19	QUALITY 197 205	strongly
+T20	PROCESS 206 215	influence
+T21	PROCESS 220 234	interpretation
+T22	DATA-ITEM 240 245	query
+T23	PLAN 247 261	Recent studies
+T24	PROCESS 267 272	tried
+T25	PROCESS 276 284	consider
+T26	PERSON 289 293	user
+T27	DATA-ITEM 296 305	interests
+T28	PROCESS 309 317	creating
+T29	DATA-ITEM 320 332	user profile
+T30	QUANTITY 345 351	single
+T31	DATA-ITEM 352 359	profile
+T32	PERSON 366 370	user
+T33	MODALITY 371 374	may
+T34	MODALITY 375 378	not
+T35	QUALITY 382 392	sufficient
+T36	QUALITY 399 406	variety
+T37	DATA-ITEM 410 417	queries
+T38	PERSON 425 429	user
+T39	REFERENCE 434 444	this study
+T40	PERSON 446 448	we
+T41	PROCESS 449 456	propose
+T42	PROCESS 460 463	use
+T43	DATA-ITEM 464 487	query-specific contexts
+T44	DATA-ITEM 499 516	user-centric ones
+T45	IS-A 518 527	including
+T46	DATA-ITEM 528 535	context
+T47	DATA-ITEM 543 548	query
+T48	DATA-ITEM 553 560	context
+T49	DATA-ITEM 568 573	query
+T50	REFERENCE 579 585	former
+T51	PROCESS 586 595	specifies
+T52	THING 600 611	environment
+T53	DATA-ITEM 617 622	query
+T54	DATA-ITEM 635 641	domain
+T55	DATA-ITEM 645 653	interest
+T56	REFERENCE 665 671	latter
+T57	PROCESS 672 678	refers
+T59	DATA-ITEM 682 695	context words
+T60	DATA-ITEM 707 712	query
+T61	REFERENCE 714 719	which
+T62	QUALITY 723 735	particularly
+T63	QUALITY 736 742	useful
+T64	PLAN-OR-PROCESS 751 760	selection
+T65	QUALITY 764 772	relevant
+T66	DATA-ITEM 773 787	term relations
+T67	DATA-ITEM 804 814	both types
+T68	DATA-ITEM 818 825	context
+T69	PROCESS 830 840	integrated
+T70	PLAN 847 855	IR model
+T71	APPLY-TO 856 864	based on
+T72	PLAN-OR-PROCESS 865 882	language modeling
+T73	PERSON 884 887	Our
+T74	PLAN 888 899	experiments
+T75	QUANTITY 903 910	several
+T76	DATA-ITEM 911 927	TREC collections
+T78	DATA-ITEM 950 965	context factors
+T79	RESULT 966 972	brings
+T80	QUALITY 973 984	significant
+T81	PROCESS 985 997	improvements
+T82	DATA-ITEM 1001 1024	retrieval effectiveness
+R1	to Arg1:T1 Arg2:T2	
+R2	from Arg1:T1 Arg2:T3	
+T83	PERSON 46 50	User
+R3	Output Arg1:T7 Arg2:T8	
+R4	Agent Arg1:T7 Arg2:T6	
+R5	Coreference Arg1:T6 Arg2:T5	
+R6	Is-a Arg1:T4 Arg2:T5	
+R7	Coreference Arg1:T9 Arg2:T4	
+R8	Attribute Arg1:T12 Arg2:T11	
+R9	Attribute Arg1:T12 Arg2:T10	
+R10	Attribute Arg1:T9 Arg2:T12	
+R11	Condition Arg1:T13 Arg2:T14	
+R12	Attribute Arg1:T17 Arg2:T16	
+R13	In_Out Arg1:T15 Arg2:T17	
+R14	Coreference Arg1:T18 Arg2:T17	
+R15	Attribute Arg1:T20 Arg2:T19	
+R16	Result Arg1:T18 Arg2:T20	
+R17	Input Arg1:T21 Arg2:T22	
+R18	In_Out Arg1:T20 Arg2:T21	
+R19	Condition Arg1:T15 Arg2:T13	
+T84	PERSON 320 324	user
+R20	Output Arg1:T28 Arg2:T29	
+R21	Attribute Arg1:T26 Arg2:T27	
+R22	In_Out Arg1:T25 Arg2:T27	
+R23	Apply-to Arg1:T28 Arg2:T25	
+R24	Output Arg1:T24 Arg2:T25	
+R25	Condition Arg1:T24 Arg2:T23	
+R26	Attribute Arg1:T31 Arg2:T30	
+R27	Attribute Arg1:T32 Arg2:T31	
+R28	Attribute Arg1:T35 Arg2:T34	
+R29	Attribute Arg1:T35 Arg2:T33	
+R30	Attribute Arg1:T31 Arg2:T35	
+R31	Poss Arg1:T38 Arg2:T37	
+R32	Attribute Arg1:T37 Arg2:T36	
+R33	Condition Arg1:T35 Arg2:T37	
+A1	Self T39
+A2	Self T40
+A3	Intentional T41
+R34	Agent Arg1:T41 Arg2:T40	
+R35	Condition Arg1:T41 Arg2:T39	
+R36	Output Arg1:T41 Arg2:T42	
+R37	Input Arg1:T42 Arg2:T43	
+T85	MODALITY 488 495	instead
+R38	Attribute Arg1:T44 Arg2:T85	
+R39	Input Arg1:T42 Arg2:T44	
+R40	Condition Arg1:T46 Arg2:T47	
+R41	Condition Arg1:T48 Arg2:T49	
+R42	from Arg1:T45 Arg2:T46	
+R43	to Arg1:T45 Arg2:T43	
+R44	from Arg1:T45 Arg2:T48	
+R45	Coreference Arg1:T50 Arg2:T46	
+R46	Coreference Arg1:T56 Arg2:T48	
+R47	Attribute Arg1:T53 Arg2:T52	
+R48	Output Arg1:T51 Arg2:T52	
+R49	Agent Arg1:T51 Arg2:T50	
+R50	Condition Arg1:T54 Arg2:T55	
+R51	Is-a Arg1:T54 Arg2:T52	
+R52	Agent Arg1:T57 Arg2:T56	
+R53	Output Arg1:T57 Arg2:T59	
+R54	Condition Arg1:T59 Arg2:T60	
+R55	Attribute Arg1:T63 Arg2:T62	
+R56	Attribute Arg1:T61 Arg2:T63	
+R57	Condition Arg1:T63 Arg2:T64	
+R58	Attribute Arg1:T66 Arg2:T65	
+R59	In_Out Arg1:T64 Arg2:T66	
+R60	Coreference Arg1:T61 Arg2:T59	
+T58	REFERENCE 792 802	this paper
+A4	Self T58
+R61	Member-collection Arg1:T67 Arg2:T68	
+R62	Member-collection Arg1:T50 Arg2:T67	
+R63	Member-collection Arg1:T56 Arg2:T67	
+R64	from Arg1:T71 Arg2:T72	
+R65	to Arg1:T71 Arg2:T70	
+R66	Destination Arg1:T69 Arg2:T70	
+R67	Output Arg1:T69 Arg2:T67	
+R68	Condition Arg1:T69 Arg2:T58	
+A5	Intentional T69
+A6	Self T73
+R69	Poss Arg1:T73 Arg2:T74	
+R70	Attribute Arg1:T76 Arg2:T75	
+R71	Input Arg1:T74 Arg2:T76	
+T86	DATA-ITEM 938 942	each
+R72	Member-collection Arg1:T86 Arg2:T78	
+R73	Equivalence Arg1:T86 Arg2:T67	
+A7	Judgment T81
+R74	Attribute Arg1:T81 Arg2:T80	
+R75	In_Out Arg1:T81 Arg2:T82	
+R76	to Arg1:T79 Arg2:T81	
+R77	Input Arg1:T74 Arg2:T86	
+R78	from Arg1:T79 Arg2:T74	

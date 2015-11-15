@@ -1,0 +1,257 @@
+T1	PLAN 0 16	Trading Networks
+T2	INTELLIGENT-AGENT 22 42	Price-Setting Agents
+T3	QUALITY 48 58	wide range
+T5	DATA-ITEM 62 69	markets
+T6	QUALITY 71 81	individual
+T7	PERSON 82 88	buyers
+T8	PERSON 93 100	sellers
+T9	QUALITY 101 106	often
+T10	PROCESS 107 112	trade
+T11	PERSON 121 135	intermediaries
+T12	REFERENCE 137 140	who
+T13	PROCESS 141 150	determine
+T14	DATA-ITEM 151 157	prices
+T15	PLAN-OR-PROCESS 162 186	strategic considerations
+T16	MODALITY 199 202	not
+T17	QUANTITY 203 206	all
+T18	PERSON 207 213	buyers
+T19	PERSON 218 225	sellers
+T20	PROCESS 226 237	have access
+T21	QUALITY 245 249	same
+T22	PERSON 250 264	intermediaries
+T23	REFERENCE 270 274	they
+T24	PROCESS 275 280	trade
+T25	QUALITY 284 309	correspondingly different
+T26	DATA-ITEM 310 316	prices
+T27	REFERENCE 317 321	that
+T28	RESULT 322 329	reflect
+T29	REFERENCE 330 335	their
+T30	DATA-ITEM 336 352	relative amounts
+T31	DATA-ITEM 356 361	power
+T32	PLAN 369 375	market
+T33	PERSON 377 379	We
+T34	PROCESS 380 385	model
+T35	OCCURENT 386 401	this phenomenon
+T36	APPLY-TO 402 407	using
+T37	PLAN 410 414	game
+T38	REFERENCE 418 423	which
+T39	INTELLIGENT-AGENT 424 430	buyers
+T40	INTELLIGENT-AGENT 432 439	sellers
+T41	INTELLIGENT-AGENT 445 452	traders
+T42	PROCESS 453 459	engage
+T43	PROCESS 463 468	trade
+T44	PLAN 474 479	graph
+T45	REFERENCE 480 484	that
+T46	PROCESS 485 495	represents
+T47	PROCESS 500 506	access
+T48	INTELLIGENT-AGENT 522 528	seller
+T49	INTELLIGENT-AGENT 540 547	traders
+T50	PLAN 552 562	this model
+T51	INTELLIGENT-AGENT 564 571	traders
+T52	PROCESS 572 575	set
+T53	DATA-ITEM 576 582	prices
+T54	QUALITY 583 596	strategically
+T55	INTELLIGENT-AGENT 607 613	buyers
+T56	INTELLIGENT-AGENT 618 625	sellers
+T57	PROCESS 626 631	react
+T58	DATA-ITEM 639 645	prices
+T59	REFERENCE 646 650	they
+T60	PROCESS 655 662	offered
+T61	PERSON 664 666	We
+T62	PROCESS 667 671	show
+T63	PLAN 681 695	resulting game
+T64	TIME 696 702	always
+T65	PLAN 709 741	subgame perfect Nash equilibrium
+T66	QUANTITY 752 755	all
+T67	PLAN 756 766	equilibria
+T68	RESULT 767 771	lead
+T69	QUALITY 778 787	efficient
+T70	QUALITY 794 810	socially optimal
+T71	PLAN-OR-PROCESS 812 822	allocation
+T72	DATA-ITEM 826 831	goods
+T73	PERSON 833 835	We
+T74	PROCESS 836 842	extend
+T75	PLAN 843 856	these results
+T76	QUALITY 862 874	more general
+T77	PLAN 875 879	type
+T78	PLAN 883 898	matching market
+T79	PERSON 908 911	one
+T80	PROCESS 912 917	finds
+T81	PROCESS 925 933	matching
+T82	PLAN 937 951	job applicants
+T83	PERSON 956 965	employers
+T84	PERSON 976 978	we
+T85	PROCESS 979 987	consider
+T86	DATA-ITEM 996 1003	profits
+T87	PROCESS 1004 1012	obtained
+T88	INTELLIGENT-AGENT 1020 1027	traders
+T89	RESULT 1028 1034	depend
+T90	PLAN 1042 1058	underlying graph
+T91	INTELLIGENT-AGENT 1073 1079	trader
+T92	MODALITY 1080 1083	can
+T93	PROCESS 1084 1091	command
+T94	QUALITY 1094 1102	positive
+T95	DATA-ITEM 1103 1109	profit
+T97	REFERENCE 1125 1127	it
+T98	QUALITY 1135 1144	essential
+T99	PLAN-OR-PROCESS 1145 1155	connection
+T100	PLAN 1163 1180	network structure
+T101	PROCESS 1187 1196	providing
+T102	PLAN 1199 1220	graph-theoretic basis
+T103	PROCESS 1225 1236	quantifying
+T104	DATA-ITEM 1241 1247	amount
+T105	PLAN-OR-PROCESS 1251 1262	competition
+T106	INTELLIGENT-AGENT 1269 1276	traders
+T107	QUALITY 1287 1294	differs
+T108	EXTERNAL-REFERENCE 1300 1314	recent studies
+T109	DATA-ITEM 1322 1327	price
+T110	PROCESS 1331 1339	affected
+T111	PLAN 1343 1360	network structure
+T112	PERSON 1369 1372	our
+T113	PLAN 1373 1381	modeling
+T114	PLAN 1385 1398	price-setting
+T115	PLAN 1404 1422	strategic activity
+T116	PROCESS 1423 1434	carried out
+T117	INTELLIGENT-AGENT 1440 1446	subset
+T118	INTELLIGENT-AGENT 1450 1456	agents
+T119	PLAN 1464 1470	system
+T120	MODALITY 1472 1483	rather than
+T121	PROCESS 1484 1492	studying
+T122	DATA-ITEM 1493 1503	prices set
+T123	PLAN 1508 1531	competitive equilibrium
+T124	PLAN 1540 1558	truthful mechanism
+R1	Attribute Arg1:T5 Arg2:T3	
+R2	Attribute Arg1:T7 Arg2:T6	
+R3	Attribute Arg1:T8 Arg2:T6	
+R4	Condition Arg1:T10 Arg2:T5	
+R5	Attribute Arg1:T10 Arg2:T9	
+R6	Agent Arg1:T10 Arg2:T8	
+R7	Agent Arg1:T10 Arg2:T7	
+R8	Agent Arg1:T10 Arg2:T11	
+R9	Coreference Arg1:T12 Arg2:T11	
+R10	Agent Arg1:T13 Arg2:T12	
+R11	In_Out Arg1:T13 Arg2:T14	
+R12	Apply-to Arg1:T15 Arg2:T13	
+R13	Attribute Arg1:T18 Arg2:T17	
+R14	Attribute Arg1:T17 Arg2:T16	
+R15	Attribute Arg1:T19 Arg2:T17	
+R16	Attribute Arg1:T22 Arg2:T21	
+R17	Destination Arg1:T20 Arg2:T22	
+R18	Agent Arg1:T20 Arg2:T19	
+R19	Agent Arg1:T20 Arg2:T18	
+R20	Coreference Arg1:T23 Arg2:T19	
+R21	Agent Arg1:T24 Arg2:T23	
+R22	Attribute Arg1:T26 Arg2:T25	
+R23	Condition Arg1:T24 Arg2:T26	
+R24	Coreference Arg1:T27 Arg2:T26	
+R25	Attribute Arg1:T31 Arg2:T30	
+R26	Attribute Arg1:T29 Arg2:T31	
+R27	Condition Arg1:T31 Arg2:T32	
+R28	Coreference Arg1:T29 Arg2:T23	
+R29	to Arg1:T28 Arg2:T27	
+R30	from Arg1:T28 Arg2:T30	
+R31	Coreference Arg1:T23 Arg2:T18	
+A1	Self T33
+A2	Intentional T34
+R32	Agent Arg1:T34 Arg2:T33	
+R33	In_Out Arg1:T34 Arg2:T35	
+R34	from Arg1:T36 Arg2:T37	
+R35	to Arg1:T36 Arg2:T34	
+R36	Coreference Arg1:T38 Arg2:T37	
+R37	Agent Arg1:T42 Arg2:T41	
+R38	Agent Arg1:T42 Arg2:T40	
+R39	Agent Arg1:T42 Arg2:T39	
+R40	Target Arg1:T42 Arg2:T43	
+R41	Condition Arg1:T42 Arg2:T44	
+R42	Component-object Arg1:T38 Arg2:T44	
+R43	Coreference Arg1:T45 Arg2:T44	
+R44	Apply-to Arg1:T45 Arg2:T46	
+R45	Output Arg1:T46 Arg2:T47	
+T4	INTELLIGENT-AGENT 512 517	buyer
+R46	Agent Arg1:T47 Arg2:T48	
+R47	Agent Arg1:T47 Arg2:T4	
+R48	Destination Arg1:T47 Arg2:T49	
+R49	Coreference Arg1:T50 Arg2:T34	
+R50	Agent Arg1:T52 Arg2:T51	
+R51	Condition Arg1:T52 Arg2:T50	
+R52	Output Arg1:T52 Arg2:T53	
+R53	Attribute Arg1:T52 Arg2:T54	
+R54	Agent Arg1:T57 Arg2:T56	
+R55	Agent Arg1:T57 Arg2:T55	
+R56	Input Arg1:T57 Arg2:T58	
+R57	Member-collection Arg1:T56 Arg2:T59	
+R58	Member-collection Arg1:T55 Arg2:T59	
+R59	Output Arg1:T60 Arg2:T58	
+R60	Destination Arg1:T60 Arg2:T59	
+R61	Condition Arg1:T57 Arg2:T50	
+A3	Self T61
+A4	Intentional T62
+R62	Agent Arg1:T62 Arg2:T61	
+R64	Attribute Arg1:T67 Arg2:T66	
+R65	Attribute Arg1:T71 Arg2:T69	
+R66	Equivalence Arg1:T70 Arg2:T69	
+R67	Target Arg1:T71 Arg2:T72	
+R68	from Arg1:T68 Arg2:T67	
+R69	to Arg1:T68 Arg2:T69	
+T125	ATTRIBUTE 703 706	has
+R70	Attribute Arg1:T125 Arg2:T64	
+R71	to Arg1:T125 Arg2:T65	
+R72	from Arg1:T125 Arg2:T63	
+A5	Self T73
+A6	Intentional T74
+R63	Agent Arg1:T74 Arg2:T73	
+R73	In_Out Arg1:T74 Arg2:T75	
+R74	Member-collection Arg1:T77 Arg2:T78	
+R75	Attribute Arg1:T77 Arg2:T76	
+R76	Destination Arg1:T74 Arg2:T77	
+R77	Target Arg1:T81 Arg2:T82	
+R78	Agent Arg1:T80 Arg2:T79	
+R79	Target Arg1:T81 Arg2:T83	
+R80	Output Arg1:T80 Arg2:T81	
+A7	Self T84
+A8	Intentional T85
+R81	Agent Arg1:T85 Arg2:T84	
+R82	In_Out Arg1:T87 Arg2:T86	
+R83	Agent Arg1:T87 Arg2:T88	
+R84	from Arg1:T89 Arg2:T90	
+R85	to Arg1:T89 Arg2:T86	
+R86	Agent Arg1:T93 Arg2:T91	
+R87	Attribute Arg1:T93 Arg2:T92	
+R88	Attribute Arg1:T95 Arg2:T94	
+R89	Output Arg1:T93 Arg2:T95	
+R90	Attribute Arg1:T99 Arg2:T98	
+R91	Destination Arg1:T99 Arg2:T100	
+R92	Output Arg1:T101 Arg2:T102	
+R93	Attribute Arg1:T105 Arg2:T104	
+R94	Output Arg1:T103 Arg2:T104	
+R95	Agent Arg1:T105 Arg2:T106	
+R96	Apply-to Arg1:T101 Arg2:T103	
+A9	Intentional T101
+R97	Agent Arg1:T101 Arg2:T84	
+T96	PLAN 1282 1286	work
+R98	Attribute Arg1:T96 Arg2:T107	
+T126	COMPARE 1295 1299	from
+R99	from Arg1:T126 Arg2:T108	
+R100	to Arg1:T126 Arg2:T107	
+R101	In_Out Arg1:T110 Arg2:T109	
+R102	Result Arg1:T111 Arg2:T110	
+R103	Condition Arg1:T110 Arg2:T108	
+A11	Self T112
+R104	Poss Arg1:T112 Arg2:T113	
+R105	In_Out Arg1:T113 Arg2:T114	
+R106	Output Arg1:T116 Arg2:T113	
+R107	Member-collection Arg1:T118 Arg2:T117	
+R108	Agent Arg1:T116 Arg2:T117	
+R109	Other-rel Arg1:T119 Arg2:T118	
+R110	In_Out Arg1:T121 Arg2:T122	
+R111	Apply-to Arg1:T123 Arg2:T121	
+R112	Apply-to Arg1:T124 Arg2:T121	
+R113	Attribute Arg1:T121 Arg2:T120	
+R114	Is-a Arg1:T114 Arg2:T115	
+R115	Apply-to Arg1:T121 Arg2:T116	
+R116	Other-rel Arg1:T2 Arg2:T1	
+T127	PERSON 1278 1281	Our
+R117	Poss Arg1:T127 Arg2:T96	
+A10	Self T127
+R118	Coreference Arg1:T97 Arg2:T95	
+R119	Agent Arg1:T99 Arg2:T97	

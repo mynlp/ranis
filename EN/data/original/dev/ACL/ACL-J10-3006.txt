@@ -1,0 +1,11 @@
+Complexity, Parsing, and Factorization of Tree-Local Multi-Component Tree-Adjoining Grammar
+
+Tree-Local Multi-Component Tree-Adjoining Grammar (TL-MCTAG) is an appealing formalism for natural language representation because it arguably allows the encapsulation of the appropriate domain of locality within its elementary structures.
+Its multicomponent structure allows modeling of lexical items that may ultimately have elements far apart in a sentence, such as quantifiers and wh-words.
+When used as the base formalism for a synchronous grammar, its flexibility allows it to express both the close relationships and the divergent structure necessary to capture the links between the syntax and semantics of a single language or the syntax of two different languages.
+Its limited expressivity provides constraints on movement and, we posit, may have generated additional popularity based on a misconception about its parsing complexity.
+Although TL-MCTAG was shown to be equivalent in expressivity to TAG when it was first introduced, the complexity of TL-MCTAG is still not well understood.
+This article offers a thorough examination of the problem of TL-MCTAG recognition, showing that even highly restricted forms of TL-MCTAG are NP-complete to recognize.
+However, in spite of the provable difficulty of the recognition problem, we offer several algorithms that can substantially improve processing efficiency.
+First, we present a parsing algorithm that improves on the baseline parsing method and runs in polynomial time when both the fan-out and rank of the input grammar are bounded.
+Second, we offer an optimal, efficient algorithm for factorizing a grammar to produce a strongly equivalent TL-MCTAG grammar with the rank of the grammar minimized.

@@ -1,0 +1,8 @@
+Reduction of Non-stationary Noise for a Robotic Living Assistant using Sparse Non-negative Matrix Factorization
+
+Due to the demographic changes, support by means of assistive systems will become inevitable for home care and in nursing homes.
+Robot systems are promising solutions but their value has to be acknowledged by the patients and the care personnel.
+Natural and intuitive human-machine interfaces are an essential feature to achieve acceptance of the users.
+Therefore, automatic speech recognition (ASR) is a promising modality for such assistive devices.
+However, noises produced during movement of robots can degrade the ASR performances.
+This work focuses on noise reduction by a non-negative matrix factorization (NMF) approach to efficiently suppress non stationary noise produced by the sensors of an assisting robot system.

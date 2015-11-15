@@ -1,0 +1,13 @@
+Using Suffix Arrays to Compute Term Frequency and Document Frequency for All Substrings in a Corpus
+
+Bigrams and trigrams are commonly used in statistical natural language processing; this paper will describe techniques for working with much longer n-grams.
+Suffix arrays (Manber and Myers 1990) were first introduced to compute the frequency and location of a substring (n-gram) in a sequence (corpus) of length N.
+To compute frequencies over all N(N + 1)/2 substrings in a corpus, the substrings are grouped into a manageable number of equivalence classes.
+In this way, a prohibitive computation over substrings is reduced to a manageable computation over classes.
+This paper presents both the algorithms and the code that were used to compute term frequency (tf) and document frequency (df) for all n-grams in two large corpora, an English corpus of 50 million words of Wall Street Journal and a Japanese corpus of 216 million characters of Mainichi Shimbun.
+
+The second half of the paper uses these frequencies to find ``interesting'' substrings.
+Lexicographers have been interested in n-grams with high mutual information (MI) where the joint term frequency is higher than what would be expected by chance, assuming that the parts of the n-gram combine independently.
+Residual inverse document frequency (RIDF) compares document frequency to another model of chance where terms with a particular term frequency are distributed randomly throughout the collection.
+MI tends to pick out phrases with noncompositional semantics (which often violate the independence assumption) whereas RIDF tends to highlight technical terminology, names, and good keywords for information retrieval (which tend to exhibit nonrandom distributions over documents).
+The combination of both MI and RIDF is better than either by itself in a Japanese word extraction task.

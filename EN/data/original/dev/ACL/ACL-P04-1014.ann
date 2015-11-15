@@ -1,0 +1,110 @@
+R1	Input Arg1:T1 Arg2:T46
+R2	Apply-to Arg1:T47 Arg2:T1
+R3	Apply-to Arg1:T2 Arg2:T1
+A1	Self T48
+A2	Intentional T49
+R4	Condition Arg1:T49 Arg2:T48
+R5	Condition Arg1:T3 Arg2:T48
+A3	Intentional T3
+R6	Apply-to Arg1:T4 Arg2:T5
+R7	Equivalence Arg1:T6 Arg2:T5
+R8	Output Arg1:T49 Arg2:T4
+R9	Input Arg1:T3 Arg2:T4
+R10	Attribute Arg1:T8 Arg2:T7
+R11	Output Arg1:T8 Arg2:T9
+A4	Intentional T50
+R12	Output Arg1:T50 Arg2:T8
+R13	Condition Arg1:T11 Arg2:T12
+R14	Coreference Arg1:T10 Arg2:T8
+R15	Apply-to Arg1:T10 Arg2:T11
+R16	Attribute Arg1:T15 Arg2:T14
+R17	Apply-to Arg1:T16 Arg2:T17
+R18	Input Arg1:T16 Arg2:T15
+R19	Target Arg1:T13 Arg2:T16
+R20	Apply-to Arg1:T12 Arg2:T13
+A5	Self T18
+A6	Intentional T19
+R21	Agent Arg1:T19 Arg2:T18
+A7	Judgment T51
+R22	Attribute Arg1:T21 Arg2:T51
+R23	Attribute Arg1:T21 Arg2:T20
+R24	Output Arg1:T19 Arg2:T21
+R25	Apply-to Arg1:T21 Arg2:T22
+R26	Attribute Arg1:T27 Arg2:T26
+R27	Attribute Arg1:T26 Arg2:T25
+R28	In_Out Arg1:T24 Arg2:T26
+R29	Apply-to Arg1:T23 Arg2:T24
+R30	Coreference Arg1:T23 Arg2:T21
+A8	Self T28
+A9	Intentional T29
+R32	Agent Arg1:T29 Arg2:T28
+R33	Input Arg1:T29 Arg2:T30
+R34	Coreference Arg1:T31 Arg2:T30
+R35	Attribute Arg1:T34 Arg2:T33
+R36	Attribute Arg1:T36 Arg2:T52
+R37	from Arg1:T35 Arg2:T36
+R38	to Arg1:T35 Arg2:T34
+R39	Input Arg1:T29 Arg2:T37
+R40	from Arg1:T32 Arg2:T34
+R41	to Arg1:T32 Arg2:T31
+R42	Attribute Arg1:T40 Arg2:T39
+R43	Attribute Arg1:T40 Arg2:T38
+R44	Attribute Arg1:T38 Arg2:T41
+A10	Judgment T41
+R45	Attribute Arg1:T42 Arg2:T43
+A11	Judgment T43
+R46	Attribute Arg1:T45 Arg2:T44
+R47	Compare Arg1:T45 Arg2:T43
+R31	Attribute Arg1:T40 Arg2:T42
+T1	PROCESS 0 7	Parsing
+T46	DATA-ITEM 12 15	WSJ
+T47	PLAN 22 25	CCG
+T2	PLAN 30 47	Log-Linear Models
+T48	REFERENCE 50 60	This paper
+T49	PROCESS 61 70	describes
+T3	PROCESS 75 84	evaluates
+T4	PLAN 85 110	log-linear parsing models
+T5	PLAN 115 145	Combinatory Categorial Grammar
+T6	PLAN 148 151	CCG
+T7	QUALITY 158 166	parallel
+T8	PROCESS 167 181	implementation
+T9	PLAN 189 218	L-BFGS optimisation algorithm
+T50	PROCESS 222 231	described
+T10	REFERENCE 234 239	which
+T11	PROCESS 240 244	runs
+T12	PLAN 250 265	Beowulf cluster
+T13	PROCESS 266 274	allowing
+T14	QUALITY 279 287	complete
+T15	DATA-ITEM 288 301	Penn Treebank
+T16	PROCESS 308 312	used
+T17	PLAN-OR-PROCESS 317 327	estimation
+T18	PERSON 330 332	We
+T19	PROCESS 338 345	develop
+T20	QUALITY 348 351	new
+T51	QUALITY 352 361	efficient
+T21	PLAN 362 379	parsing algorithm
+T22	PLAN 384 387	CCG
+T23	REFERENCE 388 393	which
+T24	PROCESS 394 403	maximises
+T25	QUALITY 404 412	expected
+T26	DATA-ITEM 413 419	recall
+T27	DATA-ITEM 423 435	dependencies
+T28	PERSON 438 440	We
+T29	PROCESS 441 448	compare
+T30	PLAN 449 455	models
+T31	REFERENCE 456 461	which
+T32	APPLY-TO 462 465	use
+T33	QUANTITY 466 469	all
+T34	PLAN 470 485	CCG derivations
+T35	IS-A 488 497	including
+T52	QUALITY 498 509	nonstandard
+T36	PLAN 510 521	derivations
+T37	PLAN 529 547	normal-form models
+T38	DATA-ITEM 554 566	performances
+T39	QUANTITY 574 577	two
+T40	PLAN 578 584	models
+T41	QUALITY 589 599	comparable
+T42	DATA-ITEM 608 615	results
+T43	QUALITY 620 631	competitive
+T44	QUALITY 637 645	existing
+T45	PLAN 646 671	wide-coverage CCG parsers

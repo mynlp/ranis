@@ -1,0 +1,6 @@
+Mining of Parsed Data to Derive Deverbal Argument Structure .
+The availability of large parsed corpora and improved computing resources now make it possible to extract vast amounts of lexical data .
+We describe the process of extracting structured data and several methods of deriving argument structure mappings for deverbal nouns that significantly improves upon non-lexicalized rule-based methods .
+For a typical model , the F-measure of performance improves from a baseline of about 0.72 to 0.81 .
+
+

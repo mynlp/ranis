@@ -1,0 +1,165 @@
+R1	Apply-to Arg1:T70 Arg2:T1
+R2	Apply-to Arg1:T69 Arg2:T1
+A1	Self T71
+A2	Intentional T72
+R3	Condition Arg1:T72 Arg2:T71
+R4	Member-collection Arg1:T3 Arg2:T2
+R5	Output Arg1:T72 Arg2:T2
+R6	Output Arg1:T72 Arg2:T4
+R8	In_Out Arg1:T5 Arg2:T9
+R9	Target Arg1:T6 Arg2:T9
+R10	Input Arg1:T7 Arg2:T9
+R11	Apply-to Arg1:T2 Arg2:T5
+R12	Apply-to Arg1:T2 Arg2:T6
+R13	Apply-to Arg1:T2 Arg2:T7
+R14	Apply-to Arg1:T4 Arg2:T5
+R15	Apply-to Arg1:T4 Arg2:T6
+R16	Apply-to Arg1:T4 Arg2:T7
+A3	Self T10
+A4	Intentional T11
+R17	Agent Arg1:T11 Arg2:T10
+R18	Attribute Arg1:T14 Arg2:T13
+R19	Attribute Arg1:T14 Arg2:T12
+R20	Output Arg1:T11 Arg2:T14
+R21	Input Arg1:T15 Arg2:T16
+R22	Apply-to Arg1:T15 Arg2:T18
+R23	Input Arg1:T15 Arg2:T17
+R24	Attribute Arg1:T18 Arg2:T73
+R25	Member-collection Arg1:T14 Arg2:T15
+R26	Poss Arg1:T21 Arg2:T74
+R27	Attribute Arg1:T74 Arg2:T20
+R28	Attribute Arg1:T20 Arg2:T19
+R29	Coreference Arg1:T22 Arg2:T74
+R30	Apply-to Arg1:T22 Arg2:T23
+R31	Attribute Arg1:T25 Arg2:T24
+R32	Target Arg1:T23 Arg2:T25
+R33	Attribute Arg1:T27 Arg2:T26
+R7	In_Out Arg1:T25 Arg2:T27
+R34	Is-a Arg1:T23 Arg2:T20
+A5	Self T21
+A6	Self T28
+R35	Poss Arg1:T28 Arg2:T29
+R36	Condition Arg1:T30 Arg2:T29
+R37	Output Arg1:T30 Arg2:T31
+R38	Input Arg1:T31 Arg2:T32
+R41	Component-object Arg1:T33 Arg2:T32
+R42	Component-object Arg1:T34 Arg2:T32
+R43	Component-object Arg1:T36 Arg2:T32
+R44	Component-object Arg1:T37 Arg2:T32
+R45	Component-object Arg1:T38 Arg2:T32
+A7	Self T39
+A8	Intentional T40
+R39	Agent Arg1:T40 Arg2:T39
+R40	Attribute Arg1:T41 Arg2:T35
+R46	Output Arg1:T40 Arg2:T41
+R47	Output Arg1:T40 Arg2:T42
+R48	Coreference Arg1:T43 Arg2:T31
+R49	Apply-to Arg1:T43 Arg2:T44
+R50	Output Arg1:T44 Arg2:T42
+R51	Output Arg1:T44 Arg2:T41
+R52	Attribute Arg1:T46 Arg2:T45
+R53	In_Out Arg1:T46 Arg2:T47
+R54	Coreference Arg1:T47 Arg2:T41
+R55	Output Arg1:T40 Arg2:T46
+R56	Target Arg1:T50 Arg2:T51
+R57	Attribute Arg1:T54 Arg2:T53
+R58	from Arg1:T52 Arg2:T53
+R59	to Arg1:T52 Arg2:T51
+R60	Is-a Arg1:T50 Arg2:T49
+R62	Condition Arg1:T46 Arg2:T49
+R61	Attribute Arg1:T49 Arg2:T48
+A10	Self T55
+A11	Intentional T56
+R63	Agent Arg1:T56 Arg2:T55
+R64	Coreference Arg1:T57 Arg2:T46
+R65	Result Arg1:T57 Arg2:T58
+R66	In_Out Arg1:T58 Arg2:T59
+R67	Coreference Arg1:T60 Arg2:T59
+A12	Self T61
+R68	Attribute Arg1:T63 Arg2:T62
+R69	Agent Arg1:T63 Arg2:T61
+R70	Input Arg1:T63 Arg2:T64
+R71	Attribute Arg1:T67 Arg2:T66
+R72	Output Arg1:T65 Arg2:T67
+R73	Apply-to Arg1:T63 Arg2:T65
+R75	Input Arg1:T68 Arg2:T67
+R76	Apply-to Arg1:T60 Arg2:T63
+A9	Intentional T30
+R74	Output Arg1:T56 Arg2:T58
+A13	Name T8
+A14	Name T80
+T69	PLAN 0 5	Tools
+T70	PLAN 10 17	Methods
+T1	PLAN-OR-PROCESS 22 46	Computational Lexicology
+T71	REFERENCE 49 59	This paper
+T72	PROCESS 60 68	presents
+T2	PLAN 71 74	set
+T3	PLAN 78 83	tools
+T4	PLAN 88 95	methods
+T5	PROCESS 100 109	acquiring
+T6	PROCESS 112 124	manipulating
+T7	PROCESS 131 140	analyzing
+T9	DATA-ITEM 141 169	machinereadable dictionaries
+T10	PERSON 172 174	We
+T11	PROCESS 175 179	give
+T12	QUANTITY 180 187	several
+T13	QUALITY 188 196	detailed
+T14	PLAN-OR-PROCESS 197 205	examples
+T15	PLAN-OR-PROCESS 213 216	use
+T16	PLAN 220 231	these tools
+T17	PLAN 236 243	methods
+T73	QUALITY 248 258	particular
+T18	PLAN-OR-PROCESS 259 267	analyses
+T19	QUALITY 272 277	novel
+T20	PLAN-OR-PROCESS 278 284	aspect
+T21	PERSON 288 291	our
+T74	PLAN 292 296	work
+T22	REFERENCE 305 307	it
+T23	PROCESS 308 314	allows
+T24	QUALITY 319 327	combined
+T25	PROCESS 328 338	processing
+T26	QUANTITY 342 350	multiple
+T27	DATA-ITEM 351 380	machine-readable dictionaries
+T28	PERSON 383 386	Our
+T29	DATA-ITEM 387 395	examples
+T30	PROCESS 396 404	describe
+T31	PLAN-OR-PROCESS 405 413	analyses
+T32	DATA-ITEM 417 421	data
+T33	DATA-ITEM 427 467	Webster 's Seventh Collegiate Dictionary
+T34	DATA-ITEM 474 516	Longman Dictionary of Contemporary English
+T8	LANGUAGE 509 516	English
+T36	DATA-ITEM 523 553	Collins bilingual dictionaries
+T37	DATA-ITEM 560 577	Collins Thesaurus
+T38	DATA-ITEM 588 617	Zingarelli Italian dictionary
+T80	LANGUAGE 599 606	Italian
+T39	PERSON 620 622	We
+T40	PROCESS 623 631	describe
+T35	QUALITY 632 640	existing
+T41	DATA-ITEM 641 651	facilities
+T42	DATA-ITEM 656 663	results
+T43	REFERENCE 664 668	they
+T44	PROCESS 674 682	produced
+T45	QUALITY 694 701	planned
+T46	PLAN-OR-PROCESS 702 714	enhancements
+T47	DATA-ITEM 718 734	those facilities
+T48	QUALITY 737 749	particularly
+T49	PLAN-OR-PROCESS 757 761	area
+T50	PROCESS 765 773	managing
+T51	DATA-ITEM 774 786	associations
+T52	IS-A 787 796	involving
+T53	DATA-ITEM 801 807	senses
+T54	DATA-ITEM 811 827	polysemous words
+T55	PERSON 830 832	We
+T56	PROCESS 833 837	show
+T57	PLAN-OR-PROCESS 842 860	these enhancements
+T58	PROCESS 861 867	expand
+T59	PLAN 872 876	ways
+T60	REFERENCE 880 885	which
+T61	PERSON 886 888	we
+T62	MODALITY 889 892	can
+T63	PROCESS 893 900	exploit
+T64	DATA-ITEM 901 930	machine-readable dictionaries
+T65	PLAN-OR-PROCESS 938 950	construction
+T66	QUALITY 954 959	large
+T67	DATA-ITEM 960 968	lexicons
+T68	PLAN 973 1008	natural language processing systems

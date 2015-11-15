@@ -1,0 +1,179 @@
+T1	INTELLIGENT-AGENT 3 25	Advanced Bidding Agent
+T2	PLAN-OR-PROCESS 30 53	Advertisement Selection
+T3	PLAN 57 72	Public Displays
+T4	REFERENCE 76 86	this paper
+T5	PERSON 87 89	we
+T6	PROCESS 90 97	present
+T7	INTELLIGENT-AGENT 101 123	advanced bidding agent
+T8	REFERENCE 124 128	that
+T9	PROCESS 129 141	participates
+T10	PLAN 145 176	first-price sealed bid auctions
+T11	PROCESS 180 188	allocate
+T12	PLAN-OR-PROCESS 189 206	advertising space
+T13	PLAN 210 219	BluScreen
+T14	PLAN 226 266	experimental public advertisement system
+T15	REFERENCE 267 271	that
+T16	PROCESS 272 279	detects
+T17	PERSON 280 285	users
+T19	REFERENCE 310 315	their
+T20	ARTIFACT 316 341	Bluetooth enabled devices
+T21	PERSON 343 346	Our
+T22	INTELLIGENT-AGENT 347 360	bidding agent
+T23	MODALITY 364 368	able
+T24	PROCESS 372 377	build
+T25	PLAN 378 398	probabilistic models
+T26	PLAN-OR-PROCESS 411 420	behaviour
+T27	PERSON 424 429	users
+T28	REFERENCE 430 433	who
+T29	PROCESS 434 438	view
+T30	DATA-ITEM 443 450	adverts
+T31	PLAN 460 468	auctions
+T32	REFERENCE 469 473	that
+T33	REFERENCE 474 476	it
+T34	PROCESS 477 489	participates
+T35	REFERENCE 498 500	It
+T36	PROCESS 506 510	uses
+T37	PLAN 511 523	these models
+T38	PROCESS 527 535	maximise
+T39	PLAN-OR-PROCESS 540 548	exposure
+T40	REFERENCE 554 557	its
+T41	DATA-ITEM 558 565	adverts
+T42	PROCESS 566 573	receive
+T43	PERSON 575 577	We
+T44	PROCESS 578 586	evaluate
+T45	DATA-ITEM 591 604	effectiveness
+T46	INTELLIGENT-AGENT 608 626	this bidding agent
+T47	PLAN 635 645	simulation
+T48	QUALITY 654 664	a range of
+T49	PLAN 665 697	alternative selection mechanisms
+T50	IS-A 698 707	including
+T51	QUALITY 710 716	simple
+T52	PLAN 717 733	bidding strategy
+T53	PLAN 735 752	random allocation
+T54	PLAN 760 790	centralised optimal allocation
+T55	PLAN-OR-PROCESS 804 813	foresight
+T56	PERSON 815 818	Our
+T57	INTELLIGENT-AGENT 819 832	bidding agent
+T58	QUALITY 833 846	significantly
+T59	QUALITY 847 858	outperforms
+T60	QUALITY 868 874	simple
+T61	PLAN 875 891	bidding strategy
+T62	PLAN 900 917	random allocation
+T63	INTELLIGENT-AGENT 928 944	mixed population
+T64	INTELLIGENT-AGENT 948 954	agents
+T66	MODALITY 961 965	able
+T67	PROCESS 969 975	expose
+T68	REFERENCE 976 979	its
+T69	DATA-ITEM 980 987	adverts
+T70	QUANTITY 991 999	25% more
+T71	PERSON 1000 1005	users
+T72	QUALITY 1015 1021	simple
+T73	PLAN 1022 1038	bidding strategy
+T74	REFERENCE 1050 1053	its
+T75	DATA-ITEM 1054 1065	performance
+T76	QUANTITY 1076 1080	7.5%
+T77	DATA-ITEM 1084 1088	that
+T78	PLAN 1096 1126	centralised optimal allocation
+T79	QUALITY 1139 1155	highly uncertain
+T80	PLAN 1156 1167	environment
+T81	REFERENCE 1171 1176	which
+T82	REFERENCE 1177 1179	it
+T83	MODALITY 1180 1184	must
+T84	PROCESS 1185 1192	operate
+R1	Agent Arg1:T2 Arg2:T1	
+R2	Apply-to Arg1:T2 Arg2:T3	
+A1	Self T4
+A2	Self T5
+A3	Intentional T6
+R3	Agent Arg1:T6 Arg2:T5	
+R4	Condition Arg1:T6 Arg2:T4	
+R5	Other-rel Arg1:T6 Arg2:T7	
+R6	Coreference Arg1:T8 Arg2:T7	
+R7	Agent Arg1:T9 Arg2:T8	
+R8	Destination Arg1:T9 Arg2:T10	
+R9	Output Arg1:T11 Arg2:T12	
+R10	Destination Arg1:T11 Arg2:T13	
+R12	Apply-to Arg1:T9 Arg2:T11	
+R13	Other-rel Arg1:T16 Arg2:T17	
+R14	Apply-to Arg1:T15 Arg2:T16	
+R15	Coreference Arg1:T19 Arg2:T17	
+R16	Poss Arg1:T19 Arg2:T20	
+R17	Other-rel Arg1:T16 Arg2:T20	
+R11	Other-rel Arg1:T7 Arg2:T14	
+R18	Coreference Arg1:T15 Arg2:T14	
+A4	Self T21
+R19	Poss Arg1:T21 Arg2:T22	
+R20	Attribute Arg1:T24 Arg2:T23	
+R21	Agent Arg1:T24 Arg2:T22	
+R22	Output Arg1:T24 Arg2:T25	
+R23	Agent Arg1:T26 Arg2:T27	
+R24	Coreference Arg1:T28 Arg2:T27	
+R25	Agent Arg1:T29 Arg2:T28	
+R26	Target Arg1:T29 Arg2:T30	
+R27	In_Out Arg1:T25 Arg2:T26	
+R28	In_Out Arg1:T25 Arg2:T31	
+R29	Coreference Arg1:T32 Arg2:T31	
+R30	Destination Arg1:T34 Arg2:T32	
+R31	Coreference Arg1:T33 Arg2:T22	
+R32	Agent Arg1:T34 Arg2:T33	
+R33	In_Out Arg1:T38 Arg2:T39	
+R34	Coreference Arg1:T37 Arg2:T25	
+R35	Agent Arg1:T36 Arg2:T35	
+R36	Coreference Arg1:T35 Arg2:T22	
+R37	Input Arg1:T36 Arg2:T37	
+R38	Apply-to Arg1:T36 Arg2:T38	
+R39	Coreference Arg1:T40 Arg2:T35	
+R40	Poss Arg1:T40 Arg2:T41	
+R41	Agent Arg1:T42 Arg2:T41	
+A5	Self T43
+A6	Intentional T44
+R42	Agent Arg1:T44 Arg2:T43	
+R43	Output Arg1:T44 Arg2:T45	
+R44	Coreference Arg1:T46 Arg2:T40	
+R45	Apply-to Arg1:T47 Arg2:T44	
+R48	Attribute Arg1:T46 Arg2:T45	
+R49	Attribute Arg1:T52 Arg2:T51	
+T18	QUALITY 796 803	perfect
+R50	Attribute Arg1:T55 Arg2:T18	
+R51	Component-object Arg1:T54 Arg2:T55	
+R52	from Arg1:T50 Arg2:T52	
+R53	from Arg1:T50 Arg2:T53	
+R54	from Arg1:T50 Arg2:T54	
+R55	to Arg1:T50 Arg2:T49	
+A7	Self T56
+R56	Poss Arg1:T56 Arg2:T57	
+R57	Attribute Arg1:T59 Arg2:T58	
+R58	Attribute Arg1:T61 Arg2:T60	
+R59	Attribute Arg1:T57 Arg2:T59	
+R60	Compare Arg1:T61 Arg2:T59	
+R61	Compare Arg1:T62 Arg2:T59	
+A8	Judgment T59
+R62	Member-collection Arg1:T64 Arg2:T63	
+R63	Attribute Arg1:T67 Arg2:T66	
+R64	Coreference Arg1:T68 Arg2:T57	
+R65	Poss Arg1:T68 Arg2:T69	
+R66	Output Arg1:T67 Arg2:T69	
+R67	Condition Arg1:T67 Arg2:T63	
+R68	Attribute Arg1:T71 Arg2:T70	
+R69	Destination Arg1:T67 Arg2:T71	
+R70	Attribute Arg1:T73 Arg2:T72	
+T65	COMPARE 1006 1010	than
+R71	from Arg1:T65 Arg2:T73	
+R72	to Arg1:T65 Arg2:T70	
+R73	Attribute Arg1:T74 Arg2:T75	
+R74	Coreference Arg1:T74 Arg2:T68	
+R75	Attribute Arg1:T78 Arg2:T77	
+R77	Attribute Arg1:T80 Arg2:T79	
+R78	Attribute Arg1:T84 Arg2:T83	
+R79	Coreference Arg1:T82 Arg2:T74	
+R80	Agent Arg1:T84 Arg2:T82	
+R81	Coreference Arg1:T81 Arg2:T80	
+R82	Condition Arg1:T84 Arg2:T81	
+R76	Attribute Arg1:T75 Arg2:T76	
+R83	Compare Arg1:T77 Arg2:T76	
+R84	Condition Arg1:T75 Arg2:T80	
+R46	Attribute Arg1:T49 Arg2:T48	
+R47	Apply-to Arg1:T47 Arg2:T49	
+T85	REFERENCE 549 553	that
+R85	Coreference Arg1:T85 Arg2:T39	
+R86	In_Out Arg1:T42 Arg2:T85	

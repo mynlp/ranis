@@ -1,0 +1,81 @@
+R1	Attribute Arg1:T4 Arg2:T3
+R2	Attribute Arg1:T2 Arg2:T4
+R3	Coreference Arg1:T5 Arg2:T2
+R4	Attribute Arg1:T8 Arg2:T7
+R7	Coreference Arg1:T13 Arg2:T5
+R8	In_Out Arg1:T12 Arg2:T13
+R9	Attribute Arg1:T12 Arg2:T11
+R10	Attribute Arg1:T11 Arg2:T10
+R11	Attribute Arg1:T17 Arg2:T16
+R12	In_Out Arg1:T18 Arg2:T19
+R13	Target Arg1:T15 Arg2:T17
+R14	Target Arg1:T15 Arg2:T18
+R15	from Arg1:T14 Arg2:T15
+R16	to Arg1:T14 Arg2:T12
+R17	Attribute Arg1:T23 Arg2:T22
+R18	Equivalence Arg1:T24 Arg2:T23
+R19	Output Arg1:T21 Arg2:T23
+R20	Destination Arg1:T21 Arg2:T20
+R21	Coreference Arg1:T25 Arg2:T24
+R22	Input Arg1:T27 Arg2:T28
+R23	Target Arg1:T27 Arg2:T26
+R24	Destination Arg1:T29 Arg2:T28
+R25	Output Arg1:T29 Arg2:T30
+R26	Output Arg1:T29 Arg2:T31
+R27	Output Arg1:T29 Arg2:T32
+R28	Attribute Arg1:T33 Arg2:T34
+R29	Condition Arg1:T34 Arg2:T35
+R30	Component-object Arg1:T33 Arg2:T36
+R31	Attribute Arg1:T33 Arg2:T37
+A1	Judgment T37
+R32	from Arg1:T9 Arg2:T33
+R33	Attribute Arg1:T9 Arg2:T37
+R34	Condition Arg1:T37 Arg2:T38
+R35	Apply-to Arg1:T33 Arg2:T38
+R36	Attribute Arg1:T40 Arg2:T39
+R37	In_Out Arg1:T38 Arg2:T40
+R38	Destination Arg1:T38 Arg2:T41
+A2	Name T41
+R5	In_Out Arg1:T6 Arg2:T5
+R6	Condition Arg1:T6 Arg2:T8
+T1	PLAN-OR-PROCESS 0 35	Corpus-Based Grammar Specialization
+T2	PLAN 38 61	Broad-coverage grammars
+T3	MODALITY 62 66	tend
+T4	QUALITY 73 89	highly ambiguous
+T5	PLAN 97 110	such grammars
+T6	PROCESS 115 119	used
+T7	QUALITY 125 135	restricted
+T8	DOMAIN 136 142	domain
+T10	MODALITY 148 151	may
+T11	QUALITY 155 164	desirable
+T12	PROCESS 168 178	specialize
+T13	REFERENCE 179 183	them
+T14	EQUIVALENCE 186 195	in effect
+T15	PROCESS 196 203	trading
+T16	QUANTITY 204 208	some
+T17	DATA-ITEM 209 217	coverage
+T18	PROCESS 224 233	reduction
+T19	DATA-ITEM 237 246	ambiguity
+T20	PLAN-OR-PROCESS 249 271	Grammar specialization
+T21	PROCESS 280 285	given
+T22	QUALITY 288 293	novel
+T23	PLAN 294 305	formulation
+T24	PLAN 312 332	optimization problem
+T25	REFERENCE 338 343	which
+T26	PLAN-OR-PROCESS 348 354	search
+T27	PROCESS 358 364	guided
+T28	DATA-ITEM 370 384	global measure
+T29	PROCESS 385 394	combining
+T30	DATA-ITEM 395 403	coverage
+T31	DATA-ITEM 406 415	ambiguity
+T32	DATA-ITEM 420 432	grammar size
+T33	PLAN 439 445	method
+T34	QUALITY 448 458	applicable
+T35	PLAN 466 485	unification grammar
+T36	PLAN 493 518	phrase-structure backbone
+T9	RESULT 524 529	shown
+T37	QUALITY 536 545	effective
+T38	PROCESS 549 561	specializing
+T39	QUALITY 564 578	broad-coverage
+T40	PLAN 579 582	LFG
+T41	LANGUAGE 587 593	French

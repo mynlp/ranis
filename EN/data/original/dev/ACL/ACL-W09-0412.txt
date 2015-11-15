@@ -1,0 +1,6 @@
+NUS at WMT09 : Domain Adaptation Experiments for English-Spanish Machine Translation of News Commentary Text .
+We describe the system developed by the team of the National University of Singapore for English to Spanish machine translation of News Commentary text for the WMT09 Shared Translation Task .
+Our approach is based on domain adaptation , combining a small in-domain News Commentary bi-text and a large out-of-domain one from the Europarl corpus , from which we built and combined two separate phrase tables .
+We further combined two language models ( in-domain and out-of-domain ) , and we experimented with cognates , improved tokenization and recasing , achieving the highest lowercased NIST score of 6.963 and the second best lowercased Bleu score of 24.91 % for training without using additional external data for English-to-Spanish translation at the shared task .
+
+

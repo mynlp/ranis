@@ -1,0 +1,301 @@
+T1	PLAN-OR-PROCESS 0 24	Unsupervised Acquisition
+T2	DATA-ITEM 28 51	Predominant Word Senses
+T3	QUANTITY 70 80	great deal
+T4	EXTERNAL-REFERENCE 84 99	recent research
+T5	PLAN-OR-PROCESS 105 130	word sense disambiguation
+T6	PROCESS 155 164	inception
+T7	PLAN 172 201	Senseval evaluation exercises
+T8	DATA-ITEM 213 217	word
+T9	QUALITY 218 223	often
+T10	QUANTITY 228 241	more than one
+T11	DATA-ITEM 242 249	meaning
+T12	PROCESS 251 260	resolving
+T13	DATA-ITEM 261 281	word sense ambiguity
+T14	MODALITY 282 287	could
+T15	PROCESS 288 295	benefit
+T16	PLAN 296 308	applications
+T17	REFERENCE 309 313	that
+T18	QUALITY 314 318	need
+T20	QUALITY 319 329	some level
+T21	PLAN-OR-PROCESS 333 356	semantic interpretation
+T22	DATA-ITEM 360 374	language input
+T23	QUALITY 378 383	major
+T24	PLAN 384 391	problem
+T25	DATA-ITEM 404 412	accuracy
+T26	PLAN 416 449	word sense disambiguation systems
+T27	RESULT 462 471	dependent
+T28	DATA-ITEM 479 487	quantity
+T30	DATA-ITEM 491 517	manually sense-tagged data
+T31	QUALITY 518 527	available
+T32	QUALITY 542 546	best
+T33	PLAN 547 554	systems
+T34	PROCESS 561 568	tagging
+T35	QUANTITY 569 574	every
+T36	DATA-ITEM 575 585	word token
+T38	DATA-ITEM 591 599	document
+T39	RESULT 601 608	perform
+T40	QUALITY 609 622	little better
+T41	QUALITY 630 636	simple
+T42	PLAN 637 646	heuristic
+T43	REFERENCE 647 651	that
+T44	PROCESS 652 659	guesses
+T45	QUALITY 664 669	first
+T46	QUALITY 674 685	predominant
+T47	DATA-ITEM 687 692	sense
+T48	DATA-ITEM 698 702	word
+T49	QUANTITY 706 709	all
+T50	DATA-ITEM 710 718	contexts
+T51	QUALITY 724 731	success
+T52	PLAN 735 749	this heuristic
+T53	RESULT 753 759	due to
+T54	QUALITY 764 777	skewed nature
+T55	DATA-ITEM 781 805	word sense distributions
+T56	DATA-ITEM 807 811	Data
+T57	PLAN 820 829	heuristic
+T58	MODALITY 830 833	can
+T59	PROCESS 834 838	come
+T60	DATA-ITEM 851 863	dictionaries
+T61	DATA-ITEM 869 875	sample
+T62	DATA-ITEM 879 896	sense-tagged data
+T63	QUALITY 918 925	limited
+T64	DATA-ITEM 926 932	supply
+T65	REFERENCE 940 946	latter
+T66	DATA-ITEM 956 975	sense distributions
+T67	QUALITY 980 991	predominant
+T68	DATA-ITEM 992 997	sense
+T69	DATA-ITEM 1003 1007	word
+T70	MODALITY 1008 1011	can
+T71	RESULT 1012 1018	depend
+T72	DOMAIN 1026 1032	domain
+T73	DATA-ITEM 1036 1042	source
+T74	DATA-ITEM 1048 1056	document
+T75	QUALITY 1063 1068	first
+T76	DATA-ITEM 1069 1074	sense
+T77	DATA-ITEM 1080 1084	star
+T78	DATA-ITEM 1091 1098	example
+T79	MODALITY 1099 1104	would
+T80	QUALITY 1108 1117	different
+T81	QUALITY 1125 1132	popular
+T82	DATA-ITEM 1143 1162	scientific journals
+T83	REFERENCE 1168 1180	this article
+T84	PERSON 1182 1184	we
+T85	PROCESS 1185 1191	expand
+T86	QUALITY 1197 1216	previously proposed
+T87	PLAN 1217 1223	method
+T88	PLAN-OR-PROCESS 1228 1239	determining
+T89	QUALITY 1244 1255	predominant
+T90	DATA-ITEM 1256 1261	sense
+T91	DATA-ITEM 1267 1271	word
+T92	QUALITY 1272 1285	automatically
+T93	DATA-ITEM 1291 1299	raw text
+T94	PERSON 1301 1303	We
+T95	PROCESS 1304 1308	look
+T96	QUANTITY 1312 1320	a number
+T97	QUALITY 1324 1333	different
+T98	DATA-ITEM 1334 1346	data sources
+T99	PLAN-OR-PROCESS 1351 1368	parameterizations
+T100	PLAN 1376 1382	method
+T101	PROCESS 1384 1389	using
+T102	DATA-ITEM 1390 1408	evaluation results
+T103	PLAN-OR-PROCESS 1413 1427	error analyses
+T104	PROCESS 1431 1439	identify
+T106	PLAN 1450 1456	method
+T107	RESULT 1457 1465	performs
+T108	QUALITY 1466 1470	well
+T109	REFERENCE 1486 1488	it
+T110	MODALITY 1494 1497	not
+T111	PERSON 1514 1516	we
+T112	PROCESS 1517 1521	find
+T113	PLAN 1531 1537	method
+T114	MODALITY 1543 1546	not
+T115	RESULT 1547 1551	work
+T116	DATA-ITEM 1564 1569	verbs
+T117	DATA-ITEM 1574 1581	adverbs
+T118	DATA-ITEM 1585 1590	nouns
+T119	DATA-ITEM 1595 1605	adjectives
+T120	PROCESS 1611 1619	produces
+T121	QUALITY 1620 1633	more accurate
+T122	QUALITY 1634 1645	predominant
+T123	DATA-ITEM 1646 1663	sense information
+T124	QUALITY 1673 1684	widely used
+T125	DATA-ITEM 1685 1698	SemCor corpus
+T126	DATA-ITEM 1703 1708	nouns
+T127	QUALITY 1714 1717	low
+T128	DATA-ITEM 1718 1726	coverage
+T129	DATA-ITEM 1730 1741	that corpus
+T130	PERSON 1743 1745	We
+T131	PROCESS 1754 1758	show
+T132	PLAN 1768 1774	method
+T133	MODALITY 1778 1782	able
+T134	PROCESS 1786 1791	adapt
+T135	QUALITY 1792 1804	successfully
+T136	INPUT 1821 1826	using
+T137	DATA-ITEM 1827 1850	domain specific corpora
+T140	DATA-ITEM 1874 1879	input
+T141	MODALITY 1880 1883	can
+T142	PROCESS 1894 1906	hand-labeled
+T143	DOMAIN 1911 1917	domain
+T144	QUALITY 1921 1934	automatically
+T145	PROCESS 1935 1945	classified
+R1	In_Out Arg1:T1 Arg2:T2	
+R2	Attribute Arg1:T4 Arg2:T3	
+R3	Condition Arg1:T4 Arg2:T5	
+R4	Target Arg1:T6 Arg2:T7	
+R5	Attribute Arg1:T11 Arg2:T10	
+T146	ATTRIBUTE 224 227	has
+R6	from Arg1:T146 Arg2:T8	
+R7	to Arg1:T146 Arg2:T11	
+R8	Attribute Arg1:T146 Arg2:T9	
+R9	In_Out Arg1:T12 Arg2:T13	
+R10	Attribute Arg1:T15 Arg2:T14	
+R11	Target Arg1:T15 Arg2:T16	
+R12	Apply-to Arg1:T12 Arg2:T15	
+R13	Coreference Arg1:T17 Arg2:T16	
+R15	Input Arg1:T21 Arg2:T22	
+R16	Condition Arg1:T18 Arg2:T17	
+R17	Attribute Arg1:T21 Arg2:T18	
+R18	Attribute Arg1:T21 Arg2:T20	
+R19	Attribute Arg1:T24 Arg2:T23	
+R20	Attribute Arg1:T26 Arg2:T25	
+R21	Attribute Arg1:T30 Arg2:T31	
+R22	Attribute Arg1:T30 Arg2:T28	
+R23	from Arg1:T27 Arg2:T28	
+R24	to Arg1:T27 Arg2:T25	
+T29	QUALITY 453 461	strongly
+R25	Attribute Arg1:T27 Arg2:T29	
+R26	Attribute Arg1:T33 Arg2:T32	
+R27	Attribute Arg1:T36 Arg2:T35	
+R28	Component-object Arg1:T38 Arg2:T36	
+R29	Destination Arg1:T34 Arg2:T36	
+R30	Member-collection Arg1:T33 Arg2:T26	
+R31	from Arg1:T39 Arg2:T33	
+R32	to Arg1:T39 Arg2:T40	
+R33	Attribute Arg1:T42 Arg2:T41	
+T37	COMPARE 623 627	than
+R34	from Arg1:T37 Arg2:T42	
+R35	to Arg1:T37 Arg2:T40	
+A1	Judgment T40
+A2	Judgment T32
+R36	Coreference Arg1:T43 Arg2:T42	
+R37	Apply-to Arg1:T43 Arg2:T44	
+R38	Attribute Arg1:T48 Arg2:T47	
+R39	Attribute Arg1:T47 Arg2:T46	
+R40	Attribute Arg1:T47 Arg2:T45	
+R41	Output Arg1:T44 Arg2:T47	
+R42	Attribute Arg1:T50 Arg2:T49	
+R44	Attribute Arg1:T52 Arg2:T51	
+R45	Coreference Arg1:T52 Arg2:T42	
+R46	Attribute Arg1:T55 Arg2:T54	
+R47	from Arg1:T53 Arg2:T54	
+R48	to Arg1:T53 Arg2:T51	
+R49	Input Arg1:T57 Arg2:T56	
+R50	Attribute Arg1:T59 Arg2:T58	
+R51	Member-collection Arg1:T61 Arg2:T62	
+R52	Output Arg1:T59 Arg2:T56	
+R53	Input Arg1:T59 Arg2:T60	
+R54	Input Arg1:T59 Arg2:T61	
+R55	Coreference Arg1:T65 Arg2:T62	
+R56	Attribute Arg1:T65 Arg2:T64	
+R57	Attribute Arg1:T64 Arg2:T63	
+R58	Attribute Arg1:T68 Arg2:T67	
+R59	Attribute Arg1:T69 Arg2:T68	
+R60	Attribute Arg1:T74 Arg2:T72	
+R61	Attribute Arg1:T74 Arg2:T73	
+R62	Attribute Arg1:T71 Arg2:T70	
+R63	from Arg1:T71 Arg2:T72	
+R64	from Arg1:T71 Arg2:T73	
+R65	to Arg1:T71 Arg2:T66	
+R66	to Arg1:T71 Arg2:T68	
+R67	Attribute Arg1:T76 Arg2:T75	
+R68	Attribute Arg1:T77 Arg2:T76	
+R69	Member-collection Arg1:T77 Arg2:T78	
+R70	Attribute Arg1:T80 Arg2:T79	
+T147	DATA-ITEM 1133 1138	press
+R71	Attribute Arg1:T147 Arg2:T81	
+R73	Attribute Arg1:T76 Arg2:T80	
+R72	Compare Arg1:T82 Arg2:T80	
+R74	Compare Arg1:T147 Arg2:T80	
+A3	Self T83
+A4	Self T84
+A5	Intentional T85
+R75	Agent Arg1:T85 Arg2:T84	
+R76	Condition Arg1:T85 Arg2:T83	
+R77	Attribute Arg1:T87 Arg2:T86	
+R78	Attribute Arg1:T90 Arg2:T89	
+R79	Attribute Arg1:T91 Arg2:T90	
+R80	Output Arg1:T88 Arg2:T90	
+R81	Attribute Arg1:T88 Arg2:T92	
+R82	Input Arg1:T88 Arg2:T93	
+R83	Apply-to Arg1:T87 Arg2:T88	
+R84	In_Out Arg1:T85 Arg2:T87	
+A6	Self T94
+A7	Intentional T95
+R85	Agent Arg1:T95 Arg2:T94	
+R86	Attribute Arg1:T98 Arg2:T97	
+R87	Attribute Arg1:T98 Arg2:T96	
+R88	Component-object Arg1:T100 Arg2:T99	
+R89	Target Arg1:T95 Arg2:T96	
+R90	Target Arg1:T95 Arg2:T99	
+R91	Apply-to Arg1:T101 Arg2:T104	
+R92	Input Arg1:T101 Arg2:T102	
+R93	Apply-to Arg1:T103 Arg2:T101	
+R94	from Arg1:T107 Arg2:T106	
+R95	to Arg1:T107 Arg2:T108	
+R96	Coreference Arg1:T109 Arg2:T106	
+A8	Self T111
+R99	Agent Arg1:T112 Arg2:T111	
+T148	QUALITY 1555 1559	well
+A9	Judgment T148
+R100	Attribute Arg1:T115 Arg2:T114	
+R101	Attribute Arg1:T115 Arg2:T148	
+R102	from Arg1:T115 Arg2:T113	
+R109	Apply-to Arg1:T113 Arg2:T120	
+R110	Attribute Arg1:T123 Arg2:T122	
+R111	Attribute Arg1:T123 Arg2:T121	
+R112	Output Arg1:T120 Arg2:T123	
+R113	Attribute Arg1:T125 Arg2:T124	
+R114	Condition Arg1:T125 Arg2:T126	
+R115	Attribute Arg1:T128 Arg2:T127	
+R116	Coreference Arg1:T129 Arg2:T125	
+R117	Attribute Arg1:T126 Arg2:T128	
+T149	COMPARE 1664 1668	than
+R119	from Arg1:T149 Arg2:T125	
+R120	to Arg1:T149 Arg2:T121	
+R121	to Arg1:T149 Arg2:T122	
+A10	Self T130
+A11	Intentional T131
+R122	Agent Arg1:T131 Arg2:T130	
+T150	DOMAIN 1808 1815	domains
+R123	Apply-to Arg1:T134 Arg2:T132	
+R124	Destination Arg1:T134 Arg2:T150	
+R125	Attribute Arg1:T134 Arg2:T135	
+R126	Attribute Arg1:T134 Arg2:T133	
+R128	from Arg1:T136 Arg2:T132	
+R129	to Arg1:T136 Arg2:T137	
+R130	Attribute Arg1:T145 Arg2:T144	
+R131	Output Arg1:T142 Arg2:T140	
+R132	Attribute Arg1:T142 Arg2:T141	
+R133	Input Arg1:T145 Arg2:T140	
+A12	Judgment T135
+R14	Apply-to Arg1:T33 Arg2:T34	
+R43	Condition Arg1:T47 Arg2:T50	
+R136	Agent Arg1:T101 Arg2:T94	
+A13	Judgment T108
+T19	RESULT 1489 1493	does
+R97	Attribute Arg1:T19 Arg2:T110	
+R98	from Arg1:T19 Arg2:T109	
+R137	to Arg1:T19 Arg2:T108	
+R103	Input Arg1:T113 Arg2:T116	
+R104	Input Arg1:T113 Arg2:T117	
+R105	Input Arg1:T113 Arg2:T118	
+R106	Input Arg1:T113 Arg2:T119	
+A14	Judgment T121
+A15	Judgment T122
+A16	Judgment T127
+R138	Component-object Arg1:T129 Arg2:T126	
+R118	Attribute Arg1:T132 Arg2:T140	
+R134	Condition Arg1:T142 Arg2:T143	
+T105	COMPARE 1582 1584	as
+R127	from Arg1:T105 Arg2:T118	
+R135	to Arg1:T105 Arg2:T148	
+R107	from Arg1:T105 Arg2:T119	

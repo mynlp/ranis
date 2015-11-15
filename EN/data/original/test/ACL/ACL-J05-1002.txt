@@ -1,0 +1,4 @@
+Real versus Template-Based Natural Language Generation: A False Opposition?
+
+This article challenges the received wisdom that template-based approaches to the generation of language are necessarily inferior to other approaches as regards their maintainability, linguistic well-foundedness, and quality of output.
+Some recent NLG systems that call themselves ``template-based'' will illustrate our claims.

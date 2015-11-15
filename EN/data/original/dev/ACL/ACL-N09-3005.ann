@@ -1,0 +1,94 @@
+R1	Attribute Arg1:T4 Arg2:T45
+R2	In_Out Arg1:T3 Arg2:T4
+R3	from Arg1:T1 Arg2:T2
+R4	to Arg1:T1 Arg2:T3
+R5	Attribute Arg1:T8 Arg2:T7
+R6	Attribute Arg1:T9 Arg2:T46
+R7	Output Arg1:T8 Arg2:T9
+R8	Attribute Arg1:T8 Arg2:T6
+R9	Result Arg1:T8 Arg2:T5
+R10	Coreference Arg1:T10 Arg2:T9
+R11	Attribute Arg1:T14 Arg2:T13
+R12	Origin Arg1:T12 Arg2:T14
+R13	Output Arg1:T12 Arg2:T10
+R14	Attribute Arg1:T12 Arg2:T11
+R15	Attribute Arg1:T15 Arg2:T16
+R16	Member-collection Arg1:T20 Arg2:T19
+R17	Input Arg1:T18 Arg2:T19
+R18	Attribute Arg1:T18 Arg2:T17
+R19	Attribute Arg1:T23 Arg2:T22
+R20	Condition Arg1:T25 Arg2:T24
+R21	Attribute Arg1:T23 Arg2:T25
+R22	from Arg1:T21 Arg2:T23
+R23	to Arg1:T21 Arg2:T18
+R24	Attribute Arg1:T27 Arg2:T26
+R25	Destination Arg1:T33 Arg2:T32
+R26	Attribute Arg1:T31 Arg2:T47
+R27	Condition Arg1:T31 Arg2:T32
+R28	Attribute Arg1:T31 Arg2:T30
+R29	In_Out Arg1:T29 Arg2:T30
+R30	Apply-to Arg1:T28 Arg2:T29
+R31	Condition Arg1:T29 Arg2:T27
+A1	Self T34
+A2	Intentional T35
+R32	Agent Arg1:T35 Arg2:T34
+R33	Attribute Arg1:T37 Arg2:T36
+R34	Output Arg1:T35 Arg2:T37
+R35	Apply-to Arg1:T37 Arg2:T38
+R36	Target Arg1:T38 Arg2:T39
+A3	Intentional T48
+R37	Agent Arg1:T48 Arg2:T34
+R38	Compare Arg1:T43 Arg2:T41
+R39	Compare Arg1:T44 Arg2:T41
+R40	Attribute Arg1:T41 Arg2:T42
+A4	Judgment T41
+R41	Attribute Arg1:T40 Arg2:T41
+R42	Coreference Arg1:T40 Arg2:T37
+T1	APPLY-TO 0 5	Using
+T2	PLAN-OR-PROCESS 6 23	Language Modeling
+T3	PROCESS 27 33	Select
+T45	QUALITY 34 40	Useful
+T4	DATA-ITEM 41 56	Annotation Data
+T5	PLAN 62 80	annotation project
+T6	QUALITY 81 90	typically
+T7	QUALITY 98 106	abundant
+T8	PLAN-OR-PROCESS 107 113	supply
+T46	QUALITY 117 126	unlabeled
+T9	DATA-ITEM 127 131	data
+T10	REFERENCE 132 136	that
+T11	MODALITY 137 140	can
+T12	PROCESS 144 149	drawn
+T13	QUANTITY 155 159	some
+T14	DATA-ITEM 160 166	corpus
+T15	PLAN 185 201	labeling process
+T16	QUALITY 205 214	expensive
+T17	QUALITY 223 230	helpful
+T18	PROCESS 234 244	pre-screen
+T19	DATA-ITEM 249 253	pool
+T20	DATA-ITEM 261 280	candidate instances
+T21	APPLY-TO 281 289	based on
+T22	QUANTITY 290 294	some
+T23	PLAN 295 304	criterion
+T24	TIME 308 314	future
+T25	DATA-ITEM 315 325	usefulness
+T26	QUANTITY 331 335	many
+T27	PLAN 336 341	cases
+T28	PLAN 349 358	criterion
+T29	JUDGING-PROCESS 365 372	improve
+T30	DATA-ITEM 377 385	presence
+T47	QUALITY 393 397	rare
+T31	DATA-ITEM 398 405	classes
+T32	DATA-ITEM 413 417	data
+T33	PROCESS 424 433	annotated
+T34	PERSON 436 438	We
+T35	PROCESS 439 446	propose
+T36	QUALITY 449 454	novel
+T37	PLAN 455 461	method
+T38	PROCESS 466 473	solving
+T39	PLAN 474 486	this problem
+T48	PROCESS 491 495	show
+T40	REFERENCE 501 503	it
+T41	QUALITY 504 512	compares
+T42	QUALITY 513 522	favorably
+T43	PLAN 528 552	random sampling baseline
+T44	PLAN 559 579	clustering algorithm

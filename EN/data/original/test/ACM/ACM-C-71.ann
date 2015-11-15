@@ -1,0 +1,174 @@
+T1	PLAN 2 26	Point-Distribution Index
+T2	APPLY-TO 35 46	Application
+T3	PLAN-OR-PROCESS 50 65	Sensor-Grouping
+T4	ARTIFACT 69 93	Wireless Sensor Networks
+T5	QUALITY 110 115	novel
+T6	PLAN 116 121	index
+T7	PROCESS 126 136	evaluation
+T8	DATA-ITEM 140 158	point-distribution
+T9	PLAN 105 106	ι
+T10	PLAN 160 161	ι
+T11	PLAN 177 185	distance
+T12	QUALITY 169 176	minimum
+T13	DATA-ITEM 199 203	pair
+T14	DATA-ITEM 207 213	points
+T15	PROCESS 214 224	normalized
+T16	DATA-ITEM 232 248	average distance
+T17	DATA-ITEM 262 266	pair
+T18	DATA-ITEM 270 276	points
+T19	DATA-ITEM 293 296	set
+T20	DATA-ITEM 300 306	points
+T21	RESULT 312 319	achieve
+T22	REFERENCE 307 311	that
+R1	Coreference Arg1:T22 Arg2:T20	
+T23	QUALITY 322 329	maximum
+T24	DATA-ITEM 330 335	value
+T25	PLAN 339 340	ι
+T26	PROCESS 341 347	result
+T27	QUALITY 353 372	honeycomb structure
+T28	PLAN 390 391	ι
+T29	MODALITY 392 395	can
+T30	IS-A 396 401	serve
+T31	QUALITY 407 411	good
+T32	PLAN 412 417	index
+T33	PROCESS 421 429	evaluate
+T34	DATA-ITEM 434 446	distribution
+T35	DATA-ITEM 454 460	points
+T36	REFERENCE 462 467	which
+R2	Coreference Arg1:T36 Arg2:T32	
+T37	MODALITY 468 471	can
+T38	APPLY-TO 475 483	employed
+T39	PLAN 487 512	coverage-related problems
+T40	ARTIFACT 516 540	wireless sensor networks
+T41	ARTIFACT 542 546	WSNs
+R3	Equivalence Arg1:T41 Arg2:T40	
+T42	PROCESS 552 560	validate
+T43	PLAN 561 570	this idea
+T44	PROCESS 575 584	formulate
+T45	PLAN 595 618	sensor-grouping problem
+T46	ARTIFACT 623 627	WSNs
+T47	PLAN 650 663	sensing model
+T48	PROCESS 632 639	provide
+T49	QUALITY 678 685	locally
+T50	ARTIFACT 702 714	sensor nodes
+T51	PLAN 697 698	ι
+T52	PLAN-OR-PROCESS 725 733	approach
+T53	QUALITY 720 724	good
+T54	PROCESS 737 742	solve
+T55	PLAN 743 755	this problem
+T56	PLAN 764 773	algorithm
+T59	DATA-ITEM 817 835	Simulation results
+T60	PROCESS 836 842	verify
+T62	JUDGING-PROCESS 853 864	outperforms
+T63	PLAN 867 883	greedy algorithm
+T64	REFERENCE 884 888	that
+R5	Coreference Arg1:T64 Arg2:T63	
+T65	APPLY-TO 889 897	exploits
+T66	QUALITY 898 915	sensor-redundancy
+T67	PROCESS 919 925	design
+T68	RESULT 932 944	demonstrates
+T69	PLAN-OR-PROCESS 952 963	application
+T70	QUALITY 947 951	good
+T71	REFERENCE 927 931	This
+T72	APPLY-TO 967 976	employing
+T73	PLAN 977 978	ι
+T74	PLAN 982 1007	coverage-related problems
+T75	ARTIFACT 1012 1016	WSNs
+T76	IS-A 774 780	called
+R6	Attribute Arg1:T6 Arg2:T5	
+R7	Attribute Arg1:T11 Arg2:T12	
+R8	Attribute Arg1:T24 Arg2:T23	
+R9	Attribute Arg1:T32 Arg2:T31	
+R10	Attribute Arg1:T38 Arg2:T37	
+T77	PLAN-OR-PROCESS 686 696	maximizing
+R11	Attribute Arg1:T77 Arg2:T49	
+R12	Attribute Arg1:T52 Arg2:T53	
+R14	Attribute Arg1:T69 Arg2:T70	
+T78	QUALITY 587 594	general
+R15	Attribute Arg1:T45 Arg2:T78	
+R16	Coreference Arg1:T55 Arg2:T45	
+T79	PLAN 781 808	Maximizing-ι Node-Deduction
+T80	PLAN 810 814	MIND
+T81	PLAN 848 852	MIND
+R4	Equivalence Arg1:T80 Arg2:T79	
+T57	REFERENCE 31 34	Its
+R18	Coreference Arg1:T57 Arg2:T1	
+T61	QUALITY 642 649	general
+R19	Attribute Arg1:T47 Arg2:T61	
+R13	from Arg1:T2 Arg2:T57	
+R20	to Arg1:T2 Arg2:T3	
+R21	Condition Arg1:T2 Arg2:T4	
+R22	Is-a Arg1:T9 Arg2:T6	
+R23	Apply-to Arg1:T6 Arg2:T7	
+R24	Input Arg1:T7 Arg2:T8	
+R25	Is-a Arg1:T10 Arg2:T11	
+R26	Member-collection Arg1:T14 Arg2:T13	
+R27	Condition Arg1:T11 Arg2:T13	
+R28	In_Out Arg1:T15 Arg2:T11	
+R29	Input Arg1:T15 Arg2:T16	
+R30	Member-collection Arg1:T18 Arg2:T17	
+R31	Condition Arg1:T16 Arg2:T17	
+R32	Member-collection Arg1:T20 Arg2:T19	
+R33	from Arg1:T21 Arg2:T22	
+R34	to Arg1:T21 Arg2:T24	
+R35	Attribute Arg1:T25 Arg2:T24	
+R36	Output Arg1:T26 Arg2:T19	
+R37	Output Arg1:T26 Arg2:T27	
+R38	from Arg1:T30 Arg2:T28	
+R39	Attribute Arg1:T30 Arg2:T29	
+R40	to Arg1:T30 Arg2:T32	
+R41	Apply-to Arg1:T32 Arg2:T33	
+R42	Attribute Arg1:T35 Arg2:T34	
+R43	In_Out Arg1:T33 Arg2:T34	
+R44	from Arg1:T38 Arg2:T36	
+R45	to Arg1:T38 Arg2:T39	
+R46	Condition Arg1:T39 Arg2:T40	
+R47	Input Arg1:T42 Arg2:T43	
+R48	Apply-to Arg1:T44 Arg2:T42	
+R49	Output Arg1:T44 Arg2:T45	
+R50	Condition Arg1:T45 Arg2:T46	
+R51	Output Arg1:T48 Arg2:T47	
+R52	Apply-to Arg1:T48 Arg2:T42	
+R53	In_Out Arg1:T77 Arg2:T51	
+R54	Condition Arg1:T77 Arg2:T50	
+R55	Is-a Arg1:T77 Arg2:T52	
+R56	Apply-to Arg1:T52 Arg2:T54	
+R57	In_Out Arg1:T54 Arg2:T55	
+R58	Apply-to Arg1:T56 Arg2:T54	
+R59	to Arg1:T76 Arg2:T56	
+R60	from Arg1:T76 Arg2:T79	
+R61	Other-rel Arg1:T59 Arg2:T60	
+R62	Target Arg1:T60 Arg2:T62	
+R63	Compare Arg1:T63 Arg2:T62	
+R17	Apply-to Arg1:T81 Arg2:T62	
+R64	to Arg1:T65 Arg2:T64	
+R65	from Arg1:T65 Arg2:T66	
+R66	Output Arg1:T67 Arg2:T63	
+R67	Coreference Arg1:T71 Arg2:T62	
+R68	from Arg1:T68 Arg2:T71	
+R69	to Arg1:T68 Arg2:T69	
+R70	from Arg1:T72 Arg2:T73	
+R71	to Arg1:T72 Arg2:T69	
+R72	Condition Arg1:T74 Arg2:T75	
+R73	Apply-to Arg1:T69 Arg2:T74	
+R74	Coreference Arg1:T43 Arg2:T28	
+T58	PERSON 94 96	We
+T82	PROCESS 97 104	propose
+T83	PERSON 278 280	We
+T84	PROCESS 281 285	find
+T85	PERSON 374 376	We
+T86	PROCESS 377 384	propose
+T87	PERSON 572 574	we
+T88	PERSON 665 667	We
+T89	PROCESS 668 672	show
+T90	PERSON 916 918	we
+R75	Agent Arg1:T82 Arg2:T58	
+R76	Output Arg1:T82 Arg2:T9	
+R77	Agent Arg1:T84 Arg2:T83	
+R78	In_Out Arg1:T84 Arg2:T20	
+R79	Agent Arg1:T86 Arg2:T85	
+R80	Agent Arg1:T44 Arg2:T87	
+R81	Agent Arg1:T89 Arg2:T88	
+R82	Agent Arg1:T67 Arg2:T90	
+R83	Output Arg1:T86 Arg2:T31	
+R84	Output Arg1:T89 Arg2:T53	

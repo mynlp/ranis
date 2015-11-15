@@ -1,0 +1,126 @@
+T1	PLAN 8 40	Iterative Combinatorial Exchange
+T2	PLAN 0 3	ICE
+T3	PLAN 62 68	design
+T4	QUALITY 56 61	first
+T5	PLAN 76 108	iterative combinatorial exchange
+T6	PLAN 110 113	ICE
+R1	Equivalence Arg1:T1 Arg2:T2	
+R2	Equivalence Arg1:T6 Arg2:T5	
+T7	PLAN 120 128	exchange
+T8	PROCESS 129 141	incorporates
+T9	PLAN 144 171	tree-based bidding language
+T10	QUALITY 180 187	concise
+T11	QUALITY 192 202	expressive
+T12	PLAN 207 210	CEs
+T13	PERSON 212 219	Bidders
+T14	PROCESS 220 227	specify
+T15	DATA-ITEM 238 250	upper bounds
+T16	DATA-ITEM 228 233;244 250	lower bounds
+T17	DATA-ITEM 260 265	value
+T18	PLAN 280 286	trades
+T19	QUALITY 270 279	different
+T20	DATA-ITEM 288 300	These bounds
+T21	PROCESS 301 306	allow
+T22	PLAN-OR-PROCESS 307 322	price discovery
+T23	PLAN-OR-PROCESS 334 356	preference elicitation
+T24	QUALITY 327 333	useful
+T25	PLAN-OR-PROCESS 366 372	rounds
+T26	QUALITY 360 365	early
+T27	PROCESS 378 383	allow
+T28	PLAN-OR-PROCESS 384 395	termination
+T29	QUALITY 404 413	efficient
+T30	PLAN 414 419	trade
+T31	DATA-ITEM 451 468	bidder valuations
+T32	DATA-ITEM 428 447	partial information
+T33	PROCESS 474 485	computation
+T34	QUANTITY 470 473	All
+T35	PLAN 493 501	exchange
+T36	PROCESS 515 524	optimized
+T37	QUALITY 505 514	carefully
+T38	PROCESS 528 535	exploit
+T39	DATA-ITEM 540 549	structure
+T40	DATA-ITEM 557 566	bid-trees
+T41	PROCESS 574 579	avoid
+T42	PROCESS 580 591	enumerating
+T43	DATA-ITEM 592 598	trades
+T44	PLAN-OR-PROCESS 602 624	proxied interpretation
+T45	PLAN 630 662	revealedpreference activity rule
+T46	PROCESS 663 670	ensures
+T47	PLAN-OR-PROCESS 671 679	progress
+T48	PLAN-OR-PROCESS 687 693	rounds
+T49	PLAN 697 721	VCG-based payment scheme
+T50	PROCESS 745 753	mitigate
+T51	THING 754 767	opportunities
+T52	PLAN-OR-PROCESS 772 782	bargaining
+T53	PLAN-OR-PROCESS 787 805	strategic behavior
+T54	APPLY-TO 809 813	used
+T55	PROCESS 817 826	determine
+T56	PLAN 827 841	final payments
+T57	PLAN 847 855	exchange
+T59	QUALITY 859 864	fully
+T60	PLAN-OR-PROCESS 886 902	validation phase
+R3	Attribute Arg1:T3 Arg2:T4	
+T61	REFERENCE 172 176	that
+R4	Coreference Arg1:T61 Arg2:T9	
+R5	Attribute Arg1:T61 Arg2:T10	
+R6	Attribute Arg1:T61 Arg2:T11	
+R7	Attribute Arg1:T18 Arg2:T19	
+R8	Attribute Arg1:T23 Arg2:T24	
+R9	Attribute Arg1:T25 Arg2:T26	
+R10	Attribute Arg1:T30 Arg2:T29	
+R11	Attribute Arg1:T33 Arg2:T34	
+R12	Attribute Arg1:T36 Arg2:T37	
+R14	Coreference Arg1:T20 Arg2:T15	
+R15	Coreference Arg1:T20 Arg2:T16	
+T62	REFERENCE 722 726	that
+R16	Coreference Arg1:T62 Arg2:T49	
+T63	REFERENCE 254 259	their
+R17	Coreference Arg1:T63 Arg2:T13	
+R18	Poss Arg1:T63 Arg2:T17	
+R19	Apply-to Arg1:T3 Arg2:T5	
+R20	Apply-to Arg1:T7 Arg2:T8	
+R21	In_Out Arg1:T8 Arg2:T9	
+R22	Condition Arg1:T11 Arg2:T12	
+R23	Condition Arg1:T10 Arg2:T12	
+R24	Agent Arg1:T14 Arg2:T13	
+R25	Output Arg1:T14 Arg2:T15	
+R26	Output Arg1:T14 Arg2:T16	
+R28	Attribute Arg1:T18 Arg2:T17	
+R30	Input Arg1:T21 Arg2:T20	
+R31	Target Arg1:T21 Arg2:T22	
+R32	Target Arg1:T21 Arg2:T23	
+R33	Condition Arg1:T21 Arg2:T25	
+R34	Destination Arg1:T14 Arg2:T17	
+R27	Input Arg1:T27 Arg2:T20	
+R29	Target Arg1:T27 Arg2:T28	
+R35	Output Arg1:T28 Arg2:T30	
+R36	Condition Arg1:T32 Arg2:T31	
+R37	Condition Arg1:T28 Arg2:T32	
+R38	Apply-to Arg1:T33 Arg2:T35	
+R39	Apply-to Arg1:T33 Arg2:T36	
+R40	Apply-to Arg1:T36 Arg2:T38	
+R41	In_Out Arg1:T38 Arg2:T39	
+R42	Attribute Arg1:T40 Arg2:T39	
+R43	Apply-to Arg1:T36 Arg2:T41	
+R44	Output Arg1:T42 Arg2:T43	
+R45	Target Arg1:T41 Arg2:T42	
+R46	Input Arg1:T44 Arg2:T45	
+R47	Apply-to Arg1:T44 Arg2:T46	
+R48	Target Arg1:T46 Arg2:T47	
+R49	Condition Arg1:T47 Arg2:T48	
+R50	In_Out Arg1:T50 Arg2:T51	
+T58	MODALITY 736 741	shown
+R51	Attribute Arg1:T50 Arg2:T58	
+R52	Apply-to Arg1:T62 Arg2:T50	
+R53	Condition Arg1:T51 Arg2:T52	
+R54	Output Arg1:T55 Arg2:T56	
+R55	from Arg1:T54 Arg2:T53	
+R56	to Arg1:T54 Arg2:T55	
+T65	PROCESS 865 876	implemented
+R13	Attribute Arg1:T65 Arg2:T59	
+R57	Output Arg1:T65 Arg2:T57	
+R58	Condition Arg1:T57 Arg2:T60	
+T64	PERSON 41 43	We
+T66	PROCESS 44 51	present
+R59	Agent Arg1:T66 Arg2:T64	
+R60	Output Arg1:T66 Arg2:T3	

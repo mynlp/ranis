@@ -1,0 +1,64 @@
+T1	PLAN 10 19	Technique
+T2	PROCESS 23 28	Train
+T3	PLAN 29 44	Language Models
+T4	PLAN 48 63	Language Models
+T5	PLAN 92 102	conditions
+T6	PLAN 106 120	language model
+T7	MODALITY 121 124	can
+T8	PROCESS 128 135	trained
+T9	PLAN 161 175	language model
+T10	PLAN 181 194	main instance
+T11	PLAN 202 211	technique
+T12	PROCESS 212 218	trains
+T13	PLAN 221 237	finite automaton
+T14	PLAN 256 290	probabilistic context-free grammar
+T15	PERSON 306 314	Kullback
+T16	PERSON 315 322	Leibler
+T17	DATA-ITEM 306 331	Kullback-Leibler distance
+T18	PLAN 340 347	grammar
+T19	PLAN 352 369	trained automaton
+T20	QUALITY 373 389	provably minimal
+T22	PLAN-OR-PROCESS 413 427	generalization
+T23	PLAN 443 452	algorithm
+T24	QUALITY 434 442	existing
+T25	PROCESS 456 461	train
+T26	PLAN 465 477	n-gram model
+T27	PLAN 496 530	probabilistic context-free grammar
+R1	Attribute Arg1:T17 Arg2:T20	
+T21	QUALITY 401 412	substantial
+R2	Attribute Arg1:T22 Arg2:T21	
+R3	Attribute Arg1:T23 Arg2:T24	
+T28	REFERENCE 391 395	This
+R4	Coreference Arg1:T28 Arg2:T10	
+T31	QUALITY 154 160	second
+R5	Attribute Arg1:T9 Arg2:T31	
+T32	APPLY-TO 136 151	on the basis of
+R6	Apply-to Arg1:T1 Arg2:T2	
+R7	In_Out Arg1:T2 Arg2:T3	
+R8	Apply-to Arg1:T4 Arg2:T2	
+T33	QUALITY 2 9	General
+R9	Attribute Arg1:T1 Arg2:T33	
+T34	QUALITY 84 91	certain
+T35	APPLY-TO 238 253	on the basis of
+T36	APPLY-TO 478 493	on the basis of
+R10	Attribute Arg1:T5 Arg2:T34	
+R11	Attribute Arg1:T8 Arg2:T7	
+R12	In_Out Arg1:T8 Arg2:T6	
+R13	Condition Arg1:T8 Arg2:T5	
+R14	from Arg1:T32 Arg2:T9	
+R15	to Arg1:T32 Arg2:T8	
+R16	Is-a Arg1:T10 Arg2:T11	
+R17	In_Out Arg1:T12 Arg2:T13	
+R18	Apply-to Arg1:T10 Arg2:T12	
+R19	from Arg1:T35 Arg2:T14	
+R20	to Arg1:T35 Arg2:T13	
+R21	Attribute Arg1:T17 Arg2:T18	
+R22	Attribute Arg1:T17 Arg2:T19	
+R23	In_Out Arg1:T22 Arg2:T23	
+R24	Apply-to Arg1:T22 Arg2:T25	
+R25	In_Out Arg1:T25 Arg2:T26	
+R26	from Arg1:T36 Arg2:T27	
+R27	to Arg1:T36 Arg2:T26	
+T29	PERSON 65 67	We
+T30	PROCESS 68 72	show
+R28	Agent Arg1:T30 Arg2:T29	

@@ -1,0 +1,192 @@
+T1	PLAN-OR-PROCESS 0 20	Authority Assignment
+T2	PLAN 24 66	Distributed Multi-Player Proxy-based Games
+T3	PLAN 80 111	proxy-based gaming architecture
+T4	PLAN-OR-PROCESS 116 136	authority assignment
+T5	PLAN 144 161	this architecture
+R1	Coreference Arg1:T5 Arg2:T3	
+T6	REFERENCE 162 166	that
+R2	Coreference Arg1:T6 Arg2:T4	
+T7	MODALITY 167 170	can
+T8	RESULT 171 175	lead
+T9	PLAN-OR-PROCESS 186 209	game playing experience
+T10	QUALITY 179 185	better
+T11	PLAN 213 248	Massively Multi-player Online games
+T12	PLAN 254 280	proposed game architecture
+T13	COMPONENT-OBJECT 281 289	consists
+T14	PLAN 293 317	distributed game clients
+T15	REFERENCE 318 322	that
+R4	Coreference Arg1:T15 Arg2:T14	
+T16	PROCESS 323 330	connect
+T17	PLAN 334 346	game proxies
+T18	PLAN 363 384	communication proxies
+T19	EQUIVALENCE 348 356	referred
+T20	REFERENCE 386 391	which
+R5	Coreference Arg1:T20 Arg2:T17	
+T21	PROCESS 392 399	forward
+T22	DATA-ITEM 400 421	game related messages
+T23	PLAN 431 438	clients
+T24	PLAN 454 466	game servers
+T25	QUANTITY 442 453	one or more
+T28	PLAN 475 500	proxy-based architectures
+T29	REFERENCE 501 505	that
+R6	Coreference Arg1:T29 Arg2:T28	
+T30	PROCESS 516 524	proposed
+T31	EXTERNAL-REFERENCE 532 542	literature
+T32	PLAN 553 560	proxies
+T33	PROCESS 561 570	replicate
+T26	QUANTITY 571 574	all
+T34	DATA-ITEM 582 592	game state
+T35	REFERENCE 543 548	where
+R7	Coreference Arg1:T35 Arg2:T29	
+T36	PLAN 598 619	communication proxies
+T37	PLAN 627 648	proposed architecture
+T38	PROCESS 649 656	support
+T39	PLAN 657 664	clients
+T40	REFERENCE 665 669	that
+T41	QUALITY 674 689	in proximity to
+T42	REFERENCE 690 692	it
+R10	Coreference Arg1:T42 Arg2:T36	
+T43	ARTIFACT 700 716	physical network
+T44	PROCESS 721 729	maintain
+T45	DATA-ITEM 730 741	information
+T46	DATA-ITEM 748 765	selected portions
+T47	DATA-ITEM 773 783	game space
+T48	REFERENCE 784 788	that
+T49	QUALITY 793 801	relevant
+R11	Coreference Arg1:T48 Arg2:T46	
+T50	PLAN 814 821	clients
+T51	QUALITY 802 806	only
+T52	REFERENCE 822 826	that
+R12	Coreference Arg1:T52 Arg2:T50	
+T53	REFERENCE 827 831	they
+T54	PROCESS 832 839	support
+R13	Coreference Arg1:T53 Arg2:T36	
+T55	PLAN 847 864	this architecture
+T56	PLAN 880 910	authority assignment mechanism
+T57	REFERENCE 911 915	that
+R15	Coreference Arg1:T57 Arg2:T56	
+T58	PROCESS 916 923	divides
+T59	QUALITY 928 937	authority
+T60	PROCESS 942 950	deciding
+T61	THING 955 962	outcome
+T62	QUALITY 966 975	different
+T63	OCCURENT 976 990	actions/events
+T65	REFERENCE 991 995	that
+T66	PROCESS 996 1001	occur
+T67	PLAN-OR-PROCESS 1013 1017	game
+T68	PLAN 1026 1032	client
+T69	PLAN 1037 1044	servers
+T70	QUALITY 1050 1072	per action/event basis
+R16	Coreference Arg1:T65 Arg2:T63	
+T64	APPLY-TO 841 846	Using
+T72	PROCESS 1087 1100	such division
+T71	RESULT 1114 1119	leads
+T73	QUALITY 1125 1133	smoother
+T74	PLAN-OR-PROCESS 1134 1157	game playing experience
+T75	PROCESS 1161 1173	implementing
+T76	PLAN 1174 1188	this mechanism
+T78	PLAN 1194 1228	massively multi-player online game
+T79	PLAN 1236 1244	RPGQuest
+T80	IS-A 1229 1235	called
+T81	PLAN 1273 1299	cheat detection techniques
+T82	MODALITY 1300 1303	can
+T83	QUALITY 1307 1313	easily
+T84	PROCESS 1314 1325	implemented
+T85	PLAN 1333 1354	communication proxies
+T86	REFERENCE 1358 1362	they
+T87	PROCESS 1367 1371	made
+T88	PLAN 1385 1404	game-play mechanics
+R17	Coreference Arg1:T86 Arg2:T85	
+R18	Attribute Arg1:T9 Arg2:T10	
+R3	Attribute Arg1:T74 Arg2:T73	
+R8	Attribute Arg1:T8 Arg2:T7	
+R19	Attribute Arg1:T24 Arg2:T25	
+R20	Attribute Arg1:T34 Arg2:T26	
+R9	Coreference Arg1:T40 Arg2:T39	
+R21	Component-object Arg1:T46 Arg2:T47	
+R14	Coreference Arg1:T55 Arg2:T37	
+R22	Coreference Arg1:T72 Arg2:T58	
+T89	QUALITY 1104 1113	authority
+R23	Coreference Arg1:T76 Arg2:T56	
+R24	Attribute Arg1:T84 Arg2:T83	
+R25	Attribute Arg1:T48 Arg2:T49	
+R26	Apply-to Arg1:T1 Arg2:T2	
+R27	Apply-to Arg1:T4 Arg2:T5	
+R28	from Arg1:T8 Arg2:T6	
+R29	to Arg1:T8 Arg2:T9	
+R30	Condition Arg1:T9 Arg2:T11	
+R31	to Arg1:T13 Arg2:T12	
+R32	from Arg1:T13 Arg2:T14	
+R33	Target Arg1:T16 Arg2:T15	
+R34	Destination Arg1:T16 Arg2:T17	
+R35	to Arg1:T19 Arg2:T17	
+R36	from Arg1:T19 Arg2:T18	
+R37	Apply-to Arg1:T20 Arg2:T21	
+R38	Input Arg1:T21 Arg2:T22	
+R39	Origin Arg1:T21 Arg2:T23	
+R40	Destination Arg1:T21 Arg2:T24	
+R41	Output Arg1:T30 Arg2:T29	
+R42	Condition Arg1:T30 Arg2:T31	
+R43	Condition Arg1:T33 Arg2:T35	
+R44	Apply-to Arg1:T32 Arg2:T33	
+R45	In_Out Arg1:T33 Arg2:T34	
+R46	Apply-to Arg1:T36 Arg2:T38	
+R47	Target Arg1:T38 Arg2:T39	
+R48	Attribute Arg1:T40 Arg2:T41	
+R49	Compare Arg1:T42 Arg2:T41	
+R50	Condition Arg1:T41 Arg2:T43	
+R51	Apply-to Arg1:T40 Arg2:T44	
+R52	Target Arg1:T44 Arg2:T45	
+R53	Attribute Arg1:T46 Arg2:T45	
+R55	Condition Arg1:T49 Arg2:T50	
+R56	Target Arg1:T54 Arg2:T52	
+R57	Apply-to Arg1:T53 Arg2:T54	
+R58	from Arg1:T64 Arg2:T55	
+R59	Apply-to Arg1:T57 Arg2:T58	
+R60	In_Out Arg1:T58 Arg2:T59	
+R61	Other-rel Arg1:T60 Arg2:T59	
+R62	Input Arg1:T60 Arg2:T61	
+R63	Attribute Arg1:T63 Arg2:T61	
+R64	Attribute Arg1:T63 Arg2:T62	
+R65	Output Arg1:T66 Arg2:T65	
+R66	Condition Arg1:T66 Arg2:T67	
+R67	Condition Arg1:T66 Arg2:T68	
+R68	Condition Arg1:T58 Arg2:T70	
+R69	Condition Arg1:T66 Arg2:T69	
+R70	In_Out Arg1:T72 Arg2:T89	
+R71	from Arg1:T71 Arg2:T72	
+R72	to Arg1:T71 Arg2:T74	
+R73	Output Arg1:T75 Arg2:T76	
+R74	Condition Arg1:T75 Arg2:T78	
+R75	to Arg1:T80 Arg2:T78	
+R76	from Arg1:T80 Arg2:T79	
+R77	Attribute Arg1:T84 Arg2:T82	
+R78	Output Arg1:T84 Arg2:T81	
+R79	Destination Arg1:T84 Arg2:T85	
+R80	Apply-to Arg1:T86 Arg2:T87	
+R81	Output Arg1:T87 Arg2:T94	
+R82	Condition Arg1:T38 Arg2:T37	
+R83	Attribute Arg1:T50 Arg2:T51	
+T93	PROCESS 869 876	propose
+R54	Output Arg1:T93 Arg2:T56	
+R84	to Arg1:T64 Arg2:T93	
+T94	QUALITY 1372 1377	aware
+R86	Attribute Arg1:T88 Arg2:T94	
+T96	PROCESS 1077 1081	show
+R87	Other-rel Arg1:T96 Arg2:T71	
+R85	Apply-to Arg1:T75 Arg2:T96	
+T97	MODALITY 1355 1357	if
+R88	Attribute Arg1:T87 Arg2:T97	
+T27	PERSON 67 69	We
+T77	PROCESS 70 77	present
+T90	PERSON 1074 1076	We
+T91	PERSON 1259 1261	we
+T92	PROCESS 1262 1267	argue
+T95	PERSON 866 868	we
+R89	Agent Arg1:T93 Arg2:T95	
+R90	Agent Arg1:T77 Arg2:T27	
+R91	Output Arg1:T77 Arg2:T3	
+R92	Output Arg1:T77 Arg2:T4	
+R93	Agent Arg1:T96 Arg2:T90	
+R94	Agent Arg1:T92 Arg2:T91	
+R95	Output Arg1:T92 Arg2:T83	

@@ -1,0 +1,95 @@
+R1	Is-a Arg1:T1 Arg2:T2
+A1	Intentional T42
+A2	Self T43
+R2	Condition Arg1:T42 Arg2:T43
+R3	Output Arg1:T42 Arg2:T3
+R4	Apply-to Arg1:T3 Arg2:T44
+R5	Output Arg1:T44 Arg2:T4
+R6	Input Arg1:T44 Arg2:T6
+R7	Component-object Arg1:T4 Arg2:T5
+R8	Attribute Arg1:T10 Arg2:T7
+R9	Poss Arg1:T9 Arg2:T10
+R10	Coreference Arg1:T9 Arg2:T6
+R11	Input Arg1:T44 Arg2:T10
+R14	Agent Arg1:T45 Arg2:T14
+R15	Target Arg1:T45 Arg2:T15
+A3	Intentional T45
+R16	In_Out Arg1:T15 Arg2:T13
+R17	Attribute Arg1:T19 Arg2:T18
+R18	Input Arg1:T17 Arg2:T19
+R19	Condition Arg1:T17 Arg2:T16
+R20	Apply-to Arg1:T15 Arg2:T17
+R21	Coreference Arg1:T13 Arg2:T12
+R22	Coreference Arg1:T13 Arg2:T8
+R25	Attribute Arg1:T27 Arg2:T26
+R26	Component-object Arg1:T28 Arg2:T27
+R27	Input Arg1:T25 Arg2:T26
+R28	Coreference Arg1:T29 Arg2:T14
+R29	Poss Arg1:T29 Arg2:T30
+R30	Component-object Arg1:T30 Arg2:T27
+R31	Attribute Arg1:T32 Arg2:T22
+R32	Agent Arg1:T32 Arg2:T31
+R33	Attribute Arg1:T34 Arg2:T33
+R34	Output Arg1:T32 Arg2:T33
+R35	Output Arg1:T35 Arg2:T34
+R36	Condition Arg1:T35 Arg2:T36
+R37	from Arg1:T24 Arg2:T25
+R38	to Arg1:T24 Arg2:T32
+R39	Coreference Arg1:T27 Arg2:T8
+R41	Component-object Arg1:T41 Arg2:T40
+R42	Poss Arg1:T46 Arg2:T41
+R43	from Arg1:T39 Arg2:T37
+R44	Attribute Arg1:T39 Arg2:T38
+R45	to Arg1:T39 Arg2:T40
+R46	from Arg1:T47 Arg2:T11
+R47	to Arg1:T47 Arg2:T8
+R12	to Arg1:T47 Arg2:T12
+R13	from Arg1:T21 Arg2:T23
+R23	to Arg1:T21 Arg2:T20
+T1	PLAN 0 6	REFTEX
+T2	PLAN 11 40	Context-Based Translation Aid
+T3	PLAN 47 53	system
+T42	PROCESS 54 63	presented
+T43	REFERENCE 67 77	this paper
+T44	PROCESS 78 86	produces
+T4	DATA-ITEM 87 105	bilingual passages
+T5	DATA-ITEM 109 113	text
+T6	DATA-ITEM 122 146	original ( source ) text
+T7	QUANTITY 151 166	one ( or more )
+T9	REFERENCE 170 173	its
+T10	DATA-ITEM 174 193	translated versions
+T11	DATA-ITEM 200 219	source text passage
+T47	COMPONENT-OBJECT 220 228	includes
+T8	DATA-ITEM 229 234	words
+T12	DATA-ITEM 238 252	word compounds
+T13	REFERENCE 253 258	which
+T14	PERSON 261 271	translator
+T45	PROCESS 272 277	wants
+T15	PROCESS 281 289	retrieve
+T16	TIME 298 305	current
+T17	PROCESS 306 317	translating
+T18	QUALITY 321 328	another
+T19	DATA-ITEM 329 333	text
+T20	DATA-ITEM 340 359	target text passage
+T21	EQUIVALENCE 367 385	equivalent version
+T23	DATA-ITEM 393 412	source text passage
+T24	APPLY-TO 422 430	basis of
+T25	PROCESS 433 443	comparison
+T26	DATA-ITEM 451 459	contexts
+T27	DATA-ITEM 463 474	these words
+T28	DATA-ITEM 482 499	concorded passage
+T29	REFERENCE 504 511	his own
+T30	DATA-ITEM 512 516	text
+T31	PERSON 523 533	translator
+T22	MODALITY 534 540	has to
+T32	PROCESS 541 547	decide
+T33	DATA-ITEM 555 562	utility
+T34	DATA-ITEM 570 581	translation
+T35	PROCESS 582 590	proposed
+T36	DATA-ITEM 598 617	target text passage
+T37	PLAN 624 631	program
+T38	MODALITY 632 637	might
+T39	IS-A 638 644	become
+T40	PLAN 647 656	component
+T46	PERSON 660 670	translator
+T41	PLAN 674 684	work bench

@@ -1,0 +1,165 @@
+T1	PLAN-OR-PROCESS 2 23	Systematic Comparison
+T2	PLAN 35 63	Statistical Alignment Models
+T3	QUALITY 27 34	Various
+T4	PROCESS 80 87	compare
+T5	QUALITY 88 95	various
+T6	PLAN 96 103	methods
+T7	PROCESS 108 117	computing
+T8	DATA-ITEM 118 133	word alignments
+T9	APPLY-TO 134 139	using
+T10	PLAN 155 171	heuristic models
+T11	PLAN 140 151;165 171	statistical models
+T12	QUANTITY 189 193	five
+T13	PLAN 194 210	alignment models
+T14	PROCESS 211 220	presented
+T15	PERSON 224 229	Brown
+T16	PERSON 231 243	Della Pietra
+T17	PERSON 245 257	Della Pietra
+T18	PERSON 263 269	Mercer
+T19	TIME 271 275	1993
+T21	PLAN 282 311	hidden Markov alignment model
+T22	PLAN 313 333	smoothing techniques
+T23	PLAN 339 350	refinements
+T24	PLAN 352 376	These statistical models
+R1	Coreference Arg1:T24 Arg2:T13	
+T20	PROCESS 381 389	compared
+T25	QUANTITY 395 398	two
+T26	PLAN 399 415	heuristic models
+T27	PLAN 429 445	Dice coefficient
+T28	PERSON 429 433	Dice
+T29	PLAN 468 475	methods
+T30	QUALITY 458 467	different
+T31	PROCESS 480 489	combining
+T32	DATA-ITEM 490 505	word alignments
+T33	PROCESS 509 516	perform
+T34	PLAN-OR-PROCESS 519 533	symmetrization
+T35	PLAN 537 574	directed statistical alignment models
+T36	PLAN 579 599	evaluation criterion
+T37	PROCESS 604 607	use
+T38	QUALITY 612 619	quality
+T39	DATA-ITEM 637 654	Viterbi alignment
+T40	PERSON 637 644	Viterbi
+T41	QUALITY 627 636	resulting
+T42	PROCESS 655 663	compared
+T43	DATA-ITEM 687 706	reference alignment
+T44	QUALITY 669 686	manually produced
+T45	PROCESS 711 719	evaluate
+T46	PLAN 724 730	models
+T47	LANGUAGE 738 744	German
+T48	LANGUAGE 745 752	English
+T49	PLAN 753 762	Verbmobil
+T50	PLAN 738 767	German-English Verbmobil task
+T51	LANGUAGE 776 782	French
+T52	LANGUAGE 783 790	English
+T53	PLAN 791 799	Hansards
+T54	PLAN 776 804	French-English Hansards task
+T55	PLAN-OR-PROCESS 828 836	analysis
+T56	PLAN-OR-PROCESS 848 864	design decisions
+T57	QUANTITY 840 847	various
+T58	PLAN 872 900	statistical alignment system
+T59	PROCESS 905 913	evaluate
+T60	REFERENCE 914 919	these
+R2	Coreference Arg1:T60 Arg2:T56	
+T61	DATA-ITEM 923 939	training corpora
+T62	QUALITY 951 956	sizes
+T63	QUANTITY 943 950	various
+T64	DATA-ITEM 971 977	result
+T65	QUALITY 961 970	important
+T66	PLAN 994 1010	alignment models
+T67	QUALITY 986 993	refined
+T68	QUALITY 1018 1040	first-order dependence
+T69	PLAN 1047 1062	fertility model
+T70	RESULT 1063 1068	yield
+T71	QUALITY 1069 1089	significantly better
+T72	DATA-ITEM 1090 1097	results
+T73	PLAN 1103 1126	simple heuristic models
+T75	QUALITY 1159 1168	efficient
+T76	PLAN 1169 1187	training algorithm
+T77	PLAN 1196 1212	alignment models
+T79	APPLY-TO 416 424	based on
+T80	PERSON 289 295	Markov
+R3	Attribute Arg1:T2 Arg2:T3	
+R4	Attribute Arg1:T6 Arg2:T5	
+R5	Attribute Arg1:T13 Arg2:T12	
+R6	Attribute Arg1:T29 Arg2:T30	
+T81	QUALITY 819 827	detailed
+R7	Attribute Arg1:T55 Arg2:T81	
+T82	PERSON 868 871	our
+R8	Attribute Arg1:T64 Arg2:T65	
+R9	Attribute Arg1:T66 Arg2:T67	
+R10	Attribute Arg1:T72 Arg2:T71	
+R11	Attribute Arg1:T76 Arg2:T75	
+R14	Attribute Arg1:T26 Arg2:T25	
+T83	EXTERNAL-REFERENCE 224 276	Brown, Della Pietra, Della Pietra, and Mercer (1993)
+R16	Poss Arg1:T82 Arg2:T58	
+R17	Attribute Arg1:T39 Arg2:T41	
+R18	Attribute Arg1:T43 Arg2:T44	
+R19	Attribute Arg1:T56 Arg2:T57	
+R20	Attribute Arg1:T62 Arg2:T63	
+R21	Attribute Arg1:T61 Arg2:T62	
+R22	Apply-to Arg1:T76 Arg2:T77	
+R23	Input Arg1:T1 Arg2:T2	
+R24	Input Arg1:T4 Arg2:T6	
+R25	from Arg1:T9 Arg2:T11	
+R26	from Arg1:T9 Arg2:T10	
+R27	to Arg1:T9 Arg2:T7	
+R28	Apply-to Arg1:T6 Arg2:T7	
+R29	Output Arg1:T7 Arg2:T8	
+R30	Output Arg1:T14 Arg2:T13	
+R31	Condition Arg1:T14 Arg2:T83	
+R32	Input Arg1:T20 Arg2:T24	
+R33	Apply-to Arg1:T26 Arg2:T20	
+R12	from Arg1:T79 Arg2:T27	
+R13	to Arg1:T79 Arg2:T26	
+R34	Apply-to Arg1:T29 Arg2:T31	
+R35	Output Arg1:T31 Arg2:T32	
+R36	Apply-to Arg1:T31 Arg2:T33	
+R37	Apply-to Arg1:T35 Arg2:T34	
+R38	Output Arg1:T33 Arg2:T34	
+R39	Attribute Arg1:T39 Arg2:T38	
+R40	Is-a Arg1:T38 Arg2:T36	
+R41	Input Arg1:T37 Arg2:T38	
+R42	Apply-to Arg1:T37 Arg2:T42	
+R43	Input Arg1:T42 Arg2:T43	
+R44	Input Arg1:T45 Arg2:T46	
+R45	Apply-to Arg1:T46 Arg2:T50	
+R46	Apply-to Arg1:T46 Arg2:T54	
+R47	Output Arg1:T58 Arg2:T56	
+R48	Input Arg1:T55 Arg2:T56	
+R49	Input Arg1:T59 Arg2:T60	
+R50	Condition Arg1:T61 Arg2:T60	
+R51	Attribute Arg1:T66 Arg2:T68	
+R52	from Arg1:T70 Arg2:T69	
+R53	from Arg1:T70 Arg2:T66	
+R54	to Arg1:T70 Arg2:T71	
+R55	Compare Arg1:T73 Arg2:T71	
+R15	Other-rel Arg1:T64 Arg2:T70	
+T74	PERSON 65 67	We
+T78	PROCESS 68 75	present
+T84	PERSON 173 175	We
+T85	PROCESS 176 184	consider
+T86	PERSON 447 449	We
+T87	PROCESS 450 457	present
+T88	PERSON 708 710	We
+T89	PERSON 806 808	We
+T90	PROCESS 809 816	perform
+T91	PERSON 1145 1147	we
+T92	PROCESS 1148 1155	present
+T93	REFERENCE 1135 1143	Appendix
+T94	PROCESS 1213 1222	presented
+T95	PERSON 601 603	we
+R56	Agent Arg1:T78 Arg2:T74	
+R57	Agent Arg1:T85 Arg2:T84	
+R58	Agent Arg1:T87 Arg2:T86	
+R59	Agent Arg1:T45 Arg2:T88	
+R60	Agent Arg1:T90 Arg2:T89	
+R61	Agent Arg1:T92 Arg2:T91	
+R62	Agent Arg1:T59 Arg2:T89	
+R63	Output Arg1:T78 Arg2:T6	
+R64	Agent Arg1:T4 Arg2:T74	
+R65	In_Out Arg1:T4 Arg2:T6	
+R66	In_Out Arg1:T85 Arg2:T13	
+R67	Output Arg1:T87 Arg2:T29	
+R68	Agent Arg1:T37 Arg2:T95	
+R69	Output Arg1:T90 Arg2:T55	
+R70	Output Arg1:T92 Arg2:T76	

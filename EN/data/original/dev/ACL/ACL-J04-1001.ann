@@ -1,0 +1,109 @@
+T1	PLAN-OR-PROCESS 0 31	Word Translation Disambiguation
+T2	APPLY-TO 32 37	Using
+T3	PLAN-OR-PROCESS 38 61	Bilingual Bootstrapping
+T4	PLAN 91 97	method
+T5	QUALITY 87 90	new
+T6	PLAN-OR-PROCESS 102 133	word translation disambiguation
+T7	APPLY-TO 144 148	uses
+T8	PLAN 151 177	machine-learning technique
+T9	PLAN 185 208	bilingual bootstrapping
+T10	IS-A 178 184	called
+T12	REFERENCE 135 143	one that
+R1	Coreference Arg1:T12 Arg2:T4	
+T13	PROCESS 213 221	learning
+T14	PROCESS 225 237	disambiguate
+T15	DATA-ITEM 238 243	words
+T16	PROCESS 250 260	translated
+T17	PLAN 262 285	bilingual bootstrapping
+T18	INPUT 286 295	makes use
+T20	QUANTITY 301 313	small amount
+T21	DATA-ITEM 317 332	classified data
+T22	QUANTITY 339 351	large amount
+T23	DATA-ITEM 355 372	unclassified data
+T24	LANGUAGE 385 391;407 416	source languages
+T25	LANGUAGE 400 416	target languages
+T26	QUALITY 421 431	repeatedly
+T27	PROCESS 432 442	constructs
+T28	PLAN 443 454	classifiers
+T29	LANGUAGE 466 475	languages
+T30	QUANTITY 462 465	two
+T32	JUDGING-PROCESS 492 498	boosts
+T33	QUALITY 503 514	performance
+T34	PLAN 522 533	classifiers
+T35	PROCESS 537 548	classifying
+T36	DATA-ITEM 549 566	unclassified data
+T37	LANGUAGE 578 587	languages
+T38	QUANTITY 574 577	two
+T39	PROCESS 595 605	exchanging
+T40	DATA-ITEM 606 617	information
+T41	DATA-ITEM 628 643	classified data
+T42	LANGUAGE 660 669	languages
+T43	QUANTITY 656 659	two
+T44	DATA-ITEM 671 691	Experimental results
+T45	RESULT 692 700	indicate
+T46	PLAN-OR-PROCESS 706 737	word translation disambiguation
+T47	APPLY-TO 738 746	based on
+T48	QUALITY 771 783	consistently
+T49	PLAN-OR-PROCESS 747 770	bilingual bootstrapping
+T50	QUALITY 788 801	significantly
+T51	JUDGING-PROCESS 802 813	outperforms
+T52	PLAN 814 830	existing methods
+T53	REFERENCE 831 835	that
+R3	Coreference Arg1:T53 Arg2:T52	
+T54	APPLY-TO 840 848	based on
+T55	PLAN-OR-PROCESS 849 874	monolingual bootstrapping
+R4	Attribute Arg1:T4 Arg2:T5	
+R2	Attribute Arg1:T29 Arg2:T30	
+T31	QUALITY 476 487	in parallel
+R5	Attribute Arg1:T37 Arg2:T38	
+R6	Attribute Arg1:T42 Arg2:T43	
+R7	Attribute Arg1:T51 Arg2:T48	
+R8	Attribute Arg1:T51 Arg2:T50	
+R9	Attribute Arg1:T21 Arg2:T20	
+R10	Attribute Arg1:T23 Arg2:T22	
+R11	Attribute Arg1:T27 Arg2:T26	
+R12	Attribute Arg1:T27 Arg2:T31	
+T19	REFERENCE 418 420	It
+R13	Coreference Arg1:T19 Arg2:T17	
+R14	from Arg1:T2 Arg2:T3	
+R15	to Arg1:T2 Arg2:T1	
+R16	Apply-to Arg1:T4 Arg2:T6	
+R17	from Arg1:T7 Arg2:T8	
+R18	to Arg1:T7 Arg2:T12	
+R19	to Arg1:T10 Arg2:T8	
+R20	from Arg1:T10 Arg2:T9	
+R21	Apply-to Arg1:T13 Arg2:T14	
+R22	Input Arg1:T14 Arg2:T15	
+R23	Input Arg1:T16 Arg2:T15	
+R24	Apply-to Arg1:T17 Arg2:T13	
+R25	to Arg1:T18 Arg2:T21	
+R26	from Arg1:T18 Arg2:T17	
+R27	to Arg1:T18 Arg2:T23	
+R28	Attribute Arg1:T21 Arg2:T25	
+R29	Attribute Arg1:T21 Arg2:T24	
+R30	Attribute Arg1:T23 Arg2:T25	
+R31	Attribute Arg1:T23 Arg2:T24	
+R32	Output Arg1:T27 Arg2:T28	
+R33	Apply-to Arg1:T19 Arg2:T27	
+R35	Apply-to Arg1:T19 Arg2:T32	
+R36	Attribute Arg1:T34 Arg2:T33	
+R37	In_Out Arg1:T32 Arg2:T33	
+R38	Input Arg1:T35 Arg2:T36	
+R39	Attribute Arg1:T36 Arg2:T37	
+R40	Apply-to Arg1:T35 Arg2:T32	
+R41	In_Out Arg1:T39 Arg2:T40	
+R42	Attribute Arg1:T40 Arg2:T41	
+R43	Condition Arg1:T39 Arg2:T42	
+R44	Apply-to Arg1:T39 Arg2:T32	
+R45	from Arg1:T45 Arg2:T44	
+R46	from Arg1:T47 Arg2:T49	
+R47	to Arg1:T47 Arg2:T46	
+R48	to Arg1:T45 Arg2:T51	
+R50	from Arg1:T54 Arg2:T55	
+R51	to Arg1:T54 Arg2:T53	
+R34	Condition Arg1:T28 Arg2:T29	
+R53	Compare Arg1:T52 Arg2:T51	
+T11	REFERENCE 63 75	This article
+T56	PROCESS 76 84	proposes
+R49	Condition Arg1:T56 Arg2:T11	
+R52	Output Arg1:T56 Arg2:T4	

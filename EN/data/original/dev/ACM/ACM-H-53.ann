@@ -1,0 +1,232 @@
+T1	PLAN-OR-PROCESS 0 26	Context Sensitive Stemming
+T2	PLAN-OR-PROCESS 31 41	Web Search
+T3	QUALITY 42 55	Traditionally
+T4	PLAN-OR-PROCESS 57 65	stemming
+T5	APPLY-TO 75 82	applied
+T6	PLAN 86 113	Information Retrieval tasks
+T7	PROCESS 117 129	transforming
+T8	DATA-ITEM 130 135	words
+T9	DATA-ITEM 139 148	documents
+T10	DATA-ITEM 162 171	root form
+T11	PROCESS 179 187	indexing
+T12	INPUT 193 201	applying
+T13	PROCESS 212 226	transformation
+T14	QUALITY 204 211	similar
+T15	DATA-ITEM 230 241	query terms
+T16	REFERENCE 252 254	it
+T17	JUDGING-PROCESS 255 264	increases
+T18	DATA-ITEM 265 271	recall
+T19	PLAN 273 292	this naive strategy
+R2	Coreference Arg1:T16 Arg2:T4	
+T20	MODALITY 298 301	not
+T21	PROCESS 302 306	work
+T22	QUALITY 307 311	well
+T23	PLAN-OR-PROCESS 316 326	Web Search
+T24	REFERENCE 333 335	it
+T25	PROCESS 336 342	lowers
+T26	DATA-ITEM 343 352	precision
+T27	CONDITION 357 365	requires
+T28	QUANTITY 368 386	significant amount
+T29	PLAN-OR-PROCESS 390 412	additional computation
+R3	Coreference Arg1:T24 Arg2:T19	
+T30	PLAN 442 475	context sensitive stemming method
+T31	REFERENCE 476 480	that
+R4	Coreference Arg1:T31 Arg2:T30	
+T32	APPLY-TO 481 490	addresses
+T33	PLAN 491 507	these two issues
+T34	QUALITY 520 530	properties
+T35	QUANTITY 509 512	Two
+T36	RESULT 531 535	make
+T37	PLAN 540 548	approach
+T38	QUALITY 549 557	feasible
+T39	PLAN-OR-PROCESS 562 572	Web Search
+T40	APPLY-TO 581 589	based on
+T41	PLAN 590 619	statistical language modeling
+T42	PLAN-OR-PROCESS 632 658	context sensitive analysis
+T43	DATA-ITEM 666 676	query side
+T44	QUALITY 681 691	accurately
+T45	PROCESS 692 699	predict
+T46	DATA-ITEM 713 735	morphological variants
+T47	QUALITY 739 745	useful
+T48	PROCESS 749 755	expand
+T49	DATA-ITEM 758 768	query term
+T50	REFERENCE 700 705	which
+T51	PROCESS 781 791	submitting
+T52	DATA-ITEM 796 801	query
+T53	PLAN-OR-PROCESS 809 822	search engine
+T54	QUALITY 829 841	dramatically
+T55	JUDGING-PROCESS 842 849	reduces
+T56	REFERENCE 824 828	This
+T57	QUANTITY 854 860	number
+T58	DATA-ITEM 868 878	expansions
+T59	QUALITY 864 867	bad
+T60	JUDGING-PROCESS 894 901	reduces
+T61	REFERENCE 880 885	which
+T62	QUALITY 906 910	cost
+T63	PLAN-OR-PROCESS 914 936	additional computation
+T64	JUDGING-PROCESS 941 949	improves
+T65	DATA-ITEM 954 963	precision
+T66	TIME 971 980	same time
+T67	PLAN 994 1002	approach
+T68	PROCESS 1003 1011	performs
+T69	PLAN-OR-PROCESS 1014 1049	context sensitive document matching
+T70	DATA-ITEM 1054 1077	those expanded variants
+T71	PLAN 1079 1083;1097 1105	This strategy
+T72	IS-A 1106 1112	serves
+T73	PLAN-OR-PROCESS 1118 1127	safeguard
+T74	PLAN-OR-PROCESS 1145 1153	stemming
+T75	REFERENCE 1159 1161	it
+T76	QUALITY 1178 1192	very important
+T77	PROCESS 1197 1206	improving
+T78	DATA-ITEM 1207 1216	precision
+T80	PLAN-OR-PROCESS 1224 1251	word pluralization handling
+T81	IS-A 1258 1265	example
+T82	PLAN-OR-PROCESS 1273 1290	stemming approach
+T83	PLAN-OR-PROCESS 1296 1307	experiments
+T84	PLAN 1319 1336	Web search engine
+T86	PLAN-OR-PROCESS 1347 1355	stemming
+T87	QUANTITY 1356 1364	only 29%
+T88	DATA-ITEM 1372 1385	query traffic
+T89	MODALITY 1390 1393	can
+T90	JUDGING-PROCESS 1394 1401	improve
+T91	DATA-ITEM 1402 1411	relevance
+T92	PROCESS 1415 1423	measured
+T93	PLAN 1427 1461	average Discounted Cumulative Gain
+T94	PLAN 1463 1467	DCG5
+T95	QUANTITY 1472 1476	6.1%
+T96	DATA-ITEM 1480 1493	these queries
+T97	QUANTITY 1498 1502	1.8%
+T98	DATA-ITEM 1512 1525	query traffic
+T99	QUANTITY 1508 1511	all
+R7	Coreference Arg1:T56 Arg2:T45	
+R9	Attribute Arg1:T13 Arg2:T14	
+T100	QUALITY 513 519	unique
+T101	PERSON 536 539	our
+T102	PROCESS 624 631	perform
+T103	REFERENCE 709 712	its
+R11	Coreference Arg1:T50 Arg2:T46	
+R12	Attribute Arg1:T58 Arg2:T59	
+R5	Coreference Arg1:T61 Arg2:T55	
+T104	PERSON 990 993	our
+R6	Coreference Arg1:T70 Arg2:T46	
+R8	Coreference Arg1:T75 Arg2:T71	
+T79	PERSON 1269 1272	our
+R13	Attribute Arg1:T98 Arg2:T99	
+R14	Component-object Arg1:T8 Arg2:T9	
+T105	REFERENCE 156 161	their
+R15	Coreference Arg1:T105 Arg2:T8	
+R1	Coreference Arg1:T19 Arg2:T16	
+R16	Attribute Arg1:T21 Arg2:T20	
+R17	Attribute Arg1:T21 Arg2:T22	
+R18	Attribute Arg1:T34 Arg2:T35	
+R19	Attribute Arg1:T34 Arg2:T100	
+R20	Attribute Arg1:T37 Arg2:T38	
+R21	Attribute Arg1:T45 Arg2:T44	
+T106	QUALITY 1136 1144	spurious
+R22	Attribute Arg1:T74 Arg2:T106	
+R23	Coreference Arg1:T96 Arg2:T88	
+T107	REFERENCE 1054 1059	those
+R24	Poss Arg1:T101 Arg2:T37	
+R25	Poss Arg1:T104 Arg2:T67	
+R26	Poss Arg1:T79 Arg2:T82	
+T110	PERSON 1292 1295	our
+R27	Poss Arg1:T110 Arg2:T83	
+R28	Poss Arg1:T103 Arg2:T46	
+R10	Coreference Arg1:T103 Arg2:T49	
+T111	TIME 774 780	before
+R30	Compare Arg1:T51 Arg2:T111	
+T112	TIME 172 178	before
+R31	Attribute Arg1:T7 Arg2:T112	
+R32	Compare Arg1:T11 Arg2:T112	
+R33	Attribute Arg1:T58 Arg2:T57	
+R34	Attribute Arg1:T5 Arg2:T3	
+T116	QUALITY 1084 1096	conservative
+R35	Attribute Arg1:T71 Arg2:T116	
+T117	QUALITY 1313 1318	major
+R36	Attribute Arg1:T84 Arg2:T117	
+R37	Apply-to Arg1:T1 Arg2:T2	
+R38	from Arg1:T5 Arg2:T4	
+R39	to Arg1:T5 Arg2:T6	
+R40	Apply-to Arg1:T7 Arg2:T5	
+R41	Input Arg1:T7 Arg2:T8	
+R42	Poss Arg1:T105 Arg2:T10	
+R43	Output Arg1:T7 Arg2:T10	
+R44	from Arg1:T12 Arg2:T13	
+R45	to Arg1:T12 Arg2:T15	
+R46	Apply-to Arg1:T16 Arg2:T17	
+R47	In_Out Arg1:T17 Arg2:T18	
+R48	Apply-to Arg1:T19 Arg2:T21	
+R49	Apply-to Arg1:T21 Arg2:T23	
+R50	Apply-to Arg1:T24 Arg2:T25	
+R51	In_Out Arg1:T25 Arg2:T26	
+R52	Attribute Arg1:T29 Arg2:T28	
+R53	to Arg1:T27 Arg2:T24	
+R54	from Arg1:T27 Arg2:T29	
+R55	from Arg1:T32 Arg2:T31	
+R56	to Arg1:T32 Arg2:T33	
+R57	from Arg1:T36 Arg2:T34	
+R58	to Arg1:T36 Arg2:T38	
+R60	from Arg1:T40 Arg2:T41	
+R61	to Arg1:T40 Arg2:T102	
+R62	Output Arg1:T102 Arg2:T42	
+R63	Condition Arg1:T42 Arg2:T43	
+R64	Output Arg1:T45 Arg2:T50	
+R66	Other-rel Arg1:T47 Arg2:T48	
+R29	Condition Arg1:T45 Arg2:T111	
+R67	Output Arg1:T51 Arg2:T52	
+R68	Destination Arg1:T51 Arg2:T53	
+R69	Attribute Arg1:T55 Arg2:T54	
+R70	Apply-to Arg1:T56 Arg2:T55	
+R71	In_Out Arg1:T55 Arg2:T57	
+R72	Apply-to Arg1:T61 Arg2:T60	
+R73	Attribute Arg1:T63 Arg2:T62	
+R74	In_Out Arg1:T64 Arg2:T65	
+R75	Apply-to Arg1:T61 Arg2:T64	
+R76	In_Out Arg1:T60 Arg2:T62	
+R77	Condition Arg1:T60 Arg2:T66	
+R78	Condition Arg1:T64 Arg2:T66	
+R79	Apply-to Arg1:T67 Arg2:T68	
+R80	Other-rel Arg1:T68 Arg2:T69	
+R81	Other-rel Arg1:T69 Arg2:T70	
+R82	from Arg1:T72 Arg2:T71	
+R83	to Arg1:T72 Arg2:T73	
+R84	Apply-to Arg1:T73 Arg2:T74	
+R85	Attribute Arg1:T75 Arg2:T76	
+R86	Condition Arg1:T76 Arg2:T77	
+R87	In_Out Arg1:T77 Arg2:T78	
+T120	APPLY-TO 1218 1223	Using
+R88	Condition Arg1:T83 Arg2:T84	
+R90	In_Out Arg1:T86 Arg2:T88	
+R91	Attribute Arg1:T88 Arg2:T87	
+R93	In_Out Arg1:T90 Arg2:T91	
+R94	Output Arg1:T92 Arg2:T91	
+R95	Is-a Arg1:T94 Arg2:T93	
+R96	Apply-to Arg1:T93 Arg2:T92	
+R97	Attribute Arg1:T90 Arg2:T95	
+R98	Condition Arg1:T96 Arg2:T95	
+R99	Attribute Arg1:T90 Arg2:T97	
+R101	Other-rel Arg1:T12 Arg2:T5	
+R59	Apply-to Arg1:T37 Arg2:T39	
+R65	Attribute Arg1:T45 Arg2:T47	
+R102	Input Arg1:T48 Arg2:T49	
+R103	from Arg1:T81 Arg2:T80	
+R104	to Arg1:T81 Arg2:T82	
+R105	Attribute Arg1:T90 Arg2:T89	
+T85	PROCESS 1337 1341	show
+R89	Other-rel Arg1:T85 Arg2:T83	
+R92	Condition Arg1:T98 Arg2:T97	
+R100	Other-rel Arg1:T85 Arg2:T86	
+R106	from Arg1:T120 Arg2:T80	
+R107	to Arg1:T120 Arg2:T83	
+T108	REFERENCE 417 427	this paper
+T109	PERSON 429 431	we
+T113	PROCESS 432 439	propose
+T114	PERSON 678 680	We
+T115	PERSON 621 623	we
+R108	Agent Arg1:T102 Arg2:T115	
+T118	PERSON 1387 1389	we
+R109	Agent Arg1:T90 Arg2:T118	
+R110	Agent Arg1:T45 Arg2:T114	
+R111	Agent Arg1:T113 Arg2:T109	
+R112	Condition Arg1:T113 Arg2:T108	
+R113	Output Arg1:T113 Arg2:T30	

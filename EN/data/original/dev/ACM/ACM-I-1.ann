@@ -1,0 +1,210 @@
+T1	PROCESS 0 8	Aborting
+T2	PLAN 9 14	Tasks
+T3	PLAN 18 28	BDI Agents
+T5	INTELLIGENT-AGENT 29 47	Intelligent agents
+T6	REFERENCE 48 52	that
+T7	PROCESS 57 65	intended
+T8	PROCESS 69 73	work
+T9	PLAN 77 97	dynamic environments
+T10	MODALITY 98 102	must
+T11	MODALITY 106 110	able
+T12	QUALITY 114 124	gracefully
+T13	PROCESS 125 131	handle
+T14	QUALITY 132 144	unsuccessful
+T15	PLAN 145 150	tasks
+T16	PLAN 155 160	plans
+T17	INTELLIGENT-AGENT 175 186	such agents
+T18	MODALITY 187 193	should
+T19	MODALITY 197 201	able
+T20	PROCESS 205 209	make
+T21	PLAN-OR-PROCESS 219 228	decisions
+T22	QUALITY 238 249	appropriate
+T23	PLAN-OR-PROCESS 250 256	course
+T24	PLAN-OR-PROCESS 260 266	action
+T25	REFERENCE 268 273	which
+T26	MODALITY 274 277	may
+T27	MEMBER-COLLECTION 278 285	include
+T28	PROCESS 286 294	aborting
+T29	PLAN 297 301	task
+T30	RESULT 323 329	result
+T31	INTELLIGENT-AGENT 337 344	agent's
+T32	PLAN-OR-PROCESS 349 362	deliberations
+T33	QUALITY 367 378	potentially
+T34	PLAN-OR-PROCESS 386 393	request
+T35	QUALITY 397 404	another
+T36	INTELLIGENT-AGENT 405 410	agent
+T37	REFERENCE 415 425	this paper
+T38	PERSON 426 428	we
+T39	PROCESS 429 440	investigate
+T40	PROCESS 445 458	incorporation
+T41	PLAN-OR-PROCESS 462 468	aborts
+T42	PLAN 476 498	BDI-style architecture
+T43	PERSON 500 502	We
+T44	PROCESS 503 510	discuss
+T45	QUANTITY 511 515	some
+T46	PLAN 516 526	conditions
+T47	REFERENCE 533 538	which
+T48	PROCESS 539 547	aborting
+T49	PLAN 550 554	task
+T50	QUALITY 566 577	appropriate
+T51	PROCESS 590 599	determine
+T52	PLAN 604 616	consequences
+T53	PROCESS 620 635	such a decision
+T54	PERSON 637 639	We
+T55	PROCESS 640 647	augment
+T56	PLAN 653 657	plan
+T57	QUALITY 666 674	optional
+T58	PLAN 675 687	abort-method
+T59	PLAN 706 720	failure method
+T60	PROCESS 721 726	found
+T61	QUANTITY 730 734	some
+T62	PLAN 735 762	agent programming languages
+T63	PERSON 764 766	We
+T64	PROCESS 767 774	provide
+T65	PLAN 778 799	operational semantics
+T66	PLAN-OR-PROCESS 808 823	execution cycle
+T68	PLAN-OR-PROCESS 843 849	aborts
+T69	PLAN 857 880	abstract agent language
+T70	REFERENCE 886 891	which
+T71	PROCESS 892 899	enables
+T72	PROCESS 906 913	specify
+T73	PLAN 916 941	BDI-based execution model
+T74	MODALITY 942 949	without
+T75	PROCESS 950 958	limiting
+T76	PERSON 959 962	our
+T77	OCCURENT 963 972	attention
+T78	PLAN 978 1001	particular agent system
+T79	PLAN 1011 1015	JACK
+T80	PLAN 1017 1022	Jadex
+T81	PLAN 1024 1029	Jason
+T82	PLAN 1034 1039	SPARK
+T83	QUALITY 1044 1047	key
+T84	PLAN 1048 1067	technical challenge
+T85	PERSON 1068 1070	we
+T86	PROCESS 1071 1078	address
+T88	PLAN 1098 1124	parallel execution threads
+T89	PLAN 1132 1141	sub-tasks
+T90	REFERENCE 1143 1148	which
+T91	QUALITY 1149 1156	require
+T92	INTELLIGENT-AGENT 1161 1166	agent
+T93	PROCESS 1170 1176	ensure
+T94	PLAN 1186 1199	abort methods
+T95	PLAN 1209 1213	plan
+T96	PROCESS 1218 1229	carried out
+T97	QUALITY 1236 1247	appropriate
+T98	PLAN 1248 1256	sequence
+R1	Target Arg1:T1 Arg2:T2	
+R2	Coreference Arg1:T6 Arg2:T5	
+R3	Agent Arg1:T7 Arg2:T6	
+R4	Target Arg1:T7 Arg2:T8	
+R5	Condition Arg1:T8 Arg2:T9	
+R6	Attribute Arg1:T13 Arg2:T12	
+R7	Attribute Arg1:T13 Arg2:T11	
+R8	Attribute Arg1:T11 Arg2:T10	
+R9	Attribute Arg1:T15 Arg2:T14	
+R10	Attribute Arg1:T16 Arg2:T14	
+R11	Target Arg1:T13 Arg2:T15	
+R12	Target Arg1:T13 Arg2:T16	
+R13	Agent Arg1:T13 Arg2:T5	
+R14	Coreference Arg1:T17 Arg2:T5	
+R15	Output Arg1:T20 Arg2:T21	
+T4	QUALITY 210 218	rational
+R16	Attribute Arg1:T21 Arg2:T4	
+R17	Attribute Arg1:T20 Arg2:T19	
+R18	Attribute Arg1:T19 Arg2:T18	
+R19	Agent Arg1:T20 Arg2:T17	
+R20	Attribute Arg1:T23 Arg2:T22	
+R21	Component-object Arg1:T24 Arg2:T23	
+R22	Output Arg1:T21 Arg2:T23	
+R23	Target Arg1:T28 Arg2:T29	
+R24	from Arg1:T27 Arg2:T28	
+R25	to Arg1:T27 Arg2:T25	
+R26	Attribute Arg1:T27 Arg2:T26	
+R27	Coreference Arg1:T25 Arg2:T23	
+T99	PLAN 305 309	plan
+R28	Target Arg1:T28 Arg2:T99	
+R29	Agent Arg1:T32 Arg2:T31	
+R30	Attribute Arg1:T36 Arg2:T35	
+R31	Agent Arg1:T34 Arg2:T36	
+R32	Attribute Arg1:T34 Arg2:T33	
+R33	from Arg1:T30 Arg2:T32	
+R34	from Arg1:T30 Arg2:T34	
+R35	to Arg1:T30 Arg2:T28	
+A1	Self T37
+A2	Self T38
+A3	Intentional T39
+R36	Agent Arg1:T39 Arg2:T38	
+R37	Condition Arg1:T39 Arg2:T37	
+R38	In_Out Arg1:T39 Arg2:T40	
+R39	Output Arg1:T40 Arg2:T41	
+R40	Destination Arg1:T40 Arg2:T42	
+A4	Self T43
+A5	Intentional T44
+R41	Agent Arg1:T44 Arg2:T43	
+R42	Attribute Arg1:T46 Arg2:T45	
+R43	Coreference Arg1:T47 Arg2:T46	
+R44	Target Arg1:T48 Arg2:T49	
+T100	PLAN 558 562	plan
+R45	Target Arg1:T48 Arg2:T100	
+R46	Attribute Arg1:T48 Arg2:T50	
+R47	Condition Arg1:T50 Arg2:T47	
+R48	In_Out Arg1:T44 Arg2:T46	
+R49	Output Arg1:T51 Arg2:T52	
+R50	Attribute Arg1:T53 Arg2:T52	
+R51	Is-a Arg1:T48 Arg2:T53	
+A6	Self T54
+A7	Intentional T64
+R52	Agent Arg1:T64 Arg2:T63	
+R53	Agent Arg1:T55 Arg2:T54	
+A8	Intentional T55
+A9	Self T63
+R54	In_Out Arg1:T55 Arg2:T56	
+R55	Attribute Arg1:T58 Arg2:T57	
+R56	Component-object Arg1:T56 Arg2:T58	
+T101	QUALITY 689 698	analogous
+R57	Attribute Arg1:T62 Arg2:T61	
+T102	COMPARE 699 701	to
+R59	from Arg1:T102 Arg2:T59	
+R60	to Arg1:T102 Arg2:T101	
+R58	Attribute Arg1:T58 Arg2:T101	
+R61	Output Arg1:T60 Arg2:T56	
+R62	Input Arg1:T60 Arg2:T62	
+R63	Output Arg1:T64 Arg2:T65	
+R64	Apply-to Arg1:T65 Arg2:T66	
+R65	Component-object Arg1:T66 Arg2:T68	
+T67	PLAN 881 884	CAN
+R66	Is-a Arg1:T67 Arg2:T69	
+R67	Condition Arg1:T65 Arg2:T67	
+R68	Apply-to Arg1:T70 Arg2:T71	
+T103	PERSON 900 902	us
+R69	Agent Arg1:T72 Arg2:T103	
+R70	Target Arg1:T71 Arg2:T72	
+R71	In_Out Arg1:T72 Arg2:T73	
+A10	Self T76
+R72	Poss Arg1:T76 Arg2:T77	
+R73	Target Arg1:T75 Arg2:T77	
+R74	Destination Arg1:T75 Arg2:T78	
+R75	Is-a Arg1:T79 Arg2:T78	
+R76	Is-a Arg1:T80 Arg2:T78	
+R77	Is-a Arg1:T81 Arg2:T78	
+R78	Is-a Arg1:T82 Arg2:T78	
+R79	Attribute Arg1:T75 Arg2:T74	
+R80	Condition Arg1:T72 Arg2:T75	
+R81	Coreference Arg1:T70 Arg2:T65	
+R82	Attribute Arg1:T84 Arg2:T83	
+A11	Self T85
+A12	Intentional T86
+R83	Agent Arg1:T86 Arg2:T85	
+R84	Target Arg1:T86 Arg2:T84	
+R85	Is-a Arg1:T88 Arg2:T84	
+R86	Is-a Arg1:T89 Arg2:T84	
+R87	Agent Arg1:T93 Arg2:T92	
+R88	Attribute Arg1:T93 Arg2:T91	
+R89	Condition Arg1:T91 Arg2:T90	
+R90	Coreference Arg1:T90 Arg2:T89	
+R91	Coreference Arg1:T90 Arg2:T88	
+R92	Attribute Arg1:T98 Arg2:T97	
+R93	Apply-to Arg1:T98 Arg2:T96	
+R94	Output Arg1:T96 Arg2:T94	
+R95	Apply-to Arg1:T94 Arg2:T95	
+R96	Target Arg1:T93 Arg2:T97	

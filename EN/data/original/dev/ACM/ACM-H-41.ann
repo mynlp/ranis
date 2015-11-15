@@ -1,0 +1,165 @@
+T2	PLAN-OR-PROCESS 12 15	Web
+T3	PROCESS 29 36	Compare
+T4	QUALITY 61 72	large-scale
+T5	PROCESS 73 83	evaluation
+R1	Attribute Arg1:T5 Arg2:T4	
+T6	QUALITY 91 104	effectiveness
+T8	PLAN 138 167	link-based ranking algorithms
+T9	PROCESS 174 178	used
+T10	CONDITION 182 193	combination
+T11	QUALITY 201 217	state-of-the-art
+T12	PLAN 218 242	text retrieval algorithm
+R2	Attribute Arg1:T12 Arg2:T11	
+T13	INPUT 243 253	exploiting
+T14	DATA-ITEM 254 265	anchor text
+T15	QUALITY 287 300	effectiveness
+T16	REFERENCE 281 286	their
+T17	QUANTITY 307 312	three
+T18	QUALITY 313 319	common
+T19	PLAN 320 340	performance measures
+R3	Attribute Arg1:T19 Arg2:T17	
+R4	Attribute Arg1:T19 Arg2:T18	
+T20	PLAN 346 366;442 454	mean reciprocal rank measurements
+T21	PLAN 372 394;442 454	mean average precision measurements
+T22	PLAN 404 454	normalized discounted cumulative gain measurements
+T23	PROCESS 460 470	evaluation
+T24	INPUT 474 479	based
+T25	QUANTITY 483 486	two
+T26	QUALITY 487 492	large
+T27	DATA-ITEM 493 502	data sets
+R5	Attribute Arg1:T27 Arg2:T25	
+R6	Attribute Arg1:T27 Arg2:T26	
+T28	DATA-ITEM 506 532	breadth-first search crawl
+T29	QUANTITY 536 547	463 million
+T30	DATA-ITEM 548 557	web pages
+R7	Attribute Arg1:T30 Arg2:T29	
+T31	COMPONENT-OBJECT 558 568	containing
+T32	QUANTITY 569 581	17.6 billion
+T33	DATA-ITEM 582 592	hyperlinks
+R8	Attribute Arg1:T33 Arg2:T32	
+T34	PROCESS 597 608	referencing
+T35	QUANTITY 609 620	2.9 billion
+T36	QUALITY 621 629	distinct
+T37	DATA-ITEM 630 634	URLs
+R9	Attribute Arg1:T37 Arg2:T36	
+R10	Attribute Arg1:T37 Arg2:T35	
+T38	QUANTITY 649 655	28,043
+T39	DATA-ITEM 656 663	queries
+R11	Attribute Arg1:T39 Arg2:T38	
+T40	PROCESS 664 671	sampled
+T41	DATA-ITEM 679 688	query log
+T42	DATA-ITEM 695 700	query
+T43	PROCESS 701 707	having
+T44	QUANTITY 719 724	2,383
+T45	DATA-ITEM 725 732	results
+R12	Attribute Arg1:T45 Arg2:T44	
+T46	QUALITY 708 718	on average
+T47	QUANTITY 740 742	17
+T48	PROCESS 757 764	labeled
+T49	PERSON 768 774	judges
+T51	JUDGING-PROCESS 795 806	outperforms
+T53	QUALITY 833 842	effective
+T54	PLAN 846 864	web-page in-degree
+R15	Compare Arg1:T54 Arg2:T53	
+T55	DATA-ITEM 902 921	link-based features
+T56	PROCESS 926 934	combined
+T57	PLAN 944 968	text retrieval algorithm
+T58	DATA-ITEM 994 1006	relationship
+T59	QUALITY 1015 1032	query specificity
+T60	QUALITY 1041 1054	effectiveness
+T61	DATA-ITEM 1058 1075	selected features
+T62	DATA-ITEM 1092 1111	link-based features
+T63	PROCESS 1112 1119	perform
+T64	QUALITY 1120 1126	better
+R16	Attribute Arg1:T63 Arg2:T64	
+T65	DATA-ITEM 1139 1146	queries
+T67	PROCESS 1162 1170	performs
+T68	QUALITY 1171 1177	better
+R17	Attribute Arg1:T67 Arg2:T68	
+T69	QUALITY 1182 1190	specific
+T70	QUALITY 1131 1138	general
+R18	Attribute Arg1:T65 Arg2:T70	
+T71	DATA-ITEM 1191 1198	queries
+R19	Attribute Arg1:T71 Arg2:T69	
+T72	REFERENCE 746 751	which
+R20	Attribute Arg1:T72 Arg2:T47	
+R21	Coreference Arg1:T72 Arg2:T45	
+T73	PLAN 0 4	HITS
+T74	PLAN 108 112	HITS
+T75	COMPARE 116 126	comparison
+R22	Coreference Arg1:T16 Arg2:T8	
+T76	PLAN 790 794	HITS
+T77	PLAN 807 815	PageRank
+T78	PLAN 1156 1161	BM25F
+R13	Attribute Arg1:T61 Arg2:T60	
+R23	Attribute Arg1:T16 Arg2:T15	
+R24	Attribute Arg1:T74 Arg2:T6	
+T79	REFERENCE 26 28	it
+R25	Coreference Arg1:T79 Arg2:T73	
+R26	Attribute Arg1:T76 Arg2:T53	
+R14	Attribute Arg1:T44 Arg2:T46	
+R27	Apply-to Arg1:T73 Arg2:T2	
+R28	Apply-to Arg1:T79 Arg2:T3	
+R29	Input Arg1:T5 Arg2:T6	
+R30	to Arg1:T75 Arg2:T6	
+R31	from Arg1:T75 Arg2:T8	
+R32	In_Out Arg1:T9 Arg2:T74	
+R33	from Arg1:T10 Arg2:T9	
+R34	to Arg1:T10 Arg2:T12	
+R35	from Arg1:T13 Arg2:T12	
+R36	to Arg1:T13 Arg2:T14	
+R37	Coreference Arg1:T16 Arg2:T74	
+T80	PROCESS 270 280	quantified
+R38	Output Arg1:T80 Arg2:T15	
+T81	APPLY-TO 301 306	using
+R39	to Arg1:T81 Arg2:T80	
+R40	from Arg1:T81 Arg2:T19	
+R41	Is-a Arg1:T20 Arg2:T19	
+R42	Is-a Arg1:T21 Arg2:T19	
+R43	Is-a Arg1:T22 Arg2:T19	
+R44	to Arg1:T24 Arg2:T27	
+R45	from Arg1:T24 Arg2:T23	
+R46	Member-collection Arg1:T30 Arg2:T28	
+R47	Member-collection Arg1:T28 Arg2:T27	
+R48	from Arg1:T31 Arg2:T33	
+R49	to Arg1:T31 Arg2:T30	
+R50	Condition Arg1:T34 Arg2:T30	
+R51	Target Arg1:T34 Arg2:T37	
+T82	DATA-ITEM 642 645	set
+R52	Member-collection Arg1:T39 Arg2:T82	
+R53	Member-collection Arg1:T82 Arg2:T27	
+R54	Output Arg1:T40 Arg2:T39	
+R55	Input Arg1:T40 Arg2:T41	
+R56	Input Arg1:T43 Arg2:T42	
+R57	Output Arg1:T43 Arg2:T45	
+R58	Agent Arg1:T48 Arg2:T49	
+R59	In_Out Arg1:T48 Arg2:T72	
+R60	Apply-to Arg1:T76 Arg2:T51	
+R61	Compare Arg1:T77 Arg2:T51	
+R62	Input Arg1:T56 Arg2:T55	
+R63	Input Arg1:T56 Arg2:T57	
+R64	Attribute Arg1:T58 Arg2:T59	
+R65	Attribute Arg1:T58 Arg2:T60	
+R66	Input Arg1:T63 Arg2:T62	
+R67	Input Arg1:T63 Arg2:T65	
+R68	Apply-to Arg1:T78 Arg2:T67	
+T1	PERSON 267 269	We
+T7	PERSON 776 778	We
+T50	PROCESS 779 784	found
+T52	PERSON 979 981	we
+T66	PROCESS 982 989	studied
+T83	PROCESS 1081 1086	found
+R70	Output Arg1:T83 Arg2:T63	
+R71	Output Arg1:T66 Arg2:T58	
+R72	Agent Arg1:T66 Arg2:T52	
+R73	Agent Arg1:T83 Arg2:T52	
+R69	Input Arg1:T67 Arg2:T71	
+R74	Output Arg1:T83 Arg2:T67	
+R75	Agent Arg1:T50 Arg2:T7	
+R76	Output Arg1:T50 Arg2:T51	
+R77	Agent Arg1:T80 Arg2:T1	
+R78	Member-collection Arg1:T42 Arg2:T39	
+T84	REFERENCE 38 48	This paper
+T85	PROCESS 49 58	describes
+R79	Condition Arg1:T85 Arg2:T84	
+R80	Output Arg1:T85 Arg2:T5	

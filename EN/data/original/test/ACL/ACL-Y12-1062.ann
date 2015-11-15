@@ -1,0 +1,198 @@
+T1	DATA-ITEM 0 8	Accuracy
+T2	QUALITY 13 23	robustness
+T3	PROCESS 27 36	measuring
+T4	DATA-ITEM 41 59	lexical similarity
+T5	DATA-ITEM 63 84	semantic role fillers
+T6	PLAN-OR-PROCESS 89 121	automatic semantic MT evaluation
+T7	DATA-ITEM 147 155	evidence
+T8	PROCESS 156 167	overturning
+T11	QUALITY 134 146	larger-scale
+T12	QUANTITY 209 213	many
+T13	PLAN 214 261	alternative phrasal lexical similarity measures
+R1	Attribute Arg1:T13 Arg2:T12	
+T14	DATA-ITEM 271 283	word vectors
+T15	PLAN 289 308	Jaccard coefficient
+T16	PERSON 289 296	Jaccard
+T17	JUDGING-PROCESS 314 323	increases
+T18	QUALITY 328 338	robustness
+T20	QUALITY 353 372	recently introduced
+T22	QUALITY 374 389	fully-automatic
+T23	QUALITY 391 407	state-of-the-art
+T24	PLAN 408 437	semantic MT evaluation metric
+R3	Attribute Arg1:T24 Arg2:T23	
+T26	QUALITY 445 455	critically
+T27	INPUT 456 463	depends
+T28	DATA-ITEM 467 500	phrasal lexical similarity scores
+R4	Attribute Arg1:T27 Arg2:T26	
+T29	QUALITY 513 526	automatically
+T30	PROCESS 527 536	determine
+T31	DATA-ITEM 543 564	semantic role fillers
+R5	Attribute Arg1:T30 Arg2:T29	
+T32	PROCESS 575 582	aligned
+T33	DATA-ITEM 591 600	reference
+T34	DATA-ITEM 605 625	machine translations
+T35	PLAN-OR-PROCESS 631 653	robustness experiments
+T36	PROCESS 659 668	conducted
+T37	QUALITY 676 683	various
+T38	DATA-ITEM 684 693	data sets
+R6	Attribute Arg1:T38 Arg2:T37	
+T39	PLAN 704 730	NIST MetricsMaTr protocols
+T41	PLAN 709 720	MetricsMaTr
+T42	APPLY-TO 694 703	following
+T43	QUALITY 740 746	higher
+T44	PLAN 747 766	Kendall correlation
+T45	PERSON 747 754	Kendall
+T46	DATA-ITEM 772 796	human adequacy judgments
+T49	DATA-ITEM 836 843	synsets
+T54	PERSON 874 881	Jaccard
+T55	PLAN 874 893	Jaccard coefficient
+T56	MODALITY 828 835	without
+R7	Attribute Arg1:T49 Arg2:T56	
+T58	QUALITY 909 928	more discriminative
+T57	QUALITY 909 913;933 939	more robust
+T59	PLAN 945 962	cosine similarity
+T60	PLAN 968 982	Min/Max metric
+T61	PLAN 988 1006	mutual information
+T62	PLAN 1008 1033	Jensen Shannon divergence
+T63	PERSON 1008 1022	Jensen Shannon
+T64	PLAN 1042 1060	Dice's coefficient
+T65	PERSON 1042 1046	Dice
+T66	PLAN 1085 1104	Jaccard coefficient
+T67	PERSON 1085 1092	Jaccard
+T68	PLAN 1112 1145	phrasal lexical similarity metric
+T69	DATA-ITEM 1158 1175	word token scores
+T70	QUALITY 1180 1184	best
+T71	DATA-ITEM 1201 1234	phrasal segment similarity scores
+T72	APPLY-TO 1235 1240	using
+T73	PLAN 1245 1259	geometric mean
+T74	PLAN 1284 1299	arithmetic mean
+T75	PLAN 1303 1344	competitive linking style word alignments
+T76	DATA-ITEM 1386 1405	context window size
+T77	QUANTITY 1409 1410	5
+R8	Attribute Arg1:T76 Arg2:T77	
+T78	PROCESS 1411 1419	captures
+T79	QUANTITY 1432 1438	amount
+T80	QUALITY 1424 1431	optimal
+R9	Attribute Arg1:T79 Arg2:T80	
+T81	DATA-ITEM 1442 1453	information
+T82	PROCESS 1458 1466	training
+T83	DATA-ITEM 1471 1483	word vectors
+T84	DATA-ITEM 1489 1505	combined results
+T85	QUALITY 1516 1519	new
+T86	PLAN 1520 1531	formulation
+T89	QUALITY 1546 1568	significantly improved
+T90	QUALITY 1569 1579	robustness
+T91	DATA-ITEM 1587 1596	data sets
+T92	PERSON 772 777	human
+R10	Attribute Arg1:T7 Arg2:T11	
+T93	PLAN 342 347	MEANT
+T94	PLAN 439 444	MEANT
+R12	Attribute Arg1:T24 Arg2:T22	
+R2	Attribute Arg1:T24 Arg2:T20	
+R13	Attribute Arg1:T44 Arg2:T43	
+T21	PLAN 805 809	BLEU
+T95	PLAN 811 817	METEOR
+T96	PLAN 846 849	WER
+T97	PLAN 851 854	PER
+T98	PLAN 856 859	TER
+T99	PLAN 864 868	CDER
+R14	Attribute Arg1:T86 Arg2:T85	
+T100	PLAN 1535 1540	MEANT
+R15	Attribute Arg1:T90 Arg2:T89	
+T88	ORGANIZATION 704 708	NIST
+T19	INPUT 262 270	based on
+T9	DATA-ITEM 177 184	results
+T10	TIME 168 176	previous
+R11	Attribute Arg1:T9 Arg2:T10	
+T51	PROCESS 1185 1195	aggregated
+R18	Attribute Arg1:T51 Arg2:T70	
+T52	QUALITY 1147 1157	individual
+R19	Attribute Arg1:T69 Arg2:T52	
+R20	Attribute Arg1:T5 Arg2:T4	
+R21	In_Out Arg1:T3 Arg2:T4	
+R22	Attribute Arg1:T3 Arg2:T2	
+R23	Attribute Arg1:T3 Arg2:T1	
+R24	Apply-to Arg1:T3 Arg2:T6	
+R25	Input Arg1:T8 Arg2:T7	
+R26	Target Arg1:T8 Arg2:T9	
+R16	from Arg1:T19 Arg2:T13	
+R17	to Arg1:T19 Arg2:T14	
+R27	Is-a Arg1:T15 Arg2:T13	
+T53	QUALITY 309 313	most
+R28	Attribute Arg1:T17 Arg2:T53	
+R29	Apply-to Arg1:T15 Arg2:T17	
+R30	Attribute Arg1:T93 Arg2:T18	
+R31	In_Out Arg1:T17 Arg2:T18	
+R32	Compare Arg1:T13 Arg2:T53	
+R33	Is-a Arg1:T93 Arg2:T24	
+R34	from Arg1:T27 Arg2:T94	
+R35	to Arg1:T27 Arg2:T28	
+R36	Apply-to Arg1:T94 Arg2:T30	
+T87	MODALITY 565 571	should
+R37	Attribute Arg1:T32 Arg2:T87	
+R38	Input Arg1:T32 Arg2:T31	
+R39	Destination Arg1:T32 Arg2:T33	
+R40	Destination Arg1:T32 Arg2:T34	
+R41	Output Arg1:T30 Arg2:T31	
+R42	Output Arg1:T36 Arg2:T35	
+R43	Input Arg1:T36 Arg2:T38	
+R44	from Arg1:T42 Arg2:T39	
+R45	to Arg1:T42 Arg2:T36	
+T101	RESULT 732 739	showing
+R46	from Arg1:T101 Arg2:T35	
+R47	to Arg1:T101 Arg2:T43	
+R48	Destination Arg1:T44 Arg2:T46	
+T102	COMPARE 797 804	against
+R49	from Arg1:T102 Arg2:T21	
+R50	to Arg1:T102 Arg2:T43	
+R51	from Arg1:T102 Arg2:T95	
+R52	from Arg1:T102 Arg2:T96	
+R53	from Arg1:T102 Arg2:T97	
+R54	from Arg1:T102 Arg2:T98	
+R55	from Arg1:T102 Arg2:T99	
+R57	Attribute Arg1:T55 Arg2:T58	
+R58	Attribute Arg1:T55 Arg2:T57	
+R59	Compare Arg1:T59 Arg2:T57	
+R60	Compare Arg1:T59 Arg2:T58	
+R62	Compare Arg1:T60 Arg2:T57	
+R63	Compare Arg1:T60 Arg2:T58	
+R61	Condition Arg1:T60 Arg2:T61	
+R64	Compare Arg1:T62 Arg2:T57	
+R65	Compare Arg1:T62 Arg2:T58	
+R66	Compare Arg1:T64 Arg2:T57	
+R67	Compare Arg1:T64 Arg2:T58	
+R68	Is-a Arg1:T66 Arg2:T68	
+R69	Output Arg1:T51 Arg2:T71	
+R70	Input Arg1:T51 Arg2:T69	
+R71	Apply-to Arg1:T66 Arg2:T51	
+R72	from Arg1:T72 Arg2:T73	
+R73	to Arg1:T72 Arg2:T51	
+R74	Compare Arg1:T74 Arg2:T70	
+R75	Compare Arg1:T75 Arg2:T70	
+R76	Attribute Arg1:T81 Arg2:T79	
+R77	In_Out Arg1:T78 Arg2:T81	
+R78	In_Out Arg1:T82 Arg2:T83	
+R79	Input Arg1:T82 Arg2:T81	
+R80	Condition Arg1:T78 Arg2:T76	
+R81	In_Out Arg1:T86 Arg2:T100	
+T103	RESULT 1506 1513	suggest
+R82	from Arg1:T103 Arg2:T84	
+R83	to Arg1:T103 Arg2:T89	
+R84	Attribute Arg1:T86 Arg2:T90	
+R85	Input Arg1:T86 Arg2:T91	
+R86	Condition Arg1:T95 Arg2:T49	
+T25	PERSON 123 125	We
+T40	PROCESS 126 133	present
+T47	PERSON 1062 1064	We
+T48	PROCESS 1070 1074	show
+T50	PERSON 1359 1361	we
+T104	PROCESS 1362 1366	show
+T105	QUALITY 1367 1378	empirically
+R56	Agent Arg1:T40 Arg2:T25	
+R87	Agent Arg1:T48 Arg2:T47	
+R88	Agent Arg1:T104 Arg2:T50	
+R89	Output Arg1:T40 Arg2:T7	
+T106	PROCESS 186 193	showing
+R91	Attribute Arg1:T104 Arg2:T105	
+R90	Other-rel Arg1:T7 Arg2:T106	
+R92	Output Arg1:T106 Arg2:T15	

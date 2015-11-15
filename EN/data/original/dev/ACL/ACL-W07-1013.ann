@@ -1,0 +1,135 @@
+T1	APPLY-TO 110 119	involving
+T2	OUTPUT 280 288	resulted
+T3	APPLY-TO 496 504	required
+T4	COMPARE 824 835	approaching
+T6	PROCESS 804 813	performed
+T7	TIME 217 225	previous
+T9	QUALITY 382 403	permanently available
+T11	QUALITY 538 543	large
+T13	QUALITY 548 572	commercially significant
+T14	QUALITY 619 625	larger
+T15	TIME 638 646	previous
+T16	QUALITY 754 765	preliminary
+T17	QUALITY 938 957	currently available
+T18	QUANTITY 791 795	Many
+T19	PLAN 24 50	Multi-label Classification
+T20	DATA-ITEM 54 72	Clinical Free Text
+T21	PLAN 98 109	shared task
+T22	PROCESS 124 134	assignment
+T23	DATA-ITEM 138 152	ICD-9-CM codes
+T24	DATA-ITEM 156 173	radiology reports
+T25	DATA-ITEM 179 187	features
+T26	PLAN 202 211	this task
+T27	PLAN 226 238	shared tasks
+T28	DOMAIN 246 263	biomedical domain
+T29	REFERENCE 277 279	it
+T30	DATA-ITEM 323 329	corpus
+T31	DATA-ITEM 350 363	clinical text
+T32	DATA-ITEM 365 378	This resource
+T33	PLAN-OR-PROCESS 441 449	research
+T34	QUALITY 465 472	feature
+T35	PLAN 480 484	task
+T36	REFERENCE 493 495	it
+T37	PROCESS 505 519	categorization
+T38	DATA-ITEM 580 586	labels
+T39	PERSON 602 614	participants
+T40	PLAN 647 672	biomedical challenge task
+T41	PLAN-OR-PROCESS 690 713	data production process
+T42	PLAN 722 741	evaluation measures
+T43	PLAN-OR-PROCESS 766 774	analysis
+T44	DATA-ITEM 782 789	results
+T45	PLAN 796 803	systems
+T46	QUALITY 817 823	levels
+T47	DATA-ITEM 840 861	inter-coder agreement
+T48	DATA-ITEM 879 901	human-like performance
+T49	PLAN 905 914	this task
+T50	COMPARE 929 934	reach
+T51	PLAN 958 970	technologies
+T52	PLAN 2 13	Shared Task
+T53	APPLY-TO 14 23	Involving
+T54	PLAN 138 146	ICD-9-CM
+T55	QUANTITY 175 178	Two
+R1	Attribute Arg1:T25 Arg2:T55	
+T56	PROCESS 188 201	distinguished
+R2	Coreference Arg1:T26 Arg2:T21	
+R3	Attribute Arg1:T27 Arg2:T7	
+T57	QUALITY 296 301	first
+T58	QUALITY 302 322	freely distributable
+R4	Attribute Arg1:T30 Arg2:T58	
+R5	Attribute Arg1:T30 Arg2:T57	
+T59	QUALITY 333 349	fully anonymized
+R6	Attribute Arg1:T31 Arg2:T59	
+R7	Attribute Arg1:T32 Arg2:T9	
+T8	PROCESS 423 433	facilitate
+T10	TIME 434 440	future
+R8	Attribute Arg1:T33 Arg2:T10	
+T60	QUALITY 455 460	other
+R9	Attribute Arg1:T34 Arg2:T60	
+R10	Coreference Arg1:T36 Arg2:T35	
+T61	APPLY-TO 525 532	respect
+T12	DATA-ITEM 573 576	set
+R11	Attribute Arg1:T12 Arg2:T11	
+R12	Attribute Arg1:T12 Arg2:T13	
+T62	QUANTITY 592 598	number
+R13	Attribute Arg1:T62 Arg2:T14	
+R14	Attribute Arg1:T40 Arg2:T15	
+R15	Attribute Arg1:T43 Arg2:T16	
+R16	Attribute Arg1:T45 Arg2:T18	
+R18	Attribute Arg1:T51 Arg2:T17	
+T65	PERSON 879 884	human
+R19	Coreference Arg1:T29 Arg2:T26	
+R20	Coreference Arg1:T32 Arg2:T30	
+T66	PERSON 846 851	coder
+R17	Member-collection Arg1:T38 Arg2:T12	
+R21	Member-collection Arg1:T31 Arg2:T30	
+T64	QUALITY 461 464	key
+R22	Attribute Arg1:T34 Arg2:T64	
+R23	Coreference Arg1:T49 Arg2:T29	
+R24	Attribute Arg1:T39 Arg2:T62	
+R25	from Arg1:T53 Arg2:T52	
+R26	to Arg1:T53 Arg2:T19	
+R27	In_Out Arg1:T19 Arg2:T20	
+R28	from Arg1:T1 Arg2:T21	
+R29	to Arg1:T1 Arg2:T22	
+R30	Output Arg1:T22 Arg2:T23	
+R31	Destination Arg1:T22 Arg2:T24	
+R32	Input Arg1:T56 Arg2:T25	
+R33	Output Arg1:T56 Arg2:T26	
+R34	Output Arg1:T56 Arg2:T27	
+R35	Condition Arg1:T56 Arg2:T28	
+R36	from Arg1:T2 Arg2:T29	
+R37	to Arg1:T2 Arg2:T30	
+R38	Input Arg1:T8 Arg2:T32	
+R39	Target Arg1:T8 Arg2:T33	
+R40	Attribute Arg1:T35 Arg2:T34	
+R41	to Arg1:T3 Arg2:T36	
+R42	from Arg1:T3 Arg2:T37	
+R43	to Arg1:T61 Arg2:T37	
+R44	from Arg1:T61 Arg2:T12	
+R45	Compare Arg1:T40 Arg2:T14	
+R46	Input Arg1:T43 Arg2:T44	
+R47	from Arg1:T4 Arg2:T47	
+R48	to Arg1:T4 Arg2:T46	
+R49	Attribute Arg1:T6 Arg2:T46	
+R50	Apply-to Arg1:T45 Arg2:T6	
+R51	Other-rel Arg1:T49 Arg2:T48	
+R52	from Arg1:T50 Arg2:T51	
+R53	to Arg1:T50 Arg2:T49	
+T72	MODALITY 408 412	will
+R54	Attribute Arg1:T8 Arg2:T72	
+T5	REFERENCE 74 84	This paper
+T63	PROCESS 85 92	reports
+T67	PERSON 674 676	We
+T68	PROCESS 677 685	describe
+R55	Agent Arg1:T68 Arg2:T67	
+R56	Output Arg1:T68 Arg2:T41	
+R57	Output Arg1:T68 Arg2:T42	
+T69	PROCESS 747 751	give
+R58	Agent Arg1:T69 Arg2:T67	
+R59	Output Arg1:T69 Arg2:T43	
+T70	PERSON 414 416	we
+T71	PROCESS 417 421	hope
+R60	Agent Arg1:T71 Arg2:T70	
+R61	Output Arg1:T71 Arg2:T8	
+R62	Condition Arg1:T63 Arg2:T5	
+R63	Output Arg1:T63 Arg2:T21	

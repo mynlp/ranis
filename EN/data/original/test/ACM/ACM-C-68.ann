@@ -1,0 +1,163 @@
+T1	PLAN-OR-PROCESS 3 13	Evaluation
+T2	QUALITY 17 37	Availability Latency
+T3	ARTIFACT 41 80	Carrier-based Vehicular ad-hoc Networks
+T4	PLAN-OR-PROCESS 81 99	On-demand delivery
+T5	DATA-ITEM 103 108;119 124	audio clips
+T6	DATA-ITEM 113 124	video clips
+T7	ARTIFACT 128 166	peer-to-peer vehicular ad-hoc networks
+T8	PROCESS 190 198	research
+T9	QUALITY 173 181	emerging
+T10	DOMAIN 182 186	area
+T11	THING 204 222	target environment
+T12	APPLY-TO 223 227	uses
+T13	ARTIFACT 228 241	data carriers
+T15	IS-A 243 249	termed
+T16	ARTIFACT 268 281	mobile device
+T17	PROCESS 282 289	carries
+T18	DATA-ITEM 292 301	data item
+T19	ARTIFACT 317 323	server
+T21	ARTIFACT 329 335	client
+T22	PROCESS 344 354	minimizing
+T23	QUALITY 359 379	availability latency
+T24	QUALITY 412 421	variation
+T25	QUALITY 425 445	availability latency
+T27	PLAN 465 473	function
+T28	DATA-ITEM 484 487	set
+T29	DATA-ITEM 491 501	parameters
+T30	QUALITY 479 483	rich
+T31	DATA-ITEM 510 521	car density
+T32	DATA-ITEM 523 541	storage per device
+T33	DATA-ITEM 543 558	repository size
+T34	PLAN 564 584	replacement policies
+T35	APPLY-TO 585 593	employed
+T37	PLAN-OR-PROCESS 613 621	analysis
+T38	PLAN-OR-PROCESS 626 647	extensive simulations
+T39	QUALITY 657 662	novel
+T40	PLAN 663 671	insights
+T42	PLAN-OR-PROCESS 681 687	design
+T43	PLAN 691 712	carrier-based systems
+T41	APPLY-TO 607 612	Using
+T44	PROCESS 652 656	gain
+T45	QUALITY 742 749	latency
+T46	JUDGING-PROCESS 726 738	improvements
+T47	QUALITY 714 725	Significant
+T48	MODALITY 750 753	can
+T49	PROCESS 757 765	obtained
+T51	QUALITY 787 791	cost
+T52	QUALITY 805 813	overhead
+T53	QUALITY 797 804	minimal
+T54	PROCESS 834 839	occur
+T55	PLAN 848 857	scenarios
+T56	QUALITY 869 877	accuracy
+T57	QUALITY 863 868	lower
+T58	DATA-ITEM 885 896	predictions
+T59	DATA-ITEM 904 914	car routes
+T60	JUDGING-PROCESS 815 833	These improvements
+R1	Coreference Arg1:T60 Arg2:T46	
+T61	QUANTITY 916 919	Two
+T62	THING 944 952	findings
+T63	QUALITY 920 943	particularly surprising
+T64	PLAN 964 995	naive random replacement policy
+T65	APPLY-TO 996 1004	employed
+T67	OUTPUT 1021 1026	shows
+T68	QUALITY 1027 1038	competitive
+T69	DATA-ITEM 1039 1050	performance
+T70	QUALITY 1060 1080	latency improvements
+T71	PROCESS 1081 1089	obtained
+T72	ARTIFACT 1108 1121	instantiation
+T74	QUALITY 1150 1156	robust
+T75	PROCESS 1160 1167	changes
+T76	DATA-ITEM 1175 1198	popularity distribution
+T77	DATA-ITEM 1206 1216	data items
+R2	Attribute Arg1:T10 Arg2:T9	
+R3	Attribute Arg1:T28 Arg2:T30	
+R4	Attribute Arg1:T40 Arg2:T39	
+R5	Attribute Arg1:T46 Arg2:T47	
+R6	Attribute Arg1:T49 Arg2:T48	
+R7	Attribute Arg1:T52 Arg2:T53	
+R8	Attribute Arg1:T56 Arg2:T57	
+R9	Attribute Arg1:T62 Arg2:T61	
+R10	Attribute Arg1:T62 Arg2:T63	
+R11	Attribute Arg1:T69 Arg2:T68	
+T78	PERSON 200 203	Our
+R13	Member-collection Arg1:T29 Arg2:T28	
+T20	ARTIFACT 250 258	zebroids
+T79	ARTIFACT 451 459	zebroids
+T80	ARTIFACT 597 605	zebroids
+T81	ARTIFACT 771 779	zebroids
+T82	ARTIFACT 1012 1020	zebroids
+T83	ARTIFACT 1125 1133	zebroids
+R14	Poss Arg1:T78 Arg2:T11	
+T14	REFERENCE 355 358	its
+R15	Poss Arg1:T14 Arg2:T23	
+R16	Coreference Arg1:T14 Arg2:T18	
+T26	ATTRIBUTE 1138 1143	found
+R17	Attribute Arg1:T1 Arg2:T2	
+R18	Condition Arg1:T1 Arg2:T3	
+R19	In_Out Arg1:T4 Arg2:T6	
+R20	In_Out Arg1:T4 Arg2:T5	
+R21	Condition Arg1:T4 Arg2:T7	
+R22	Is-a Arg1:T4 Arg2:T10	
+R23	Attribute Arg1:T8 Arg2:T10	
+R24	to Arg1:T12 Arg2:T11	
+R25	from Arg1:T12 Arg2:T13	
+R26	to Arg1:T15 Arg2:T13	
+R27	from Arg1:T15 Arg2:T20	
+R28	Apply-to Arg1:T16 Arg2:T17	
+R29	Target Arg1:T17 Arg2:T18	
+R30	Result Arg1:T17 Arg2:T22	
+R31	In_Out Arg1:T22 Arg2:T23	
+R34	Attribute Arg1:T25 Arg2:T24	
+R35	Attribute Arg1:T79 Arg2:T25	
+R36	Other-rel Arg1:T27 Arg2:T24	
+R37	Input Arg1:T27 Arg2:T28	
+R38	Is-a Arg1:T31 Arg2:T29	
+R39	Is-a Arg1:T32 Arg2:T29	
+R40	Is-a Arg1:T33 Arg2:T29	
+R41	Is-a Arg1:T34 Arg2:T29	
+R42	from Arg1:T35 Arg2:T34	
+R43	to Arg1:T35 Arg2:T80	
+R44	from Arg1:T41 Arg2:T37	
+R45	from Arg1:T41 Arg2:T38	
+R46	to Arg1:T41 Arg2:T44	
+R47	Output Arg1:T44 Arg2:T40	
+R49	Condition Arg1:T40 Arg2:T42	
+R48	Attribute Arg1:T43 Arg2:T42	
+R50	In_Out Arg1:T46 Arg2:T45	
+R51	Output Arg1:T49 Arg2:T46	
+R52	Apply-to Arg1:T81 Arg2:T49	
+R53	Attribute Arg1:T51 Arg2:T52	
+R54	Condition Arg1:T49 Arg2:T51	
+R55	Output Arg1:T54 Arg2:T60	
+R57	Condition Arg1:T54 Arg2:T55	
+R56	Attribute Arg1:T55 Arg2:T56	
+R58	Attribute Arg1:T58 Arg2:T56	
+R59	Attribute Arg1:T58 Arg2:T59	
+R60	from Arg1:T65 Arg2:T64	
+R61	to Arg1:T65 Arg2:T82	
+R62	from Arg1:T67 Arg2:T64	
+R63	to Arg1:T67 Arg2:T69	
+R64	Output Arg1:T71 Arg2:T70	
+R65	Condition Arg1:T71 Arg2:T72	
+R66	Is-a Arg1:T72 Arg2:T83	
+R67	Condition Arg1:T74 Arg2:T75	
+R68	Condition Arg1:T75 Arg2:T76	
+R69	Attribute Arg1:T77 Arg2:T76	
+R70	Attribute Arg1:T62 Arg2:T68	
+R71	Attribute Arg1:T62 Arg2:T74	
+T50	CONDITION 302 311	on behalf
+R72	from Arg1:T50 Arg2:T17	
+R73	to Arg1:T50 Arg2:T19	
+T66	QUALITY 1097 1107	simplified
+R32	Attribute Arg1:T72 Arg2:T66	
+R33	to Arg1:T26 Arg2:T74	
+R75	from Arg1:T26 Arg2:T70	
+R12	Destination Arg1:T17 Arg2:T21	
+T36	REFERENCE 384 394	this study
+T73	PERSON 396 398	we
+T84	PROCESS 399 407	quantify
+T85	PERSON 649 651	we
+R74	Agent Arg1:T44 Arg2:T85	
+R76	Agent Arg1:T84 Arg2:T73	
+R77	Condition Arg1:T84 Arg2:T36	
+R78	In_Out Arg1:T84 Arg2:T24	

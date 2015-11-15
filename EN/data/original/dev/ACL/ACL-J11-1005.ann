@@ -1,0 +1,304 @@
+T1	PLAN-OR-PROCESS 0 20	Syntactic Processing
+T2	APPLY-TO 21 26	Using
+T3	PLAN 31 53	Generalized Perceptron
+T4	PLAN 58 69	Beam Search
+T5	PERSON 71 73	We
+T6	PROCESS 74 79	study
+T8	PLAN 91 117	syntactic processing tasks
+T9	APPLY-TO 118 123	using
+T10	QUALITY 126 133	general
+T11	PLAN 134 155	statistical framework
+T12	REFERENCE 156 160	that
+T13	COMPONENT-OBJECT 161 169	consists
+T14	PLAN 175 194	global linear model
+T15	PROCESS 196 203	trained
+T17	PLAN 211 233	generalized perceptron
+T18	QUALITY 250 257	generic
+T19	PLAN 258 277	beam-search decoder
+T20	PERSON 279 281	We
+T21	PROCESS 282 287	apply
+T22	PLAN 292 301	framework
+T23	PLAN-OR-PROCESS 305 322	word segmentation
+T24	PLAN-OR-PROCESS 324 342	joint segmentation
+T25	PLAN-OR-PROCESS 347 358	POS-tagging
+T26	PLAN-OR-PROCESS 360 378	dependency parsing
+T27	PLAN-OR-PROCESS 384 408	phrase-structure parsing
+T28	PLAN 410 425	Both components
+T29	PLAN 433 442	framework
+T30	QUALITY 447 459	conceptually
+T31	QUALITY 480 491	very simple
+T32	PLAN 497 516	beam-search decoder
+T33	QUALITY 522 530	requires
+T34	PLAN 535 560	syntactic processing task
+T35	PROCESS 567 573	broken
+T36	PLAN 581 589	sequence
+T37	PLAN 593 602	decisions
+T38	PLAN 623 628	stage
+T39	PLAN 649 656	decoder
+T40	MODALITY 660 664	able
+T41	PROCESS 668 676	consider
+T42	DATA-ITEM 681 697	top-n candidates
+T43	PROCESS 702 710	generate
+T44	QUANTITY 711 714	all
+T45	DATA-ITEM 715 728	possibilities
+T46	QUALITY 737 741	next
+T47	PLAN 742 747	stage
+T48	PLAN 758 765	decoder
+T49	PROCESS 775 782	defined
+T50	REFERENCE 784 786	it
+T51	INPUT 790 797	applied
+T52	DATA-ITEM 805 818	training data
+T53	INPUT 820 825	using
+T54	DATA-ITEM 826 841	trivial updates
+T56	PLAN 859 881	generalized perceptron
+T57	PROCESS 885 891	induce
+T58	PLAN 894 899	model
+T60	PLAN 901 922	This simple framework
+T61	RESULT 923 931	performs
+T62	QUALITY 932 949	surprisingly well
+T63	RESULT 951 957	giving
+T64	DATA-ITEM 958 974	accuracy results
+T65	QUALITY 975 986	competitive
+T66	PLAN 996 1012	state-of-the-art
+T67	QUANTITY 1016 1019	all
+T68	PLAN 1024 1029	tasks
+T69	PERSON 1030 1032	we
+T70	PROCESS 1033 1041	consider
+T71	QUALITY 1047 1071	computational simplicity
+T72	PLAN 1079 1086	decoder
+T73	PLAN 1091 1109	training algorithm
+T74	RESULT 1110 1115	leads
+T75	QUALITY 1119 1139	significantly higher
+T76	DATA-ITEM 1140 1151	test speeds
+T77	QUALITY 1156 1161	lower
+T78	DATA-ITEM 1162 1176	training times
+T79	REFERENCE 1182 1187	their
+T80	QUALITY 1188 1192	main
+T81	PLAN 1193 1205	alternatives
+T82	MEMBER-COLLECTION 1207 1216	including
+T84	PLAN 1232 1264	large-margin training algorithms
+T85	PLAN 1269 1288	dynamic-programming
+T86	PROCESS 1293 1301	decoding
+T87	PLAN 1317 1326	framework
+T88	PROCESS 1327 1333	offers
+T89	DATA-ITEM 1338 1345	freedom
+T90	PROCESS 1349 1355	define
+T91	DATA-ITEM 1356 1374	arbitrary features
+T92	REFERENCE 1375 1380	which
+T93	MODALITY 1381 1384	can
+T94	PROCESS 1385 1389	make
+T95	QUALITY 1390 1401	alternative
+T96	PLAN 1402 1410	training
+T97	PLAN 1415 1434	decoding algorithms
+T98	QUALITY 1435 1453	prohibitively slow
+T99	PERSON 1455 1457	We
+T100	PROCESS 1458 1465	discuss
+T101	PLAN 1474 1491	general framework
+T102	APPLY-TO 1495 1502	applied
+T103	PLAN 1518 1526	problems
+T104	PROCESS 1527 1534	studied
+T105	PROCESS 1552 1558	making
+T106	PLAN-OR-PROCESS 1559 1570	comparisons
+T107	PLAN 1576 1596	alternative learning
+T108	PLAN 1601 1620	decoding algorithms
+T109	PERSON 1622 1624	We
+T110	PROCESS 1630 1634	show
+T111	DATA-ITEM 1643 1656	comparability
+T112	DATA-ITEM 1660 1670	candidates
+T113	PROCESS 1671 1681	considered
+T114	PLAN 1689 1693	beam
+T115	QUALITY 1700 1709	important
+T116	DATA-ITEM 1710 1716	factor
+T117	DATA-ITEM 1724 1735	performance
+T118	PERSON 1737 1739	We
+T119	PROCESS 1740 1745	argue
+T120	QUALITY 1770 1794	computational simplicity
+T121	PLAN 1802 1811	framework
+T122	REFERENCE 1827 1830	its
+T123	QUALITY 1831 1858	language-independent nature
+T124	RESULT 1860 1864	make
+T125	REFERENCE 1865 1867	it
+T126	PLAN 1882 1888	choice
+T128	PLAN 1904 1930	syntactic processing tasks
+T129	PLAN 1935 1938	one
+T130	REFERENCE 1939 1943	that
+T131	MODALITY 1944 1950	should
+T132	PROCESS 1954 1964	considered
+T133	PROCESS 1969 1979	comparison
+T134	PERSON 1983 1993	developers
+T135	QUALITY 1997 2008	alternative
+T136	PLAN 2009 2019	approaches
+R1	from Arg1:T2 Arg2:T3	
+R2	to Arg1:T2 Arg2:T1	
+R3	from Arg1:T2 Arg2:T4	
+A1	Self T5
+A2	Intentional T6
+R4	Agent Arg1:T6 Arg2:T5	
+R6	In_Out Arg1:T6 Arg2:T8	
+R7	Attribute Arg1:T11 Arg2:T10	
+R8	from Arg1:T9 Arg2:T11	
+R9	to Arg1:T9 Arg2:T8	
+R10	Coreference Arg1:T12 Arg2:T11	
+R11	from Arg1:T13 Arg2:T14	
+R12	to Arg1:T13 Arg2:T12	
+R15	Attribute Arg1:T19 Arg2:T18	
+R16	Apply-to Arg1:T17 Arg2:T15	
+R18	In_Out Arg1:T15 Arg2:T14	
+A3	Self T20
+A4	Intentional T21
+R19	Agent Arg1:T21 Arg2:T20	
+R20	Apply-to Arg1:T21 Arg2:T23	
+R21	Input Arg1:T21 Arg2:T22	
+R22	Apply-to Arg1:T21 Arg2:T24	
+R23	Apply-to Arg1:T21 Arg2:T25	
+R24	Apply-to Arg1:T21 Arg2:T26	
+R25	Apply-to Arg1:T21 Arg2:T27	
+R26	Component-object Arg1:T29 Arg2:T28	
+T138	QUALITY 464 479	computationally
+R27	Condition Arg1:T31 Arg2:T138	
+R28	Condition Arg1:T31 Arg2:T30	
+R29	Attribute Arg1:T28 Arg2:T31	
+R17	from Arg1:T13 Arg2:T19	
+R30	Is-a Arg1:T19 Arg2:T28	
+R31	Is-a Arg1:T14 Arg2:T28	
+R32	Input Arg1:T35 Arg2:T34	
+R33	Output Arg1:T35 Arg2:T36	
+R34	Member-collection Arg1:T37 Arg2:T36	
+T139	PLAN 636 643	process
+R35	Component-object Arg1:T139 Arg2:T38	
+R36	Apply-to Arg1:T39 Arg2:T41	
+R37	Attribute Arg1:T41 Arg2:T40	
+R38	Condition Arg1:T41 Arg2:T38	
+R39	Output Arg1:T41 Arg2:T42	
+R40	Attribute Arg1:T43 Arg2:T40	
+R41	Apply-to Arg1:T39 Arg2:T43	
+R42	Attribute Arg1:T45 Arg2:T44	
+R43	Output Arg1:T43 Arg2:T45	
+R44	Attribute Arg1:T47 Arg2:T46	
+R45	Destination Arg1:T43 Arg2:T47	
+R46	Attribute Arg1:T35 Arg2:T33	
+R47	Condition Arg1:T33 Arg2:T32	
+R48	Output Arg1:T49 Arg2:T48	
+R49	Coreference Arg1:T50 Arg2:T48	
+R50	from Arg1:T51 Arg2:T50	
+R51	to Arg1:T51 Arg2:T52	
+R52	Output Arg1:T57 Arg2:T58	
+R54	to Arg1:T53 Arg2:T54	
+R55	from Arg1:T53 Arg2:T50	
+R56	Apply-to Arg1:T50 Arg2:T57	
+T140	OUTPUT 842 851	according
+R57	from Arg1:T140 Arg2:T56	
+R58	to Arg1:T140 Arg2:T54	
+A5	Judgment T62
+R59	from Arg1:T61 Arg2:T60	
+R60	to Arg1:T61 Arg2:T62	
+R61	Attribute Arg1:T64 Arg2:T65	
+R62	to Arg1:T63 Arg2:T65	
+R63	from Arg1:T63 Arg2:T60	
+T59	COMPARE 987 991	with
+R64	from Arg1:T59 Arg2:T66	
+R65	to Arg1:T59 Arg2:T65	
+A6	Judgment T65
+R66	Attribute Arg1:T68 Arg2:T67	
+A7	Self T69
+A8	Intentional T70
+R67	Agent Arg1:T70 Arg2:T69	
+R68	Input Arg1:T70 Arg2:T68	
+R69	Condition Arg1:T65 Arg2:T68	
+R70	Attribute Arg1:T72 Arg2:T71	
+R71	Attribute Arg1:T73 Arg2:T71	
+R72	Attribute Arg1:T76 Arg2:T75	
+A9	Judgment T75
+R73	to Arg1:T74 Arg2:T75	
+R74	from Arg1:T74 Arg2:T71	
+R75	Attribute Arg1:T78 Arg2:T77	
+A10	Judgment T77
+R76	to Arg1:T74 Arg2:T77	
+R77	Attribute Arg1:T81 Arg2:T80	
+R78	Poss Arg1:T79 Arg2:T81	
+R79	Member-collection Arg1:T73 Arg2:T79	
+R80	Member-collection Arg1:T72 Arg2:T79	
+T141	COMPARE 1177 1181	than
+R81	from Arg1:T141 Arg2:T81	
+R82	to Arg1:T141 Arg2:T77	
+R83	to Arg1:T141 Arg2:T75	
+R84	Apply-to Arg1:T85 Arg2:T86	
+R85	Apply-to Arg1:T84 Arg2:T86	
+T83	PLAN 1217 1227	log-linear
+R86	Apply-to Arg1:T83 Arg2:T86	
+R87	from Arg1:T82 Arg2:T85	
+R88	from Arg1:T82 Arg2:T84	
+R89	from Arg1:T82 Arg2:T83	
+R90	to Arg1:T82 Arg2:T81	
+A11	Judgment T71
+R91	Output Arg1:T88 Arg2:T89	
+R92	Apply-to Arg1:T87 Arg2:T88	
+R93	Destination Arg1:T88 Arg2:T90	
+R94	Output Arg1:T90 Arg2:T91	
+R95	Attribute Arg1:T94 Arg2:T93	
+R96	Attribute Arg1:T96 Arg2:T95	
+R97	Attribute Arg1:T97 Arg2:T95	
+R98	Output Arg1:T94 Arg2:T96	
+R99	Output Arg1:T94 Arg2:T97	
+R100	Attribute Arg1:T97 Arg2:T98	
+R101	Attribute Arg1:T96 Arg2:T98	
+R102	Coreference Arg1:T92 Arg2:T91	
+R103	Result Arg1:T92 Arg2:T94	
+A12	Self T99
+A13	Intentional T100
+R104	Agent Arg1:T100 Arg2:T99	
+R105	to Arg1:T102 Arg2:T103	
+R106	from Arg1:T102 Arg2:T101	
+R107	In_Out Arg1:T104 Arg2:T103	
+T142	REFERENCE 1538 1550	this article
+A14	Self T142
+R108	Condition Arg1:T104 Arg2:T142	
+R109	Output Arg1:T105 Arg2:T106	
+A15	Intentional T105
+R110	Target Arg1:T106 Arg2:T107	
+R111	Target Arg1:T106 Arg2:T108	
+A16	Intentional T104
+A17	Self T109
+A18	Intentional T110
+R114	Agent Arg1:T110 Arg2:T109	
+R115	Attribute Arg1:T116 Arg2:T115	
+R116	Condition Arg1:T115 Arg2:T117	
+A19	Judgment T115
+R118	Output Arg1:T113 Arg2:T111	
+R117	Apply-to Arg1:T114 Arg2:T113	
+R119	Attribute Arg1:T112 Arg2:T111	
+A20	Self T118
+A21	Intentional T119
+R120	Agent Arg1:T119 Arg2:T118	
+T143	QUALITY 1755 1765	conceptual
+R121	Attribute Arg1:T121 Arg2:T120	
+R122	Attribute Arg1:T121 Arg2:T143	
+R123	Coreference Arg1:T122 Arg2:T121	
+R124	Attribute Arg1:T122 Arg2:T123	
+T144	QUALITY 1870 1881	competitive
+R126	Attribute Arg1:T126 Arg2:T144	
+R128	Coreference Arg1:T125 Arg2:T121	
+R129	to Arg1:T124 Arg2:T126	
+R130	from Arg1:T124 Arg2:T125	
+R127	Apply-to Arg1:T125 Arg2:T128	
+A23	Judgment T120
+A24	Judgment T143
+R131	Attribute Arg1:T136 Arg2:T135	
+R132	Other-rel Arg1:T134 Arg2:T136	
+R133	Agent Arg1:T133 Arg2:T134	
+R134	Attribute Arg1:T132 Arg2:T131	
+R135	In_Out Arg1:T132 Arg2:T130	
+R136	Coreference Arg1:T130 Arg2:T129	
+R13	Is-a Arg1:T111 Arg2:T116	
+R14	from Arg1:T124 Arg2:T123	
+R53	from Arg1:T124 Arg2:T120	
+R137	from Arg1:T124 Arg2:T143	
+T7	QUALITY 80 90	a range of
+R5	Attribute Arg1:T8 Arg2:T7	
+T16	QUALITY 1893 1903	a range of
+R125	Attribute Arg1:T128 Arg2:T16	
+R112	Agent Arg1:T105 Arg2:T99	
+R113	Input Arg1:T133 Arg2:T129	
+A22	Judgment T144
+R138	Condition Arg1:T126 Arg2:T128	
+R139	to Arg1:T124 Arg2:T129	

@@ -1,0 +1,6 @@
+Implementing the Binding and Accommodation Theory for Anaphora Resolution and Presupposition Projection
+
+Computational aspects of Van der Sandt's binding and accommodation theory (BAT) for presupposition projection and anaphora resolution are presented and discussed in this article.
+BAT is reformulated to meet requirements for computational implementation, which include operations on discourse representation structures (renaming and merging), the representation of presuppositions (allowing for selective binding and determining free and bound variables), and a formulation of the acceptability constraints imposed by BAT.
+An efficient presupposition resolution algorithm is presented, and several further improvements such as preferences for binding and accommodation are discussed and integrated in this algorithm.
+Finally, innovative use of first-order theorem provers to carry out consistency checking of discourse representations is investigated.

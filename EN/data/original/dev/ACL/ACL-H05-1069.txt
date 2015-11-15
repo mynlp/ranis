@@ -1,0 +1,9 @@
+Word Sense Disambiguation Using Sense Examples Automatically Acquired From A Second Language .
+We present a novel almost-unsupervised approach to the task of Word Sense Disambiguation ( WSD ) .
+We build sense examples automatically , using large quantities of Chinese text , and English-Chinese and Chinese-English bilingual dictionaries , taking advantage of the observation that mappings between words and meanings are often different in typologically distant languages .
+We train a classifier on the sense examples and test it on a gold standard English WSD dataset .
+The evaluation gives results that exceed previous state-of-the-art results for comparable systems .
+We also demonstrate that a little manual effort can improve the quality of sense examples , as measured by WSD accuracy .
+The performance of the classifier on WSD also improves as the number of training sense examples increases .
+
+

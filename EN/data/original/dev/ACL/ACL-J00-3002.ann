@@ -1,0 +1,51 @@
+T1	PLAN-OR-PROCESS 0 22	Incremental Processing
+T2	QUALITY 27 40	Acceptability
+T3	PLAN 56 91	left-to-right incremental procedure
+T4	PROCESS 100 110	processing
+T5	PLAN 114 139	Lambek categorial grammar
+T6	PERSON 114 120	Lambek
+T7	PLAN-OR-PROCESS 143 165	proof net construction
+T8	PLAN 176 182	metric
+T9	QUALITY 186 196	complexity
+T10	PLAN 202 209	profile
+T11	TIME 213 217	time
+T12	QUANTITY 225 231	number
+T13	DATA-ITEM 235 255	unresolved valencies
+T14	QUALITY 257 266	correctly
+T15	PROCESS 267 275	predicts
+T16	QUALITY 278 290	wide variety
+T17	PLAN-OR-PROCESS 294 315	performance phenomena
+T18	IS-A 316 325	including
+T19	PLAN-OR-PROCESS 326 340	garden pathing
+T20	QUALITY 346 361	unacceptability
+T21	PLAN-OR-PROCESS 365 381	center embedding
+T22	PLAN-OR-PROCESS 383 393	preference
+T23	PLAN-OR-PROCESS 398 414	lower attachment
+T24	PLAN-OR-PROCESS 416 457	left-to-right quantifier scope preference
+T25	PLAN-OR-PROCESS 463 486	heavy noun phrase shift
+T26	QUALITY 169 175	simple
+R1	Attribute Arg1:T8 Arg2:T26	
+R2	Attribute Arg1:T17 Arg2:T16	
+R3	Attribute Arg1:T21 Arg2:T20	
+R4	Attribute Arg1:T15 Arg2:T14	
+R5	Attribute Arg1:T13 Arg2:T12	
+R6	In_Out Arg1:T4 Arg2:T5	
+R7	Apply-to Arg1:T3 Arg2:T4	
+R8	Apply-to Arg1:T7 Arg2:T4	
+R9	In_Out Arg1:T8 Arg2:T9	
+R10	Output Arg1:T15 Arg2:T17	
+R11	Apply-to Arg1:T8 Arg2:T15	
+R12	from Arg1:T18 Arg2:T19	
+R13	to Arg1:T18 Arg2:T17	
+R14	from Arg1:T18 Arg2:T20	
+R15	from Arg1:T18 Arg2:T22	
+R16	from Arg1:T18 Arg2:T24	
+R17	from Arg1:T18 Arg2:T25	
+R18	Condition Arg1:T22 Arg2:T23	
+R19	Condition Arg1:T10 Arg2:T11	
+R20	Attribute Arg1:T10 Arg2:T12	
+R21	Is-a Arg1:T10 Arg2:T8	
+T27	PERSON 42 44	We
+T28	PROCESS 45 53	describe
+R22	Agent Arg1:T28 Arg2:T27	
+R23	Output Arg1:T28 Arg2:T3	

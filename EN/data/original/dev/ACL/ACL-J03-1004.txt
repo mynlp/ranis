@@ -1,0 +1,7 @@
+A Machine Learning Approach to Modeling Scope Preferences
+
+This article describes a corpus-based investigation of quantifier scope preferences.
+Following recent work on multimodular grammar frameworks in theoretical linguistics and a long history of combining multiple information sources in natural language processing, scope is treated as a distinct module of grammar from syntax.
+This module incorporates multiple sources of evidence regarding the most likely scope reading for a sentence and is entirely data-driven.
+The experiments discussed in this article evaluate the performance of our models in predicting the most likely scope reading for a particular sentence, using Penn Treebank data both with and without syntactic annotation.
+We wish to focus attention on the issue of determining scope preferences, which has largely been ignored in theoretical linguistics, and to explore different models of the interaction between syntax and quantifier scope.

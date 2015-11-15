@@ -1,0 +1,9 @@
+A Note on Typing Feature Structures
+
+Feature structures are used to convey linguistic information in a variety of linguistic formalisms.
+Various definitions of feature structures exist; one dimension of variation is typing: unlike untyped feature structures, typed ones associate a type with every structure and impose appropriateness constraints on the occurrences of features and on the values that they take.
+This work demonstrates the benefits that typing can carry even for linguistic formalisms that use untyped feature structures.
+We present a method for validating the consistency of (untyped) feature structure specifications by imposing a type discipline.
+This method facilitates a great number of compile time checks: many possible errors can be detected before the grammar is used for parsing.
+We have constructed a type signature for an existing broad-coverage grammar of English and implemented a type inference algorithm that operates on the feature structure specifications in the grammar and reports incompatibilities with the signature.
+We have detected a large number of errors in the grammar, some of which are described in the article.

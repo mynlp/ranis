@@ -1,0 +1,178 @@
+T1	PLAN-OR-PROCESS 0 16	Revenue Analysis
+T2	PLAN 22 28	Family
+T3	PLAN 32 45	Ranking Rules
+T4	PLAN 50 66	Keyword Auctions
+T5	PLAN 67 83	Keyword auctions
+T6	IS-A 84 87	lie
+T7	PLAN 95 99	core
+T8	PLAN 107 122	business models
+T9	TIME 126 131	today
+T10	QUALITY 134 141	leading
+T11	PLAN 142 156	search engines
+T12	PERSON 158 169	Advertisers
+T13	PROCESS 170 173	bid
+T14	PLAN-OR-PROCESS 178 187	placement
+T15	DATA-ITEM 198 212	search results
+T16	PROCESS 222 229	charged
+T17	PLAN-OR-PROCESS 234 240	clicks
+T18	REFERENCE 244 249	their
+T19	DATA-ITEM 250 253	ads
+T20	PERSON 255 266	Advertisers
+T21	QUALITY 271 280	typically
+T22	PROCESS 281 287	ranked
+T23	PLAN 303 308	score
+T24	REFERENCE 309 313	that
+T25	PROCESS 314 332	takes into account
+T26	REFERENCE 333 338	their
+T27	DATA-ITEM 339 343	bids
+T28	QUALITY 348 357	potential
+T29	DATA-ITEM 358 376	clickthrough rates
+T30	PERSON 378 380	We
+T31	PROCESS 381 389	consider
+T32	PLAN 392 398	family
+T33	PLAN 402 415	ranking rules
+T34	REFERENCE 416 420	that
+T35	MEMBER-COLLECTION 421 429	contains
+T36	PLAN 430 435	those
+T37	QUALITY 436 445	typically
+T38	APPLY-TO 446 450	used
+T39	PROCESS 454 459	model
+T40	PLAN 480 495	auction designs
+T41	PLAN 499 512	special cases
+T42	PERSON 514 516	We
+T43	PROCESS 517 521	find
+T44	QUALITY 530 537	general
+T45	MODALITY 538 545	neither
+T46	REFERENCE 549 554	these
+T47	QUALITY 570 585	revenue-optimal
+T48	PLAN 589 600	equilibrium
+T49	PLAN-OR-PROCESS 615 621	choice
+T50	PLAN 625 637	ranking rule
+T51	MODALITY 638 641	can
+T52	PROCESS 645 651	guided
+T53	PROCESS 655 666	considering
+T54	DATA-ITEM 671 682	correlation
+T55	PERSON 691 698	bidders
+T56	DATA-ITEM 700 706	values
+T58	DATA-ITEM 711 730	click-through rates
+T59	PERSON 732 734	We
+T60	PROCESS 735 742	propose
+T61	QUALITY 745 751	simple
+T62	PLAN 752 760	approach
+T63	PROCESS 764 773	determine
+T64	QUALITY 776 791	revenue-optimal
+T65	PLAN 792 804	ranking rule
+T66	PERSON 812 815	our
+T67	PLAN 816 822	family
+T68	PROCESS 824 843	taking into account
+T69	PLAN-OR-PROCESS 855 878	advertiser satisfaction
+T70	PLAN-OR-PROCESS 883 898	user experience
+T71	PERSON 900 902	We
+T72	PROCESS 903 913	illustrate
+T73	PLAN 918 926	approach
+T74	APPLY-TO 927 932	using
+T75	PLAN 933 956	Monte-Carlo simulations
+T76	INPUT 957 965	based on
+T77	DATA-ITEM 966 979	distributions
+T78	PROCESS 980 986	fitted
+T79	ORGANIZATION 990 996	Yahoo!
+T80	DATA-ITEM 1005 1028	click-through rate data
+T81	QUALITY 1035 1046	high-volume
+T82	DATA-ITEM 1047 1054	keyword
+R1	Member-collection Arg1:T2 Arg2:T3	
+R2	Apply-to Arg1:T3 Arg2:T4	
+R3	Member-collection Arg1:T7 Arg2:T8	
+R4	Attribute Arg1:T11 Arg2:T10	
+R5	Condition Arg1:T10 Arg2:T9	
+R6	from Arg1:T6 Arg2:T5	
+R7	to Arg1:T6 Arg2:T7	
+R8	Apply-to Arg1:T11 Arg2:T8	
+R9	Agent Arg1:T13 Arg2:T12	
+R10	Destination Arg1:T13 Arg2:T14	
+R11	Destination Arg1:T13 Arg2:T15	
+R12	Destination Arg1:T16 Arg2:T12	
+R13	Coreference Arg1:T18 Arg2:T12	
+R14	Poss Arg1:T18 Arg2:T19	
+R15	Target Arg1:T17 Arg2:T19	
+R16	Input Arg1:T16 Arg2:T17	
+R17	Attribute Arg1:T22 Arg2:T21	
+R18	Target Arg1:T22 Arg2:T20	
+T83	APPLY-TO 288 300	according to
+R19	from Arg1:T83 Arg2:T23	
+R20	to Arg1:T83 Arg2:T22	
+R21	Coreference Arg1:T24 Arg2:T23	
+R22	Attribute Arg1:T26 Arg2:T27	
+R23	Attribute Arg1:T29 Arg2:T28	
+R24	Attribute Arg1:T26 Arg2:T29	
+R25	Output Arg1:T25 Arg2:T24	
+R26	Input Arg1:T25 Arg2:T27	
+R27	Input Arg1:T25 Arg2:T29	
+A1	Self T30
+A2	Intentional T31
+R28	Target Arg1:T31 Arg2:T30	
+R29	Member-collection Arg1:T32 Arg2:T33	
+R30	In_Out Arg1:T31 Arg2:T32	
+T84	ORGANIZATION 460 466	Yahoo!
+T85	ORGANIZATION 471 477	Google
+R31	to Arg1:T38 Arg2:T39	
+R32	from Arg1:T38 Arg2:T36	
+R33	Attribute Arg1:T38 Arg2:T37	
+R34	In_Out Arg1:T39 Arg2:T40	
+R35	Condition Arg1:T40 Arg2:T85	
+R36	Condition Arg1:T40 Arg2:T84	
+R37	Coreference Arg1:T34 Arg2:T32	
+R38	from Arg1:T35 Arg2:T36	
+R39	to Arg1:T35 Arg2:T34	
+R40	Is-a Arg1:T40 Arg2:T41	
+A3	Self T42
+R41	Agent Arg1:T43 Arg2:T42	
+R42	Attribute Arg1:T46 Arg2:T45	
+R43	Attribute Arg1:T46 Arg2:T47	
+R44	Condition Arg1:T47 Arg2:T48	
+R45	In_Out Arg1:T49 Arg2:T50	
+R46	Attribute Arg1:T47 Arg2:T44	
+R47	Attribute Arg1:T52 Arg2:T51	
+R48	Target Arg1:T52 Arg2:T49	
+R49	Apply-to Arg1:T53 Arg2:T52	
+R50	In_Out Arg1:T53 Arg2:T54	
+R51	Attribute Arg1:T55 Arg2:T56	
+R52	Attribute Arg1:T55 Arg2:T58	
+R53	Attribute Arg1:T54 Arg2:T55	
+R54	Attribute Arg1:T54 Arg2:T58	
+T57	QUALITY 558 569	necessarily
+R55	Attribute Arg1:T47 Arg2:T57	
+R56	Coreference Arg1:T46 Arg2:T32	
+A4	Self T59
+A5	Intentional T60
+R57	Agent Arg1:T60 Arg2:T59	
+R58	Attribute Arg1:T62 Arg2:T61	
+R59	Output Arg1:T60 Arg2:T62	
+R60	Apply-to Arg1:T62 Arg2:T63	
+R61	Attribute Arg1:T65 Arg2:T64	
+R62	Output Arg1:T63 Arg2:T65	
+R63	Poss Arg1:T66 Arg2:T67	
+R64	Input Arg1:T63 Arg2:T67	
+R65	Member-collection Arg1:T65 Arg2:T67	
+T86	PLAN-OR-PROCESS 844 851	effects
+T87	PERSON 855 865	advertiser
+T88	PERSON 883 887	user
+R66	Apply-to Arg1:T68 Arg2:T63	
+R67	Input Arg1:T68 Arg2:T86	
+R68	In_Out Arg1:T86 Arg2:T69	
+R69	In_Out Arg1:T86 Arg2:T70	
+A6	Self T71
+A7	Intentional T72
+R70	Agent Arg1:T72 Arg2:T71	
+R71	Output Arg1:T72 Arg2:T73	
+R72	from Arg1:T74 Arg2:T75	
+R73	to Arg1:T74 Arg2:T73	
+R74	Output Arg1:T78 Arg2:T77	
+R76	to Arg1:T76 Arg2:T77	
+R77	from Arg1:T76 Arg2:T75	
+T89	DATA-ITEM 990 996	Yahoo!
+T90	DATA-ITEM 997 1000	bid
+R78	Split Arg1:T90 Arg2:T89	
+R75	Attribute Arg1:T82 Arg2:T81	
+R79	Destination Arg1:T78 Arg2:T89	
+R80	to Arg1:T76 Arg2:T80	
+R81	Attribute Arg1:T82 Arg2:T80	

@@ -1,0 +1,185 @@
+T1	PROCESS 0 9	Computing
+T2	PLAN 10 30	Good Nash Equilibria
+T3	PLAN 34 49	Graphical Games
+T4	REFERENCE 50 60	This paper
+T5	PROCESS 61 70	addresses
+T6	PLAN 75 82	problem
+T7	PLAN 86 112	fair equilibrium selection
+T8	PLAN 116 131	graphical games
+T9	PERSON 133 136	Our
+T10	PLAN 137 145	approach
+T11	APPLY-TO 149 157	based on
+T12	PLAN 162 176	data structure
+T13	IS-A 177 183	called
+T15	PLAN 188 208	best response policy
+T16	REFERENCE 210 215	which
+T17	PROCESS 220 228	proposed
+T19	EXTERNAL-REFERENCE 246 250	[13]
+T20	PLAN 256 259	way
+T21	PROCESS 263 272	represent
+T22	QUANTITY 273 276	all
+T23	PLAN 277 292	Nash equilibria
+T24	PLAN 298 312	graphical game
+T27	PLAN 344 364	best response policy
+T28	DATA-ITEM 380 384	size
+T29	PLAN 400 416	underlying graph
+T30	PLAN 422 426	path
+T31	REFERENCE 431 441	this paper
+T32	PERSON 443 445	we
+T33	PROCESS 446 450	show
+T35	PLAN 463 479	underlying graph
+T36	PLAN 485 504	bounded-degree tree
+T38	PLAN 513 533	best response policy
+T39	DATA-ITEM 549 553	size
+T40	QUALITY 571 580	efficient
+T41	PLAN 581 590	algorithm
+T42	REFERENCE 591 596	which
+T43	PROCESS 597 607	constructs
+T44	PLAN 610 626	Nash equilibrium
+T45	REFERENCE 627 631	that
+T46	PROCESS 632 642	guarantees
+T47	QUALITY 643 650	certain
+T48	PLAN-OR-PROCESS 651 658	payoffs
+T49	QUANTITY 662 665	all
+T50	PERSON 666 678	participants
+T51	PLAN 699 715	solution concept
+T52	PLAN 721 737	Nash equilibrium
+T53	REFERENCE 738 742	that
+T54	PROCESS 743 752	maximizes
+T55	DATA-ITEM 757 771	social welfare
+T56	PERSON 773 775	We
+T57	PROCESS 776 780	show
+T58	QUALITY 793 800	exactly
+T59	PROCESS 801 810	computing
+T60	PLAN 811 821	the latter
+T61	QUALITY 825 835	infeasible
+T62	PERSON 837 839	we
+T63	PROCESS 840 845	prove
+T64	PROCESS 851 858	solving
+T65	PLAN 859 871	this problem
+T66	MODALITY 872 875	may
+T67	ATTRIBUTE 876 883	involve
+T69	DATA-ITEM 884 901	algebraic numbers
+T70	QUALITY 908 931	arbitrarily high degree
+T71	QUALITY 940 946	exists
+T72	PLAN 950 955	FPTAS
+T73	PROCESS 960 967	finding
+T74	PLAN 968 987	such an equilibrium
+T76	PLAN 1003 1023	best response policy
+T77	QUALITY 1028 1038	polynomial
+T78	PLAN 1045 1065	These two algorithms
+T79	MODALITY 1066 1069	can
+T80	PROCESS 1073 1081	combined
+T81	PROCESS 1085 1092	produce
+T82	PLAN 1093 1108	Nash equilibria
+T83	REFERENCE 1109 1113	that
+T84	QUALITY 1114 1121	satisfy
+T85	QUALITY 1122 1129	various
+T86	PLAN 1130 1147	fairness criteria
+R1	Output Arg1:T1 Arg2:T2	
+R2	Condition Arg1:T2 Arg2:T3	
+A1	Self T4
+A2	Intentional T5
+R3	Condition Arg1:T5 Arg2:T4	
+R4	Target Arg1:T5 Arg2:T6	
+R5	Is-a Arg1:T7 Arg2:T6	
+R6	Condition Arg1:T7 Arg2:T8	
+A3	Self T9
+R7	Poss Arg1:T9 Arg2:T10	
+R8	from Arg1:T11 Arg2:T12	
+R9	to Arg1:T11 Arg2:T10	
+T87	PERSON 232 238	Kearns
+A4	Name T87
+R11	Output Arg1:T17 Arg2:T16	
+T18	EXTERNAL-REFERENCE 232 245	Kearns et al.
+R12	from Arg1:T13 Arg2:T15	
+R14	Coreference Arg1:T16 Arg2:T15	
+R15	Condition Arg1:T17 Arg2:T18	
+R16	Apply-to Arg1:T20 Arg2:T21	
+R17	Attribute Arg1:T23 Arg2:T22	
+R18	Attribute Arg1:T24 Arg2:T23	
+R19	Output Arg1:T21 Arg2:T23	
+R20	Is-a Arg1:T16 Arg2:T20	
+T14	EXTERNAL-REFERENCE 317 320	[9]
+T26	QUALITY 369 379	polynomial
+R21	Attribute Arg1:T28 Arg2:T26	
+R23	Is-a Arg1:T29 Arg2:T30	
+T25	PROCESS 329 334	shown
+R24	Condition Arg1:T25 Arg2:T14	
+A5	Self T31
+A6	Self T32
+A7	Intentional T33
+R25	Agent Arg1:T33 Arg2:T32	
+R26	Condition Arg1:T33 Arg2:T31	
+R27	Is-a Arg1:T35 Arg2:T36	
+T34	QUALITY 538 548	polynomial
+R28	Attribute Arg1:T39 Arg2:T34	
+T37	ATTRIBUTE 534 537	has
+R30	to Arg1:T37 Arg2:T39	
+R31	from Arg1:T37 Arg2:T38	
+T88	ATTRIBUTE 365 368	has
+R29	to Arg1:T88 Arg2:T28	
+R32	from Arg1:T88 Arg2:T27	
+R22	Attribute Arg1:T41 Arg2:T40	
+R33	Coreference Arg1:T42 Arg2:T41	
+R34	Apply-to Arg1:T42 Arg2:T43	
+R35	Output Arg1:T43 Arg2:T44	
+R36	Coreference Arg1:T45 Arg2:T44	
+R37	Apply-to Arg1:T45 Arg2:T46	
+R38	Attribute Arg1:T48 Arg2:T47	
+R39	Target Arg1:T46 Arg2:T48	
+R40	Attribute Arg1:T50 Arg2:T49	
+R41	Destination Arg1:T48 Arg2:T50	
+T89	QUALITY 688 698	attractive
+T90	QUALITY 680 687	Another
+R42	Attribute Arg1:T51 Arg2:T89	
+R43	Attribute Arg1:T51 Arg2:T90	
+R44	Is-a Arg1:T51 Arg2:T52	
+R45	In_Out Arg1:T54 Arg2:T55	
+R46	Apply-to Arg1:T53 Arg2:T54	
+R47	Coreference Arg1:T53 Arg2:T52	
+A8	Self T56
+A9	Intentional T57
+R48	Agent Arg1:T57 Arg2:T56	
+R49	Coreference Arg1:T60 Arg2:T52	
+R50	Attribute Arg1:T59 Arg2:T58	
+R51	Attribute Arg1:T60 Arg2:T61	
+R52	Output Arg1:T57 Arg2:T61	
+A10	Judgment T61
+R53	Condition Arg1:T61 Arg2:T59	
+A11	Self T62
+A12	Intentional T63
+R54	Agent Arg1:T63 Arg2:T62	
+R55	Target Arg1:T64 Arg2:T65	
+R56	Attribute Arg1:T67 Arg2:T66	
+R57	to Arg1:T67 Arg2:T69	
+R58	from Arg1:T67 Arg2:T65	
+R59	Attribute Arg1:T69 Arg2:T70	
+R60	Attribute Arg1:T72 Arg2:T71	
+R61	Apply-to Arg1:T72 Arg2:T73	
+R62	Output Arg1:T73 Arg2:T74	
+T68	DATA-ITEM 1039 1043	size
+R63	Attribute Arg1:T68 Arg2:T77	
+T75	ATTRIBUTE 1024 1027	has
+R64	from Arg1:T75 Arg2:T76	
+R65	to Arg1:T75 Arg2:T68	
+T91	CONDITION 988 998	as long as
+R66	to Arg1:T91 Arg2:T77	
+R67	from Arg1:T91 Arg2:T71	
+R68	Is-a Arg1:T41 Arg2:T78	
+R69	Is-a Arg1:T51 Arg2:T78	
+R70	Attribute Arg1:T80 Arg2:T79	
+R71	Target Arg1:T80 Arg2:T78	
+R72	Apply-to Arg1:T80 Arg2:T81	
+R73	Output Arg1:T81 Arg2:T82	
+R74	Attribute Arg1:T86 Arg2:T85	
+R75	Coreference Arg1:T83 Arg2:T82	
+A13	Judgment T84
+R76	Attribute Arg1:T83 Arg2:T84	
+R77	Condition Arg1:T84 Arg2:T86	
+R13	to Arg1:T13 Arg2:T12	
+T92	CONDITION 385 395	as long as
+R78	to Arg1:T92 Arg2:T30	
+R79	from Arg1:T92 Arg2:T26	
+R80	Output Arg1:T25 Arg2:T92	
+R10	Other-rel Arg1:T19 Arg2:T18	

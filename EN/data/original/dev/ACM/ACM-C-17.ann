@@ -1,0 +1,173 @@
+T1	PLAN 0 17	Deployment Issues
+T2	PLAN 23 47	VoIP Conferencing System
+T3	PLAN 53 85	Virtual Conferencing Environment
+T4	PLAN 86 104	Real-time services
+T5	PROCESS 115 124	supported
+T6	QUALITY 132 137	large
+T7	PLAN 141 166	circuit-switched networks
+T8	OCCURENT 168 181	Recent trends
+T9	PROCESS 182 188	favour
+T10	DATA-ITEM 189 197	services
+T11	PROCESS 198 204	ported
+T12	PLAN 208 232	packet-switched networks
+T13	PLAN-OR-PROCESS 238 256	audio conferencing
+T14	PERSON 258 260	we
+T16	PROCESS 269 277	consider
+T17	QUANTITY 278 282	many
+T18	PLAN 283 289	issues
+T19	DATA-ITEM 293 304	scalability
+T20	DATA-ITEM 306 313	quality
+T21	PLAN 321 343	conference application
+T22	PLAN 345 358	floor control
+T23	PLAN 363 367	load
+T24	PLAN 375 390	clients/servers
+T25	PROCESS 397 401	name
+T26	PLAN 402 407	a few
+T27	REFERENCE 412 422	this paper
+T28	PERSON 424 426	we
+T29	PROCESS 427 435	describe
+T30	PLAN 439 462	audio service framework
+T31	PROCESS 463 471	designed
+T32	PROCESS 475 482	provide
+T33	PLAN 485 517	Virtual Conferencing Environment
+T34	PLAN 519 522	VCE
+T35	PLAN 529 535	system
+T36	PROCESS 539 547	designed
+T37	PROCESS 551 562	accommodate
+T38	QUANTITY 565 577	large number
+T39	PERSON 581 590	end users
+T40	PROCESS 581 599	end users speaking
+T41	TIME 607 616	same time
+T42	PROCESS 621 627	spread
+T43	PLAN 639 647	Internet
+T44	PLAN 653 662	framework
+T45	APPLY-TO 666 674	based on
+T46	PLAN 675 693	Conference Servers
+T47	EXTERNAL-REFERENCE 694 698	[14]
+T48	REFERENCE 700 705	which
+T49	PROCESS 706 716	facilitate
+T50	PLAN-OR-PROCESS 721 735	audio handling
+T51	PERSON 743 745	we
+T52	PROCESS 746 753	exploit
+T53	PLAN 758 774	SIP capabilities
+T54	PLAN-OR-PROCESS 779 797	signaling purposes
+T55	PLAN-OR-PROCESS 799 815	Client selection
+T56	APPLY-TO 819 827	based on
+T57	PLAN 837 847	quantifier
+T58	IS-A 848 854	called
+T59	PLAN 856 871	Loudness Number
+T60	REFERENCE 873 877	that
+T61	PROCESS 878 883	helps
+T62	PROCESS 884 889	mimic
+T63	PROCESS 901 924	face-to-face conference
+T64	PERSON 926 928	We
+T65	PROCESS 929 938	deal with
+T66	PLAN 939 956	deployment issues
+T67	PLAN 964 981	proposed solution
+T68	DATA-ITEM 999 1010	scalability
+T69	DATA-ITEM 1015 1028	interactivity
+T70	PROCESS 1036 1046	explaining
+T71	PLAN 1051 1061	techniques
+T72	PERSON 1062 1064	we
+T73	PROCESS 1065 1068	use
+T74	PROCESS 1072 1078	reduce
+T75	OCCURENT 1083 1090	traffic
+T76	PERSON 1092 1094	We
+T77	PROCESS 1100 1111	implemented
+T78	PLAN 1114 1131	Conference Server
+T79	PLAN 1133 1135	CS
+T80	PLAN 1137 1148	application
+T81	PLAN 1154 1173	campus-wide network
+T82	PERSON 1177 1180	our
+T83	ORGANIZATION 1181 1190	Institute
+R1	Condition Arg1:T2 Arg2:T3	
+R2	Attribute Arg1:T2 Arg2:T1	
+R3	Apply-to Arg1:T7 Arg2:T5	
+R4	Target Arg1:T5 Arg2:T4	
+R5	Attribute Arg1:T4 Arg2:T6	
+R6	Condition Arg1:T6 Arg2:T7	
+R7	Condition Arg1:T9 Arg2:T8	
+R8	Target Arg1:T9 Arg2:T10	
+R9	Output Arg1:T11 Arg2:T10	
+R10	Apply-to Arg1:T12 Arg2:T11	
+A1	Self T14
+R13	Attribute Arg1:T18 Arg2:T17	
+R14	In_Out Arg1:T16 Arg2:T18	
+R15	Attribute Arg1:T21 Arg2:T20	
+R16	Attribute Arg1:T21 Arg2:T19	
+R17	Component-object Arg1:T24 Arg2:T23	
+R18	Member-collection Arg1:T26 Arg2:T18	
+R19	Output Arg1:T25 Arg2:T26	
+R20	Component-object Arg1:T24 Arg2:T22	
+R21	Other-rel Arg1:T23 Arg2:T26	
+R22	Member-collection Arg1:T22 Arg2:T26	
+R23	Other-rel Arg1:T20 Arg2:T26	
+R24	Other-rel Arg1:T19 Arg2:T26	
+A2	Intentional T25
+A3	Intentional T16
+R25	Condition Arg1:T16 Arg2:T13	
+A4	Self T27
+A5	Self T28
+A6	Intentional T29
+R26	Agent Arg1:T29 Arg2:T28	
+R27	Condition Arg1:T29 Arg2:T27	
+R28	Output Arg1:T29 Arg2:T30	
+R29	Output Arg1:T31 Arg2:T30	
+R30	Apply-to Arg1:T31 Arg2:T32	
+R31	Output Arg1:T32 Arg2:T33	
+R32	Equivalence Arg1:T34 Arg2:T33	
+R33	Output Arg1:T36 Arg2:T35	
+R34	Apply-to Arg1:T36 Arg2:T37	
+R35	Attribute Arg1:T40 Arg2:T38	
+R36	In_Out Arg1:T37 Arg2:T40	
+R37	Condition Arg1:T40 Arg2:T41	
+R38	Destination Arg1:T42 Arg2:T43	
+R39	Output Arg1:T42 Arg2:T40	
+R40	from Arg1:T45 Arg2:T46	
+R41	to Arg1:T45 Arg2:T44	
+R42	Coreference Arg1:T48 Arg2:T46	
+R43	Apply-to Arg1:T48 Arg2:T49	
+R44	Target Arg1:T49 Arg2:T50	
+A7	Self T51
+A8	Intentional T52
+R45	Agent Arg1:T52 Arg2:T51	
+R46	Apply-to Arg1:T52 Arg2:T54	
+R47	Input Arg1:T52 Arg2:T53	
+T84	TIME 830 836	recent
+R48	Condition Arg1:T57 Arg2:T84	
+R49	from Arg1:T56 Arg2:T57	
+R50	to Arg1:T56 Arg2:T55	
+R51	from Arg1:T58 Arg2:T59	
+R52	to Arg1:T58 Arg2:T57	
+R53	Coreference Arg1:T60 Arg2:T59	
+R54	Apply-to Arg1:T60 Arg2:T61	
+R55	Target Arg1:T61 Arg2:T62	
+R56	In_Out Arg1:T62 Arg2:T63	
+T85	QUALITY 892 900	physical
+R57	Attribute Arg1:T63 Arg2:T85	
+A9	Self T64
+R58	Target Arg1:T65 Arg2:T66	
+A10	Intentional T65
+R59	Agent Arg1:T65 Arg2:T64	
+R60	Attribute Arg1:T67 Arg2:T66	
+R61	Other-rel Arg1:T68 Arg2:T66	
+R62	Other-rel Arg1:T69 Arg2:T66	
+A11	Intentional T70
+R63	Agent Arg1:T70 Arg2:T64	
+R64	Output Arg1:T70 Arg2:T71	
+R65	Agent Arg1:T73 Arg2:T72	
+R66	Input Arg1:T73 Arg2:T71	
+R67	Apply-to Arg1:T73 Arg2:T74	
+R68	In_Out Arg1:T74 Arg2:T75	
+A12	Self T76
+R69	Agent Arg1:T77 Arg2:T76	
+A13	Intentional T77
+R70	Equivalence Arg1:T79 Arg2:T78	
+R71	Split Arg1:T80 Arg2:T78	
+R72	Output Arg1:T77 Arg2:T78	
+R73	Poss Arg1:T82 Arg2:T83	
+R74	Condition Arg1:T81 Arg2:T83	
+R75	Apply-to Arg1:T80 Arg2:T81	
+T15	MODALITY 261 265	need
+R11	Attribute Arg1:T16 Arg2:T15	
+R12	Agent Arg1:T16 Arg2:T14	

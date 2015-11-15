@@ -1,0 +1,231 @@
+T1	PLAN 0 51	Bootstrapping Distributional Feature Vector Quality
+T2	QUALITY 77 82	novel
+T3	PLAN 83 105	bootstrapping approach
+T4	PROCESS 110 119	improving
+T5	DATA-ITEM 124 131	quality
+T6	PLAN-OR-PROCESS 135 159	feature vector weighting
+T7	DATA-ITEM 163 193	distributional word similarity
+T8	PLAN 199 205	method
+T9	PROCESS 210 219	motivated
+T10	PROCESS 223 231	attempts
+T11	INPUT 235 242	utilize
+T12	DATA-ITEM 243 268	distributional similarity
+T13	PROCESS 273 284	identifying
+T14	QUALITY 289 297	concrete
+T15	DATA-ITEM 298 319	semantic relationship
+T16	DATA-ITEM 323 341	lexical entailment
+T17	QUALITY 372 377	major
+T18	RESULT 378 384	reason
+T19	DATA-ITEM 406 425	semantic similarity
+T20	PROCESS 426 434	obtained
+T21	PLAN 438 471	distributional similarity methods
+T22	QUALITY 475 487	insufficient
+T23	DATA-ITEM 488 495	quality
+T24	DATA-ITEM 503 523	word feature vectors
+T25	RESULT 525 531	caused
+T26	QUALITY 535 544	deficient
+T27	PLAN-OR-PROCESS 545 562	feature weighting
+T28	OCCURENT 564 580	This observation
+T29	PLAN-OR-PROCESS 592 602	definition
+T30	PLAN 608 628	bootstrapping scheme
+T31	REFERENCE 629 634	which
+T32	OUTPUT 635 641	yields
+T33	QUALITY 642 650	improved
+T34	DATA-ITEM 651 666	feature weights
+T35	QUALITY 678 692	higher quality
+T36	DATA-ITEM 693 708	feature vectors
+T37	PLAN 714 729	underlying idea
+T38	PERSON 733 736	our
+T39	PLAN 737 745	approach
+T40	DATA-ITEM 754 762	features
+T41	REFERENCE 763 768	which
+T42	QUALITY 773 779	common
+T43	QUALITY 783 790	similar
+T44	DATA-ITEM 791 796	words
+T45	QUALITY 806 825	most characteristic
+T46	REFERENCE 830 835	their
+T47	DATA-ITEM 836 844	meanings
+T48	MODALITY 855 861	should
+T49	PROCESS 865 873	promoted
+T50	PLAN 875 884	This idea
+T51	PROCESS 888 896	realized
+T52	PLAN 903 921	bootstrapping step
+T53	APPLY-TO 922 929	applied
+T54	QUALITY 936 943	initial
+T55	PLAN-OR-PROCESS 944 966	standard approximation
+T56	DATA-ITEM 974 990	similarity space
+T57	QUALITY 996 1004	superior
+T58	DATA-ITEM 1005 1016	performance
+T59	PLAN 1024 1044	bootstrapping method
+T60	RESULT 1049 1057	assessed
+T61	QUANTITY 1061 1064	two
+T62	QUALITY 1065 1074	different
+T63	PLAN 1075 1086	experiments
+T64	REFERENCE 1088 1091	one
+T65	INPUT 1092 1100	based on
+T66	DATA-ITEM 1101 1138	direct human gold-standard annotation
+T67	QUALITY 1165 1186	automatically created
+T68	DATA-ITEM 1187 1209	disambiguation dataset
+T69	DATA-ITEM 1211 1224	These results
+T70	PROCESS 1237 1246	supported
+T71	APPLY-TO 1250 1258	applying
+T72	QUALITY 1261 1266	novel
+T73	PLAN 1267 1291	quantitative measurement
+T74	DATA-ITEM 1299 1306	quality
+T75	PLAN 1310 1337	feature weighting functions
+T76	PLAN 1348 1365	feature weighting
+T77	RESULT 1371 1377	allows
+T78	QUALITY 1378 1385	massive
+T79	PLAN-OR-PROCESS 1386 1403	feature reduction
+T80	REFERENCE 1405 1410	which
+T81	RESULT 1411 1420	indicates
+T82	QUALITY 1430 1449	most characteristic
+T83	DATA-ITEM 1450 1458	features
+T84	DATA-ITEM 1465 1469	word
+T85	QUALITY 1474 1480	indeed
+T86	DATA-ITEM 1501 1510	top ranks
+T87	REFERENCE 1514 1517	its
+T88	DATA-ITEM 1518 1524	vector
+T89	PLAN 1535 1546	experiments
+T90	QUANTITY 1552 1557	three
+T91	QUALITY 1558 1567	prominent
+T92	PLAN 1568 1587	similarity measures
+T93	QUANTITY 1592 1595	two
+T95	PLAN 1596 1623	feature weighting functions
+T96	RESULT 1624 1630	showed
+T97	PLAN 1640 1660	bootstrapping scheme
+T98	QUALITY 1664 1670	robust
+T99	QUALITY 1678 1689	independent
+T100	PLAN 1697 1715	original functions
+T101	REFERENCE 1721 1726	which
+T102	REFERENCE 1727 1729	it
+T103	APPLY-TO 1733 1740	applied
+T104	REFERENCE 53 65	This article
+A1	Self T104
+T105	PROCESS 66 74	presents
+A2	Intentional T105
+R1	Condition Arg1:T105 Arg2:T104	
+R2	Attribute Arg1:T3 Arg2:T2	
+R3	Output Arg1:T105 Arg2:T3	
+R4	Apply-to Arg1:T3 Arg2:T4	
+R5	Attribute Arg1:T6 Arg2:T5	
+R6	In_Out Arg1:T4 Arg2:T5	
+R7	Condition Arg1:T6 Arg2:T7	
+R8	from Arg1:T11 Arg2:T13	
+R9	to Arg1:T11 Arg2:T12	
+R10	Target Arg1:T9 Arg2:T8	
+R11	Result Arg1:T10 Arg2:T9	
+R12	Target Arg1:T10 Arg2:T13	
+R13	Attribute Arg1:T15 Arg2:T14	
+R14	Attribute Arg1:T15 Arg2:T16	
+R15	Output Arg1:T13 Arg2:T15	
+T106	PLAN 347 355	analysis
+T107	PERSON 343 346	Our
+A3	Self T107
+R16	Agent Arg1:T106 Arg2:T107	
+T108	PROCESS 356 364	revealed
+R17	Apply-to Arg1:T106 Arg2:T108	
+R18	Attribute Arg1:T18 Arg2:T17	
+R19	Output Arg1:T20 Arg2:T19	
+R20	Apply-to Arg1:T21 Arg2:T20	
+R21	Attribute Arg1:T23 Arg2:T22	
+R22	Attribute Arg1:T24 Arg2:T23	
+A4	Judgment T22
+T109	QUALITY 393 405	rather loose
+R23	Attribute Arg1:T19 Arg2:T109	
+A6	Judgment T109
+R24	to Arg1:T18 Arg2:T109	
+R25	from Arg1:T18 Arg2:T23	
+R26	Attribute Arg1:T27 Arg2:T26	
+R27	from Arg1:T25 Arg2:T26	
+R28	to Arg1:T25 Arg2:T22	
+A5	Judgment T26
+R29	Output Arg1:T29 Arg2:T30	
+T110	RESULT 581 584	led
+R30	from Arg1:T110 Arg2:T28	
+R31	to Arg1:T110 Arg2:T29	
+R32	Coreference Arg1:T31 Arg2:T30	
+R33	Attribute Arg1:T34 Arg2:T33	
+A7	Judgment T33
+R34	to Arg1:T32 Arg2:T34	
+R35	from Arg1:T32 Arg2:T31	
+R36	Attribute Arg1:T36 Arg2:T35	
+R37	to Arg1:T32 Arg2:T36	
+R38	Agent Arg1:T39 Arg2:T38	
+R39	Attribute Arg1:T39 Arg2:T37	
+R40	Coreference Arg1:T41 Arg2:T40	
+R41	Attribute Arg1:T44 Arg2:T43	
+R44	Coreference Arg1:T46 Arg2:T41	
+R45	Attribute Arg1:T46 Arg2:T47	
+R47	Condition Arg1:T45 Arg2:T47	
+R48	Attribute Arg1:T49 Arg2:T48	
+R49	Output Arg1:T49 Arg2:T41	
+R50	In_Out Arg1:T51 Arg2:T50	
+R51	Apply-to Arg1:T52 Arg2:T51	
+R52	Attribute Arg1:T55 Arg2:T54	
+R53	from Arg1:T53 Arg2:T52	
+R54	to Arg1:T53 Arg2:T55	
+R55	Destination Arg1:T55 Arg2:T56	
+R56	Attribute Arg1:T58 Arg2:T57	
+R57	Attribute Arg1:T59 Arg2:T58	
+A8	Judgment T57
+A9	Judgment T35
+R58	to Arg1:T60 Arg2:T57	
+R59	Attribute Arg1:T63 Arg2:T62	
+R60	Attribute Arg1:T63 Arg2:T61	
+R61	from Arg1:T60 Arg2:T63	
+R62	Member-collection Arg1:T64 Arg2:T63	
+T111	REFERENCE 1143 1152	the other
+R63	Member-collection Arg1:T111 Arg2:T63	
+R64	to Arg1:T65 Arg2:T66	
+R65	from Arg1:T65 Arg2:T64	
+T112	INPUT 1153 1161	based on
+R66	from Arg1:T112 Arg2:T111	
+R67	to Arg1:T112 Arg2:T68	
+R68	Attribute Arg1:T68 Arg2:T67	
+R69	Target Arg1:T70 Arg2:T69	
+R70	Attribute Arg1:T73 Arg2:T72	
+R71	In_Out Arg1:T73 Arg2:T74	
+R72	Attribute Arg1:T75 Arg2:T74	
+R73	from Arg1:T71 Arg2:T73	
+R77	Attribute Arg1:T79 Arg2:T78	
+R78	from Arg1:T77 Arg2:T94	
+R79	to Arg1:T77 Arg2:T78	
+A10	Judgment T78
+R80	Attribute Arg1:T83 Arg2:T82	
+R81	Attribute Arg1:T84 Arg2:T83	
+T113	PROCESS 1481 1493	concentrated
+R82	Attribute Arg1:T113 Arg2:T85	
+R83	Target Arg1:T113 Arg2:T83	
+R84	Destination Arg1:T113 Arg2:T86	
+R85	Attribute Arg1:T88 Arg2:T86	
+R86	Coreference Arg1:T87 Arg2:T84	
+R87	Attribute Arg1:T87 Arg2:T88	
+R88	Coreference Arg1:T80 Arg2:T76	
+R90	Attribute Arg1:T92 Arg2:T91	
+R91	Attribute Arg1:T92 Arg2:T90	
+R92	Attribute Arg1:T95 Arg2:T93	
+R93	Input Arg1:T89 Arg2:T92	
+R94	Input Arg1:T89 Arg2:T95	
+R95	Attribute Arg1:T97 Arg2:T98	
+A11	Judgment T98
+R96	Attribute Arg1:T97 Arg2:T99	
+R97	Condition Arg1:T99 Arg2:T100	
+R98	from Arg1:T96 Arg2:T89	
+R99	to Arg1:T96 Arg2:T98	
+R100	from Arg1:T103 Arg2:T102	
+R101	to Arg1:T103 Arg2:T101	
+T94	QUALITY 1339 1347	Improved
+A12	Judgment T94
+R102	Attribute Arg1:T76 Arg2:T94	
+T114	RESULT 672 677	hence
+R103	from Arg1:T114 Arg2:T33	
+R104	to Arg1:T114 Arg2:T35	
+R105	Condition Arg1:T42 Arg2:T44	
+R42	Attribute Arg1:T41 Arg2:T42	
+R43	Attribute Arg1:T41 Arg2:T45	
+R46	to Arg1:T71 Arg2:T70	
+R74	from Arg1:T81 Arg2:T80	
+R75	to Arg1:T81 Arg2:T113	
+R76	to Arg1:T96 Arg2:T99	
+R89	Coreference Arg1:T102 Arg2:T97	

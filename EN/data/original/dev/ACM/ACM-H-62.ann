@@ -1,0 +1,166 @@
+T1	PLAN-OR-PROCESS 27 46	Personalized Search
+T2	PLAN-OR-PROCESS 0 22	Implicit User Modeling
+T3	PLAN 47 76	Information retrieval systems
+T4	PLAN 84 102	web search engines
+T5	QUALITY 108 116	critical
+T6	PROCESS 121 131	overcoming
+T7	PLAN-OR-PROCESS 132 152	information overload
+T9	QUALITY 162 172	deficiency
+T10	PLAN 185 202	retrieval systems
+T11	QUALITY 176 184	existing
+T12	REFERENCE 211 215	they
+R1	Coreference Arg1:T12 Arg2:T10	
+T13	QUALITY 216 225	generally
+T14	MODALITY 226 230	lack
+T15	PLAN-OR-PROCESS 231 244	user modeling
+T16	MODALITY 253 256	not
+T17	QUALITY 257 265	adaptive
+T18	PERSON 280 285	users
+T19	QUALITY 300 322	inherently non-optimal
+T20	DATA-ITEM 323 344	retrieval performance
+T21	PROCESS 287 296	resulting
+T22	PERSON 361 368	tourist
+T23	PERSON 375 385	programmer
+T24	MODALITY 386 389	may
+T25	PROCESS 390 393	use
+T26	DATA-ITEM 408 412	java
+T27	DATA-ITEM 403 407	word
+T28	QUALITY 398 402	same
+T29	PROCESS 416 422	search
+T30	DATA-ITEM 437 448	information
+T31	QUALITY 427 436	different
+T32	PLAN 466 480	search systems
+T33	QUALITY 458 465	current
+T34	MODALITY 481 486	would
+T35	PROCESS 487 493	return
+T36	DATA-ITEM 503 510	results
+T37	QUALITY 498 502	same
+T38	PROCESS 543 548	infer
+T39	PERSON 551 555	user
+T40	QUALITY 558 566	interest
+T41	PERSON 576 580	user
+T42	DATA-ITEM 583 597	search context
+T43	INPUT 602 605	use
+T44	DATA-ITEM 628 638	user model
+T45	PLAN-OR-PROCESS 656 662	search
+T46	QUALITY 643 655	personalized
+T47	PLAN 677 705	decision theoretic framework
+T48	PROCESS 710 717	develop
+T49	PLAN 718 728	techniques
+T50	PLAN-OR-PROCESS 733 755	implicit user modeling
+T51	PLAN-OR-PROCESS 759 780	information retrieval
+T53	INTELLIGENT-AGENT 808 836	client-side web search agent
+T54	QUALITY 796 807	intelligent
+T55	INTELLIGENT-AGENT 838 843	UCAIR
+T56	MODALITY 850 853	can
+T57	PROCESS 854 861	perform
+T58	QUALITY 862 867	eager
+T59	PLAN-OR-PROCESS 877 885	feedback
+T60	PLAN-OR-PROCESS 893 908	query expansion
+T61	DATA-ITEM 927 934	queries
+T62	TIME 918 926	previous
+T63	INPUT 909 914	based
+T64	PLAN-OR-PROCESS 949 965	result reranking
+T65	QUALITY 939 948	immediate
+T66	DATA-ITEM 975 999	clickthrough information
+T67	INPUT 966 971	based
+T68	PLAN-OR-PROCESS 1001 1012	Experiments
+T69	PLAN-OR-PROCESS 1016 1026	web search
+T70	INTELLIGENT-AGENT 1041 1053	search agent
+T71	MODALITY 1054 1057	can
+T72	JUDGING-PROCESS 1058 1065	improve
+T73	DATA-ITEM 1066 1081	search accuracy
+T74	PLAN 1099 1119	Google search engine
+T75	QUALITY 1091 1098	popular
+R2	Attribute Arg1:T3 Arg2:T5	
+R4	Attribute Arg1:T10 Arg2:T11	
+R5	Attribute Arg1:T14 Arg2:T13	
+T76	PERSON 231 235	user
+R6	Attribute Arg1:T17 Arg2:T16	
+R3	Attribute Arg1:T10 Arg2:T9	
+T8	QUALITY 269 279	individual
+R8	Attribute Arg1:T18 Arg2:T8	
+R9	Attribute Arg1:T20 Arg2:T19	
+R10	Attribute Arg1:T25 Arg2:T24	
+R11	Attribute Arg1:T27 Arg2:T28	
+R12	Attribute Arg1:T30 Arg2:T31	
+R13	Attribute Arg1:T32 Arg2:T33	
+R14	Attribute Arg1:T35 Arg2:T34	
+R15	Attribute Arg1:T36 Arg2:T37	
+R16	Attribute Arg1:T45 Arg2:T46	
+T77	PERSON 628 632	user
+T78	QUALITY 610 618	inferred
+T79	QUALITY 619 627	implicit
+R17	Attribute Arg1:T44 Arg2:T78	
+R18	Attribute Arg1:T44 Arg2:T79	
+R19	Attribute Arg1:T53 Arg2:T54	
+T80	REFERENCE 845 849	that
+R20	Coreference Arg1:T80 Arg2:T53	
+R21	Attribute Arg1:T57 Arg2:T56	
+R22	Attribute Arg1:T59 Arg2:T58	
+R23	Attribute Arg1:T61 Arg2:T62	
+R24	Attribute Arg1:T64 Arg2:T65	
+R25	Attribute Arg1:T72 Arg2:T71	
+R27	Attribute Arg1:T74 Arg2:T75	
+T83	PERSON 1037 1040	our
+T84	PLAN 1099 1105	Google
+R29	Poss Arg1:T83 Arg2:T70	
+R30	Poss Arg1:T41 Arg2:T42	
+R31	Poss Arg1:T39 Arg2:T40	
+T88	QUALITY 156 161	major
+R32	Attribute Arg1:T9 Arg2:T88	
+T89	QUALITY 868 876	implicit
+R33	Attribute Arg1:T59 Arg2:T89	
+R34	Apply-to Arg1:T2 Arg2:T1	
+R35	Is-a Arg1:T4 Arg2:T3	
+R36	Target Arg1:T6 Arg2:T7	
+R37	Condition Arg1:T5 Arg2:T6	
+R38	Attribute Arg1:T15 Arg2:T14	
+R39	Condition Arg1:T14 Arg2:T12	
+R7	Attribute Arg1:T12 Arg2:T17	
+R28	Condition Arg1:T17 Arg2:T18	
+R40	Agent Arg1:T25 Arg2:T23	
+R41	Agent Arg1:T25 Arg2:T22	
+R42	Input Arg1:T25 Arg2:T27	
+R43	Is-a Arg1:T26 Arg2:T27	
+R44	Apply-to Arg1:T25 Arg2:T29	
+R45	Output Arg1:T29 Arg2:T30	
+R46	Apply-to Arg1:T32 Arg2:T35	
+R47	Output Arg1:T35 Arg2:T36	
+R48	Output Arg1:T38 Arg2:T40	
+R49	Input Arg1:T38 Arg2:T42	
+R50	to Arg1:T43 Arg2:T44	
+R51	from Arg1:T43 Arg2:T45	
+R52	Output Arg1:T48 Arg2:T49	
+R53	Apply-to Arg1:T49 Arg2:T50	
+R54	Apply-to Arg1:T50 Arg2:T51	
+R55	Is-a Arg1:T55 Arg2:T53	
+R56	Apply-to Arg1:T80 Arg2:T57	
+R57	Output Arg1:T57 Arg2:T59	
+R58	Is-a Arg1:T60 Arg2:T59	
+R59	to Arg1:T63 Arg2:T61	
+R60	from Arg1:T63 Arg2:T60	
+R61	Is-a Arg1:T64 Arg2:T59	
+R62	to Arg1:T67 Arg2:T66	
+R63	to Arg1:T67 Arg2:T64	
+R64	Apply-to Arg1:T68 Arg2:T69	
+R26	In_Out Arg1:T72 Arg2:T73	
+R65	Agent Arg1:T72 Arg2:T70	
+R66	Compare Arg1:T74 Arg2:T72	
+T86	RESULT 1027 1031	show
+R67	from Arg1:T86 Arg2:T68	
+R68	to Arg1:T86 Arg2:T72	
+T52	REFERENCE 515 525	this paper
+T81	PERSON 527 529	we
+T82	PROCESS 530 535	study
+T85	PERSON 664 666	We
+T87	PROCESS 667 674	present
+T90	PERSON 782 784	We
+T91	PROCESS 785 792	develop
+R69	Agent Arg1:T82 Arg2:T81	
+R70	Condition Arg1:T82 Arg2:T52	
+R71	Agent Arg1:T87 Arg2:T85	
+R72	Output Arg1:T87 Arg2:T47	
+R73	Agent Arg1:T48 Arg2:T85	
+R74	Agent Arg1:T91 Arg2:T90	
+R75	Other-rel Arg1:T91 Arg2:T53	

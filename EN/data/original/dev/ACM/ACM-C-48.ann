@@ -1,0 +1,172 @@
+T1	DATA-ITEM 0 31	Multi-dimensional Range Queries
+T2	ARTIFACT 35 50	Sensor Networks
+T3	QUANTITY 54 58	many
+T4	ARTIFACT 59 74	sensor networks
+T5	DATA-ITEM 76 80	data
+T6	DATA-ITEM 84 90	events
+T7	PROCESS 95 100	named
+T8	DATA-ITEM 104 114	attributes
+T9	QUANTITY 116 120	Many
+T10	DATA-ITEM 124 140	these attributes
+R1	Coreference Arg1:T10 Arg2:T8	
+T11	DATA-ITEM 146 159	scalar values
+T12	ATTRIBUTE 141 145	have
+T13	QUANTITY 164 167	one
+T14	PLAN 176 179	way
+T15	PROCESS 183 188	query
+T16	DATA-ITEM 189 195	events
+T17	QUALITY 199 207	interest
+T18	APPLY-TO 214 217	use
+T19	DATA-ITEM 220 248	multidimensional range query
+T21	PROCESS 265 269	List
+T22	DATA-ITEM 274 280	events
+T23	QUANTITY 270 273	all
+T24	DATA-ITEM 287 298	temperature
+T25	ATTRIBUTE 299 303	lies
+T26	QUANTITY 304 323	between 50◦ and 60◦
+T27	DATA-ITEM 336 348	light levels
+T29	QUANTITY 353 370	between 10 and 15
+T30	DATA-ITEM 372 384	Such queries
+T31	QUALITY 389 395	useful
+T32	COMPONENT-OBJECT 419 428	occurring
+T33	ARTIFACT 440 447	network
+T34	PROCESS 400 411	correlating
+T35	DATA-ITEM 412 418	events
+T36	PLAN 480 486	design
+T37	DATA-ITEM 492 509	distributed index
+T38	REFERENCE 510 514	that
+R2	Coreference Arg1:T38 Arg2:T37	
+T39	PROCESS 524 532	supports
+T40	QUALITY 515 523	scalably
+T41	DATA-ITEM 533 564	multi-dimensional range queries
+T42	PLAN 570 614	distributed index for multi-dimensional data
+T44	PLAN 619 622	DIM
+R4	Equivalence Arg1:T44 Arg2:T42	
+T45	APPLY-TO 624 628	uses
+T46	QUALITY 631 636	novel
+T47	PLAN 637 657	geographic embedding
+T48	QUALITY 663 672	classical
+T49	DATA-ITEM 673 693	index data structure
+T51	PLAN 717 721	GPSR
+T52	PLAN 717 750	GPSR geographic routing algorithm
+T53	QUALITY 785 795	reasonable
+T54	PLAN 796 807	assumptions
+T55	DATA-ITEM 814 833	query distributions
+T56	PLAN 835 839	DIMs
+T57	PROCESS 840 845	scale
+T58	QUALITY 846 856	quite well
+T59	DATA-ITEM 862 874	network size
+T60	DATA-ITEM 881 890;901 906	insertion costs
+T61	DATA-ITEM 895 906	query costs
+T62	FORMULA 916 923	O( √ N)
+T63	PROCESS 907 912	scale
+T64	PLAN-OR-PROCESS 929 949	detailed simulations
+T65	DATA-ITEM 1001 1006;981 990	costs insertion
+T66	DATA-ITEM 995 1006	query costs
+T67	PLAN 1016 1028	alternatives
+T68	QUALITY 1010 1015	other
+T69	QUALITY 1033 1042	sometimes
+T71	QUANTITY 1046 1064	order of magnitude
+T72	QUALITY 1079 1084	costs
+T73	PLAN 1088 1092	DIMs
+T74	QUALITY 1103 1119	moderately sized
+T75	ARTIFACT 1120 1127	network
+T76	PLAN-OR-PROCESS 1138 1149	experiments
+T77	PLAN 1167 1174	testbed
+T78	QUALITY 1155 1166	small scale
+T79	RESULT 1175 1183	validate
+T80	QUALITY 1188 1199	feasibility
+T81	PLAN 1203 1207	DIMs
+R5	Attribute Arg1:T14 Arg2:T13	
+R6	Attribute Arg1:T22 Arg2:T23	
+T82	PERSON 566 569	Our
+R3	Attribute Arg1:T54 Arg2:T53	
+R7	Attribute Arg1:T49 Arg2:T48	
+R8	Attribute Arg1:T67 Arg2:T68	
+T43	QUALITY 168 175	natural
+R9	Attribute Arg1:T14 Arg2:T43	
+R10	Attribute Arg1:T30 Arg2:T31	
+R12	Attribute Arg1:T75 Arg2:T74	
+R13	Attribute Arg1:T4 Arg2:T3	
+R14	Attribute Arg1:T10 Arg2:T9	
+R15	Attribute Arg1:T16 Arg2:T17	
+R18	Attribute Arg1:T77 Arg2:T78	
+R19	Attribute Arg1:T81 Arg2:T80	
+R20	Poss Arg1:T82 Arg2:T42	
+R21	Attribute Arg1:T39 Arg2:T40	
+R22	Attribute Arg1:T47 Arg2:T46	
+R23	Condition Arg1:T1 Arg2:T2	
+R24	Input Arg1:T7 Arg2:T8	
+R25	Destination Arg1:T7 Arg2:T5	
+R26	Destination Arg1:T7 Arg2:T6	
+R27	Condition Arg1:T7 Arg2:T4	
+R28	from Arg1:T12 Arg2:T10	
+R29	to Arg1:T12 Arg2:T11	
+R30	Apply-to Arg1:T14 Arg2:T15	
+R31	Output Arg1:T15 Arg2:T16	
+R32	from Arg1:T18 Arg2:T19	
+R33	to Arg1:T18 Arg2:T15	
+R34	Output Arg1:T21 Arg2:T22	
+T86	REFERENCE 281 286	whose
+R35	Attribute Arg1:T86 Arg2:T24	
+R36	Coreference Arg1:T86 Arg2:T22	
+R16	from Arg1:T25 Arg2:T24	
+R37	to Arg1:T25 Arg2:T26	
+T87	REFERENCE 330 335	whose
+R38	Coreference Arg1:T87 Arg2:T22	
+R39	Attribute Arg1:T87 Arg2:T27	
+T28	ATTRIBUTE 349 352	lie
+R17	from Arg1:T28 Arg2:T27	
+R40	to Arg1:T28 Arg2:T29	
+R42	Output Arg1:T34 Arg2:T35	
+R43	from Arg1:T32 Arg2:T35	
+R44	to Arg1:T32 Arg2:T33	
+R45	Output Arg1:T36 Arg2:T37	
+R46	Input Arg1:T39 Arg2:T38	
+R47	Target Arg1:T39 Arg2:T41	
+R48	from Arg1:T45 Arg2:T47	
+R49	to Arg1:T45 Arg2:T42	
+R50	Input Arg1:T47 Arg2:T49	
+R53	Attribute Arg1:T54 Arg2:T55	
+R55	Apply-to Arg1:T56 Arg2:T57	
+R56	Attribute Arg1:T57 Arg2:T58	
+R11	In_Out Arg1:T57 Arg2:T59	
+R57	In_Out Arg1:T63 Arg2:T61	
+R58	In_Out Arg1:T63 Arg2:T60	
+R59	Other-rel Arg1:T63 Arg2:T62	
+R60	Attribute Arg1:T67 Arg2:T66	
+R61	Attribute Arg1:T67 Arg2:T65	
+T88	COMPARE 1065 1069	more
+R62	to Arg1:T88 Arg2:T71	
+R64	Attribute Arg1:T73 Arg2:T72	
+R67	Condition Arg1:T88 Arg2:T75	
+R68	from Arg1:T79 Arg2:T76	
+R70	to Arg1:T79 Arg2:T80	
+R41	Condition Arg1:T31 Arg2:T34	
+T89	APPLY-TO 702 712	built upon
+R71	from Arg1:T89 Arg2:T52	
+R72	to Arg1:T89 Arg2:T42	
+T50	CONDITION 779 784	under
+R51	to Arg1:T50 Arg2:T54	
+R52	from Arg1:T50 Arg2:T57	
+R54	Attribute Arg1:T71 Arg2:T69	
+R73	Attribute Arg1:T66 Arg2:T71	
+R74	Attribute Arg1:T65 Arg2:T71	
+R63	from Arg1:T88 Arg2:T72	
+R65	Input Arg1:T76 Arg2:T77	
+T20	PERSON 464 466	we
+T70	REFERENCE 452 462	this paper
+T83	PERSON 951 953	we
+T84	PROCESS 954 958	show
+T85	PROCESS 467 475	describe
+T90	QUALITY 964 975	in practice
+R66	Agent Arg1:T85 Arg2:T20	
+R69	Condition Arg1:T85 Arg2:T70	
+R75	Output Arg1:T85 Arg2:T36	
+R76	Agent Arg1:T84 Arg2:T83	
+T91	PERSON 752 755	Our
+T92	PLAN 756 764	analysis
+R77	Poss Arg1:T91 Arg2:T92	
+T93	PROCESS 765 772	reveals
+R78	Agent Arg1:T93 Arg2:T92	
+R79	Output Arg1:T93 Arg2:T58	

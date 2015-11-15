@@ -1,0 +1,7 @@
+Extending a Formal and Computational Model of Rhetorical Structure Theory with Intentional Structures à la Grosz and Sidner
+
+In the last decade, members of the computational lingistics community have adopted a perspective on discourse based primarily on either Rhetorical Structure Theory or Grosz and Sidner's Theory.
+However, only recently, researchers have started to investigate the relationship between the two perspectives.
+In this paper, we use Moser and Moore's (1996) work as a departure point for extending Marcu's formalization of RST (1996).
+The result is a first-order axiomatization of the mathematical properties of text structures and of the relationship between the structure of text and intentions.
+The axiomatization enables one to use intentions for reducing the ambiguity of discourse and the structure of discourse for deriving intentional inferences.

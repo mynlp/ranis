@@ -1,0 +1,98 @@
+T1	PROCESS 0 12	Implementing
+T2	PLAN 17 49	Binding and Accommodation Theory
+T3	PLAN-OR-PROCESS 54 73	Anaphora Resolution
+T4	PLAN-OR-PROCESS 78 103	Presupposition Projection
+T5	PLAN 105 126	Computational aspects
+T6	PERSON 130 143	Van der Sandt
+T7	PLAN 146 178	binding and accommodation theory
+T8	PLAN 180 183	BAT
+R1	Equivalence Arg1:T8 Arg2:T7	
+T9	PLAN-OR-PROCESS 189 214	presupposition projection
+T10	PLAN-OR-PROCESS 219 238	anaphora resolution
+T11	PLAN 284 287	BAT
+T12	PROCESS 291 303	reformulated
+T13	PROCESS 307 311	meet
+T14	PLAN 312 324	requirements
+T15	PLAN-OR-PROCESS 329 357	computational implementation
+T16	REFERENCE 359 364	which
+R2	Coreference Arg1:T16 Arg2:T15	
+T17	IS-A 365 372	include
+T18	PLAN-OR-PROCESS 373 383	operations
+T19	DATA-ITEM 387 422	discourse representation structures
+T20	PLAN-OR-PROCESS 424 432	renaming
+T21	PLAN-OR-PROCESS 437 444	merging
+T22	PLAN-OR-PROCESS 451 465	representation
+T23	DATA-ITEM 469 484	presuppositions
+T24	APPLY-TO 486 494	allowing
+T25	PLAN-OR-PROCESS 499 516	selective binding
+T26	DATA-ITEM 542 557	bound variables
+T27	DATA-ITEM 533 537;548 557	free variables
+T28	PLAN-OR-PROCESS 521 532	determining
+T29	PLAN-OR-PROCESS 566 577	formulation
+T30	DATA-ITEM 585 610	acceptability constraints
+T31	PROCESS 611 618	imposed
+T32	PLAN 622 625	BAT
+T33	PLAN 640 675	presupposition resolution algorithm
+T34	QUALITY 630 639	efficient
+T35	QUANTITY 694 701	several
+T36	PLAN 702 722	further improvements
+T37	QUALITY 731 742	preferences
+T38	PLAN-OR-PROCESS 747 754	binding
+T39	PLAN-OR-PROCESS 759 772	accommodation
+T40	PROCESS 791 801	integrated
+T41	PLAN 805 819	this algorithm
+R3	Coreference Arg1:T41 Arg2:T33	
+T42	QUALITY 830 840	innovative
+T43	APPLY-TO 841 844	use
+T44	PLAN 848 875	first-order theorem provers
+T45	PROCESS 879 888	carry out
+T46	PLAN-OR-PROCESS 889 909	consistency checking
+T47	DATA-ITEM 913 938	discourse representations
+R4	Attribute Arg1:T33 Arg2:T34	
+R5	Attribute Arg1:T36 Arg2:T35	
+R6	Attribute Arg1:T43 Arg2:T42	
+R8	Apply-to Arg1:T1 Arg2:T3	
+R9	Apply-to Arg1:T1 Arg2:T4	
+R10	Poss Arg1:T6 Arg2:T7	
+R11	Attribute Arg1:T7 Arg2:T5	
+R12	Apply-to Arg1:T7 Arg2:T9	
+R13	Apply-to Arg1:T7 Arg2:T10	
+R14	In_Out Arg1:T12 Arg2:T11	
+R15	Condition Arg1:T14 Arg2:T15	
+R16	Target Arg1:T13 Arg2:T14	
+R17	Other-rel Arg1:T12 Arg2:T13	
+R19	Is-a Arg1:T20 Arg2:T18	
+R20	Is-a Arg1:T21 Arg2:T18	
+R21	Target Arg1:T18 Arg2:T19	
+R22	from Arg1:T17 Arg2:T18	
+R23	to Arg1:T17 Arg2:T16	
+R25	from Arg1:T17 Arg2:T22	
+R26	from Arg1:T24 Arg2:T22	
+R27	to Arg1:T24 Arg2:T25	
+R28	to Arg1:T24 Arg2:T28	
+R31	from Arg1:T17 Arg2:T29	
+R32	Input Arg1:T29 Arg2:T30	
+R33	Apply-to Arg1:T32 Arg2:T31	
+R34	Output Arg1:T31 Arg2:T30	
+R24	Target Arg1:T22 Arg2:T23	
+R35	Attribute Arg1:T38 Arg2:T37	
+R36	Attribute Arg1:T39 Arg2:T37	
+R37	Is-a Arg1:T37 Arg2:T36	
+R38	Destination Arg1:T40 Arg2:T41	
+R39	Output Arg1:T40 Arg2:T36	
+R40	Output Arg1:T45 Arg2:T46	
+R41	Input Arg1:T46 Arg2:T47	
+R42	from Arg1:T43 Arg2:T44	
+R43	to Arg1:T43 Arg2:T45	
+R29	In_Out Arg1:T28 Arg2:T26	
+R30	In_Out Arg1:T28 Arg2:T27	
+R7	Output Arg1:T1 Arg2:T2	
+T48	REFERENCE 270 282	this article
+T49	PROCESS 243 252	presented
+T50	PROCESS 257 266	discussed
+R18	Condition Arg1:T50 Arg2:T48	
+R44	Condition Arg1:T49 Arg2:T48	
+R45	Output Arg1:T49 Arg2:T5	
+R46	Output Arg1:T50 Arg2:T5	
+T51	PROCESS 942 954	investigated
+R47	Other-rel Arg1:T51 Arg2:T43	

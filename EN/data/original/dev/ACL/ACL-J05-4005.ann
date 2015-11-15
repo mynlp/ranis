@@ -1,0 +1,270 @@
+T1	APPLY-TO 280 285	using
+T2	PROCESS 347 354	defined
+T3	CONDITION 408 415	depends
+T4	PROCESS 441 450	processed
+T5	PLAN 577 586	detecting
+T6	PROCESS 842 848	assume
+T7	CONDITION 1097 1104	require
+T8	COMPONENT-OBJECT 1288 1296	consists
+T9	APPLY-TO 1348 1356	based on
+T10	APPLY-TO 1400 1408	provides
+T11	PROCESS 1664 1672	adapting
+T12	PROCESS 1821 1829	achieves
+T13	PROCESS 1184 1195	implemented
+T14	MODALITY 710 713	can
+T15	MODALITY 838 841	not
+T17	TIME 172 180	previous
+T18	QUALITY 192 198	mainly
+T19	QUALITY 286 293	various
+T20	QUALITY 355 368	pragmatically
+T21	QUALITY 604 613	different
+T23	QUALITY 776 783	usually
+T24	QUALITY 794 804	separately
+T25	QUALITY 1040 1049	different
+T27	QUALITY 1202 1210	adaptive
+T28	QUALITY 1411 1418	unified
+T30	QUALITY 1694 1703	different
+T31	QUALITY 1770 1779	different
+T32	QUALITY 1830 1846	state-of-the-art
+T33	QUANTITY 202 207	three
+T34	QUANTITY 977 985	multiple
+T35	QUANTITY 1300 1303	two
+T36	QUANTITY 1750 1754	five
+T37	PLAN-OR-PROCESS 0 25	Chinese Word Segmentation
+T38	PLAN-OR-PROCESS 0 7;30 54	Chinese Named Entity Recognition
+T39	PLAN 68 76	Approach
+T40	PLAN 112 120	approach
+T41	PLAN-OR-PROCESS 124 149	Chinese word segmentation
+T42	PLAN 181 191	approaches
+T43	THING 208 216	respects
+T44	PERSON 231 252	theoretical linguists
+T45	DATA-ITEM 266 279	Chinese words
+T46	PLAN 294 313	linguistic criteria
+T47	DATA-ITEM 315 328	Chinese words
+T49	DATA-ITEM 372 390	segmentation units
+T50	QUALITY 397 407	definition
+T51	REFERENCE 423 427	they
+T52	PLAN 464 485	computer applications
+T53	PLAN 518 540	mathematical framework
+T54	DATA-ITEM 561 572	known words
+T55	DATA-ITEM 587 600	unknown words
+T56	QUALITY 614 619	types
+T57	DATA-ITEM 627 656	morphologically derived words
+T58	DATA-ITEM 658 666	factoids
+T59	DATA-ITEM 668 682	named entities
+T60	DATA-ITEM 694 708	unlisted words
+T62	PLAN 760 771	These tasks
+T63	PLAN 814 821	systems
+T64	QUALITY 853 862	existence
+T65	PLAN 878 904	word segmentation standard
+T66	QUALITY 964 973	necessity
+T67	PLAN 986 1008	segmentation standards
+T68	PLAN 1030 1034	fact
+T69	PLAN 1050 1090	natural language processing applications
+T70	QUALITY 1105 1128	different granularities
+T71	DATA-ITEM 1132 1145	Chinese words
+T72	PLAN 1147 1152;1163 1173	These approaches
+T73	PLAN 1211 1233	Chinese word segmenter
+T75	PLAN 1304 1314	components
+T76	PLAN 1322 1339	generic segmenter
+T77	PLAN 1361 1370	framework
+T78	PLAN 1374 1395	linear mixture models
+T79	PLAN 1419 1427	approach
+T80	PLAN 1452 1460	features
+T81	PLAN 1464 1502	word-level Chinese language processing
+T82	PLAN 1504 1527	lexicon word processing
+T83	PLAN 1529 1551	morphological analysis
+T84	PLAN 1553 1570	factoid detection
+T85	PLAN 1572 1596	named entity recognition
+T86	PLAN 1602 1625	new word identification
+T87	PLAN 1644 1659	output adaptors
+T88	DATA-ITEM 1677 1683	output
+T89	PLAN 1704 1734	application-specific standards
+T90	PROCESS 1736 1746	Evaluation
+T91	DATA-ITEM 1755 1764	test sets
+T92	QUALITY 1780 1789	standards
+T93	PLAN 1814 1820	system
+T94	DATA-ITEM 1847 1858	performance
+T95	DATA-ITEM 1870 1879	test sets
+T96	LANGUAGE 0 7	Chinese
+T97	QUALITY 58 67	Pragmatic
+R1	Attribute Arg1:T39 Arg2:T97	
+T99	QUALITY 102 111	pragmatic
+R2	Attribute Arg1:T40 Arg2:T99	
+T100	LANGUAGE 124 131	Chinese
+T101	REFERENCE 151 153	It
+R3	Coreference Arg1:T101 Arg2:T40	
+T102	JUDGING-PROCESS 154 161	differs
+T103	QUANTITY 167 171	most
+R4	Attribute Arg1:T42 Arg2:T103	
+R5	Attribute Arg1:T42 Arg2:T17	
+R6	Attribute Arg1:T43 Arg2:T33	
+T104	LANGUAGE 266 273	Chinese
+T105	PROCESS 258 265	defined
+R7	Attribute Arg1:T46 Arg2:T19	
+T106	LANGUAGE 315 322	Chinese
+R8	Attribute Arg1:T2 Arg2:T20	
+R9	Coreference Arg1:T51 Arg2:T49	
+T107	PROCESS 432 436	used
+T108	QUALITY 454 463	realistic
+R10	Attribute Arg1:T52 Arg2:T108	
+T111	QUALITY 508 517	pragmatic
+R11	Attribute Arg1:T53 Arg2:T111	
+T112	PLAN 550 560	segmenting
+R12	Attribute Arg1:T56 Arg2:T21	
+T22	PROCESS 717 726	performed
+T113	QUALITY 727 741	simultaneously
+R13	Attribute Arg1:T22 Arg2:T113	
+R14	Coreference Arg1:T62 Arg2:T112	
+R15	Coreference Arg1:T62 Arg2:T5	
+T114	PROCESS 784 793	conducted
+R16	Attribute Arg1:T114 Arg2:T24	
+R17	Attribute Arg1:T114 Arg2:T23	
+T116	QUALITY 913 936	application-independent
+R19	Attribute Arg1:T67 Arg2:T34	
+T118	MODALITY 1091 1096	might
+T119	LANGUAGE 1132 1139	Chinese
+T120	LANGUAGE 1211 1218	Chinese
+R21	Attribute Arg1:T73 Arg2:T27	
+T74	REFERENCE 1285 1287	It
+R22	Coreference Arg1:T74 Arg2:T130	
+R23	Attribute Arg1:T75 Arg2:T35	
+T122	REFERENCE 1340 1344	that
+R24	Coreference Arg1:T122 Arg2:T76	
+R25	Attribute Arg1:T79 Arg2:T28	
+T123	QUANTITY 1435 1439	five
+R26	Attribute Arg1:T80 Arg2:T123	
+T124	LANGUAGE 1475 1482	Chinese
+T29	PLAN 1637 1640	set
+R27	Attribute Arg1:T89 Arg2:T30	
+R28	Attribute Arg1:T91 Arg2:T36	
+R29	Attribute Arg1:T94 Arg2:T32	
+T125	QUANTITY 1862 1865	all
+R30	Attribute Arg1:T95 Arg2:T125	
+R31	Attribute Arg1:T102 Arg2:T18	
+R32	Attribute Arg1:T22 Arg2:T14	
+T126	QUALITY 747 758	unified way
+R34	Attribute Arg1:T6 Arg2:T15	
+R35	Attribute Arg1:T67 Arg2:T66	
+R36	Attribute Arg1:T69 Arg2:T25	
+R37	Attribute Arg1:T7 Arg2:T118	
+T127	QUALITY 1020 1029	pragmatic
+R38	Attribute Arg1:T68 Arg2:T127	
+R39	Attribute Arg1:T92 Arg2:T31	
+T128	PLAN 1242 1248	MSRSeg
+T129	QUALITY 1440 1451	fundamental
+R40	Attribute Arg1:T80 Arg2:T129	
+R41	Component-object Arg1:T78 Arg2:T77	
+R42	Member-collection Arg1:T87 Arg2:T29	
+R43	from Arg1:T9 Arg2:T77	
+R44	to Arg1:T9 Arg2:T122	
+T121	REFERENCE 544 549	which
+R45	Coreference Arg1:T121 Arg2:T53	
+T130	REFERENCE 1250 1255	which
+R46	Coreference Arg1:T130 Arg2:T73	
+T132	REFERENCE 905 909	that
+R47	Coreference Arg1:T132 Arg2:T65	
+R48	Attribute Arg1:T132 Arg2:T116	
+T133	REFERENCE 1035 1039	that
+R18	Coreference Arg1:T133 Arg2:T68	
+T134	QUALITY 868 877	universal
+R49	Attribute Arg1:T65 Arg2:T134	
+T135	QUALITY 1153 1162	pragmatic
+R50	Attribute Arg1:T72 Arg2:T135	
+R51	Apply-to Arg1:T39 Arg2:T37	
+R52	Apply-to Arg1:T39 Arg2:T38	
+R53	Apply-to Arg1:T40 Arg2:T41	
+R54	Input Arg1:T102 Arg2:T101	
+R56	Condition Arg1:T102 Arg2:T43	
+R57	from Arg1:T1 Arg2:T46	
+R58	to Arg1:T1 Arg2:T105	
+R59	Agent Arg1:T105 Arg2:T44	
+R60	Output Arg1:T105 Arg2:T45	
+T136	REFERENCE 391 396	whose
+R61	Attribute Arg1:T136 Arg2:T50	
+R62	Coreference Arg1:T136 Arg2:T49	
+R63	Output Arg1:T2 Arg2:T47	
+R64	Output Arg1:T2 Arg2:T49	
+R65	In_Out Arg1:T107 Arg2:T51	
+R66	In_Out Arg1:T4 Arg2:T51	
+R67	Condition Arg1:T107 Arg2:T52	
+R68	Condition Arg1:T4 Arg2:T52	
+R69	Input Arg1:T112 Arg2:T54	
+R70	Attribute Arg1:T55 Arg2:T56	
+R71	In_Out Arg1:T5 Arg2:T55	
+R72	Is-a Arg1:T57 Arg2:T55	
+R73	Is-a Arg1:T58 Arg2:T55	
+R74	Is-a Arg1:T59 Arg2:T55	
+R75	Is-a Arg1:T60 Arg2:T55	
+R76	Output Arg1:T22 Arg2:T112	
+R33	Attribute Arg1:T22 Arg2:T126	
+R77	Output Arg1:T22 Arg2:T5	
+R78	Condition Arg1:T112 Arg2:T121	
+R79	Attribute Arg1:T65 Arg2:T64	
+R80	Output Arg1:T6 Arg2:T64	
+R81	Attribute Arg1:T71 Arg2:T70	
+R82	Other-rel Arg1:T133 Arg2:T7	
+R20	from Arg1:T7 Arg2:T69	
+R83	to Arg1:T7 Arg2:T70	
+R84	Output Arg1:T13 Arg2:T72	
+R85	Condition Arg1:T13 Arg2:T73	
+R86	In_Out Arg1:T114 Arg2:T62	
+R87	Condition Arg1:T114 Arg2:T63	
+R88	Is-a Arg1:T128 Arg2:T73	
+R89	from Arg1:T8 Arg2:T75	
+R90	to Arg1:T8 Arg2:T74	
+R91	Is-a Arg1:T76 Arg2:T75	
+R92	Component-object Arg1:T80 Arg2:T81	
+R93	Is-a Arg1:T82 Arg2:T80	
+R94	Is-a Arg1:T83 Arg2:T80	
+R95	Is-a Arg1:T84 Arg2:T80	
+R96	Is-a Arg1:T85 Arg2:T80	
+R97	Is-a Arg1:T86 Arg2:T80	
+R98	Input Arg1:T11 Arg2:T88	
+R99	Output Arg1:T11 Arg2:T89	
+T26	QUALITY 1805 1813	adaptive
+R100	Attribute Arg1:T93 Arg2:T26	
+R101	Input Arg1:T90 Arg2:T91	
+R102	Attribute Arg1:T91 Arg2:T92	
+R103	Input Arg1:T12 Arg2:T95	
+R104	Apply-to Arg1:T93 Arg2:T12	
+R105	Output Arg1:T12 Arg2:T94	
+T61	OUTPUT 1790 1795	shows
+R106	from Arg1:T61 Arg2:T90	
+R107	to Arg1:T61 Arg2:T12	
+R108	Apply-to Arg1:T76 Arg2:T10	
+R110	from Arg1:T10 Arg2:T79	
+T137	COMPARE 162 166	from
+R111	from Arg1:T137 Arg2:T42	
+R55	to Arg1:T137 Arg2:T102	
+R112	to Arg1:T3 Arg2:T50	
+R113	from Arg1:T3 Arg2:T107	
+R114	from Arg1:T3 Arg2:T4	
+T138	RESULT 1009 1015	due to
+R115	to Arg1:T138 Arg2:T66	
+R116	from Arg1:T138 Arg2:T68	
+R117	to Arg1:T10 Arg2:T80	
+R109	Apply-to Arg1:T29 Arg2:T11	
+T139	REFERENCE 1687 1690	(1)
+R118	Coreference Arg1:T139 Arg2:T76	
+R119	Output Arg1:T139 Arg2:T88	
+T16	PERSON 495 497	we
+T48	PROCESS 498 505	propose
+T98	PERSON 832 834	we
+T109	PERSON 947 949	we
+T110	PROCESS 950 955	argue
+T115	REFERENCE 78 90	This article
+T117	PROCESS 91 99	presents
+R120	Condition Arg1:T117 Arg2:T115	
+R121	Output Arg1:T117 Arg2:T40	
+R122	Agent Arg1:T48 Arg2:T16	
+R123	Output Arg1:T48 Arg2:T53	
+R124	Agent Arg1:T6 Arg2:T98	
+R125	Agent Arg1:T110 Arg2:T109	
+R126	Output Arg1:T110 Arg2:T66	
+T131	MODALITY 1256 1260	will
+T140	PROCESS 1264 1273	described
+T141	QUALITY 1274 1283	in detail
+R127	Attribute Arg1:T140 Arg2:T141	
+R128	Attribute Arg1:T140 Arg2:T131	
+R129	Output Arg1:T140 Arg2:T130	

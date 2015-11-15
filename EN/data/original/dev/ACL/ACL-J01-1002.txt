@@ -1,0 +1,7 @@
+Integrating Prosodic and Lexical Cues for Automatic Topic Segmentation
+
+We present a probabilistic model that uses both prosodic and lexical cues for the automatic segmentation of speech into topically coherent units.
+We propose two methods for combining lexical and prosodic information using hidden Markov models and decision trees. Lexical information is obtained from a speech recognizer, and prosodic features are extracted automatically from speech waveforms.
+We evaluate our approach on the Broadcast News corpus, using the DARPA-TDT evaluation metrics.
+Results show that the prosodic model alone is competitive with word-based segmentation methods.
+Furthermore, we achieve a significant reduction in error by combining the prosodic and word-based knowledge sources.

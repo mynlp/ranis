@@ -1,0 +1,164 @@
+T1	PLAN 0 2	JU
+T2	PLAN 6 25	Supervised Approach
+T3	PROCESS 29 37	Identify
+T4	DATA-ITEM 38 56	Semantic Relations
+T5	DATA-ITEM 69 77	Nominals
+T6	REFERENCE 80 92	This article
+T7	PROCESS 93 101	presents
+T8	PLAN 106 117	experiments
+T9	PROCESS 118 129	carried out
+T10	ORGANIZATION 133 152	Jadavpur University
+T11	PLAN-OR-PROCESS 168 181	participation
+T12	PLAN 185 209	Multi-Way Classification
+T13	DATA-ITEM 213 231	Semantic Relations
+T14	DATA-ITEM 240 245	Pairs
+T15	DATA-ITEM 249 257	Nominals
+T16	PLAN 265 286	SemEval 2010 exercise
+T17	QUALITY 288 296	Separate
+T18	PLAN 297 302	rules
+T19	DATA-ITEM 312 316	type
+T20	DATA-ITEM 324 333	relations
+T21	PROCESS 338 348	identified
+T22	PLAN 356 370	baseline model
+T23	INPUT 371 379	based on
+T24	DATA-ITEM 384 389	verbs
+T25	DATA-ITEM 394 406	prepositions
+T26	COMPONENT-OBJECT 407 414	present
+T27	DATA-ITEM 422 429	segment
+T28	DATA-ITEM 443 447	pair
+T29	DATA-ITEM 451 459	nominals
+T30	PLAN-OR-PROCESS 461 470	Inclusion
+T31	DATA-ITEM 474 490	WordNet features
+T32	QUALITY 491 501	associated
+T33	QUALITY 511 517	paired
+T34	DATA-ITEM 518 526	nominals
+T35	QUALITY 535 544	important
+T36	PROCESS 545 549	role
+T37	PROCESS 553 567	distinguishing
+T38	DATA-ITEM 572 581	relations
+T40	PLAN 603 627	Conditional Random Field
+T41	PLAN 629 632	CRF
+T42	PLAN 634 666	based machine-learning framework
+T43	APPLY-TO 670 677	adopted
+T44	PROCESS 682 693	classifying
+T45	DATA-ITEM 698 702	pair
+T46	DATA-ITEM 706 714	nominals
+T47	PROCESS 718 729	Application
+T48	DATA-ITEM 733 753	dependency relations
+T49	DATA-ITEM 755 769	Named Entities
+T50	DATA-ITEM 771 773	NE
+T51	QUALITY 779 786	various
+T52	DATA-ITEM 787 792	types
+T53	DATA-ITEM 796 812	WordNet features
+T54	QUANTITY 824 831	several
+T55	DATA-ITEM 832 844	combinations
+T56	DATA-ITEM 848 862	these features
+T57	PROCESS 863 867	help
+T58	JUDGING-PROCESS 871 878	improve
+T59	DATA-ITEM 883 894	performance
+T60	PLAN 902 908	system
+T61	PLAN-OR-PROCESS 910 924	Error analysis
+T62	DATA-ITEM 943 954	performance
+T63	MODALITY 955 958	can
+T64	JUDGING-PROCESS 962 970	improved
+T65	APPLY-TO 974 982	applying
+T66	QUALITY 983 991	suitable
+T67	PLAN 992 1002	strategies
+T68	PROCESS 1006 1019	differentiate
+T69	QUALITY 1025 1031	paired
+T70	DATA-ITEM 1032 1039	nominal
+T71	QUALITY 1046 1064	already identified
+T72	DATA-ITEM 1065 1073	relation
+T73	PLAN-OR-PROCESS 1075 1092	Evaluation result
+T74	RESULT 1093 1098	gives
+T75	DATA-ITEM 1125 1133	F1 score
+T76	QUANTITY 1137 1143	52.16%
+R1	Is-a Arg1:T1 Arg2:T2	
+R2	Apply-to Arg1:T2 Arg2:T3	
+R3	Output Arg1:T3 Arg2:T4	
+R4	Input Arg1:T3 Arg2:T5	
+A1	Self T6
+A2	Intentional T7
+R5	Condition Arg1:T7 Arg2:T6	
+R6	Output Arg1:T7 Arg2:T8	
+R7	Output Arg1:T9 Arg2:T8	
+R8	Condition Arg1:T9 Arg2:T10	
+R9	Member-collection Arg1:T15 Arg2:T14	
+R10	Attribute Arg1:T13 Arg2:T14	
+R11	Input Arg1:T12 Arg2:T13	
+R12	Component-object Arg1:T16 Arg2:T12	
+R13	Target Arg1:T11 Arg2:T12	
+R15	Member-collection Arg1:T19 Arg2:T20	
+R16	Attribute Arg1:T18 Arg2:T17	
+R17	Condition Arg1:T18 Arg2:T19	
+R18	Output Arg1:T21 Arg2:T18	
+R19	from Arg1:T23 Arg2:T22	
+R20	to Arg1:T23 Arg2:T24	
+R21	to Arg1:T23 Arg2:T25	
+R22	Member-collection Arg1:T29 Arg2:T28	
+R23	from Arg1:T26 Arg2:T27	
+R24	to Arg1:T26 Arg2:T25	
+R25	to Arg1:T26 Arg2:T24	
+R26	Apply-to Arg1:T21 Arg2:T22	
+R27	Attribute Arg1:T34 Arg2:T33	
+T78	QUALITY 62 68	Paired
+R28	Attribute Arg1:T5 Arg2:T78	
+R29	Condition Arg1:T32 Arg2:T34	
+R30	Attribute Arg1:T31 Arg2:T32	
+R31	In_Out Arg1:T30 Arg2:T31	
+R32	In_Out Arg1:T37 Arg2:T38	
+T79	PROCESS 527 531	play
+R33	Split Arg1:T36 Arg2:T79	
+R34	Attribute Arg1:T36 Arg2:T35	
+R35	Apply-to Arg1:T30 Arg2:T79	
+R36	Condition Arg1:T36 Arg2:T37	
+T39	LOCATION 430 437	between
+R37	Condition Arg1:T27 Arg2:T39	
+R38	Other-rel Arg1:T39 Arg2:T28	
+T77	REFERENCE 587 597	each other
+R39	Coreference Arg1:T77 Arg2:T38	
+R40	In_Out Arg1:T37 Arg2:T77	
+R41	Equivalence Arg1:T41 Arg2:T40	
+R42	Split Arg1:T42 Arg2:T40	
+R43	Member-collection Arg1:T46 Arg2:T45	
+R44	In_Out Arg1:T44 Arg2:T45	
+R45	to Arg1:T43 Arg2:T44	
+R46	from Arg1:T43 Arg2:T42	
+R47	Equivalence Arg1:T50 Arg2:T49	
+R48	Attribute Arg1:T52 Arg2:T51	
+R49	Member-collection Arg1:T52 Arg2:T53	
+R50	Attribute Arg1:T55 Arg2:T54	
+R51	Component-object Arg1:T55 Arg2:T56	
+R52	Member-collection Arg1:T52 Arg2:T56	
+R53	Is-a Arg1:T50 Arg2:T56	
+R54	Is-a Arg1:T48 Arg2:T56	
+R55	Attribute Arg1:T60 Arg2:T59	
+R56	In_Out Arg1:T58 Arg2:T59	
+R57	Target Arg1:T57 Arg2:T58	
+R58	Input Arg1:T47 Arg2:T48	
+R59	Input Arg1:T47 Arg2:T49	
+R60	Input Arg1:T47 Arg2:T52	
+R61	Input Arg1:T47 Arg2:T55	
+R62	Apply-to Arg1:T47 Arg2:T57	
+T80	RESULT 925 933	suggests
+R63	from Arg1:T80 Arg2:T61	
+R64	In_Out Arg1:T64 Arg2:T62	
+R65	Attribute Arg1:T64 Arg2:T63	
+R66	Attribute Arg1:T67 Arg2:T66	
+A3	Judgment T66
+R67	from Arg1:T65 Arg2:T67	
+R68	to Arg1:T65 Arg2:T68	
+R69	Attribute Arg1:T70 Arg2:T69	
+R70	In_Out Arg1:T68 Arg2:T70	
+R71	Attribute Arg1:T72 Arg2:T71	
+R72	Component-object Arg1:T72 Arg2:T70	
+R73	Other-rel Arg1:T65 Arg2:T64	
+R74	from Arg1:T74 Arg2:T73	
+T81	QUALITY 1102 1124	overall macro-averaged
+R75	Attribute Arg1:T75 Arg2:T81	
+R76	Attribute Arg1:T75 Arg2:T76	
+R77	to Arg1:T74 Arg2:T75	
+T82	COMPONENT-OBJECT 153 163	as part of
+R78	to Arg1:T82 Arg2:T11	
+R79	from Arg1:T82 Arg2:T8	
+R14	to Arg1:T80 Arg2:T64	

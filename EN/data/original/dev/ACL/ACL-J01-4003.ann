@@ -1,0 +1,82 @@
+T1	PLAN-OR-PROCESS 2 25	Corpus-Based Evaluation
+T2	PLAN-OR-PROCESS 29 38	Centering
+T3	PLAN-OR-PROCESS 43 61	Pronoun Resolution
+T4	PROCESS 80 87	compare
+T5	PLAN 88 117	pronoun resolution algorithms
+T6	PLAN 134 153	centering algorithm
+T7	PLAN 155 175	Left-Right Centering
+T8	CONDITION 182 189	adheres
+T9	REFERENCE 177 181	that
+R1	Coreference Arg1:T9 Arg2:T6	
+T10	PLAN 197 208	constraints
+T11	PLAN 213 218	rules
+T12	PLAN 222 238	centering theory
+T13	COMPARE 249 260	alternative
+T14	PLAN 264 313	Brennan, Friedman, and Pollard's (1987) algorithm
+T15	PERSON 264 271	Brennan
+T16	PERSON 273 281	Friedman
+T17	PERSON 287 294	Pollard
+T18	TIME 298 302	1987
+T19	PLAN 331 361	Left-Right Centering algorithm
+T20	PLAN 376 399	psycholinguistic claims
+T21	QUANTITY 372 375	two
+T22	PLAN-OR-PROCESS 403 418	Cf-list ranking
+T23	QUALITY 424 432	actually
+T24	PROCESS 433 440	improve
+T25	QUALITY 441 468	pronoun resolution accuracy
+T26	DATA-ITEM 474 481	results
+T28	RESULT 506 510	lead
+T29	JUDGING-PROCESS 518 529	development
+T30	PLAN-OR-PROCESS 539 559	syntax-based ranking
+T31	QUALITY 535 538	new
+T32	DATA-ITEM 567 574	Cf-list
+T33	DATA-ITEM 579 600	corpus-based evidence
+T34	REFERENCE 601 605	that
+T35	JUDGING-PROCESS 606 617	contradicts
+T36	PLAN 622 645	psycholinguistic claims
+T37	EXTERNAL-REFERENCE 264 303	Brennan, Friedman, and Pollard's (1987)
+R2	Attribute Arg1:T30 Arg2:T31	
+R3	Coreference Arg1:T34 Arg2:T33	
+R4	Attribute Arg1:T20 Arg2:T21	
+R5	Attribute Arg1:T24 Arg2:T23	
+T39	PERSON 470 473	Our
+R6	Poss Arg1:T39 Arg2:T26	
+R7	Input Arg1:T1 Arg2:T2	
+R8	Input Arg1:T1 Arg2:T3	
+R9	Input Arg1:T4 Arg2:T5	
+R10	from Arg1:T8 Arg2:T9	
+R11	to Arg1:T8 Arg2:T10	
+R12	to Arg1:T8 Arg2:T11	
+R13	Attribute Arg1:T12 Arg2:T11	
+R14	Attribute Arg1:T12 Arg2:T10	
+R15	to Arg1:T13 Arg2:T9	
+R16	from Arg1:T13 Arg2:T14	
+T42	PROCESS 365 368	see
+R17	In_Out Arg1:T24 Arg2:T25	
+R18	Apply-to Arg1:T20 Arg2:T24	
+R19	Attribute Arg1:T20 Arg2:T22	
+R20	from Arg1:T28 Arg2:T26	
+R21	to Arg1:T28 Arg2:T29	
+R22	Output Arg1:T29 Arg2:T30	
+R23	Input Arg1:T30 Arg2:T32	
+R24	to Arg1:T28 Arg2:T33	
+R25	Target Arg1:T35 Arg2:T34	
+R26	Compare Arg1:T36 Arg2:T35	
+R27	Is-a Arg1:T7 Arg2:T6	
+T43	PROCESS 323 326	use
+R28	Input Arg1:T43 Arg2:T19	
+T44	MODALITY 369 371	if
+R29	Attribute Arg1:T24 Arg2:T44	
+R30	Apply-to Arg1:T43 Arg2:T42	
+R31	Output Arg1:T42 Arg2:T24	
+T27	PERSON 77 79	we
+T38	REFERENCE 66 76	this paper
+T40	PROCESS 122 131	introduce
+R32	Output Arg1:T40 Arg2:T6	
+T41	PERSON 315 317	We
+R33	Agent Arg1:T4 Arg2:T27	
+R34	Agent Arg1:T40 Arg2:T27	
+R35	Agent Arg1:T43 Arg2:T41	
+R36	Condition Arg1:T4 Arg2:T38	
+T45	MODALITY 419 423	will
+R37	Attribute Arg1:T24 Arg2:T45	

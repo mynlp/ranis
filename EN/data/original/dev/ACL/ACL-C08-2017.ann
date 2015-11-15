@@ -1,0 +1,88 @@
+T1	PLAN-OR-PROCESS 0 9	Modelling
+T2	PROCESS 247 256	obtaining
+T3	APPLY-TO 281 288	implies
+T4	PROCESS 292 300	localize
+T5	PROCESS 458 464	modify
+T6	PROCESS 504 511	provide
+T7	PROCESS 572 582	associated
+T8	APPLY-TO 610 616	allows
+T9	PROCESS 220 229	developed
+T10	QUALITY 132 140	valuable
+T11	QUALITY 165 174	different
+T13	QUALITY 422 434	considerable
+T14	QUANTITY 233 236	one
+T15	QUALITY 10 25	Multilinguality
+T16	DATA-ITEM 29 39	Ontologies
+T17	QUALITY 41 56	Multilinguality
+T18	DATA-ITEM 60 70	ontologies
+T20	ORGANIZATION 104 116	institutions
+T21	DATA-ITEM 141 161	linguistic resources
+T22	LANGUAGE 175 192	natural languages
+T23	DATA-ITEM 205 215	ontologies
+T24	LANGUAGE 237 245	language
+T25	DATA-ITEM 257 280	multilingual ontologies
+T26	REFERENCE 310 314	them
+T29	PROCESS 369 379	adaptation
+T30	DATA-ITEM 387 413	ontology conceptualization
+T31	DATA-ITEM 469 498	ontology terminological layer
+T32	PLAN 514 519	model
+T33	DATA-ITEM 527 560	Linguistic Information Repository
+T34	DATA-ITEM 590 609	ontology meta-model
+T35	PLAN-OR-PROCESS 617 650	terminological layer localization
+T36	QUALITY 85 99	impending need
+T37	LOCATION 117 126	worldwide
+R3	Attribute Arg1:T21 Arg2:T10	
+R4	Attribute Arg1:T22 Arg2:T11	
+R5	Attribute Arg1:T24 Arg2:T14	
+T38	PROCESS 304 309	adapt
+T12	CONDITION 414 421	demands
+T39	PROCESS 435 442	efforts
+R8	Attribute Arg1:T39 Arg2:T13	
+T40	DATA-ITEM 562 565	LIR
+R9	Equivalence Arg1:T40 Arg2:T33	
+T41	QUANTITY 200 204	most
+R10	Attribute Arg1:T23 Arg2:T41	
+R11	Coreference Arg1:T26 Arg2:T25	
+T27	PERSON 329 360	language and culture com munity
+T42	REFERENCE 567 571	that
+R6	Coreference Arg1:T42 Arg2:T32	
+R2	Attribute Arg1:T16 Arg2:T15	
+R7	Output Arg1:T1 Arg2:T15	
+R12	Attribute Arg1:T18 Arg2:T17	
+R13	Attribute Arg1:T20 Arg2:T37	
+R14	Output Arg1:T9 Arg2:T23	
+R15	Condition Arg1:T9 Arg2:T24	
+R16	Attribute Arg1:T21 Arg2:T22	
+R17	Poss Arg1:T20 Arg2:T21	
+T19	ATTRIBUTE 75 81	become
+R1	to Arg1:T19 Arg2:T36	
+R18	from Arg1:T19 Arg2:T17	
+R19	Condition Arg1:T36 Arg2:T20	
+R20	Output Arg1:T2 Arg2:T25	
+R21	In_Out Arg1:T4 Arg2:T26	
+R22	In_Out Arg1:T38 Arg2:T26	
+R25	In_Out Arg1:T29 Arg2:T30	
+R26	from Arg1:T3 Arg2:T4	
+R27	from Arg1:T3 Arg2:T38	
+R28	to Arg1:T3 Arg2:T2	
+R29	to Arg1:T3 Arg2:T2	
+T44	IS-A 520 526	called
+R30	from Arg1:T44 Arg2:T33	
+R31	to Arg1:T44 Arg2:T32	
+R32	to Arg1:T12 Arg2:T29	
+R33	from Arg1:T12 Arg2:T39	
+R34	Output Arg1:T6 Arg2:T32	
+R35	In_Out Arg1:T5 Arg2:T31	
+R36	Input Arg1:T7 Arg2:T42	
+R37	Input Arg1:T7 Arg2:T34	
+R38	to Arg1:T8 Arg2:T35	
+R39	from Arg1:T8 Arg2:T42	
+T28	QUALITY 320 328	concrete
+R23	Attribute Arg1:T27 Arg2:T28	
+R24	Target Arg1:T4 Arg2:T27	
+R40	Target Arg1:T38 Arg2:T27	
+T43	PERSON 444 446	we
+T45	PROCESS 447 454	propose
+R41	Agent Arg1:T45 Arg2:T43	
+R42	Output Arg1:T45 Arg2:T5	
+R43	Agent Arg1:T6 Arg2:T43	

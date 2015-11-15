@@ -1,0 +1,136 @@
+T1	PROCESS 0 13	Demonstration
+T2	PLAN 17 82	Grid-Enabled Ensemble Kalman Filter Data Assimilation Methodology
+T3	PLAN-OR-PROCESS 87 113	Reservoir Characterization
+T4	PERSON 39 45	Kalman
+T5	PERSON 123 129	Kalman
+T6	PLAN 114 166	Ensemble Kalman filter data assimilation methodology
+T7	PLAN 180 188	approach
+T8	QUALITY 172 179	popular
+T9	PLAN-OR-PROCESS 193 226	hydrocarbon reservoir simulations
+T10	PLAN-OR-PROCESS 230 248	energy exploration
+T11	PLAN 253 266	this approach
+R1	Coreference Arg1:T11 Arg2:T7	
+T12	PLAN 271 279	ensemble
+T13	PLAN 283 300	geological models
+T14	DATA-ITEM 305 320	production data
+T15	LOCATION 324 334	oil fields
+T16	APPLY-TO 338 342	used
+T17	PROCESS 346 354	forecast
+T18	PLAN-OR-PROCESS 359 375	dynamic response
+T19	ARTIFACT 379 388	oil wells
+T20	PLAN 394 423	Schlumberger ECLIPSE software
+T21	ORGANIZATION 394 406	Schlumberger
+T22	PLAN 407 414	ECLIPSE
+T23	APPLY-TO 427 431	used
+T24	PLAN-OR-PROCESS 436 453	these simulations
+T25	PLAN 461 467	models
+T26	PLAN 475 483	ensemble
+T27	MODALITY 487 490	not
+T28	PROCESS 491 502	communicate
+T29	PLAN 504 534	message-passing implementation
+T30	QUALITY 540 544	good
+T31	PLAN-OR-PROCESS 545 551	choice
+T32	PLAN 558 563	model
+T33	PROCESS 564 573	checks ou
+T34	PLAN 578 585	ECLIPSE
+T35	DATA-ITEM 578 593	ECLIPSE license
+T36	QUALITY 609 626	parallelizability
+T37	PLAN-OR-PROCESS 630 651	reservoir simulations
+T38	CONDITION 652 659	depends
+T39	QUALITY 683 692	available
+T40	DATA-ITEM 674 682	licenses
+T41	PROCESS 702 714	Grid-enabled
+T42	PLAN 719 771	ensemble Kalman filter data assimilation methodology
+T43	PERSON 728 734	Kalman
+T44	PLAN 780 785	TIGRE
+T45	PLAN 780 812	TIGRE Grid computing environment
+T46	PROCESS 817 824	pooling
+T47	DATA-ITEM 829 837	licenses
+T48	THING 842 861	computing resources
+T49	ORGANIZATION 873 899	collaborating institutions
+T50	PLAN 906 927	GridWay metascheduler
+T51	PLAN 932 949	TIGRE environment
+T52	PLAN 932 937	TIGRE
+T53	PLAN 906 913	GridWay
+T54	DATA-ITEM 955 977	computational accuracy
+T55	MODALITY 978 981	can
+T56	PROCESS 985 994	increased
+T57	PROCESS 1001 1009	reducing
+T58	TIME 1014 1032	simulation runtime
+T61	PROCESS 1089 1102	Grid-enabling
+T62	PLAN 1107 1159	ensemble Kalman Filter data assimilation methodology
+T63	PERSON 1116 1122	Kalman
+T64	QUALITY 1161 1179	Potential benefits
+T65	PLAN 1183 1196	this approach
+T66	PLAN 1198 1210	observations
+T67	PLAN 1215 1222	lessons
+T68	QUALITY 1223 1230	learned
+R2	Coreference Arg1:T65 Arg2:T62	
+R3	Coreference Arg1:T24 Arg2:T9	
+R4	Attribute Arg1:T56 Arg2:T55	
+R5	Attribute Arg1:T28 Arg2:T27	
+R6	Input Arg1:T12 Arg2:T13	
+R7	Member-collection Arg1:T25 Arg2:T26	
+R8	Attribute Arg1:T31 Arg2:T30	
+R9	Attribute Arg1:T40 Arg2:T39	
+R11	Attribute Arg1:T7 Arg2:T8	
+R12	Attribute Arg1:T37 Arg2:T36	
+R13	Target Arg1:T1 Arg2:T2	
+R14	Apply-to Arg1:T2 Arg2:T3	
+R15	Is-a Arg1:T6 Arg2:T7	
+R16	Apply-to Arg1:T7 Arg2:T9	
+R17	Condition Arg1:T9 Arg2:T10	
+R18	to Arg1:T16 Arg2:T12	
+R19	Attribute Arg1:T14 Arg2:T15	
+R20	Input Arg1:T12 Arg2:T14	
+R21	from Arg1:T16 Arg2:T17	
+R22	Output Arg1:T17 Arg2:T18	
+R23	Attribute Arg1:T18 Arg2:T19	
+R24	from Arg1:T23 Arg2:T20	
+R25	to Arg1:T23 Arg2:T24	
+R26	Input Arg1:T28 Arg2:T25	
+R27	In_Out Arg1:T29 Arg2:T31	
+R28	Apply-to Arg1:T32 Arg2:T33	
+R29	Input Arg1:T33 Arg2:T35	
+T60	QUANTITY 667 673	number
+R30	Attribute Arg1:T40 Arg2:T60	
+R31	from Arg1:T38 Arg2:T36	
+R32	to Arg1:T38 Arg2:T60	
+R33	In_Out Arg1:T41 Arg2:T42	
+R34	Destination Arg1:T41 Arg2:T45	
+R35	In_Out Arg1:T46 Arg2:T47	
+R36	In_Out Arg1:T46 Arg2:T48	
+R37	Condition Arg1:T46 Arg2:T49	
+T69	APPLY-TO 900 905	using
+R38	from Arg1:T69 Arg2:T50	
+R39	from Arg1:T69 Arg2:T51	
+R40	to Arg1:T69 Arg2:T46	
+R41	In_Out Arg1:T57 Arg2:T58	
+R42	Apply-to Arg1:T46 Arg2:T56	
+R43	Condition Arg1:T56 Arg2:T57	
+R44	In_Out Arg1:T56 Arg2:T54	
+R45	In_Out Arg1:T61 Arg2:T62	
+R46	Attribute Arg1:T65 Arg2:T64	
+R47	Condition Arg1:T16 Arg2:T11	
+R49	Result Arg1:T28 Arg2:T31	
+T71	RESULT 598 607	therefore
+R48	to Arg1:T71 Arg2:T38	
+R50	from Arg1:T71 Arg2:T33	
+T59	PERSON 694 696	We
+T70	REFERENCE 1037 1047	this paper
+T72	PERSON 1049 1051	we
+T73	PROCESS 1052 1070	provide an account
+T74	PERSON 1074 1077	our
+T75	PROCESS 1078 1085	efforts
+R51	Agent Arg1:T75 Arg2:T74	
+R52	Output Arg1:T73 Arg2:T75	
+R53	Agent Arg1:T41 Arg2:T59	
+R54	Agent Arg1:T73 Arg2:T72	
+R55	Condition Arg1:T73 Arg2:T70	
+T76	MODALITY 1231 1235	will
+T77	PROCESS 1239 1248	discussed
+R56	Attribute Arg1:T77 Arg2:T76	
+R10	Attribute Arg1:T64 Arg2:T68	
+R57	Attribute Arg1:T66 Arg2:T64	
+R58	Attribute Arg1:T67 Arg2:T64	
+R59	Output Arg1:T77 Arg2:T64	

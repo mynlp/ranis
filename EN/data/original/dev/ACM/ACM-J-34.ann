@@ -1,0 +1,146 @@
+T1	APPLY-TO 156 160	used
+T2	RESULT 403 410	depends
+T3	MEMBER-COLLECTION 442 450	consists
+T4	PROCESS 676 682	enjoys
+T5	PROCESS 811 820	supported
+T6	INPUT 848 853	using
+T7	PROCESS 476 485	determine
+T8	PROCESS 569 578	determine
+T9	ORGANIZATION 876 880	INET
+T10	QUALITY 222 233	susceptible
+T11	QUALITY 276 281	large
+T12	QUALITY 499 510	independent
+T13	QUALITY 518 525	current
+T15	QUALITY 592 600	relative
+T16	QUALITY 608 615	current
+T17	QUALITY 683 691	provably
+T18	QUALITY 750 760	vulnerable
+T19	QUALITY 764 769	great
+T20	QUALITY 824 835	large-scale
+T21	QUALITY 884 889	large
+T22	QUALITY 0 24	(In)Stability Properties
+T23	PLAN 28 48	Limit Order Dynamics
+T24	QUALITY 62 82	stability properties
+T25	PLAN 90 98	dynamics
+T26	PLAN 126 147	limit-order mechanism
+T27	PLAN-OR-PROCESS 171 185	equity markets
+T28	PLAN 202 217	such mechanisms
+T29	PLAN-OR-PROCESS 237 254	butterfly effects
+T30	RESULT 262 272	infliction
+T31	PLAN-OR-PROCESS 282 289	changes
+T32	PLAN 300 308	measures
+T33	PLAN-OR-PROCESS 312 327	market activity
+T34	PLAN-OR-PROCESS 342 355	perturbations
+T35	DATA-ITEM 363 377	order sequence
+T36	DATA-ITEM 396 402	answer
+T37	THING 435 441	market
+T38	DATA-ITEM 492 498	prices
+T39	DATA-ITEM 526 542	order book state
+T40	INTELLIGENT-AGENT 547 563	relative traders
+T41	DATA-ITEM 585 591	prices
+T42	PLAN 654 675	absolute trader model
+T43	QUALITY 699 719	stability properties
+T44	PLAN 725 746	relative trader model
+T45	QUALITY 770 781	instability
+T46	THING 787 806	theoretical results
+T47	DATA-ITEM 854 870	limit order data
+T48	ORGANIZATION 890 909	electronic exchange
+T49	DATA-ITEM 914 927	NASDAQ stocks
+T50	QUALITY 106 114	standard
+T51	QUALITY 115 125	continuous
+R1	Attribute Arg1:T26 Arg2:T51	
+R2	Attribute Arg1:T26 Arg2:T50	
+T52	QUALITY 164 170	modern
+R3	Attribute Arg1:T27 Arg2:T52	
+R4	Attribute Arg1:T28 Arg2:T10	
+R5	Attribute Arg1:T31 Arg2:T11	
+T53	QUALITY 293 299	common
+R6	Attribute Arg1:T32 Arg2:T53	
+T54	QUALITY 336 341	small
+R7	Attribute Arg1:T34 Arg2:T54	
+T55	QUALITY 411 419	strongly
+R8	Attribute Arg1:T2 Arg2:T55	
+T56	INTELLIGENT-AGENT 454 470	absolute traders
+T14	REFERENCE 472 475	who
+R9	Coreference Arg1:T14 Arg2:T56	
+T57	REFERENCE 486 491	their
+R10	Coreference Arg1:T57 Arg2:T14	
+R11	Attribute Arg1:T39 Arg2:T13	
+T58	REFERENCE 565 568	who
+R13	Coreference Arg1:T58 Arg2:T40	
+T59	REFERENCE 579 584	their
+R14	Coreference Arg1:T59 Arg2:T58	
+T60	DATA-ITEM 616 619	bid
+T61	DATA-ITEM 624 627	ask
+R15	Condition Arg1:T15 Arg2:T60	
+R16	Attribute Arg1:T60 Arg2:T16	
+R17	Attribute Arg1:T61 Arg2:T16	
+R18	Condition Arg1:T15 Arg2:T61	
+R12	Condition Arg1:T12 Arg2:T39	
+T63	QUALITY 692 698	strong
+R19	Attribute Arg1:T43 Arg2:T63	
+R20	Attribute Arg1:T63 Arg2:T17	
+R21	Attribute Arg1:T44 Arg2:T18	
+R22	Attribute Arg1:T45 Arg2:T19	
+T65	PLAN-OR-PROCESS 836 847	experiments
+R23	Attribute Arg1:T65 Arg2:T20	
+R24	Attribute Arg1:T48 Arg2:T21	
+T66	ORGANIZATION 914 920	NASDAQ
+T72	REFERENCE 148 152	that
+R25	Coreference Arg1:T72 Arg2:T26	
+T73	PERSON 783 786	Our
+R26	Poss Arg1:T73 Arg2:T46	
+R27	Poss Arg1:T57 Arg2:T38	
+R28	Poss Arg1:T59 Arg2:T41	
+R29	Attribute Arg1:T23 Arg2:T22	
+R30	Attribute Arg1:T25 Arg2:T24	
+R31	Attribute Arg1:T26 Arg2:T25	
+R32	from Arg1:T1 Arg2:T72	
+R33	to Arg1:T1 Arg2:T27	
+R34	Coreference Arg1:T28 Arg2:T72	
+T71	MODALITY 194 201	whether
+R35	Attribute Arg1:T10 Arg2:T71	
+R36	Condition Arg1:T10 Arg2:T29	
+R37	Is-a Arg1:T30 Arg2:T29	
+R38	to Arg1:T30 Arg2:T31	
+R40	In_Out Arg1:T32 Arg2:T33	
+R42	In_Out Arg1:T34 Arg2:T35	
+R43	to Arg1:T2 Arg2:T36	
+R44	to Arg1:T3 Arg2:T37	
+R45	from Arg1:T3 Arg2:T56	
+R47	Agent Arg1:T7 Arg2:T14	
+R48	Output Arg1:T7 Arg2:T38	
+R50	from Arg1:T3 Arg2:T40	
+R51	Agent Arg1:T8 Arg2:T58	
+R52	Output Arg1:T8 Arg2:T41	
+R54	Apply-to Arg1:T42 Arg2:T4	
+R55	Target Arg1:T4 Arg2:T43	
+R56	Condition Arg1:T18 Arg2:T45	
+R57	Target Arg1:T5 Arg2:T46	
+R58	Apply-to Arg1:T65 Arg2:T5	
+R59	to Arg1:T6 Arg2:T47	
+R60	from Arg1:T6 Arg2:T65	
+R61	Condition Arg1:T47 Arg2:T9	
+R62	Is-a Arg1:T9 Arg2:T48	
+R63	Attribute Arg1:T48 Arg2:T49	
+R39	In_Out Arg1:T31 Arg2:T32	
+R41	from Arg1:T30 Arg2:T34	
+R64	Attribute Arg1:T41 Arg2:T15	
+R65	Attribute Arg1:T38 Arg2:T12	
+T75	MODALITY 423 430	whether
+R49	Attribute Arg1:T3 Arg2:T75	
+R46	from Arg1:T2 Arg2:T3	
+T62	PERSON 49 51	We
+T64	PROCESS 52 57	study
+T67	PERSON 187 189	We
+T68	PROCESS 190 193	ask
+T69	PERSON 379 381	We
+T70	PROCESS 382 386	show
+T74	PERSON 630 632	We
+T76	PROCESS 633 638	prove
+R53	Agent Arg1:T64 Arg2:T62	
+R66	In_Out Arg1:T64 Arg2:T24	
+R67	Agent Arg1:T68 Arg2:T67	
+R68	Agent Arg1:T70 Arg2:T69	
+R69	Agent Arg1:T76 Arg2:T74	
+R70	Output Arg1:T68 Arg2:T10	

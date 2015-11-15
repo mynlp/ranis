@@ -1,0 +1,149 @@
+R1	Destination Arg1:T64 Arg2:T1
+R2	Output Arg1:T64 Arg2:T63
+R3	Equivalence Arg1:T3 Arg2:T4
+R5	Attribute Arg1:T4 Arg2:T5
+A1	Judgment T5
+R6	Condition Arg1:T5 Arg2:T65
+R7	Condition Arg1:T5 Arg2:T6
+R10	Attribute Arg1:T8 Arg2:T7
+R11	Apply-to Arg1:T9 Arg2:T8
+R12	Target Arg1:T9 Arg2:T10
+R13	Target Arg1:T9 Arg2:T11
+R14	Output Arg1:T8 Arg2:T66
+R15	Coreference Arg1:T66 Arg2:T4
+R16	Attribute Arg1:T12 Arg2:T13
+R17	Condition Arg1:T13 Arg2:T14
+R18	Coreference Arg1:T12 Arg2:T11
+R19	Condition Arg1:T16 Arg2:T17
+A2	Self T67
+R20	Attribute Arg1:T67 Arg2:T15
+R21	Compare Arg1:T16 Arg2:T15
+A3	Intentional T68
+R22	Condition Arg1:T68 Arg2:T67
+R23	Coreference Arg1:T21 Arg2:T20
+R25	Attribute Arg1:T25 Arg2:T24
+R26	In_Out Arg1:T23 Arg2:T25
+R27	Attribute Arg1:T23 Arg2:T69
+R28	Target Arg1:T26 Arg2:T27
+R29	Input Arg1:T19 Arg2:T20
+R30	Apply-to Arg1:T19 Arg2:T26
+R31	Attribute Arg1:T26 Arg2:T18
+R32	Apply-to Arg1:T23 Arg2:T26
+R8	Apply-to Arg1:T4 Arg2:T65
+R9	Apply-to Arg1:T4 Arg2:T6
+A4	Self T28
+A5	Intentional T29
+R33	Agent Arg1:T29 Arg2:T28
+R34	Attribute Arg1:T31 Arg2:T30
+A6	Self T70
+R35	Condition Arg1:T29 Arg2:T70
+R36	Equivalence Arg1:T34 Arg2:T33
+R37	Is-a Arg1:T32 Arg2:T31
+R38	Is-a Arg1:T33 Arg2:T31
+R39	Attribute Arg1:T36 Arg2:T71
+R40	Attribute Arg1:T36 Arg2:T35
+R41	Apply-to Arg1:T36 Arg2:T37
+A7	Intentional T72
+R42	Output Arg1:T72 Arg2:T36
+R43	from Arg1:T38 Arg2:T39
+R44	to Arg1:T38 Arg2:T72
+A8	Self T40
+R45	Poss Arg1:T40 Arg2:T41
+R46	Compare Arg1:T45 Arg2:T44
+A9	Judgment T44
+R47	Attribute Arg1:T43 Arg2:T44
+R48	from Arg1:T42 Arg2:T41
+R49	to Arg1:T42 Arg2:T44
+R50	Attribute Arg1:T47 Arg2:T46
+A10	Judgment T46
+R51	In_Out Arg1:T51 Arg2:T52
+R52	Attribute Arg1:T53 Arg2:T73
+R53	Output Arg1:T51 Arg2:T53
+R54	Attribute Arg1:T56 Arg2:T55
+R55	Attribute Arg1:T59 Arg2:T60
+R56	from Arg1:T61 Arg2:T62
+R57	to Arg1:T61 Arg2:T60
+R58	from Arg1:T58 Arg2:T57
+R59	to Arg1:T58 Arg2:T60
+R60	Input Arg1:T54 Arg2:T56
+R61	to Arg1:T48 Arg2:T47
+R62	from Arg1:T48 Arg2:T54
+R63	from Arg1:T48 Arg2:T49
+R64	Input Arg1:T49 Arg2:T50
+R65	from Arg1:T48 Arg2:T51
+R66	Coreference Arg1:T57 Arg2:T47
+R67	In_Out Arg1:T68 Arg2:T26
+A11	Intentional T49
+A12	Intentional T54
+A13	Intentional T51
+T1	PLAN 0 38	Unsupervised Language Model Adaptation
+T64	PROCESS 39 52	Incorporating
+T63	DATA-ITEM 53 77	Named Entity Information
+T3	PLAN 97 99	LM
+T4	PLAN 80 94;102 112	Language model adaptation
+T5	QUALITY 116 125	important
+T65	PLAN-OR-PROCESS 135 141	speech
+T6	PLAN-OR-PROCESS 146 165	language processing
+T66	REFERENCE 168 170	It
+T7	QUALITY 174 179	often
+T8	PROCESS 180 188	achieved
+T9	PROCESS 192 201	combining
+T10	PLAN 204 214	generic LM
+T11	PLAN 222 242	topic-specific model
+T12	REFERENCE 243 247	that
+T13	QUALITY 251 264	more relevant
+T14	DATA-ITEM 272 287	target document
+T15	QUALITY 290 296	Unlike
+T16	EXTERNAL-REFERENCE 297 310	previous work
+T17	PLAN 314 340	unsupervised LM adaptation
+T67	REFERENCE 343 353	this paper
+T68	PROCESS 354 366	investigates
+T18	QUALITY 371 382	effectively
+T19	PROCESS 383 388	using
+T20	DATA-ITEM 389 401;409 420	named entity information
+T21	DATA-ITEM 404 406	NE
+T69	MODALITY 423 430	instead
+T23	PROCESS 434 445	considering
+T24	QUANTITY 446 449	all
+T25	DATA-ITEM 454 459	words
+T26	PROCESS 462 467	helps
+T27	PLAN 468 481	LM adaptation
+T28	PERSON 484 486	We
+T29	PROCESS 487 495	evaluate
+T30	QUANTITY 496 499	two
+T31	PLAN 500 532	latent topic analysis approaches
+T70	REFERENCE 536 546	this paper
+T32	PLAN 558 568	clustering
+T33	PLAN 573 600	Latent Dirichlet Allocation
+T34	PLAN 603 606	LDA
+T35	QUALITY 627 630	new
+T71	QUALITY 631 650	dynamically adapted
+T36	PLAN 651 667	weighting scheme
+T37	PLAN 672 692	topic mixture models
+T72	PROCESS 696 704	proposed
+T38	APPLY-TO 705 713	based on
+T39	PLAN 714 732	LDA topic analysis
+T40	PERSON 735 738	Our
+T41	DATA-ITEM 739 759	experimental results
+T42	RESULT 760 764	show
+T43	PLAN 774 807	NE-driven LM adaptation framework
+T44	QUALITY 808 819	outperforms
+T45	PLAN 824 843	baseline generic LM
+T46	QUALITY 850 854	best
+T47	DATA-ITEM 855 861	result
+T48	RESULT 865 873	obtained
+T49	PROCESS 874 879	using
+T50	PLAN 884 902	LDA-based approach
+T51	PROCESS 906 915	expanding
+T52	DATA-ITEM 920 934	named entities
+T73	QUALITY 940 962	syntactically filtered
+T53	DATA-ITEM 963 968	words
+T54	PROCESS 985 990	using
+T55	QUANTITY 993 1005	large number
+T56	DATA-ITEM 1009 1015	topics
+T57	REFERENCE 1018 1023	which
+T58	RESULT 1024 1030	yields
+T59	PLAN-OR-PROCESS 1033 1053	perplexity reduction
+T60	QUANTITY 1057 1064	14.23 %
+T61	COMPARE 1065 1073	compared
+T62	PLAN 1081 1100	baseline generic LM

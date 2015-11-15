@@ -1,0 +1,84 @@
+R1	Apply-to Arg1:T1 Arg2:T2
+R2	Attribute Arg1:T4 Arg2:T3
+R3	Apply-to Arg1:T1 Arg2:T4
+A1	Self T40
+A2	Intentional T41
+R4	Condition Arg1:T41 Arg2:T40
+R5	Attribute Arg1:T6 Arg2:T5
+R6	Output Arg1:T41 Arg2:T6
+R7	Attribute Arg1:T8 Arg2:T7
+R8	Apply-to Arg1:T6 Arg2:T8
+R9	Condition Arg1:T11 Arg2:T10
+R10	Compare Arg1:T11 Arg2:T9
+R11	Coreference Arg1:T12 Arg2:T11
+R12	Attribute Arg1:T14 Arg2:T13
+R13	Attribute Arg1:T12 Arg2:T14
+R14	Equivalence Arg1:T15 Arg2:T14
+R15	Output Arg1:T15 Arg2:T16
+R16	Attribute Arg1:T18 Arg2:T17
+A3	Self T19
+R19	Poss Arg1:T19 Arg2:T22
+R20	Equivalence Arg1:T21 Arg2:T22
+R22	Apply-to Arg1:T22 Arg2:T23
+R23	Target Arg1:T23 Arg2:T24
+R24	Target Arg1:T23 Arg2:T25
+R25	Attribute Arg1:T26 Arg2:T25
+R26	Attribute Arg1:T26 Arg2:T24
+R27	Attribute Arg1:T29 Arg2:T28
+R28	from Arg1:T27 Arg2:T29
+R30	Coreference Arg1:T30 Arg2:T23
+R29	to Arg1:T27 Arg2:T30
+A4	Self T31
+A5	Intentional T32
+R31	Agent Arg1:T32 Arg2:T31
+R32	Output Arg1:T32 Arg2:T33
+R33	Apply-to Arg1:T34 Arg2:T35
+R34	Input Arg1:T33 Arg2:T34
+R35	Output Arg1:T32 Arg2:T34
+R36	Condition Arg1:T35 Arg2:T36
+R37	Condition Arg1:T35 Arg2:T37
+R38	Condition Arg1:T35 Arg2:T38
+R39	Condition Arg1:T35 Arg2:T39
+R17	to Arg1:T42 Arg2:T15
+R21	from Arg1:T42 Arg2:T17
+T1	PLAN 2 11	Procedure
+T2	PLAN-OR-PROCESS 16 42	Multi-Class Discrimination
+T3	QUANTITY 47 51	some
+T4	PLAN 52 75	Linguistic Applications
+T40	REFERENCE 78 87	The paper
+T41	PROCESS 88 97	describes
+T5	QUALITY 100 105	novel
+T6	PLAN 106 124	computational tool
+T7	QUANTITY 129 137	multiple
+T8	PLAN-OR-PROCESS 138 154	concept learning
+T9	QUALITY 157 163	Unlike
+T10	TIME 164 172	previous
+T11	PLAN 173 183	approaches
+T12	REFERENCE 186 191	whose
+T13	QUALITY 192 197	major
+T14	PLAN-OR-PROCESS 198 202	goal
+T15	PLAN-OR-PROCESS 206 216	prediction
+T16	DATA-ITEM 220 236	unseen instances
+T42	COMPARE 237 248	rather than
+T17	QUALITY 253 263	legibility
+T18	DATA-ITEM 271 277	output
+T19	PERSON 280 283	our
+T22	PLAN 284 287;330 337	MPD program
+T21	PLAN 290 327	Maximally Parsimonious Discrimination
+T23	PROCESS 338 348	emphasizes
+T24	DATA-ITEM 353 364	conciseness
+T25	DATA-ITEM 369 384	intelligibility
+T26	DATA-ITEM 392 420	resultant class descriptions
+T27	APPLY-TO 423 428	using
+T28	QUANTITY 429 434	three
+T29	PLAN 435 464	intuitive simplicity criteria
+T30	REFERENCE 468 476	this end
+T31	PERSON 479 481	We
+T32	PROCESS 482 492	illustrate
+T33	PLAN 493 496	MPD
+T34	PLAN 502 514	applications
+T35	PLAN-OR-PROCESS 518 539	componential analysis
+T36	DOMAIN 545 555	lexicology
+T37	DOMAIN 560 569	phonology
+T38	DOMAIN 574 591	language typology
+T39	DOMAIN 598 614	speech pathology

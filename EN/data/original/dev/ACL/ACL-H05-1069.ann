@@ -1,0 +1,147 @@
+R1	from Arg1:T66 Arg2:T1
+R2	to Arg1:T66 Arg2:T62
+R3	Attribute Arg1:T63 Arg2:T64
+R4	Output Arg1:T63 Arg2:T62
+R5	Input Arg1:T63 Arg2:T65
+A1	Self T2
+A2	Intentional T3
+R6	Agent Arg1:T3 Arg2:T2
+R7	Attribute Arg1:T5 Arg2:T4
+R8	Output Arg1:T3 Arg2:T5
+R9	Equivalence Arg1:T8 Arg2:T7
+R10	Is-a Arg1:T7 Arg2:T6
+R11	Apply-to Arg1:T5 Arg2:T6
+A3	Self T9
+A4	Intentional T10
+R12	Agent Arg1:T10 Arg2:T9
+R13	Output Arg1:T10 Arg2:T11
+R14	Attribute Arg1:T10 Arg2:T12
+R15	Attribute Arg1:T16 Arg2:T14
+R16	to Arg1:T13 Arg2:T16
+R17	from Arg1:T13 Arg2:T10
+R18	to Arg1:T13 Arg2:T17
+R19	to Arg1:T13 Arg2:T18
+R20	Target Arg1:T22 Arg2:T23
+R21	Target Arg1:T22 Arg2:T24
+R22	Attribute Arg1:T28 Arg2:T27
+R23	Attribute Arg1:T22 Arg2:T26
+R24	Attribute Arg1:T26 Arg2:T25
+R25	Condition Arg1:T22 Arg2:T28
+R26	In_Out Arg1:T21 Arg2:T26
+R27	from Arg1:T19 Arg2:T21
+R28	to Arg1:T19 Arg2:T10
+A5	Self T29
+A6	Intentional T30
+R29	Agent Arg1:T30 Arg2:T29
+R30	In_Out Arg1:T30 Arg2:T31
+R31	Input Arg1:T30 Arg2:T32
+A7	Intentional T33
+R32	Agent Arg1:T33 Arg2:T29
+R33	Input Arg1:T33 Arg2:T34
+R34	Coreference Arg1:T34 Arg2:T31
+R35	Input Arg1:T33 Arg2:T35
+R36	Coreference Arg1:T39 Arg2:T38
+A8	Judgment T40
+R37	Attribute Arg1:T40 Arg2:T39
+R38	Attribute Arg1:T43 Arg2:T42
+R39	Condition Arg1:T43 Arg2:T41
+R40	Compare Arg1:T43 Arg2:T40
+R41	from Arg1:T37 Arg2:T36
+R42	to Arg1:T37 Arg2:T40
+R43	Attribute Arg1:T36 Arg2:T38
+R44	Attribute Arg1:T44 Arg2:T43
+A9	Self T45
+A10	Intentional T46
+R45	Agent Arg1:T46 Arg2:T45
+R46	Attribute Arg1:T48 Arg2:T47
+R47	Attribute Arg1:T50 Arg2:T49
+R48	Attribute Arg1:T52 Arg2:T51
+R49	In_Out Arg1:T50 Arg2:T51
+R50	Apply-to Arg1:T48 Arg2:T50
+R51	Input Arg1:T53 Arg2:T54
+R52	Result Arg1:T53 Arg2:T50
+R53	Output Arg1:T46 Arg2:T50
+R54	Attribute Arg1:T56 Arg2:T55
+R55	Apply-to Arg1:T56 Arg2:T57
+R56	In_Out Arg1:T58 Arg2:T55
+R57	Attribute Arg1:T60 Arg2:T59
+R58	In_Out Arg1:T61 Arg2:T59
+R59	Result Arg1:T61 Arg2:T58
+R60	Attribute Arg1:T44 Arg2:T71
+A11	Name T67
+A12	Name T69
+A13	Name T68
+A14	Name T20
+A15	Name T70
+A16	Name T15
+T1	PLAN 0 25	Word Sense Disambiguation
+T66	INPUT 26 31	Using
+T62	DATA-ITEM 32 46	Sense Examples
+T64	QUALITY 47 60	Automatically
+T63	PROCESS 61 69	Acquired
+T65	LANGUAGE 77 92	Second Language
+T2	PERSON 95 97	We
+T3	PROCESS 98 105	present
+T4	QUALITY 108 113	novel
+T5	PLAN 114 142	almost-unsupervised approach
+T6	PLAN 150 154	task
+T7	PLAN 158 183	Word Sense Disambiguation
+T8	PLAN 186 189	WSD
+T9	PERSON 194 196	We
+T10	PROCESS 197 202	build
+T11	DATA-ITEM 203 217	sense examples
+T12	QUALITY 218 231	automatically
+T13	INPUT 234 239	using
+T14	QUANTITY 240 256	large quantities
+T16	DATA-ITEM 260 272	Chinese text
+T67	LANGUAGE 260 267	Chinese
+T17	DATA-ITEM 279 294	English-Chinese
+T15	LANGUAGE 279 286	English
+T68	LANGUAGE 287 294	Chinese
+T18	DATA-ITEM 299 337	Chinese-English bilingual dictionaries
+T69	LANGUAGE 299 306	Chinese
+T70	LANGUAGE 307 314	English
+T19	APPLY-TO 340 356	taking advantage
+T21	PLAN 364 375	observation
+T22	PLAN-OR-PROCESS 381 389	mappings
+T23	DATA-ITEM 398 403	words
+T24	DATA-ITEM 408 416	meanings
+T25	QUALITY 421 426	often
+T26	QUALITY 427 436	different
+T27	QUALITY 440 461	typologically distant
+T28	LANGUAGE 462 471	languages
+T29	PERSON 474 476	We
+T30	PROCESS 477 482	train
+T31	PLAN 485 495	classifier
+T32	DATA-ITEM 503 517	sense examples
+T33	PROCESS 522 526	test
+T34	REFERENCE 527 529	it
+T35	DATA-ITEM 535 568	gold standard English WSD dataset
+T20	LANGUAGE 549 556	English
+T36	PLAN 575 585	evaluation
+T37	RESULT 586 591	gives
+T38	DATA-ITEM 592 599	results
+T39	REFERENCE 600 604	that
+T40	QUALITY 605 611	exceed
+T41	TIME 612 620	previous
+T42	QUALITY 621 637	state-of-the-art
+T43	DATA-ITEM 638 645	results
+T71	QUALITY 650 660	comparable
+T44	PLAN 661 668	systems
+T45	PERSON 671 673	We
+T46	PROCESS 679 690	demonstrate
+T47	QUALITY 698 704	little
+T48	PLAN-OR-PROCESS 705 718	manual effort
+T49	MODALITY 719 722	can
+T50	JUDGING-PROCESS 723 730	improve
+T51	QUALITY 735 742	quality
+T52	DATA-ITEM 746 760	sense examples
+T53	PROCESS 766 774	measured
+T54	QUALITY 778 790	WSD accuracy
+T55	DATA-ITEM 797 808	performance
+T56	PLAN 816 826	classifier
+T57	PLAN 830 833	WSD
+T58	JUDGING-PROCESS 839 847	improves
+T59	DATA-ITEM 855 861	number
+T60	DATA-ITEM 865 888	training sense examples
+T61	PROCESS 889 898	increases

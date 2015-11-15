@@ -1,0 +1,8 @@
+Sample Selection for Statistical Parsing
+
+Corpus-based statistical parsing relies on using large quantities of annotated text as training examples.
+Building this kind of resource is expensive and labor-intensive.
+This work proposes to use sample selection to find helpful training examples and reduce human effort spent on annotating less informative ones.
+We consider several criteria for predicting whether unlabeled data might be a helpful training example.
+Experiments are performed across two syntactic learning tasks and within the single task of parsing across two learning models to compare the effect of different predictive criteria.
+We find that sample selection can significantly reduce the size of annotated training corpora and that uncertainty is a robust predictive criterion that can be easily applied to different learning models.

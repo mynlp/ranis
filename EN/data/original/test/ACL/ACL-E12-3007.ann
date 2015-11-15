@@ -1,0 +1,96 @@
+T1	INPUT 26 31	using
+T2	APPLY-TO 247 254	applied
+T3	PROCESS 325 334	extracted
+T4	PLAN-OR-PROCESS 364 368	used
+T5	COMPARE 634 645	contrasting
+T7	TIME 314 324	previously
+T8	QUALITY 541 552	Preliminary
+T9	MODALITY 710 718	possibly
+T10	PLAN-OR-PROCESS 0 25	Discourse Type Clustering
+T11	DATA-ITEM 32 51	POS n-gram Profiles
+T12	DATA-ITEM 56 83	High-Dimensional Embeddings
+T13	DATA-ITEM 96 118	textual sequence types
+T14	DATA-ITEM 120 135	discourse types
+T15	DATA-ITEM 146 158	French texts
+T16	PLAN 160 177	K-means algorithm
+T17	DATA-ITEM 183 210	high-dimensional embeddings
+T18	PLAN 215 241	fuzzy clustering algorithm
+T19	DATA-ITEM 258 265	clauses
+T20	DATA-ITEM 277 291	part-of-speech
+T21	DATA-ITEM 293 308	n-gram profiles
+T22	DATA-ITEM 350 358	trigrams
+T23	DATA-ITEM 377 410	19th century French short stories
+T24	PERSON 414 424	Maupassant
+T25	DATA-ITEM 430 457	high-dimensional embeddings
+T26	PLAN-OR-PROCESS 459 480	power transformations
+T27	DATA-ITEM 488 509	chi-squared distances
+T28	DATA-ITEM 518 525	clauses
+T29	DATA-ITEM 571 598	high-dimensional embeddings
+T30	QUALITY 611 618	quality
+T31	DATA-ITEM 622 632	clustering
+T32	PROCESS 650 653	use
+T33	DATA-ITEM 657 659;668 673	bi grams
+T34	DATA-ITEM 665 673	trigrams
+T35	DATA-ITEM 680 691	performance
+T36	QUALITY 730 752	feature space sparsity
+T37	PROCESS 88 95	cluster
+T38	DATA-ITEM 120 129;136 141	discourse modes
+T39	LANGUAGE 146 152	French
+T40	DATA-ITEM 272 275	POS
+R1	Equivalence Arg1:T20 Arg2:T40	
+R2	Split Arg1:T21 Arg2:T40	
+T41	DATA-ITEM 336 339;353 358	Uni grams
+T42	DATA-ITEM 342 344;353 358	bi grams
+T6	QUANTITY 372 376	four
+R3	Attribute Arg1:T23 Arg2:T6	
+T43	TIME 377 389	19th century
+T44	LANGUAGE 390 396	French
+T46	DATA-ITEM 553 560	results
+R4	Attribute Arg1:T46 Arg2:T8	
+T47	JUDGING-PROCESS 599 606	improve
+T48	QUALITY 695 708	disappointing
+R5	Attribute Arg1:T35 Arg2:T48	
+T50	REFERENCE 266 271	whose
+R6	Attribute Arg1:T3 Arg2:T7	
+R7	to Arg1:T1 Arg2:T11	
+R8	to Arg1:T1 Arg2:T12	
+R9	from Arg1:T1 Arg2:T10	
+R10	Input Arg1:T16 Arg2:T17	
+R11	from Arg1:T2 Arg2:T16	
+R12	from Arg1:T2 Arg2:T18	
+R13	to Arg1:T2 Arg2:T37	
+R14	Coreference Arg1:T50 Arg2:T19	
+R15	Attribute Arg1:T50 Arg2:T21	
+R16	Output Arg1:T3 Arg2:T21	
+R17	Is-a Arg1:T14 Arg2:T13	
+R18	Is-a Arg1:T38 Arg2:T13	
+R19	Input Arg1:T37 Arg2:T19	
+R20	In_Out Arg1:T37 Arg2:T13	
+R21	Condition Arg1:T15 Arg2:T37	
+R22	Input Arg1:T4 Arg2:T22	
+R23	Input Arg1:T4 Arg2:T41	
+R24	Input Arg1:T4 Arg2:T42	
+R25	Condition Arg1:T4 Arg2:T23	
+R26	Attribute Arg1:T23 Arg2:T24	
+R27	Attribute Arg1:T31 Arg2:T30	
+T51	REFERENCE 674 679	whose
+R29	Attribute Arg1:T51 Arg2:T35	
+R31	Coreference Arg1:T51 Arg2:T32	
+T52	RESULT 719 729	because of
+R32	from Arg1:T52 Arg2:T36	
+R28	Attribute Arg1:T52 Arg2:T9	
+R33	to Arg1:T52 Arg2:T48	
+R34	Input Arg1:T26 Arg2:T27	
+R35	Condition Arg1:T28 Arg2:T27	
+T45	PLAN-OR-PROCESS 531 539	explored
+R36	Apply-to Arg1:T26 Arg2:T45	
+R37	Condition Arg1:T45 Arg2:T25	
+R38	Input Arg1:T47 Arg2:T29	
+R39	In_Out Arg1:T47 Arg2:T30	
+R41	to Arg1:T5 Arg2:T47	
+R42	from Arg1:T5 Arg2:T48	
+R43	Input Arg1:T32 Arg2:T33	
+R44	Input Arg1:T32 Arg2:T34	
+T49	RESULT 561 565	show
+R30	from Arg1:T49 Arg2:T46	
+R40	to Arg1:T49 Arg2:T47	

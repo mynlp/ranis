@@ -1,0 +1,8 @@
+REFTEX - A Context-Based Translation Aid .
+The system presented in this paper produces bilingual passages of text from an original ( source ) text and one ( or more ) of its translated versions .
+The source text passage includes words or word compounds which a translator wants to retrieve for the current translating of another text .
+The target text passage is the equivalent version of the source text passage .
+On the basis of a comparison of the contexts of these words in the concorded passage and his own text , the translator has to decide on the utility of the translation proposed in the target text passage .
+The program might become a component of translator 's work bench .
+
+

@@ -1,0 +1,6 @@
+On using Articulatory Features for Discriminative Speaker Adaptation .
+This paper presents a way to perform speaker adaptation for automatic speech recognition using the stream weights in a multi-stream setup , which included acoustic models for `` Articulatory Features '' such as ROUNDED or VOICED .
+We present supervised speaker adaptation experiments on a spontaneous speech task and compare the above stream-based approach to conventional approaches , in which the models , and not stream combination weights , are being adapted .
+In the approach we present , stream weights model the importance of features such as VOICED for word discrimination , which offers a descriptive interpretation of the adaptation parameters .
+
+

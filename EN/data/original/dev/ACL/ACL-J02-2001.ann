@@ -1,0 +1,298 @@
+T1	PROCESS 75 87	representing
+T2	PROCESS 215 221	decide
+T3	PLAN 416 428	representing
+T4	PROCESS 513 521	accounts
+T5	PROCESS 581 588	account
+T6	APPLY-TO 608 615	relying
+T7	PROCESS 868 875	cluster
+T8	PROCESS 942 949	derived
+T9	PROCESS 1047 1055	avoiding
+T10	PROCESS 1133 1144	maintaining
+T11	PROCESS 1268 1274	linked
+T12	PROCESS 1454 1461	account
+T13	PROCESS 1740 1747	express
+T14	PROCESS 1821 1830	establish
+T15	PROCESS 1881 1886	works
+T19	MODALITY 211 214	can
+T20	QUALITY 47 50	new
+T21	QUALITY 256 272	most appropriate
+T22	QUALITY 318 324	direct
+T23	QUALITY 502 512	adequately
+T24	QUALITY 559 570	preliminary
+T25	QUALITY 616 625	crucially
+T26	QUALITY 876 884	together
+T27	QUALITY 1163 1172	efficient
+T28	QUALITY 1536 1545	efficient
+T29	QUALITY 1547 1553	robust
+T30	QUALITY 1559 1567	flexible
+T31	QUALITY 1748 1755	certain
+T32	QUALITY 1770 1777	varying
+T33	QUALITY 1831 1838	certain
+T34	QUANTITY 1890 1893	two
+T35	QUALITY 0 13	Near-Synonymy
+T36	PLAN-OR-PROCESS 18 32	Lexical Choice
+T37	PLAN 51 70	computational model
+T38	DATA-ITEM 105 113	meanings
+T39	DATA-ITEM 117 130	near-synonyms
+T40	QUALITY 139 150	differences
+T41	REFERENCE 159 163	them
+T42	PLAN 183 205	lexical-choice process
+T43	DATA-ITEM 239 252	near-synonyms
+T44	OCCURENT 289 298	situation
+T46	APPLY-TO 325 337	applications
+T47	PLAN-OR-PROCESS 341 360	machine translation
+T48	PLAN-OR-PROCESS 365 380	text generation
+T49	PLAN 404 412	problems
+T50	DATA-ITEM 429 442	near-synonyms
+T51	DATA-ITEM 448 469	computational lexicon
+T52	PLAN 496 501	model
+T53	QUALITY 526 539	near-synonymy
+T54	PLAN 571 577	theory
+T55	QUALITY 593 606	near-synonymy
+T56	QUALITY 633 639	notion
+T57	QUALITY 643 654	granularity
+T58	DATA-ITEM 658 672	representation
+T59	DATA-ITEM 687 694	meaning
+T60	DATA-ITEM 700 704	word
+T61	PLAN-OR-PROCESS 721 750	context-dependent combination
+T62	DATA-ITEM 756 788	context-independent core meaning
+T63	DATA-ITEM 802 822	explicit differences
+T64	DATA-ITEM 830 843	near-synonyms
+T65	PLAN 904 919	clustered model
+T66	DATA-ITEM 923 940	lexical knowledge
+T67	PLAN 972 989	ontological model
+T68	PLAN 995 1000	model
+T69	DATA-ITEM 1014 1022	ontology
+T70	QUALITY 1028 1040	coarse grain
+T71	PROCESS 1067 1080	proliferation
+T72	DATA-ITEM 1084 1111	language-dependent concepts
+T73	DATA-ITEM 1119 1127	ontology
+T74	QUALITY 1149 1159	advantages
+T75	PLAN-OR-PROCESS 1173 1184	computation
+T76	PLAN-OR-PROCESS 1189 1198	reasoning
+T77	PLAN 1204 1209	model
+T78	DATA-ITEM 1217 1230	near-synonyms
+T79	DATA-ITEM 1236 1258	subconceptual clusters
+T80	DATA-ITEM 1282 1290	ontology
+T81	DATA-ITEM 1317 1330	near-synonyms
+T82	CONDITION 1331 1342	in terms of
+T83	QUALITY 1356 1363	aspects
+T84	QUALITY 1367 1377	denotation
+T85	QUALITY 1379 1390	implication
+T86	QUALITY 1392 1410	expressed attitude
+T87	PLAN 1427 1432	model
+T88	QUALITY 1472 1477	types
+T89	QUALITY 1481 1490	variation
+T91	QUALITY 1509 1531	collocational behavior
+T92	PLAN-OR-PROCESS 1581 1603	lexical-choice process
+T93	RESULT 1609 1620	consequence
+T94	PLAN 1626 1641	clustered model
+T95	DATA-ITEM 1645 1662	lexical knowledge
+T96	PLAN 1694 1702	criteria
+T97	PLAN-OR-PROCESS 1707 1721	lexical choice
+T98	QUALITY 1725 1736	preferences
+T99	DATA-ITEM 1756 1764	concepts
+T100	QUALITY 1778 1790	indirectness
+T101	DATA-ITEM 1803 1812	attitudes
+T102	DATA-ITEM 1839 1845	styles
+T103	PLAN-OR-PROCESS 1851 1873	lexical-choice process
+T104	DATA-ITEM 1909 1917	clusters
+T105	DATA-ITEM 1930 1943	near-synonyns
+T106	DATA-ITEM 1947 1955	clusters
+T107	PLAN 1983 1997	implementation
+T108	PLAN 2005 2011	system
+R1	Attribute Arg1:T37 Arg2:T20	
+R2	Coreference Arg1:T41 Arg2:T38	
+T110	QUANTITY 231 238	several
+T111	QUALITY 278 288	particular
+R3	Attribute Arg1:T44 Arg2:T111	
+R4	Attribute Arg1:T46 Arg2:T22	
+R5	Attribute Arg1:T43 Arg2:T110	
+R6	Attribute Arg1:T4 Arg2:T23	
+T112	TIME 487 495	previous
+R7	Attribute Arg1:T52 Arg2:T112	
+T113	MODALITY 484 486	no
+R8	Attribute Arg1:T54 Arg2:T24	
+R9	Attribute Arg1:T6 Arg2:T25	
+T116	REFERENCE 677 682	which
+R10	Coreference Arg1:T116 Arg2:T57	
+T117	CONDITION 705 711	arises
+T118	DATA-ITEM 795 798	set
+T119	DATA-ITEM 854 867	near-synonyms
+T120	QUALITY 959 971	conventional
+R11	Attribute Arg1:T67 Arg2:T120	
+T121	PROCESS 1001 1009	cuts off
+T122	QUALITY 1059 1066	awkward
+R12	Attribute Arg1:T71 Arg2:T122	
+R13	Attribute Arg1:T75 Arg2:T27	
+R14	Attribute Arg1:T76 Arg2:T27	
+T123	PROCESS 1210 1216	groups
+T124	PLAN 1294 1301	cluster
+T125	PROCESS 1302 1316	differentiates
+T126	QUALITY 1343 1355	fine-grained
+R15	Attribute Arg1:T83 Arg2:T126	
+T127	QUALITY 1416 1421	style
+T128	QUALITY 1436 1450	general enough
+R16	Attribute Arg1:T87 Arg2:T128	
+T129	QUALITY 92 104	fine-grained
+R17	Attribute Arg1:T38 Arg2:T129	
+T130	QUALITY 1568 1580	fine-grained
+R18	Attribute Arg1:T92 Arg2:T130	
+R19	Attribute Arg1:T92 Arg2:T28	
+R20	Attribute Arg1:T92 Arg2:T29	
+R21	Attribute Arg1:T92 Arg2:T30	
+R23	Attribute Arg1:T100 Arg2:T32	
+T136	PROCESS 1795 1802	express
+R24	Attribute Arg1:T102 Arg2:T33	
+R25	Attribute Arg1:T99 Arg2:T31	
+T137	DATA-ITEM 1894 1899	tiers
+R26	Attribute Arg1:T137 Arg2:T34	
+T139	PERSON 1969 1972	our
+T140	QUALITY 1973 1982	prototype
+R27	Attribute Arg1:T107 Arg2:T140	
+T141	PLAN 2020 2028	I-Saurus
+T142	REFERENCE 222 227	which
+R29	Attribute Arg1:T2 Arg2:T19	
+R30	Member-collection Arg1:T63 Arg2:T118	
+T109	REFERENCE 826 829	its
+R31	Coreference Arg1:T109 Arg2:T60	
+T143	REFERENCE 1874 1880	itself
+R32	Coreference Arg1:T143 Arg2:T103	
+T144	REFERENCE 206 210	that
+R33	Coreference Arg1:T144 Arg2:T42	
+T147	REFERENCE 1259 1263	that
+R34	Coreference Arg1:T147 Arg2:T79	
+R35	Poss Arg1:T139 Arg2:T107	
+R36	Poss Arg1:T109 Arg2:T64	
+R37	Attribute Arg1:T52 Arg2:T113	
+R28	Apply-to Arg1:T37 Arg2:T1	
+R38	Output Arg1:T1 Arg2:T38	
+R39	Attribute Arg1:T39 Arg2:T38	
+R40	Compare Arg1:T38 Arg2:T40	
+R42	Output Arg1:T1 Arg2:T40	
+R43	Coreference Arg1:T142 Arg2:T43	
+R44	Attribute Arg1:T142 Arg2:T21	
+R45	Output Arg1:T2 Arg2:T142	
+R46	Condition Arg1:T2 Arg2:T44	
+R47	Target Arg1:T4 Arg2:T53	
+T90	IS-A 1492 1504	for instance
+R48	Apply-to Arg1:T42 Arg2:T2	
+T45	PLAN 300 313	This research
+R49	Coreference Arg1:T45 Arg2:T37	
+R50	Coreference Arg1:T45 Arg2:T42	
+R51	from Arg1:T46 Arg2:T45	
+R52	to Arg1:T46 Arg2:T47	
+R53	to Arg1:T46 Arg2:T48	
+R54	Is-a Arg1:T3 Arg2:T49	
+R55	Output Arg1:T3 Arg2:T50	
+R56	Destination Arg1:T3 Arg2:T51	
+R57	Apply-to Arg1:T4 Arg2:T52	
+R58	Apply-to Arg1:T54 Arg2:T5	
+R59	Target Arg1:T5 Arg2:T55	
+R60	Attribute Arg1:T58 Arg2:T57	
+R61	Attribute Arg1:T57 Arg2:T56	
+R62	from Arg1:T6 Arg2:T56	
+R63	Attribute Arg1:T60 Arg2:T59	
+R65	Other-rel Arg1:T64 Arg2:T63	
+R66	Input Arg1:T61 Arg2:T118	
+R67	Other-rel Arg1:T117 Arg2:T59	
+R68	to Arg1:T117 Arg2:T61	
+R69	Input Arg1:T7 Arg2:T119	
+R70	Attribute Arg1:T7 Arg2:T26	
+R71	Input Arg1:T8 Arg2:T67	
+R72	Input Arg1:T8 Arg2:T65	
+R73	Output Arg1:T71 Arg2:T72	
+R74	Component-object Arg1:T72 Arg2:T73	
+R75	Attribute Arg1:T75 Arg2:T74	
+R76	Attribute Arg1:T76 Arg2:T74	
+R77	Target Arg1:T10 Arg2:T74	
+R78	Apply-to Arg1:T68 Arg2:T121	
+R79	Target Arg1:T121 Arg2:T69	
+R80	Attribute Arg1:T121 Arg2:T70	
+R82	Target Arg1:T9 Arg2:T71	
+R84	Input Arg1:T123 Arg2:T78	
+R85	Output Arg1:T123 Arg2:T79	
+R83	Apply-to Arg1:T77 Arg2:T123	
+R86	Origin Arg1:T147 Arg2:T11	
+R87	Destination Arg1:T11 Arg2:T80	
+R88	Attribute Arg1:T89 Arg2:T88	
+R89	Target Arg1:T12 Arg2:T89	
+R90	Apply-to Arg1:T124 Arg2:T125	
+R91	Target Arg1:T125 Arg2:T81	
+R92	from Arg1:T82 Arg2:T125	
+R94	Attribute Arg1:T84 Arg2:T83	
+R95	Attribute Arg1:T85 Arg2:T83	
+R96	Attribute Arg1:T86 Arg2:T83	
+R97	Attribute Arg1:T127 Arg2:T83	
+R98	Apply-to Arg1:T87 Arg2:T12	
+R99	Other-rel Arg1:T89 Arg2:T91	
+R100	Attribute Arg1:T94 Arg2:T95	
+R101	to Arg1:T93 Arg2:T92	
+R102	from Arg1:T93 Arg2:T94	
+R22	Output Arg1:T136 Arg2:T101	
+R103	Output Arg1:T14 Arg2:T102	
+R105	Condition Arg1:T15 Arg2:T137	
+R106	Output Arg1:T108 Arg2:T107	
+R108	Attribute Arg1:T105 Arg2:T106	
+T131	CONDITION 151 158	between
+R41	from Arg1:T131 Arg2:T40	
+R109	to Arg1:T131 Arg2:T41	
+R110	from Arg1:T117 Arg2:T116	
+R64	Input Arg1:T61 Arg2:T62	
+R111	to Arg1:T82 Arg2:T83	
+T132	RESULT 1042 1046	thus
+R93	to Arg1:T132 Arg2:T9	
+R81	from Arg1:T132 Arg2:T121	
+R112	from Arg1:T90 Arg2:T91	
+R113	to Arg1:T90 Arg2:T89	
+R114	Apply-to Arg1:T96 Arg2:T97	
+R115	Output Arg1:T13 Arg2:T99	
+R117	Input Arg1:T13 Arg2:T100	
+T133	PROCESS 1684 1693	formalize
+R118	Input Arg1:T133 Arg2:T96	
+R116	Attribute Arg1:T13 Arg2:T98	
+R119	Attribute Arg1:T136 Arg2:T98	
+R120	Attribute Arg1:T14 Arg2:T98	
+R121	Output Arg1:T133 Arg2:T98	
+R104	Apply-to Arg1:T143 Arg2:T15	
+R122	Other-rel Arg1:T137 Arg2:T104	
+R123	Other-rel Arg1:T137 Arg2:T105	
+T134	EQUIVALENCE 2013 2019	called
+R107	from Arg1:T134 Arg2:T141	
+R124	to Arg1:T134 Arg2:T107	
+T16	PERSON 34 36	We
+T17	PROCESS 37 44	develop
+T18	PERSON 165 167	We
+T114	PROCESS 173 180	develop
+T115	PERSON 382 384	We
+T135	PROCESS 391 399	identify
+T138	PERSON 541 543	We
+T145	PROCESS 549 556	propose
+T146	PERSON 886 888	We
+T148	PROCESS 894 901	develop
+T149	PERSON 1681 1683	we
+T150	PERSON 1957 1959	We
+T151	PROCESS 1960 1968	describe
+T152	REFERENCE 1672 1674	it
+R125	Coreference Arg1:T152 Arg2:T87	
+T153	PROCESS 1675 1679	work
+R126	Agent Arg1:T17 Arg2:T16	
+R127	Output Arg1:T17 Arg2:T37	
+R128	Agent Arg1:T114 Arg2:T18	
+R129	Output Arg1:T114 Arg2:T42	
+R130	Agent Arg1:T135 Arg2:T115	
+R131	Output Arg1:T135 Arg2:T49	
+T154	PROCESS 474 478	show
+R132	Agent Arg1:T154 Arg2:T115	
+R133	Output Arg1:T154 Arg2:T4	
+R134	Agent Arg1:T145 Arg2:T138	
+R135	Output Arg1:T145 Arg2:T54	
+R136	Agent Arg1:T148 Arg2:T146	
+R137	Output Arg1:T148 Arg2:T65	
+R138	Agent Arg1:T133 Arg2:T149	
+R139	In_Out Arg1:T153 Arg2:T152	
+T155	APPLY-TO 1667 1671	make
+R140	from Arg1:T155 Arg2:T133	
+R141	to Arg1:T155 Arg2:T153	
+R142	Agent Arg1:T151 Arg2:T150	
+R143	Output Arg1:T151 Arg2:T107	

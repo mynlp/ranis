@@ -1,0 +1,6 @@
+Automatic Recognition of Logical Relations for English, Chinese and Japanese in the GLARF Framework
+
+We present GLARF, a framework for representing three linguistic levels and systems for generating this representation.
+We focus on a logical level, like LFG's F-structure, but compatible with Penn Treebanks.
+While less fine-grained than typical semantic role labeling approaches, our logical structure has several advantages: (1) it includes all words in all sentences, regardless of part of speech or semantic domain; and (2) it is easier to produce accurately.
+Our systems achieve 90% for English/Japanese News and 74.5% for Chinese News -- these F-scores are nearly the same as those achieved for treebank-based parsing.

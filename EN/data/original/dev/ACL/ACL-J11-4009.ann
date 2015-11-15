@@ -1,0 +1,92 @@
+T1	DATA-ITEM 0 13	Splittability
+T2	PLAN 17 48	Bilexical Context-Free Grammars
+T3	QUALITY 52 63	Undecidable
+T4	PLAN 65 96	Bilexical context-free grammars
+T5	PLAN 98 105	2-LCFGs
+T6	MODALITY 112 118	proved
+T7	QUALITY 125 133	accurate
+T8	PLAN 134 140	models
+T9	PLAN-OR-PROCESS 145 181	statistical natural language parsing
+T10	QUALITY 183 191	Existing
+T11	PLAN 192 222	dynamic programming algorithms
+T12	APPLY-TO 223 227	used
+T13	PROCESS 231 236	parse
+T14	DATA-ITEM 237 246	sentences
+T15	PLAN 253 265	these models
+T16	DATA-ITEM 271 283	running time
+T17	DATA-ITEM 311 323	input string
+T18	PLAN 327 333	2-LCFG
+T19	QUALITY 337 347	splittable
+T20	DATA-ITEM 355 369	left arguments
+T21	DATA-ITEM 375 387	lexical head
+T22	TIME 392 398	always
+T23	QUALITY 399 410	independent
+T25	DATA-ITEM 418 433	right arguments
+T26	QUALITY 439 449	vice versa
+T27	PLAN 458 465	2-LCFGs
+T28	QUALITY 469 479	splittable
+T29	DATA-ITEM 481 493	parsing time
+T30	MODALITY 494 497	can
+T31	QUALITY 501 515	asymptotically
+T32	JUDGING-PROCESS 516 524	improved
+T33	FORMULA 528 535	O(|w|3)
+T34	PROCESS 537 544	Testing
+T35	PLAN 545 558	this property
+T36	QUALITY 575 582	central
+T37	QUALITY 583 591	interest
+T39	DATA-ITEM 595 613	parsing efficiency
+T40	REFERENCE 618 630	this article
+T41	PERSON 641 643	we
+T42	PROCESS 644 648	show
+T43	QUALITY 653 661	negative
+T44	DATA-ITEM 662 668	result
+T45	DATA-ITEM 674 687	splittability
+T46	PLAN 691 698	2-LCFGs
+T47	QUALITY 702 713	undecidable
+R1	Attribute Arg1:T2 Arg2:T1	
+R2	Attribute Arg1:T1 Arg2:T3	
+R3	Equivalence Arg1:T5 Arg2:T4	
+R4	Attribute Arg1:T8 Arg2:T7	
+R5	Apply-to Arg1:T8 Arg2:T9	
+R6	Attribute Arg1:T8 Arg2:T6	
+R7	Is-a Arg1:T5 Arg2:T8	
+R8	Attribute Arg1:T11 Arg2:T10	
+R9	In_Out Arg1:T13 Arg2:T14	
+R10	from Arg1:T12 Arg2:T11	
+R11	to Arg1:T12 Arg2:T13	
+T48	FORMULA 287 294	O(|w|4)
+T49	DATA-ITEM 302 303	w
+R12	Equivalence Arg1:T17 Arg2:T49	
+R13	Other-rel Arg1:T48 Arg2:T16	
+R14	Attribute Arg1:T11 Arg2:T16	
+R15	Apply-to Arg1:T15 Arg2:T13	
+R16	Attribute Arg1:T18 Arg2:T19	
+R17	Attribute Arg1:T21 Arg2:T20	
+R18	Condition Arg1:T23 Arg2:T25	
+R19	Attribute Arg1:T20 Arg2:T23	
+R20	Attribute Arg1:T23 Arg2:T22	
+R23	Attribute Arg1:T27 Arg2:T28	
+R24	Attribute Arg1:T32 Arg2:T31	
+R25	Attribute Arg1:T32 Arg2:T30	
+R26	In_Out Arg1:T32 Arg2:T29	
+R27	Other-rel Arg1:T32 Arg2:T33	
+R28	Other-rel Arg1:T28 Arg2:T32	
+R29	In_Out Arg1:T34 Arg2:T35	
+R30	Attribute Arg1:T37 Arg2:T36	
+R31	Condition Arg1:T37 Arg2:T39	
+R32	Attribute Arg1:T34 Arg2:T37	
+A1	Self T40
+A2	Self T41
+A3	Intentional T42
+R33	Agent Arg1:T42 Arg2:T41	
+R34	Condition Arg1:T42 Arg2:T40	
+R35	Attribute Arg1:T44 Arg2:T43	
+R36	Output Arg1:T42 Arg2:T44	
+R37	Attribute Arg1:T46 Arg2:T45	
+R38	Attribute Arg1:T45 Arg2:T47	
+A4	Judgment T47
+A5	Judgment T43
+R39	Equivalence Arg1:T47 Arg2:T43	
+T24	REFERENCE 296 301	where
+R21	Coreference Arg1:T24 Arg2:T48	
+R22	Condition Arg1:T24 Arg2:T49	

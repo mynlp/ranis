@@ -1,0 +1,11 @@
+Discriminative Word Alignment via Alignment Matrix Modeling .
+In this paper a new discriminative word alignment method is presented .
+This approach models directly the alignment matrix by a conditional random field ( CRF ) and so no restrictions to the alignments have to be made .
+Furthermore , it is easy to add features and so all available information can be used .
+Since the structure of the CRFs can get complex , the inference can only be done approximately and the standard algorithms had to be adapted .
+In addition , different methods to train the model have been developed .
+Using this approach the alignment quality could be improved by up to 23 percent for 3 different language pairs compared to a combination of both IBM4-alignments .
+Furthermore the word alignment was used to generate new phrase tables .
+These could improve the translation quality significantly .
+
+

@@ -1,0 +1,271 @@
+T1	DATA-ITEM 0 10	Complexity
+T2	PLAN-OR-PROCESS 12 19	Parsing
+T3	PLAN-OR-PROCESS 25 38	Factorization
+T4	PLAN 42 91	Tree-Local Multi-Component Tree-Adjoining Grammar
+T5	PLAN 93 142	Tree-Local Multi-Component Tree-Adjoining Grammar
+T6	PLAN 144 152	TL-MCTAG
+T7	PLAN 160 179	appealing formalism
+T8	PLAN-OR-PROCESS 184 215	natural language representation
+T9	REFERENCE 224 226	it
+T10	QUALITY 227 235	arguably
+T11	MODALITY 236 242	allows
+T12	PLAN-OR-PROCESS 247 260	encapsulation
+T13	QUALITY 268 279	appropriate
+T14	DATA-ITEM 280 286	domain
+T15	DATA-ITEM 290 298	locality
+T16	REFERENCE 306 309	its
+T17	DATA-ITEM 310 331	elementary structures
+T18	REFERENCE 333 336	Its
+T19	DATA-ITEM 337 361	multicomponent structure
+T20	MODALITY 362 368	allows
+T21	PROCESS 369 377	modeling
+T22	DATA-ITEM 381 394	lexical items
+T23	REFERENCE 395 399	that
+T24	MODALITY 400 403	may
+T25	QUALITY 404 414	ultimately
+T26	COMPONENT-OBJECT 415 419	have
+T27	DATA-ITEM 420 428	elements
+T28	QUALITY 429 438	far apart
+T29	DATA-ITEM 444 452	sentence
+T30	DATA-ITEM 462 473	quantifiers
+T31	DATA-ITEM 478 486	wh-words
+T32	APPLY-TO 493 497	used
+T33	PLAN 505 519	base formalism
+T34	PLAN 526 545	synchronous grammar
+T35	REFERENCE 547 550	its
+T36	DATA-ITEM 551 562	flexibility
+T37	RESULT 563 569	allows
+T38	REFERENCE 570 572	it
+T39	PROCESS 576 583	express
+T40	DATA-ITEM 593 612	close relationships
+T41	DATA-ITEM 621 640	divergent structure
+T42	QUALITY 641 650	necessary
+T43	PROCESS 654 661	capture
+T44	DATA-ITEM 666 671	links
+T45	PLAN 684 690	syntax
+T46	PLAN 695 704	semantics
+T47	QUANTITY 710 716	single
+T48	LANGUAGE 717 725	language
+T49	PLAN 733 739	syntax
+T50	QUANTITY 743 746	two
+T51	QUALITY 747 756	different
+T52	LANGUAGE 757 766	languages
+T53	REFERENCE 768 771	Its
+T54	QUALITY 772 779	limited
+T55	DATA-ITEM 780 792	expressivity
+T56	PROCESS 793 801	provides
+T57	PLAN 802 813	constraints
+T58	PLAN-OR-PROCESS 817 825	movement
+T59	PERSON 831 833	we
+T60	PROCESS 834 839	posit
+T61	MODALITY 841 844	may
+T62	PROCESS 850 859	generated
+T63	DATA-ITEM 860 881	additional popularity
+T64	RESULT 882 890	based on
+T65	OCCURENT 893 906	misconception
+T66	REFERENCE 913 916	its
+T67	DATA-ITEM 917 935	parsing complexity
+T68	PLAN 946 954	TL-MCTAG
+T69	QUALITY 971 981	equivalent
+T70	DATA-ITEM 985 997	expressivity
+T71	PLAN 1001 1004	TAG
+T72	REFERENCE 1010 1012	it
+T73	TIME 1017 1022	first
+T74	PROCESS 1023 1033	introduced
+T75	DATA-ITEM 1039 1049	complexity
+T76	PLAN 1053 1061	TL-MCTAG
+T77	MODALITY 1071 1074	not
+T78	QUALITY 1075 1090	well understood
+T79	REFERENCE 1092 1104	This article
+T80	PROCESS 1105 1111	offers
+T81	QUALITY 1114 1122	thorough
+T82	PLAN-OR-PROCESS 1123 1134	examination
+T83	PLAN 1142 1149	problem
+T84	PLAN 1153 1173	TL-MCTAG recognition
+T85	QUALITY 1193 1210	highly restricted
+T86	PLAN 1211 1216	forms
+T87	PLAN 1220 1228	TL-MCTAG
+T88	QUALITY 1233 1244	NP-complete
+T89	PROCESS 1248 1257	recognize
+T90	MODALITY 1268 1279	in spite of
+T91	QUALITY 1284 1292	provable
+T92	DATA-ITEM 1293 1303	difficulty
+T93	PLAN 1311 1330	recognition problem
+T94	PERSON 1332 1334	we
+T95	PROCESS 1335 1340	offer
+T96	QUANTITY 1341 1348	several
+T97	PLAN 1349 1359	algorithms
+T98	REFERENCE 1360 1364	that
+T99	MODALITY 1365 1368	can
+T100	QUALITY 1369 1382	substantially
+T101	JUDGING-PROCESS 1383 1390	improve
+T102	DATA-ITEM 1391 1412	processing efficiency
+T103	PERSON 1421 1423	we
+T104	PROCESS 1424 1431	present
+T105	PLAN 1434 1451	parsing algorithm
+T106	REFERENCE 1452 1456	that
+T107	JUDGING-PROCESS 1457 1465	improves
+T108	PLAN 1473 1496	baseline parsing method
+T109	PROCESS 1501 1505	runs
+T110	QUALITY 1509 1524	polynomial time
+T111	DATA-ITEM 1551 1555	rank
+T112	PLAN 1563 1576	input grammar
+T113	PROCESS 1581 1588	bounded
+T114	PERSON 1598 1600	we
+T115	PROCESS 1601 1606	offer
+T116	QUALITY 1610 1617	optimal
+T117	QUALITY 1619 1628	efficient
+T118	PLAN 1629 1638	algorithm
+T119	PROCESS 1643 1654	factorizing
+T120	PLAN 1657 1664	grammar
+T121	PROCESS 1668 1675	produce
+T122	QUALITY 1678 1697	strongly equivalent
+T123	PLAN 1698 1714	TL-MCTAG grammar
+T124	DATA-ITEM 1724 1728	rank
+T125	PLAN 1732 1743	the grammar
+T126	PROCESS 1744 1753	minimized
+R1	Attribute Arg1:T4 Arg2:T1	
+R2	Equivalence Arg1:T6 Arg2:T5	
+R3	Is-a Arg1:T6 Arg2:T7	
+R4	Apply-to Arg1:T7 Arg2:T8	
+R5	Coreference Arg1:T9 Arg2:T6	
+R6	Attribute Arg1:T11 Arg2:T10	
+R7	Attribute Arg1:T14 Arg2:T13	
+R8	Attribute Arg1:T12 Arg2:T11	
+R9	Apply-to Arg1:T9 Arg2:T12	
+R10	Output Arg1:T12 Arg2:T14	
+R12	Attribute Arg1:T16 Arg2:T17	
+R13	Destination Arg1:T12 Arg2:T17	
+R14	Is-a Arg1:T14 Arg2:T15	
+R11	Coreference Arg1:T16 Arg2:T9	
+R15	Coreference Arg1:T18 Arg2:T16	
+R16	Attribute Arg1:T18 Arg2:T19	
+R17	In_Out Arg1:T21 Arg2:T22	
+R19	Attribute Arg1:T21 Arg2:T20	
+R20	from Arg1:T26 Arg2:T27	
+R21	to Arg1:T26 Arg2:T23	
+R22	Coreference Arg1:T23 Arg2:T22	
+R23	Attribute Arg1:T26 Arg2:T24	
+R24	Attribute Arg1:T26 Arg2:T25	
+R26	Condition Arg1:T28 Arg2:T29	
+R27	Is-a Arg1:T30 Arg2:T27	
+R28	Is-a Arg1:T31 Arg2:T27	
+R29	from Arg1:T32 Arg2:T18	
+R30	to Arg1:T32 Arg2:T34	
+R32	Coreference Arg1:T35 Arg2:T18	
+R33	Attribute Arg1:T35 Arg2:T36	
+R34	Coreference Arg1:T38 Arg2:T35	
+R35	Apply-to Arg1:T38 Arg2:T39	
+R36	Output Arg1:T39 Arg2:T40	
+R37	Attribute Arg1:T41 Arg2:T42	
+R38	Attribute Arg1:T40 Arg2:T42	
+R39	Output Arg1:T39 Arg2:T41	
+R40	to Arg1:T37 Arg2:T39	
+R41	from Arg1:T37 Arg2:T36	
+R42	Condition Arg1:T42 Arg2:T43	
+R43	In_Out Arg1:T43 Arg2:T44	
+R44	Attribute Arg1:T44 Arg2:T45	
+R45	Attribute Arg1:T44 Arg2:T46	
+R46	Attribute Arg1:T48 Arg2:T47	
+R47	Attribute Arg1:T52 Arg2:T51	
+R48	Attribute Arg1:T52 Arg2:T50	
+R49	Condition Arg1:T45 Arg2:T48	
+R50	Condition Arg1:T46 Arg2:T48	
+R51	Condition Arg1:T49 Arg2:T52	
+R52	Attribute Arg1:T49 Arg2:T44	
+R53	Attribute Arg1:T55 Arg2:T54	
+R54	Attribute Arg1:T53 Arg2:T55	
+R55	Coreference Arg1:T53 Arg2:T38	
+R56	Output Arg1:T56 Arg2:T57	
+R57	Target Arg1:T56 Arg2:T58	
+R58	Other-rel Arg1:T55 Arg2:T56	
+A1	Self T59
+A2	Intentional T60
+R59	Agent Arg1:T60 Arg2:T59	
+R60	Attribute Arg1:T62 Arg2:T61	
+R61	Other-rel Arg1:T55 Arg2:T62	
+R62	Output Arg1:T62 Arg2:T63	
+R63	to Arg1:T64 Arg2:T62	
+R64	from Arg1:T64 Arg2:T65	
+R65	Coreference Arg1:T66 Arg2:T53	
+R66	Attribute Arg1:T66 Arg2:T67	
+R67	Attribute Arg1:T68 Arg2:T70	
+R68	Attribute Arg1:T70 Arg2:T69	
+T127	PROCESS 959 964	shown
+A3	Intentional T127
+R70	Output Arg1:T127 Arg2:T69	
+R71	Coreference Arg1:T72 Arg2:T68	
+R72	Attribute Arg1:T74 Arg2:T73	
+R73	Output Arg1:T74 Arg2:T72	
+R74	Attribute Arg1:T76 Arg2:T75	
+R75	Attribute Arg1:T78 Arg2:T77	
+R76	Attribute Arg1:T75 Arg2:T78	
+T128	TIME 1065 1070	still
+A4	Self T79
+A5	Intentional T80
+R78	Condition Arg1:T80 Arg2:T79	
+R79	Attribute Arg1:T82 Arg2:T81	
+R80	Input Arg1:T82 Arg2:T83	
+R81	Attribute Arg1:T84 Arg2:T83	
+R82	Output Arg1:T80 Arg2:T82	
+R83	Attribute Arg1:T86 Arg2:T85	
+R84	Member-collection Arg1:T86 Arg2:T87	
+R85	In_Out Arg1:T89 Arg2:T86	
+R86	Attribute Arg1:T86 Arg2:T88	
+R87	Condition Arg1:T88 Arg2:T89	
+T129	PROCESS 1175 1182	showing
+R88	Apply-to Arg1:T82 Arg2:T129	
+R89	Output Arg1:T129 Arg2:T88	
+R90	Attribute Arg1:T92 Arg2:T91	
+R91	Attribute Arg1:T92 Arg2:T90	
+R92	Attribute Arg1:T93 Arg2:T92	
+A6	Self T94
+A7	Intentional T95
+R93	Agent Arg1:T95 Arg2:T94	
+R94	Attribute Arg1:T97 Arg2:T96	
+R95	Output Arg1:T95 Arg2:T97	
+R96	Coreference Arg1:T98 Arg2:T97	
+R97	Attribute Arg1:T101 Arg2:T100	
+R98	Attribute Arg1:T101 Arg2:T99	
+R99	Apply-to Arg1:T98 Arg2:T101	
+R100	In_Out Arg1:T101 Arg2:T102	
+A8	Self T103
+A9	Intentional T104
+R101	Agent Arg1:T104 Arg2:T103	
+R102	Output Arg1:T104 Arg2:T105	
+R103	Coreference Arg1:T106 Arg2:T105	
+R104	Apply-to Arg1:T106 Arg2:T107	
+R105	In_Out Arg1:T107 Arg2:T108	
+R107	Apply-to Arg1:T106 Arg2:T109	
+R108	Attribute Arg1:T109 Arg2:T110	
+T131	DATA-ITEM 1539 1546	fan-out
+R109	Attribute Arg1:T112 Arg2:T111	
+R110	Attribute Arg1:T112 Arg2:T131	
+R111	Target Arg1:T113 Arg2:T131	
+R112	Target Arg1:T113 Arg2:T131	
+A10	Self T114
+A11	Intentional T115
+R113	Attribute Arg1:T118 Arg2:T117	
+R114	Attribute Arg1:T118 Arg2:T116	
+A12	Judgment T116
+A13	Judgment T117
+R115	Apply-to Arg1:T118 Arg2:T119	
+R116	Input Arg1:T119 Arg2:T120	
+R117	Apply-to Arg1:T119 Arg2:T121	
+R118	Attribute Arg1:T123 Arg2:T122	
+R119	Output Arg1:T121 Arg2:T123	
+R120	Attribute Arg1:T125 Arg2:T124	
+R121	Output Arg1:T126 Arg2:T124	
+R122	Output Arg1:T115 Arg2:T118	
+R123	Agent Arg1:T115 Arg2:T114	
+T132	COMPARE 998 1000	to
+R124	from Arg1:T132 Arg2:T71	
+R125	to Arg1:T132 Arg2:T69	
+R69	Component-object Arg1:T4 Arg2:T3	
+R126	Component-object Arg1:T4 Arg2:T2	
+R25	Attribute Arg1:T27 Arg2:T28	
+R18	Input Arg1:T21 Arg2:T19	
+R31	Is-a Arg1:T18 Arg2:T33	
+R127	Condition Arg1:T65 Arg2:T67	
+R77	Attribute Arg1:T77 Arg2:T128	
+R106	Coreference Arg1:T125 Arg2:T123	

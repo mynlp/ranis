@@ -1,0 +1,10 @@
+High Precision Analysis of NPs with a Deep Processing Grammar
+
+In this paper we present LXGram, a general purpose grammar for the deep linguistic processing of Portuguese that aims at delivering detailed and high precision meaning representations.
+LXGram is grounded on the linguistic framework of Head-Driven Phrase Structure Grammar (HPSG).
+HPSG is a declarative formalism resorting to unification and a type system with multiple inheritance.
+The semantic representations that LXGram associates with linguistic expressions use the Minimal Recursion Semantics (MRS) format, which allows for the underspecification of scope effects.
+LXGram is developed in the Linguistic KnowledgeBuilder (LKB) system, a grammar development environment that provides debugging tools and efficient algorithms for parsing and generation.
+The implementation of LXGram has focused on the structure of Noun Phrases, and LXGram accounts for many NP related phenomena.
+Its coverage continues to be increased with new phenomena, and there is active work on extending the grammar's lexicon.
+We have already integrated, or plan to integrate, LXGram in a few applications, namely paraphrasing, treebanking and language variant detection. Grammar coverage has been tested on newspaper text.

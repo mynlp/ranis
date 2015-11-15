@@ -1,0 +1,185 @@
+T1	PLAN-OR-PROCESS 15 23	Analysis
+T2	DATA-ITEM 27 30	NPs
+T3	PLAN 38 61	Deep Processing Grammar
+T4	REFERENCE 66 76	this paper
+T5	PERSON 77 79	we
+T6	PROCESS 80 87	present
+T7	PLAN 88 94	LXGram
+T9	PLAN 98 121	general purpose grammar
+T10	QUALITY 130 134	deep
+T11	PLAN-OR-PROCESS 135 156	linguistic processing
+T12	LANGUAGE 160 170	Portuguese
+T13	REFERENCE 171 175	that
+T14	PROCESS 176 180	aims
+T15	PROCESS 184 194	delivering
+T16	QUALITY 208 222	high precision
+T17	PLAN-OR-PROCESS 223 246	meaning representations
+T18	PLAN 248 254	LXGram
+T19	APPLY-TO 258 266	grounded
+T20	PLAN 274 294	linguistic framework
+T21	PLAN 298 334	Head-Driven Phrase Structure Grammar
+T22	PLAN 336 340	HPSG
+T23	PLAN 343 347	HPSG
+T24	PLAN 353 374	declarative formalism
+T25	APPLY-TO 375 384	resorting
+T26	PROCESS 388 399	unification
+T27	PLAN 406 417	type system
+T28	QUANTITY 423 431	multiple
+T29	DATA-ITEM 432 443	inheritance
+T30	PLAN-OR-PROCESS 449 473	semantic representations
+T31	REFERENCE 474 478	that
+T32	PLAN 479 485	LXGram
+T33	PROCESS 486 496	associates
+T34	PLAN-OR-PROCESS 502 524	linguistic expressions
+T35	APPLY-TO 525 528	use
+T36	PLAN 533 560	Minimal Recursion Semantics
+T37	PLAN 562 565	MRS
+T38	PLAN 567 573	format
+T39	REFERENCE 575 580	which
+T40	PROCESS 581 587	allows
+T41	PLAN 596 614	underspecification
+T42	PROCESS 618 631	scope effects
+T43	PLAN 633 639	LXGram
+T44	PROCESS 643 652	developed
+T45	PLAN 660 687	Linguistic KnowledgeBuilder
+T46	PLAN 689 692	LKB
+T47	PLAN 694 700	system
+T48	PLAN 704 735	grammar development environment
+T49	REFERENCE 736 740	that
+T50	PROCESS 741 749	provides
+T51	PLAN 750 765	debugging tools
+T52	QUALITY 770 779	efficient
+T53	PLAN 780 790	algorithms
+T54	PLAN-OR-PROCESS 795 802	parsing
+T55	PLAN-OR-PROCESS 807 817	generation
+T56	PROCESS 823 837	implementation
+T57	PLAN 841 847	LXGram
+T58	PROCESS 852 859	focused
+T59	DATA-ITEM 867 876	structure
+T60	DATA-ITEM 880 892	Noun Phrases
+T61	PLAN 898 904	LXGram
+T62	QUANTITY 918 922	many
+T63	OCCURENT 934 943	phenomena
+T64	REFERENCE 945 948	Its
+T65	DATA-ITEM 949 957	coverage
+T66	PROCESS 974 983	increased
+T67	QUALITY 989 992	new
+T68	OCCURENT 993 1002	phenomena
+T69	QUALITY 1017 1023	active
+T70	PLAN-OR-PROCESS 1024 1028	work
+T71	PROCESS 1032 1041	extending
+T72	PLAN 1046 1053	grammar
+T73	DATA-ITEM 1056 1063	lexicon
+T74	PERSON 1065 1067	We
+T75	QUALITY 1073 1080	already
+T76	PROCESS 1081 1091	integrated
+T77	PROCESS 1096 1100	plan
+T78	PROCESS 1104 1113	integrate
+T79	PLAN 1115 1121	LXGram
+T80	QUANTITY 1127 1130	few
+T81	PLAN-OR-PROCESS 1131 1143	applications
+T82	MEMBER-COLLECTION 1145 1151	namely
+T83	PLAN-OR-PROCESS 1166 1177	treebanking
+T84	PLAN-OR-PROCESS 1182 1208	language variant detection
+T85	DATA-ITEM 1210 1226	Grammar coverage
+T86	PROCESS 1236 1242	tested
+T87	DATA-ITEM 1246 1260	newspaper text
+T88	QUALITY 0 14	High Precision
+R1	Attribute Arg1:T1 Arg2:T88	
+R2	Input Arg1:T1 Arg2:T2	
+R3	Apply-to Arg1:T3 Arg2:T1	
+A1	Self T4
+A2	Self T5
+R4	Agent Arg1:T6 Arg2:T5	
+R5	Condition Arg1:T6 Arg2:T4	
+A3	Intentional T6
+R6	Output Arg1:T6 Arg2:T7	
+R7	Is-a Arg1:T7 Arg2:T9	
+R8	Attribute Arg1:T11 Arg2:T10	
+R9	Input Arg1:T11 Arg2:T12	
+R10	Apply-to Arg1:T9 Arg2:T11	
+R11	Target Arg1:T14 Arg2:T15	
+R12	Apply-to Arg1:T13 Arg2:T14	
+R13	Coreference Arg1:T13 Arg2:T7	
+T8	QUALITY 195 203	detailed
+R14	Output Arg1:T15 Arg2:T17	
+R15	Attribute Arg1:T17 Arg2:T16	
+R16	Attribute Arg1:T17 Arg2:T8	
+A4	Judgment T16
+R17	from Arg1:T19 Arg2:T20	
+R18	to Arg1:T19 Arg2:T18	
+R19	Is-a Arg1:T23 Arg2:T24	
+R20	Equivalence Arg1:T22 Arg2:T21	
+R21	Component-object Arg1:T21 Arg2:T20	
+R22	Attribute Arg1:T27 Arg2:T29	
+R23	Attribute Arg1:T29 Arg2:T28	
+R24	from Arg1:T25 Arg2:T26	
+R25	from Arg1:T25 Arg2:T27	
+R26	to Arg1:T25 Arg2:T24	
+R27	Apply-to Arg1:T32 Arg2:T33	
+R28	Target Arg1:T33 Arg2:T34	
+R29	Equivalence Arg1:T37 Arg2:T36	
+R30	Split Arg1:T38 Arg2:T36	
+R31	from Arg1:T35 Arg2:T36	
+R32	to Arg1:T35 Arg2:T30	
+R33	Coreference Arg1:T31 Arg2:T30	
+R34	Apply-to Arg1:T39 Arg2:T40	
+R35	Target Arg1:T40 Arg2:T41	
+R36	In_Out Arg1:T41 Arg2:T42	
+R37	Coreference Arg1:T39 Arg2:T38	
+R38	Output Arg1:T44 Arg2:T43	
+A5	Intentional T44
+R39	Equivalence Arg1:T46 Arg2:T45	
+R40	Split Arg1:T47 Arg2:T45	
+R41	Is-a Arg1:T47 Arg2:T48	
+R42	Apply-to Arg1:T45 Arg2:T44	
+R43	Coreference Arg1:T49 Arg2:T47	
+R44	Apply-to Arg1:T49 Arg2:T50	
+R45	Output Arg1:T50 Arg2:T51	
+R46	Attribute Arg1:T53 Arg2:T52	
+A6	Judgment T52
+R47	Output Arg1:T50 Arg2:T53	
+R48	Apply-to Arg1:T53 Arg2:T54	
+R49	Apply-to Arg1:T53 Arg2:T55	
+R50	Apply-to Arg1:T51 Arg2:T54	
+R51	Apply-to Arg1:T51 Arg2:T55	
+R52	Output Arg1:T56 Arg2:T57	
+R53	Attribute Arg1:T60 Arg2:T59	
+R54	Target Arg1:T58 Arg2:T59	
+R55	Apply-to Arg1:T56 Arg2:T58	
+T89	PROCESS 905 913	accounts
+R56	Attribute Arg1:T63 Arg2:T62	
+R57	In_Out Arg1:T89 Arg2:T63	
+R58	Apply-to Arg1:T61 Arg2:T89	
+R59	Attribute Arg1:T68 Arg2:T67	
+R60	Result Arg1:T68 Arg2:T66	
+R61	In_Out Arg1:T66 Arg2:T65	
+R62	Attribute Arg1:T64 Arg2:T65	
+R63	Coreference Arg1:T64 Arg2:T61	
+R64	Attribute Arg1:T70 Arg2:T69	
+R65	In_Out Arg1:T71 Arg2:T73	
+R66	Apply-to Arg1:T70 Arg2:T71	
+R67	Other-rel Arg1:T72 Arg2:T73	
+A7	Self T74
+A8	Intentional T76
+R68	Attribute Arg1:T76 Arg2:T75	
+R69	Agent Arg1:T76 Arg2:T74	
+A9	Intentional T77
+R70	Agent Arg1:T77 Arg2:T74	
+R71	Output Arg1:T77 Arg2:T78	
+R72	Input Arg1:T78 Arg2:T79	
+R73	Input Arg1:T76 Arg2:T79	
+R74	Attribute Arg1:T81 Arg2:T80	
+R75	Apply-to Arg1:T76 Arg2:T81	
+T90	PLAN-OR-PROCESS 1152 1164	paraphrasing
+A10	Intentional T78
+R76	from Arg1:T82 Arg2:T90	
+R77	to Arg1:T82 Arg2:T81	
+R78	from Arg1:T82 Arg2:T83	
+R79	from Arg1:T82 Arg2:T84	
+R80	Input Arg1:T86 Arg2:T85	
+R81	Condition Arg1:T86 Arg2:T87	
+A11	Intentional T86
+T91	QUALITY 923 933	NP related
+R82	Attribute Arg1:T63 Arg2:T91	
+R83	Target Arg1:T33 Arg2:T31	

@@ -1,0 +1,69 @@
+R1	Attribute Arg1:T2 Arg2:T1
+R2	Input Arg1:T2 Arg2:T33
+A1	Judgment T4
+A2	Judgment T34
+R3	Attribute Arg1:T5 Arg2:T34
+R4	Attribute Arg1:T5 Arg2:T4
+R5	Is-a Arg1:T3 Arg2:T5
+R6	Attribute Arg1:T6 Arg2:T7
+A3	Judgment T7
+R7	Condition Arg1:T7 Arg2:T9
+R8	Coreference Arg1:T6 Arg2:T3
+A4	Intentional T11
+R9	Output Arg1:T11 Arg2:T10
+R10	Apply-to Arg1:T10 Arg2:T12
+R11	Target Arg1:T12 Arg2:T13
+R12	Coreference Arg1:T13 Arg2:T7
+R13	Apply-to Arg1:T14 Arg2:T12
+R14	Target Arg1:T14 Arg2:T15
+R15	Target Arg1:T14 Arg2:T16
+R16	Target Arg1:T14 Arg2:T17
+R19	Attribute Arg1:T19 Arg2:T20
+R20	In_Out Arg1:T24 Arg2:T25
+R21	Attribute Arg1:T24 Arg2:T23
+R22	Condition Arg1:T24 Arg2:T22
+R23	Target Arg1:T18 Arg2:T19
+R24	Condition Arg1:T18 Arg2:T22
+R25	Apply-to Arg1:T12 Arg2:T18
+R26	Attribute Arg1:T26 Arg2:T27
+R27	Attribute Arg1:T26 Arg2:T28
+R28	Attribute Arg1:T32 Arg2:T31
+R29	from Arg1:T30 Arg2:T32
+R30	to Arg1:T30 Arg2:T26
+R31	Condition Arg1:T30 Arg2:T29
+R32	Attribute Arg1:T10 Arg2:T19
+R33	Attribute Arg1:T10 Arg2:T22
+R34	Attribute Arg1:T10 Arg2:T25
+A5	Name T33
+T1	QUALITY 2 16	Low-Complexity
+T2	PLAN 19 65	Broad-Coverage Probabilistic Dependency Parser
+T33	LANGUAGE 70 77	English
+T3	PLAN-OR-PROCESS 80 99	Large-scale parsing
+T4	QUALITY 111 118	complex
+T34	QUALITY 123 136	timeconsuming
+T5	PLAN-OR-PROCESS 137 144	process
+T6	REFERENCE 166 168	it
+T7	QUALITY 172 182	infeasible
+T9	PLAN 186 209	real-world applications
+T10	PLAN 216 230	parsing system
+T11	PROCESS 231 240	described
+T12	PROCESS 246 255	addresses
+T13	PLAN 256 268	this problem
+T14	PROCESS 272 281	combining
+T15	PLAN 282 305	finite-state approaches
+T16	PLAN 308 338	statistical parsing techniques
+T17	DATA-ITEM 343 364	engineering knowledge
+T18	PROCESS 372 379	keeping
+T19	DATA-ITEM 380 398	parsing complexity
+T20	QUALITY 399 417	as low as possible
+T22	DATA-ITEM 425 429	cost
+T23	QUALITY 435 441	slight
+T24	PROCESS 442 450	decrease
+T25	DATA-ITEM 454 465	performance
+T26	PLAN 472 478	parser
+T27	QUALITY 482 488	robust
+T28	QUALITY 493 497	fast
+T29	TIME 509 518	same time
+T30	APPLY-TO 519 524	based
+T31	QUALITY 528 534	strong
+T32	PLAN 535 557	linguistic foundations

@@ -1,0 +1,97 @@
+T1	PROCESS 111 123	representing
+T2	PROCESS 505 513	computed
+T3	PROCESS 588 598	determined
+T5	MODALITY 498 501	can
+T6	MODALITY 581 584	can
+T8	QUALITY 95 98	new
+T9	QUALITY 351 360	efficient
+T10	QUANTITY 376 379	two
+T11	PLAN 0 26	Marginal Contribution Nets
+T12	PLAN 30 59	Compact Representation Scheme
+T13	PLAN 64 81	Coalitional Games
+T14	PLAN 99 107	approach
+T15	PLAN 124 141	coalitional games
+T16	PLAN 151 156	rules
+T17	QUALITY 175 197	marginal contributions
+T18	INTELLIGENT-AGENT 205 211	agents
+T19	PLAN 213 239	This representation scheme
+T20	QUALITY 249 264	characteristics
+T21	PLAN-OR-PROCESS 272 284	interactions
+T22	INTELLIGENT-AGENT 295 301	agents
+T25	PLAN 361 371	algorithms
+T26	PLAN 402 419	solution concepts
+T27	PLAN 425 438	Shapley value
+T28	PLAN 447 451	core
+T29	PLAN 459 478	this representation
+T30	PLAN 484 497	Shapley value
+T31	TIME 517 521	time
+T32	QUALITY 536 540	size
+T33	DATA-ITEM 548 553	input
+T34	QUALITY 559 568	emptiness
+T35	PLAN 576 580	core
+T36	QUALITY 631 640	treewidth
+T37	DATA-ITEM 646 670	graphical interpretation
+T38	PLAN 678 692	representation
+R1	Attribute Arg1:T14 Arg2:T8	
+T39	PROCESS 162 170	describe
+T7	PROCESS 240 248	captures
+T40	QUALITY 387 401	most important
+R2	Attribute Arg1:T26 Arg2:T40	
+R3	Attribute Arg1:T26 Arg2:T10	
+T41	PERSON 425 432	Shapley
+T42	PERSON 484 491	Shapley
+R4	Attribute Arg1:T2 Arg2:T5	
+R5	Attribute Arg1:T3 Arg2:T6	
+T43	TIME 602 606	time
+T44	QUALITY 619 623	only
+R6	Attribute Arg1:T36 Arg2:T44	
+T24	QUALITY 307 314;327 333	natural manner
+T45	QUALITY 319 333	concise manner
+R9	Attribute Arg1:T25 Arg2:T9	
+T46	QUALITY 522 528	linear
+R10	Attribute Arg1:T31 Arg2:T46	
+T47	QUALITY 607 618	exponential
+R11	Attribute Arg1:T43 Arg2:T47	
+T48	PERSON 674 677	our
+T50	REFERENCE 157 161	that
+R12	Coreference Arg1:T50 Arg2:T16	
+R13	Poss Arg1:T48 Arg2:T38	
+R14	Coreference Arg1:T19 Arg2:T16	
+R15	Coreference Arg1:T29 Arg2:T19	
+R16	Attribute Arg1:T35 Arg2:T34	
+R17	Is-a Arg1:T11 Arg2:T12	
+R18	Apply-to Arg1:T12 Arg2:T13	
+R19	Apply-to Arg1:T14 Arg2:T1	
+R20	Output Arg1:T1 Arg2:T15	
+R21	Attribute Arg1:T18 Arg2:T17	
+R22	Apply-to Arg1:T50 Arg2:T39	
+R23	Output Arg1:T39 Arg2:T17	
+R24	Apply-to Arg1:T19 Arg2:T7	
+R25	Attribute Arg1:T21 Arg2:T20	
+R26	In_Out Arg1:T7 Arg2:T20	
+R27	Attribute Arg1:T22 Arg2:T21	
+R7	Attribute Arg1:T7 Arg2:T45	
+R8	Attribute Arg1:T7 Arg2:T24	
+R28	Apply-to Arg1:T25 Arg2:T26	
+R29	Is-a Arg1:T27 Arg2:T26	
+R30	Is-a Arg1:T28 Arg2:T26	
+R31	Output Arg1:T2 Arg2:T30	
+R32	Condition Arg1:T2 Arg2:T31	
+R33	Condition Arg1:T46 Arg2:T32	
+R34	Attribute Arg1:T33 Arg2:T32	
+R35	Output Arg1:T3 Arg2:T34	
+R36	Condition Arg1:T3 Arg2:T43	
+R37	Condition Arg1:T47 Arg2:T36	
+R38	Attribute Arg1:T37 Arg2:T36	
+R39	Attribute Arg1:T38 Arg2:T37	
+T4	PERSON 335 337	We
+T23	PERSON 82 84	We
+T49	PROCESS 85 92	present
+T51	PROCESS 343 350	develop
+R40	Agent Arg1:T49 Arg2:T23	
+R41	Output Arg1:T49 Arg2:T14	
+R42	Agent Arg1:T51 Arg2:T4	
+R43	Output Arg1:T51 Arg2:T25	
+T52	APPLY-TO 142 150	based on
+R44	from Arg1:T52 Arg2:T16	
+R45	to Arg1:T52 Arg2:T15	

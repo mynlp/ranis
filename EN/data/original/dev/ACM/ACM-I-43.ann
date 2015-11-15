@@ -1,0 +1,134 @@
+T1	PROCESS 236 240	seek
+T2	PROCESS 244 252	optimize
+T3	PROCESS 341 350	optimizes
+T4	APPLY-TO 530 537	employs
+T5	PROCESS 565 572	provide
+T6	APPLY-TO 687 694	applied
+T7	PROCESS 749 758	searching
+T9	MODALITY 807 810	can
+T10	QUALITY 209 217	existing
+T12	TIME 417 425	recently
+T14	QUALITY 576 585	efficient
+T15	QUALITY 836 847	efficiently
+T17	PLAN 0 22	Dynamics Based Control
+T18	APPLY-TO 31 42	Application
+T19	PLAN 46 68	Area-Sweeping Problems
+T20	PLAN 96 118	Dynamics Based Control
+T21	PLAN 120 123	DBC
+T22	PLAN 129 137	approach
+T23	PROCESS 141 149	planning
+T24	PROCESS 154 161	control
+T25	INTELLIGENT-AGENT 168 173	agent
+T26	THING 177 200	stochastic environments
+T27	PLAN 218 228	approaches
+T28	DATA-ITEM 262 269	rewards
+T31	PLAN 337 340	DBC
+T32	PLAN-OR-PROCESS 351 366	system behavior
+T33	PLAN 436 465	planning and control approach
+T35	PLAN 504 517	instantiation
+T37	PLAN-OR-PROCESS 538 561	greedy action selection
+T38	PLAN 586 603	control algorithm
+T39	PLAN 607 629	Markovian environments
+T40	QUALITY 642 657	this efficiency
+T41	PLAN-OR-PROCESS 670 681	experiments
+T42	PLAN 695 710	multitarget EMT
+T43	PLAN 716 721	class
+T44	PLAN 725 747	area-sweeping problems
+T45	PLAN 793 806	such problems
+T46	PLAN 865 878	DBC framework
+T47	PLAN 888 905	EMT instantiation
+R1	Equivalence Arg1:T21 Arg2:T20	
+R2	Attribute Arg1:T27 Arg2:T10	
+T16	QUALITY 253 261	expected
+R3	Attribute Arg1:T28 Arg2:T16	
+T11	DATA-ITEM 375 400	specified system dynamics
+T48	PROCESS 426 435	developed
+R5	Attribute Arg1:T48 Arg2:T12	
+T51	PLAN 526 529	EMT
+R8	Attribute Arg1:T38 Arg2:T14	
+T52	PERSON 607 616	Markovian
+T53	PLAN-OR-PROCESS 663 666	set
+T54	PLAN 707 710	EMT
+T55	INTELLIGENT-AGENT 763 777	moving targets
+T56	QUALITY 814 823	naturally
+T57	PROCESS 824 831	defined
+R9	Attribute Arg1:T57 Arg2:T56	
+R10	Attribute Arg1:T57 Arg2:T9	
+T58	PROCESS 848 854	solved
+R11	Attribute Arg1:T58 Arg2:T15	
+T59	PLAN 865 868	DBC
+T60	PLAN 888 891	EMT
+R15	Apply-to Arg1:T20 Arg2:T23	
+R16	Apply-to Arg1:T20 Arg2:T24	
+R17	Condition Arg1:T23 Arg2:T26	
+R18	Condition Arg1:T24 Arg2:T26	
+R19	Target Arg1:T24 Arg2:T25	
+R20	Target Arg1:T23 Arg2:T25	
+T61	REFERENCE 230 235	which
+R21	Coreference Arg1:T61 Arg2:T27	
+R22	Target Arg1:T2 Arg2:T28	
+R25	Apply-to Arg1:T31 Arg2:T3	
+R26	In_Out Arg1:T3 Arg2:T32	
+T65	PLAN 280 325	Partially Observable Markov Decision Problems
+T66	PLAN 327 333	POMDPs
+R24	Equivalence Arg1:T66 Arg2:T65	
+T68	PLAN 467 491	Extended Markov Tracking
+T69	PLAN 493 496	EMT
+R27	Equivalence Arg1:T69 Arg2:T68	
+T70	PLAN 521 524	DBC
+R7	Member-collection Arg1:T41 Arg2:T53	
+R28	Coreference Arg1:T45 Arg2:T44	
+T13	REFERENCE 884 887	its
+R4	Coreference Arg1:T13 Arg2:T46	
+T50	REFERENCE 682 686	that
+R6	Coreference Arg1:T50 Arg2:T41	
+R14	Poss Arg1:T13 Arg2:T47	
+R13	from Arg1:T18 Arg2:T17	
+R29	to Arg1:T18 Arg2:T19	
+R12	Coreference Arg1:T40 Arg2:T14	
+R30	Is-a Arg1:T20 Arg2:T22	
+T62	QUALITY 202 208	Unlike
+R31	Compare Arg1:T27 Arg2:T62	
+R32	Apply-to Arg1:T61 Arg2:T1	
+R33	Apply-to Arg1:T1 Arg2:T2	
+R34	Destination Arg1:T3 Arg2:T11	
+R35	Output Arg1:T48 Arg2:T33	
+R36	Is-a Arg1:T68 Arg2:T33	
+R37	Attribute Arg1:T70 Arg2:T35	
+R38	Is-a Arg1:T68 Arg2:T35	
+R39	from Arg1:T4 Arg2:T37	
+R40	to Arg1:T4 Arg2:T51	
+R42	Output Arg1:T5 Arg2:T38	
+R43	Condition Arg1:T5 Arg2:T39	
+T49	PROCESS 634 641	exploit
+R44	Input Arg1:T49 Arg2:T40	
+R45	Apply-to Arg1:T49 Arg2:T41	
+R46	from Arg1:T6 Arg2:T42	
+R47	Member-collection Arg1:T43 Arg2:T44	
+R48	to Arg1:T6 Arg2:T43	
+R49	Apply-to Arg1:T50 Arg2:T6	
+R50	Target Arg1:T7 Arg2:T55	
+R51	Output Arg1:T57 Arg2:T45	
+R52	Target Arg1:T58 Arg2:T45	
+T8	APPLY-TO 855 860	using
+R53	from Arg1:T8 Arg2:T46	
+R54	from Arg1:T8 Arg2:T47	
+R55	to Arg1:T8 Arg2:T58	
+R56	to Arg1:T8 Arg2:T57	
+R57	Attribute Arg1:T31 Arg2:T62	
+R23	Apply-to Arg1:T51 Arg2:T5	
+T29	REFERENCE 72 82	this paper
+T30	PERSON 83 85	we
+T34	PROCESS 86 95	introduce
+T36	PERSON 402 404	We
+T63	PROCESS 405 409	show
+T64	PERSON 631 633	We
+T67	PERSON 780 782	We
+T71	PROCESS 783 787	show
+R41	Agent Arg1:T34 Arg2:T30	
+R58	Condition Arg1:T34 Arg2:T29	
+R59	Output Arg1:T34 Arg2:T20	
+R60	Agent Arg1:T63 Arg2:T36	
+R61	Agent Arg1:T49 Arg2:T64	
+R62	Agent Arg1:T71 Arg2:T67	
+R63	Output Arg1:T71 Arg2:T58	

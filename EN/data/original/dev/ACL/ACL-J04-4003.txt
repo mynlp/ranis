@@ -1,0 +1,9 @@
+Fast Approximate Search in Large Dictionaries
+
+The need to correct garbled strings arises in many areas of natural language processing.
+If a dictionary is available that covers all possible input tokens, a natural set of candidates for correcting an erroneous input P is the set of all words in the dictionary for which the Levenshtein distance to P does not exceed a given (small) bound k.
+In this article we describe methods for efficiently selecting such candidate sets.
+After introducing as a starting point a basic correction method based on the concept of a ``universal Levenshtein automaton,'' we show how two filtering methods known from the field of approximate text search can be used to improve the basic procedure in a significant way.
+The first method, which uses standard dictionaries plus dictionaries with reversed words, leads to very short correction times for most classes of input strings.
+Our evaluation results demonstrate that correction times for fixed-distance bounds depend on the expected number of correction candidates, which decreases for longer input words.
+Similarly the choice of an optimal filtering method depends on the length of the input words.

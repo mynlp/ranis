@@ -1,0 +1,150 @@
+T1	PROCESS 244 254	scheduling
+T2	PROCESS 305 312	operate
+T3	PROCESS 341 348	modeled
+T4	PROCESS 496 503	induced
+T5	PROCESS 609 620	distributed
+T6	INPUT 635 643	utilized
+T7	PROCESS 768 775	persist
+T8	PROCESS 856 865	requiring
+T9	PROCESS 958 967	computing
+T10	PROCESS 1057 1064	analyze
+T11	PROCESS 454 463	developed
+T12	PROCESS 673 679	extend
+T13	MODALITY 189 192	not
+T14	QUALITY 109 136	computationally challenging
+T16	QUALITY 193 201	additive
+T17	QUALITY 403 412	efficient
+T19	QUALITY 785 791	finite
+T20	QUALITY 918 943	computationally efficient
+T21	QUANTITY 268 276	multiple
+T22	PLAN-OR-PROCESS 0 33	Combinatorial Resource Scheduling
+T23	PLAN 38 53	Multiagent MDPs
+T24	PLAN 54 81	Optimal resource scheduling
+T25	PLAN 85 103	multiagent systems
+T26	PLAN 137 141	task
+T27	DATA-ITEM 165 171	values
+T28	CONTINUANT 175 184	resources
+T29	PLAN-OR-PROCESS 233 240	problem
+T30	PLAN-OR-PROCESS 259 264	usage
+T31	CONTINUANT 277 286	resources
+T32	INTELLIGENT-AGENT 293 299	agents
+T33	THING 316 339	stochastic environments
+T34	PLAN 352 377	Markov decision processes
+T35	PLAN 379 383	MDPs
+T36	PLAN 413 443	resource-allocation algorithms
+T37	INTELLIGENT-AGENT 468 474	agents
+T38	DATA-ITEM 480 495	resource values
+T40	EXTERNAL-REFERENCE 527 537	prior work
+T41	PLAN 553 588	static resource-allocation problems
+T42	CONTINUANT 595 604	resources
+T43	PLAN 647 668	infinite-horizon MDPs
+T44	PLAN 680 685;695 701	those models
+T45	PLAN 709 716	problem
+T46	PLAN 720 753	combinatorial resource scheduling
+T47	TIME 792 799	periods
+T48	TIME 827 834;849 854	arrival times
+T49	TIME 839 854	departure times
+T50	CONTINUANT 866 875	resources
+T52	PLAN 944 953	procedure
+T53	PROCESS 985 1005	resource assignments
+T54	PLAN 1069 1075	method
+T55	CONDITION 1083 1090	context
+T56	DOMAIN 1096 1128	stochastic job-scheduling domain
+R2	Attribute Arg1:T26 Arg2:T14	
+R3	Attribute Arg1:T16 Arg2:T13	
+R5	Attribute Arg1:T31 Arg2:T21	
+R6	Equivalence Arg1:T35 Arg2:T34	
+T59	TIME 389 401	recent years
+R7	Attribute Arg1:T36 Arg2:T17	
+T60	PLAN 49 53	MDPs
+T61	PROCESS 542 549	focused
+T62	QUANTITY 621 625	once
+R9	Attribute Arg1:T5 Arg2:T62	
+T63	PLAN 664 668	MDPs
+T64	QUALITY 686 694	existing
+R10	Attribute Arg1:T44 Arg2:T64	
+R11	Attribute Arg1:T47 Arg2:T19	
+T65	REFERENCE 808 813	their
+R12	Coreference Arg1:T65 Arg2:T74	
+T66	QUALITY 815 825	predefined
+R13	Attribute Arg1:T48 Arg2:T66	
+R14	Attribute Arg1:T49 Arg2:T66	
+T67	TIME 885 903	those time periods
+R15	Coreference Arg1:T67 Arg2:T48	
+R16	Coreference Arg1:T67 Arg2:T49	
+R18	Attribute Arg1:T52 Arg2:T20	
+T69	QUALITY 968 984	globally optimal
+R19	Attribute Arg1:T53 Arg2:T69	
+T70	INTELLIGENT-AGENT 1009 1015	agents
+T71	TIME 1021 1025	time
+T73	QUALITY 1045 1056	empirically
+R20	Attribute Arg1:T10 Arg2:T73	
+T58	PLAN 507 511	MDPs
+T74	INTELLIGENT-AGENT 761 767	agents
+R1	Attribute Arg1:T27 Arg2:T16	
+T68	REFERENCE 300 304	that
+R4	Coreference Arg1:T68 Arg2:T32	
+R8	Poss Arg1:T65 Arg2:T49	
+R17	Poss Arg1:T65 Arg2:T48	
+T76	QUALITY 219 232	combinatorial
+R22	Attribute Arg1:T29 Arg2:T76	
+R23	Apply-to Arg1:T22 Arg2:T23	
+R24	Apply-to Arg1:T24 Arg2:T25	
+R26	Attribute Arg1:T28 Arg2:T27	
+R27	Is-a Arg1:T1 Arg2:T29	
+R28	Output Arg1:T1 Arg2:T30	
+R29	Attribute Arg1:T31 Arg2:T30	
+R30	Destination Arg1:T1 Arg2:T32	
+R31	Apply-to Arg1:T2 Arg2:T68	
+R32	Condition Arg1:T2 Arg2:T33	
+R33	Input Arg1:T3 Arg2:T29	
+R35	Output Arg1:T11 Arg2:T36	
+R36	Condition Arg1:T11 Arg2:T59	
+R37	Other-rel Arg1:T11 Arg2:T37	
+R38	Apply-to Arg1:T58 Arg2:T4	
+R39	Output Arg1:T4 Arg2:T38	
+R40	Attribute Arg1:T37 Arg2:T38	
+R41	Condition Arg1:T61 Arg2:T40	
+R42	Target Arg1:T61 Arg2:T41	
+R43	Output Arg1:T5 Arg2:T42	
+R44	Condition Arg1:T5 Arg2:T41	
+R45	from Arg1:T6 Arg2:T42	
+R46	Condition Arg1:T6 Arg2:T41	
+R47	to Arg1:T6 Arg2:T43	
+R48	Coreference Arg1:T44 Arg2:T41	
+R49	In_Out Arg1:T12 Arg2:T44	
+R50	Destination Arg1:T12 Arg2:T45	
+R51	Is-a Arg1:T46 Arg2:T45	
+R52	Condition Arg1:T7 Arg2:T46	
+R53	Agent Arg1:T7 Arg2:T74	
+R54	Condition Arg1:T7 Arg2:T47	
+R55	Condition Arg1:T8 Arg2:T7	
+R56	Target Arg1:T8 Arg2:T50	
+R21	Condition Arg1:T8 Arg2:T67	
+R57	Apply-to Arg1:T52 Arg2:T9	
+R58	Output Arg1:T9 Arg2:T53	
+R59	Destination Arg1:T53 Arg2:T70	
+R60	Condition Arg1:T9 Arg2:T71	
+R61	Input Arg1:T10 Arg2:T54	
+R62	from Arg1:T55 Arg2:T10	
+R63	to Arg1:T55 Arg2:T56	
+T51	IS-A 104 108	is a
+R64	from Arg1:T51 Arg2:T24	
+R65	to Arg1:T51 Arg2:T26	
+R25	Output Arg1:T3 Arg2:T34	
+T15	PERSON 203 205	We
+T18	PROCESS 206 214	consider
+T39	PERSON 670 672	We
+T57	PERSON 905 907	We
+T72	PROCESS 908 915	provide
+T75	PERSON 1027 1029	We
+T77	PROCESS 1030 1040	illustrate
+R34	Agent Arg1:T18 Arg2:T15	
+R66	Input Arg1:T18 Arg2:T29	
+R67	Condition Arg1:T51 Arg2:T16	
+R68	Agent Arg1:T12 Arg2:T39	
+R69	Agent Arg1:T72 Arg2:T57	
+R70	Output Arg1:T72 Arg2:T52	
+R71	Agent Arg1:T77 Arg2:T75	
+R72	Agent Arg1:T10 Arg2:T75	
+R73	Output Arg1:T77 Arg2:T54	

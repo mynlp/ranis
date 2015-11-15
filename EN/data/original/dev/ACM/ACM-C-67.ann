@@ -1,0 +1,269 @@
+T1	PLAN 11 19	Approach
+T2	PLAN-OR-PROCESS 40 49	Computing
+T3	QUALITY 23 39	High-Performance
+T4	OCCURENT 51 67	Xgrid Experience
+T6	ORGANIZATION 111 144	fully accredited fouryear college
+T8	DOMAIN 148 159	visual arts
+T9	DOMAIN 164 170	design
+T10	PERSON 179 186	student
+T11	QUANTITY 208 226	better than 2-to-1
+T14	DATA-ITEM 199 204	ratio
+T15	QUALITY 290 301	large-scale
+T16	PLAN-OR-PROCESS 302 313	integration
+T17	PLAN 317 327	technology
+T18	PLAN-OR-PROCESS 333 375	collegiate visual art and design education
+T19	QUALITY 261 281	national recognition
+T20	PROCESS 252 260	achieved
+T22	PLAN 417 433	operating system
+T23	QUALITY 412 416	best
+T24	PROCESS 437 442	train
+T25	PERSON 443 457	future artists
+T26	PERSON 443 449;462 471	future designers
+T27	MODALITY 486 489	can
+T28	PROCESS 494 497	buy
+T29	PROCESS 506 509	run
+T30	QUALITY 510 518	high-end
+T31	PLAN 519 527;611 623	graphics applications
+T32	PLAN 529 552;611 623	nonlinear video editing applications
+T33	PLAN 554 563;611 623	animation applications
+T34	PLAN 565 575;611 623	multimedia applications
+T35	PLAN 577 591;611 623	web production applications
+T36	PLAN 597 623	digital video applications
+T37	PLAN 646 650	UNIX
+T38	ARTIFACT 646 663	UNIX workstations
+T39	QUALITY 636 645	expensive
+T40	PERSON 668 682	visual artists
+T41	ARTIFACT 694 699	paint
+T42	ARTIFACT 703 709	canvas
+T43	PROCESS 683 688	cross
+T44	PROCESS 713 721	creating
+T45	THING 729 742	digital realm
+T46	QUALITY 748 754	demand
+T47	PLAN 778 799	computing environment
+T48	PROCESS 800 805	grows
+T49	QUALITY 761 777	high-performance
+T50	ORGANIZATION 814 842	public computer laboratories
+T51	PERSON 844 852	students
+T52	PROCESS 853 856	use
+T53	ARTIFACT 861 870	computers
+T54	QUALITY 871 881	most often
+T55	TIME 893 900	workday
+T56	TIME 905 910	night
+T57	TIME 918 926	weekends
+T58	ARTIFACT 931 940	computers
+T59	PROCESS 956 959	use
+T60	QUALITY 950 955	light
+T61	PROCESS 941 944	see
+T62	PROCESS 973 980	harness
+T63	TIME 990 1005	processing time
+T64	QUALITY 985 989	lost
+T65	PLAN-OR-PROCESS 1010 1015	tasks
+T66	PLAN-OR-PROCESS 1024 1039	video rendering
+T67	PROCESS 1048 1055	testing
+T69	PLAN 1065 1070	suite
+T70	PLAN 1074 1082	Mac OS X
+T71	PLAN 1074 1095	Mac OS X applications
+T72	TIME 1096 1104	recently
+T73	PROCESS 1105 1114	developed
+T75	PLAN-OR-PROCESS 1128 1179	parallel and distributed high-performance computing
+T76	QUALITY 1193 1196	new
+T77	PLAN-OR-PROCESS 1197 1218	technology deployment
+T78	PERSON 1220 1231	IT managers
+T79	MODALITY 1232 1236	need
+T80	PROCESS 1240 1248	consider
+T81	THING 1261 1268	factors
+T82	QUANTITY 1249 1257	a number
+T83	REFERENCE 1272 1276	they
+T84	PROCESS 1277 1283	assess
+T85	PROCESS 1285 1289	plan
+T86	PROCESS 1295 1304	implement
+T92	PLAN 1387 1401	implementation
+T93	PLAN 1408 1413	Xgrid
+T94	PLAN 1408 1425	Xgrid environment
+T95	PERSON 1435 1445	colleagues
+T96	PLAN-OR-PROCESS 1478 1484	issues
+T97	PROCESS 1493 1502	assessing
+T98	PLAN 1507 1512	needs
+T99	PLAN-OR-PROCESS 1517 1531	grid computing
+T100	PLAN-OR-PROCESS 1533 1555	potential applications
+T101	PLAN 1557 1573	management tools
+T102	PLAN-OR-PROCESS 1575 1583	security
+T103	PLAN 1585 1599	authentication
+T104	PLAN-OR-PROCESS 1601 1612	integration
+T105	PLAN 1627 1641	infrastructure
+T106	QUALITY 1618 1626	existing
+T107	PLAN-OR-PROCESS 1643 1662	application support
+T108	PLAN-OR-PROCESS 1664 1677	user training
+T109	PLAN-OR-PROCESS 1683 1695	user support
+T110	PLAN 1730 1736	issues
+T111	PROCESS 1742 1747	arose
+T112	PLAN 1756 1763	lessons
+T113	PROCESS 1793 1815	implementation process
+T114	PROCESS 1764 1771	learned
+R1	Attribute Arg1:T2 Arg2:T3	
+R2	Attribute Arg1:T16 Arg2:T15	
+R3	Attribute Arg1:T22 Arg2:T23	
+T88	ARTIFACT 190 198	computer
+R5	Attribute Arg1:T14 Arg2:T11	
+T115	REFERENCE 286 289	its
+R6	Coreference Arg1:T115 Arg2:T120	
+R7	Attribute Arg1:T28 Arg2:T27	
+R8	Attribute Arg1:T31 Arg2:T30	
+R9	Attribute Arg1:T38 Arg2:T39	
+R10	Attribute Arg1:T47 Arg2:T49	
+R11	Attribute Arg1:T52 Arg2:T54	
+R12	Attribute Arg1:T59 Arg2:T60	
+R13	Attribute Arg1:T63 Arg2:T64	
+R14	Attribute Arg1:T77 Arg2:T76	
+R15	Attribute Arg1:T80 Arg2:T79	
+R16	Attribute Arg1:T81 Arg2:T82	
+T116	PERSON 1383 1386	our
+R18	Attribute Arg1:T105 Arg2:T106	
+T117	QUALITY 2 10	Holistic
+R19	Attribute Arg1:T1 Arg2:T117	
+T118	PLAN 51 56	Xgrid
+T119	ORGANIZATION 72 105	Ringling School of Art and Design
+T120	ORGANIZATION 232 247	Ringling School
+T121	PLAN 396 404	Mac OS X
+T122	ARTIFACT 498 502	Macs
+T123	PLAN 1056 1061	Xgrid
+T124	ORGANIZATION 1118 1123	Apple
+T125	PLAN 1305 1310	Xgrid
+R20	Coreference Arg1:T83 Arg2:T78	
+T126	PERSON 1664 1668	user
+T127	PERSON 1683 1687	user
+T74	REFERENCE 1737 1741	that
+R17	Coreference Arg1:T74 Arg2:T110	
+R21	Poss Arg1:T116 Arg2:T92	
+T68	PERSON 1431 1434	our
+R22	Poss Arg1:T68 Arg2:T95	
+T87	PERSON 810 813	our
+R23	Poss Arg1:T87 Arg2:T50	
+R24	Poss Arg1:T115 Arg2:T16	
+T90	TIME 443 449	future
+T91	TIME 490 493	now
+R25	Condition Arg1:T28 Arg2:T91	
+R26	Apply-to Arg1:T1 Arg2:T2	
+R27	Attribute Arg1:T6 Arg2:T8	
+R28	Attribute Arg1:T6 Arg2:T9	
+T128	IS-A 106 110	is a
+R29	from Arg1:T128 Arg2:T119	
+R30	to Arg1:T128 Arg2:T6	
+R31	Attribute Arg1:T10 Arg2:T14	
+R32	Attribute Arg1:T88 Arg2:T14	
+R4	Agent Arg1:T20 Arg2:T120	
+R33	Output Arg1:T20 Arg2:T19	
+R34	Output Arg1:T16 Arg2:T17	
+R35	Destination Arg1:T16 Arg2:T18	
+R36	Condition Arg1:T19 Arg2:T16	
+R37	Is-a Arg1:T121 Arg2:T22	
+R38	Apply-to Arg1:T22 Arg2:T24	
+R39	Target Arg1:T24 Arg2:T25	
+R40	Target Arg1:T24 Arg2:T26	
+R41	Output Arg1:T28 Arg2:T122	
+R42	Apply-to Arg1:T28 Arg2:T29	
+R43	Output Arg1:T29 Arg2:T36	
+R44	Output Arg1:T29 Arg2:T31	
+R45	Output Arg1:T29 Arg2:T32	
+R46	Output Arg1:T29 Arg2:T35	
+R47	Output Arg1:T29 Arg2:T33	
+R48	Output Arg1:T29 Arg2:T34	
+R49	Attribute Arg1:T32 Arg2:T30	
+R50	Attribute Arg1:T33 Arg2:T30	
+R51	Attribute Arg1:T34 Arg2:T30	
+R52	Attribute Arg1:T35 Arg2:T30	
+T12	MODALITY 624 635	rather than
+R53	Attribute Arg1:T38 Arg2:T12	
+R54	Output Arg1:T28 Arg2:T38	
+R55	Agent Arg1:T43 Arg2:T40	
+R56	Other-rel Arg1:T41 Arg2:T42	
+R57	Condition Arg1:T44 Arg2:T45	
+R58	Origin Arg1:T43 Arg2:T41	
+R59	Destination Arg1:T43 Arg2:T44	
+R60	Condition Arg1:T46 Arg2:T47	
+R61	In_Out Arg1:T48 Arg2:T46	
+R62	Result Arg1:T43 Arg2:T48	
+R63	Agent Arg1:T52 Arg2:T51	
+R64	Target Arg1:T52 Arg2:T53	
+R65	Condition Arg1:T52 Arg2:T50	
+R66	Condition Arg1:T52 Arg2:T55	
+R67	Apply-to Arg1:T58 Arg2:T61	
+R68	Target Arg1:T61 Arg2:T59	
+R69	Condition Arg1:T59 Arg2:T57	
+R70	Condition Arg1:T59 Arg2:T56	
+R71	Attribute Arg1:T65 Arg2:T63	
+R72	Target Arg1:T62 Arg2:T64	
+R73	Is-a Arg1:T66 Arg2:T65	
+R74	In_Out Arg1:T67 Arg2:T123	
+R77	Condition Arg1:T73 Arg2:T72	
+R78	Output Arg1:T73 Arg2:T123	
+R75	Is-a Arg1:T123 Arg2:T69	
+R76	Member-collection Arg1:T71 Arg2:T69	
+R79	Apply-to Arg1:T73 Arg2:T75	
+R80	Agent Arg1:T73 Arg2:T124	
+R81	Apply-to Arg1:T123 Arg2:T62	
+R82	Agent Arg1:T80 Arg2:T78	
+R83	Target Arg1:T80 Arg2:T81	
+R84	Agent Arg1:T84 Arg2:T83	
+R85	Agent Arg1:T85 Arg2:T83	
+R86	Agent Arg1:T86 Arg2:T83	
+R87	Output Arg1:T86 Arg2:T125	
+R88	Output Arg1:T85 Arg2:T125	
+R89	Input Arg1:T84 Arg2:T125	
+R90	Condition Arg1:T80 Arg2:T77	
+R91	Output Arg1:T92 Arg2:T94	
+R92	In_Out Arg1:T97 Arg2:T98	
+R93	Condition Arg1:T98 Arg2:T99	
+R94	Condition Arg1:T98 Arg2:T100	
+R95	Condition Arg1:T98 Arg2:T101	
+R96	Condition Arg1:T98 Arg2:T102	
+R97	Condition Arg1:T98 Arg2:T103	
+R98	Destination Arg1:T104 Arg2:T105	
+R99	Condition Arg1:T98 Arg2:T104	
+R100	Condition Arg1:T98 Arg2:T107	
+R101	Condition Arg1:T98 Arg2:T108	
+R102	Condition Arg1:T98 Arg2:T109	
+R103	Is-a Arg1:T97 Arg2:T96	
+R104	Output Arg1:T111 Arg2:T74	
+R105	In_Out Arg1:T114 Arg2:T112	
+R106	Condition Arg1:T114 Arg2:T113	
+R107	Condition Arg1:T111 Arg2:T113	
+T5	PERSON 377 379	We
+T7	PROCESS 385 390	found
+T13	PERSON 483 485	we
+T21	PERSON 1041 1043	we
+T89	PERSON 1323 1325	we
+T129	PROCESS 1340 1345	share
+T130	QUALITY 1346 1354	valuable
+T131	PLAN-OR-PROCESS 1355 1366	information
+T132	PERSON 1367 1369	we
+T133	PROCESS 1370 1377	learned
+T134	REFERENCE 1454 1460	report
+T135	PERSON 1462 1464	we
+T136	PROCESS 1470 1477	address
+T137	PERSON 1710 1712	we
+T138	PROCESS 1718 1725	discuss
+T139	MODALITY 1713 1717	will
+R108	Agent Arg1:T7 Arg2:T5	
+R109	Output Arg1:T7 Arg2:T23	
+R110	Agent Arg1:T28 Arg2:T13	
+R111	Agent Arg1:T129 Arg2:T89	
+R112	In_Out Arg1:T129 Arg2:T131	
+R113	Attribute Arg1:T131 Arg2:T130	
+R114	Agent Arg1:T133 Arg2:T132	
+R115	Output Arg1:T133 Arg2:T131	
+R116	Apply-to Arg1:T92 Arg2:T133	
+R117	Destination Arg1:T129 Arg2:T95	
+R118	Condition Arg1:T136 Arg2:T134	
+R119	Agent Arg1:T136 Arg2:T135	
+R120	Target Arg1:T136 Arg2:T96	
+R121	Attribute Arg1:T138 Arg2:T139	
+R122	Agent Arg1:T138 Arg2:T137	
+T140	MODALITY 1465 1469	will
+R123	Attribute Arg1:T136 Arg2:T140	
+R124	Input Arg1:T138 Arg2:T110	
+R125	Agent Arg1:T67 Arg2:T21	
+T141	PERSON 1450 1453	our
+R126	Poss Arg1:T141 Arg2:T134	
+T142	MODALITY 1326 1336	would like
+R127	Attribute Arg1:T129 Arg2:T142	

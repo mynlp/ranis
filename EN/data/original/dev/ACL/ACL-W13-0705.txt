@@ -1,0 +1,10 @@
+Where Things Happen: On the Semantics of Event Localization
+
+The problem of temporally situating events in language has been approached by a number of philosophical techniques, including Davidson's particularist theory of event individuation [6, 5] and Kim's property exemplification theory [16].
+Both of these theories have been developed within linguistic semantic traditions, as well (cf. [24, 2] and others).
+However, the problem of event localization (spatially situating events) has not been discussed as extensively in the semantics literature.
+In this paper, I discuss the procedures for identifying where events, as expressed in natural language, are located in space.
+Aspects of the semantics of event localization have been recently proposed, including the notion of the ``shape'' of a movement [8, 39], as well as treating movement verbs as ``path creation'' predicates [29].
+In this paper, I build on these and some additional observations to outline a more general semantics of event localization.
+I then outline a procedure that extends the path metaphor used for motion predicates, distinguishing between the event locus and the spatial aspect of an event.
+In the process, I discuss how localization is supervenient upon the participants in the events.

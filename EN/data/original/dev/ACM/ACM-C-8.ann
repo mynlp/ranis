@@ -1,0 +1,235 @@
+T1	PLAN 0 17	Operation Context
+T2	PLAN 22 62	Context-based Operational Transformation
+T3	PLAN 63 89	Operational Transformation
+T4	PLAN 91 93	OT
+T5	PLAN 100 109	technique
+T6	PLAN-OR-PROCESS 114 137	consistency maintenance
+T7	PLAN-OR-PROCESS 142 152	group undo
+T8	APPLY-TO 167 174	applied
+T9	QUALITY 181 191	increasing
+T10	QUANTITY 192 198	number
+T11	PLAN 202 228	collaborative applications
+T12	PLAN 234 256	theoretical foundation
+T13	PLAN 261 263	OT
+T14	QUALITY 267 274	crucial
+T15	PROCESS 278 289	determining
+T16	REFERENCE 290 293	its
+T17	DATA-ITEM 294 304	capability
+T18	PROCESS 308 313	solve
+T19	QUALITY 314 322	existing
+T20	QUALITY 327 330	new
+T21	PLAN 331 339	problems
+T22	DATA-ITEM 356 363	quality
+T23	PLAN 367 382	those solutions
+T24	PLAN 388 394	theory
+T25	PLAN 398 407	causality
+T26	APPLY-TO 421 431	foundation
+T27	QUANTITY 435 438	all
+T28	TIME 439 444	prior
+T29	PLAN 445 455	OT systems
+T30	REFERENCE 461 463	it
+T31	QUALITY 467 477	inadequate
+T32	PROCESS 481 488	capture
+T33	QUALITY 489 498	essential
+T34	DATA-ITEM 499 523	correctness requirements
+T35	EXTERNAL-REFERENCE 525 538	Past research
+T36	QUALITY 552 559	various
+T37	PLAN 560 567	patches
+T38	PROCESS 571 575	work
+T39	CONDITION 576 582	around
+T40	PLAN 583 595	this problem
+T41	RESULT 597 606	resulting
+T42	QUALITY 623 632	intricate
+T43	QUALITY 637 648	complicated
+T44	PLAN 649 662	OT algorithms
+T45	PROCESS 677 685	designed
+T46	PROCESS 687 698	implemented
+T47	PROCESS 704 716	experimented
+T48	PLAN 724 730	series
+T49	PLAN 734 747	OT algorithms
+T50	PERSON 749 751	we
+T51	PROCESS 752 761	reflected
+T52	PROCESS 779 786	learned
+T53	PROCESS 791 798	set out
+T54	PROCESS 802 809	develop
+T55	QUALITY 812 815	new
+T56	PLAN 816 837	theoretical framework
+T57	QUALITY 842 848	better
+T58	PLAN-OR-PROCESS 849 862	understanding
+T59	PROCESS 867 876	resolving
+T60	PLAN 877 888	OT problems
+T61	PROCESS 890 898	reducing
+T62	REFERENCE 899 902	its
+T63	QUALITY 903 913	complexity
+T64	PROCESS 919 929	supporting
+T65	REFERENCE 930 933	its
+T66	QUALITY 934 943	continual
+T67	PLAN-OR-PROCESS 944 953	evolution
+T68	REFERENCE 958 968	this paper
+T69	PERSON 970 972	we
+T70	PROCESS 973 979	report
+T71	QUALITY 984 988	main
+T72	PLAN 989 996	results
+T73	PLAN 1000 1011	this effort
+T74	PLAN 1017 1023	theory
+T75	PLAN 1027 1044	operation context
+T76	PLAN 1053 1056	COT
+T77	PLAN 1058 1074	Context-based OT
+T78	PLAN 1076 1085	algorithm
+T79	PLAN 1091 1104	COT algorithm
+T80	QUALITY 1108 1115	capable
+T81	PROCESS 1119 1129	supporting
+T82	PROCESS 1142 1146	undo
+T83	PLAN-OR-PROCESS 1154 1164	operations
+T84	MODALITY 1177 1184	without
+T85	QUALITY 1185 1194	requiring
+T86	PLAN 1195 1219	transformation functions
+T87	PROCESS 1223 1231	preserve
+T88	DATA-ITEM 1232 1254	Reversibility Property
+T89	DATA-ITEM 1256 1278	Convergence Property 2
+T90	DATA-ITEM 1280 1306	Inverse Properties 2 and 3
+T91	PLAN 1312 1325	COT algorithm
+T93	QUALITY 1338 1345	simpler
+T94	QUALITY 1350 1364	more efficient
+T95	PLAN 1376 1397	OT control algorithms
+T96	PROCESS 1408 1418	simplifies
+T97	PLAN 1423 1429	design
+T98	PLAN 1433 1457	transformation functions
+T99	PERSON 1459 1461	We
+T100	PROCESS 1467 1478	implemented
+T101	PLAN 1483 1496	COT algorithm
+T102	PLAN 1502 1530	generic collaboration engine
+T103	PROCESS 1535 1539	used
+T104	REFERENCE 1540 1542	it
+T105	PROCESS 1547 1557	supporting
+T106	QUALITY 1558 1568	a range of
+T107	QUALITY 1569 1574	novel
+T108	PLAN 1575 1601	collaborative applications
+R1	Equivalence Arg1:T4 Arg2:T3	
+R2	Is-a Arg1:T4 Arg2:T5	
+R3	Apply-to Arg1:T5 Arg2:T6	
+R4	Apply-to Arg1:T5 Arg2:T7	
+R5	Attribute Arg1:T10 Arg2:T9	
+R6	Attribute Arg1:T11 Arg2:T10	
+R7	to Arg1:T8 Arg2:T11	
+R8	from Arg1:T8 Arg2:T4	
+R9	Apply-to Arg1:T12 Arg2:T13	
+R10	Attribute Arg1:T12 Arg2:T14	
+R11	Condition Arg1:T14 Arg2:T15	
+R12	Coreference Arg1:T16 Arg2:T12	
+R13	Attribute Arg1:T16 Arg2:T17	
+R14	Attribute Arg1:T21 Arg2:T20	
+R15	Attribute Arg1:T21 Arg2:T19	
+R16	Target Arg1:T18 Arg2:T21	
+R17	Apply-to Arg1:T16 Arg2:T18	
+R18	Condition Arg1:T17 Arg2:T18	
+R19	Coreference Arg1:T23 Arg2:T18	
+R20	Attribute Arg1:T23 Arg2:T22	
+R21	In_Out Arg1:T15 Arg2:T17	
+R22	In_Out Arg1:T15 Arg2:T22	
+R23	Is-a Arg1:T25 Arg2:T24	
+R24	Condition Arg1:T29 Arg2:T28	
+R25	Attribute Arg1:T29 Arg2:T27	
+R26	to Arg1:T26 Arg2:T29	
+R27	from Arg1:T26 Arg2:T24	
+R28	Attribute Arg1:T34 Arg2:T33	
+R29	In_Out Arg1:T32 Arg2:T34	
+R30	Attribute Arg1:T30 Arg2:T31	
+R31	Condition Arg1:T31 Arg2:T32	
+R32	Coreference Arg1:T30 Arg2:T24	
+T109	PROCESS 543 551	invented
+R33	Condition Arg1:T109 Arg2:T35	
+R34	Attribute Arg1:T37 Arg2:T36	
+R35	Output Arg1:T109 Arg2:T37	
+R36	Apply-to Arg1:T37 Arg2:T38	
+R37	from Arg1:T39 Arg2:T38	
+R38	to Arg1:T39 Arg2:T40	
+T110	QUALITY 610 622	increasingly
+R39	Attribute Arg1:T42 Arg2:T110	
+R40	Attribute Arg1:T43 Arg2:T110	
+R41	Attribute Arg1:T44 Arg2:T43	
+R42	Attribute Arg1:T44 Arg2:T42	
+R43	to Arg1:T41 Arg2:T44	
+R44	from Arg1:T41 Arg2:T37	
+R45	Member-collection Arg1:T49 Arg2:T48	
+R46	Input Arg1:T47 Arg2:T48	
+R47	Output Arg1:T46 Arg2:T48	
+R48	Output Arg1:T45 Arg2:T48	
+A1	Self T50
+A2	Intentional T51
+R49	Agent Arg1:T51 Arg2:T50	
+A3	Intentional T53
+R50	Agent Arg1:T53 Arg2:T50	
+R51	Apply-to Arg1:T53 Arg2:T54	
+R52	Attribute Arg1:T56 Arg2:T55	
+R53	Target Arg1:T59 Arg2:T60	
+R54	In_Out Arg1:T58 Arg2:T60	
+R55	Attribute Arg1:T58 Arg2:T57	
+R56	Attribute Arg1:T59 Arg2:T57	
+R57	Apply-to Arg1:T56 Arg2:T58	
+R58	Apply-to Arg1:T56 Arg2:T59	
+R59	Output Arg1:T54 Arg2:T56	
+R60	Agent Arg1:T52 Arg2:T50	
+R61	Attribute Arg1:T62 Arg2:T63	
+R62	In_Out Arg1:T61 Arg2:T63	
+R63	Coreference Arg1:T62 Arg2:T49	
+R64	Attribute Arg1:T67 Arg2:T66	
+R65	In_Out Arg1:T67 Arg2:T65	
+R66	Target Arg1:T64 Arg2:T67	
+R67	Coreference Arg1:T65 Arg2:T62	
+R68	Apply-to Arg1:T56 Arg2:T64	
+R69	Apply-to Arg1:T56 Arg2:T61	
+A4	Self T68
+A5	Self T69
+A6	Intentional T70
+R70	Agent Arg1:T70 Arg2:T69	
+R71	Condition Arg1:T70 Arg2:T68	
+R72	Attribute Arg1:T72 Arg2:T71	
+R73	Output Arg1:T73 Arg2:T72	
+R74	Output Arg1:T70 Arg2:T72	
+R75	Equivalence Arg1:T77 Arg2:T76	
+R76	Split Arg1:T78 Arg2:T76	
+R77	Is-a Arg1:T75 Arg2:T74	
+R78	Is-a Arg1:T74 Arg2:T72	
+R79	Is-a Arg1:T76 Arg2:T72	
+R80	Attribute Arg1:T79 Arg2:T80	
+R81	Condition Arg1:T80 Arg2:T81	
+R82	Output Arg1:T82 Arg2:T83	
+T111	PROCESS 1135 1137	do
+R83	Output Arg1:T111 Arg2:T83	
+R84	Target Arg1:T81 Arg2:T111	
+R85	Target Arg1:T81 Arg2:T82	
+T112	TIME 1168 1175	anytime
+R86	Condition Arg1:T81 Arg2:T112	
+R87	Attribute Arg1:T86 Arg2:T85	
+R88	Attribute Arg1:T85 Arg2:T84	
+R89	Condition Arg1:T81 Arg2:T85	
+R90	Target Arg1:T87 Arg2:T88	
+R91	Target Arg1:T87 Arg2:T89	
+R92	Target Arg1:T87 Arg2:T90	
+R93	Apply-to Arg1:T86 Arg2:T87	
+R94	Attribute Arg1:T91 Arg2:T93	
+R95	Attribute Arg1:T91 Arg2:T94	
+T113	COMPARE 1365 1369	than
+R96	from Arg1:T113 Arg2:T95	
+R97	to Arg1:T113 Arg2:T94	
+R98	to Arg1:T113 Arg2:T93	
+R99	Output Arg1:T97 Arg2:T98	
+R100	In_Out Arg1:T96 Arg2:T97	
+R101	Apply-to Arg1:T91 Arg2:T96	
+A7	Self T99
+A8	Intentional T100
+R102	Agent Arg1:T100 Arg2:T99	
+R103	Input Arg1:T100 Arg2:T101	
+R104	Apply-to Arg1:T100 Arg2:T102	
+R105	Apply-to Arg1:T103 Arg2:T105	
+R106	Input Arg1:T103 Arg2:T104	
+R107	Attribute Arg1:T108 Arg2:T107	
+R110	Agent Arg1:T103 Arg2:T99	
+A9	Intentional T103
+A10	Judgment T93
+A11	Judgment T94
+R108	Attribute Arg1:T108 Arg2:T106	
+R109	Target Arg1:T105 Arg2:T108	
+T92	TIME 1370 1375	prior
+R111	Condition Arg1:T95 Arg2:T92	

@@ -1,0 +1,135 @@
+T1	PLAN 0 22	Regularized Clustering
+T2	DATA-ITEM 27 36	Documents
+T3	TIME 40 52	recent years
+T4	PLAN 54 73	document clustering
+T5	PROCESS 83 92	receiving
+T6	QUANTITY 93 106	more and more
+T7	OCCURENT 107 117	attentions
+T8	QUALITY 124 133	important
+T9	QUALITY 138 149	fundamental
+T10	PLAN 150 159	technique
+T11	PLAN-OR-PROCESS 164 198	unsupervised document organization
+T12	PLAN-OR-PROCESS 200 226	automatic topic extraction
+T13	QUALITY 232 236	fast
+T14	PLAN 237 258	information retrieval
+T15	REFERENCE 276 286	this paper
+T16	PERSON 288 290	we
+T17	PROCESS 291 298	propose
+T18	QUALITY 301 306	novel
+T19	PLAN 307 313	method
+T20	PROCESS 318 328	clustering
+T21	DATA-ITEM 329 338	documents
+T22	APPLY-TO 339 344	using
+T23	PLAN-OR-PROCESS 345 359	regularization
+T24	QUALITY 361 367	Unlike
+T25	QUALITY 368 379	traditional
+T26	PLAN 380 419	globally regularized clustering methods
+T27	PERSON 421 424	our
+T28	PLAN 425 431	method
+T29	PROCESS 438 447	construct
+T30	PLAN 450 490	local regularized linear label predictor
+T31	DATA-ITEM 500 515	document vector
+T32	PROCESS 526 533	combine
+T33	QUANTITY 534 537	all
+T34	PLAN 538 562	those local regularizers
+T35	PLAN 570 599	global smoothness regularizer
+T36	PERSON 604 606	we
+T37	PROCESS 607 611	call
+T38	PERSON 612 615	our
+T39	PLAN 616 625	algorithm
+T40	PLAN 626 673	Clustering with Local and Global Regularization
+T41	PLAN 675 679	CLGR
+T42	PERSON 682 684	We
+T43	PROCESS 690 694	show
+T44	DATA-ITEM 704 723	cluster memberships
+T45	DATA-ITEM 731 740	documents
+T46	MODALITY 741 744	can
+T47	PROCESS 748 756	achieved
+T48	PLAN-OR-PROCESS 760 784	eigenvalue decomposition
+T49	DATA-ITEM 790 813	sparse symmetric matrix
+T50	REFERENCE 815 820	which
+T51	MODALITY 821 824	can
+T52	QUALITY 828 839	efficiently
+T53	PROCESS 840 846	solved
+T54	PLAN 850 867	iterative methods
+T55	PERSON 877 880	our
+T56	PLAN-OR-PROCESS 881 905	experimental evaluations
+T57	QUANTITY 909 916	several
+T58	DATA-ITEM 917 925	datasets
+T59	PROCESS 930 939	presented
+T60	PROCESS 943 947	show
+T61	QUALITY 952 965	superiorities
+T62	PLAN 969 973	CLGR
+T63	QUALITY 979 990	traditional
+T64	PLAN 991 1018	document clustering methods
+R1	Input Arg1:T1 Arg2:T2	
+R2	Attribute Arg1:T7 Arg2:T6	
+R3	Attribute Arg1:T10 Arg2:T9	
+R4	Attribute Arg1:T10 Arg2:T8	
+R5	Output Arg1:T5 Arg2:T7	
+R6	Destination Arg1:T5 Arg2:T4	
+R7	Condition Arg1:T5 Arg2:T3	
+R8	Apply-to Arg1:T10 Arg2:T11	
+R9	Apply-to Arg1:T10 Arg2:T12	
+T65	PLAN 262 271	filtering
+R10	Attribute Arg1:T14 Arg2:T13	
+R11	Attribute Arg1:T65 Arg2:T13	
+R12	Apply-to Arg1:T10 Arg2:T14	
+R13	Apply-to Arg1:T10 Arg2:T65	
+R14	Is-a Arg1:T4 Arg2:T10	
+A1	Self T15
+A2	Self T16
+A3	Intentional T17
+R15	Agent Arg1:T17 Arg2:T16	
+R16	Condition Arg1:T17 Arg2:T15	
+R17	Attribute Arg1:T19 Arg2:T18	
+R18	Output Arg1:T17 Arg2:T19	
+R19	Apply-to Arg1:T19 Arg2:T20	
+R20	Input Arg1:T20 Arg2:T21	
+R21	from Arg1:T22 Arg2:T23	
+R22	to Arg1:T22 Arg2:T20	
+R23	Attribute Arg1:T26 Arg2:T25	
+A4	Self T27
+R24	Poss Arg1:T27 Arg2:T28	
+R25	Output Arg1:T29 Arg2:T30	
+R26	Apply-to Arg1:T28 Arg2:T29	
+R27	Destination Arg1:T29 Arg2:T31	
+R28	Apply-to Arg1:T28 Arg2:T32	
+R29	Attribute Arg1:T34 Arg2:T33	
+R30	Target Arg1:T32 Arg2:T34	
+R31	Target Arg1:T32 Arg2:T35	
+A5	Self T36
+A6	Self T38
+R32	Poss Arg1:T38 Arg2:T39	
+R33	Equivalence Arg1:T41 Arg2:T40	
+R34	Agent Arg1:T37 Arg2:T36	
+R35	Destination Arg1:T37 Arg2:T39	
+R36	Output Arg1:T37 Arg2:T40	
+A7	Intentional T37
+A8	Self T42
+A9	Intentional T43
+R37	Agent Arg1:T43 Arg2:T42	
+R38	Attribute Arg1:T45 Arg2:T44	
+R39	In_Out Arg1:T48 Arg2:T49	
+R40	Apply-to Arg1:T48 Arg2:T47	
+R41	Output Arg1:T47 Arg2:T44	
+R42	Attribute Arg1:T47 Arg2:T46	
+R43	Attribute Arg1:T53 Arg2:T52	
+R44	Attribute Arg1:T53 Arg2:T51	
+R45	Apply-to Arg1:T54 Arg2:T53	
+R46	Target Arg1:T53 Arg2:T50	
+R47	Coreference Arg1:T50 Arg2:T48	
+A10	Self T55
+R48	Poss Arg1:T55 Arg2:T56	
+R49	Attribute Arg1:T58 Arg2:T57	
+R50	Input Arg1:T56 Arg2:T58	
+R51	Output Arg1:T59 Arg2:T56	
+A11	Intentional T59
+R52	Apply-to Arg1:T59 Arg2:T60	
+R53	Attribute Arg1:T62 Arg2:T61	
+A12	Judgment T61
+R54	Output Arg1:T60 Arg2:T61	
+R55	Attribute Arg1:T64 Arg2:T63	
+T66	COMPARE 974 978	over
+R56	from Arg1:T66 Arg2:T64	
+R57	to Arg1:T66 Arg2:T61	

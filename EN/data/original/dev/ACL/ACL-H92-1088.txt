@@ -1,0 +1,11 @@
+Towards Using Prosody In Speech Recognition/Understanding Systems : Differences Between Read And Spontaneous Speech .
+A persistent problem for keyword-driven speech recognition systems is that users often embed the to-be-recognized words or phrases in longer utterances .
+The recognizer needs to locate the relevant sections of the speech signal and ignore extraneous words .
+Prosody might provide an extra source of information to help locate target words embedded in other speech .
+In this paper we examine some prosodic characteristics of 160 such utterances and compare matched read and spontaneous versions .
+Half of the utterances are from a corpus of spontaneous answers to requests for the name of a city , recorded from calls to Directory Assistance Operators .
+The other half are the same word strings read by volunteers attempting to model the real dialogue .
+Results show a consistent pattern across both sets of data : embedded city names almost always bear nuclear pitch accents and are in their own intonational phrases .
+However the distributions of tonal make-up of these prosodic features differ markedly in read versus spontaneous speech , implying that if algorithms that exploit these prosodic regularities are trained on read speech , then the probabilities are likely to be incorrect models of real user speech .
+
+

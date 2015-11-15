@@ -1,0 +1,166 @@
+T1	PLAN-OR-PROCESS 0 11	Summarizing
+T2	PROCESS 171 183	concentrates
+T3	PROCESS 305 314	highlight
+T4	MEMBER-COLLECTION 458 468	consisting
+T5	PROCESS 545 554	annotated
+T6	PROCESS 860 870	classifies
+T7	IS-A 986 992	viewed
+T8	OUTPUT 1058 1066	provides
+T9	PROCESS 1161 1165	give
+T10	PROCESS 264 272	selected
+T11	PROCESS 1149 1157	designed
+T13	MODALITY 301 304	can
+T14	MODALITY 979 982	can
+T16	PERSON 694 700	judges
+T17	QUALITY 319 322	new
+T20	QUANTITY 660 667	several
+T21	QUANTITY 894 899	seven
+T22	PLAN-OR-PROCESS 33 44	Experiments
+T23	QUALITY 64 81	Rhetorical Status
+T24	PLAN 112 120	strategy
+T25	PLAN-OR-PROCESS 129 142	summarization
+T26	DATA-ITEM 146 165	scientific articles
+T27	QUALITY 191 208	rhetorical status
+T28	DATA-ITEM 212 222	statements
+T29	DATA-ITEM 238 246	Material
+T30	DATA-ITEM 251 260	summaries
+T31	DATA-ITEM 291 300	summaries
+T32	THING 323 335	contribution
+T33	DATA-ITEM 343 357	source article
+T34	REFERENCE 370 372	it
+T36	DATA-ITEM 417 430	gold standard
+T37	DATA-ITEM 435 444	summaries
+T38	THING 448 457	this kind
+T39	DATA-ITEM 486 492	corpus
+T40	DATA-ITEM 496 515	conference articles
+T41	DOMAIN 519 544	computational linguistics
+T42	DATA-ITEM 560 575	human judgments
+T43	QUALITY 583 600	rhetorical status
+T44	QUALITY 605 614	relevance
+T45	DATA-ITEM 623 631	sentence
+T46	DATA-ITEM 639 647	articles
+T47	PLAN-OR-PROCESS 668 679	experiments
+T48	DATA-ITEM 702 711	agreement
+T49	DATA-ITEM 715 732	these annotations
+T50	PLAN 754 763	algorithm
+T51	DATA-ITEM 790 817	annotated training material
+T52	DATA-ITEM 827 834	content
+T53	DATA-ITEM 840 855	unseen articles
+T54	REFERENCE 871 873	it
+T55	DATA-ITEM 900 921	rhetorical categories
+T56	DATA-ITEM 927 933	output
+T57	PLAN 937 978	this extraction and classification system
+T58	DATA-ITEM 998 1021	single-document summary
+T59	DATA-ITEM 1067 1084	starting material
+T60	PLAN-OR-PROCESS 1093 1103	generation
+T61	DATA-ITEM 1125 1148	user-tailored summaries
+T62	DATA-ITEM 1175 1183	overview
+T63	DOMAIN 1189 1205	scientific field
+T64	DATA-ITEM 12 31	Scientific Articles
+T15	QUALITY 50 59	Relevance
+T65	DATA-ITEM 229 236	article
+R1	Attribute Arg1:T3 Arg2:T13	
+R2	Attribute Arg1:T32 Arg2:T17	
+T66	APPLY-TO 378 385	respect
+R3	Coreference Arg1:T34 Arg2:T32	
+T67	QUALITY 474 485	substantial
+R5	Attribute Arg1:T39 Arg2:T67	
+T68	PERSON 560 565	human
+T69	QUALITY 618 622	each
+R6	Attribute Arg1:T45 Arg2:T69	
+R7	Attribute Arg1:T47 Arg2:T20	
+T70	PROCESS 680 689	measuring
+T71	PROCESS 819 826	selects
+R8	Coreference Arg1:T54 Arg2:T52	
+T72	DATA-ITEM 881 890	fixed set
+R9	Attribute Arg1:T55 Arg2:T21	
+R10	Attribute Arg1:T7 Arg2:T14	
+T75	DATA-ITEM 1107 1120;1139 1148	task-oriented summaries
+T76	PERSON 1125 1129	user
+T12	PERSON 1166 1171	users
+R12	Coreference Arg1:T57 Arg2:T50	
+R11	Member-collection Arg1:T40 Arg2:T39	
+R13	Member-collection Arg1:T55 Arg2:T72	
+T18	EXTERNAL-REFERENCE 389 401	earlier work
+T35	REFERENCE 1055 1057	it
+R4	Coreference Arg1:T35 Arg2:T56	
+T74	REFERENCE 166 170	that
+R14	Coreference Arg1:T74 Arg2:T24	
+T77	REFERENCE 764 768	that
+R15	Coreference Arg1:T77 Arg2:T50	
+T82	PERSON 690 693	our
+R16	Poss Arg1:T82 Arg2:T16	
+R17	Poss Arg1:T16 Arg2:T48	
+R18	Coreference Arg1:T49 Arg2:T42	
+R19	Input Arg1:T1 Arg2:T64	
+R20	Input Arg1:T22 Arg2:T15	
+R21	Input Arg1:T22 Arg2:T23	
+R22	Apply-to Arg1:T24 Arg2:T25	
+R23	Input Arg1:T25 Arg2:T26	
+R26	Component-object Arg1:T28 Arg2:T65	
+R27	Component-object Arg1:T30 Arg2:T29	
+R28	Attribute Arg1:T28 Arg2:T27	
+R25	In_Out Arg1:T2 Arg2:T27	
+R29	Output Arg1:T10 Arg2:T29	
+R30	Other-rel Arg1:T3 Arg2:T31	
+R31	Attribute Arg1:T33 Arg2:T32	
+R32	Output Arg1:T3 Arg2:T32	
+R33	from Arg1:T66 Arg2:T18	
+T83	PROCESS 362 369	situate
+R34	Member-collection Arg1:T37 Arg2:T36	
+R35	Attribute Arg1:T37 Arg2:T38	
+R36	from Arg1:T4 Arg2:T39	
+R37	to Arg1:T4 Arg2:T36	
+R38	Attribute Arg1:T40 Arg2:T41	
+R39	Output Arg1:T5 Arg2:T42	
+R40	In_Out Arg1:T5 Arg2:T39	
+R41	Component-object Arg1:T45 Arg2:T46	
+R42	Attribute Arg1:T45 Arg2:T44	
+R43	Other-rel Arg1:T83 Arg2:T34	
+R44	to Arg1:T66 Arg2:T83	
+R45	Other-rel Arg1:T83 Arg2:T31	
+R46	Apply-to Arg1:T47 Arg2:T70	
+R47	Input Arg1:T70 Arg2:T48	
+R48	Other-rel Arg1:T48 Arg2:T49	
+T84	INPUT 777 782	basis
+R49	to Arg1:T84 Arg2:T51	
+R50	from Arg1:T84 Arg2:T77	
+R51	Apply-to Arg1:T77 Arg2:T71	
+R52	Output Arg1:T71 Arg2:T52	
+R53	Origin Arg1:T71 Arg2:T53	
+R54	Apply-to Arg1:T77 Arg2:T6	
+R55	In_Out Arg1:T6 Arg2:T54	
+R56	Output Arg1:T6 Arg2:T72	
+R57	Output Arg1:T57 Arg2:T56	
+R58	from Arg1:T7 Arg2:T56	
+R59	to Arg1:T7 Arg2:T58	
+R60	to Arg1:T8 Arg2:T59	
+R61	from Arg1:T8 Arg2:T35	
+R62	Input Arg1:T60 Arg2:T59	
+R63	Output Arg1:T60 Arg2:T75	
+R64	Output Arg1:T60 Arg2:T61	
+R65	Output Arg1:T11 Arg2:T75	
+R66	Output Arg1:T11 Arg2:T61	
+R67	Apply-to Arg1:T11 Arg2:T9	
+R68	Destination Arg1:T9 Arg2:T12	
+R69	Input Arg1:T9 Arg2:T62	
+R70	Attribute Arg1:T62 Arg2:T63	
+R24	Apply-to Arg1:T74 Arg2:T2	
+T19	REFERENCE 86 98	this article
+T73	PERSON 99 101	we
+T78	PROCESS 102 109	propose
+T79	PERSON 404 406	We
+T80	PROCESS 407 414	provide
+T81	PERSON 649 651	We
+T85	PROCESS 652 659	present
+T86	PERSON 735 737	We
+T87	PROCESS 743 750	present
+R71	Condition Arg1:T78 Arg2:T19	
+R72	Agent Arg1:T78 Arg2:T73	
+R73	Output Arg1:T78 Arg2:T24	
+R74	Agent Arg1:T80 Arg2:T79	
+R75	Agent Arg1:T85 Arg2:T81	
+R76	Agent Arg1:T87 Arg2:T86	
+R77	Output Arg1:T80 Arg2:T36	
+R78	Output Arg1:T85 Arg2:T47	
+R79	Output Arg1:T87 Arg2:T50	

@@ -1,0 +1,103 @@
+R1	from Arg1:T2 Arg2:T3
+R2	to Arg1:T2 Arg2:T1
+A1	Self T4
+A2	Intentional T5
+R3	Agent Arg1:T5 Arg2:T4
+R5	Output Arg1:T5 Arg2:T7
+R6	Coreference Arg1:T8 Arg2:T7
+R7	Attribute Arg1:T11 Arg2:T10
+R8	to Arg1:T9 Arg2:T10
+R10	Apply-to Arg1:T8 Arg2:T12
+R11	from Arg1:T9 Arg2:T12
+R9	Attribute Arg1:T14 Arg2:T13
+R12	In_Out Arg1:T12 Arg2:T14
+R13	Attribute Arg1:T15 Arg2:T14
+R15	Attribute Arg1:T19 Arg2:T18
+R16	Output Arg1:T19 Arg2:T17
+R17	Input Arg1:T19 Arg2:T20
+R18	Coreference Arg1:T21 Arg2:T20
+R19	Attribute Arg1:T24 Arg2:T23
+R20	Apply-to Arg1:T22 Arg2:T24
+R21	In_Out Arg1:T24 Arg2:T25
+R22	Condition Arg1:T24 Arg2:T21
+R23	Attribute Arg1:T27 Arg2:T26
+R24	Attribute Arg1:T29 Arg2:T28
+R25	In_Out Arg1:T30 Arg2:T28
+R26	Attribute Arg1:T32 Arg2:T31
+R27	Attribute Arg1:T33 Arg2:T32
+A3	Judgment T31
+R28	In_Out Arg1:T47 Arg2:T26
+R29	Result Arg1:T47 Arg2:T30
+R30	In_Out Arg1:T33 Arg2:T28
+R31	Coreference Arg1:T36 Arg2:T29
+R32	Apply-to Arg1:T36 Arg2:T37
+R33	Attribute Arg1:T39 Arg2:T38
+R34	Output Arg1:T37 Arg2:T39
+R35	Destination Arg1:T37 Arg2:T40
+R36	Attribute Arg1:T37 Arg2:T41
+A4	Judgment T41
+R37	Attribute Arg1:T43 Arg2:T42
+R38	Apply-to Arg1:T43 Arg2:T49
+R39	from Arg1:T50 Arg2:T49
+R40	to Arg1:T50 Arg2:T41
+R41	to Arg1:T35 Arg2:T41
+R42	from Arg1:T35 Arg2:T34
+R43	Attribute Arg1:T16 Arg2:T51
+R44	Attribute Arg1:T40 Arg2:T52
+R14	Component-object Arg1:T16 Arg2:T15
+A5	Name T44
+A6	Name T6
+A7	Name T48
+A8	Name T46
+T1	PLAN 0 31	Japanese Morphological Analyzer
+T44	LANGUAGE 0 8	Japanese
+T2	APPLY-TO 32 37	using
+T3	PLAN 38 56	Word Co-occurrence
+T45	PLAN 59 63	JTAG
+T4	PERSON 66 68	We
+T5	PROCESS 69 78	developed
+T6	LANGUAGE 81 89	Japanese
+T7	PLAN 81 112	Japanese morphological analyzer
+T8	REFERENCE 113 117	that
+T9	INPUT 118 122	uses
+T10	DATA-ITEM 127 140	co-occurrence
+T11	DATA-ITEM 144 149	words
+T12	PROCESS 153 159	select
+T13	QUALITY 164 171	correct
+T14	DATA-ITEM 172 180	sequence
+T15	DATA-ITEM 184 189	words
+T51	QUALITY 196 207	unsegmented
+T16	DATA-ITEM 208 225	Japanese sentence
+T46	LANGUAGE 208 216	Japanese
+T17	DATA-ITEM 232 257	co-occurrence information
+T18	MODALITY 258 261	can
+T19	PROCESS 265 273	obtained
+T20	DATA-ITEM 279 284	cases
+T21	REFERENCE 285 290	where
+T22	PLAN 295 301	system
+T23	QUALITY 302 313	incorrectly
+T24	PROCESS 314 322	analyzes
+T25	DATA-ITEM 323 332	sentences
+T26	DATA-ITEM 342 348	amount
+T27	DATA-ITEM 352 363	information
+T47	PROCESS 364 373	increases
+T28	QUALITY 380 388	accuracy
+T29	PLAN 396 402	system
+T30	JUDGING-PROCESS 403 412	increases
+T31	QUALITY 420 425	small
+T32	DATA-ITEM 426 430	risk
+T33	PLAN-OR-PROCESS 434 445	degradation
+T34	DATA-ITEM 448 468	Experimental results
+T35	RESULT 469 473	show
+T36	PLAN 483 498	proposed system
+T37	PROCESS 499 506	assigns
+T38	QUALITY 511 518	correct
+T39	DATA-ITEM 519 547	phonological representations
+T52	QUALITY 551 562	unsegmented
+T40	DATA-ITEM 563 581	Japanese sentences
+T48	LANGUAGE 563 571	Japanese
+T41	QUALITY 582 596	more precisely
+T50	COMPARE 597 601	than
+T49	PROCESS 602 604	do
+T42	QUALITY 605 610	other
+T43	PLAN 611 626	popular systems

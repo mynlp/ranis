@@ -1,0 +1,135 @@
+T1	PROCESS 0 10	Predicting
+T2	DATA-ITEM 11 20	Responses
+T3	DATA-ITEM 24 39	Microblog Posts
+T4	THING 41 63	Microblogging networks
+T5	PROCESS 64 69	serve
+T6	THING 73 81	vehicles
+T7	PROCESS 86 94	reaching
+T8	PROCESS 99 110	influencing
+T9	PERSON 111 116	users
+T10	PROCESS 118 128	Predicting
+T11	DATA-ITEM 139 146	message
+T12	PROCESS 152 158	elicit
+T13	DATA-ITEM 161 174	user response
+T14	PROCESS 175 180	opens
+T15	QUALITY 185 196	possibility
+T16	PROCESS 200 210	maximizing
+T17	QUALITY 215 223	virality
+T18	QUALITY 225 230	reach
+T19	QUALITY 235 248	effectiveness
+T20	DATA-ITEM 252 260	messages
+T21	DATA-ITEM 265 277	ad campaigns
+T22	THING 281 295	these networks
+R1	Coreference Arg1:T22 Arg2:T4	
+T23	PLAN 310 330	discriminative model
+T24	PROCESS 335 345	predicting
+T25	DATA-ITEM 350 360	likelihood
+T26	DATA-ITEM 366 374	response
+T27	DATA-ITEM 380 387	retweet
+T28	THING 395 410	Twitter network
+T29	PLAN 395 402	Twitter
+T30	PLAN 416 424	approach
+T31	PROCESS 425 429	uses
+T32	DATA-ITEM 430 438	features
+T33	PROCESS 439 446	derived
+T34	QUALITY 452 459	various
+T35	DATA-ITEM 460 467	sources
+R2	Attribute Arg1:T35 Arg2:T34	
+T36	LANGUAGE 481 489	language
+T37	DATA-ITEM 502 507	tweet
+T38	ATTRIBUTE 490 494	used
+T39	PERSON 513 517	user
+T40	THING 520 534	social network
+T41	DATA-ITEM 539 546	history
+T42	PLAN-OR-PROCESS 552 574	feature design process
+T43	INPUT 575 584	leverages
+T44	DATA-ITEM 585 605	aggregate statistics
+T45	QUALITY 615 621	entire
+T46	THING 622 636	social network
+R3	Attribute Arg1:T46 Arg2:T45	
+T47	PROCESS 640 647	balance
+T48	QUALITY 648 656	sparsity
+T49	QUALITY 661 676	informativeness
+T50	DATA-ITEM 696 702	tweets
+T51	PROCESS 706 711	train
+T52	PLAN 712 718	models
+T55	REFERENCE 745 749	they
+R5	Coreference Arg1:T55 Arg2:T52	
+T56	QUALITY 754 761	capable
+T57	PROCESS 765 775	generating
+R6	Attribute Arg1:T57 Arg2:T56	
+T58	QUALITY 776 784	accurate
+T59	DATA-ITEM 785 796	predictions
+R7	Attribute Arg1:T59 Arg2:T58	
+T60	QUANTITY 809 815	number
+T61	DATA-ITEM 819 825	tweets
+R8	Attribute Arg1:T61 Arg2:T60	
+T62	PERSON 161 165	user
+R9	Attribute Arg1:T20 Arg2:T17	
+R10	Attribute Arg1:T20 Arg2:T19	
+R11	Attribute Arg1:T20 Arg2:T18	
+R12	Attribute Arg1:T21 Arg2:T17	
+R13	Attribute Arg1:T21 Arg2:T18	
+R14	Attribute Arg1:T21 Arg2:T19	
+T63	QUALITY 685 695	real-world
+R15	Attribute Arg1:T50 Arg2:T63	
+R16	Poss Arg1:T39 Arg2:T40	
+T66	QUALITY 803 808	large
+R17	Attribute Arg1:T60 Arg2:T66	
+R18	Poss Arg1:T39 Arg2:T41	
+R19	Attribute Arg1:T2 Arg2:T3	
+R20	Output Arg1:T1 Arg2:T2	
+R21	Apply-to Arg1:T4 Arg2:T5	
+R23	Apply-to Arg1:T6 Arg2:T7	
+R24	Apply-to Arg1:T6 Arg2:T8	
+R25	Destination Arg1:T7 Arg2:T9	
+R26	Target Arg1:T8 Arg2:T9	
+R27	Output Arg1:T12 Arg2:T13	
+R28	Other-rel Arg1:T11 Arg2:T12	
+T67	MODALITY 129 136	whether
+R29	Output Arg1:T10 Arg2:T12	
+R30	Apply-to Arg1:T10 Arg2:T14	
+R31	Attribute Arg1:T12 Arg2:T67	
+R32	Attribute Arg1:T16 Arg2:T15	
+R33	Output Arg1:T14 Arg2:T15	
+R34	In_Out Arg1:T16 Arg2:T17	
+R35	In_Out Arg1:T16 Arg2:T18	
+R36	In_Out Arg1:T16 Arg2:T19	
+R37	Condition Arg1:T20 Arg2:T22	
+R38	Condition Arg1:T21 Arg2:T22	
+R39	Apply-to Arg1:T23 Arg2:T24	
+R40	Output Arg1:T24 Arg2:T25	
+R41	Attribute Arg1:T26 Arg2:T25	
+R42	Attribute Arg1:T27 Arg2:T25	
+R43	Condition Arg1:T27 Arg2:T28	
+R44	Input Arg1:T31 Arg2:T32	
+R45	Apply-to Arg1:T30 Arg2:T31	
+R46	Output Arg1:T33 Arg2:T32	
+R47	Input Arg1:T33 Arg2:T35	
+R50	Is-a Arg1:T36 Arg2:T35	
+R51	Is-a Arg1:T40 Arg2:T35	
+R52	Is-a Arg1:T41 Arg2:T35	
+R56	Target Arg1:T47 Arg2:T48	
+R57	Target Arg1:T47 Arg2:T49	
+R58	Condition Arg1:T44 Arg2:T46	
+R60	In_Out Arg1:T51 Arg2:T52	
+R4	Apply-to Arg1:T55 Arg2:T57	
+R61	Output Arg1:T57 Arg2:T59	
+R62	Input Arg1:T57 Arg2:T61	
+R48	from Arg1:T38 Arg2:T37	
+R49	to Arg1:T38 Arg2:T36	
+R55	Apply-to Arg1:T42 Arg2:T47	
+R53	to Arg1:T43 Arg2:T44	
+R54	from Arg1:T43 Arg2:T42	
+R22	Other-rel Arg1:T5 Arg2:T6	
+T53	PERSON 297 299	We
+T54	PROCESS 300 307	propose
+T64	PERSON 678 680	We
+T65	PROCESS 681 684	use
+R63	Agent Arg1:T54 Arg2:T53	
+R59	Apply-to Arg1:T65 Arg2:T51	
+R64	Output Arg1:T54 Arg2:T23	
+R65	Agent Arg1:T65 Arg2:T64	
+R66	Input Arg1:T65 Arg2:T50	
+T68	MODALITY 147 151	will
+R67	Attribute Arg1:T12 Arg2:T68	

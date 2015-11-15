@@ -1,0 +1,174 @@
+T1	PLAN-OR-PROCESS 0 28	Query Performance Prediction
+T2	PLAN 32 55	Web Search Environments
+T3	TIME 56 63	Current
+T4	PLAN 64 85	prediction techniques
+R1	Attribute Arg1:T4 Arg2:T3	
+T5	QUALITY 97 106	generally
+T6	PROCESS 107 115	designed
+R2	Attribute Arg1:T6 Arg2:T5	
+T7	DATA-ITEM 120 141	content-based queries
+T8	QUALITY 150 159	typically
+T9	PROCESS 160 169	evaluated
+R3	Attribute Arg1:T9 Arg2:T8	
+T10	QUALITY 173 194	relatively homogenous
+T11	DATA-ITEM 195 211	test collections
+T12	QUALITY 215 220	small
+T13	QUALITY 221 226	sizes
+R4	Attribute Arg1:T13 Arg2:T12	
+R5	Attribute Arg1:T11 Arg2:T10	
+T14	QUALITY 233 240	serious
+T15	PROCESS 228 232	face
+T16	PLAN 241 251	challenges
+R6	Attribute Arg1:T16 Arg2:T14	
+T17	PLAN 255 278	web search environments
+T18	DATA-ITEM 285 296	collections
+T19	QUALITY 301 333	significantly more heterogeneous
+T20	QUALITY 338 347	different
+T21	PLAN 348 353	types
+R8	Attribute Arg1:T21 Arg2:T20	
+T22	PLAN 357 372	retrieval tasks
+T23	QUANTITY 406 411	three
+T24	PLAN 412 422	techniques
+T25	APPLY-TO 426 433	address
+T26	PLAN 434 450	these challenges
+R9	Attribute Arg1:T24 Arg2:T23	
+T27	PLAN-OR-PROCESS 464 486	performance prediction
+T28	QUANTITY 491 494	two
+T29	DATA-ITEM 495 500	types
+T30	DATA-ITEM 504 511	queries
+R10	Attribute Arg1:T29 Arg2:T28	
+T31	PLAN 515 538	web search environments
+T32	DATA-ITEM 540 553	content-based
+T33	DATA-ITEM 558 576	Named-Page finding
+T34	PLAN 582 592	evaluation
+T35	QUALITY 596 602	mainly
+T36	INPUT 603 612	performed
+T37	DATA-ITEM 620 624	GOV2
+T38	DATA-ITEM 620 635	GOV2 collection
+T39	PROCESS 652 662	evaluating
+T40	PLAN 667 673	models
+T41	QUANTITY 682 685	two
+T42	DATA-ITEM 686 691	types
+R11	Attribute Arg1:T42 Arg2:T41	
+T43	DATA-ITEM 695 702	queries
+T44	QUALITY 703 713	separately
+T45	QUALITY 729 745	more challenging
+T46	QUALITY 729 733;750 759	more realistic
+T47	PLAN-OR-PROCESS 760 769	situation
+R12	Attribute Arg1:T47 Arg2:T46	
+R13	Attribute Arg1:T47 Arg2:T45	
+T48	QUANTITY 779 782	two
+T49	DATA-ITEM 783 788	types
+R14	Attribute Arg1:T39 Arg2:T44	
+T50	DATA-ITEM 792 799	queries
+T51	PROCESS 804 809	mixed
+T52	QUALITY 810 818	together
+R15	Attribute Arg1:T51 Arg2:T52	
+T53	MODALITY 819 826	without
+T54	TIME 827 832	prior
+T55	DATA-ITEM 833 844	information
+T56	DATA-ITEM 848 859	query types
+R16	Attribute Arg1:T55 Arg2:T54	
+T57	PROCESS 864 870	assist
+T58	PLAN-OR-PROCESS 871 881	prediction
+T59	PLAN-OR-PROCESS 892 913	mixed-query situation
+T60	QUALITY 917 922	novel
+T61	PLAN 923 939	query classifier
+R17	Attribute Arg1:T61 Arg2:T60	
+T62	APPLY-TO 943 950	adopted
+T63	DATA-ITEM 952 959	Results
+T64	RESULT 960 964	show
+T65	DATA-ITEM 974 984	prediction
+T66	DATA-ITEM 988 1009	web query performance
+T67	QUALITY 1013 1040	substantially more accurate
+T68	TIME 1050 1057	current
+T69	QUALITY 1058 1074	state-of-the-art
+T70	PLAN 1075 1096	prediction techniques
+R18	Attribute Arg1:T70 Arg2:T69	
+R19	Attribute Arg1:T70 Arg2:T68	
+T71	QUALITY 1133 1142	practical
+T72	PROCESS 1143 1151	approach
+T73	PLAN-OR-PROCESS 1155 1177	performance prediction
+T74	QUALITY 1181 1191	real-world
+T75	PLAN 1192 1204	web settings
+R21	Attribute Arg1:T72 Arg2:T71	
+R22	Attribute Arg1:T75 Arg2:T74	
+R23	Attribute Arg1:T55 Arg2:T53	
+R24	Coreference Arg1:T26 Arg2:T16	
+R25	Attribute Arg1:T49 Arg2:T48	
+T76	REFERENCE 87 92	which
+R26	Coreference Arg1:T76 Arg2:T4	
+T78	PERSON 578 581	Our
+T82	REFERENCE 770 774	that
+R27	Coreference Arg1:T82 Arg2:T47	
+R28	Poss Arg1:T78 Arg2:T34	
+T83	PERSON 663 666	our
+R29	Poss Arg1:T83 Arg2:T40	
+T84	PERSON 970 973	our
+R30	Poss Arg1:T84 Arg2:T65	
+R31	Condition Arg1:T1 Arg2:T2	
+R32	Output Arg1:T6 Arg2:T76	
+R33	Input Arg1:T6 Arg2:T7	
+R34	Input Arg1:T9 Arg2:T76	
+R35	Input Arg1:T9 Arg2:T11	
+R36	Attribute Arg1:T11 Arg2:T13	
+R37	Apply-to Arg1:T4 Arg2:T15	
+R38	Target Arg1:T15 Arg2:T16	
+R39	Condition Arg1:T15 Arg2:T17	
+T85	REFERENCE 279 284	where
+R40	Coreference Arg1:T85 Arg2:T17	
+R7	Attribute Arg1:T18 Arg2:T19	
+R41	Condition Arg1:T19 Arg2:T85	
+R42	Attribute Arg1:T22 Arg2:T21	
+T86	PROCESS 373 378	exist
+R43	Target Arg1:T86 Arg2:T21	
+R44	Condition Arg1:T86 Arg2:T85	
+R45	from Arg1:T25 Arg2:T24	
+R46	to Arg1:T25 Arg2:T26	
+R47	Attribute Arg1:T30 Arg2:T29	
+R48	Input Arg1:T27 Arg2:T29	
+R49	Condition Arg1:T27 Arg2:T31	
+R52	Attribute Arg1:T36 Arg2:T35	
+R53	from Arg1:T36 Arg2:T34	
+R54	to Arg1:T36 Arg2:T38	
+R55	Input Arg1:T39 Arg2:T40	
+R56	Attribute Arg1:T43 Arg2:T42	
+R57	Input Arg1:T39 Arg2:T43	
+R58	Attribute Arg1:T50 Arg2:T49	
+R59	Input Arg1:T51 Arg2:T50	
+R60	Is-a Arg1:T51 Arg2:T82	
+R61	Attribute Arg1:T56 Arg2:T55	
+R62	Condition Arg1:T51 Arg2:T55	
+R63	Target Arg1:T57 Arg2:T58	
+R64	Condition Arg1:T58 Arg2:T59	
+R65	from Arg1:T62 Arg2:T61	
+R66	to Arg1:T62 Arg2:T57	
+R67	from Arg1:T64 Arg2:T63	
+R68	to Arg1:T64 Arg2:T67	
+R20	Attribute Arg1:T65 Arg2:T67	
+R69	Attribute Arg1:T65 Arg2:T66	
+R70	Compare Arg1:T70 Arg2:T67	
+R71	Apply-to Arg1:T72 Arg2:T73	
+R72	Condition Arg1:T73 Arg2:T75	
+R50	Is-a Arg1:T32 Arg2:T29	
+R51	Is-a Arg1:T33 Arg2:T29	
+T77	REFERENCE 383 393	this paper
+T79	PERSON 395 397	we
+T80	PROCESS 398 405	present
+T81	PERSON 452 454	We
+T87	PROCESS 455 460	focus
+T88	PERSON 1112 1115	our
+T89	REFERENCE 1116 1121	paper
+R73	Poss Arg1:T88 Arg2:T89	
+T90	PROCESS 1122 1130	provides
+R74	Agent Arg1:T80 Arg2:T79	
+R75	Output Arg1:T80 Arg2:T24	
+R76	Agent Arg1:T87 Arg2:T81	
+R77	Target Arg1:T87 Arg2:T27	
+R78	Condition Arg1:T80 Arg2:T77	
+R79	Condition Arg1:T90 Arg2:T89	
+T91	PERSON 715 717	we
+T92	PROCESS 718 726	consider
+R80	Agent Arg1:T92 Arg2:T91	
+R81	In_Out Arg1:T92 Arg2:T47	
+R82	Output Arg1:T90 Arg2:T72	

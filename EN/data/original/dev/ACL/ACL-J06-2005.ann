@@ -1,0 +1,90 @@
+T1	PLAN-OR-PROCESS 0 21	Consistent Validation
+T2	DATA-ITEM 36 63	Automatic Sense Annotations
+T3	PLAN 80 95	Semantic Graphs
+T4	PROCESS 101 105	task
+T5	PROCESS 109 119	annotating
+T6	DATA-ITEM 120 125	texts
+T7	DATA-ITEM 131 137	senses
+T8	DATA-ITEM 145 166	computational lexicon
+T9	QUALITY 170 176	widely
+T10	QUALITY 194 201	complex
+T11	QUALITY 212 222	subjective
+T12	PLAN 233 243	strategies
+T13	PLAN 249 273	interannotator agreement
+T14	PLAN 278 284	voting
+T15	MODALITY 285 288	can
+T16	APPLY-TO 292 299	applied
+T17	PROCESS 303 312	deal with
+T18	DATA-ITEM 317 328	divergences
+T19	PLAN 337 350	sense taggers
+T20	DATA-ITEM 356 367	consistency
+T21	PLAN-OR-PROCESS 371 384	sense choices
+T22	DATA-ITEM 405 425	reference dictionary
+T23	MODALITY 429 432	not
+T24	TIME 433 439	always
+T25	PROCESS 440 450	guaranteed
+T26	REFERENCE 455 467	this article
+T27	PERSON 469 471	we
+T28	PROCESS 472 481	introduce
+T29	PLAN 482 488	Valido
+T30	PLAN 492 503	visual tool
+T31	PLAN-OR-PROCESS 512 522	validation
+T32	DATA-ITEM 537 565	auto-matic sense annotations
+T33	PLAN 567 575	The tool
+T34	PROCESS 576 583	employs
+T35	DATA-ITEM 584 617	semantic interconnection patterns
+T36	PROCESS 621 627	smooth
+T37	QUALITY 628 636	possible
+T38	DATA-ITEM 637 648	divergences
+T39	PROCESS 653 660	support
+T40	QUALITY 661 671	consistent
+T41	PLAN-OR-PROCESS 672 687	decision making
+T42	DATA-ITEM 25 31	Manual
+R1	Input Arg1:T1 Arg2:T42	
+R2	Input Arg1:T1 Arg2:T2	
+T43	PROCESS 73 76	Aid
+R3	Apply-to Arg1:T3 Arg2:T43	
+R4	Target Arg1:T43 Arg2:T1	
+R5	Is-a Arg1:T5 Arg2:T4	
+R6	Destination Arg1:T5 Arg2:T6	
+R7	Output Arg1:T5 Arg2:T7	
+R8	Component-object Arg1:T8 Arg2:T7	
+T44	PROCESS 177 187	recognized
+R9	Attribute Arg1:T44 Arg2:T9	
+R10	In_Out Arg1:T44 Arg2:T4	
+T45	QUALITY 206 211	often
+R11	Attribute Arg1:T11 Arg2:T45	
+R12	Attribute Arg1:T4 Arg2:T10	
+R13	Attribute Arg1:T4 Arg2:T11	
+R14	Is-a Arg1:T13 Arg2:T12	
+R15	Is-a Arg1:T14 Arg2:T12	
+R17	from Arg1:T16 Arg2:T12	
+R18	to Arg1:T16 Arg2:T17	
+R19	Attribute Arg1:T16 Arg2:T15	
+R20	Target Arg1:T17 Arg2:T18	
+R21	Attribute Arg1:T19 Arg2:T18	
+R22	Attribute Arg1:T21 Arg2:T20	
+R23	Condition Arg1:T20 Arg2:T22	
+R24	Attribute Arg1:T25 Arg2:T24	
+R25	Attribute Arg1:T24 Arg2:T23	
+R26	Target Arg1:T25 Arg2:T20	
+A1	Self T26
+A2	Self T27
+A3	Intentional T28
+R27	Agent Arg1:T28 Arg2:T27	
+R28	Condition Arg1:T28 Arg2:T26	
+R29	Output Arg1:T28 Arg2:T29	
+R30	Is-a Arg1:T29 Arg2:T30	
+R31	Apply-to Arg1:T30 Arg2:T31	
+T46	DATA-ITEM 526 532	manual
+R32	Input Arg1:T31 Arg2:T46	
+R33	Input Arg1:T31 Arg2:T32	
+R34	Coreference Arg1:T33 Arg2:T29	
+R35	Apply-to Arg1:T33 Arg2:T34	
+R36	Input Arg1:T34 Arg2:T35	
+R37	Apply-to Arg1:T33 Arg2:T36	
+R38	Attribute Arg1:T38 Arg2:T37	
+R39	In_Out Arg1:T36 Arg2:T38	
+R40	Apply-to Arg1:T33 Arg2:T39	
+R41	Attribute Arg1:T41 Arg2:T40	
+R42	Target Arg1:T39 Arg2:T41	

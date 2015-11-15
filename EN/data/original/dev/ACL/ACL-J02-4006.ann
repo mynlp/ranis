@@ -1,0 +1,116 @@
+T1	PLAN 6 28	Hidden Markov Modeling
+T2	APPLY-TO 0 5	Using
+T3	PROCESS 32 41	Decompose
+T4	DATA-ITEM 42 65	Human-Written Summaries
+T5	PERSON 67 91	Professional summarizers
+T6	PROCESS 98 103	reuse
+T7	QUALITY 92 97	often
+T8	DATA-ITEM 104 122	original documents
+T9	PROCESS 126 134	generate
+T10	DATA-ITEM 135 144	summaries
+T11	PLAN 150 154	task
+T12	PLAN 158 188	summary sentence decomposition
+T13	PROCESS 195 201	deduce
+T14	DATA-ITEM 212 228	summary sentence
+T15	PROCESS 232 243	constructed
+T16	PROCESS 247 254	reusing
+T17	DATA-ITEM 259 272	original text
+T18	PROCESS 280 288	identify
+T19	DATA-ITEM 289 303	reused phrases
+T20	PLAN 323 344	decomposition program
+T21	MODALITY 345 350	needs
+T22	PROCESS 354 360	answer
+T23	DATA-ITEM 367 376	questions
+T24	QUANTITY 361 366	three
+T25	QUALITY 383 388	given
+T26	DATA-ITEM 389 405	summary sentence
+T27	DATA-ITEM 414 435	this summary sentence
+R1	Coreference Arg1:T27 Arg2:T26	
+T28	PROCESS 436 447	constructed
+T29	PROCESS 451 458	reusing
+T30	DATA-ITEM 463 467	text
+T31	DATA-ITEM 475 492	original document
+T32	DATA-ITEM 510 517	phrases
+T33	DATA-ITEM 525 533	sentence
+T34	PROCESS 534 538	come
+T35	DATA-ITEM 548 565	original document
+T37	DATA-ITEM 593 601	document
+T38	DATA-ITEM 609 616	phrases
+T39	PROCESS 617 621	come
+T40	PROCESS 623 630	Solving
+T41	PLAN 635 656	decomposition problem
+T42	MODALITY 657 660	can
+T43	RESULT 661 665	lead
+T44	PLAN 676 702	text generation techniques
+T45	QUALITY 669 675	better
+T46	PLAN-OR-PROCESS 707 720	summarization
+T47	PLAN-OR-PROCESS 722 735	Decomposition
+T48	MODALITY 736 739	can
+T49	OUTPUT 745 752	provide
+T50	DATA-ITEM 759 767;780 787	training corpora
+T51	DATA-ITEM 772 787	testing corpora
+T52	QUALITY 753 758	large
+T53	PLAN 792 820	extraction-based summarizers
+T54	PLAN 835 863	hidden Markov model solution
+T55	PLAN 871 892	decomposition problem
+T56	PLAN-OR-PROCESS 894 905	Evaluations
+T57	OUTPUT 906 910	show
+T58	PLAN 920 938	proposed algorithm
+T59	ATTRIBUTE 939 947	performs
+T60	QUALITY 948 952	well
+R3	Attribute Arg1:T23 Arg2:T24	
+R2	Attribute Arg1:T44 Arg2:T45	
+R4	Attribute Arg1:T50 Arg2:T52	
+R5	Attribute Arg1:T51 Arg2:T52	
+R6	Attribute Arg1:T6 Arg2:T7	
+R7	Attribute Arg1:T26 Arg2:T25	
+R8	Component-object Arg1:T32 Arg2:T33	
+R9	Attribute Arg1:T43 Arg2:T42	
+R10	Attribute Arg1:T49 Arg2:T48	
+R11	to Arg1:T59 Arg2:T60	
+R12	from Arg1:T2 Arg2:T1	
+R13	to Arg1:T2 Arg2:T3	
+R14	Input Arg1:T3 Arg2:T4	
+R15	Input Arg1:T6 Arg2:T8	
+R16	Apply-to Arg1:T6 Arg2:T9	
+R17	Output Arg1:T9 Arg2:T10	
+R18	Agent Arg1:T6 Arg2:T5	
+R20	Is-a Arg1:T12 Arg2:T11	
+R21	Target Arg1:T13 Arg2:T15	
+R22	Output Arg1:T15 Arg2:T14	
+R23	Apply-to Arg1:T16 Arg2:T15	
+R24	Apply-to Arg1:T12 Arg2:T13	
+R25	Apply-to Arg1:T12 Arg2:T18	
+R26	Output Arg1:T18 Arg2:T19	
+R27	Input Arg1:T22 Arg2:T23	
+R28	Attribute Arg1:T22 Arg2:T21	
+R29	Apply-to Arg1:T20 Arg2:T22	
+R30	Condition Arg1:T22 Arg2:T26	
+R31	Output Arg1:T28 Arg2:T27	
+R32	Component-object Arg1:T30 Arg2:T31	
+R33	In_Out Arg1:T29 Arg2:T30	
+R34	Apply-to Arg1:T29 Arg2:T28	
+R35	Output Arg1:T34 Arg2:T32	
+R36	Origin Arg1:T34 Arg2:T35	
+R37	Origin Arg1:T39 Arg2:T37	
+R38	Output Arg1:T39 Arg2:T38	
+R39	Input Arg1:T40 Arg2:T41	
+R40	from Arg1:T43 Arg2:T40	
+R41	to Arg1:T43 Arg2:T44	
+R42	Apply-to Arg1:T44 Arg2:T46	
+R43	from Arg1:T49 Arg2:T47	
+R44	Input Arg1:T53 Arg2:T51	
+R45	Input Arg1:T53 Arg2:T50	
+R46	to Arg1:T49 Arg2:T51	
+R47	to Arg1:T49 Arg2:T50	
+R48	Apply-to Arg1:T54 Arg2:T55	
+R49	from Arg1:T59 Arg2:T58	
+R50	from Arg1:T57 Arg2:T56	
+R51	to Arg1:T57 Arg2:T60	
+R19	Input Arg1:T16 Arg2:T17	
+T65	MODALITY 202 209	whether
+R52	Attribute Arg1:T15 Arg2:T65	
+T36	PERSON 822 824	We
+T61	PROCESS 825 832	propose
+R53	Agent Arg1:T61 Arg2:T36	
+R54	Output Arg1:T61 Arg2:T54	

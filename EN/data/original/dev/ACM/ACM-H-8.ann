@@ -1,0 +1,185 @@
+T1	QUALITY 0 6	Robust
+T2	DATA-ITEM 7 23	Test Collections
+T3	PLAN-OR-PROCESS 28 48	Retrieval Evaluation
+T4	PLAN 49 65	Low-cost methods
+T5	PROCESS 70 79	acquiring
+T6	DATA-ITEM 80 99	relevance judgments
+T7	MODALITY 100 103	can
+T8	QUALITY 109 113	boon
+T9	PERSON 117 128	researchers
+T10	REFERENCE 129 132	who
+T11	MODALITY 133 137	need
+T12	PROCESS 141 149	evaluate
+T13	QUALITY 150 153	new
+T14	PLAN 154 169	retrieval tasks
+T15	DATA-ITEM 173 179	topics
+T16	MODALITY 187 190	not
+T17	PROCESS 191 195	have
+T18	DATA-ITEM 200 209	resources
+T19	PROCESS 213 217	make
+T20	QUANTITY 218 227	thousands
+T21	DATA-ITEM 231 240	judgments
+T22	DATA-ITEM 248 263	these judgments
+T23	QUALITY 268 279	very useful
+T24	PLAN-OR-PROCESS 286 305	one-time evaluation
+T25	MODALITY 313 316	not
+T26	QUALITY 317 322	clear
+T27	REFERENCE 328 332	they
+T28	MODALITY 333 336	can
+T29	PROCESS 340 347	trusted
+T30	PROCESS 353 360	re-used
+T31	PROCESS 364 372	evaluate
+T32	QUALITY 373 376	new
+T33	PLAN 377 384	systems
+T34	REFERENCE 389 398	this work
+T35	PERSON 400 402	we
+T36	QUALITY 403 411	formally
+T37	PROCESS 412 418	define
+T40	DATA-ITEM 437 446	judgments
+T41	QUALITY 453 461	reusable
+T42	DATA-ITEM 467 477	confidence
+T43	PROCESS 484 494	evaluation
+T44	QUALITY 498 501	new
+T45	PLAN 502 509	systems
+T46	MODALITY 510 513	can
+T47	QUALITY 517 527	accurately
+T48	PROCESS 528 536	assessed
+T49	QUALITY 545 553	existing
+T50	DATA-ITEM 554 557	set
+T51	DATA-ITEM 561 580	relevance judgments
+T52	PERSON 582 584	We
+T53	PROCESS 590 597	present
+T54	PLAN 600 606	method
+T55	PROCESS 611 621	augmenting
+T56	DATA-ITEM 624 627	set
+T57	DATA-ITEM 631 650	relevance judgments
+T58	DATA-ITEM 656 675	relevance estimates
+T59	REFERENCE 676 680	that
+T60	QUALITY 681 688	require
+T61	QUANTITY 689 691	no
+T62	PLAN-OR-PROCESS 703 718	assessor effort
+T63	PROCESS 720 725	Using
+T64	PLAN 726 737	this method
+T65	QUALITY 738 749	practically
+T66	PROCESS 750 760	guarantees
+T67	QUALITY 761 772	reusability
+T68	QUANTITY 779 793	as few as five
+T69	DATA-ITEM 794 803	judgments
+T70	DATA-ITEM 808 813	topic
+T71	PROCESS 814 819	taken
+T72	QUALITY 825 829	only
+T73	QUANTITY 830 833	two
+T74	PLAN 834 841	systems
+T75	PERSON 843 845	we
+T76	MODALITY 846 849	can
+T77	QUALITY 850 858	reliably
+T78	PROCESS 859 867	evaluate
+T79	QUALITY 870 876	larger
+T80	PLAN 877 880	set
+T81	PLAN 888 895	systems
+T82	QUALITY 906 914	smallest
+T83	DATA-ITEM 915 919	sets
+T84	DATA-ITEM 923 932	judgments
+T85	MODALITY 933 936	can
+T86	QUALITY 940 946	useful
+T87	PROCESS 951 961	evaluation
+T88	QUALITY 965 968	new
+T89	PLAN 969 976	systems
+R1	Attribute Arg1:T2 Arg2:T1	
+R2	In_Out Arg1:T5 Arg2:T6	
+R3	Apply-to Arg1:T4 Arg2:T5	
+R4	Attribute Arg1:T8 Arg2:T7	
+R5	Attribute Arg1:T4 Arg2:T8	
+R6	Condition Arg1:T8 Arg2:T9	
+R7	Coreference Arg1:T10 Arg2:T9	
+R8	Attribute Arg1:T12 Arg2:T11	
+R9	Agent Arg1:T12 Arg2:T10	
+R10	Attribute Arg1:T14 Arg2:T13	
+R11	Input Arg1:T12 Arg2:T14	
+R12	Attribute Arg1:T17 Arg2:T16	
+R13	Agent Arg1:T17 Arg2:T10	
+R14	Target Arg1:T17 Arg2:T18	
+R15	Attribute Arg1:T21 Arg2:T20	
+R16	Output Arg1:T19 Arg2:T21	
+R17	Agent Arg1:T19 Arg2:T9	
+R18	Input Arg1:T19 Arg2:T18	
+R19	Attribute Arg1:T15 Arg2:T13	
+R20	Input Arg1:T12 Arg2:T15	
+R21	Input Arg1:T3 Arg2:T2	
+R22	Coreference Arg1:T22 Arg2:T21	
+R23	Attribute Arg1:T22 Arg2:T23	
+R24	Condition Arg1:T23 Arg2:T24	
+R25	Attribute Arg1:T26 Arg2:T25	
+R26	Coreference Arg1:T27 Arg2:T22	
+R27	Attribute Arg1:T29 Arg2:T28	
+R28	Target Arg1:T29 Arg2:T27	
+R29	Attribute Arg1:T33 Arg2:T32	
+R30	Input Arg1:T31 Arg2:T33	
+R31	Apply-to Arg1:T30 Arg2:T31	
+R32	Input Arg1:T30 Arg2:T27	
+R33	Condition Arg1:T29 Arg2:T30	
+R34	Attribute Arg1:T29 Arg2:T26	
+A1	Self T34
+A2	Self T35
+R35	Attribute Arg1:T37 Arg2:T36	
+A3	Intentional T37
+R36	Agent Arg1:T37 Arg2:T35	
+R37	Condition Arg1:T37 Arg2:T34	
+R38	Attribute Arg1:T40 Arg2:T41	
+R39	Attribute Arg1:T45 Arg2:T44	
+R40	Input Arg1:T43 Arg2:T45	
+R41	Attribute Arg1:T48 Arg2:T47	
+R42	Attribute Arg1:T48 Arg2:T46	
+R43	Attribute Arg1:T50 Arg2:T49	
+R44	Member-collection Arg1:T51 Arg2:T50	
+R45	Input Arg1:T48 Arg2:T50	
+R46	Output Arg1:T48 Arg2:T42	
+R47	Attribute Arg1:T43 Arg2:T42	
+R48	Output Arg1:T37 Arg2:T40	
+A4	Self T52
+A5	Intentional T53
+R49	Agent Arg1:T53 Arg2:T52	
+R50	Output Arg1:T53 Arg2:T54	
+R51	Apply-to Arg1:T54 Arg2:T55	
+R52	In_Out Arg1:T55 Arg2:T56	
+R53	Member-collection Arg1:T57 Arg2:T56	
+R54	Output Arg1:T55 Arg2:T58	
+T38	QUALITY 692 702	additional
+T39	PERSON 703 711	assessor
+R55	Attribute Arg1:T62 Arg2:T38	
+R56	Attribute Arg1:T62 Arg2:T61	
+R57	Coreference Arg1:T59 Arg2:T54	
+R58	Attribute Arg1:T60 Arg2:T62	
+R59	Condition Arg1:T60 Arg2:T59	
+R60	Target Arg1:T66 Arg2:T67	
+R61	Attribute Arg1:T66 Arg2:T65	
+R62	Input Arg1:T63 Arg2:T64	
+R63	Result Arg1:T63 Arg2:T66	
+R64	Coreference Arg1:T64 Arg2:T54	
+R65	Attribute Arg1:T69 Arg2:T68	
+R66	Condition Arg1:T68 Arg2:T70	
+R67	Attribute Arg1:T74 Arg2:T73	
+R68	Attribute Arg1:T73 Arg2:T72	
+A6	Self T75
+A7	Intentional T78
+R69	Attribute Arg1:T78 Arg2:T77	
+R70	Attribute Arg1:T78 Arg2:T76	
+R71	Agent Arg1:T78 Arg2:T75	
+R72	Attribute Arg1:T80 Arg2:T79	
+T90	QUANTITY 884 887	ten
+R73	Attribute Arg1:T81 Arg2:T90	
+R74	Input Arg1:T78 Arg2:T80	
+R75	Member-collection Arg1:T81 Arg2:T80	
+R76	Output Arg1:T71 Arg2:T69	
+R77	Apply-to Arg1:T74 Arg2:T71	
+R78	Input Arg1:T78 Arg2:T69	
+A8	Judgment T77
+R79	Attribute Arg1:T83 Arg2:T82	
+R80	Member-collection Arg1:T84 Arg2:T83	
+R81	Attribute Arg1:T83 Arg2:T86	
+R82	Attribute Arg1:T86 Arg2:T85	
+R83	Condition Arg1:T86 Arg2:T87	
+R84	Attribute Arg1:T89 Arg2:T88	
+R85	Input Arg1:T87 Arg2:T89	
+A9	Judgment T86
+A10	Judgment T67

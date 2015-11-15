@@ -1,0 +1,123 @@
+T1	PROCESS 4 13	Influence
+T2	DATA-ITEM 17 33	Caption Features
+T3	DATA-ITEM 37 58	Clickthrough Patterns
+T4	PLAN-OR-PROCESS 62 72	Web Search
+T5	PLAN 73 91	Web search engines
+T7	DATA-ITEM 100 105	lists
+T8	DATA-ITEM 109 117	captions
+T9	COMPONENT-OBJECT 119 129	comprising
+T10	DATA-ITEM 137 144	snippet
+T11	PLAN 150 153	URL
+T12	PROCESS 158 162	help
+T13	PERSON 163 168	users
+T14	PROCESS 169 175	decide
+T16	DATA-ITEM 182 196	search results
+T17	PROCESS 200 205	visit
+T18	PLAN-OR-PROCESS 207 220	Understanding
+T19	PROCESS 225 234	influence
+T20	DATA-ITEM 238 246	features
+T21	DATA-ITEM 250 264	these captions
+T22	PLAN-OR-PROCESS 268 287	Web search behavior
+T23	MODALITY 288 291	may
+T24	PROCESS 292 296	help
+T25	PROCESS 297 305	validate
+T26	PLAN 306 316	algorithms
+T27	PLAN 321 331	guidelines
+T28	REFERENCE 336 341	their
+T29	QUALITY 342 350	improved
+T30	REFERENCE 366 376	this paper
+T31	PERSON 377 379	we
+T32	PROCESS 380 387	develop
+T33	PLAN 390 401	methodology
+T34	INPUT 405 408	use
+T35	DATA-ITEM 409 426	clickthrough logs
+T36	PLAN 434 458	commercial search engine
+T37	PROCESS 462 467	study
+T38	PLAN-OR-PROCESS 468 481	user behavior
+T39	PROCESS 487 498	interacting
+T40	DATA-ITEM 504 526	search result captions
+T41	PLAN 532 540	findings
+T42	PERSON 544 547	our
+T43	PROCESS 548 553	study
+T44	QUALITY 567 584	relatively simple
+T45	DATA-ITEM 585 601	caption features
+T46	DATA-ITEM 614 622	presence
+T48	DATA-ITEM 626 647	all terms query terms
+T51	DATA-ITEM 653 664	readability
+T52	DATA-ITEM 672 679	snippet
+T53	DATA-ITEM 689 695	length
+T54	DATA-ITEM 703 706	URL
+T55	PROCESS 707 712	shown
+T56	DATA-ITEM 720 727	caption
+T57	MODALITY 729 732	can
+T58	QUALITY 733 746	significantly
+T59	PERSON 757 762	users
+T60	PLAN-OR-PROCESS 764 783	Web search behavior
+T6	PROCESS 92 99	present
+R1	Apply-to Arg1:T5 Arg2:T6	
+R2	Output Arg1:T6 Arg2:T7	
+R3	Member-collection Arg1:T8 Arg2:T7	
+T61	DATA-ITEM 130 135	title
+R4	to Arg1:T9 Arg2:T61	
+R5	to Arg1:T9 Arg2:T10	
+R6	to Arg1:T9 Arg2:T11	
+R7	from Arg1:T9 Arg2:T8	
+R8	Apply-to Arg1:T6 Arg2:T12	
+R9	Agent Arg1:T14 Arg2:T13	
+R10	Target Arg1:T12 Arg2:T14	
+R11	Destination Arg1:T17 Arg2:T16	
+R12	Output Arg1:T14 Arg2:T17	
+R13	In_Out Arg1:T18 Arg2:T19	
+R14	Coreference Arg1:T21 Arg2:T8	
+R15	Attribute Arg1:T21 Arg2:T20	
+R16	In_Out Arg1:T19 Arg2:T22	
+R17	Other-rel Arg1:T20 Arg2:T19	
+R18	Other-rel Arg1:T2 Arg2:T1	
+R19	In_Out Arg1:T1 Arg2:T3	
+R20	Attribute Arg1:T4 Arg2:T3	
+R21	Attribute Arg1:T24 Arg2:T23	
+R22	Target Arg1:T24 Arg2:T25	
+R23	In_Out Arg1:T25 Arg2:T26	
+R24	In_Out Arg1:T25 Arg2:T27	
+T15	PLAN 351 361	generation
+R25	Attribute Arg1:T15 Arg2:T29	
+R26	Member-collection Arg1:T27 Arg2:T28	
+R27	Member-collection Arg1:T26 Arg2:T28	
+R28	Result Arg1:T18 Arg2:T24	
+R29	Poss Arg1:T28 Arg2:T15	
+A1	Self T30
+A2	Self T31
+A3	Intentional T32
+R30	Agent Arg1:T32 Arg2:T31	
+R31	Condition Arg1:T32 Arg2:T30	
+R32	Output Arg1:T32 Arg2:T33	
+R33	Output Arg1:T36 Arg2:T35	
+R35	to Arg1:T34 Arg2:T35	
+R36	from Arg1:T34 Arg2:T37	
+R34	Apply-to Arg1:T33 Arg2:T37	
+R37	In_Out Arg1:T37 Arg2:T38	
+R38	Target Arg1:T39 Arg2:T40	
+R39	Condition Arg1:T38 Arg2:T39	
+A4	Self T42
+R40	Poss Arg1:T42 Arg2:T43	
+R41	Output Arg1:T43 Arg2:T41	
+R42	Attribute Arg1:T45 Arg2:T44	
+R43	Attribute Arg1:T48 Arg2:T46	
+R44	Is-a Arg1:T46 Arg2:T45	
+R45	Attribute Arg1:T52 Arg2:T51	
+R46	Is-a Arg1:T51 Arg2:T45	
+R47	Attribute Arg1:T54 Arg2:T53	
+R48	Is-a Arg1:T53 Arg2:T45	
+R49	Output Arg1:T55 Arg2:T45	
+R50	Destination Arg1:T55 Arg2:T56	
+T47	PROCESS 747 756	influence
+R51	Attribute Arg1:T47 Arg2:T58	
+R52	Attribute Arg1:T47 Arg2:T57	
+R53	Other-rel Arg1:T45 Arg2:T47	
+R54	Agent Arg1:T60 Arg2:T59	
+R55	In_Out Arg1:T47 Arg2:T60	
+T49	RESULT 554 561	suggest
+R56	from Arg1:T49 Arg2:T41	
+R57	to Arg1:T49 Arg2:T47	
+A5	Judgment T58
+A6	Judgment T44

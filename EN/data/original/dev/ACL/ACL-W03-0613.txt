@@ -1,0 +1,8 @@
+Learning Word Meanings And Descriptive Parameter Spaces From Music .
+The audio bitstream in music encodes a high amount of statistical , acoustic , emotional and cultural information .
+But music also has an important linguistic accessory ; most musical artists are described in great detail in record reviews , fan sites and news items .
+We highlight current and ongoing research into extracting relevant features from audio and simultaneously learning language features linked to the music .
+We show results in a `` query-by-description '' task in which we learn the perceptual meaning of automatically-discovered single-term descriptive components , as well as a method of automatically uncovering ` semantically attached ' terms ( terms that have perceptual grounding . )
+We then show recent work in ` semantic basis functions ' -- parameter spaces of description ( such as fast ... slow or male ... female ) that encode the highest descriptive variance in a semantic space .
+
+

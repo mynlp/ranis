@@ -1,0 +1,7 @@
+Binding Machines
+
+Binding constraints form one of the most robust modules of grammatical knowledge.
+Despite their crosslinguistic generality and practical relevance for anaphor resolution, they have resisted full integration into grammar processing.
+The ultimate reason for this is to be found in the original exhaustive coindexation rationale for their specification and verification.
+As an alternative, we propose an approach which, while permitting a unification-based specification of binding constraints, allows for a verification methodology that helps to overcome previous drawbacks.
+This alternative approach is based on the rationale that anaphoric nominals can be viewed as binding machines.

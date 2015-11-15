@@ -1,0 +1,186 @@
+T1	PLAN 0 38	Utility-based Information Distillation
+T2	REFERENCE 75 85	This paper
+T3	PROCESS 86 94	examines
+T4	QUALITY 97 100	new
+T5	PLAN 101 109	approach
+T6	PLAN-OR-PROCESS 113 137	information distillation
+T7	DATA-ITEM 143 171	temporally ordered documents
+T8	PROCESS 177 185	proposes
+T9	QUALITY 188 193	novel
+T10	PLAN 194 211	evaluation scheme
+T11	PLAN 216 232	such a framework
+T12	REFERENCE 234 236	It
+T13	PROCESS 237 245	combines
+T14	QUALITY 250 259	strengths
+T15	PROCESS 267 274	extends
+T16	QUALITY 282 294	conventional
+T17	PLAN 295 313	adaptive filtering
+T18	PLAN 315 332	novelty detection
+T19	PLAN 337 366	non-redundant passage ranking
+T20	QUALITY 383 394	long-lastin
+T21	DATA-ITEM 396 413	information needs
+T22	PLAN 416 421	tasks
+T23	QUANTITY 428 436	multiple
+T24	DATA-ITEM 437 444	queries
+T25	PERSON 447 450	Our
+T26	PLAN 451 459	approach
+T27	PROCESS 460 468	supports
+T28	QUALITY 469 481	fine-grained
+T29	PLAN-OR-PROCESS 482 495	user feedback
+T30	PROCESS 500 512	highlighting
+T31	DATA-ITEM 516 531	arbitrary spans
+T32	DATA-ITEM 535 539	text
+T33	PROCESS 545 554	leverages
+T34	DATA-ITEM 555 571	such information
+T35	PLAN-OR-PROCESS 576 596	utility optimization
+T36	QUALITY 600 608	adaptive
+T37	PLAN 609 617	settings
+T38	PERSON 623 626	our
+T39	PLAN 627 638	experiments
+T40	PERSON 640 642	we
+T41	PROCESS 643 650	defined
+T42	PLAN 651 669	hypothetical tasks
+T43	INPUT 670 678	based on
+T44	DATA-ITEM 679 690	news events
+T45	DATA-ITEM 698 709	TDT4 corpus
+T46	QUANTITY 716 724	multiple
+T47	DATA-ITEM 725 732	queries
+T48	PLAN 737 741	task
+T49	DATA-ITEM 743 754	Answer keys
+T50	DATA-ITEM 756 763	nuggets
+T51	PROCESS 770 779	generated
+T52	QUALITY 784 788	each
+T53	DATA-ITEM 789 794	query
+T54	PLAN 801 824	semiautomatic procedure
+T55	APPLY-TO 829 833	used
+T56	PROCESS 838 847	acquiring
+T57	PLAN 848 853	rules
+T58	REFERENCE 854 858	that
+T59	PROCESS 859 864	allow
+T60	QUALITY 865 878	automatically
+T61	PROCESS 879 887	matching
+T62	DATA-ITEM 888 895	nuggets
+T63	PLAN-OR-PROCESS 904 920	system responses
+T64	PERSON 922 924	We
+T65	PROCESS 930 937	propose
+T66	PLAN-OR-PROCESS 941 950	extension
+T67	PLAN 958 969	NDCG metric
+T68	PROCESS 974 983	assessing
+T69	DATA-ITEM 988 995	utility
+T70	DATA-ITEM 999 1014	ranked passages
+T71	DATA-ITEM 1020 1031	combination
+T72	DATA-ITEM 1035 1044	relevance
+T73	DATA-ITEM 1049 1056	novelty
+T74	PERSON 1058 1061	Our
+T75	DATA-ITEM 1062 1069	results
+T76	RESULT 1070 1074	show
+T77	QUALITY 1075 1086	encouraging
+T78	PROCESS 1087 1107	utility enhancements
+T79	APPLY-TO 1108 1113	using
+T80	QUALITY 1118 1121	new
+T81	PLAN 1122 1130	approach
+T82	COMPARE 1132 1140	compared
+T83	PLAN 1148 1164	baseline systems
+T84	MODALITY 1165 1172	without
+T85	PLAN-OR-PROCESS 1185 1193	learning
+T86	PLAN 1201 1229	novelty detection components
+T87	DATA-ITEM 44 74	Temporally Sequenced Documents
+A1	Self T2
+A2	Intentional T3
+R1	Condition Arg1:T3 Arg2:T2	
+R2	Attribute Arg1:T5 Arg2:T4	
+R3	In_Out Arg1:T3 Arg2:T5	
+R4	Apply-to Arg1:T5 Arg2:T6	
+R5	Input Arg1:T1 Arg2:T87	
+R6	Input Arg1:T6 Arg2:T7	
+A3	Intentional T8
+R7	Condition Arg1:T8 Arg2:T2	
+R8	Attribute Arg1:T10 Arg2:T9	
+R9	Output Arg1:T8 Arg2:T10	
+R10	Input Arg1:T11 Arg2:T10	
+R11	Is-a Arg1:T5 Arg2:T11	
+R12	Attribute Arg1:T17 Arg2:T16	
+R13	Input Arg1:T13 Arg2:T14	
+R14	Apply-to Arg1:T12 Arg2:T13	
+R15	Coreference Arg1:T12 Arg2:T5	
+R16	Apply-to Arg1:T12 Arg2:T15	
+T88	QUALITY 275 281	beyond
+R17	Attribute Arg1:T15 Arg2:T88	
+R18	Compare Arg1:T17 Arg2:T88	
+R19	Attribute Arg1:T18 Arg2:T14	
+R20	Attribute Arg1:T19 Arg2:T14	
+R21	In_Out Arg1:T15 Arg2:T18	
+R22	In_Out Arg1:T15 Arg2:T19	
+R23	Attribute Arg1:T21 Arg2:T20	
+R24	Attribute Arg1:T24 Arg2:T23	
+R25	Attribute Arg1:T22 Arg2:T24	
+A4	Self T25
+R28	Poss Arg1:T25 Arg2:T26	
+R29	Attribute Arg1:T29 Arg2:T28	
+R30	Component-object Arg1:T32 Arg2:T31	
+R31	In_Out Arg1:T30 Arg2:T31	
+R32	Apply-to Arg1:T30 Arg2:T27	
+R33	Target Arg1:T27 Arg2:T29	
+R34	Apply-to Arg1:T26 Arg2:T27	
+R35	Apply-to Arg1:T26 Arg2:T33	
+R36	Input Arg1:T33 Arg2:T34	
+R37	Attribute Arg1:T37 Arg2:T36	
+R38	Condition Arg1:T35 Arg2:T37	
+R39	Apply-to Arg1:T33 Arg2:T35	
+A5	Self T38
+R40	Poss Arg1:T38 Arg2:T39	
+A6	Self T40
+A7	Intentional T41
+R41	Agent Arg1:T41 Arg2:T40	
+R42	Output Arg1:T41 Arg2:T42	
+R43	from Arg1:T43 Arg2:T42	
+R44	to Arg1:T43 Arg2:T44	
+R46	Attribute Arg1:T47 Arg2:T46	
+R47	Condition Arg1:T47 Arg2:T48	
+R49	Apply-to Arg1:T41 Arg2:T39	
+R50	Output Arg1:T51 Arg2:T49	
+R51	Attribute Arg1:T53 Arg2:T52	
+R52	from Arg1:T55 Arg2:T54	
+R53	to Arg1:T55 Arg2:T56	
+R54	In_Out Arg1:T56 Arg2:T57	
+R55	Coreference Arg1:T58 Arg2:T57	
+R56	Attribute Arg1:T59 Arg2:T60	
+R57	Apply-to Arg1:T58 Arg2:T59	
+R58	Apply-to Arg1:T59 Arg2:T61	
+R59	Output Arg1:T61 Arg2:T62	
+R60	Destination Arg1:T61 Arg2:T63	
+R61	Input Arg1:T51 Arg2:T53	
+A8	Self T64
+A9	Intentional T65
+R62	Agent Arg1:T65 Arg2:T64	
+R63	Output Arg1:T65 Arg2:T66	
+R64	In_Out Arg1:T66 Arg2:T67	
+R65	Apply-to Arg1:T66 Arg2:T68	
+R66	Attribute Arg1:T70 Arg2:T69	
+R67	In_Out Arg1:T68 Arg2:T69	
+R68	Component-object Arg1:T71 Arg2:T72	
+R69	Component-object Arg1:T71 Arg2:T73	
+R70	Equivalence Arg1:T71 Arg2:T70	
+A10	Self T74
+R71	Poss Arg1:T74 Arg2:T75	
+R72	Attribute Arg1:T78 Arg2:T77	
+A11	Judgment T77
+R73	Attribute Arg1:T81 Arg2:T80	
+R74	from Arg1:T79 Arg2:T81	
+R75	to Arg1:T79 Arg2:T78	
+A12	Judgment T78
+R76	to Arg1:T76 Arg2:T78	
+R77	from Arg1:T76 Arg2:T75	
+R78	from Arg1:T82 Arg2:T83	
+R79	to Arg1:T82 Arg2:T78	
+T89	QUALITY 1173 1184	incremental
+R80	Attribute Arg1:T85 Arg2:T89	
+R81	Attribute Arg1:T85 Arg2:T84	
+R82	In_Out Arg1:T85 Arg2:T86	
+R83	Condition Arg1:T83 Arg2:T85	
+T90	CONDITION 367 382	with respect to
+R84	to Arg1:T90 Arg2:T21	
+R85	from Arg1:T90 Arg2:T15	
+R86	from Arg1:T90 Arg2:T13	
+R26	Component-object Arg1:T45 Arg2:T44	
+R45	Input Arg1:T42 Arg2:T47	

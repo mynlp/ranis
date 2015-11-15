@@ -1,0 +1,52 @@
+R1	Apply-to Arg1:T3 Arg2:T2
+R2	Is-a Arg1:T1 Arg2:T2
+A1	Self T4
+A2	Intentional T5
+R3	Agent Arg1:T5 Arg2:T4
+R4	Input Arg1:T5 Arg2:T6
+R5	Apply-to Arg1:T5 Arg2:T9
+R6	In_Out Arg1:T7 Arg2:T8
+R7	Condition Arg1:T9 Arg2:T10
+R8	Apply-to Arg1:T6 Arg2:T7
+R9	Coreference Arg1:T11 Arg2:T10
+R10	Target Arg1:T13 Arg2:T14
+R11	Target Arg1:T13 Arg2:T16
+R12	Is-a Arg1:T14 Arg2:T15
+R13	from Arg1:T12 Arg2:T13
+R14	to Arg1:T12 Arg2:T11
+R15	Attribute Arg1:T20 Arg2:T19
+R16	from Arg1:T18 Arg2:T17
+R17	to Arg1:T18 Arg2:T19
+R18	Condition Arg1:T22 Arg2:T21
+R19	Attribute Arg1:T24 Arg2:T23
+R20	Member-collection Arg1:T24 Arg2:T25
+R21	Condition Arg1:T22 Arg2:T24
+R23	to Arg1:T26 Arg2:T19
+R24	from Arg1:T26 Arg2:T22
+A3	Judgment T19
+T1	PLAN-OR-PROCESS 0 19	Machine Translation
+T2	PLAN-OR-PROCESS 23 42	Lexicalized Parsing
+T3	PLAN 48 53	Hooks
+T4	PERSON 56 58	We
+T5	PROCESS 59 64	adapt
+T6	PLAN 69 85	`` hook '' trick
+T7	PROCESS 90 101	speeding up
+T8	PLAN-OR-PROCESS 102 119	bilexical parsing
+T9	PLAN 127 143	decoding problem
+T10	PLAN 148 174	machine translation models
+T11	REFERENCE 175 179	that
+T12	APPLY-TO 184 192	based on
+T13	PROCESS 193 202	combining
+T14	PLAN 205 237	synchronous context free grammar
+T15	PLAN 245 262	translation model
+T16	PLAN 271 292	n-gram language model
+T17	PLAN 295 329	This dynamic programming technique
+T18	RESULT 330 336	yields
+T19	QUALITY 337 353	lower complexity
+T20	PLAN 354 364	algorithms
+T26	COMPARE 365 369	than
+T21	TIME 375 385	previously
+T22	PROCESS 391 400	described
+T23	QUALITY 408 417	important
+T24	PLAN 418 423	class
+T25	PLAN 427 445	translation models

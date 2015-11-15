@@ -1,0 +1,8 @@
+A Probabilistic Account of Logical Metonymy
+
+In this article we investigate logical metonymy, that is, constructions in which the argument of a word in syntax appears to be different from that argument in logical form (e.g., enjoy the book means enjoy reading the book, and easy problem means a problem that is easy to solve).
+The systematic variation in the interpretation of such constructions suggests a rich and complex theory of composition on the syntax/semantics interface.
+Linguistic accounts of logical metonymy typically fail to describe exhaustively all the possible interpretations, or they don't rank those interpretations in terms of their likelihood.
+In view of this, we acquire the meanings of metonymic verbs and adjectives from a large corpus and propose a probabilistic model that provides a ranking on the set of possible interpretations.
+We identify the interpretations automatically by exploiting the consistent correspondences between surface syntactic cues and meaning.
+We evaluate our results against paraphrase judgments elicited experimentally from humans and show that the model's ranking of meanings correlates reliably with human intuitions.

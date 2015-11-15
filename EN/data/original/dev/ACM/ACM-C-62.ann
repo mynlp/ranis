@@ -1,0 +1,162 @@
+T1	PLAN 0 16	Network Monitors
+T2	PLAN 21 40	Contracting Systems
+T3	PLAN-OR-PROCESS 42 53	Competition
+T4	PLAN-OR-PROCESS 58 68	Innovation
+T5	ORGANIZATION 77 94	Internet industry
+T6	TIME 69 74	Today
+T7	ATTRIBUTE 95 102	suffers
+T8	QUALITY 127 138	pathologies
+T9	QUALITY 116 126	well-known
+T10	QUANTITY 108 115	several
+T11	MODALITY 144 148	none
+T12	QUALITY 155 166	destructive
+T13	TIME 174 183	long term
+T14	QUALITY 191 201	resistance
+T15	PLAN-OR-PROCESS 205 214	evolution
+T16	PROCESS 228 239	introducing
+T17	QUALITY 240 243	new
+T18	PLAN 244 252	services
+T19	ORGANIZATION 254 258	ISPs
+T20	PROCESS 273 287	moving towards
+T21	TIME 263 272	presently
+T22	OCCURENT 296 311	commoditization
+T23	QUALITY 288 295	greater
+T25	PLAN 337 344	network
+T26	PLAN 357 363	system
+T27	QUALITY 347 356	primitive
+T28	DATA-ITEM 367 376	contracts
+T29	MODALITY 382 385	not
+T30	PROCESS 386 391	align
+T31	PLAN 392 402	incentives
+T32	QUALITY 403 411	properly
+T33	PLAN 444 451	network
+T34	QUALITY 454 458	lack
+T35	QUALITY 462 476	accountability
+T36	QUALITY 494 502	obstacle
+T37	PROCESS 506 516	correcting
+T38	PLAN 517 529	this problem
+T39	APPLY-TO 531 540	Employing
+T40	PLAN 544 558	economic model
+T41	PLAN 582 588	routes
+T42	QUALITY 574 581	optimal
+T44	PLAN-OR-PROCESS 593 603	innovation
+T45	QUALITY 608 618	impossible
+T46	QUALITY 626 629	new
+T47	PLAN 630 651	monitoring capability
+T48	PROCESS 655 665	introduced
+T49	PROCESS 670 682	incorporated
+T50	PLAN 692 710	contracting system
+T51	PLAN 747 759	requirements
+T52	QUALITY 739 746	minimum
+T53	PLAN 762 779	monitoring system
+T54	MODALITY 780 784	must
+T55	PROCESS 785 789	meet
+T56	PROCESS 793 800	support
+T57	PLAN-OR-PROCESS 801 819	first-best routing
+T59	QUALITY 824 850	innovation characteristics
+T60	PROCESS 870 880	constitute
+T61	MODALITY 866 869	not
+T62	PLAN 887 895	protocol
+T63	QUALITY 883 886	new
+T65	PLAN 939 947	guidance
+T66	PLAN-OR-PROCESS 956 962	design
+T67	PLAN 966 984	monitoring systems
+T68	PLAN 999 1020	theoretical framework
+T69	PROCESS 1024 1031	explore
+T70	QUALITY 1036 1043	factors
+T71	REFERENCE 1044 1048	that
+T72	PROCESS 1049 1058	influence
+T73	PLAN-OR-PROCESS 1059 1069	innovation
+R1	Attribute Arg1:T8 Arg2:T9	
+R2	Attribute Arg1:T41 Arg2:T42	
+R3	Attribute Arg1:T51 Arg2:T52	
+R4	Attribute Arg1:T62 Arg2:T63	
+T43	QUALITY 916 925	practical
+T74	QUALITY 930 938	specific
+R5	Attribute Arg1:T65 Arg2:T43	
+R6	Attribute Arg1:T65 Arg2:T74	
+R7	Attribute Arg1:T47 Arg2:T46	
+R8	Attribute Arg1:T26 Arg2:T27	
+R9	Coreference Arg1:T71 Arg2:T70	
+T75	REFERENCE 187 190	its
+R10	Coreference Arg1:T75 Arg2:T5	
+R11	Attribute Arg1:T18 Arg2:T17	
+R12	Attribute Arg1:T22 Arg2:T23	
+R13	Attribute Arg1:T60 Arg2:T61	
+R14	Attribute Arg1:T5 Arg2:T6	
+R15	Attribute Arg1:T75 Arg2:T14	
+R16	Attribute Arg1:T30 Arg2:T32	
+T80	QUALITY 482 493	fundamental
+R18	Attribute Arg1:T36 Arg2:T80	
+R19	Attribute Arg1:T8 Arg2:T10	
+R20	Attribute Arg1:T12 Arg2:T11	
+R21	Other-rel Arg1:T12 Arg2:T13	
+R22	Condition Arg1:T14 Arg2:T15	
+R23	from Arg1:T7 Arg2:T5	
+R24	to Arg1:T7 Arg2:T8	
+R25	Attribute Arg1:T8 Arg2:T12	
+R26	Output Arg1:T16 Arg2:T18	
+R27	Apply-to Arg1:T16 Arg2:T20	
+R28	Attribute Arg1:T20 Arg2:T21	
+R29	Destination Arg1:T20 Arg2:T22	
+R31	Other-rel Arg1:T26 Arg2:T28	
+R32	Attribute Arg1:T30 Arg2:T29	
+R33	Apply-to Arg1:T26 Arg2:T30	
+R34	Target Arg1:T30 Arg2:T31	
+R37	Other-rel Arg1:T37 Arg2:T36	
+R38	In_Out Arg1:T37 Arg2:T38	
+R39	from Arg1:T39 Arg2:T40	
+R40	Attribute Arg1:T41 Arg2:T45	
+R41	Attribute Arg1:T44 Arg2:T45	
+R42	Output Arg1:T48 Arg2:T47	
+R44	Output Arg1:T49 Arg2:T47	
+R46	Destination Arg1:T49 Arg2:T50	
+R47	Attribute Arg1:T55 Arg2:T54	
+R48	Target Arg1:T55 Arg2:T51	
+R49	Apply-to Arg1:T53 Arg2:T55	
+R50	Apply-to Arg1:T55 Arg2:T56	
+R51	Target Arg1:T56 Arg2:T57	
+R52	Target Arg1:T56 Arg2:T59	
+R53	Output Arg1:T60 Arg2:T62	
+R54	Apply-to Arg1:T65 Arg2:T66	
+R55	Apply-to Arg1:T66 Arg2:T67	
+R56	Apply-to Arg1:T68 Arg2:T69	
+R57	Target Arg1:T69 Arg2:T70	
+R58	Apply-to Arg1:T71 Arg2:T72	
+R59	Target Arg1:T72 Arg2:T73	
+R60	Attribute Arg1:T1 Arg2:T3	
+R61	Attribute Arg1:T1 Arg2:T4	
+R62	Attribute Arg1:T2 Arg2:T3	
+R63	Attribute Arg1:T2 Arg2:T4	
+R64	Agent Arg1:T20 Arg2:T19	
+R30	Component-object Arg1:T26 Arg2:T25	
+T81	CONDITION 619 625	unless
+R65	from Arg1:T81 Arg2:T48	
+R66	from Arg1:T81 Arg2:T49	
+R67	to Arg1:T81 Arg2:T45	
+R35	Attribute Arg1:T33 Arg2:T34	
+R43	Is-a Arg1:T34 Arg2:T36	
+R17	Attribute Arg1:T34 Arg2:T35	
+T82	PROCESS 728 734	derive
+R36	Output Arg1:T82 Arg2:T51	
+T24	REFERENCE 416 426	this study
+T58	PERSON 428 430	we
+T64	PROCESS 431 439	identify
+T76	PERSON 725 727	we
+T77	PERSON 905 907	we
+T78	PROCESS 908 915	provide
+R45	Agent Arg1:T78 Arg2:T77	
+R68	Output Arg1:T78 Arg2:T65	
+R69	Agent Arg1:T82 Arg2:T76	
+R70	Agent Arg1:T64 Arg2:T58	
+R71	Condition Arg1:T64 Arg2:T24	
+R72	Output Arg1:T64 Arg2:T33	
+T79	PERSON 560 562	we
+T83	PROCESS 563 568	argue
+R73	Agent Arg1:T83 Arg2:T79	
+R74	Output Arg1:T83 Arg2:T45	
+T84	PLAN 856 860	work
+R75	Condition Arg1:T60 Arg2:T84	
+T85	PERSON 852 855	Our
+R76	Poss Arg1:T85 Arg2:T84	
+R77	Output Arg1:T78 Arg2:T68	

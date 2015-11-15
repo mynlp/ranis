@@ -1,0 +1,128 @@
+T1	PLAN-OR-PROCESS 0 46	Synchronous Tree Adjoining Machine Translation
+T2	PLAN 48 71	Tree Adjoining Grammars
+T3	QUALITY 77 98	well-known advantages
+T5	QUALITY 129 142	too difficult
+T6	PLAN 147 164	practical systems
+T7	PROCESS 118 128	considered
+T8	QUALITY 108 117	typically
+T9	QUALITY 197 202	right
+T10	PROCESS 192 196	done
+T11	PLAN-OR-PROCESS 204 213	adjoining
+T12	JUDGING-PROCESS 214 222	improves
+T13	DATA-ITEM 223 242	translation quality
+T14	PROCESS 251 259	becoming
+T15	MODALITY 243 250	without
+T16	QUALITY 260 287	computationally intractable
+T17	PLAN-OR-PROCESS 295 304	adjoining
+T18	PROCESS 308 313	model
+T19	APPLY-TO 326 332	allows
+T20	PROCESS 289 294	Using
+T21	QUALITY 314 325	optionality
+T22	DATA-ITEM 341 361	translation patterns
+T23	PROCESS 368 375	learned
+T24	MODALITY 376 383	without
+T25	QUALITY 388 395	clutter
+T26	DATA-ITEM 407 417	variations
+T27	DATA-ITEM 421 438	optional material
+T28	QUALITY 399 406	endless
+T29	DATA-ITEM 456 465	modifiers
+T30	QUALITY 444 455	appropriate
+T31	MODALITY 466 469	can
+T32	PROCESS 479 486	spliced
+T33	QUALITY 490 499	as needed
+T34	TIME 470 475	later
+T35	QUALITY 530 535	novel
+T36	PLAN 536 542	method
+T37	PROCESS 547 555	learning
+T38	PLAN 558 562	type
+T39	PLAN 566 600	Synchronous Tree Adjoining Grammar
+T40	DATA-ITEM 605 629	associated probabilities
+T41	DATA-ITEM 648 668	string training data
+T42	DATA-ITEM 635 647	aligned tree
+T43	PLAN 685 691	method
+T44	PROCESS 695 705	converting
+T45	PLAN 706 720	these grammars
+T46	QUALITY 726 743	weakly equivalent
+T47	PLAN 744 759	tree transducer
+T48	PROCESS 764 772	decoding
+T49	PLAN-OR-PROCESS 796 805	adjoining
+T50	RESULT 806 813	results
+T51	QUALITY 820 842	end-to-end improvement
+T52	QUANTITY 846 855	+0.8 BLEU
+T53	PLAN 851 855	BLEU
+T54	PLAN 863 905	baseline statistical syntax-based MT model
+T55	QUALITY 911 922	large-scale
+T56	LANGUAGE 923 929	Arabic
+T57	LANGUAGE 930 937	English
+T58	PLAN 923 945	Arabic/English MT task
+R1	Attribute Arg1:T2 Arg2:T3	
+R2	Attribute Arg1:T2 Arg2:T5	
+R3	Attribute Arg1:T58 Arg2:T55	
+R4	Attribute Arg1:T7 Arg2:T8	
+R5	Attribute Arg1:T10 Arg2:T9	
+R6	Attribute Arg1:T14 Arg2:T15	
+R7	Output Arg1:T14 Arg2:T16	
+R8	Attribute Arg1:T25 Arg2:T24	
+R9	Attribute Arg1:T26 Arg2:T28	
+R10	Attribute Arg1:T29 Arg2:T30	
+R11	Attribute Arg1:T32 Arg2:T31	
+R12	Attribute Arg1:T32 Arg2:T34	
+R13	Attribute Arg1:T36 Arg2:T35	
+R14	Attribute Arg1:T51 Arg2:T52	
+R15	Coreference Arg1:T45 Arg2:T39	
+R16	Attribute Arg1:T47 Arg2:T46	
+R17	Apply-to Arg1:T43 Arg2:T44	
+R18	Input Arg1:T44 Arg2:T45	
+R19	Output Arg1:T44 Arg2:T47	
+T62	QUALITY 333 340	general
+R20	Attribute Arg1:T22 Arg2:T62	
+R21	Apply-to Arg1:T2 Arg2:T6	
+R22	Condition Arg1:T5 Arg2:T6	
+R23	Output Arg1:T7 Arg2:T5	
+R24	In_Out Arg1:T12 Arg2:T13	
+R26	Output Arg1:T10 Arg2:T11	
+R29	Attribute Arg1:T11 Arg2:T16	
+R30	Input Arg1:T20 Arg2:T17	
+R31	Apply-to Arg1:T20 Arg2:T18	
+R34	Output Arg1:T23 Arg2:T22	
+R35	to Arg1:T19 Arg2:T23	
+R36	Attribute Arg1:T27 Arg2:T26	
+R37	Attribute Arg1:T26 Arg2:T25	
+R39	In_Out Arg1:T32 Arg2:T29	
+R40	Attribute Arg1:T32 Arg2:T33	
+R41	Apply-to Arg1:T36 Arg2:T37	
+R43	Output Arg1:T37 Arg2:T38	
+R42	Is-a Arg1:T38 Arg2:T39	
+R44	Output Arg1:T37 Arg2:T40	
+R45	Input Arg1:T37 Arg2:T42	
+R46	Input Arg1:T37 Arg2:T41	
+R47	Apply-to Arg1:T47 Arg2:T48	
+R48	from Arg1:T50 Arg2:T49	
+R49	to Arg1:T50 Arg2:T51	
+T63	COMPARE 856 860	over
+R50	from Arg1:T63 Arg2:T54	
+R51	to Arg1:T63 Arg2:T51	
+R52	Apply-to Arg1:T49 Arg2:T58	
+R53	Result Arg1:T10 Arg2:T12	
+R25	Condition Arg1:T12 Arg2:T14	
+R27	Condition Arg1:T23 Arg2:T25	
+T4	PERSON 166 168	We
+T59	PROCESS 169 180	demonstrate
+R32	Agent Arg1:T59 Arg2:T4	
+T60	REFERENCE 504 514	this paper
+T61	PERSON 516 518	we
+T64	PROCESS 519 527	describe
+R38	Agent Arg1:T64 Arg2:T61	
+R54	Condition Arg1:T64 Arg2:T60	
+R56	Output Arg1:T64 Arg2:T36	
+T65	PERSON 670 672	We
+T66	PROCESS 673 682	introduce
+R55	Agent Arg1:T66 Arg2:T65	
+R57	Output Arg1:T66 Arg2:T43	
+T67	PERSON 783 785	we
+T68	PROCESS 786 790	show
+R58	Agent Arg1:T68 Arg2:T67	
+R28	from Arg1:T19 Arg2:T20	
+R33	Output Arg1:T68 Arg2:T51	
+R59	In_Out Arg1:T18 Arg2:T21	
+R60	Output Arg1:T59 Arg2:T12	

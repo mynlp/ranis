@@ -1,0 +1,88 @@
+R1	Attribute Arg1:T2 Arg2:T1
+A1	Self T42
+A2	Intentional T43
+R2	Condition Arg1:T43 Arg2:T42
+R3	Output Arg1:T43 Arg2:T3
+R4	Attribute Arg1:T4 Arg2:T3
+R5	Apply-to Arg1:T6 Arg2:T5
+R6	Output Arg1:T5 Arg2:T4
+R7	Coreference Arg1:T7 Arg2:T6
+R8	Output Arg1:T8 Arg2:T9
+R9	Apply-to Arg1:T7 Arg2:T8
+R10	Target Arg1:T12 Arg2:T13
+R11	Destination Arg1:T11 Arg2:T13
+R12	Output Arg1:T10 Arg2:T13
+R13	Apply-to Arg1:T9 Arg2:T10
+R14	Apply-to Arg1:T9 Arg2:T11
+R15	Apply-to Arg1:T9 Arg2:T12
+R16	Output Arg1:T8 Arg2:T15
+R17	Is-a Arg1:T17 Arg2:T16
+R18	Attribute Arg1:T19 Arg2:T18
+R19	Output Arg1:T17 Arg2:T19
+R20	Condition Arg1:T24 Arg2:T23
+R21	Target Arg1:T24 Arg2:T25
+R22	Target Arg1:T24 Arg2:T26
+R23	Attribute Arg1:T28 Arg2:T27
+R24	Target Arg1:T25 Arg2:T28
+R25	Input Arg1:T26 Arg2:T28
+R26	Is-a Arg1:T24 Arg2:T16
+R27	Condition Arg1:T19 Arg2:T20
+R28	Condition Arg1:T19 Arg2:T21
+A3	Self T29
+A4	Intentional T30
+R29	Agent Arg1:T30 Arg2:T29
+R30	Output Arg1:T30 Arg2:T31
+R31	Attribute Arg1:T32 Arg2:T31
+R32	Is-a Arg1:T34 Arg2:T33
+R33	Agent Arg1:T36 Arg2:T35
+R34	Target Arg1:T36 Arg2:T37
+R35	Target Arg1:T34 Arg2:T36
+R36	Coreference Arg1:T38 Arg2:T35
+R37	Poss Arg1:T38 Arg2:T39
+R38	Destination Arg1:T41 Arg2:T14
+R39	Attribute Arg1:T41 Arg2:T40
+R40	Output Arg1:T41 Arg2:T39
+R41	Apply-to Arg1:T32 Arg2:T33
+R42	In_Out Arg1:T37 Arg2:T41
+T1	DATA-ITEM 0 7	Outline
+T2	PLAN 15 69	International Standard Linguistic Annotation Framework
+T42	REFERENCE 72 82	This paper
+T43	PROCESS 83 92	describes
+T3	DATA-ITEM 97 104	outline
+T4	PLAN 110 141	linguistic annotation framework
+T5	JUDGING-PROCESS 148 159	development
+T6	PLAN 163 180	ISO TC37 SC WG1-1
+T7	PLAN 183 210	This international standard
+T8	PROCESS 211 219	provides
+T9	PLAN 223 235	architecture
+T10	PLAN-OR-PROCESS 244 252	creation
+T11	PLAN-OR-PROCESS 255 265	annotation
+T12	PLAN-OR-PROCESS 272 284	manipulation
+T13	DATA-ITEM 288 308	linguistic resources
+T15	PLAN 313 332	processing software
+T16	PLAN-OR-PROCESS 339 343	goal
+T17	PROCESS 350 357	provide
+T18	QUALITY 358 365	maximum
+T19	DATA-ITEM 366 377	flexibility
+T20	PERSON 382 390	encoders
+T21	PERSON 395 405	annotators
+T23	TIME 421 430	same time
+T24	PROCESS 431 439	enabling
+T25	PROCESS 440 451	interchange
+T26	PROCESS 456 462	re-use
+T27	QUALITY 466 475	annotated
+T28	DATA-ITEM 476 496	linguistic resources
+T29	PERSON 499 501	We
+T30	PROCESS 502 510	describe
+T31	DATA-ITEM 520 527	outline
+T32	PLAN 535 543	standard
+T33	PLAN-OR-PROCESS 552 560	purposes
+T34	PROCESS 564 572	enabling
+T35	PERSON 573 583	annotators
+T36	PROCESS 587 592	begin
+T37	PROCESS 596 603	explore
+T38	REFERENCE 608 613	their
+T39	PLAN 614 621	schemes
+T40	MODALITY 622 625	may
+T41	PROCESS 626 629	map
+T14	PLAN 639 648	framework

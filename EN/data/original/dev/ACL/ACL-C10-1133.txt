@@ -1,0 +1,8 @@
+Near-synonym Lexical Choice in Latent Semantic Space
+
+We explore the near-synonym lexical choice problem using a novel representation of near-synonyms and their contexts in the latent semantic space.
+In contrast to traditional latent semantic analysis (LSA), our model is built on the lexical level of co-occurrence, which has been empirically proven to be effective in providing higher dimensional information on the subtle differences among near-synonyms.
+By employing supervised learning on the latent features, our system achieves an accuracy of 74.5% in a ``fill-in-the-blank'' task.
+The improvement over the current state-of-the-art is statistically significant.
+We also formalize the notion of subtlety through its relation to semantic space dimensionality.
+Using this formalization and our learning models, several of our intuitions about subtlety, dimensionality, and context are quantified and empirically tested.

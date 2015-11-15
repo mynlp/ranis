@@ -1,0 +1,108 @@
+T1	PROCESS 0 9	Extending
+T2	PLAN 12 18;37 42	Formal Model
+T3	PLAN 23 42	Computational Model
+T4	PLAN 46 73	Rhetorical Structure Theory
+T5	PLAN 79 101	Intentional Structures
+T6	TIME 132 143	last decade
+T9	PERSON 145 152	members
+T10	PERSON 160 194	computational lingistics community
+T11	PROCESS 200 207	adopted
+T12	PLAN 210 221	perspective
+T13	DATA-ITEM 225 234	discourse
+T14	PLAN 261 288	Rhetorical Structure Theory
+T15	PLAN 292 317	Grosz and Sidner's Theory
+T18	TIME 333 341	recently
+T19	PERSON 343 354	researchers
+T20	PROCESS 360 367	started
+T21	PROCESS 371 382	investigate
+T22	DATA-ITEM 387 399	relationship
+T23	PLAN 416 428	perspectives
+T24	QUANTITY 412 415	two
+T27	TIME 471 475	1996
+T28	EXTERNAL-REFERENCE 452 481	Moser and Moore's (1996) work
+T29	PLAN 487 502	departure point
+T30	PROCESS 507 516	extending
+T31	PLAN 517 538	Marcu's formalization
+T32	PLAN 542 545	RST
+T33	PLAN 558 564	result
+T34	PLAN 570 596	first-order axiomatization
+T35	QUALITY 604 627	mathematical properties
+T36	DATA-ITEM 631 646	text structures
+T37	DATA-ITEM 658 670	relationship
+T38	DATA-ITEM 683 692	structure
+T39	DATA-ITEM 696 700	text
+T40	OCCURENT 705 715	intentions
+T41	PLAN 721 735	axiomatization
+T42	PROCESS 736 743	enables
+T43	PERSON 744 747	one
+T44	PROCESS 751 754	use
+T45	OCCURENT 755 765	intentions
+T46	PROCESS 770 778	reducing
+T47	QUALITY 783 792	ambiguity
+T48	DATA-ITEM 796 805	discourse
+T49	DATA-ITEM 814 823	structure
+T50	DATA-ITEM 827 836	discourse
+T51	DATA-ITEM 850 872	intentional inferences
+T52	PROCESS 841 849	deriving
+T53	TIME 547 551	1996
+T7	PERSON 292 297	Grosz
+T8	PERSON 302 308	Sidner
+T16	PERSON 107 112	Grosz
+T17	PERSON 117 123	Sidner
+T25	PERSON 452 457	Moser
+T26	PERSON 462 467	Moore
+T54	PERSON 517 522	Marcu
+R1	Attribute Arg1:T48 Arg2:T47	
+T56	EXTERNAL-REFERENCE 517 552	Marcu's formalization of RST (1996)
+T57	EXTERNAL-REFERENCE 107 123	Grosz and Sidner
+R2	Attribute Arg1:T23 Arg2:T24	
+R3	Attribute Arg1:T4 Arg2:T2	
+R4	Attribute Arg1:T4 Arg2:T3	
+R5	In_Out Arg1:T1 Arg2:T3	
+R6	In_Out Arg1:T1 Arg2:T2	
+R7	Input Arg1:T1 Arg2:T5	
+T58	QUALITY 102 106	à la
+R8	Attribute Arg1:T5 Arg2:T58	
+R9	Compare Arg1:T57 Arg2:T58	
+R10	Member-collection Arg1:T9 Arg2:T10	
+R11	Agent Arg1:T11 Arg2:T9	
+R12	In_Out Arg1:T11 Arg2:T12	
+R13	Condition Arg1:T12 Arg2:T13	
+T59	APPLY-TO 235 240	based
+T60	QUALITY 241 250	primarily
+R14	Attribute Arg1:T59 Arg2:T60	
+R15	from Arg1:T59 Arg2:T14	
+R16	from Arg1:T59 Arg2:T15	
+R17	to Arg1:T59 Arg2:T12	
+R19	Agent Arg1:T20 Arg2:T19	
+R20	Output Arg1:T20 Arg2:T21	
+R21	In_Out Arg1:T21 Arg2:T22	
+R22	Attribute Arg1:T22 Arg2:T23	
+R23	Condition Arg1:T20 Arg2:T18	
+R25	In_Out Arg1:T30 Arg2:T56	
+R26	Attribute Arg1:T30 Arg2:T29	
+R27	Attribute Arg1:T39 Arg2:T38	
+R28	Attribute Arg1:T37 Arg2:T38	
+R29	Attribute Arg1:T37 Arg2:T40	
+R30	Attribute Arg1:T36 Arg2:T35	
+R31	Attribute Arg1:T37 Arg2:T35	
+R32	In_Out Arg1:T34 Arg2:T35	
+R33	Is-a Arg1:T33 Arg2:T34	
+R34	Apply-to Arg1:T41 Arg2:T42	
+R35	Agent Arg1:T44 Arg2:T43	
+R36	Input Arg1:T44 Arg2:T45	
+R37	Output Arg1:T42 Arg2:T44	
+R38	In_Out Arg1:T46 Arg2:T47	
+R39	Attribute Arg1:T50 Arg2:T49	
+R40	In_Out Arg1:T52 Arg2:T51	
+R41	Apply-to Arg1:T46 Arg2:T52	
+R42	In_Out Arg1:T46 Arg2:T49	
+R43	Apply-to Arg1:T44 Arg2:T46	
+R18	Condition Arg1:T11 Arg2:T6	
+T55	REFERENCE 433 442	this pape
+T61	PERSON 445 447	we
+T62	PROCESS 448 451	use
+R44	Agent Arg1:T62 Arg2:T61	
+R24	Apply-to Arg1:T62 Arg2:T30	
+R45	Input Arg1:T62 Arg2:T28	
+R46	Condition Arg1:T62 Arg2:T55	

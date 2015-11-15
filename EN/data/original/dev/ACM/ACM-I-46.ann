@@ -1,0 +1,80 @@
+T1	PLAN 0 27	Modular Interpreted Systems
+T2	QUALITY 41 44	new
+T3	PLAN 45 50	class
+T4	PLAN 54 69	representations
+T5	MODALITY 75 78	can
+T6	APPLY-TO 82 86	used
+T7	PROCESS 91 99	modeling
+T8	PLAN-OR-PROCESS 105 119	model checking
+T9	QUALITY 121 129;155 165	temporal properties
+T10	QUALITY 131 140;155 165	strategic properties
+T11	QUALITY 145 165	epistemic properties
+T12	INTELLIGENT-AGENT 169 175	agents
+T13	INTELLIGENT-AGENT 186 191	teams
+T16	PLAN 229 234	ideas
+T17	PLAN 240 259	interpreted systems
+T18	PERSON 263 270	Halpern
+T19	PERSON 272 277	Fagin
+T20	REFERENCE 295 299	they
+T21	QUALITY 309 316	modular
+T22	QUALITY 321 328	compact
+T24	PLAN 340 359	concurrent programs
+T14	DATA-ITEM 381 400	preliminary results
+T15	PLAN-OR-PROCESS 404 418	model checking
+T25	PLAN 477 483	models
+T26	PLAN 455 459;468 473	this class
+R1	Coreference Arg1:T26 Arg2:T3	
+T27	PLAN 197 212	representations
+T28	PROCESS 213 219	borrow
+R3	Attribute Arg1:T3 Arg2:T2	
+R4	Attribute Arg1:T6 Arg2:T5	
+R5	Attribute Arg1:T20 Arg2:T21	
+R6	Attribute Arg1:T20 Arg2:T22	
+T29	PERSON 193 196	Our
+R7	Coreference Arg1:T20 Arg2:T27	
+T23	EXTERNAL-REFERENCE 263 284	Halpern, Fagin et al.
+T32	REFERENCE 70 74	that
+R2	Coreference Arg1:T32 Arg2:T4	
+R8	Poss Arg1:T29 Arg2:T27	
+T33	REFERENCE 180 185	their
+R9	Member-collection Arg1:T33 Arg2:T13	
+R10	Is-a Arg1:T4 Arg2:T3	
+R11	from Arg1:T6 Arg2:T32	
+R12	Attribute Arg1:T12 Arg2:T11	
+R13	Attribute Arg1:T12 Arg2:T9	
+R14	Attribute Arg1:T12 Arg2:T10	
+R15	Attribute Arg1:T13 Arg2:T11	
+R16	Attribute Arg1:T13 Arg2:T9	
+R17	Attribute Arg1:T13 Arg2:T10	
+R18	to Arg1:T6 Arg2:T7	
+R19	to Arg1:T6 Arg2:T8	
+R20	Output Arg1:T7 Arg2:T11	
+R21	Output Arg1:T7 Arg2:T9	
+R22	Output Arg1:T7 Arg2:T10	
+R23	Output Arg1:T8 Arg2:T11	
+R24	Output Arg1:T8 Arg2:T9	
+R25	Output Arg1:T8 Arg2:T10	
+T34	QUALITY 224 228	main
+R26	Attribute Arg1:T16 Arg2:T34	
+R27	Destination Arg1:T28 Arg2:T27	
+R29	Origin Arg1:T28 Arg2:T17	
+R30	Other-rel Arg1:T17 Arg2:T23	
+R31	Condition Arg1:T21 Arg2:T24	
+R32	Condition Arg1:T22 Arg2:T24	
+T35	PLAN 419 450	alternating-time temporal logic
+R33	Output Arg1:T15 Arg2:T14	
+R34	Input Arg1:T15 Arg2:T35	
+T36	QUALITY 460 467	natural
+R35	Attribute Arg1:T26 Arg2:T36	
+R36	Is-a Arg1:T25 Arg2:T26	
+R37	Condition Arg1:T15 Arg2:T25	
+R28	Output Arg1:T28 Arg2:T16	
+R38	Coreference Arg1:T33 Arg2:T12	
+T30	PERSON 28 30	We
+T31	PROCESS 31 38	propose
+T37	PERSON 365 367	We
+T38	PROCESS 373 380	mention
+R39	Agent Arg1:T31 Arg2:T30	
+R40	Output Arg1:T31 Arg2:T3	
+R41	Agent Arg1:T38 Arg2:T37	
+R42	Output Arg1:T38 Arg2:T14	

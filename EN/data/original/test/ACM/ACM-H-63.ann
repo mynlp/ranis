@@ -1,0 +1,185 @@
+T1	PLAN 0 30	Location based Indexing Scheme
+T3	PLAN-OR-PROCESS 40 58	Data dissemination
+T4	ARTIFACT 67 84	wireless channels
+T5	PROCESS 89 101	broadcasting
+T6	DATA-ITEM 102 113	information
+T7	PERSON 117 126	consumers
+T8	ATTRIBUTE 130 138	becoming
+T9	QUALITY 139 151	quite common
+T10	QUANTITY 153 157	Many
+T11	PLAN 158 179	dissemination schemes
+T12	PROCESS 190 198	proposed
+T13	QUANTITY 203 207	most
+T14	REFERENCE 211 215	them
+R1	Coreference Arg1:T14 Arg2:T11	
+T15	PROCESS 216 220	push
+T16	DATA-ITEM 221 225	data
+T17	ARTIFACT 229 246	wireless channels
+T18	PLAN-OR-PROCESS 251 270	general consumption
+T20	PLAN-OR-PROCESS 272 292	Push based broadcast
+T21	QUALITY 300 322	essentially asymmetric
+T22	QUALITY 334 340	volume
+T23	DATA-ITEM 344 348	data
+T24	QUALITY 355 361	higher
+T25	ARTIFACT 371 377	server
+T26	PERSON 385 390	users
+T27	PERSON 405 410	users
+T28	ARTIFACT 423 429	server
+T30	PLAN 431 448	Push based scheme
+T31	CONDITION 449 457	requires
+T32	QUANTITY 458 462	some
+T33	PLAN-OR-PROCESS 463 471	indexing
+T34	RESULT 478 487	indicates
+T35	REFERENCE 472 477	which
+R2	Coreference Arg1:T35 Arg2:T30	
+T36	DATA-ITEM 497 501	data
+T37	MODALITY 502 506	will
+T38	PROCESS 510 519	broadcast
+T39	QUALITY 528 536	position
+T40	DATA-ITEM 544 553	broadcast
+T41	TIME 555 569	Access latency
+T42	TIME 574 585	tuning time
+T43	QUANTITY 594 597	two
+T44	DATA-ITEM 603 613	parameters
+T45	REFERENCE 614 619	which
+R3	Coreference Arg1:T45 Arg2:T44	
+T46	MODALITY 620 623	may
+T47	INPUT 627 631	used
+T48	PROCESS 635 643	evaluate
+T49	PLAN 647 662	indexing scheme
+T50	QUANTITY 664 667	Two
+T51	QUALITY 675 684	important
+T52	PLAN 685 701	indexing schemes
+T53	PROCESS 702 710	proposed
+T54	TIME 711 718	earlier
+T56	PLAN 743 771	exponential indexing schemes
+T55	QUANTITY 773 777	None
+T57	PLAN 781 794	these schemes
+T58	PLAN 724 734;755 771	tree based indexing schemes
+R4	Coreference Arg1:T57 Arg2:T52	
+T59	MODALITY 800 804	able
+T60	PROCESS 808 815	address
+T61	QUALITY 820 832	requirements
+T62	DATA-ITEM 836 859	location dependent data
+T63	DATA-ITEM 861 864	LDD
+R5	Equivalence Arg1:T63 Arg2:T62	
+T64	QUALITY 875 891	highly desirable
+T65	QUALITY 892 899	feature
+T66	PLAN-OR-PROCESS 903 921	data dissemination
+T67	REFERENCE 866 871	which
+R6	Coreference Arg1:T67 Arg2:T62	
+T68	PLAN-OR-PROCESS 953 962	broadcast
+T69	DATA-ITEM 966 969	LDD
+T70	PLAN 985 1003	DAta in Your Space
+T71	PLAN 977 1003	project DAta in Your Space
+T72	PLAN 1005 1009	DAYS
+R7	Equivalence Arg1:T72 Arg2:T70	
+T73	PLAN 1026 1032	scheme
+T74	PLAN-OR-PROCESS 1037 1045	indexing
+T75	DATA-ITEM 1046 1049	LDD
+T76	PLAN 1065 1076	this scheme
+R8	Coreference Arg1:T76 Arg2:T73	
+T77	IN_OUT 1083 1090	applied
+T78	DATA-ITEM 1094 1097	LDD
+T79	QUALITY 1099 1112	significantly
+T80	JUDGING-PROCESS 1113 1121	improves
+T81	DATA-ITEM 1122 1133	performance
+T82	TIME 1146 1157	tuning time
+T83	PLAN 1167 1190	above mentioned schemes
+T84	DATA-ITEM 1231 1249	simulation results
+R11	Attribute Arg1:T11 Arg2:T10	
+R12	Attribute Arg1:T14 Arg2:T13	
+R13	Attribute Arg1:T20 Arg2:T21	
+R14	Attribute Arg1:T22 Arg2:T24	
+R15	Attribute Arg1:T33 Arg2:T32	
+R16	Attribute Arg1:T38 Arg2:T37	
+T19	REFERENCE 524 527	its
+R17	Coreference Arg1:T19 Arg2:T36	
+R18	Attribute Arg1:T44 Arg2:T43	
+R19	Attribute Arg1:T47 Arg2:T46	
+R20	Attribute Arg1:T52 Arg2:T51	
+R21	Attribute Arg1:T57 Arg2:T55	
+R22	Attribute Arg1:T60 Arg2:T59	
+R23	Attribute Arg1:T65 Arg2:T64	
+R24	Attribute Arg1:T80 Arg2:T79	
+R25	In_Out Arg1:T80 Arg2:T81	
+R26	Attribute Arg1:T52 Arg2:T50	
+T29	PLAN 35 39	DAYS
+T85	PERSON 973 976	our
+T86	EXTERNAL-REFERENCE 293 296	[1]
+R27	Poss Arg1:T85 Arg2:T71	
+R28	Poss Arg1:T19 Arg2:T39	
+R29	Attribute Arg1:T53 Arg2:T54	
+R30	Attribute Arg1:T23 Arg2:T22	
+R31	Attribute Arg1:T66 Arg2:T65	
+R32	Apply-to Arg1:T1 Arg2:T29	
+R33	Output Arg1:T12 Arg2:T11	
+R34	Condition Arg1:T3 Arg2:T4	
+R35	Apply-to Arg1:T3 Arg2:T5	
+R36	In_Out Arg1:T5 Arg2:T6	
+R37	Destination Arg1:T5 Arg2:T7	
+R38	from Arg1:T8 Arg2:T3	
+R39	to Arg1:T8 Arg2:T9	
+R40	Apply-to Arg1:T14 Arg2:T15	
+R41	In_Out Arg1:T15 Arg2:T16	
+R42	Destination Arg1:T15 Arg2:T17	
+R43	Apply-to Arg1:T15 Arg2:T18	
+R48	from Arg1:T31 Arg2:T30	
+R49	to Arg1:T31 Arg2:T33	
+R50	from Arg1:T34 Arg2:T35	
+R51	from Arg1:T91 Arg2:T34	
+R52	Condition Arg1:T39 Arg2:T40	
+R53	to Arg1:T34 Arg2:T39	
+R54	Is-a Arg1:T41 Arg2:T44	
+R55	Is-a Arg1:T42 Arg2:T44	
+T90	QUALITY 598 602	main
+R56	Attribute Arg1:T44 Arg2:T90	
+R57	to Arg1:T47 Arg2:T45	
+R58	Input Arg1:T48 Arg2:T49	
+R59	from Arg1:T47 Arg2:T48	
+R60	Output Arg1:T53 Arg2:T52	
+R61	Is-a Arg1:T56 Arg2:T52	
+R62	Is-a Arg1:T58 Arg2:T52	
+R63	Apply-to Arg1:T57 Arg2:T60	
+R64	Target Arg1:T60 Arg2:T61	
+R65	Attribute Arg1:T62 Arg2:T61	
+R66	Attribute Arg1:T67 Arg2:T64	
+R67	In_Out Arg1:T68 Arg2:T69	
+R68	Apply-to Arg1:T71 Arg2:T68	
+R69	Apply-to Arg1:T73 Arg2:T74	
+R70	Input Arg1:T74 Arg2:T75	
+R71	from Arg1:T77 Arg2:T76	
+R72	to Arg1:T77 Arg2:T78	
+R73	Apply-to Arg1:T76 Arg2:T80	
+R74	Attribute Arg1:T81 Arg2:T82	
+R75	Output Arg1:T83 Arg2:T81	
+R10	Input Arg1:T20 Arg2:T23	
+R76	Origin Arg1:T20 Arg2:T25	
+R77	Destination Arg1:T20 Arg2:T26	
+R78	Destination Arg1:T20 Arg2:T28	
+R79	Origin Arg1:T20 Arg2:T27	
+R44	Compare Arg1:T28 Arg2:T24	
+R45	Condition Arg1:T80 Arg2:T77	
+T91	CONDITION 488 492	when
+R46	to Arg1:T91 Arg2:T38	
+T2	PERSON 938 940	we
+T87	REFERENCE 926 936	this paper
+T88	PROCESS 941 948	discuss
+T89	PERSON 1051 1053	We
+T92	PROCESS 1054 1059	argue
+T93	PERSON 1192 1194	We
+T94	PROCESS 1195 1200	prove
+T95	PERSON 1201 1204	our
+T96	PLAN 1205 1213	argument
+R9	Agent Arg1:T88 Arg2:T2	
+R47	Condition Arg1:T88 Arg2:T87	
+R80	In_Out Arg1:T88 Arg2:T68	
+T97	PROCESS 1016 1023	propose
+R81	Agent Arg1:T97 Arg2:T2	
+R82	Output Arg1:T97 Arg2:T73	
+R83	Agent Arg1:T92 Arg2:T89	
+R84	Agent Arg1:T94 Arg2:T93	
+R85	Output Arg1:T94 Arg2:T96	
+R86	Input Arg1:T94 Arg2:T84	
+R87	Poss Arg1:T95 Arg2:T96	
+R88	Output Arg1:T92 Arg2:T80	

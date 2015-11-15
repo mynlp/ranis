@@ -1,0 +1,12 @@
+Chinese Word Segmentation and Named Entity Recognition: A Pragmatic Approach
+
+This article presents a pragmatic approach to Chinese word segmentation.
+It differs from most previous approaches mainly in three respects.
+First, while theoretical linguists have defined Chinese words using various linguistic criteria, Chinese words in this study are defined pragmatically as segmentation units whose definition depends on how they are used and processed in realistic computer applications.
+Second, we propose a pragmatic mathematical framework in which segmenting known words and detecting unknown words of different types (i.e., morphologically derived words, factoids, named entities, and other unlisted words) can be performed simultaneously in a unified way.
+These tasks are usually conducted separately in other systems.
+Finally, we do not assume the existence of a universal word segmentation standard that is application-independent.
+Instead, we argue for the necessity of multiple segmentation standards due to the pragmatic fact that different natural language processing applications might require different granularities of Chinese words.
+These pragmatic approaches have been implemented in an adaptive Chinese word segmenter, called MSRSeg, which will be described in detail.
+It consists of two components: (1) a generic segmenter that is based on the framework of linear mixture models and provides a unified approach to the five fundamental features of word-level Chinese language processing: lexicon word processing, morphological analysis, factoid detection, named entity recognition, and new word identification; and (2) a set of output adaptors for adapting the output of (1) to different application-specific standards.
+Evaluation on five test sets with different standards shows that the adaptive system achieves state-of-the-art performance on all the test sets.

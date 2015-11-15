@@ -1,0 +1,142 @@
+T1	DATA-ITEM 4 20	Proposition Bank
+T2	DATA-ITEM 25 41	Annotated Corpus
+T3	DATA-ITEM 45 59	Semantic Roles
+T4	PLAN 65 89	Proposition Bank project
+T5	APPLY-TO 90 95	takes
+T6	PLAN 108 116	approach
+T7	PLAN-OR-PROCESS 120 143	semantic representation
+T8	PROCESS 145 151	adding
+T9	DATA-ITEM 154 159	layer
+T10	DATA-ITEM 163 193	predicate-argument information
+T11	DATA-ITEM 198 218	semantic role labels
+T12	DATA-ITEM 227 247	syntactic structures
+T13	DATA-ITEM 255 268	Penn Treebank
+T14	QUALITY 274 283	resulting
+T15	DATA-ITEM 284 292	resource
+T16	MODALITY 293 296	can
+T17	ATTRIBUTE 300 307	thought
+T18	QUALITY 314 321	shallow
+T20	PROCESS 343 352	represent
+T21	MODALITY 339 342	not
+T22	REFERENCE 331 333	it
+T23	DATA-ITEM 353 364	coreference
+T24	DATA-ITEM 366 380	quantification
+T25	QUANTITY 386 390	many
+T26	QUALITY 391 396	other
+T27	DATA-ITEM 397 419	higher-order phenomena
+T28	QUALITY 430 435	broad
+R1	Coreference Arg1:T22 Arg2:T15	
+T30	REFERENCE 445 447	it
+R2	Coreference Arg1:T30 Arg2:T22	
+T31	COMPONENT-OBJECT 448 454	covers
+T32	DATA-ITEM 461 469	instance
+T33	DATA-ITEM 479 483	verb
+T34	DATA-ITEM 491 497	corpus
+T35	QUANTITY 455 460	every
+T36	QUANTITY 473 478	every
+T37	INPUT 502 508	allows
+T38	DATA-ITEM 524 534	statistics
+T39	PROCESS 541 551	calculated
+T40	PLAN 568 576	criteria
+T41	PROCESS 585 591	define
+T42	APPLY-TO 577 581	used
+T43	DATA-ITEM 604 618	semantic roles
+T44	APPLY-TO 619 623	used
+T45	PROCESS 631 649	annotation process
+T46	PROCESS 657 664	analyze
+T47	QUALITY 669 678	frequency
+T49	DATA-ITEM 682 713	syntactic/semantic alternations
+T50	DATA-ITEM 721 727	corpus
+T51	PLAN 744 760	automatic system
+T52	PLAN 765 786	semantic role tagging
+T53	PROCESS 787 794	trained
+T54	DATA-ITEM 802 808	corpus
+T55	PROCESS 825 831	effect
+T56	DATA-ITEM 839 850	performance
+T57	DATA-ITEM 871 882	information
+T58	DATA-ITEM 862 867	types
+T59	QUALITY 854 861	various
+T60	MEMBER-COLLECTION 884 893	including
+T61	PROCESS 896 906	comparison
+T62	DATA-ITEM 910 932	full syntactic parsing
+T63	DATA-ITEM 940 959	flat representation
+T64	PROCESS 968 980	contribution
+T65	DATA-ITEM 988 1014	empty ``trace'' categories
+T66	DATA-ITEM 1022 1030	treebank
+T67	QUALITY 98 107	practical
+R3	Attribute Arg1:T6 Arg2:T67	
+R4	Component-object Arg1:T10 Arg2:T9	
+R5	Member-collection Arg1:T12 Arg2:T13	
+R6	Attribute Arg1:T15 Arg2:T14	
+R7	Attribute Arg1:T32 Arg2:T35	
+R8	Attribute Arg1:T33 Arg2:T36	
+R9	Component-object Arg1:T33 Arg2:T34	
+T68	QUALITY 509 523	representative
+R10	Attribute Arg1:T38 Arg2:T68	
+T69	DATA-ITEM 596 600	sets
+R11	Member-collection Arg1:T43 Arg2:T69	
+T70	REFERENCE 835 838	its
+R12	Coreference Arg1:T70 Arg2:T51	
+R13	Attribute Arg1:T20 Arg2:T21	
+R14	Attribute Arg1:T27 Arg2:T25	
+R15	Attribute Arg1:T27 Arg2:T26	
+R16	Component-object Arg1:T3 Arg2:T2	
+R17	Is-a Arg1:T1 Arg2:T2	
+R18	Attribute Arg1:T70 Arg2:T56	
+R19	Attribute Arg1:T58 Arg2:T59	
+R20	to Arg1:T5 Arg2:T4	
+R21	from Arg1:T5 Arg2:T6	
+R22	Apply-to Arg1:T6 Arg2:T7	
+R23	Apply-to Arg1:T4 Arg2:T8	
+R24	Input Arg1:T8 Arg2:T9	
+R25	Is-a Arg1:T11 Arg2:T10	
+R26	Destination Arg1:T8 Arg2:T12	
+R27	Attribute Arg1:T17 Arg2:T16	
+R28	from Arg1:T17 Arg2:T15	
+R29	to Arg1:T17 Arg2:T18	
+R30	Input Arg1:T20 Arg2:T22	
+R31	Output Arg1:T20 Arg2:T23	
+R32	Output Arg1:T20 Arg2:T24	
+R33	Output Arg1:T20 Arg2:T27	
+R34	to Arg1:T17 Arg2:T28	
+R35	to Arg1:T31 Arg2:T30	
+R36	from Arg1:T31 Arg2:T32	
+R37	Is-a Arg1:T32 Arg2:T33	
+R38	to Arg1:T37 Arg2:T30	
+R39	from Arg1:T37 Arg2:T39	
+R40	Output Arg1:T39 Arg2:T38	
+R41	from Arg1:T42 Arg2:T40	
+R42	to Arg1:T42 Arg2:T41	
+R43	Output Arg1:T41 Arg2:T69	
+R44	from Arg1:T44 Arg2:T43	
+R45	to Arg1:T44 Arg2:T45	
+R46	to Arg1:T42 Arg2:T46	
+R47	Component-object Arg1:T49 Arg2:T50	
+R48	Attribute Arg1:T49 Arg2:T47	
+R49	Input Arg1:T46 Arg2:T47	
+R50	Apply-to Arg1:T51 Arg2:T52	
+R51	Input Arg1:T53 Arg2:T54	
+R52	Output Arg1:T53 Arg2:T51	
+R53	Destination Arg1:T55 Arg2:T56	
+R54	Attribute Arg1:T57 Arg2:T58	
+R55	Input Arg1:T55 Arg2:T57	
+R56	to Arg1:T60 Arg2:T57	
+R57	from Arg1:T60 Arg2:T61	
+R58	Input Arg1:T61 Arg2:T62	
+R59	Input Arg1:T61 Arg2:T63	
+R60	from Arg1:T60 Arg2:T64	
+R61	Component-object Arg1:T65 Arg2:T66	
+R62	Input Arg1:T64 Arg2:T65	
+R63	Other-rel Arg1:T20 Arg2:T18	
+R64	Other-rel Arg1:T31 Arg2:T28	
+T19	PERSON 553 555	We
+T29	PROCESS 556 563	discuss
+T48	PERSON 729 731	We
+T71	PROCESS 732 740	describe
+R65	Agent Arg1:T29 Arg2:T19	
+R66	Agent Arg1:T71 Arg2:T48	
+R67	Output Arg1:T29 Arg2:T40	
+R68	Output Arg1:T71 Arg2:T51	
+T72	PROCESS 813 820	discuss
+R69	Agent Arg1:T72 Arg2:T48	
+R70	Output Arg1:T72 Arg2:T55	

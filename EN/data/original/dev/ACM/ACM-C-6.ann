@@ -1,0 +1,290 @@
+T1	PLAN-OR-PROCESS 11 25	Implementation
+T2	PLAN 31 68	Distributed Content Management System
+T3	PROCESS 73 84	convergence
+T4	PROCESS 88 96	advances
+T5	PLAN 109 117	encoding
+T7	PLAN 123 146	networking technologies
+T8	PLAN 168 179	environment
+T9	QUANTITY 186 198	huge amounts
+T10	DATA-ITEM 202 226	continuous media content
+T11	QUALITY 230 239	routinely
+T12	PROCESS 240 246	stored
+T13	PROCESS 251 260	exchanged
+T14	ARTIFACT 269 292	network enabled devices
+T15	PLAN-OR-PROCESS 294 307	Keeping track
+T16	PROCESS 315 323	managing
+T17	DATA-ITEM 325 337	such content
+T18	QUALITY 346 357	challenging
+T19	QUALITY 369 374	sheer
+T20	DATA-ITEM 375 381	volume
+T21	DATA-ITEM 385 389	data
+T22	PROCESS 391 398	Storing
+T23	DATA-ITEM 399 420	live continuous media
+T24	DATA-ITEM 430 432	TV
+T25	DATA-ITEM 436 449	radio content
+T26	QUALITY 463 473	complexity
+T27	DATA-ITEM 482 494	this content
+T28	QUALITY 502 514	well defined
+T29	QUALITY 545 555	cumbersome
+T30	PROCESS 559 568	deal with
+T31	PLAN 570 587	Networked storage
+T32	PROCESS 588 594	allows
+T33	DATA-ITEM 595 602	content
+T34	REFERENCE 603 607	that
+T35	QUALITY 611 620	logically
+T36	PROCESS 621 627	viewed
+T37	QUALITY 643 647	same
+T38	DATA-ITEM 648 658	collection
+T39	PROCESS 673 684	distributed
+T40	PLAN 694 701	network
+T41	PROCESS 703 709	making
+T42	PLAN 714 718	task
+T43	PLAN 722 740	content management
+T44	QUALITY 749 759	impossible
+T45	PROCESS 763 772	deal with
+T46	MODALITY 773 780	without
+T47	PLAN 783 808	content management system
+T48	REFERENCE 813 823	this paper
+T49	PERSON 824 826	we
+T50	PROCESS 827 834	present
+T51	PLAN 839 845	design
+T52	PLAN 850 864	implementation
+T53	PLAN 872 880	Spectrum
+T54	REFERENCE 908 913	which
+T55	PROCESS 914 924	deals with
+T56	QUALITY 925 929	rich
+T57	DATA-ITEM 930 943	media content
+T58	QUALITY 944 955	effectively
+T59	THING 959 975	this environment
+T60	PLAN 992 1012	modular architecture
+T61	REFERENCE 1013 1017	that
+T62	PROCESS 1018 1024	allows
+T63	REFERENCE 1025 1028	its
+T64	APPLY-TO 1029 1040	application
+T65	QUALITY 1065 1072	various
+T66	PLAN 1073 1092	networked scenarios
+T67	QUALITY 1096 1102	unique
+T68	DATA-ITEM 1103 1109	aspect
+T69	PLAN 1113 1121	Spectrum
+T70	REFERENCE 1130 1132	it
+T71	QUALITY 1133 1141	requires
+T73	QUANTITY 1142 1155	one (or more)
+T74	PLAN 1156 1174	retention policies
+T75	APPLY-TO 1178 1183	apply
+T76	DATA-ITEM 1193 1198	piece
+T77	DATA-ITEM 1202 1209	content
+T78	REFERENCE 1210 1214	that
+T79	PROCESS 1218 1224	stored
+T80	PLAN 1232 1238	system
+T81	REFERENCE 1240 1244	This
+T82	QUANTITY 1266 1268	no
+T83	PLAN 1269 1286	eviction policies
+T84	DATA-ITEM 1288 1295	Content
+T85	MODALITY 1301 1310	no longer
+T86	PLAN 1317 1333	retention policy
+T87	APPLY-TO 1334 1341	applied
+T88	REFERENCE 1345 1347	it
+T89	QUALITY 1351 1357	simply
+T90	PROCESS 1358 1365	removed
+T91	PLAN 1375 1381	system
+T92	QUALITY 1383 1392	Different
+T93	PLAN 1393 1411	retention policies
+T94	MODALITY 1412 1415	can
+T95	QUALITY 1416 1422	easily
+T96	APPLY-TO 1426 1433	applied
+T97	QUALITY 1441 1445	same
+T98	DATA-ITEM 1446 1453	content
+T99	QUALITY 1459 1468	naturally
+T100	PROCESS 1469 1481	facilitating
+T101	PROCESS 1482 1489	sharing
+T102	MODALITY 1490 1497	without
+T103	QUALITY 1498 1509	duplication
+T104	PLAN 1511 1524	This approach
+T105	PROCESS 1530 1536	allows
+T106	PLAN 1537 1545	Spectrum
+T107	QUALITY 1549 1555	easily
+T108	PROCESS 1556 1561	apply
+T110	PLAN 1562 1581	time based policies
+T111	REFERENCE 1582 1587	which
+T112	QUALITY 1592 1597	basic
+T113	PLAN 1598 1613	building blocks
+T114	QUALITY 1614 1622	required
+T115	PROCESS 1626 1635	deal with
+T116	PLAN 1640 1647	storage
+T117	DATA-ITEM 1651 1672	live continuous media
+T118	DATA-ITEM 1677 1684	content
+T119	PERSON 1686 1688	We
+T121	PROCESS 1698 1706	describe
+T122	DATA-ITEM 1711 1718	details
+T123	PLAN 1726 1747	Spectrum architecture
+T124	PROCESS 1757 1761	give
+T125	QUALITY 1762 1769	typical
+T126	PLAN 1770 1779	use cases
+T127	PLAN-OR-PROCESS 0 6	Design
+R1	Output Arg1:T1 Arg2:T2	
+R2	Output Arg1:T127 Arg2:T2	
+T6	PLAN 100 107	storage
+R3	Target Arg1:T3 Arg2:T4	
+R4	Condition Arg1:T4 Arg2:T6	
+R5	Condition Arg1:T4 Arg2:T5	
+R6	Condition Arg1:T4 Arg2:T7	
+T128	PROCESS 151 158	brought
+T129	PERSON 159 161	us
+A1	Self T129
+R7	Destination Arg1:T128 Arg2:T129	
+R8	Output Arg1:T128 Arg2:T8	
+R9	Result Arg1:T3 Arg2:T128	
+R10	Attribute Arg1:T10 Arg2:T9	
+R11	Attribute Arg1:T12 Arg2:T11	
+R12	Target Arg1:T12 Arg2:T10	
+R13	Target Arg1:T13 Arg2:T10	
+R14	Apply-to Arg1:T14 Arg2:T13	
+R15	Condition Arg1:T12 Arg2:T130	
+T130	REFERENCE 180 185	where
+R16	Coreference Arg1:T130 Arg2:T8	
+R17	Condition Arg1:T13 Arg2:T130	
+R18	Target Arg1:T15 Arg2:T17	
+R19	Target Arg1:T16 Arg2:T17	
+R20	Attribute Arg1:T15 Arg2:T18	
+R21	Attribute Arg1:T16 Arg2:T18	
+R22	Equivalence Arg1:T17 Arg2:T10	
+R23	Attribute Arg1:T17 Arg2:T21	
+R24	Attribute Arg1:T21 Arg2:T20	
+R25	Attribute Arg1:T20 Arg2:T19	
+T131	RESULT 358 364	due to
+R26	from Arg1:T131 Arg2:T19	
+R27	to Arg1:T131 Arg2:T18	
+R28	Is-a Arg1:T24 Arg2:T23	
+R29	Is-a Arg1:T25 Arg2:T23	
+R30	Target Arg1:T22 Arg2:T23	
+T132	PROCESS 451 458	adds to
+T133	DATA-ITEM 515 520	start
+R31	Attribute Arg1:T133 Arg2:T28	
+T134	QUANTITY 499 501	no
+R32	Attribute Arg1:T133 Arg2:T134	
+T135	DATA-ITEM 524 527	end
+R33	Attribute Arg1:T135 Arg2:T28	
+R34	Attribute Arg1:T135 Arg2:T134	
+T136	COMPONENT-OBJECT 495 498	has
+R35	from Arg1:T136 Arg2:T27	
+R36	to Arg1:T136 Arg2:T133	
+R37	Condition Arg1:T29 Arg2:T30	
+T137	RESULT 535 544	therefore
+R38	to Arg1:T137 Arg2:T29	
+R39	Attribute Arg1:T22 Arg2:T29	
+R40	Result Arg1:T22 Arg2:T132	
+R41	In_Out Arg1:T132 Arg2:T26	
+R42	Coreference Arg1:T27 Arg2:T23	
+R43	Apply-to Arg1:T31 Arg2:T32	
+R44	Coreference Arg1:T34 Arg2:T33	
+R45	Attribute Arg1:T36 Arg2:T35	
+R46	Attribute Arg1:T38 Arg2:T37	
+T138	COMPONENT-OBJECT 631 635	part
+R47	from Arg1:T138 Arg2:T38	
+R48	Target Arg1:T36 Arg2:T34	
+R49	to Arg1:T138 Arg2:T34	
+R50	Output Arg1:T39 Arg2:T33	
+R51	Target Arg1:T32 Arg2:T39	
+R52	Destination Arg1:T39 Arg2:T40	
+R53	Is-a Arg1:T43 Arg2:T42	
+R54	Output Arg1:T41 Arg2:T42	
+R55	Attribute Arg1:T45 Arg2:T44	
+R56	Attribute Arg1:T47 Arg2:T46	
+R57	Condition Arg1:T45 Arg2:T47	
+R58	Target Arg1:T45 Arg2:T42	
+R59	Result Arg1:T39 Arg2:T41	
+A2	Self T48
+A3	Self T49
+A4	Intentional T50
+R60	Agent Arg1:T50 Arg2:T49	
+R61	Condition Arg1:T50 Arg2:T48	
+R62	Output Arg1:T51 Arg2:T53	
+R63	Output Arg1:T52 Arg2:T53	
+R64	Output Arg1:T50 Arg2:T51	
+R65	Output Arg1:T50 Arg2:T52	
+R66	Coreference Arg1:T54 Arg2:T53	
+R67	Apply-to Arg1:T54 Arg2:T55	
+R68	Attribute Arg1:T57 Arg2:T56	
+R69	Target Arg1:T55 Arg2:T57	
+R70	Attribute Arg1:T55 Arg2:T58	
+R71	Condition Arg1:T55 Arg2:T59	
+T139	PLAN 977 985	Spectrum
+T140	PLAN 881 906	content management system
+R72	Is-a Arg1:T53 Arg2:T140	
+R74	Coreference Arg1:T61 Arg2:T60	
+R75	Apply-to Arg1:T61 Arg2:T62	
+R76	Coreference Arg1:T63 Arg2:T61	
+R77	from Arg1:T64 Arg2:T63	
+T141	PLAN 1049 1060	stand-alone
+R78	to Arg1:T64 Arg2:T141	
+R79	to Arg1:T64 Arg2:T66	
+R80	Attribute Arg1:T66 Arg2:T65	
+R81	Output Arg1:T62 Arg2:T64	
+R82	Attribute Arg1:T69 Arg2:T68	
+R83	Attribute Arg1:T68 Arg2:T67	
+R84	Coreference Arg1:T70 Arg2:T69	
+R85	Attribute Arg1:T74 Arg2:T73	
+R86	Component-object Arg1:T77 Arg2:T76	
+R88	Other-rel Arg1:T75 Arg2:T76	
+R89	Coreference Arg1:T78 Arg2:T76	
+R90	Target Arg1:T79 Arg2:T78	
+R91	Destination Arg1:T79 Arg2:T80	
+R92	Attribute Arg1:T74 Arg2:T71	
+R93	Condition Arg1:T71 Arg2:T70	
+R94	Attribute Arg1:T83 Arg2:T82	
+T72	REFERENCE 1256 1261	there
+R95	Coreference Arg1:T72 Arg2:T80	
+R96	Condition Arg1:T83 Arg2:T72	
+T142	EQUIVALENCE 1245 1250	means
+R97	from Arg1:T142 Arg2:T82	
+R98	Other-rel Arg1:T142 Arg2:T81	
+R99	Attribute Arg1:T90 Arg2:T89	
+R100	Origin Arg1:T90 Arg2:T91	
+R101	Output Arg1:T90 Arg2:T84	
+R102	Coreference Arg1:T88 Arg2:T84	
+R103	from Arg1:T87 Arg2:T86	
+R104	to Arg1:T87 Arg2:T88	
+R105	Attribute Arg1:T87 Arg2:T85	
+R106	Attribute Arg1:T93 Arg2:T92	
+R107	Attribute Arg1:T96 Arg2:T95	
+R108	Attribute Arg1:T96 Arg2:T94	
+R109	from Arg1:T96 Arg2:T93	
+R110	Attribute Arg1:T98 Arg2:T97	
+R111	Other-rel Arg1:T96 Arg2:T98	
+R112	Target Arg1:T100 Arg2:T101	
+R113	Attribute Arg1:T100 Arg2:T99	
+R114	Attribute Arg1:T103 Arg2:T102	
+R115	Condition Arg1:T101 Arg2:T103	
+T143	RESULT 1454 1458	thus
+R116	from Arg1:T143 Arg2:T96	
+R117	to Arg1:T143 Arg2:T100	
+R118	Apply-to Arg1:T93 Arg2:T100	
+R119	Apply-to Arg1:T110 Arg2:T108	
+R120	Attribute Arg1:T108 Arg2:T107	
+R121	Apply-to Arg1:T106 Arg2:T108	
+R122	Output Arg1:T105 Arg2:T108	
+R123	Result Arg1:T104 Arg2:T105	
+R124	Attribute Arg1:T113 Arg2:T112	
+R125	Target Arg1:T115 Arg2:T116	
+R126	Condition Arg1:T116 Arg2:T117	
+R127	Destination Arg1:T108 Arg2:T118	
+R128	Coreference Arg1:T111 Arg2:T110	
+R129	Is-a Arg1:T111 Arg2:T113	
+R130	Attribute Arg1:T113 Arg2:T114	
+R131	Condition Arg1:T114 Arg2:T115	
+A5	Self T119
+A6	Intentional T121
+R132	Agent Arg1:T121 Arg2:T119	
+R133	Output Arg1:T121 Arg2:T122	
+R134	Attribute Arg1:T123 Arg2:T122	
+R135	Attribute Arg1:T126 Arg2:T125	
+A7	Intentional T124
+R136	Agent Arg1:T124 Arg2:T119	
+A8	Judgment T107
+T109	ATTRIBUTE 986 989	has
+R137	from Arg1:T109 Arg2:T139	
+R138	to Arg1:T109 Arg2:T60	
+T120	QUALITY 662 669	in fact
+R73	Attribute Arg1:T39 Arg2:T120	
+R87	from Arg1:T75 Arg2:T74	
+R139	Output Arg1:T124 Arg2:T126	

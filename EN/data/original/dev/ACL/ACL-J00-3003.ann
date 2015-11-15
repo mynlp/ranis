@@ -1,0 +1,191 @@
+T1	PLAN-OR-PROCESS 0 21	Dialogue Act Modeling
+T2	PLAN-OR-PROCESS 26 43	Automatic Tagging
+T3	PLAN-OR-PROCESS 26 35;48 59	Automatic Recognition
+T4	DATA-ITEM 63 84	Conversational Speech
+T5	PLAN 100 120	statistical approach
+T6	PROCESS 125 133	modeling
+T7	DATA-ITEM 134 147	dialogue acts
+T8	DATA-ITEM 151 172	conversational speech
+T9	DATA-ITEM 180 201	speech-act-like units
+T10	DATA-ITEM 210 219	STATEMENT
+T11	DATA-ITEM 221 229	QUESTION
+T12	DATA-ITEM 231 242	BACKCHANNEL
+T13	DATA-ITEM 244 253	AGREEMENT
+T14	DATA-ITEM 255 267	DISAGREEMENT
+T15	DATA-ITEM 273 280	APOLOGY
+T16	PLAN 286 291	model
+T17	PROCESS 292 299	detects
+T18	PROCESS 304 312	predicts
+T19	DATA-ITEM 313 326	dialogue acts
+T20	DATA-ITEM 336 343;373 377	lexical cues
+T21	DATA-ITEM 345 358;373 377	collocational cues
+T22	DATA-ITEM 364 377	prosodic cues
+T23	DATA-ITEM 397 416	discourse coherence
+T24	DATA-ITEM 424 445	dialogue act sequence
+T25	PLAN 451 465	dialogue model
+T26	PROCESS 478 486	treating
+T27	DATA-ITEM 491 510	discourse structure
+T28	DATA-ITEM 516 528	conversation
+T30	QUALITY 562 572	individual
+T31	DATA-ITEM 573 586	dialogue acts
+T32	DATA-ITEM 590 602	observations
+T33	PROCESS 603 612	emanating
+T34	DATA-ITEM 622 634	model states
+T35	DATA-ITEM 636 647	Constraints
+T36	QUALITY 655 661	likely
+T37	DATA-ITEM 662 670	sequence
+R1	Attribute Arg1:T37 Arg2:T36	
+T38	DATA-ITEM 674 687	dialogue acts
+T39	PROCESS 692 699	modeled
+T40	DATA-ITEM 706 725	dialogue act n-gram
+T41	PLAN 731 759	statistical dialogue grammar
+T42	PROCESS 763 771	combined
+T43	DATA-ITEM 777 789	word n-grams
+T44	PLAN 791 805	decision trees
+T45	PLAN 811 826	neural networks
+T46	PROCESS 827 835	modeling
+T47	DATA-ITEM 854 861;875 889	lexical manifestations
+T48	DATA-ITEM 866 889	prosodic manifestations
+T49	DATA-ITEM 898 910	dialogue act
+T50	PROCESS 925 950	probabilistic integration
+T51	PLAN-OR-PROCESS 954 972	speech recognition
+T52	PLAN-OR-PROCESS 978 995	dialogue modeling
+T53	PROCESS 1000 1007	improve
+T54	DATA-ITEM 1013 1031;1064 1072	speech recognition accuracy
+T55	DATA-ITEM 1036 1072	dialogue act classification accuracy
+T56	PLAN 1074 1080	Models
+T57	PROCESS 1085 1092	trained
+T58	PROCESS 1097 1106	evaluated
+T59	INPUT 1107 1112	using
+T60	QUALITY 1115 1120	large
+T61	DATA-ITEM 1121 1142	hand-labeled database
+T62	QUANTITY 1146 1151	1,155
+T63	DATA-ITEM 1152 1165	conversations
+T64	DATA-ITEM 1175 1193	Switchboard corpus
+T65	DATA-ITEM 1175 1186	Switchboard
+T66	DATA-ITEM 1197 1240	spontaneous human-to-human telephone speech
+T67	QUALITY 1254 1258	good
+R2	Attribute Arg1:T61 Arg2:T60	
+T68	DATA-ITEM 1259 1289	dialogue act labeling accuracy
+T69	QUANTITY 1291 1294	65%
+T70	QUALITY 1304 1312	errorful
+T71	QUALITY 1314 1338	automatically recognized
+T73	DATA-ITEM 1339 1344	words
+T74	DATA-ITEM 1349 1356	prosody
+R4	Attribute Arg1:T68 Arg2:T69	
+T75	QUANTITY 1362 1365	71%
+T76	DATA-ITEM 1375 1391	word transcripts
+T77	COMPARE 1393 1401	compared
+T78	DATA-ITEM 1407 1431	chance baseline accuracy
+T79	QUANTITY 1435 1438	35%
+R5	Attribute Arg1:T78 Arg2:T79	
+T80	DATA-ITEM 1443 1457	human accuracy
+T81	QUANTITY 1461 1464	84%
+R6	Attribute Arg1:T80 Arg2:T81	
+R7	Attribute Arg1:T68 Arg2:T75	
+R8	Attribute Arg1:T73 Arg2:T70	
+R9	Attribute Arg1:T74 Arg2:T70	
+T82	QUALITY 1472 1477	small
+T83	JUDGING-PROCESS 1478 1487	reduction
+T84	DATA-ITEM 1491 1513	word recognition error
+R10	Attribute Arg1:T83 Arg2:T82	
+T85	PLAN 534 553	hidden Markov model
+T86	PERSON 1443 1448	human
+T87	PERSON 1209 1214	human
+T88	PERSON 1218 1223	human
+T89	PERSON 282 285	Our
+R11	Attribute Arg1:T63 Arg2:T62	
+R12	Attribute Arg1:T31 Arg2:T30	
+T29	CONDITION 1295 1303	based on
+R13	from Arg1:T29 Arg2:T68	
+R14	to Arg1:T29 Arg2:T73	
+R15	to Arg1:T29 Arg2:T74	
+T90	CONDITION 1366 1374	based on
+R16	from Arg1:T90 Arg2:T68	
+R17	to Arg1:T90 Arg2:T76	
+R18	In_Out Arg1:T26 Arg2:T27	
+R19	Attribute Arg1:T28 Arg2:T27	
+T91	INPUT 327 335	based on
+R20	from Arg1:T91 Arg2:T17	
+R21	to Arg1:T91 Arg2:T20	
+R22	to Arg1:T91 Arg2:T21	
+R23	to Arg1:T91 Arg2:T22	
+R24	to Arg1:T91 Arg2:T23	
+R25	Attribute Arg1:T24 Arg2:T23	
+T92	PERSON 541 547	Markov
+R26	Poss Arg1:T89 Arg2:T16	
+R27	Attribute Arg1:T68 Arg2:T67	
+R3	Attribute Arg1:T73 Arg2:T71	
+R28	Attribute Arg1:T74 Arg2:T71	
+R29	Member-collection Arg1:T38 Arg2:T37	
+T93	QUALITY 840 853	idiosyncratic
+R30	Attribute Arg1:T47 Arg2:T93	
+R31	Attribute Arg1:T48 Arg2:T93	
+R32	Member-collection Arg1:T63 Arg2:T61	
+R33	Member-collection Arg1:T63 Arg2:T64	
+R34	In_Out Arg1:T3 Arg2:T4	
+R35	In_Out Arg1:T2 Arg2:T4	
+R36	Apply-to Arg1:T1 Arg2:T2	
+R37	Apply-to Arg1:T1 Arg2:T3	
+R38	Apply-to Arg1:T5 Arg2:T6	
+R39	In_Out Arg1:T6 Arg2:T7	
+R40	Component-object Arg1:T7 Arg2:T8	
+R41	Is-a Arg1:T9 Arg2:T7	
+R42	Is-a Arg1:T10 Arg2:T9	
+R43	Is-a Arg1:T11 Arg2:T9	
+R44	Is-a Arg1:T12 Arg2:T9	
+R45	Is-a Arg1:T13 Arg2:T9	
+R46	Is-a Arg1:T14 Arg2:T9	
+R47	Is-a Arg1:T15 Arg2:T9	
+R48	Apply-to Arg1:T16 Arg2:T17	
+R49	Apply-to Arg1:T16 Arg2:T18	
+R50	In_Out Arg1:T17 Arg2:T19	
+R51	In_Out Arg1:T18 Arg2:T19	
+R52	Input Arg1:T33 Arg2:T34	
+R53	Output Arg1:T33 Arg2:T32	
+R54	In_Out Arg1:T26 Arg2:T31	
+R55	Is-a Arg1:T31 Arg2:T32	
+R57	Input Arg1:T39 Arg2:T40	
+R58	Condition Arg1:T35 Arg2:T37	
+R60	Input Arg1:T42 Arg2:T41	
+R61	Input Arg1:T42 Arg2:T43	
+R62	Input Arg1:T42 Arg2:T44	
+R63	Input Arg1:T42 Arg2:T45	
+R64	Apply-to Arg1:T45 Arg2:T46	
+R65	Attribute Arg1:T49 Arg2:T47	
+R66	Attribute Arg1:T49 Arg2:T48	
+R67	In_Out Arg1:T46 Arg2:T48	
+R68	In_Out Arg1:T46 Arg2:T47	
+R69	Input Arg1:T50 Arg2:T51	
+R70	Input Arg1:T50 Arg2:T52	
+R71	Apply-to Arg1:T50 Arg2:T53	
+T97	APPLY-TO 469 477	based on
+R72	from Arg1:T97 Arg2:T26	
+R73	to Arg1:T97 Arg2:T25	
+R74	In_Out Arg1:T53 Arg2:T54	
+R75	In_Out Arg1:T53 Arg2:T55	
+R76	to Arg1:T59 Arg2:T61	
+R77	from Arg1:T59 Arg2:T57	
+R78	Output Arg1:T57 Arg2:T56	
+R79	Input Arg1:T58 Arg2:T56	
+R80	Member-collection Arg1:T66 Arg2:T64	
+R59	In_Out Arg1:T39 Arg2:T35	
+R81	In_Out Arg1:T83 Arg2:T84	
+R82	to Arg1:T77 Arg2:T67	
+R83	from Arg1:T77 Arg2:T78	
+R84	to Arg1:T77 Arg2:T80	
+R85	from Arg1:T91 Arg2:T18	
+T72	PERSON 86 88	We
+T94	PROCESS 89 97	describe
+T95	PERSON 912 914	We
+T96	PROCESS 915 922	develop
+T98	PERSON 1242 1244	We
+T99	PROCESS 1245 1253	achieved
+R56	Input Arg1:T85 Arg2:T28	
+R86	Input Arg1:T85 Arg2:T27	
+R87	Agent Arg1:T96 Arg2:T95	
+R88	Agent Arg1:T99 Arg2:T98	
+R89	Agent Arg1:T94 Arg2:T72	
+R90	Output Arg1:T94 Arg2:T5	
+R91	Output Arg1:T96 Arg2:T50	
+R92	Other-rel Arg1:T99 Arg2:T68	

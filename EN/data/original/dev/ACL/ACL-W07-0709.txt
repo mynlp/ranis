@@ -1,0 +1,7 @@
+Meta-Structure Transformation Model for Statistical Machine Translation
+
+We propose a novel syntax-based model for statistical machine translation in which meta-structure (MS) and meta-structure sequence (SMS) of a parse tree are defined.
+In this framework, a parse tree is decomposed into SMS to deal with the structure divergence and the alignment can be reconstructed at different levels of recombination of MS (RM).
+RM pairs extracted can perform the mapping between the substructures across languages.
+As a result, we have got not only the translation for the target language, but an SMS of its parse tree at the same time.
+Experiments with BLEU metric show that the model significantly outperforms Pharaoh, a state-art-the-art phrase-based system.

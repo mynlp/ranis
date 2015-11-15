@@ -1,0 +1,105 @@
+T1	PLAN-OR-PROCESS 0 19	Inductive Detection
+T2	DATA-ITEM 23 40	Language Features
+T3	PLAN-OR-PROCESS 45 55	Clustering
+T4	DATA-ITEM 56 69	Minimal Pairs
+T5	PLAN 78 99	Feature-Rich Grammars
+T6	PLAN 103 122	Machine Translation
+T7	PLAN 124 164	Syntax-based Machine Translation systems
+T8	TIME 170 178	recently
+T9	IS-A 179 185	become
+T10	PLAN 188 193	focus
+T11	PLAN-OR-PROCESS 197 205	research
+T12	OCCURENT 216 220	hope
+T13	QUALITY 211 215	much
+T14	REFERENCE 221 225	that
+R1	Coreference Arg1:T14 Arg2:T12	
+T15	REFERENCE 226 230	they
+R2	Coreference Arg1:T15 Arg2:T7	
+T17	JUDGING-PROCESS 236 246	outperform
+T18	QUALITY 247 258	traditional
+T19	PLAN 259 303	Phrase-Based Statistical Machine Translation
+T20	PLAN 305 310	PBSMT
+R3	Equivalence Arg1:T20 Arg2:T19	
+T22	PLAN 344 350	method
+T23	PROCESS 355 364	analyzing
+T24	DATA-ITEM 369 392	morphosyntactic content
+T25	LANGUAGE 396 404	language
+T26	DATA-ITEM 413 431	Elicitation Corpus
+T27	ORGANIZATION 464 467	LDC
+T28	QUALITY 470 478	upcoming
+T29	DATA-ITEM 479 498	LCTL language packs
+T30	MEMBER-COLLECTION 448 456	included
+T31	REFERENCE 444 447	one
+T32	PLAN 504 520	presented method
+T33	PROCESS 521 530	discovers
+T34	PLAN 533 540	mapping
+T35	DATA-ITEM 549 558	morphemes
+T36	DATA-ITEM 563 595	linguistically relevant features
+T38	PLAN 610 619	this tool
+T39	REFERENCE 620 624	that
+R5	Coreference Arg1:T39 Arg2:T38	
+T40	MODALITY 625 628	can
+T41	PROCESS 629 636	augment
+T42	PLAN 637 662	structure-based MT models
+T43	DATA-ITEM 668 687	these rich features
+T37	DATA-ITEM 793 809	resulting output
+T44	MODALITY 810 813	can
+T45	INPUT 822 826	used
+T46	PROCESS 830 838	inducing
+T47	PLAN 841 881	morphosyntactically feature-rich grammar
+T48	PLAN 886 892	AVENUE
+T49	PLAN 903 925	syntax-based MT system
+T50	QUALITY 896 902	modern
+R6	Attribute Arg1:T19 Arg2:T18	
+R4	Attribute Arg1:T49 Arg2:T50	
+R7	Attribute Arg1:T12 Arg2:T13	
+R8	Attribute Arg1:T41 Arg2:T40	
+R9	Attribute Arg1:T45 Arg2:T44	
+R10	Poss Arg1:T27 Arg2:T29	
+R11	Attribute Arg1:T29 Arg2:T28	
+R12	Output Arg1:T1 Arg2:T2	
+R13	In_Out Arg1:T3 Arg2:T4	
+R14	Apply-to Arg1:T3 Arg2:T1	
+R15	Condition Arg1:T5 Arg2:T6	
+R16	Attribute Arg1:T9 Arg2:T8	
+R17	from Arg1:T9 Arg2:T7	
+R18	to Arg1:T9 Arg2:T10	
+R19	Target Arg1:T11 Arg2:T10	
+R21	Compare Arg1:T19 Arg2:T17	
+R22	Apply-to Arg1:T22 Arg2:T23	
+R23	In_Out Arg1:T23 Arg2:T24	
+R24	Attribute Arg1:T25 Arg2:T24	
+R25	Component-object Arg1:T24 Arg2:T26	
+R26	Coreference Arg1:T31 Arg2:T26	
+R27	from Arg1:T30 Arg2:T31	
+R28	to Arg1:T30 Arg2:T29	
+R29	Apply-to Arg1:T32 Arg2:T33	
+R30	Output Arg1:T33 Arg2:T34	
+R31	Ori_Dest Arg1:T34 Arg2:T35	
+R32	Ori_Dest Arg1:T34 Arg2:T36	
+R33	Coreference Arg1:T38 Arg2:T32	
+R34	Apply-to Arg1:T39 Arg2:T41	
+R35	Output Arg1:T41 Arg2:T42	
+R36	Input Arg1:T41 Arg2:T43	
+R37	Coreference Arg1:T43 Arg2:T36	
+R38	Output Arg1:T46 Arg2:T47	
+R39	to Arg1:T45 Arg2:T37	
+R40	from Arg1:T45 Arg2:T46	
+R41	Apply-to Arg1:T47 Arg2:T48	
+R42	Is-a Arg1:T48 Arg2:T49	
+T54	APPLY-TO 71 77	Toward
+R43	from Arg1:T54 Arg2:T1	
+R44	to Arg1:T54 Arg2:T5	
+R45	Apply-to Arg1:T15 Arg2:T17	
+T16	PERSON 331 333	we
+T21	PROCESS 334 341	present
+T51	PERSON 760 762	We
+T52	PROCESS 763 771	conclude
+T53	PROCESS 775 784	outlining
+R20	Agent Arg1:T21 Arg2:T16	
+R46	Agent Arg1:T52 Arg2:T51	
+R47	Output Arg1:T21 Arg2:T22	
+T55	MODALITY 231 235	will
+R48	Attribute Arg1:T17 Arg2:T55	
+R49	Agent Arg1:T53 Arg2:T51	
+R50	Apply-to Arg1:T53 Arg2:T52	

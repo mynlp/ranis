@@ -1,0 +1,98 @@
+T1	PLAN 0 16	Binding Machines
+T2	PLAN 18 37	Binding constraints
+T3	PROCESS 38 42	form
+T4	DATA-ITEM 43 46	one
+T5	QUALITY 54 65	most robust
+T6	DATA-ITEM 66 73	modules
+T7	DATA-ITEM 77 98	grammatical knowledge
+T8	REFERENCE 108 113	their
+T9	DATA-ITEM 114 140	crosslinguistic generality
+T10	QUALITY 145 154	practical
+T11	DATA-ITEM 155 164	relevance
+T12	PLAN-OR-PROCESS 169 187	anaphor resolution
+T13	REFERENCE 189 193	they
+T14	PROCESS 199 207	resisted
+T15	QUALITY 208 212	full
+T16	PLAN-OR-PROCESS 213 224	integration
+T17	PLAN 230 248	grammar processing
+T18	PLAN 263 269	reason
+T19	REFERENCE 274 278	this
+T20	PROCESS 288 293	found
+T21	PLAN 301 343	original exhaustive coindexation rationale
+T22	REFERENCE 348 353	their
+T23	DATA-ITEM 354 367	specification
+T24	DATA-ITEM 372 384	verification
+T25	PERSON 405 407	we
+T26	PROCESS 408 415	propose
+T27	PLAN 419 427	approach
+T28	REFERENCE 428 433	which
+T29	PROCESS 441 451	permitting
+T30	PLAN-OR-PROCESS 454 485	unification-based specification
+T31	PLAN 489 508	binding constraints
+T32	PROCESS 510 516	allows
+T33	PLAN 523 547	verification methodology
+T34	REFERENCE 548 552	that
+T35	PROCESS 553 558	helps
+T36	PROCESS 562 570	overcome
+T37	TIME 571 579	previous
+T38	DATA-ITEM 580 589	drawbacks
+T39	PLAN 591 616	This alternative approach
+T40	APPLY-TO 620 628	based on
+T41	PLAN 633 642	rationale
+T42	DATA-ITEM 648 666	anaphoric nominals
+T43	MODALITY 667 670	can
+T44	PROCESS 674 680	viewed
+T45	PLAN 684 700	binding machines
+R1	Attribute Arg1:T6 Arg2:T5	
+R2	Component-object Arg1:T7 Arg2:T6	
+R3	Member-collection Arg1:T4 Arg2:T6	
+R4	Output Arg1:T3 Arg2:T4	
+R5	Apply-to Arg1:T2 Arg2:T3	
+R6	Coreference Arg1:T8 Arg2:T2	
+R7	Attribute Arg1:T8 Arg2:T9	
+R8	Attribute Arg1:T11 Arg2:T10	
+R9	Attribute Arg1:T8 Arg2:T11	
+R10	Condition Arg1:T11 Arg2:T12	
+R11	Condition Arg1:T9 Arg2:T12	
+R12	Coreference Arg1:T13 Arg2:T2	
+R13	Attribute Arg1:T16 Arg2:T15	
+R14	Target Arg1:T14 Arg2:T16	
+R15	Destination Arg1:T16 Arg2:T17	
+R16	Apply-to Arg1:T13 Arg2:T14	
+R17	Attribute Arg1:T18 Arg2:T19	
+R18	In_Out Arg1:T20 Arg2:T18	
+R19	Input Arg1:T20 Arg2:T21	
+R20	Coreference Arg1:T22 Arg2:T13	
+R21	Attribute Arg1:T23 Arg2:T21	
+R22	Attribute Arg1:T24 Arg2:T21	
+R23	Attribute Arg1:T22 Arg2:T23	
+R24	Attribute Arg1:T22 Arg2:T24	
+A1	Self T25
+A2	Intentional T26
+R26	Agent Arg1:T26 Arg2:T25	
+R27	Output Arg1:T26 Arg2:T27	
+R28	Coreference Arg1:T28 Arg2:T27	
+R29	Attribute Arg1:T38 Arg2:T37	
+R30	Target Arg1:T36 Arg2:T38	
+R31	Target Arg1:T35 Arg2:T36	
+R32	Apply-to Arg1:T34 Arg2:T35	
+R33	Coreference Arg1:T34 Arg2:T33	
+R34	Apply-to Arg1:T28 Arg2:T32	
+R35	Target Arg1:T32 Arg2:T33	
+T46	PLAN 392 403	alternative
+R36	Member-collection Arg1:T27 Arg2:T46	
+R37	Target Arg1:T29 Arg2:T30	
+R38	In_Out Arg1:T30 Arg2:T31	
+R39	Coreference Arg1:T39 Arg2:T27	
+R40	from Arg1:T40 Arg2:T41	
+R41	to Arg1:T40 Arg2:T39	
+R42	Attribute Arg1:T44 Arg2:T43	
+R43	Other-rel Arg1:T42 Arg2:T45	
+R44	Input Arg1:T44 Arg2:T42	
+A3	Judgment T5
+R45	Output Arg1:T16 Arg2:T13	
+T47	QUALITY 254 262	ultimate
+A4	Judgment T47
+R46	Attribute Arg1:T18 Arg2:T47	
+R47	Coreference Arg1:T19 Arg2:T14	
+R25	Apply-to Arg1:T28 Arg2:T29	

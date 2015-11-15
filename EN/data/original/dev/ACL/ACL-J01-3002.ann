@@ -1,0 +1,40 @@
+T1	PLAN 2 19	Statistical Model
+T2	PLAN-OR-PROCESS 24 38	Word Discovery
+T3	DATA-ITEM 42 60	Transcribed Speech
+T4	PLAN 64 81	statistical model
+T5	PLAN-OR-PROCESS 86 98	segmentation
+T6	PLAN-OR-PROCESS 103 117	word discovery
+T7	DATA-ITEM 121 138	continuous speech
+T8	PLAN 156 199	incremental unsupervised learning algorithm
+T9	PROCESS 203 208	infer
+T10	DATA-ITEM 209 224	word boundaries
+T11	PLAN 234 244	this model
+T12	APPLY-TO 225 233	based on
+R1	Coreference Arg1:T11 Arg2:T4	
+T13	DATA-ITEM 259 266	Results
+T14	PLAN-OR-PROCESS 289 304	empirical tests
+T15	RESULT 305 312	showing
+T16	PLAN 322 331	algorithm
+T17	QUALITY 335 346	competitive
+T18	PLAN 352 364	other models
+T19	APPLY-TO 380 384	used
+T20	PLAN 389 402	similar tasks
+R2	Attribute Arg1:T16 Arg2:T17	
+T22	REFERENCE 365 369	that
+R3	Coreference Arg1:T22 Arg2:T18	
+R4	Compare Arg1:T18 Arg2:T17	
+R5	Apply-to Arg1:T1 Arg2:T2	
+R6	Condition Arg1:T2 Arg2:T3	
+R7	Apply-to Arg1:T4 Arg2:T5	
+R8	Apply-to Arg1:T4 Arg2:T6	
+R9	Condition Arg1:T6 Arg2:T7	
+R10	Apply-to Arg1:T8 Arg2:T9	
+R11	Condition Arg1:T5 Arg2:T7	
+R12	Output Arg1:T9 Arg2:T10	
+R13	from Arg1:T12 Arg2:T11	
+R14	to Arg1:T12 Arg2:T8	
+R15	from Arg1:T15 Arg2:T13	
+R16	to Arg1:T15 Arg2:T17	
+R17	from Arg1:T19 Arg2:T22	
+R18	to Arg1:T19 Arg2:T20	
+R19	Output Arg1:T14 Arg2:T13	

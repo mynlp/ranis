@@ -1,0 +1,76 @@
+R1	Output Arg1:T1 Arg2:T2
+R2	Condition Arg1:T2 Arg2:T33
+A1	Self T4
+A2	Self T5
+R3	In_Out Arg1:T6 Arg2:T7
+R4	Agent Arg1:T6 Arg2:T5
+R5	Condition Arg1:T6 Arg2:T4
+R6	Coreference Arg1:T8 Arg2:T7
+R7	Attribute Arg1:T10 Arg2:T9
+R8	Target Arg1:T10 Arg2:T11
+R9	In_Out Arg1:T10 Arg2:T8
+R10	Output Arg1:T13 Arg2:T12
+R11	Input Arg1:T12 Arg2:T14
+R13	Agent Arg1:T13 Arg2:T35
+R14	Component-object Arg1:T12 Arg2:T7
+A3	Self T16
+A5	Name T35
+R15	Agent Arg1:T17 Arg2:T16
+A6	Intentional T6
+A7	Intentional T17
+R16	Attribute Arg1:T20 Arg2:T19
+R17	Member-collection Arg1:T18 Arg2:T20
+R18	In_Out Arg1:T17 Arg2:T18
+A8	Self T22
+A9	Intentional T23
+R19	Agent Arg1:T23 Arg2:T22
+R20	Attribute Arg1:T26 Arg2:T25
+R21	Output Arg1:T26 Arg2:T24
+R22	Attribute Arg1:T26 Arg2:T27
+R23	from Arg1:T21 Arg2:T23
+R27	Output Arg1:T23 Arg2:T26
+R28	Attribute Arg1:T29 Arg2:T28
+R29	Is-a Arg1:T31 Arg2:T30
+R30	Output Arg1:T32 Arg2:T28
+R24	to Arg1:T21 Arg2:T18
+R25	from Arg1:T36 Arg2:T29
+R26	to Arg1:T36 Arg2:T30
+R31	Apply-to Arg1:T3 Arg2:T1
+R32	Input Arg1:T34 Arg2:T2
+A10	Name T14
+A11	Name T33
+T1	PROCESS 0 12	Constructing
+T2	DATA-ITEM 13 34	Verb Semantic Classes
+T33	LANGUAGE 39 45	French
+T3	PLAN 48 55	Methods
+T34	PLAN-OR-PROCESS 60 70	Evaluation
+T4	REFERENCE 76 86	this paper
+T5	PERSON 89 91	we
+T6	PROCESS 92 97	study
+T7	PLAN 100 113	reformulation
+T8	REFERENCE 116 121	which
+T9	QUALITY 125 131	better
+T10	PROCESS 132 139	adapted
+T11	PLAN-OR-PROCESS 143 146	NLP
+T12	PLAN 156 174	alternation system
+T13	PROCESS 175 184	developed
+T14	LANGUAGE 189 196	English
+T35	PERSON 200 208	B. Levin
+T16	PERSON 211 213	We
+T17	PROCESS 219 226	studied
+T18	DATA-ITEM 229 232	set
+T19	QUANTITY 236 240	1700
+T20	DATA-ITEM 241 246	verbs
+T21	INPUT 252 257	which
+T22	PERSON 258 260	we
+T23	PROCESS 261 268	explain
+T24	DATA-ITEM 273 294	verb semantic classes
+T25	MODALITY 295 298	can
+T26	PROCESS 302 307	built
+T27	QUALITY 313 327	systematic way
+T28	QUALITY 334 341	quality
+T29	DATA-ITEM 349 356	results
+T36	CONDITION 357 363	w.r.t.
+T30	PLAN 364 388	semantic classifications
+T31	PLAN 397 404	WordNet
+T32	PROCESS 413 422	evaluated

@@ -1,0 +1,209 @@
+T1	PLAN-OR-PROCESS 9 31	Grid Service Discovery
+T2	PLAN 41 45	UDDI
+T3	PLAN-OR-PROCESS 56 65	discovery
+T4	PLAN 69 82	grid services
+T5	QUALITY 86 95	essential
+T6	QUALITY 104 111	success
+T7	PLAN 115 129	grid computing
+T8	PLAN-OR-PROCESS 135 150	standardization
+T9	PLAN 154 159	grids
+T10	APPLY-TO 160 165	based
+T11	PLAN 169 181	web services
+T12	RESULT 186 194	resulted
+T13	QUALITY 202 206	need
+T14	QUALITY 211 219	scalable
+T15	PLAN 220 252	web service discovery mechanisms
+T16	PROCESS 259 267	deployed
+T17	PLAN 271 276	grids
+T18	PLAN 290 294	UDDI
+T19	PLAN 317 334	industry standard
+T20	PLAN-OR-PROCESS 339 361	web-services discovery
+T21	QUALITY 363 370	imposed
+T22	QUALITY 371 383	requirements
+T23	PLAN 387 404	tight-replication
+T24	DATA-ITEM 411 421	registries
+T25	MODALITY 426 430	lack
+T26	PLAN-OR-PROCESS 434 452	autonomous control
+T27	QUALITY 457 465	severely
+T28	PROCESS 466 474	hindered
+T29	REFERENCE 475 478	its
+T30	PLAN-OR-PROCESS 479 500	widespread deployment
+T31	PLAN-OR-PROCESS 505 510	usage
+T32	PROCESS 521 527	advent
+T33	PLAN 531 545	grid computing
+T35	DATA-ITEM 550 567	scalability issue
+T36	PLAN 571 575	UDDI
+T37	MODALITY 576 580	will
+T38	IS-A 581 587	become
+T39	THING 590 599	roadblock
+T40	REFERENCE 600 604	that
+T41	MODALITY 605 609	will
+T42	PROCESS 610 617	prevent
+T43	REFERENCE 618 621	its
+T44	PROCESS 622 632	deployment
+T45	PLAN 636 641	grids
+T46	REFERENCE 646 656	this paper
+T47	PERSON 657 659	we
+T48	PROCESS 660 667	present
+T49	PERSON 668 671	our
+T50	PLAN 672 718	distributed web-service discovery architecture
+T51	EQUIVALENCE 720 726	called
+T52	PLAN 727 731	DUDE
+T53	PLAN 733 767	Distributed UDDI Deployment Engine
+T54	PLAN 770 774	DUDE
+T55	PLAN 790 813	Distributed Hash Tables
+T56	PLAN 820 840	rendezvous mechanism
+T57	QUANTITY 849 857	multiple
+T58	DATA-ITEM 858 873	UDDI registries
+T59	PLAN 875 879	DUDE
+T60	PROCESS 880 887	enables
+T61	PERSON 888 897	consumers
+T62	PROCESS 901 906	query
+T63	QUANTITY 907 915	multiple
+T64	DATA-ITEM 916 926	registries
+T65	TIME 941 950	same time
+T66	PROCESS 951 959	allowing
+T67	ORGANIZATION 960 973	organizations
+T68	PROCESS 977 981	have
+T69	QUALITY 982 992	autonomous
+T70	PROCESS 993 1000	control
+T71	REFERENCE 1006 1011	their
+T72	DATA-ITEM 1012 1022	registries
+T73	RESULT 1024 1029	Based
+T74	QUALITY 1033 1044	preliminary
+T75	PLAN 1045 1054	prototype
+T76	PLAN 1058 1067	PlanetLab
+T77	PERSON 1069 1071	we
+T78	PLAN 1085 1102	DUDE architecture
+T79	MODALITY 1103 1106	can
+T80	PROCESS 1107 1114	support
+T81	QUALITY 1115 1124	effective
+T82	PROCESS 1125 1137	distribution
+T83	DATA-ITEM 1141 1156	UDDI registries
+T84	RESULT 1157 1164	thereby
+T85	PLAN 1172 1176	UDDI
+T86	QUALITY 1177 1188	more robust
+T87	PROCESS 1198 1208	addressing
+T88	REFERENCE 1209 1212	its
+T89	DATA-ITEM 1213 1227	scaling issues
+T90	PLAN 1246 1263	DUDE architecture
+T91	PROCESS 1277 1289	distribution
+T92	MODALITY 1290 1293	can
+T93	APPLY-TO 1297 1304	applied
+T94	PLAN 1312 1316	UDDI
+T95	PLAN 1324 1356	Grid Service Discovery mechanism
+T96	QUALITY 0 8	Scalable
+R1	Attribute Arg1:T1 Arg2:T96	
+T97	APPLY-TO 32 37	Based
+R2	from Arg1:T97 Arg2:T2	
+R3	to Arg1:T97 Arg2:T1	
+R4	Attribute Arg1:T7 Arg2:T6	
+R5	Condition Arg1:T5 Arg2:T6	
+R6	Attribute Arg1:T3 Arg2:T5	
+T98	QUALITY 46 55	Efficient
+R7	Attribute Arg1:T3 Arg2:T98	
+R8	In_Out Arg1:T3 Arg2:T4	
+R9	In_Out Arg1:T8 Arg2:T9	
+R10	Attribute Arg1:T15 Arg2:T14	
+R11	Destination Arg1:T16 Arg2:T17	
+R12	Output Arg1:T16 Arg2:T15	
+R13	Attribute Arg1:T16 Arg2:T13	
+R14	to Arg1:T12 Arg2:T13	
+R15	from Arg1:T12 Arg2:T8	
+R16	from Arg1:T10 Arg2:T11	
+R17	to Arg1:T10 Arg2:T9	
+T99	QUALITY 308 316	de facto
+R18	Attribute Arg1:T19 Arg2:T99	
+R19	Equivalence Arg1:T19 Arg2:T18	
+R20	Apply-to Arg1:T19 Arg2:T20	
+R21	Attribute Arg1:T26 Arg2:T25	
+R22	Attribute Arg1:T23 Arg2:T22	
+R23	Attribute Arg1:T22 Arg2:T21	
+R24	Attribute Arg1:T28 Arg2:T27	
+R25	Output Arg1:T30 Arg2:T29	
+R26	Input Arg1:T29 Arg2:T31	
+R27	Coreference Arg1:T29 Arg2:T18	
+R28	Result Arg1:T26 Arg2:T28	
+R29	Result Arg1:T23 Arg2:T28	
+R30	Condition Arg1:T23 Arg2:T24	
+R31	Output Arg1:T32 Arg2:T33	
+R32	Attribute Arg1:T36 Arg2:T35	
+R33	Attribute Arg1:T38 Arg2:T37	
+R34	to Arg1:T38 Arg2:T39	
+R35	from Arg1:T38 Arg2:T35	
+R36	Other-rel Arg1:T32 Arg2:T38	
+R37	Coreference Arg1:T40 Arg2:T39	
+R38	Attribute Arg1:T42 Arg2:T41	
+R39	Output Arg1:T44 Arg2:T43	
+R40	Coreference Arg1:T43 Arg2:T36	
+R41	Destination Arg1:T44 Arg2:T45	
+R42	Result Arg1:T40 Arg2:T42	
+A1	Self T46
+A2	Self T47
+A3	Intentional T48
+R43	Agent Arg1:T48 Arg2:T47	
+R44	Condition Arg1:T48 Arg2:T46	
+A4	Self T49
+R45	Poss Arg1:T49 Arg2:T50	
+R46	Output Arg1:T48 Arg2:T50	
+R47	Equivalence Arg1:T53 Arg2:T52	
+R48	from Arg1:T51 Arg2:T52	
+R49	to Arg1:T51 Arg2:T50	
+T34	APPLY-TO 775 784	leverages
+T100	PLAN 785 788	DHT
+R50	Equivalence Arg1:T55 Arg2:T100	
+R51	Attribute Arg1:T58 Arg2:T57	
+R52	to Arg1:T34 Arg2:T54	
+R53	Component-object Arg1:T54 Arg2:T56	
+R54	Is-a Arg1:T55 Arg2:T56	
+R55	from Arg1:T34 Arg2:T100	
+R56	Condition Arg1:T56 Arg2:T58	
+R57	Apply-to Arg1:T59 Arg2:T60	
+R58	Attribute Arg1:T64 Arg2:T63	
+R59	Agent Arg1:T62 Arg2:T61	
+R60	Target Arg1:T60 Arg2:T62	
+R61	Target Arg1:T62 Arg2:T64	
+R62	Attribute Arg1:T70 Arg2:T69	
+R63	Poss Arg1:T71 Arg2:T72	
+R64	Coreference Arg1:T71 Arg2:T67	
+R65	Target Arg1:T70 Arg2:T72	
+R66	Target Arg1:T66 Arg2:T68	
+R67	Agent Arg1:T68 Arg2:T67	
+R68	Target Arg1:T68 Arg2:T70	
+R69	Condition Arg1:T66 Arg2:T65	
+R70	Apply-to Arg1:T59 Arg2:T66	
+R71	Attribute Arg1:T75 Arg2:T74	
+R72	Apply-to Arg1:T75 Arg2:T76	
+A5	Self T77
+T101	PROCESS 1072 1079	believe
+A6	Intentional T101
+R73	Agent Arg1:T101 Arg2:T77	
+R74	Attribute Arg1:T80 Arg2:T79	
+R75	Apply-to Arg1:T78 Arg2:T80	
+R76	Attribute Arg1:T82 Arg2:T81	
+R77	Target Arg1:T80 Arg2:T82	
+R78	Target Arg1:T82 Arg2:T83	
+R79	Attribute Arg1:T85 Arg2:T86	
+R80	to Arg1:T84 Arg2:T102	
+R81	from Arg1:T84 Arg2:T80	
+R82	Attribute Arg1:T88 Arg2:T89	
+R83	Coreference Arg1:T88 Arg2:T85	
+R84	Target Arg1:T87 Arg2:T89	
+R85	Apply-to Arg1:T78 Arg2:T87	
+T102	PROCESS 1165 1171	making
+R86	Apply-to Arg1:T78 Arg2:T102	
+R87	In_Out Arg1:T102 Arg2:T85	
+R88	to Arg1:T84 Arg2:T87	
+T103	QUALITY 1268 1276	scalable
+R89	Attribute Arg1:T91 Arg2:T103	
+R90	to Arg1:T93 Arg2:T94	
+R91	from Arg1:T93 Arg2:T90	
+R92	Attribute Arg1:T93 Arg2:T92	
+R93	Apply-to Arg1:T90 Arg2:T91	
+R94	to Arg1:T93 Arg2:T95	
+A7	Judgment T86
+A8	Judgment T81
+R95	from Arg1:T73 Arg2:T75	
+R96	to Arg1:T73 Arg2:T101	
+R97	Output Arg1:T101 Arg2:T81	
+R98	Output Arg1:T101 Arg2:T86	

@@ -1,0 +1,195 @@
+T1	PLAN 2 19	Semantic Approach
+T2	PLAN-OR-PROCESS 23 45	Contextual Advertising
+T3	PLAN-OR-PROCESS 46 68	Contextual advertising
+T4	PLAN-OR-PROCESS 72 85	Context Match
+T5	PLAN-OR-PROCESS 87 89	CM
+R1	Equivalence Arg1:T5 Arg2:T4	
+T6	IS-A 91 97	refers
+T7	PLAN-OR-PROCESS 105 114	placement
+T8	DATA-ITEM 129 151	textual advertisements
+T9	DATA-ITEM 163 170	content
+T10	DATA-ITEM 184 192	web page
+T11	PLAN-OR-PROCESS 200 216	Sponsored Search
+T12	PLAN-OR-PROCESS 218 220	SS
+R2	Equivalence Arg1:T12 Arg2:T11	
+T13	PLAN-OR-PROCESS 222 233	advertising
+R3	Split Arg1:T13 Arg2:T11	
+T14	IS-A 234 242	consists
+T15	PROCESS 246 253	placing
+T16	DATA-ITEM 254 257	ads
+T17	DATA-ITEM 261 273	result pages
+T18	PLAN 281 298	web search engine
+T19	DATA-ITEM 305 308	ads
+T20	PROCESS 309 315	driven
+T21	DATA-ITEM 323 340	originating query
+T22	PLAN-OR-PROCESS 345 347	CM
+T23	QUALITY 357 364	usually
+T24	ORGANIZATION 368 409	intermediary commercial ad-network entity
+T25	PROCESS 413 419	charge
+T26	PROCESS 423 433	optimizing
+T27	DATA-ITEM 438 450	ad selection
+T28	QUANTITY 460 464	twin
+T29	PLAN-OR-PROCESS 465 469	goal
+T30	PLAN-OR-PROCESS 473 483	increasing
+T31	THING 484 491	revenue
+T32	PROCESS 493 499	shared
+T33	ORGANIZATION 512 521	publisher
+T34	ORGANIZATION 530 540	ad-network
+T35	PLAN-OR-PROCESS 546 555	improving
+T36	QUALITY 560 575	user experience
+T37	PERSON 560 564	user
+T38	PLAN-OR-PROCESS 582 593	these goals
+R4	Coreference Arg1:T38 Arg2:T29	
+T40	QUALITY 608 618	preferable
+T41	PROCESS 622 626	have
+T42	DATA-ITEM 627 630	ads
+T43	QUALITY 631 639	relevant
+T44	DATA-ITEM 647 659	page content
+T45	DATA-ITEM 673 684	generic ads
+T46	PLAN-OR-PROCESS 690 699	SS market
+T47	PROCESS 700 709	developed
+T48	QUALITY 710 717	quicker
+T49	PLAN-OR-PROCESS 727 736	CM market
+T50	DATA-ITEM 747 758	textual ads
+T51	QUANTITY 742 746	most
+T52	TIME 763 768	still
+T53	PROCESS 769 782	characterized
+T54	DATA-ITEM 786 797	bid phrases
+T55	PROCESS 798 810	representing
+T56	DATA-ITEM 817 824	queries
+T57	ORGANIZATION 835 846	advertisers
+T58	MODALITY 847 857	would like
+T59	PROCESS 861 865	have
+T60	DATA-ITEM 872 874	ad
+T61	PROCESS 875 884	displayed
+T62	PLAN 903 915	technologies
+T63	PLAN-OR-PROCESS 920 922	CM
+T64	RESULT 928 934	relied
+T65	TIME 938 946	previous
+T66	PLAN 947 956	solutions
+T67	PLAN-OR-PROCESS 961 963	SS
+T68	QUALITY 968 974	simply
+T69	PROCESS 975 985	extracting
+T70	QUANTITY 986 997	one or more
+T71	DATA-ITEM 998 1005	phrases
+T72	DATA-ITEM 1015 1033	given page content
+T73	PROCESS 1039 1049	displaying
+T74	DATA-ITEM 1050 1053	ads
+T75	OUTPUT 1054 1067	corresponding
+T76	PLAN-OR-PROCESS 1071 1079	searches
+T77	DATA-ITEM 1083 1096	these phrases
+R5	Coreference Arg1:T77 Arg2:T71	
+T78	PLAN 1103 1128	purely syntactic approach
+T79	QUALITY 1150 1158	vagaries
+T80	PLAN-OR-PROCESS 1162 1179	phrase extraction
+T81	MODALITY 1189 1193	lack
+T82	DATA-ITEM 1197 1204	context
+T83	PLAN 1206 1219	this approach
+T84	RESULT 1220 1225	leads
+T85	QUANTITY 1229 1233	many
+T86	QUALITY 1234 1244	irrelevant
+T87	DATA-ITEM 1245 1248	ads
+R6	Coreference Arg1:T83 Arg2:T78	
+T88	PROCESS 1253 1261	overcome
+T89	PLAN 1262 1274	this problem
+R7	Coreference Arg1:T89 Arg2:T84	
+T90	PLAN 1289 1295	system
+T91	PLAN-OR-PROCESS 1300 1322	contextual ad matching
+T92	INPUT 1323 1331	based on
+T93	DATA-ITEM 1334 1345	combination
+T94	DATA-ITEM 1349 1357;1372 1380	semantic features
+T95	DATA-ITEM 1362 1380	syntactic features
+R8	Component-object Arg1:T9 Arg2:T10	
+R9	Attribute Arg1:T50 Arg2:T51	
+R10	Attribute Arg1:T66 Arg2:T65	
+R11	Attribute Arg1:T71 Arg2:T70	
+R12	Attribute Arg1:T87 Arg2:T85	
+R13	Attribute Arg1:T87 Arg2:T86	
+T97	QUALITY 176 183	generic
+R14	Attribute Arg1:T10 Arg2:T97	
+R16	Attribute Arg1:T42 Arg2:T43	
+R17	Attribute Arg1:T47 Arg2:T48	
+T98	QUALITY 897 902	first
+R18	Attribute Arg1:T62 Arg2:T98	
+R19	Attribute Arg1:T69 Arg2:T68	
+T100	REFERENCE 866 871	their
+R20	Poss Arg1:T100 Arg2:T60	
+R21	Coreference Arg1:T100 Arg2:T57	
+R22	Apply-to Arg1:T1 Arg2:T2	
+R23	Equivalence Arg1:T4 Arg2:T3	
+R24	from Arg1:T6 Arg2:T3	
+R25	to Arg1:T6 Arg2:T7	
+R26	Output Arg1:T7 Arg2:T8	
+T103	QUALITY 118 128	commercial
+R27	Attribute Arg1:T8 Arg2:T103	
+R28	Destination Arg1:T7 Arg2:T9	
+R29	from Arg1:T14 Arg2:T11	
+R30	Output Arg1:T15 Arg2:T16	
+R31	Destination Arg1:T15 Arg2:T17	
+R32	Output Arg1:T18 Arg2:T17	
+R33	to Arg1:T14 Arg2:T15	
+R34	Output Arg1:T20 Arg2:T19	
+R35	Input Arg1:T20 Arg2:T21	
+R36	Agent Arg1:T25 Arg2:T24	
+R37	Attribute Arg1:T25 Arg2:T23	
+R38	Apply-to Arg1:T25 Arg2:T26	
+R39	In_Out Arg1:T26 Arg2:T27	
+R40	Attribute Arg1:T29 Arg2:T28	
+R41	Is-a Arg1:T30 Arg2:T29	
+R42	In_Out Arg1:T30 Arg2:T31	
+R43	Input Arg1:T32 Arg2:T31	
+R44	Destination Arg1:T32 Arg2:T33	
+R45	Destination Arg1:T32 Arg2:T34	
+R46	Is-a Arg1:T35 Arg2:T29	
+R47	In_Out Arg1:T35 Arg2:T36	
+R15	Attribute Arg1:T41 Arg2:T40	
+R48	Target Arg1:T41 Arg2:T42	
+R49	Compare Arg1:T44 Arg2:T43	
+R50	Compare Arg1:T45 Arg2:T43	
+R51	Output Arg1:T47 Arg2:T46	
+R52	Compare Arg1:T49 Arg2:T48	
+R53	Attribute Arg1:T53 Arg2:T52	
+R54	Condition Arg1:T40 Arg2:T38	
+R55	Output Arg1:T53 Arg2:T50	
+R56	Input Arg1:T53 Arg2:T54	
+R57	Other-rel Arg1:T55 Arg2:T54	
+R58	Output Arg1:T55 Arg2:T56	
+T104	REFERENCE 825 830	where
+R59	Coreference Arg1:T104 Arg2:T56	
+R60	Condition Arg1:T61 Arg2:T104	
+R61	Output Arg1:T61 Arg2:T60	
+R62	Agent Arg1:T59 Arg2:T57	
+R63	Attribute Arg1:T59 Arg2:T58	
+R64	Output Arg1:T59 Arg2:T61	
+R65	Apply-to Arg1:T62 Arg2:T63	
+R66	to Arg1:T64 Arg2:T63	
+R67	from Arg1:T64 Arg2:T66	
+R68	Apply-to Arg1:T66 Arg2:T67	
+R69	Output Arg1:T69 Arg2:T71	
+R70	Input Arg1:T69 Arg2:T72	
+R71	Output Arg1:T73 Arg2:T74	
+R72	to Arg1:T75 Arg2:T74	
+R73	from Arg1:T75 Arg2:T76	
+R74	Condition Arg1:T76 Arg2:T77	
+R75	Attribute Arg1:T80 Arg2:T79	
+T105	CONDITION 1139 1145	due to
+R76	Attribute Arg1:T82 Arg2:T81	
+R77	from Arg1:T84 Arg2:T83	
+R78	to Arg1:T84 Arg2:T87	
+R79	Apply-to Arg1:T90 Arg2:T91	
+R80	from Arg1:T92 Arg2:T91	
+R81	to Arg1:T92 Arg2:T93	
+R82	Member-collection Arg1:T95 Arg2:T93	
+R83	Member-collection Arg1:T94 Arg2:T93	
+R84	Other-rel Arg1:T69 Arg2:T64	
+R85	Condition Arg1:T73 Arg2:T78	
+R86	from Arg1:T105 Arg2:T80	
+R87	to Arg1:T105 Arg2:T84	
+R88	Apply-to Arg1:T90 Arg2:T88	
+R89	Target Arg1:T88 Arg2:T89	
+R90	Condition Arg1:T26 Arg2:T29	
+R91	Condition Arg1:T25 Arg2:T22	
+T39	PERSON 1276 1278	we
+T96	PROCESS 1279 1286	propose
+R92	Agent Arg1:T96 Arg2:T39	
+R93	Output Arg1:T96 Arg2:T90	

@@ -1,0 +1,172 @@
+T1	PROCESS 89 96	gaining
+T2	MODALITY 191 195	lack
+T3	PROCESS 222 228	access
+T4	PROCESS 302 311	leverages
+T5	PROCESS 402 407	sends
+T6	DATA-ITEM 415 429	screen updates
+T7	APPLY-TO 461 465	uses
+T9	PROCESS 496 503	provide
+T10	IS-A 608 617	including
+T11	PROCESS 673 682	leverages
+T12	PROCESS 715 722	improve
+T13	RESULT 1013 1021	provides
+T15	PROCESS 1105 1113	supports
+T17	COMPARE 921 929	compared
+T18	MODALITY 163 166	can
+T19	QUALITY 170 180	quite slow
+T20	QUALITY 185 190	often
+T21	QUALITY 196 204	adequate
+T22	QUALITY 408 414	simple
+T23	QUALITY 572 581	different
+T24	QUALITY 683 691	existing
+T25	QUALITY 753 762	available
+T26	QUALITY 1067 1071	only
+T27	QUANTITY 229 233	many
+T28	PLAN 10 34	Thin-Client Architecture
+T29	PLAN 39 58	Mobile Wireless Web
+T30	PLAN 68 84	web applications
+T31	QUALITY 97 107	popularity
+T32	ARTIFACT 111 131	mobile wireless PDAs
+T33	PLAN 133 145	web browsers
+T34	ARTIFACT 149 162	these systems
+T35	PLAN-OR-PROCESS 205 218	functionality
+T36	DATA-ITEM 234 243	web sites
+T37	PLAN 273 296	PDA thinclient solution
+T38	PLAN 341 367	full-function web browsers
+T39	PLAN 378 395	application logic
+T40	ARTIFACT 437 440	PDA
+T43	PLAN-OR-PROCESS 518 525	display
+T44	PLAN-OR-PROCESS 539 547	mobility
+T45	THING 557 568	broad range
+T46	ARTIFACT 582 589	clients
+T47	QUALITY 594 606	screen sizes
+T48	OCCURENT 623 631;646 659	portrait viewing modes
+T49	OCCURENT 636 659	landscape viewing modes
+T50	ARTIFACT 692 711	PDA control buttons
+T51	QUALITY 723 739	system usability
+T52	QUALITY 763 780	screen resolution
+T53	PLAN-OR-PROCESS 785 804	application display
+T55	PLAN 836 850	Windows Mobile
+T56	QUALITY 869 880	performance
+T57	ARTIFACT 884 907	mobile wireless devices
+T58	DATA-ITEM 913 920	results
+T59	PLAN 933 955	local PDA web browsers
+T60	PLAN 966 988	thin-client approaches
+T62	QUALITY 1031 1055	web browsing performance
+T64	PLAN 1122 1149	browser helper applications
+T65	PLAN 1158 1172	video playback
+R1	Coreference Arg1:T34 Arg2:T32	
+R2	Attribute Arg1:T19 Arg2:T18	
+R3	Attribute Arg1:T2 Arg2:T20	
+R4	Attribute Arg1:T35 Arg2:T21	
+R5	Attribute Arg1:T36 Arg2:T27	
+T68	QUALITY 312 325	more powerful
+T69	ARTIFACT 326 333	servers
+R6	Attribute Arg1:T69 Arg2:T68	
+T70	PROCESS 337 340	run
+T71	QUALITY 372 377	other
+R7	Attribute Arg1:T39 Arg2:T71	
+T72	PLAN-OR-PROCESS 445 452	display
+R8	Attribute Arg1:T6 Arg2:T22	
+R9	Attribute Arg1:T50 Arg2:T24	
+T74	PROCESS 744 752	maximize
+R10	Attribute Arg1:T52 Arg2:T25	
+T77	PROCESS 855 864	evaluated
+T78	REFERENCE 865 868	its
+R11	Coreference Arg1:T78 Arg2:T86	
+T79	QUALITY 960 965	other
+R12	Attribute Arg1:T60 Arg2:T79	
+T80	RESULT 989 1000	demonstrate
+T82	PLAN 1072 1087	PDA thin client
+R13	Attribute Arg1:T82 Arg2:T26	
+T63	QUALITY 1093 1104	effectively
+R14	Attribute Arg1:T15 Arg2:T63	
+R15	Attribute Arg1:T46 Arg2:T23	
+T83	PLAN 0 6	pTHINC
+T84	PLAN 263 269	pTHINC
+T85	PLAN 454 460	pTHINC
+T8	PLAN-OR-PROCESS 466 492	server-side screen scaling
+T42	PLAN 661 667	pTHINC
+T86	PLAN 826 832	pTHINC
+T87	PLAN 1006 1012	pTHINC
+T61	QUALITY 1022 1030	superior
+R16	Attribute Arg1:T62 Arg2:T61	
+T14	REFERENCE 297 301	that
+R17	Coreference Arg1:T14 Arg2:T37	
+T41	REFERENCE 1088 1092	that
+R18	Coreference Arg1:T41 Arg2:T82	
+T67	PERSON 909 912	Our
+R19	Poss Arg1:T67 Arg2:T58	
+R20	Attribute Arg1:T78 Arg2:T56	
+R21	Attribute Arg1:T33 Arg2:T19	
+T73	QUALITY 1114 1121	crucial
+R22	Attribute Arg1:T64 Arg2:T73	
+R23	Is-a Arg1:T83 Arg2:T28	
+R24	Apply-to Arg1:T28 Arg2:T29	
+R25	Apply-to Arg1:T30 Arg2:T1	
+R26	Output Arg1:T1 Arg2:T31	
+R29	Attribute Arg1:T35 Arg2:T2	
+R30	Condition Arg1:T35 Arg2:T3	
+R31	Target Arg1:T3 Arg2:T36	
+R32	Is-a Arg1:T84 Arg2:T37	
+R33	Apply-to Arg1:T14 Arg2:T4	
+R34	Target Arg1:T4 Arg2:T69	
+R35	Apply-to Arg1:T4 Arg2:T70	
+R36	Output Arg1:T70 Arg2:T38	
+R37	Output Arg1:T70 Arg2:T39	
+R38	Apply-to Arg1:T14 Arg2:T5	
+R39	Output Arg1:T5 Arg2:T6	
+R40	Destination Arg1:T5 Arg2:T40	
+R41	Apply-to Arg1:T5 Arg2:T72	
+R42	Apply-to Arg1:T85 Arg2:T7	
+R43	from Arg1:T7 Arg2:T8	
+R44	to Arg1:T7 Arg2:T9	
+R45	Output Arg1:T9 Arg2:T43	
+R46	Output Arg1:T9 Arg2:T44	
+R47	Destination Arg1:T9 Arg2:T46	
+R48	Attribute Arg1:T46 Arg2:T45	
+R49	Attribute Arg1:T47 Arg2:T45	
+R50	Attribute Arg1:T47 Arg2:T23	
+R51	to Arg1:T10 Arg2:T47	
+R52	from Arg1:T10 Arg2:T49	
+R53	from Arg1:T10 Arg2:T48	
+R54	Apply-to Arg1:T42 Arg2:T11	
+R55	Target Arg1:T11 Arg2:T50	
+R56	Apply-to Arg1:T11 Arg2:T12	
+R57	In_Out Arg1:T12 Arg2:T51	
+R58	Apply-to Arg1:T11 Arg2:T74	
+R59	In_Out Arg1:T74 Arg2:T52	
+R60	Condition Arg1:T25 Arg2:T53	
+T76	PROCESS 814 825	implemented
+R61	Output Arg1:T76 Arg2:T86	
+R62	Condition Arg1:T76 Arg2:T55	
+R63	Output Arg1:T77 Arg2:T56	
+R66	from Arg1:T17 Arg2:T59	
+R67	from Arg1:T17 Arg2:T60	
+R68	from Arg1:T80 Arg2:T58	
+R69	to Arg1:T80 Arg2:T61	
+R70	from Arg1:T13 Arg2:T87	
+R71	to Arg1:T13 Arg2:T62	
+R72	Apply-to Arg1:T41 Arg2:T15	
+R73	Target Arg1:T15 Arg2:T64	
+R74	Is-a Arg1:T65 Arg2:T64	
+R27	Condition Arg1:T31 Arg2:T32	
+R75	Attribute Arg1:T30 Arg2:T31	
+R28	Attribute Arg1:T33 Arg2:T35	
+R76	Apply-to Arg1:T33 Arg2:T3	
+R77	Condition Arg1:T9 Arg2:T47	
+R78	Attribute Arg1:T46 Arg2:T47	
+R64	Condition Arg1:T56 Arg2:T57	
+R65	to Arg1:T17 Arg2:T61	
+R79	Is-a Arg1:T87 Arg2:T82	
+T81	QUALITY 530 538	seamless
+R80	Attribute Arg1:T44 Arg2:T81	
+T88	QUALITY 504 517	high-fidelity
+R81	Attribute Arg1:T43 Arg2:T88	
+T16	PERSON 245 247	We
+T54	PROCESS 253 262	developed
+T66	PERSON 806 808	We
+R82	Agent Arg1:T54 Arg2:T16	
+R83	Output Arg1:T54 Arg2:T84	
+R84	Agent Arg1:T76 Arg2:T66	
+R85	Agent Arg1:T77 Arg2:T66	

@@ -1,0 +1,6 @@
+Extending TimeML With Typical Durations Of Events .
+In this paper , we demonstrate how to extend TimeML , a rich specification language for event and temporal expressions in text , with the implicit typical durations of events , temporal information in text that has hitherto been largely unexploited .
+Event duration information can be very important in applications in which the time course of events is to be extracted from text .
+For example , whether two events overlap or are in sequence often depends very much on their durations .
+
+

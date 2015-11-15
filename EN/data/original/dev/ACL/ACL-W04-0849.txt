@@ -1,0 +1,6 @@
+Class-Based Collocations For Word Sense Disambiguation .
+This paper describes the NMSU-Pitt-UNCA word-sense disambiguation system participating in the Senseval-3 English lexical sample task .
+The focus of the work is on using semantic class-based collocations to augment traditional word-based collocations .
+Three separate sources of word relatedness are used for these collocations : 1 ) WordNet hypernym relations ; 2 ) cluster-based word similarity classes ; and 3 ) dictionary definition analysis .
+
+

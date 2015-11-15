@@ -1,0 +1,94 @@
+T1	PLAN 0 26	Sensor Deployment Strategy
+T2	PLAN-OR-PROCESS 31 47	Target Detection
+T3	PROCESS 60 67	monitor
+T4	LOCATION 70 76	region
+T5	PROCESS 81 98	traffic traversal
+T6	ARTIFACT 100 107	sensors
+T7	MODALITY 108 111	can
+T8	PROCESS 115 123	deployed
+T9	PROCESS 127 134	perform
+T10	PLAN 135 165	collaborative target detection
+T11	ARTIFACT 174 188	sensor network
+T12	PROCESS 189 197	achieves
+T13	QUALITY 200 207	certain
+T14	DATA-ITEM 208 213	level
+T15	DATA-ITEM 217 238	detection performance
+T16	QUALITY 247 257	associated
+T17	DATA-ITEM 258 262	cost
+T18	PLAN-OR-PROCESS 266 276	deployment
+T19	REFERENCE 278 288	This paper
+T20	PROCESS 289 298	addresses
+T21	PLAN 299 311	this problem
+T22	PROCESS 315 324	proposing
+T23	DATA-ITEM 325 338	path exposure
+T24	PLAN 344 351	measure
+T25	DATA-ITEM 359 367	goodness
+T26	PLAN-OR-PROCESS 373 383	deployment
+T27	PROCESS 388 396	presents
+T28	PLAN 400 408	approach
+T29	PLAN-OR-PROCESS 413 434	sequential deployment
+T30	PLAN 438 443	steps
+T31	REFERENCE 445 447	It
+T32	PROCESS 448 459	illustrates
+T33	DATA-ITEM 469 473	cost
+T34	PLAN-OR-PROCESS 477 487	deployment
+T35	MODALITY 488 491	can
+T36	PROCESS 495 504	minimized
+T37	PROCESS 508 515	achieve
+T38	QUALITY 520 527	desired
+T39	DATA-ITEM 528 549	detection performance
+T40	QUALITY 553 566	appropriately
+T41	PROCESS 567 575	choosing
+T42	QUANTITY 580 586	number
+T43	ARTIFACT 590 597	sensors
+T44	PROCESS 598 606	deployed
+T45	PLAN 615 619	step
+R1	Apply-to Arg1:T1 Arg2:T2	
+R2	Target Arg1:T3 Arg2:T4	
+R3	Attribute Arg1:T8 Arg2:T7	
+R4	Output Arg1:T8 Arg2:T6	
+R5	Apply-to Arg1:T8 Arg2:T9	
+R6	Output Arg1:T9 Arg2:T10	
+R7	Apply-to Arg1:T3 Arg2:T5	
+R8	Attribute Arg1:T14 Arg2:T13	
+R9	Attribute Arg1:T15 Arg2:T14	
+R10	Attribute Arg1:T17 Arg2:T16	
+R11	Attribute Arg1:T18 Arg2:T17	
+R12	Output Arg1:T12 Arg2:T15	
+R13	Apply-to Arg1:T11 Arg2:T12	
+R14	Attribute Arg1:T11 Arg2:T15	
+R15	Output Arg1:T18 Arg2:T11	
+A1	Self T19
+R16	Target Arg1:T20 Arg2:T21	
+R17	Condition Arg1:T20 Arg2:T19	
+A2	Intentional T20
+A3	Intentional T22
+R18	Attribute Arg1:T26 Arg2:T25	
+R19	In_Out Arg1:T24 Arg2:T25	
+R20	Other-rel Arg1:T23 Arg2:T24	
+R21	Output Arg1:T22 Arg2:T23	
+A4	Intentional T27
+R22	Condition Arg1:T27 Arg2:T19	
+R23	Apply-to Arg1:T22 Arg2:T20	
+R24	Output Arg1:T27 Arg2:T28	
+R25	Apply-to Arg1:T28 Arg2:T29	
+R26	Condition Arg1:T29 Arg2:T30	
+A5	Intentional T32
+R27	Condition Arg1:T32 Arg2:T31	
+R28	Coreference Arg1:T31 Arg2:T19	
+R29	Attribute Arg1:T34 Arg2:T33	
+R30	Attribute Arg1:T36 Arg2:T35	
+R31	In_Out Arg1:T36 Arg2:T33	
+R32	Attribute Arg1:T39 Arg2:T38	
+R33	Output Arg1:T37 Arg2:T39	
+R34	Attribute Arg1:T41 Arg2:T40	
+R35	Attribute Arg1:T43 Arg2:T42	
+R36	In_Out Arg1:T41 Arg2:T42	
+R37	Output Arg1:T44 Arg2:T43	
+R38	Condition Arg1:T44 Arg2:T45	
+R40	Apply-to Arg1:T41 Arg2:T36	
+R41	Apply-to Arg1:T34 Arg2:T37	
+A6	Judgment T36
+A7	Judgment T40
+R42	Output Arg1:T32 Arg2:T36	
+R43	Apply-to Arg1:T8 Arg2:T3	

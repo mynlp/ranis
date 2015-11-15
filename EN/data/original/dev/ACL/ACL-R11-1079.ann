@@ -1,0 +1,91 @@
+T1	MODALITY 163 165	no
+T2	PROCESS 0 7	Parsing
+T3	LANGUAGE 10 32	Polysynthetic Language
+T4	DATA-ITEM 49 56	results
+T5	PLAN 62 69	project
+T6	PROCESS 73 81	building
+T7	PLAN 84 110	lexical-functional grammar
+T8	LANGUAGE 114 120	Aymara
+T9	LANGUAGE 125 144	Amerindian language
+T10	LANGUAGE 125 135	Amerindian
+T11	PLAN-OR-PROCESS 166 174	research
+R1	Attribute Arg1:T11 Arg2:T1	
+T12	LANGUAGE 178 184	Aymara
+T13	DOMAIN 188 213	computational linguistics
+T14	TIME 214 221	to date
+T15	PLAN 227 231	goal
+T16	PLAN 238 245	project
+T17	QUALITY 249 257	two-fold
+R2	Attribute Arg1:T15 Arg2:T17	
+T18	QUALITY 287 293	formal
+T19	PLAN 294 305	description
+T20	LANGUAGE 313 321	language
+R3	Attribute Arg1:T19 Arg2:T18	
+T21	DATA-ITEM 331 344	NLP resources
+T22	DATA-ITEM 346 353	lexicon
+T23	PLAN 358 365	grammar
+T24	PROCESS 377 386	developed
+T25	MODALITY 392 397	could
+T26	APPLY-TO 401 405	used
+R4	Attribute Arg1:T26 Arg2:T25	
+T27	PLAN-OR-PROCESS 409 428	machine translation
+T28	QUALITY 433 438	other
+T29	PLAN-OR-PROCESS 439 448	NLP tasks
+R5	Attribute Arg1:T29 Arg2:T28	
+T30	QUALITY 469 475	formal
+T31	PLAN 476 487	description
+R6	Attribute Arg1:T31 Arg2:T30	
+T33	DATA-ITEM 491 510	selected properties
+T34	LANGUAGE 514 520	Aymara
+T35	QUALITY 531 539	uncommon
+T36	QUALITY 543 558	well-researched
+T37	LANGUAGE 559 576	Western languages
+R8	Attribute Arg1:T37 Arg2:T36	
+T38	PLAN 605 644	experimental machine translation system
+T39	LANGUAGE 650 657	Spanish
+T40	LANGUAGE 662 669	English
+T41	REFERENCE 521 526	which
+R9	Coreference Arg1:T41 Arg2:T33	
+R10	Input Arg1:T2 Arg2:T3	
+R11	Output Arg1:T5 Arg2:T4	
+R12	Output Arg1:T6 Arg2:T7	
+R13	Attribute Arg1:T5 Arg2:T6	
+R14	Is-a Arg1:T8 Arg2:T9	
+R15	Attribute Arg1:T11 Arg2:T12	
+R16	Attribute Arg1:T7 Arg2:T8	
+R17	Attribute Arg1:T16 Arg2:T15	
+R18	Attribute Arg1:T19 Arg2:T20	
+R19	Is-a Arg1:T22 Arg2:T21	
+R20	Is-a Arg1:T23 Arg2:T21	
+R21	Output Arg1:T24 Arg2:T21	
+T42	REFERENCE 387 391	that
+R22	Coreference Arg1:T42 Arg2:T21	
+R23	from Arg1:T26 Arg2:T42	
+R24	to Arg1:T26 Arg2:T27	
+R25	to Arg1:T26 Arg2:T29	
+R26	Condition Arg1:T38 Arg2:T39	
+R27	Condition Arg1:T38 Arg2:T40	
+R28	Attribute Arg1:T33 Arg2:T34	
+R7	Attribute Arg1:T41 Arg2:T35	
+R29	Condition Arg1:T35 Arg2:T37	
+R30	Attribute Arg1:T31 Arg2:T33	
+R31	Attribute Arg1:T11 Arg2:T14	
+R32	Condition Arg1:T11 Arg2:T13	
+T46	QUALITY 156 162	almost
+T32	PERSON 34 36	We
+T43	PROCESS 37 44	present
+R34	Attribute Arg1:T1 Arg2:T46	
+T44	PERSON 266 268	we
+T45	PROCESS 277 284	provide
+T47	PERSON 591 593	we
+T48	PROCESS 594 601	present
+T49	REFERENCE 454 459	paper
+T50	PROCESS 460 468	presents
+R33	Agent Arg1:T43 Arg2:T32	
+R35	Agent Arg1:T45 Arg2:T44	
+R36	Agent Arg1:T48 Arg2:T47	
+R37	Output Arg1:T43 Arg2:T4	
+R38	Output Arg1:T45 Arg2:T19	
+R39	Output Arg1:T48 Arg2:T38	
+T51	MODALITY 269 273	want
+R40	Attribute Arg1:T45 Arg2:T51	

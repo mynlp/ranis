@@ -1,0 +1,166 @@
+T1	PLAN-OR-PROCESS 0 22	Unsupervised Induction
+T2	DATA-ITEM 26 48	Contingent Event Pairs
+T3	DATA-ITEM 54 65	Film Scenes
+T4	PLAN-OR-PROCESS 73 83	engagement
+T5	OCCURENT 87 96	narrative
+T6	PROCESS 110 116	driven
+T7	PLAN-OR-PROCESS 120 129	reasoning
+T8	QUALITY 100 109	partially
+T9	DATA-ITEM 136 155	discourse relations
+T10	DATA-ITEM 164 180	narrative events
+T11	PLAN-OR-PROCESS 190 202	expectations
+T12	PROCESS 227 233	happen
+T13	TIME 234 238	next
+T14	RESULT 244 251	results
+T15	REFERENCE 257 271	such reasoning
+T17	QUALITY 217 223	likely
+T18	PERSON 273 284	Researchers
+T19	PLAN-OR-PROCESS 288 291	NLP
+T20	PROCESS 297 304	tackled
+T21	PROCESS 305 313	modeling
+T22	PLAN-OR-PROCESS 319 331	expectations
+T23	PLAN 348 360	perspectives
+T24	IS-A 362 371	including
+T25	PROCESS 372 380	treating
+T26	REFERENCE 381 383	it
+T27	PLAN-OR-PROCESS 391 400	inference
+T28	DATA-ITEM 408 437	CONTINGENT discourse relation
+T29	PLAN-OR-PROCESS 455 484	common-sense causal reasoning
+T30	PLAN-OR-PROCESS 490 498	approach
+T31	PROCESS 505 510	model
+T32	DATA-ITEM 511 521	likelihood
+T33	DATA-ITEM 530 536	events
+T34	APPLY-TO 540 550	drawing on
+T37	PLAN 562 573	these lines
+T38	QUANTITY 551 558	several
+T39	PROCESS 595 604	implement
+T40	PROCESS 609 617	evaluate
+T41	PLAN-OR-PROCESS 628 648	unsupervised methods
+T42	QUALITY 618 627	different
+T43	PROCESS 653 661	learning
+T44	DATA-ITEM 662 673	event pairs
+T45	QUALITY 683 689	likely
+T46	QUALITY 696 706	CONTINGENT
+T47	QUALITY 710 721	one another
+T48	PROCESS 726 732	refine
+T49	DATA-ITEM 733 744	event pairs
+T50	PROCESS 753 758	learn
+T51	DATA-ITEM 766 772	corpus
+T52	DATA-ITEM 776 799	film scene descriptions
+T53	PROCESS 833 841	evaluate
+T54	DATA-ITEM 846 853	results
+T55	PROCESS 857 867	collecting
+T56	DATA-ITEM 868 883	human judgments
+T57	QUALITY 887 898	contingency
+T58	DATA-ITEM 904 911	results
+T59	PROCESS 930 933	use
+T60	DATA-ITEM 937 954	web search counts
+T61	JUDGING-PROCESS 955 964	increases
+T62	DATA-ITEM 969 985	average accuracy
+T63	QUANTITY 1008 1014	85.64%
+T64	QUANTITY 1034 1037	50%
+T65	PLAN 998 1004	method
+T66	QUALITY 993 997	best
+T67	PLAN 1022 1030	baseline
+T68	COMPARE 1042 1050	compared
+T69	DATA-ITEM 1057 1073	average accuracy
+T70	QUANTITY 1077 1083	75.15%
+T71	PLAN-OR-PROCESS 1092 1102	web search
+T72	DATA-ITEM 810 827	web search counts
+T73	INPUT 800 809	utilizing
+T74	RESULT 912 920	indicate
+T75	PERSON 67 72	Human
+T76	PERSON 868 873	human
+R1	Attribute Arg1:T6 Arg2:T8	
+T35	EXTERNAL-REFERENCE 577 590	previous work
+R2	Coreference Arg1:T26 Arg2:T21	
+R3	Attribute Arg1:T65 Arg2:T66	
+T36	REFERENCE 239 243	that
+T77	REFERENCE 674 678	that
+R4	Coreference Arg1:T77 Arg2:T44	
+T78	REFERENCE 745 749	that
+R5	Coreference Arg1:T78 Arg2:T49	
+T80	PERSON 486 489	Our
+R6	Poss Arg1:T80 Arg2:T30	
+T81	PERSON 900 903	Our
+R7	Poss Arg1:T81 Arg2:T58	
+T82	PERSON 989 992	our
+R8	Poss Arg1:T82 Arg2:T65	
+T83	PERSON 842 845	our
+R9	Poss Arg1:T83 Arg2:T54	
+R10	Condition Arg1:T12 Arg2:T13	
+R11	Attribute Arg1:T41 Arg2:T42	
+R12	Attribute Arg1:T46 Arg2:T45	
+R13	In_Out Arg1:T1 Arg2:T2	
+R14	Input Arg1:T1 Arg2:T3	
+R15	Target Arg1:T4 Arg2:T5	
+R16	Target Arg1:T6 Arg2:T4	
+R17	Apply-to Arg1:T7 Arg2:T6	
+R18	Output Arg1:T7 Arg2:T9	
+R19	Attribute Arg1:T9 Arg2:T10	
+R21	Attribute Arg1:T12 Arg2:T17	
+R22	Coreference Arg1:T15 Arg2:T7	
+R23	from Arg1:T14 Arg2:T15	
+R24	to Arg1:T14 Arg2:T36	
+R25	Attribute Arg1:T18 Arg2:T19	
+R26	Agent Arg1:T20 Arg2:T18	
+R27	Target Arg1:T20 Arg2:T21	
+T84	QUALITY 337 347	a range of
+R28	Attribute Arg1:T23 Arg2:T84	
+R29	In_Out Arg1:T21 Arg2:T22	
+R30	Apply-to Arg1:T23 Arg2:T21	
+R31	Is-a Arg1:T26 Arg2:T27	
+R32	Output Arg1:T27 Arg2:T28	
+R33	Target Arg1:T25 Arg2:T26	
+T85	DATA-ITEM 447 451	type
+R34	Attribute Arg1:T29 Arg2:T85	
+R35	Is-a Arg1:T26 Arg2:T85	
+R36	from Arg1:T24 Arg2:T25	
+R37	to Arg1:T24 Arg2:T23	
+R38	In_Out Arg1:T31 Arg2:T32	
+R40	Attribute Arg1:T32 Arg2:T33	
+R41	Attribute Arg1:T37 Arg2:T38	
+R39	Apply-to Arg1:T31 Arg2:T30	
+R42	Component-object Arg1:T37 Arg2:T35	
+R43	from Arg1:T34 Arg2:T37	
+R44	to Arg1:T34 Arg2:T31	
+R45	Apply-to Arg1:T41 Arg2:T43	
+R46	Input Arg1:T40 Arg2:T41	
+R47	Output Arg1:T39 Arg2:T41	
+R48	In_Out Arg1:T43 Arg2:T44	
+R49	Attribute Arg1:T46 Arg2:T47	
+R50	Attribute Arg1:T77 Arg2:T46	
+R51	In_Out Arg1:T48 Arg2:T49	
+R52	Input Arg1:T50 Arg2:T51	
+R53	Output Arg1:T50 Arg2:T78	
+R54	Member-collection Arg1:T52 Arg2:T51	
+R55	to Arg1:T73 Arg2:T72	
+R56	from Arg1:T73 Arg2:T50	
+R57	Input Arg1:T53 Arg2:T54	
+R58	In_Out Arg1:T55 Arg2:T56	
+R59	Apply-to Arg1:T55 Arg2:T53	
+R60	Attribute Arg1:T56 Arg2:T57	
+R61	Input Arg1:T59 Arg2:T60	
+R62	In_Out Arg1:T61 Arg2:T62	
+R63	Result Arg1:T59 Arg2:T61	
+R64	from Arg1:T74 Arg2:T58	
+R65	to Arg1:T74 Arg2:T61	
+R66	Attribute Arg1:T65 Arg2:T62	
+R67	Attribute Arg1:T62 Arg2:T63	
+T86	MODALITY 1084 1091	without
+R68	Attribute Arg1:T71 Arg2:T86	
+R70	Attribute Arg1:T69 Arg2:T70	
+R71	from Arg1:T68 Arg2:T69	
+R72	to Arg1:T68 Arg2:T61	
+R73	Attribute Arg1:T62 Arg2:T64	
+R74	Attribute Arg1:T67 Arg2:T64	
+R75	Output Arg1:T12 Arg2:T36	
+R69	Condition Arg1:T69 Arg2:T71	
+R76	Agent Arg1:T4 Arg2:T75	
+T16	PERSON 592 594	We
+R77	Agent Arg1:T39 Arg2:T16	
+T79	PERSON 723 725	We
+R78	Agent Arg1:T48 Arg2:T79	
+T87	PERSON 750 752	we
+R79	Agent Arg1:T50 Arg2:T87	
+R20	Apply-to Arg1:T11 Arg2:T6	

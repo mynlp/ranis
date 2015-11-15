@@ -1,0 +1,113 @@
+T1	PLAN-OR-PROCESS 17 50	cross-lingual news topic tracking
+T2	PLAN-OR-PROCESS 0 12;31 50	Multilingual news topic tracking
+T3	PLAN 72 86	working system
+T4	PLAN-OR-PROCESS 91 114	automated news analysis
+T5	PROCESS 120 127	ingests
+T6	DATA-ITEM 131 144	average total
+T10	QUANTITY 178 182	five
+T11	LANGUAGE 183 192	languages
+T12	LANGUAGE 198 211	each language
+T13	PLAN 217 223	system
+T14	PROCESS 224 231	detects
+T15	DATA-ITEM 242 254	news stories
+T16	QUALITY 236 241	major
+T17	TIME 262 265	day
+T18	APPLY-TO 266 271	using
+T19	PLAN-OR-PROCESS 274 333	group-average unsupervised agglomerative clustering process
+T20	REFERENCE 335 337	It
+R1	Coreference Arg1:T20 Arg2:T13	
+T21	PROCESS 343 349	tracks
+T22	DATA-ITEM 360 367	cluster
+T23	DATA-ITEM 377 383	groups
+T25	DATA-ITEM 387 395	articles
+T26	PROCESS 396 405	published
+T30	INPUT 436 441	using
+T31	DATA-ITEM 444 450	cosine
+T32	DATA-ITEM 454 468	weighted terms
+T24	PLAN 474 480	system
+T33	PROCESS 493 499	tracks
+T34	DATA-ITEM 508 512	news
+T35	LANGUAGE 520 529	languages
+T36	LANGUAGE 538 552	language pairs
+T37	QUANTITY 534 537	all
+T38	MEMBER-COLLECTION 553 561	involved
+T39	DATA-ITEM 567 604	cross-lingual news cluster similarity
+T40	PLAN-OR-PROCESS 619 637	linear combination
+T41	DATA-ITEM 647 652	types
+T42	QUANTITY 641 646	three
+T43	DATA-ITEM 656 661	input
+T44	DATA-ITEM 667 675	cognates
+T45	DATA-ITEM 681 714	automatically detected references
+T46	DATA-ITEM 718 742	geographical place names
+T47	DATA-ITEM 755 762	results
+T48	PROCESS 768 783	mapping process
+T49	PLAN 791 825	multilingual classification system
+T50	PROCESS 829 846	manual evaluation
+T51	RESULT 847 853	showed
+T52	PLAN 863 869	system
+T53	RESULT 870 878	produces
+T54	QUALITY 879 883	good
+T55	DATA-ITEM 884 891	results
+T56	QUANTITY 148 152	7600
+T57	QUALITY 369 376	related
+T58	QUALITY 500 507	related
+R2	Attribute Arg1:T11 Arg2:T10	
+R3	Attribute Arg1:T15 Arg2:T16	
+R4	Attribute Arg1:T23 Arg2:T57	
+T7	TIME 415 434	previous seven days
+R5	Attribute Arg1:T34 Arg2:T58	
+R6	Attribute Arg1:T36 Arg2:T37	
+R7	Attribute Arg1:T41 Arg2:T42	
+R8	Attribute Arg1:T55 Arg2:T54	
+R9	Member-collection Arg1:T25 Arg2:T23	
+R11	Apply-to Arg1:T3 Arg2:T4	
+T8	OUTPUT 608 616	based on
+R12	from Arg1:T8 Arg2:T40	
+R13	to Arg1:T8 Arg2:T39	
+R14	Output Arg1:T48 Arg2:T47	
+T9	REFERENCE 115 119	that
+R15	Coreference Arg1:T9 Arg2:T3	
+T28	TIME 171 174	day
+R16	Apply-to Arg1:T9 Arg2:T5	
+T29	DATA-ITEM 153 166	news articles
+R10	Attribute Arg1:T6 Arg2:T56	
+R17	Attribute Arg1:T29 Arg2:T6	
+R18	In_Out Arg1:T5 Arg2:T29	
+R20	Attribute Arg1:T29 Arg2:T11	
+R21	Apply-to Arg1:T13 Arg2:T14	
+R22	Output Arg1:T14 Arg2:T15	
+R23	Attribute Arg1:T15 Arg2:T17	
+R25	from Arg1:T18 Arg2:T19	
+R26	to Arg1:T18 Arg2:T14	
+R27	Apply-to Arg1:T20 Arg2:T21	
+R28	Output Arg1:T26 Arg2:T25	
+R29	Condition Arg1:T26 Arg2:T7	
+R30	In_Out Arg1:T21 Arg2:T23	
+R31	Condition Arg1:T25 Arg2:T22	
+R32	Attribute Arg1:T32 Arg2:T31	
+R33	to Arg1:T30 Arg2:T31	
+R34	from Arg1:T30 Arg2:T21	
+R35	Apply-to Arg1:T24 Arg2:T33	
+R36	In_Out Arg1:T33 Arg2:T34	
+R38	from Arg1:T38 Arg2:T36	
+R39	to Arg1:T38 Arg2:T35	
+R40	Attribute Arg1:T41 Arg2:T43	
+R41	Is-a Arg1:T44 Arg2:T41	
+R42	Attribute Arg1:T46 Arg2:T45	
+R43	Is-a Arg1:T45 Arg2:T41	
+R44	Destination Arg1:T48 Arg2:T49	
+R45	Is-a Arg1:T47 Arg2:T41	
+R46	Input Arg1:T40 Arg2:T41	
+R47	to Arg1:T53 Arg2:T54	
+R49	from Arg1:T51 Arg2:T50	
+R50	to Arg1:T51 Arg2:T54	
+R48	from Arg1:T53 Arg2:T52	
+R24	Condition Arg1:T14 Arg2:T12	
+R37	Condition Arg1:T33 Arg2:T35	
+T27	PERSON 52 54	We
+T60	PROCESS 59 69	presenting
+R51	Agent Arg1:T60 Arg2:T27	
+R52	Output Arg1:T60 Arg2:T3	
+T59	CONDITION 167 170	per
+R19	from Arg1:T59 Arg2:T6	
+R53	to Arg1:T59 Arg2:T28	

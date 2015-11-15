@@ -1,0 +1,119 @@
+T1	PLAN-OR-PROCESS 0 21	Automatic Recognition
+T2	LANGUAGE 47 54	English
+T3	LANGUAGE 56 63	Chinese
+T4	LANGUAGE 68 76	Japanese
+T5	PLAN 84 89	GLARF
+T6	DATA-ITEM 25 42	Logical Relations
+T8	PLAN 121 130	framework
+T9	PROCESS 135 147	representing
+T10	QUANTITY 148 153	three
+T11	DATA-ITEM 154 171	linguistic levels
+T12	PLAN 176 183	systems
+T13	PROCESS 188 198	generating
+T14	DATA-ITEM 199 218	this representation
+T15	PROCESS 223 228	focus
+T16	DATA-ITEM 234 247	logical level
+T17	PLAN 254 257	LFG
+T18	DATA-ITEM 260 271	F-structure
+T20	QUALITY 277 287	compatible
+T21	QUALITY 315 332	less fine-grained
+T22	PLAN 346 379	semantic role labeling approaches
+T23	QUALITY 338 345	typical
+T24	DATA-ITEM 385 402	logical structure
+T25	QUALITY 415 425	advantages
+T26	QUANTITY 407 414	several
+T27	DATA-ITEM 447 452	words
+T28	DATA-ITEM 460 469	sentences
+T29	QUANTITY 443 446	all
+T30	QUANTITY 456 459	all
+T31	COMPONENT-OBJECT 434 442	includes
+T32	REFERENCE 431 433	it
+R1	Coreference Arg1:T32 Arg2:T24	
+T33	MODALITY 471 481	regardless
+T34	DATA-ITEM 503 518	semantic domain
+T35	DATA-ITEM 485 499	part of speech
+T36	QUALITY 552 562	accurately
+T37	PROCESS 544 551	produce
+T38	QUALITY 534 540	easier
+T39	REFERENCE 528 530	it
+T40	PLAN 568 575	systems
+T41	RESULT 576 583	achieve
+T42	QUANTITY 584 587	90%
+T43	DATA-ITEM 600 613	Japanese News
+T44	QUANTITY 618 623	74.5%
+T45	DATA-ITEM 628 640	Chinese News
+T46	DATA-ITEM 592 599;609 613	English News
+T47	DATA-ITEM 644 658	these F-scores
+T48	QUALITY 674 678	same
+T49	QUALITY 663 669	nearly
+T50	RESULT 688 696	achieved
+T51	PLAN-OR-PROCESS 701 723	treebank-based parsing
+T52	REFERENCE 682 687	those
+T53	PLAN 84 99	GLARF Framework
+T54	PLAN 112 117	GLARF
+R3	Attribute Arg1:T11 Arg2:T10	
+R4	Coreference Arg1:T14 Arg2:T11	
+T55	DATA-ITEM 293 307	Penn Treebanks
+R5	Attribute Arg1:T27 Arg2:T29	
+R6	Attribute Arg1:T28 Arg2:T30	
+R7	Coreference Arg1:T39 Arg2:T24	
+R8	Attribute Arg1:T37 Arg2:T36	
+T56	PERSON 564 567	Our
+T57	LANGUAGE 592 599	English
+T58	LANGUAGE 600 608	Japanese
+T59	LANGUAGE 628 635	Chinese
+R10	Attribute Arg1:T25 Arg2:T26	
+R11	Attribute Arg1:T24 Arg2:T25	
+R13	Attribute Arg1:T47 Arg2:T42	
+R14	Attribute Arg1:T47 Arg2:T44	
+R15	Attribute Arg1:T48 Arg2:T49	
+R16	Attribute Arg1:T47 Arg2:T48	
+R17	Compare Arg1:T52 Arg2:T48	
+R2	Attribute Arg1:T22 Arg2:T23	
+R18	Compare Arg1:T22 Arg2:T21	
+R19	Component-object Arg1:T27 Arg2:T28	
+R21	Compare Arg1:T55 Arg2:T20	
+T7	PERSON 381 384	our
+R22	Poss Arg1:T7 Arg2:T24	
+R23	Poss Arg1:T56 Arg2:T40	
+R24	Attribute Arg1:T17 Arg2:T18	
+R20	In_Out Arg1:T1 Arg2:T6	
+R25	Attribute Arg1:T6 Arg2:T2	
+R26	Attribute Arg1:T6 Arg2:T3	
+R27	Attribute Arg1:T6 Arg2:T4	
+R28	Apply-to Arg1:T53 Arg2:T1	
+R29	Is-a Arg1:T54 Arg2:T8	
+R30	Apply-to Arg1:T8 Arg2:T9	
+R31	Output Arg1:T9 Arg2:T11	
+R32	Is-a Arg1:T54 Arg2:T12	
+R33	Output Arg1:T13 Arg2:T14	
+R34	Apply-to Arg1:T12 Arg2:T13	
+R35	Destination Arg1:T15 Arg2:T16	
+R36	Attribute Arg1:T16 Arg2:T20	
+T62	QUALITY 249 253	like
+R37	Compare Arg1:T17 Arg2:T62	
+R38	Attribute Arg1:T16 Arg2:T62	
+R39	from Arg1:T31 Arg2:T27	
+R40	to Arg1:T31 Arg2:T32	
+R9	Attribute Arg1:T35 Arg2:T33	
+R41	Attribute Arg1:T34 Arg2:T33	
+R43	Output Arg1:T37 Arg2:T39	
+R12	Attribute Arg1:T37 Arg2:T38	
+R44	from Arg1:T41 Arg2:T40	
+R45	to Arg1:T41 Arg2:T42	
+R46	to Arg1:T41 Arg2:T44	
+R47	Condition Arg1:T42 Arg2:T46	
+R48	Condition Arg1:T42 Arg2:T43	
+R49	Condition Arg1:T44 Arg2:T45	
+R50	from Arg1:T50 Arg2:T51	
+R51	to Arg1:T50 Arg2:T52	
+R42	Condition Arg1:T31 Arg2:T34	
+R52	Condition Arg1:T31 Arg2:T35	
+R53	Attribute Arg1:T24 Arg2:T21	
+T19	PERSON 101 103	We
+T60	PROCESS 104 111	present
+T61	PERSON 220 222	We
+R54	Agent Arg1:T60 Arg2:T19	
+R55	Agent Arg1:T15 Arg2:T61	
+R56	Output Arg1:T60 Arg2:T54	
+R57	Output Arg1:T60 Arg2:T12	

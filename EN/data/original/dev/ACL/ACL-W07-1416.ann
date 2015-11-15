@@ -1,0 +1,141 @@
+R1	from Arg1:T71 Arg2:T1
+R2	from Arg1:T71 Arg2:T2
+R3	to Arg1:T71 Arg2:T70
+R4	Condition Arg1:T5 Arg2:T72
+R5	Attribute Arg1:T4 Arg2:T3
+R6	Attribute Arg1:T5 Arg2:T4
+R7	Output Arg1:T7 Arg2:T8
+R8	Apply-to Arg1:T8 Arg2:T9
+R9	Attribute Arg1:T11 Arg2:T10
+A1	Self T12
+R10	Poss Arg1:T12 Arg2:T13
+R11	Member-collection Arg1:T11 Arg2:T13
+R12	Attribute Arg1:T15 Arg2:T14
+R13	Output Arg1:T15 Arg2:T16
+R14	Apply-to Arg1:T16 Arg2:T17
+R15	Input Arg1:T17 Arg2:T18
+R16	Agent Arg1:T15 Arg2:T11
+R17	Target Arg1:T9 Arg2:T11
+R18	Is-a Arg1:T7 Arg2:T4
+R19	Is-a Arg1:T20 Arg2:T4
+R20	Output Arg1:T20 Arg2:T21
+R21	Coreference Arg1:T22 Arg2:T21
+A2	Self T23
+R22	Attribute Arg1:T25 Arg2:T24
+R23	Agent Arg1:T25 Arg2:T23
+R24	Input Arg1:T25 Arg2:T22
+A3	Self T26
+R25	Poss Arg1:T26 Arg2:T27
+R26	Apply-to Arg1:T25 Arg2:T27
+R27	Apply-to Arg1:T27 Arg2:T28
+R28	Apply-to Arg1:T27 Arg2:T29
+R29	Attribute Arg1:T31 Arg2:T30
+R30	Input Arg1:T29 Arg2:T31
+R31	Input Arg1:T28 Arg2:T31
+R32	Attribute Arg1:T35 Arg2:T34
+R33	Output Arg1:T33 Arg2:T32
+R34	Apply-to Arg1:T33 Arg2:T35
+R35	Target Arg1:T35 Arg2:T36
+R36	Attribute Arg1:T38 Arg2:T37
+R37	Input Arg1:T36 Arg2:T38
+R38	Attribute Arg1:T40 Arg2:T39
+R39	Apply-to Arg1:T33 Arg2:T40
+R40	In_Out Arg1:T40 Arg2:T41
+R41	In_Out Arg1:T40 Arg2:T42
+R42	Coreference Arg1:T44 Arg2:T32
+R43	Apply-to Arg1:T44 Arg2:T45
+R44	Attribute Arg1:T47 Arg2:T46
+R45	Member-collection Arg1:T48 Arg2:T47
+R46	Output Arg1:T45 Arg2:T47
+R47	Condition Arg1:T45 Arg2:T43
+R50	Apply-to Arg1:T53 Arg2:T45
+R51	In_Out Arg1:T53 Arg2:T55
+R53	from Arg1:T57 Arg2:T56
+R54	to Arg1:T57 Arg2:T58
+R55	Is-a Arg1:T59 Arg2:T56
+R56	Is-a Arg1:T60 Arg2:T56
+R57	from Arg1:T61 Arg2:T62
+R58	to Arg1:T61 Arg2:T60
+R59	Attribute Arg1:T64 Arg2:T63
+R60	Destination Arg1:T64 Arg2:T65
+R61	from Arg1:T66 Arg2:T64
+R62	to Arg1:T66 Arg2:T68
+R63	to Arg1:T66 Arg2:T69
+R64	Attribute Arg1:T67 Arg2:T68
+R65	Attribute Arg1:T67 Arg2:T69
+A4	Self T5
+R66	Coreference Arg1:T6 Arg2:T47
+A5	Intentional T25
+R67	Input Arg1:T50 Arg2:T52
+R48	Apply-to Arg1:T19 Arg2:T45
+R68	Input Arg1:T19 Arg2:T50
+R69	Destination Arg1:T19 Arg2:T6
+T70	PLAN-OR-PROCESS 0 18	Textual Entailment
+T71	APPLY-TO 19 24	Using
+T1	PLAN 25 48	Univariate Density Mode
+T2	PLAN 54 86	Maximizing Discriminant Function
+T3	QUALITY 93 100	primary
+T4	PLAN-OR-PROCESS 101 108	focuses
+T5	PLAN 112 122	this entry
+T72	TIME 123 132	this year
+T7	PROCESS 150 157	develop
+T8	PLAN 160 169	framework
+T9	PROCESS 173 178	allow
+T10	QUANTITY 179 187	multiple
+T11	PERSON 188 199	researchers
+T12	PERSON 205 208	our
+T13	ORGANIZATION 209 214	group
+T14	QUALITY 218 224	easily
+T15	PROCESS 225 235	contribute
+T16	PLAN 236 243	metrics
+T17	PROCESS 244 253	measuring
+T18	DATA-ITEM 254 272	textual entailment
+T20	PROCESS 293 300	provide
+T21	PLAN 303 311	baseline
+T22	REFERENCE 312 317	which
+T23	PERSON 318 320	we
+T24	MODALITY 321 326	could
+T25	PROCESS 327 330	use
+T26	PERSON 334 337	our
+T27	PLAN 338 343	tools
+T28	PROCESS 347 355	evaluate
+T29	PROCESS 360 367	compare
+T30	QUALITY 368 371	new
+T31	PLAN 372 379	metrics
+T32	PLAN 384 412	development environment tool
+T33	PROCESS 417 424	created
+T34	QUALITY 428 435	quickly
+T35	PROCESS 436 441	allow
+T36	PLAN-OR-PROCESS 446 453	testing
+T37	QUALITY 457 464	various
+T38	PLAN 465 472	metrics
+T39	QUALITY 480 486	easily
+T40	PROCESS 487 496	randomize
+T41	PROCESS 501 512	development
+T42	DATA-ITEM 517 526	test sets
+T43	PLAN 538 542	test
+T44	PLAN 545 558	this RTE tool
+T45	PROCESS 559 569	calculated
+T46	QUANTITY 570 573	two
+T47	DATA-ITEM 574 578	sets
+T48	DATA-ITEM 582 589	results
+T19	PROCESS 593 601	applying
+T50	PLAN 606 613	metrics
+T6	REFERENCE 617 621	both
+T52	PLAN 624 651	univariate Gaussian density
+T53	PROCESS 659 669	maximizing
+T55	PLAN 672 700	linear discriminant function
+T56	PLAN 707 714	metrics
+T57	APPLY-TO 715 719	used
+T58	PLAN-OR-PROCESS 728 738	submission
+T59	PLAN 746 771	lexical similarity metric
+T60	PLAN 778 803	lexical similarity metric
+T61	APPLY-TO 804 809	using
+T62	PLAN-OR-PROCESS 810 841	synonym and antonym replacement
+T63	QUANTITY 848 851	two
+T64	PLAN-OR-PROCESS 852 863	submissions
+T65	PLAN 868 876	RTE 2007
+T66	RESULT 877 883	scored
+T67	QUALITY 887 895	accuracy
+T68	QUANTITY 899 906	61.00 %
+T69	QUANTITY 911 918	62.62 %

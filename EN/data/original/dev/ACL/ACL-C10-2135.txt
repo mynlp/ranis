@@ -1,0 +1,7 @@
+Notes on the Evaluation of Dependency Parsers Obtained Through Cross-Lingual Projection
+
+In this paper we address methodological issues in the evaluation of a projection-based framework for dependency parsing in which annotations for a source language are transfered to a target language using word alignments in a parallel corpus.
+The projected trees then constitute the training data for a data-driven parser in the target language.
+We discuss two problems that arise in the evaluation of such cross-lingual approaches.
+First, the annotation scheme underlying the source language annotations -- and hence the projected target annotations and predictions of the parser derived from them -- is likely to differ from previously existing gold standard test sets devised specifically for the target language.
+Second, the standard procedure of cross-validation cannot be performed in the absence of parallel gold standard annotations, so an alternative method has to be used to assess the generalization capabilities of the projected parsers.

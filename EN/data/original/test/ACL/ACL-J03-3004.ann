@@ -1,0 +1,169 @@
+T2	PROCESS 7 17	Developing
+T3	PROCESS 22 32	Validating
+T4	PLAN 36 76	Example-Based Machine Translation System
+T5	PROCESS 77 82	Using
+T6	DATA-ITEM 87 101	World Wide Web
+T7	PROCESS 111 120	developed
+T8	PLAN 124 157	example-based machine translation
+T9	PLAN 159 163	EBMT
+T10	PLAN 165 171	system
+R1	Split Arg1:T10 Arg2:T8	
+R2	Equivalence Arg1:T9 Arg2:T8	
+T11	PROCESS 177 181	uses
+T12	DATA-ITEM 186 200	World Wide Web
+T13	QUANTITY 205 208	two
+T14	QUALITY 209 218	different
+T15	PLAN-OR-PROCESS 219 227	purposes
+R3	Attribute Arg1:T15 Arg2:T14	
+R4	Attribute Arg1:T15 Arg2:T13	
+T16	PROCESS 239 247	populate
+T17	PLAN 252 258	system
+T18	PLAN 261 267	memory
+T19	DATA-ITEM 273 285	translations
+T20	PROCESS 286 294	gathered
+T21	PLAN 300 321	rule-based MT systems
+T22	PROCESS 322 329	located
+T23	DATA-ITEM 337 340	Web
+T24	DATA-ITEM 346 360	source strings
+T25	INPUT 361 366	input
+T26	PLAN 370 383	these systems
+T27	PROCESS 389 398	extracted
+T28	QUALITY 399 412	automatically
+R5	Attribute Arg1:T27 Arg2:T28	
+T29	QUALITY 421 436	extremely small
+T30	DATA-ITEM 437 443	subset
+R6	Attribute Arg1:T30 Arg2:T29	
+T31	DATA-ITEM 451 461	rule types
+T32	DATA-ITEM 469 485	Penn-II Treebank
+T33	QUALITY 490 500	subsequent
+T34	PLAN 501 507	stages
+R7	Attribute Arg1:T34 Arg2:T33	
+T35	DATA-ITEM 513 547	<source, target> translation pairs
+T36	PROCESS 548 556	obtained
+T37	QUALITY 561 574	automatically
+T38	PROCESS 575 586	transformed
+R8	Attribute Arg1:T38 Arg2:T37	
+T39	DATA-ITEM 594 600	series
+T40	DATA-ITEM 604 613	resources
+R9	Member-collection Arg1:T40 Arg2:T39	
+T41	REFERENCE 614 618	that
+R10	Coreference Arg1:T41 Arg2:T40	
+T42	RESULT 619 625	render
+T43	PLAN-OR-PROCESS 630 649	translation process
+T45	QUALITY 650 665	more successful
+T46	DATA-ITEM 693 699	output
+T47	PLAN 705 723	on-line MT systems
+T48	QUALITY 727 732	often
+T49	QUALITY 733 739	faulty
+R11	Attribute Arg1:T49 Arg2:T48	
+R12	Attribute Arg1:T46 Arg2:T49	
+T50	QUANTITY 759 767	a number
+T51	PLAN-OR-PROCESS 771 782	experiments
+R13	Attribute Arg1:T51 Arg2:T50	
+T53	PROCESS 801 805	seed
+T54	DATA-ITEM 810 818	memories
+T55	PLAN 825 836	EBMT system
+T56	MODALITY 843 846	can
+T57	QUALITY 847 854	in fact
+T58	RESULT 855 860	prove
+R14	Attribute Arg1:T58 Arg2:T57	
+R15	Attribute Arg1:T58 Arg2:T56	
+T59	QUALITY 861 867	useful
+T60	PROCESS 871 881	generating
+T61	DATA-ITEM 882 894	translations
+T62	QUALITY 898 910	high quality
+R17	Attribute Arg1:T61 Arg2:T62	
+T63	QUALITY 916 930	robust fashion
+T66	QUALITY 964 977	relative gain
+T67	PLAN 981 985	EBMT
+R20	Attribute Arg1:T67 Arg2:T66	
+T68	COMPARE 989 999	comparison
+T69	PLAN 1003 1018	on-line systems
+T70	DATA-ITEM 1060 1069	documents
+T71	QUALITY 1070 1079	available
+T72	DATA-ITEM 1087 1090	Web
+R21	Attribute Arg1:T70 Arg2:T71	
+T74	QUALITY 1098 1118	questionable quality
+T75	DATA-ITEM 1152 1166	such resources
+T77	QUALITY 1171 1187	extremely useful
+R24	Attribute Arg1:T75 Arg2:T77	
+T78	QUALITY 1191 1204	automatically
+T79	PROCESS 1205 1216	postediting
+T80	DATA-ITEM 1217 1239	translation candidates
+R25	Attribute Arg1:T79 Arg2:T78	
+T81	PROCESS 1240 1248	proposed
+T82	PLAN 1256 1262	system
+T83	PLAN 0 5	wEBMT
+T44	INPUT 793 797	used
+R16	Coreference Arg1:T75 Arg2:T70	
+T52	PERSON 1252 1255	our
+R23	Member-collection Arg1:T30 Arg2:T31	
+T1	REFERENCE 172 176	that
+R26	Coreference Arg1:T1 Arg2:T10	
+R27	Poss Arg1:T52 Arg2:T82	
+R28	Component-object Arg1:T18 Arg2:T17	
+R29	Coreference Arg1:T26 Arg2:T21	
+R30	Attribute Arg1:T43 Arg2:T45	
+R18	Attribute Arg1:T60 Arg2:T63	
+R32	Output Arg1:T60 Arg2:T61	
+R19	Attribute Arg1:T70 Arg2:T74	
+R22	Output Arg1:T2 Arg2:T4	
+R33	Input Arg1:T3 Arg2:T4	
+R34	Input Arg1:T5 Arg2:T6	
+R35	Apply-to Arg1:T4 Arg2:T5	
+R36	Is-a Arg1:T83 Arg2:T4	
+R37	Output Arg1:T7 Arg2:T8	
+R38	Apply-to Arg1:T1 Arg2:T11	
+R39	Input Arg1:T11 Arg2:T12	
+R40	Attribute Arg1:T1 Arg2:T15	
+R41	Output Arg1:T16 Arg2:T18	
+R42	Apply-to Arg1:T21 Arg2:T20	
+R43	Destination Arg1:T22 Arg2:T23	
+R44	Output Arg1:T22 Arg2:T21	
+R45	Output Arg1:T20 Arg2:T19	
+R46	Output Arg1:T16 Arg2:T19	
+R47	from Arg1:T25 Arg2:T26	
+R48	to Arg1:T25 Arg2:T24	
+R49	Output Arg1:T27 Arg2:T24	
+R50	Component-object Arg1:T31 Arg2:T32	
+R52	Output Arg1:T36 Arg2:T35	
+R53	Input Arg1:T38 Arg2:T35	
+R54	Output Arg1:T38 Arg2:T40	
+R57	Attribute Arg1:T47 Arg2:T46	
+R58	Attribute Arg1:T55 Arg2:T54	
+R59	Output Arg1:T53 Arg2:T54	
+T73	REFERENCE 838 842	they
+R61	Condition Arg1:T59 Arg2:T60	
+R62	to Arg1:T44 Arg2:T46	
+R63	from Arg1:T44 Arg2:T53	
+R65	Coreference Arg1:T73 Arg2:T47	
+R66	from Arg1:T68 Arg2:T69	
+R67	to Arg1:T68 Arg2:T66	
+R68	Condition Arg1:T71 Arg2:T72	
+R69	Apply-to Arg1:T82 Arg2:T81	
+R70	Output Arg1:T81 Arg2:T80	
+R71	Output Arg1:T79 Arg2:T80	
+R72	Condition Arg1:T77 Arg2:T79	
+R60	to Arg1:T58 Arg2:T59	
+R31	Attribute Arg1:T73 Arg2:T59	
+R73	Apply-to Arg1:T73 Arg2:T60	
+R55	from Arg1:T42 Arg2:T41	
+R56	to Arg1:T42 Arg2:T45	
+R64	from Arg1:T58 Arg2:T73	
+R51	Input Arg1:T27 Arg2:T30	
+T64	PERSON 103 105	We
+T65	PERSON 236 238	we
+T76	PERSON 741 743	we
+T84	PROCESS 744 755	demonstrate
+T85	PERSON 945 947	we
+T86	PROCESS 948 959	demonstrate
+T87	PERSON 1120 1122	we
+T88	PROCESS 1123 1134	demonstrate
+R74	Agent Arg1:T7 Arg2:T64	
+R75	Agent Arg1:T16 Arg2:T65	
+R76	Agent Arg1:T84 Arg2:T76	
+R77	Agent Arg1:T86 Arg2:T85	
+R78	Agent Arg1:T88 Arg2:T87	
+R79	Output Arg1:T84 Arg2:T51	
+R80	Output Arg1:T86 Arg2:T66	
+R81	Output Arg1:T88 Arg2:T77	

@@ -1,0 +1,111 @@
+T1	APPLY-TO 0 8	Applying
+T2	PLAN-OR-PROCESS 9 25	Machine Learning
+T3	PLAN-OR-PROCESS 29 65	Chinese Temporal Relation Resolution
+T4	PLAN-OR-PROCESS 69 97	Temporal relation resolution
+T5	COMPONENT-OBJECT 98 106	involves
+T6	PLAN-OR-PROCESS 107 117	extraction
+T7	DATA-ITEM 121 141	temporal information
+T8	QUALITY 142 152	explicitly
+T9	QUALITY 156 166	implicitly
+T10	PROCESS 167 175	embedded
+T11	LANGUAGE 181 189	language
+T12	DATA-ITEM 191 207	This information
+T13	QUALITY 211 216	often
+T14	PROCESS 217 225	inferred
+T15	DATA-ITEM 233 240	variety
+T16	DATA-ITEM 244 267	interactive grammatical
+T17	DATA-ITEM 272 284	lexical cues
+T18	LANGUAGE 300 307	Chinese
+T19	PLAN-OR-PROCESS 313 325	this purpose
+T20	DATA-ITEM 327 349	inter-clause relations
+T21	DATA-ITEM 379 403	multiple-clause sentence
+T22	QUALITY 412 421	important
+T23	PLAN 445 464	computational model
+T24	APPLY-TO 465 473	based on
+T25	PLAN 474 490	machine learning
+T26	PLAN-OR-PROCESS 495 536	heterogeneous collaborative bootstrapping
+T27	PROCESS 540 548	proposed
+T28	PROCESS 553 562	analyzing
+T29	DATA-ITEM 563 581	temporal relations
+T30	LANGUAGE 587 594	Chinese
+T31	DATA-ITEM 587 619	Chinese multiple-clause sentence
+T32	PLAN 625 630	model
+T33	APPLY-TO 631 640	makes use
+T34	DATA-ITEM 658 664	events
+T35	PROCESS 669 680	represented
+T36	QUALITY 684 693	different
+T37	DATA-ITEM 694 713	temporal structures
+T38	REFERENCE 715 717	It
+T39	PROCESS 718 736	takes into account
+T40	PROCESS 741 748	effects
+T41	DATA-ITEM 752 771	linguistic features
+T42	DATA-ITEM 780 792	tense/aspect
+T43	DATA-ITEM 794 814	temporal connectives
+T44	DATA-ITEM 820 840	discourse structures
+T45	PLAN 844 847	set
+T46	PLAN 851 862	experiments
+T47	PROCESS 872 881	conducted
+T48	PROCESS 885 896	investigate
+T49	DATA-ITEM 901 920	linguistic features
+T50	MODALITY 921 926	could
+T51	PROCESS 927 933	affect
+T52	PLAN-OR-PROCESS 934 962	temporal relation resolution
+R1	from Arg1:T1 Arg2:T2	
+R2	to Arg1:T1 Arg2:T3	
+R3	In_Out Arg1:T6 Arg2:T7	
+R4	Output Arg1:T10 Arg2:T7	
+R5	Destination Arg1:T10 Arg2:T11	
+R6	Attribute Arg1:T10 Arg2:T9	
+R7	Attribute Arg1:T10 Arg2:T8	
+R8	from Arg1:T5 Arg2:T4	
+R9	to Arg1:T5 Arg2:T6	
+R10	Coreference Arg1:T12 Arg2:T7	
+R11	Attribute Arg1:T14 Arg2:T13	
+R12	Output Arg1:T14 Arg2:T12	
+R13	Member-collection Arg1:T15 Arg2:T16	
+R14	Member-collection Arg1:T15 Arg2:T17	
+R15	Input Arg1:T14 Arg2:T15	
+R16	Condition Arg1:T14 Arg2:T18	
+T53	QUALITY 286 296	especially
+T54	QUALITY 351 359	temporal
+R18	Attribute Arg1:T20 Arg2:T54	
+T55	MODALITY 363 372	otherwise
+R19	Attribute Arg1:T54 Arg2:T55	
+R20	Condition Arg1:T20 Arg2:T21	
+T56	THING 422 426	role
+T57	PROCESS 404 408	play
+R21	Attribute Arg1:T56 Arg2:T22	
+R22	Output Arg1:T57 Arg2:T56	
+R23	Agent Arg1:T57 Arg2:T20	
+T58	LANGUAGE 29 36	Chinese
+T59	REFERENCE 431 441	this paper
+R24	from Arg1:T24 Arg2:T25	
+R25	to Arg1:T24 Arg2:T23	
+R26	from Arg1:T24 Arg2:T26	
+A1	Intentional T27
+R27	Condition Arg1:T27 Arg2:T59	
+R28	Output Arg1:T27 Arg2:T23	
+R29	Apply-to Arg1:T23 Arg2:T28	
+R30	In_Out Arg1:T28 Arg2:T29	
+R31	Condition Arg1:T29 Arg2:T31	
+T60	OCCURENT 648 652	fact
+R32	Attribute Arg1:T37 Arg2:T36	
+R33	Input Arg1:T35 Arg2:T34	
+R34	Output Arg1:T35 Arg2:T37	
+R35	Is-a Arg1:T42 Arg2:T41	
+R36	Is-a Arg1:T43 Arg2:T41	
+R37	Is-a Arg1:T44 Arg2:T41	
+R38	Other-rel Arg1:T41 Arg2:T40	
+R39	Target Arg1:T39 Arg2:T40	
+R40	Coreference Arg1:T38 Arg2:T32	
+R41	Apply-to Arg1:T38 Arg2:T39	
+R42	Member-collection Arg1:T46 Arg2:T45	
+R43	Output Arg1:T47 Arg2:T45	
+A2	Intentional T47
+R44	Apply-to Arg1:T47 Arg2:T48	
+R45	Attribute Arg1:T51 Arg2:T50	
+R46	In_Out Arg1:T51 Arg2:T52	
+R47	Other-rel Arg1:T49 Arg2:T51	
+R48	Attribute Arg1:T14 Arg2:T53	
+R17	from Arg1:T33 Arg2:T60	
+R49	to Arg1:T33 Arg2:T32	

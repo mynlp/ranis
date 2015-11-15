@@ -1,0 +1,223 @@
+T1	PLAN-OR-PROCESS 0 24	Laplacian Optimal Design
+T2	PLAN-OR-PROCESS 29 44	Image Retrieval
+T3	PLAN 45 63	Relevance feedback
+T4	QUALITY 69 77	powerful
+T5	PLAN 78 87	technique
+T6	PROCESS 91 98	enhance
+T9	DATA-ITEM 99 146	ContentBased Image Retrieval (CBIR) performance
+T10	REFERENCE 148 150	It
+T11	PROCESS 151 159	solicits
+T12	PERSON 164 168	user
+T13	PLAN-OR-PROCESS 171 190	relevance judgments
+T14	DATA-ITEM 198 214	retrieved images
+T15	PROCESS 215 223	returned
+T16	PLAN 231 243	CBIR systems
+T17	PERSON 249 253	user
+T18	PLAN-OR-PROCESS 256 264	labeling
+T19	INPUT 273 277	used
+T20	PROCESS 281 286	learn
+T21	PLAN 289 299	classifier
+T22	PROCESS 303 314	distinguish
+T23	QUALITY 323 331	relevant
+T24	QUALITY 336 346	irrelevant
+T25	DATA-ITEM 347 353	images
+T26	DATA-ITEM 381 387	images
+T27	MODALITY 388 391	may
+T28	MODALITY 392 395	not
+T29	QUALITY 403 419	most informative
+T30	DATA-ITEM 420 424	ones
+T31	PLAN 430 439	challenge
+T32	PROCESS 451 460	determine
+T34	DATA-ITEM 467 483	unlabeled images
+T35	MODALITY 484 489	would
+T36	QUALITY 497 513	most informative
+T37	JUDGING-PROCESS 521 528	improve
+T38	PLAN 533 543	classifier
+T39	QUALITY 548 552	most
+T40	REFERENCE 557 561	they
+T41	PROCESS 567 574	labeled
+T42	PROCESS 579 583	used
+T43	DATA-ITEM 587 603	training samples
+T44	REFERENCE 608 618	this paper
+T45	PERSON 620 622	we
+T46	PROCESS 623 630	propose
+T47	QUALITY 633 638	novel
+T48	PLAN 639 664	active learning algorithm
+T49	PLAN 673 697	Laplacian Optimal Design
+T50	PLAN 699 702	LOD
+T51	PLAN 709 743	relevance feedback image retrieval
+T52	PERSON 745 748	Our
+T53	PLAN 749 758	algorithm
+T54	APPLY-TO 762 770	based on
+T55	PLAN 773 789	regression model
+T56	REFERENCE 790 795	which
+T57	PROCESS 796 805	minimizes
+T59	DATA-ITEM 810 828	least square error
+T60	QUALITY 836 844	measured
+T61	DATA-ITEM 859 865	images
+T62	QUALITY 870 884	simultaneously
+T63	PROCESS 885 894	preserves
+T65	DATA-ITEM 899 926	local geometrical structure
+T66	DATA-ITEM 934 945	image space
+T67	PERSON 961 963	we
+T68	PROCESS 964 970	assume
+T69	RESULT 976 978	if
+T70	QUANTITY 979 982	two
+T71	DATA-ITEM 983 989	images
+T72	QUALITY 994 1006	sufficiently
+T73	QUALITY 1007 1012	close
+T74	REFERENCE 1016 1026	each other
+T75	REFERENCE 1033 1038	their
+T76	DATA-ITEM 1039 1051	measurements
+T77	DATA-ITEM 1057 1063	labels
+T78	QUALITY 1069 1074	close
+T79	PROCESS 1087 1099	constructing
+T81	PLAN 1102 1124	nearest neighbor graph
+T82	DATA-ITEM 1130 1151	geometrical structure
+T83	DATA-ITEM 1159 1170	image space
+T84	MODALITY 1171 1174	can
+T85	PROCESS 1178 1187	described
+T86	PLAN 1195 1210	graph Laplacian
+T87	PERSON 1212 1214	We
+T88	PROCESS 1215 1222	discuss
+T89	DATA-ITEM 1227 1234	results
+T90	PLAN 1244 1249	field
+T92	PLAN 1253 1280	optimal experimental design
+T93	MODALITY 1281 1284	may
+T94	INPUT 1288 1292	used
+T95	PROCESS 1296 1301	guide
+T96	PERSON 1302 1305	our
+T97	PLAN-OR-PROCESS 1306 1315	selection
+T98	DATA-ITEM 1321 1327	subset
+T99	DATA-ITEM 1331 1337	images
+T100	REFERENCE 1339 1344	which
+T101	PROCESS 1345 1350	gives
+T102	QUANTITY 1358 1369	most amount
+T103	DATA-ITEM 1373 1384	information
+T104	DATA-ITEM 1386 1406	Experimental results
+T105	DATA-ITEM 1410 1424	Corel database
+T106	PROCESS 1425 1432	suggest
+T107	PLAN 1442 1459	proposed approach
+T108	RESULT 1460 1468	achieves
+T109	QUALITY 1469 1475	higher
+T110	DATA-ITEM 1476 1485	precision
+T111	PLAN 1489 1523	relevance feedback image retrieval
+R1	Apply-to Arg1:T1 Arg2:T2	
+R2	Attribute Arg1:T5 Arg2:T4	
+R3	Is-a Arg1:T3 Arg2:T5	
+R4	Apply-to Arg1:T5 Arg2:T6	
+R5	In_Out Arg1:T6 Arg2:T9	
+R8	Agent Arg1:T13 Arg2:T12	
+R9	Target Arg1:T11 Arg2:T13	
+R10	Input Arg1:T13 Arg2:T14	
+R11	Apply-to Arg1:T16 Arg2:T15	
+R12	Output Arg1:T15 Arg2:T14	
+R13	Apply-to Arg1:T10 Arg2:T11	
+R14	Coreference Arg1:T10 Arg2:T3	
+R15	Agent Arg1:T18 Arg2:T17	
+R16	In_Out Arg1:T20 Arg2:T21	
+R17	from Arg1:T19 Arg2:T20	
+R18	to Arg1:T19 Arg2:T18	
+R19	Apply-to Arg1:T21 Arg2:T22	
+R20	Attribute Arg1:T25 Arg2:T24	
+R21	Attribute Arg1:T25 Arg2:T23	
+R22	In_Out Arg1:T22 Arg2:T25	
+T112	QUALITY 368 380	top returned
+R23	Attribute Arg1:T26 Arg2:T112	
+R24	Attribute Arg1:T30 Arg2:T29	
+T113	EQUIVALENCE 396 398	be
+R25	Attribute Arg1:T113 Arg2:T28	
+R26	Attribute Arg1:T113 Arg2:T27	
+R27	to Arg1:T113 Arg2:T30	
+R28	from Arg1:T113 Arg2:T26	
+T114	ATTRIBUTE 490 492	be
+R29	Attribute Arg1:T114 Arg2:T35	
+R30	from Arg1:T114 Arg2:T34	
+R31	to Arg1:T114 Arg2:T36	
+R32	Apply-to Arg1:T31 Arg2:T32	
+R33	In_Out Arg1:T37 Arg2:T38	
+R34	Attribute Arg1:T38 Arg2:T39	
+R36	In_Out Arg1:T32 Arg2:T34	
+R37	Destination Arg1:T41 Arg2:T40	
+R38	Input Arg1:T42 Arg2:T40	
+A1	Self T44
+A2	Self T45
+A3	Intentional T46
+R40	Attribute Arg1:T48 Arg2:T47	
+R41	Output Arg1:T46 Arg2:T48	
+R43	Equivalence Arg1:T50 Arg2:T49	
+T33	IS-A 666 672	called
+R44	from Arg1:T33 Arg2:T49	
+R45	to Arg1:T33 Arg2:T48	
+R42	Apply-to Arg1:T50 Arg2:T51	
+R46	Agent Arg1:T46 Arg2:T45	
+R47	Condition Arg1:T46 Arg2:T44	
+A4	Self T52
+R48	Poss Arg1:T52 Arg2:T53	
+R49	from Arg1:T54 Arg2:T55	
+R50	to Arg1:T54 Arg2:T53	
+R51	Coreference Arg1:T56 Arg2:T55	
+R52	Apply-to Arg1:T56 Arg2:T57	
+R53	In_Out Arg1:T57 Arg2:T59	
+T58	QUALITY 850 857	labeled
+R54	Attribute Arg1:T61 Arg2:T58	
+R55	Attribute Arg1:T61 Arg2:T60	
+R56	Condition Arg1:T59 Arg2:T61	
+R57	Attribute Arg1:T63 Arg2:T62	
+R58	Apply-to Arg1:T56 Arg2:T63	
+R59	Attribute Arg1:T66 Arg2:T65	
+R60	Target Arg1:T63 Arg2:T65	
+A5	Self T67
+A6	Intentional T68
+R61	Agent Arg1:T68 Arg2:T67	
+R62	Attribute Arg1:T71 Arg2:T70	
+R63	Attribute Arg1:T73 Arg2:T72	
+R64	Attribute Arg1:T71 Arg2:T73	
+R65	Coreference Arg1:T74 Arg2:T70	
+R66	Compare Arg1:T74 Arg2:T73	
+R67	Coreference Arg1:T75 Arg2:T74	
+R68	Attribute Arg1:T75 Arg2:T76	
+R69	Attribute Arg1:T75 Arg2:T77	
+R70	Attribute Arg1:T77 Arg2:T78	
+R71	Attribute Arg1:T76 Arg2:T78	
+T64	RESULT 1028 1032	then
+R72	Other-rel Arg1:T64 Arg2:T69	
+R73	to Arg1:T64 Arg2:T78	
+R74	from Arg1:T64 Arg2:T73	
+R75	Output Arg1:T79 Arg2:T81	
+R76	Attribute Arg1:T83 Arg2:T82	
+R77	Output Arg1:T85 Arg2:T83	
+R78	Apply-to Arg1:T86 Arg2:T85	
+R79	Attribute Arg1:T85 Arg2:T84	
+R80	Apply-to Arg1:T79 Arg2:T85	
+A7	Self T87
+A8	Intentional T88
+R81	Agent Arg1:T88 Arg2:T87	
+R82	Is-a Arg1:T92 Arg2:T90	
+R83	Output Arg1:T90 Arg2:T89	
+R84	from Arg1:T94 Arg2:T95	
+R85	to Arg1:T94 Arg2:T89	
+R86	Attribute Arg1:T94 Arg2:T93	
+A9	Self T96
+R87	Agent Arg1:T97 Arg2:T96	
+R88	Target Arg1:T95 Arg2:T97	
+R89	Member-collection Arg1:T99 Arg2:T98	
+R90	In_Out Arg1:T97 Arg2:T98	
+T80	PERSON 1351 1353	us
+A10	Self T80
+R91	Attribute Arg1:T103 Arg2:T102	
+R92	Destination Arg1:T101 Arg2:T80	
+R93	Output Arg1:T101 Arg2:T103	
+R94	Coreference Arg1:T100 Arg2:T98	
+R95	Input Arg1:T101 Arg2:T100	
+R39	Other-rel Arg1:T43 Arg2:T40	
+R6	Condition Arg1:T104 Arg2:T105	
+R7	from Arg1:T108 Arg2:T107	
+R96	to Arg1:T108 Arg2:T110	
+R97	Attribute Arg1:T110 Arg2:T109	
+R98	Apply-to Arg1:T107 Arg2:T111	
+R99	Output Arg1:T106 Arg2:T109	
+R100	Agent Arg1:T106 Arg2:T104	
+R101	Equivalence Arg1:T39 Arg2:T36	
+R35	Agent Arg1:T37 Arg2:T34	
+R102	Coreference Arg1:T40 Arg2:T34	

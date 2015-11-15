@@ -1,0 +1,204 @@
+R1	from Arg1:T93 Arg2:T1
+R2	to Arg1:T93 Arg2:T2
+#1	AnnotatorNotes T2	Speech Recognition Understanding Systems
+R6	Attribute Arg1:T3 Arg2:T95
+R7	Attribute Arg1:T5 Arg2:T4
+R8	Condition Arg1:T5 Arg2:T6
+R9	Attribute Arg1:T9 Arg2:T8
+R10	Agent Arg1:T9 Arg2:T7
+R11	Attribute Arg1:T96 Arg2:T12
+R12	Output Arg1:T9 Arg2:T10
+R13	Output Arg1:T9 Arg2:T11
+R14	Destination Arg1:T9 Arg2:T96
+R15	Is-a Arg1:T9 Arg2:T5
+R16	Attribute Arg1:T15 Arg2:T14
+R17	Apply-to Arg1:T13 Arg2:T15
+R18	Component-object Arg1:T18 Arg2:T17
+R19	Attribute Arg1:T17 Arg2:T16
+R20	Output Arg1:T15 Arg2:T17
+R21	Target Arg1:T19 Arg2:T20
+R22	Attribute Arg1:T19 Arg2:T14
+R23	Apply-to Arg1:T13 Arg2:T19
+R24	Apply-to Arg1:T21 Arg2:T23
+R25	Attribute Arg1:T23 Arg2:T22
+R26	Output Arg1:T23 Arg2:T24
+R27	Condition Arg1:T24 Arg2:T25
+R28	Apply-to Arg1:T23 Arg2:T26
+R29	Target Arg1:T26 Arg2:T27
+R30	Output Arg1:T27 Arg2:T28
+R31	Destination Arg1:T29 Arg2:T30
+R32	Output Arg1:T29 Arg2:T28
+A1	Self T31
+A2	Self T32
+A3	Intentional T33
+R33	Agent Arg1:T33 Arg2:T32
+R34	Condition Arg1:T33 Arg2:T31
+R35	Attribute Arg1:T35 Arg2:T34
+R36	In_Out Arg1:T33 Arg2:T35
+R37	Attribute Arg1:T37 Arg2:T36
+R38	Attribute Arg1:T37 Arg2:T35
+R39	Coreference Arg1:T37 Arg2:T96
+A4	Intentional T38
+R40	Agent Arg1:T38 Arg2:T32
+R41	Condition Arg1:T38 Arg2:T31
+R42	Attribute Arg1:T40 Arg2:T39
+R43	Input Arg1:T38 Arg2:T40
+R44	Input Arg1:T38 Arg2:T41
+R3	Attribute Arg1:T94 Arg2:T95
+R4	Attribute Arg1:T43 Arg2:T42
+R5	Member-collection Arg1:T44 Arg2:T45
+R46	Input Arg1:T49 Arg2:T50
+R47	Output Arg1:T46 Arg2:T47
+R48	Attribute Arg1:T48 Arg2:T47
+R49	Output Arg1:T49 Arg2:T45
+R50	Condition Arg1:T45 Arg2:T46
+R51	Component-object Arg1:T44 Arg2:T43
+R52	Attribute Arg1:T54 Arg2:T53
+R53	Output Arg1:T55 Arg2:T54
+R54	Agent Arg1:T55 Arg2:T56
+R55	Attribute Arg1:T60 Arg2:T59
+R56	In_Out Arg1:T58 Arg2:T60
+R57	Target Arg1:T57 Arg2:T58
+R59	Member-collection Arg1:T52 Arg2:T43
+R60	Member-collection Arg1:T54 Arg2:T52
+R61	Attribute Arg1:T64 Arg2:T63
+R62	Member-collection Arg1:T66 Arg2:T65
+R63	Condition Arg1:T70 Arg2:T69
+R64	Attribute Arg1:T69 Arg2:T68
+R65	Output Arg1:T70 Arg2:T72
+R66	Agent Arg1:T70 Arg2:T67
+R67	Attribute Arg1:T72 Arg2:T71
+R68	to Arg1:T62 Arg2:T63
+R69	from Arg1:T62 Arg2:T61
+R70	Condition Arg1:T64 Arg2:T65
+R71	Coreference Arg1:T73 Arg2:T67
+R72	Attribute Arg1:T73 Arg2:T74
+R74	Attribute Arg1:T67 Arg2:T97
+R75	Attribute Arg1:T77 Arg2:T76
+R76	Attribute Arg1:T76 Arg2:T75
+R77	Attribute Arg1:T78 Arg2:T79
+R78	Attribute Arg1:T75 Arg2:T78
+R79	Condition Arg1:T75 Arg2:T80
+R80	Condition Arg1:T75 Arg2:T81
+R81	from Arg1:T98 Arg2:T81
+R82	to Arg1:T98 Arg2:T78
+A5	Judgment T78
+R83	Coreference Arg1:T83 Arg2:T82
+R84	to Arg1:T84 Arg2:T85
+R85	from Arg1:T84 Arg2:T83
+R86	In_Out Arg1:T86 Arg2:T82
+R87	Input Arg1:T86 Arg2:T87
+R88	In_Out Arg1:T91 Arg2:T92
+R89	Attribute Arg1:T91 Arg2:T90
+A6	Judgment T90
+R91	from Arg1:T100 Arg2:T86
+R92	to Arg1:T100 Arg2:T90
+R93	Attribute Arg1:T90 Arg2:T89
+R73	Component-object Arg1:T74 Arg2:T67
+R94	Attribute Arg1:T90 Arg2:T88
+R95	from Arg1:T101 Arg2:T78
+R96	to Arg1:T101 Arg2:T90
+A7	Intentional T9
+A8	Intentional T55
+R97	Apply-to Arg1:T55 Arg2:T57
+R58	Destination Arg1:T49 Arg2:T51
+T93	APPLY-TO 8 13	Using
+T1	PLAN 14 21	Prosody
+T2	PLAN 25 65	Speech Recognition/Understanding Systems
+T95	DATA-ITEM 68 79	Differences
+T94	DATA-ITEM 88 92	Read
+T3	DATA-ITEM 97 115	Spontaneous Speech
+T4	QUALITY 120 130	persistent
+T5	PLAN-OR-PROCESS 131 138	problem
+T6	PLAN 143 184	keyword-driven speech recognition systems
+T7	PERSON 193 198	users
+T8	QUALITY 199 204	often
+T9	PROCESS 205 210	embed
+T10	DATA-ITEM 215 237	to-be-recognized words
+T11	DATA-ITEM 241 248	phrases
+T12	QUALITY 252 258	longer
+T96	DATA-ITEM 259 269	utterances
+T13	PLAN 276 286	recognizer
+T14	MODALITY 287 292	needs
+T15	PROCESS 296 302	locate
+T16	QUALITY 307 315	relevant
+T17	DATA-ITEM 316 324	sections
+T18	DATA-ITEM 332 345	speech signal
+T19	PROCESS 350 356	ignore
+T20	DATA-ITEM 357 373	extraneous words
+T21	PLAN 376 383	Prosody
+T22	MODALITY 384 389	might
+T23	PROCESS 390 397	provide
+T24	DATA-ITEM 401 413	extra source
+T25	DATA-ITEM 417 428	information
+T26	PROCESS 432 436	help
+T27	PROCESS 437 443	locate
+T28	DATA-ITEM 444 456	target words
+T29	PROCESS 457 465	embedded
+T30	DATA-ITEM 469 481	other speech
+T31	REFERENCE 487 497	this paper
+T32	PERSON 498 500	we
+T33	PROCESS 501 508	examine
+T34	QUANTITY 509 513	some
+T35	DATA-ITEM 514 538	prosodic characteristics
+T36	QUANTITY 542 545	160
+T37	DATA-ITEM 546 561	such utterances
+T38	PROCESS 566 573	compare
+T39	QUALITY 574 581	matched
+T40	DATA-ITEM 582 586	read
+T41	DATA-ITEM 591 611	spontaneous versions
+T42	QUANTITY 614 618	Half
+T43	DATA-ITEM 626 636	utterances
+T44	DATA-ITEM 648 654	corpus
+T45	DATA-ITEM 658 677	spontaneous answers
+T46	PLAN-OR-PROCESS 681 689	requests
+T47	DATA-ITEM 698 702	name
+T48	DATA-ITEM 708 712	city
+T49	PROCESS 715 723	recorded
+T50	DATA-ITEM 729 734	calls
+T51	PERSON 738 768	Directory Assistance Operators
+T52	DATA-ITEM 775 785	other half
+T53	QUALITY 794 798	same
+T54	DATA-ITEM 799 811	word strings
+T55	PROCESS 812 816	read
+T56	PERSON 820 830	volunteers
+T57	PROCESS 831 841	attempting
+T58	PROCESS 845 850	model
+T59	QUALITY 855 859	real
+T60	DATA-ITEM 860 868	dialogue
+T61	DATA-ITEM 871 878	Results
+T62	RESULT 879 883	show
+T63	QUALITY 886 896	consistent
+T64	DATA-ITEM 897 904	pattern
+T65	DATA-ITEM 917 921	sets
+T66	DATA-ITEM 925 929	data
+T97	QUALITY 932 940	embedded
+T67	DATA-ITEM 941 951	city names
+T68	QUALITY 952 958	almost
+T69	TIME 959 965	always
+T70	PROCESS 966 970	bear
+T71	QUALITY 971 978	nuclear
+T72	DATA-ITEM 979 992	pitch accents
+T73	REFERENCE 1004 1013	their own
+T74	DATA-ITEM 1014 1034	intonational phrases
+T75	DATA-ITEM 1049 1062	distributions
+T76	DATA-ITEM 1066 1079	tonal make-up
+T77	DATA-ITEM 1083 1106	these prosodic features
+T78	QUALITY 1107 1113	differ
+T79	QUALITY 1114 1122	markedly
+T80	DATA-ITEM 1126 1130	read
+T98	COMPARE 1131 1137	versus
+T81	DATA-ITEM 1138 1156	spontaneous speech
+T101	RESULT 1159 1167	implying
+T100	RESULT 1173 1175;1257 1261	if then
+T82	PLAN 1176 1186	algorithms
+T83	REFERENCE 1187 1191	that
+T84	INPUT 1192 1199	exploit
+T85	DATA-ITEM 1200 1227	these prosodic regularities
+T86	PROCESS 1232 1239	trained
+T87	DATA-ITEM 1243 1254	read speech
+T88	QUALITY 1266 1279	probabilities
+T89	QUALITY 1284 1290	likely
+T90	QUALITY 1297 1306	incorrect
+T91	PLAN 1307 1313	models
+T92	DATA-ITEM 1317 1333	real user speech

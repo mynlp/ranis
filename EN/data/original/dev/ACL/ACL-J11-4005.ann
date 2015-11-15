@@ -1,0 +1,139 @@
+T1	PROCESS 0 10	Annotating
+T2	DATA-ITEM 24 39	Event Durations
+T3	DATA-ITEM 43 47	Text
+T4	PLAN 75 79	work
+T5	PROCESS 83 95	constructing
+T6	DATA-ITEM 98 104	corpus
+T7	DATA-ITEM 108 121	news articles
+T8	REFERENCE 125 130	which
+T9	DATA-ITEM 131 137	events
+T10	PROCESS 142 151	annotated
+T11	DATA-ITEM 156 172	estimated bounds
+T12	REFERENCE 176 181	their
+T13	DATA-ITEM 182 190	duration
+T14	QUALITY 196 209	automatically
+T15	PLAN-OR-PROCESS 210 218	learning
+T16	DATA-ITEM 224 235	this corpus
+T17	PERSON 237 239	We
+T18	PROCESS 240 248	describe
+T19	PLAN 253 274	annotation guidelines
+T20	DATA-ITEM 280 293	event classes
+T21	PERSON 294 296	we
+T22	PROCESS 297 308	categorized
+T23	PROCESS 312 318	reduce
+T24	DATA-ITEM 319 338	gross discrepancies
+T25	DATA-ITEM 342 367	inter-annotator judgments
+T26	PERSON 373 376	our
+T27	PROCESS 377 380	use
+T28	PLAN 384 404	normal distributions
+T29	PROCESS 408 413	model
+T30	QUALITY 414 419	vague
+T31	QUALITY 424 432	implicit
+T32	DATA-ITEM 433 453	temporal information
+T33	PROCESS 461 468	measure
+T34	DATA-ITEM 469 494	inter-annotator agreement
+T35	DATA-ITEM 499 533	these event duration distributions
+T36	PERSON 535 537	We
+T37	PROCESS 543 547	show
+T38	PLAN 553 580	machine learning techniques
+T39	INPUT 581 588	applied
+T40	DATA-ITEM 592 601	this data
+T41	MODALITY 602 605	can
+T42	OUTPUT 606 613	produce
+T43	QUALITY 614 628	coarse-grained
+T44	DATA-ITEM 629 655	event duration information
+T45	QUALITY 656 669	automatically
+T46	QUALITY 671 683	considerably
+T47	QUALITY 684 697	outperforming
+T48	PLAN 700 708	baseline
+T49	QUALITY 713 724	approaching
+T50	DATA-ITEM 725 742	human performance
+T51	PLAN 748 755	methods
+T52	PROCESS 756 765	described
+T53	MODALITY 771 777	should
+T54	QUALITY 781 791	applicable
+T55	QUALITY 795 800	other
+T56	DATA-ITEM 801 806	kinds
+T57	QUALITY 810 815	vague
+T58	QUALITY 820 831	substantive
+T59	DATA-ITEM 832 843	information
+T60	DATA-ITEM 847 852	texts
+T61	PROCESS 15 23	Learning
+R1	In_Out Arg1:T61 Arg2:T2	
+R2	In_Out Arg1:T1 Arg2:T2	
+R3	Condition Arg1:T2 Arg2:T3	
+T62	REFERENCE 49 61	This article
+A2	Self T62
+T63	PROCESS 62 70	presents
+R4	Condition Arg1:T63 Arg2:T62	
+R5	Output Arg1:T63 Arg2:T4	
+A3	Intentional T63
+R6	Output Arg1:T5 Arg2:T6	
+R7	Member-collection Arg1:T7 Arg2:T6	
+R8	Coreference Arg1:T8 Arg2:T6	
+R9	Input Arg1:T10 Arg2:T9	
+R10	Output Arg1:T10 Arg2:T11	
+R11	Attribute Arg1:T12 Arg2:T13	
+R12	Coreference Arg1:T12 Arg2:T9	
+R13	Destination Arg1:T10 Arg2:T13	
+R14	Attribute Arg1:T15 Arg2:T14	
+R15	Input Arg1:T15 Arg2:T16	
+R16	Coreference Arg1:T16 Arg2:T6	
+R17	Output Arg1:T15 Arg2:T9	
+R18	Condition Arg1:T10 Arg2:T8	
+R19	Condition Arg1:T4 Arg2:T5	
+A4	Self T17
+A5	Intentional T18
+R20	Agent Arg1:T18 Arg2:T17	
+R21	Output Arg1:T18 Arg2:T19	
+A6	Self T21
+A7	Intentional T22
+R22	Agent Arg1:T22 Arg2:T21	
+R23	Apply-to Arg1:T22 Arg2:T23	
+R24	In_Out Arg1:T23 Arg2:T24	
+R25	Condition Arg1:T24 Arg2:T25	
+R26	Output Arg1:T22 Arg2:T20	
+R27	Output Arg1:T18 Arg2:T20	
+A8	Self T26
+R28	Attribute Arg1:T32 Arg2:T31	
+R29	Attribute Arg1:T32 Arg2:T30	
+R30	In_Out Arg1:T29 Arg2:T32	
+A9	Intentional T27
+R31	Agent Arg1:T27 Arg2:T26	
+R32	Apply-to Arg1:T27 Arg2:T29	
+R33	Input Arg1:T27 Arg2:T28	
+R34	Apply-to Arg1:T27 Arg2:T33	
+R35	In_Out Arg1:T33 Arg2:T34	
+R36	Condition Arg1:T34 Arg2:T35	
+A10	Self T36
+A11	Intentional T37
+R37	Agent Arg1:T37 Arg2:T36	
+R38	Attribute Arg1:T44 Arg2:T43	
+R39	to Arg1:T42 Arg2:T44	
+R40	Attribute Arg1:T42 Arg2:T45	
+R41	Attribute Arg1:T42 Arg2:T41	
+R42	from Arg1:T39 Arg2:T38	
+R43	to Arg1:T39 Arg2:T40	
+R44	from Arg1:T42 Arg2:T38	
+R45	Attribute Arg1:T47 Arg2:T46	
+A12	Judgment T47
+R46	Compare Arg1:T48 Arg2:T47	
+R47	Attribute Arg1:T44 Arg2:T47	
+A13	Judgment T49
+R48	Compare Arg1:T50 Arg2:T49	
+R49	Attribute Arg1:T44 Arg2:T49	
+R50	Output Arg1:T52 Arg2:T51	
+R51	Attribute Arg1:T59 Arg2:T58	
+R52	Attribute Arg1:T59 Arg2:T57	
+R53	Attribute Arg1:T56 Arg2:T55	
+R54	Member-collection Arg1:T56 Arg2:T59	
+R55	Condition Arg1:T59 Arg2:T60	
+R56	Attribute Arg1:T54 Arg2:T53	
+R57	Attribute Arg1:T51 Arg2:T54	
+R58	Input Arg1:T51 Arg2:T56	
+A14	Intentional T52
+R59	Output Arg1:T18 Arg2:T27	
+T64	PERSON 71 74	our
+A1	Self T64
+R60	Poss Arg1:T64 Arg2:T4	
+R61	Coreference Arg1:T35 Arg2:T13	

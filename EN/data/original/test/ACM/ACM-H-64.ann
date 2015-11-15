@@ -1,0 +1,110 @@
+T1	PLAN-OR-PROCESS 0 16	Machine Learning
+T2	PLAN-OR-PROCESS 21 45	Information Architecture
+T3	DATA-ITEM 57 77	Governmental Website
+T4	QUALITY 51 56	Large
+T6	APPLY-TO 125 136	application
+T7	PLAN 140 167	machine learning techniques
+T8	PROCESS 172 181	improving
+T9	PROCESS 182 188	access
+T10	DATA-ITEM 192 216	governmental information
+T11	DATA-ITEM 228 245	digital libraries
+T13	PLAN 273 280	GovStat
+T14	PLAN 273 288	GovStat Project
+T15	PLAN-OR-PROCESS 294 298	goal
+T16	PROCESS 305 313	identify
+T17	QUANTITY 316 328	small number
+T18	DATA-ITEM 351 359	concepts
+T19	REFERENCE 360 364	that
+R1	Coreference Arg1:T19 Arg2:T18	
+T20	QUALITY 365 375	adequately
+T21	PROCESS 376 381	spans
+T22	DOMAIN 386 405	intellectual domain
+T23	DATA-ITEM 411 421	collection
+T24	PLAN 427 431	goal
+T25	PLAN-OR-PROCESS 435 449	this discovery
+T26	QUALITY 453 460	twofold
+T27	PLAN-OR-PROCESS 480 493	practical aid
+T28	PERSON 498 520	information architects
+T29	QUALITY 530 551	automatically derived
+T30	DATA-ITEM 552 582	document-concept relationships
+T31	QUALITY 589 598	necessary
+T32	DATA-ITEM 599 611	precondition
+T33	PLAN-OR-PROCESS 626 636	deployment
+T34	QUANTITY 640 644	many
+T35	PLAN 645 663	dynamic interfaces
+T37	PROCESS 683 691	compares
+T38	PLAN 692 719	concept learning strategies
+T39	APPLY-TO 720 728	based on
+T40	QUANTITY 729 734	three
+T41	DATA-ITEM 735 759	document representations
+T42	DATA-ITEM 761 769	keywords
+T43	DATA-ITEM 771 777	titles
+T44	DATA-ITEM 783 792	full-text
+T45	PLAN-OR-PROCESS 797 808;824 831	statistical studies
+T46	PLAN-OR-PROCESS 813 831	user-based studies
+T47	DATA-ITEM 833 855	human-created keywords
+T48	PROCESS 856 863	provide
+T49	QUALITY 864 888	significant improvements
+T50	PLAN-OR-PROCESS 892 908	concept learning
+T51	DATA-ITEM 919 929;944 959	title-only representations
+T52	DATA-ITEM 934 959	full-text representations
+R2	Attribute Arg1:T3 Arg2:T4	
+T53	QUALITY 220 227	complex
+R3	Attribute Arg1:T11 Arg2:T53	
+R4	Attribute Arg1:T32 Arg2:T31	
+R5	Attribute Arg1:T41 Arg2:T40	
+T54	PERSON 813 817	user
+T55	PERSON 290 293	our
+R6	Attribute Arg1:T30 Arg2:T29	
+T56	QUALITY 616 625	realworld
+R7	Attribute Arg1:T33 Arg2:T56	
+R8	Attribute Arg1:T35 Arg2:T34	
+R9	Poss Arg1:T55 Arg2:T15	
+T59	QUALITY 332 350	semantically valid
+R10	Attribute Arg1:T18 Arg2:T17	
+R11	Attribute Arg1:T18 Arg2:T59	
+R12	Apply-to Arg1:T1 Arg2:T2	
+R13	Input Arg1:T2 Arg2:T3	
+R14	from Arg1:T6 Arg2:T7	
+R15	to Arg1:T6 Arg2:T8	
+R16	In_Out Arg1:T8 Arg2:T9	
+R17	Target Arg1:T9 Arg2:T10	
+R18	Condition Arg1:T9 Arg2:T11	
+R19	Output Arg1:T16 Arg2:T18	
+R20	Input Arg1:T21 Arg2:T19	
+R21	Attribute Arg1:T21 Arg2:T20	
+R22	Attribute Arg1:T23 Arg2:T22	
+R23	Destination Arg1:T21 Arg2:T22	
+R24	Attribute Arg1:T25 Arg2:T24	
+R25	Attribute Arg1:T24 Arg2:T26	
+R26	Destination Arg1:T27 Arg2:T28	
+R27	Is-a Arg1:T32 Arg2:T30	
+R28	Condition Arg1:T33 Arg2:T32	
+R29	Input Arg1:T33 Arg2:T35	
+R30	Input Arg1:T37 Arg2:T38	
+R31	from Arg1:T39 Arg2:T41	
+R32	to Arg1:T39 Arg2:T38	
+R33	Is-a Arg1:T42 Arg2:T41	
+R34	Is-a Arg1:T43 Arg2:T41	
+R35	Is-a Arg1:T44 Arg2:T41	
+R36	Input Arg1:T48 Arg2:T47	
+R37	Output Arg1:T48 Arg2:T49	
+R38	Attribute Arg1:T50 Arg2:T49	
+R39	Compare Arg1:T51 Arg2:T49	
+R40	Compare Arg1:T52 Arg2:T49	
+R41	Condition Arg1:T48 Arg2:T46	
+R42	Condition Arg1:T48 Arg2:T45	
+R43	Is-a Arg1:T16 Arg2:T15	
+R44	Condition Arg1:T14 Arg2:T15	
+T5	PERSON 468 470	we
+T12	PROCESS 471 477	desire
+R45	Agent Arg1:T12 Arg2:T5	
+R46	Target Arg1:T12 Arg2:T27	
+T36	REFERENCE 78 88	This paper
+T57	PROCESS 89 98	describes
+R47	Condition Arg1:T57 Arg2:T36	
+T58	PLAN-OR-PROCESS 107 115	research
+T60	QUALITY 99 106	ongoing
+R48	Attribute Arg1:T58 Arg2:T60	
+R49	Output Arg1:T57 Arg2:T58	
+R50	Other-rel Arg1:T58 Arg2:T6	

@@ -1,0 +1,5 @@
+Building Parallel Corpora For eContent Professionals .
+This paper reports on completed work carried out in the framework of the INTERA project , and specifically , on the production of multilingual resources ( LRs ) for eContent purposes .
+The paper presents the methodology adopted for the development of the corpus ( acquisition and processing of the textual data ) , discusses the divergence of the initial assumptions from the actual situation met during this procedure , and concludes with a summarization of the problems attested which undermine the viability of multilingual parallel corpora construction .
+
+

@@ -1,0 +1,11 @@
+Extracting the Lowest-Frequency Words: Pitfalls and Possibilities
+
+In a medical information extraction system, we use common word association techniques to extract side-effect-related terms.
+Many of these terms have a frequency of less than five.
+Standard word-association-based applications disregard the lowest-frequency words, and hence disregard useful information.
+We therefore devised an extraction system for the full word frequency range.
+This system computes the significance of association by the log-likelihood ratio and Fisher's exact test.
+The output of the system shows a recurrent, corpus-independent pattern in both recall and the number of significant words.
+We will explain these patterns by the statistical behavior of the lowest-frequency words.
+We used Dutch verb-particle combinations as a second and independent collocation extraction application to illustrate the generality of the observed phenomena.
+We will conclude that a) word-association-based extraction systems can be enhanced by also considering the lowest-frequency words, b) significance levels should not be fixed but adjusted for the optimal window size, c) hapax legomena, words occurring only once, should be disregarded a priori in the statistical analysis, and d) the distribution of the targets to extract should be considered in combination with the extraction method.

@@ -1,0 +1,180 @@
+T1	PLAN-OR-PROCESS 5 15	Generation
+T2	DATA-ITEM 19 34	Result Snippets
+T3	PLAN-OR-PROCESS 38 48	Web Search
+T4	PLAN-OR-PROCESS 53 65	presentation
+T5	DATA-ITEM 69 99	query biased document snippets
+T6	DATA-ITEM 111 124	results pages
+T7	PROCESS 125 134	presented
+T8	PLAN 138 152	search engines
+T9	IS-A 157 163	become
+T10	PLAN-OR-PROCESS 167 178	expectation
+T11	PERSON 182 201	search engine users
+T12	REFERENCE 206 216	this paper
+T13	PERSON 217 219	we
+T14	PROCESS 220 227	explore
+T15	PLAN 232 242	algorithms
+T16	PLAN 247 262	data structures
+T17	QUALITY 263 271	required
+T18	PLAN 285 298	search engine
+T19	PROCESS 302 307	allow
+T20	QUALITY 308 317	efficient
+T21	PLAN-OR-PROCESS 318 328	generation
+T22	DATA-ITEM 332 353	query biased snippets
+T23	PERSON 355 357	We
+T24	PROCESS 358 363	begin
+T25	PROCESS 367 376	proposing
+T26	PROCESS 381 390	analysing
+T27	PLAN 393 420	document compression method
+T28	REFERENCE 421 425	that
+T29	PROCESS 426 433	reduces
+T30	DATA-ITEM 434 457	snippet generation time
+T31	QUANTITY 461 464	58%
+T32	PLAN 472 480	baseline
+T33	APPLY-TO 481 486	using
+T34	PLAN 491 515	zlib compression library
+T35	PLAN 517 534	These experiments
+T36	RESULT 535 541	reveal
+T37	PROCESS 547 554	finding
+T38	DATA-ITEM 555 564	documents
+T39	PLAN 568 585	secondary storage
+T40	PROCESS 586 595	dominates
+T41	QUALITY 600 605	total
+T42	DATA-ITEM 606 610	cost
+T43	PROCESS 614 624	generating
+T44	DATA-ITEM 625 633	snippets
+T45	PROCESS 642 649	caching
+T46	DATA-ITEM 650 659	documents
+T47	PLAN 663 666	RAM
+T48	QUALITY 670 679	essential
+T49	QUALITY 686 690	fast
+T50	PLAN-OR-PROCESS 691 717	snippet generation process
+T51	APPLY-TO 719 724	Using
+T52	PLAN-OR-PROCESS 725 735	simulation
+T53	PERSON 737 739	we
+T54	PROCESS 740 747	examine
+T55	DATA-ITEM 748 778	snippet generation performance
+T56	QUALITY 783 797	different size
+T57	DATA-ITEM 798 808	RAM caches
+T58	PERSON 818 820	we
+T59	PROCESS 821 828	propose
+T60	PROCESS 833 840	analyse
+T61	PLAN-OR-PROCESS 841 860	document reordering
+T62	PLAN-OR-PROCESS 865 875	compaction
+T63	PROCESS 877 886	revealing
+T64	PLAN 889 895	scheme
+T65	REFERENCE 896 900	that
+T66	JUDGING-PROCESS 901 910	increases
+T67	DATA-ITEM 915 921	number
+T68	DATA-ITEM 925 944	document cache hits
+T69	PROCESS 966 972	affect
+T70	DATA-ITEM 976 991	snippet quality
+T71	PLAN 993 1004	This scheme
+T72	QUALITY 1005 1016	effectively
+T73	PROCESS 1017 1024	doubles
+T74	DATA-ITEM 1029 1035	number
+T75	DATA-ITEM 1039 1048	documents
+T76	REFERENCE 1049 1053	that
+T77	MODALITY 1054 1057	can
+T78	QUALITY 1058 1061	fit
+T79	PLAN 1067 1083	fixed size cache
+T80	QUALITY 0 4	Fast
+R1	Attribute Arg1:T1 Arg2:T80	
+R2	Output Arg1:T1 Arg2:T2	
+R3	Apply-to Arg1:T1 Arg2:T3	
+R4	Output Arg1:T4 Arg2:T5	
+T81	DATA-ITEM 103 107	part
+R5	Component-object Arg1:T6 Arg2:T81	
+R6	Equivalence Arg1:T81 Arg2:T5	
+R7	Apply-to Arg1:T8 Arg2:T7	
+R8	Output Arg1:T7 Arg2:T6	
+R9	Agent Arg1:T10 Arg2:T11	
+R10	to Arg1:T9 Arg2:T10	
+R11	from Arg1:T9 Arg2:T4	
+A1	Self T12
+A2	Self T13
+A3	Intentional T14
+R12	Agent Arg1:T14 Arg2:T13	
+R13	Condition Arg1:T14 Arg2:T12	
+R14	In_Out Arg1:T14 Arg2:T15	
+R15	In_Out Arg1:T14 Arg2:T16	
+R16	Attribute Arg1:T16 Arg2:T17	
+R17	Attribute Arg1:T15 Arg2:T17	
+T82	PLAN 275 279	part
+R18	Component-object Arg1:T18 Arg2:T82	
+R20	Attribute Arg1:T21 Arg2:T20	
+R21	Output Arg1:T21 Arg2:T22	
+R22	Output Arg1:T19 Arg2:T21	
+R23	Condition Arg1:T17 Arg2:T19	
+R19	Is-a Arg1:T16 Arg2:T82	
+R24	Is-a Arg1:T15 Arg2:T82	
+A4	Self T23
+A5	Intentional T24
+R25	Agent Arg1:T24 Arg2:T23	
+R26	Output Arg1:T25 Arg2:T27	
+R27	Input Arg1:T26 Arg2:T27	
+A6	Intentional T25
+A7	Intentional T26
+R28	Coreference Arg1:T28 Arg2:T27	
+R29	Apply-to Arg1:T28 Arg2:T29	
+R30	In_Out Arg1:T29 Arg2:T30	
+R31	Attribute Arg1:T30 Arg2:T31	
+T83	COMPARE 465 469	over
+R32	from Arg1:T83 Arg2:T32	
+R33	to Arg1:T83 Arg2:T31	
+R34	to Arg1:T33 Arg2:T29	
+R35	from Arg1:T33 Arg2:T34	
+R36	In_Out Arg1:T37 Arg2:T38	
+R37	Condition Arg1:T38 Arg2:T39	
+R38	Attribute Arg1:T42 Arg2:T41	
+R39	In_Out Arg1:T40 Arg2:T42	
+R40	Attribute Arg1:T43 Arg2:T42	
+R41	Output Arg1:T43 Arg2:T44	
+R42	Result Arg1:T37 Arg2:T40	
+R43	In_Out Arg1:T45 Arg2:T46	
+R44	Condition Arg1:T46 Arg2:T47	
+R45	Attribute Arg1:T45 Arg2:T48	
+R46	Attribute Arg1:T50 Arg2:T49	
+R47	Condition Arg1:T48 Arg2:T50	
+R48	from Arg1:T36 Arg2:T35	
+A8	Self T53
+A9	Intentional T54
+R49	Agent Arg1:T54 Arg2:T53	
+R50	from Arg1:T51 Arg2:T52	
+R51	to Arg1:T51 Arg2:T54	
+R52	Attribute Arg1:T57 Arg2:T56	
+R53	Condition Arg1:T55 Arg2:T57	
+R54	In_Out Arg1:T54 Arg2:T55	
+A10	Self T58
+A11	Intentional T59
+R55	Agent Arg1:T59 Arg2:T58	
+A12	Intentional T60
+R56	Agent Arg1:T60 Arg2:T58	
+R57	Input Arg1:T60 Arg2:T61	
+R58	Input Arg1:T60 Arg2:T62	
+R59	Output Arg1:T59 Arg2:T61	
+R60	Output Arg1:T59 Arg2:T62	
+R61	Coreference Arg1:T65 Arg2:T64	
+R62	Apply-to Arg1:T65 Arg2:T66	
+R63	Attribute Arg1:T68 Arg2:T67	
+R64	In_Out Arg1:T66 Arg2:T67	
+T84	QUALITY 957 965	marginal
+R65	Attribute Arg1:T69 Arg2:T84	
+R66	In_Out Arg1:T69 Arg2:T70	
+R67	Output Arg1:T63 Arg2:T64	
+A13	Intentional T63
+R68	Attribute Arg1:T73 Arg2:T72	
+R69	Apply-to Arg1:T71 Arg2:T73	
+R70	Attribute Arg1:T75 Arg2:T74	
+R71	In_Out Arg1:T73 Arg2:T74	
+R72	Condition Arg1:T78 Arg2:T79	
+R73	Attribute Arg1:T78 Arg2:T77	
+R74	Coreference Arg1:T76 Arg2:T75	
+R75	Attribute Arg1:T76 Arg2:T78	
+R76	Apply-to Arg1:T25 Arg2:T24	
+R77	Apply-to Arg1:T26 Arg2:T24	
+R78	Result Arg1:T65 Arg2:T69	
+A14	Judgment T29
+A15	Judgment T48
+R79	to Arg1:T36 Arg2:T40	
+R80	to Arg1:T36 Arg2:T48	
+A16	Judgment T72

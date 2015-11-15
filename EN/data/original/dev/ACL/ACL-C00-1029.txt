@@ -1,0 +1,6 @@
+A Class-Based Probabilistic Approach To Structural Disambiguation .
+Knowledge of which words are able to fill particular argument slots of a predicate can be used tbr structural disambiguation .
+This paper describes a proposal for acquiring such knowledge , and in line with much of the recent work in this area , a probabilistic approach is taken .
+We develop a novel way of using a semantic hierarchy to estimate the probabilities , and demonstrate the general approach using a prepositional phrase attachment experiment .
+
+

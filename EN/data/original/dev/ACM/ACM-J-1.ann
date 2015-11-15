@@ -1,0 +1,172 @@
+T1	PLAN 0 38	Generalized Trade Reduction Mechanisms
+T2	PROCESS 44 53	designing
+T3	PLAN 56 65	mechanism
+T4	QUANTITY 76 83	several
+T5	QUALITY 84 93	desirable
+T6	PROCESS 108 116	maintain
+T7	QUALITY 125 148	incentive compatibility
+T8	QUALITY 150 152	IC
+T10	QUALITY 156 177	ndividual rationality
+T11	QUALITY 179 181	IR
+T12	QUALITY 188 202	budget balance
+T13	QUALITY 204 206	BB
+T14	QUALITY 215 225	well known
+T15	EXTERNAL-REFERENCE 226 230	[15]
+T17	QUALITY 242 252	impossible
+T18	PLAN 259 268	mechanism
+T19	PROCESS 272 280	maximize
+T20	DATA-ITEM 281 295	social welfare
+T21	QUALITY 314 316	IR
+T22	QUALITY 318 320	IC
+T23	QUALITY 326 328	BB
+T24	QUANTITY 346 353	several
+T25	PLAN-OR-PROCESS 354 362	attempts
+T26	PROCESS 366 376	circumvent
+T27	EXTERNAL-REFERENCE 377 381	[15]
+T28	PROCESS 385 392	trading
+T29	DATA-ITEM 393 400	welfare
+T30	QUALITY 405 407	BB
+T31	DOMAIN 418 425	domains
+T32	PLAN 434 455	double-sided auctions
+T33	EXTERNAL-REFERENCE 456 460	[13]
+T34	PLAN 462 481	distributed markets
+T35	EXTERNAL-REFERENCE 482 485	[3]
+T36	PLAN 490 511	supply chain problems
+T37	EXTERNAL-REFERENCE 512 518	[2, 4]
+T38	REFERENCE 523 533	this paper
+T39	PERSON 534 536	we
+T40	PROCESS 537 544	provide
+T41	PLAN 547 556	procedure
+T42	IS-A 557 563	called
+T43	PLAN 566 593	Generalized Trade Reduction
+T44	PLAN 595 598	GTR
+T45	INTELLIGENT-AGENT 604 624	single-value players
+T46	REFERENCE 626 631	which
+T47	APPLY-TO 632 637	given
+T48	PLAN 641 643	IR
+T49	PLAN 648 660	IC mechanism
+T50	PROCESS 662 669	outputs
+T51	PLAN 672 681	mechanism
+T52	REFERENCE 682 687	which
+T53	QUALITY 691 693	IR
+T54	QUALITY 695 697	IC
+T55	QUALITY 702 704	BB
+T56	QUALITY 712 716	loss
+T57	DATA-ITEM 720 727	welfare
+T58	PERSON 729 731	We
+T59	PROCESS 732 737	bound
+T60	DATA-ITEM 742 749	welfare
+T61	OUTPUT 750 758	achieved
+T62	PERSON 762 765	our
+T63	PLAN 766 775	procedure
+T64	QUALITY 782 792	wide range
+T66	DOMAIN 796 803	domains
+T67	PERSON 820 823	our
+T68	PLAN 824 831	results
+T69	JUDGING-PROCESS 832 839	improve
+T70	QUALITY 843 851	existing
+T71	PLAN 852 861	solutions
+T72	PLAN 866 874	problems
+T74	PLAN 883 903	double sided markets
+T75	ARTIFACT 920 925	goods
+T76	PLAN 927 946	distributed markets
+T77	QUANTITY 951 958	several
+T78	PLAN 959 964	kinds
+T79	PLAN 968 981	supply chains
+T80	PERSON 996 999	our
+T81	PLAN 1000 1008	solution
+T82	PROCESS 1009 1017	provides
+T83	PLAN 1018 1044	budget balanced mechanisms
+T84	QUANTITY 1049 1056	several
+T85	PLAN 1057 1070	open problems
+T86	PLAN 1079 1114	combinatorial double-sided auctions
+T87	PLAN 1119 1138	distributed markets
+T88	PLAN 1144 1174	strategic transportation edges
+R1	Output Arg1:T2 Arg2:T3	
+T89	QUALITY 94 104	properties
+R2	Attribute Arg1:T89 Arg2:T5	
+R3	Attribute Arg1:T89 Arg2:T4	
+R5	Equivalence Arg1:T8 Arg2:T7	
+R6	Equivalence Arg1:T11 Arg2:T10	
+R7	Equivalence Arg1:T13 Arg2:T12	
+R10	Target Arg1:T6 Arg2:T89	
+R11	Attribute Arg1:T3 Arg2:T89	
+R12	Apply-to Arg1:T18 Arg2:T19	
+R13	In_Out Arg1:T19 Arg2:T20	
+R14	Attribute Arg1:T19 Arg2:T17	
+R15	Attribute Arg1:T17 Arg2:T14	
+R19	Attribute Arg1:T25 Arg2:T24	
+R20	Target Arg1:T25 Arg2:T26	
+R21	Target Arg1:T28 Arg2:T29	
+R22	Target Arg1:T28 Arg2:T30	
+R23	Other-rel Arg1:T32 Arg2:T31	
+R24	Apply-to Arg1:T28 Arg2:T26	
+R25	Condition Arg1:T28 Arg2:T31	
+R26	Other-rel Arg1:T34 Arg2:T31	
+R27	Other-rel Arg1:T36 Arg2:T31	
+R4	Is-a Arg1:T7 Arg2:T89	
+R8	Is-a Arg1:T10 Arg2:T89	
+R9	Is-a Arg1:T12 Arg2:T89	
+A1	Self T38
+A2	Self T39
+A3	Intentional T40
+R28	Agent Arg1:T40 Arg2:T39	
+R29	Condition Arg1:T40 Arg2:T38	
+R30	Output Arg1:T40 Arg2:T41	
+R31	from Arg1:T42 Arg2:T43	
+R32	to Arg1:T42 Arg2:T41	
+R33	Equivalence Arg1:T44 Arg2:T43	
+R34	Other-rel Arg1:T44 Arg2:T45	
+R35	Coreference Arg1:T46 Arg2:T45	
+R36	from Arg1:T47 Arg2:T48	
+R37	from Arg1:T47 Arg2:T49	
+R38	to Arg1:T47 Arg2:T46	
+R39	Apply-to Arg1:T46 Arg2:T50	
+R40	Output Arg1:T50 Arg2:T51	
+R41	Coreference Arg1:T52 Arg2:T51	
+R42	Attribute Arg1:T52 Arg2:T53	
+R43	Attribute Arg1:T52 Arg2:T54	
+R44	Attribute Arg1:T52 Arg2:T55	
+R45	Attribute Arg1:T57 Arg2:T56	
+R46	Condition Arg1:T52 Arg2:T57	
+A4	Self T58
+A5	Intentional T59
+R47	Agent Arg1:T59 Arg2:T58	
+R48	Target Arg1:T59 Arg2:T60	
+A6	Self T62
+R49	Poss Arg1:T62 Arg2:T63	
+R50	from Arg1:T61 Arg2:T63	
+R51	to Arg1:T61 Arg2:T60	
+R52	Attribute Arg1:T66 Arg2:T64	
+R53	Destination Arg1:T59 Arg2:T66	
+A7	Self T67
+R54	Poss Arg1:T67 Arg2:T68	
+R55	Attribute Arg1:T71 Arg2:T70	
+R56	Target Arg1:T71 Arg2:T72	
+R57	Attribute Arg1:T74 Arg2:T75	
+R58	Is-a Arg1:T74 Arg2:T72	
+R59	Is-a Arg1:T76 Arg2:T72	
+R60	Attribute Arg1:T78 Arg2:T77	
+R61	Member-collection Arg1:T78 Arg2:T79	
+R62	Is-a Arg1:T78 Arg2:T72	
+T9	QUALITY 909 919	homogenous
+R63	Attribute Arg1:T75 Arg2:T9	
+A8	Self T80
+R64	Poss Arg1:T80 Arg2:T81	
+R65	In_Out Arg1:T69 Arg2:T71	
+R66	Apply-to Arg1:T68 Arg2:T69	
+R67	Apply-to Arg1:T81 Arg2:T82	
+R68	Output Arg1:T82 Arg2:T83	
+R69	Attribute Arg1:T85 Arg2:T84	
+R70	Apply-to Arg1:T83 Arg2:T85	
+R71	Is-a Arg1:T86 Arg2:T85	
+R72	Is-a Arg1:T87 Arg2:T85	
+R73	Component-object Arg1:T87 Arg2:T88	
+T16	CONDITION 296 302	whilst
+R16	from Arg1:T16 Arg2:T19	
+R17	to Arg1:T16 Arg2:T21	
+R18	to Arg1:T16 Arg2:T22	
+R74	to Arg1:T16 Arg2:T23	
+R75	Attribute Arg1:T18 Arg2:T21	
+R76	Attribute Arg1:T18 Arg2:T22	
+R77	Attribute Arg1:T18 Arg2:T23	

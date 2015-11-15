@@ -1,0 +1,95 @@
+T1	PLAN 2 8	System
+T2	PLAN-OR-PROCESS 13 30	Semantic Analysis
+T3	DATA-ITEM 34 57	Chemical Compound Names
+T4	PLAN-OR-PROCESS 59 66	Mapping
+T5	PLAN-OR-PROCESS 71 85	classification
+T6	DATA-ITEM 89 112	chemical compound names
+T7	QUALITY 117 126	important
+T8	PLAN-OR-PROCESS 127 134	aspects
+T9	PLAN 142 147	tasks
+T10	DOMAIN 151 157	BioNLP
+T11	PLAN 185 197	architecture
+T12	PLAN 203 209	system
+T13	PLAN-OR-PROCESS 232 249	semantic analysis
+T14	PLAN-OR-PROCESS 218 227;241 249	syntactic analysis
+T15	DATA-ITEM 253 263	such names
+T16	PROCESS 276 280	aims
+T17	PLAN 269 275	system
+R2	Coreference Arg1:T17 Arg2:T12	
+T18	PROCESS 284 292	yielding
+T19	DATA-ITEM 310 328	chemical structure
+T20	QUALITY 302 309	denoted
+T21	DATA-ITEM 335 349	classification
+T22	DATA-ITEM 361 365	name
+T23	QUALITY 355 360	given
+T24	PLAN 385 393	approach
+T25	QUALITY 379 384	novel
+T27	PLAN 401 405	task
+T28	IS-A 412 420	promises
+T29	QUALITY 436 445	efficient
+T30	QUALITY 424 431	elegant
+T31	PLAN 446 449	way
+T32	PROCESS 453 460	solving
+T33	PLAN 465 472	problem
+T34	PLAN 478 493	proposed system
+T35	QUALITY 502 515	significantly
+T36	QUALITY 521 529	existing
+T37	PLAN 530 537	systems
+T38	QUALITY 494 501	differs
+T39	MODALITY 558 562	able
+T40	PROCESS 566 575	deal with
+T41	DATA-ITEM 576 597	underspecifying names
+T42	DATA-ITEM 602 613	class names
+R4	Attribute Arg1:T8 Arg2:T7	
+T44	PERSON 265 268	Our
+R5	Attribute Arg1:T22 Arg2:T23	
+R6	Attribute Arg1:T19 Arg2:T20	
+R7	Attribute Arg1:T24 Arg2:T25	
+R8	Attribute Arg1:T31 Arg2:T30	
+R9	Attribute Arg1:T31 Arg2:T29	
+R10	Attribute Arg1:T37 Arg2:T36	
+R3	Attribute Arg1:T34 Arg2:T38	
+R11	Attribute Arg1:T38 Arg2:T35	
+R12	Compare Arg1:T37 Arg2:T38	
+R1	Coreference Arg1:T15 Arg2:T6	
+T45	REFERENCE 547 549	it
+R13	Coreference Arg1:T45 Arg2:T34	
+T46	REFERENCE 406 411	which
+R14	Coreference Arg1:T46 Arg2:T24	
+R15	Poss Arg1:T44 Arg2:T17	
+R16	Apply-to Arg1:T1 Arg2:T2	
+R17	Input Arg1:T2 Arg2:T3	
+R18	Input Arg1:T4 Arg2:T6	
+R19	Input Arg1:T5 Arg2:T6	
+R20	Attribute Arg1:T9 Arg2:T10	
+R21	Attribute Arg1:T9 Arg2:T8	
+R22	Is-a Arg1:T4 Arg2:T8	
+R23	Is-a Arg1:T5 Arg2:T8	
+R24	Attribute Arg1:T12 Arg2:T11	
+R25	Apply-to Arg1:T12 Arg2:T13	
+R26	Apply-to Arg1:T12 Arg2:T14	
+R27	Input Arg1:T13 Arg2:T15	
+R28	Input Arg1:T14 Arg2:T15	
+R29	Apply-to Arg1:T17 Arg2:T16	
+R30	Output Arg1:T18 Arg2:T19	
+R31	Output Arg1:T18 Arg2:T21	
+R32	Destination Arg1:T16 Arg2:T18	
+R33	Attribute Arg1:T22 Arg2:T21	
+R34	Attribute Arg1:T22 Arg2:T19	
+T26	PROCESS 370 376	employ
+R35	Input Arg1:T26 Arg2:T24	
+R36	Apply-to Arg1:T26 Arg2:T27	
+R37	Target Arg1:T32 Arg2:T33	
+R38	Apply-to Arg1:T31 Arg2:T32	
+R39	from Arg1:T28 Arg2:T46	
+R40	to Arg1:T28 Arg2:T31	
+R41	Attribute Arg1:T40 Arg2:T39	
+R42	Target Arg1:T40 Arg2:T41	
+R43	Target Arg1:T40 Arg2:T42	
+R44	Apply-to Arg1:T45 Arg2:T40	
+T43	PERSON 367 369	We
+R45	Agent Arg1:T26 Arg2:T43	
+T47	REFERENCE 159 169	This paper
+T48	PROCESS 170 180	introduces
+R46	Condition Arg1:T48 Arg2:T47	
+R47	Output Arg1:T48 Arg2:T11	

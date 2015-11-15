@@ -1,0 +1,253 @@
+T1	PLAN 0 20	Automatic Extraction
+T2	DATA-ITEM 24 30	Titles
+T3	DATA-ITEM 36 53	General Documents
+T4	PLAN-OR-PROCESS 60 76	Machine Learning
+T5	APPLY-TO 54 59	using
+T6	PLAN 105 130	machine learning approach
+T7	PROCESS 134 150	title extraction
+T8	DATA-ITEM 156 173	general documents
+T9	DATA-ITEM 178 195	general documents
+T10	DATA-ITEM 205 214	documents
+T11	MODALITY 220 223	can
+T12	MEMBER-COLLECTION 224 230	belong
+T13	DATA-ITEM 284 297	presentations
+T14	DATA-ITEM 299 312	book chapters
+T15	DATA-ITEM 314 330	technical papers
+T16	DATA-ITEM 332 341	brochures
+T17	DATA-ITEM 343 350	reports
+T18	DATA-ITEM 356 363	letters
+T19	DATA-ITEM 266 272	genres
+T20	QUANTITY 245 253	a number
+T21	TIME 365 375	Previously
+T22	PLAN 377 384	methods
+T23	PROCESS 395 403	proposed
+T24	PLAN 415 431	title extraction
+T25	DATA-ITEM 437 452	research papers
+T26	MODALITY 461 464	not
+T27	QUALITY 470 475	clear
+T28	MODALITY 487 492	could
+T29	QUALITY 496 504	possible
+T30	PROCESS 508 515	conduct
+T31	PLAN 516 542	automatic title extraction
+T32	DATA-ITEM 548 565	general documents
+T34	PLAN-OR-PROCESS 596 606	extraction
+T36	COMPONENT-OBJECT 619 628	including
+T39	PROCESS 657 665	approach
+T40	PROCESS 670 678	annotate
+T41	DATA-ITEM 679 685	titles
+T42	DATA-ITEM 689 705	sample documents
+T45	PROCESS 749 753	take
+T46	REFERENCE 754 758	them
+R1	Coreference Arg1:T46 Arg2:T42	
+T47	DATA-ITEM 762 775	training data
+T48	PROCESS 777 782	train
+T49	PLAN 783 806	machine learning models
+T50	PLAN 820 836	title extraction
+T51	PLAN 847 861	trained models
+T52	APPLY-TO 837 842	using
+T53	PROCESS 812 819	perform
+T54	PLAN 867 873	method
+T55	QUALITY 877 883	unique
+T57	PROCESS 902 909	utilize
+T58	DATA-ITEM 910 932	formatting information
+T59	DATA-ITEM 941 950	font size
+T60	DATA-ITEM 954 962	features
+T61	PLAN 970 976	models
+T62	QUALITY 895 901	mainly
+T63	PROCESS 1000 1003	use
+T64	DATA-ITEM 1007 1029	formatting information
+T65	MODALITY 1030 1033	can
+T66	QUALITY 1042 1056	quite accurate
+T67	PLAN-OR-PROCESS 1057 1067	extraction
+T68	DATA-ITEM 1073 1090	general documents
+T69	RESULT 1034 1038	lead
+T70	DATA-ITEM 1092 1101	Precision
+T71	DATA-ITEM 1106 1112	recall
+T72	PLAN 1117 1133	title extraction
+T74	QUANTITY 1147 1152	0.810
+T75	QUANTITY 1157 1162	0.837
+T76	DATA-ITEM 1181 1190	precision
+T77	DATA-ITEM 1195 1201	recall
+T78	PLAN 1206 1222	title extraction
+T80	QUANTITY 1242 1247	0.875
+T81	QUANTITY 1252 1257	0.895
+T82	PLAN-OR-PROCESS 1277 1287	experiment
+T83	DATA-ITEM 1291 1304	intranet data
+T84	PLAN 1374 1380	models
+T85	PROCESS 1368 1373	train
+T86	MODALITY 1364 1367	can
+T87	DOMAIN 1388 1394	domain
+T88	QUANTITY 1384 1387	one
+T89	APPLY-TO 1399 1404	apply
+T90	REFERENCE 1405 1409	them
+R3	Coreference Arg1:T90 Arg2:T84	
+T91	DOMAIN 1421 1427	domain
+T92	QUALITY 1413 1420	another
+T93	MODALITY 1454 1457	can
+T94	PROCESS 1463 1468	train
+T95	PLAN 1469 1475	models
+T96	LANGUAGE 1483 1491	language
+T97	QUANTITY 1479 1482	one
+T98	CONDITION 1496 1501	apply
+T99	REFERENCE 1502 1506	them
+R4	Coreference Arg1:T99 Arg2:T95	
+T100	LANGUAGE 1518 1526	language
+T101	QUALITY 1510 1517	another
+T102	MODALITY 1541 1544	can
+T103	JUDGING-PROCESS 1559 1566	improve
+T104	DATA-ITEM 1567 1589	search ranking results
+T105	PLAN 1593 1611	document retrieval
+T106	INPUT 1615 1620	using
+T107	DATA-ITEM 1625 1641	extracted titles
+R5	Attribute Arg1:T12 Arg2:T11	
+T108	QUALITY 257 265	specific
+R6	Attribute Arg1:T19 Arg2:T20	
+R7	Attribute Arg1:T19 Arg2:T108	
+R8	Attribute Arg1:T27 Arg2:T26	
+R9	Attribute Arg1:T29 Arg2:T28	
+R10	Attribute Arg1:T30 Arg2:T29	
+R11	Attribute Arg1:T69 Arg2:T65	
+R12	Attribute Arg1:T54 Arg2:T55	
+R13	Attribute Arg1:T57 Arg2:T62	
+R14	Attribute Arg1:T67 Arg2:T66	
+R15	Attribute Arg1:T70 Arg2:T74	
+R16	Attribute Arg1:T71 Arg2:T75	
+R17	Attribute Arg1:T76 Arg2:T80	
+R18	Attribute Arg1:T77 Arg2:T81	
+R19	Attribute Arg1:T85 Arg2:T86	
+R20	Attribute Arg1:T87 Arg2:T88	
+R21	Attribute Arg1:T91 Arg2:T92	
+R22	Attribute Arg1:T94 Arg2:T93	
+R23	Attribute Arg1:T96 Arg2:T97	
+R24	Attribute Arg1:T100 Arg2:T101	
+R25	In_Out Arg1:T103 Arg2:T104	
+R26	Attribute Arg1:T103 Arg2:T102	
+R27	Component-object Arg1:T2 Arg2:T3	
+T109	PLAN 612 618	Office
+T110	PLAN 629 633	Word
+T111	PLAN 638 648	PowerPoint
+T112	PERSON 653 656	our
+T113	PLAN 711 715	Word
+T114	PLAN 720 730	PowerPoint
+T115	PLAN 1139 1143	Word
+T116	PLAN 1228 1238	PowerPoint
+T73	PERSON 863 866	Our
+T79	REFERENCE 215 219	that
+R2	Coreference Arg1:T79 Arg2:T10	
+R29	Poss Arg1:T112 Arg2:T39	
+R30	Poss Arg1:T73 Arg2:T54	
+T117	QUALITY 404 410	mainly
+R31	Attribute Arg1:T23 Arg2:T117	
+R32	Output Arg1:T1 Arg2:T2	
+R33	Input Arg1:T1 Arg2:T3	
+R34	from Arg1:T5 Arg2:T4	
+R35	to Arg1:T5 Arg2:T1	
+R36	Apply-to Arg1:T6 Arg2:T7	
+R28	Input Arg1:T7 Arg2:T8	
+T120	DATA-ITEM 238 241	one
+R37	Member-collection Arg1:T120 Arg2:T19	
+R38	from Arg1:T12 Arg2:T79	
+R39	to Arg1:T12 Arg2:T120	
+R41	Is-a Arg1:T13 Arg2:T19	
+R42	Is-a Arg1:T14 Arg2:T19	
+R43	Is-a Arg1:T15 Arg2:T19	
+R44	Is-a Arg1:T16 Arg2:T19	
+R45	Is-a Arg1:T17 Arg2:T19	
+R46	Is-a Arg1:T18 Arg2:T19	
+R47	Input Arg1:T24 Arg2:T25	
+R48	Apply-to Arg1:T23 Arg2:T24	
+R49	Output Arg1:T23 Arg2:T22	
+R50	Condition Arg1:T23 Arg2:T21	
+R51	Input Arg1:T31 Arg2:T32	
+R52	Output Arg1:T30 Arg2:T31	
+R53	from Arg1:T36 Arg2:T110	
+R54	to Arg1:T36 Arg2:T109	
+R55	from Arg1:T36 Arg2:T111	
+R56	Input Arg1:T34 Arg2:T109	
+R57	Destination Arg1:T40 Arg2:T41	
+R58	Component-object Arg1:T41 Arg2:T42	
+R59	Condition Arg1:T42 Arg2:T113	
+R60	Condition Arg1:T42 Arg2:T114	
+R61	Is-a Arg1:T46 Arg2:T47	
+R62	In_Out Arg1:T45 Arg2:T46	
+R63	In_Out Arg1:T48 Arg2:T49	
+R64	Output Arg1:T53 Arg2:T50	
+R65	from Arg1:T52 Arg2:T51	
+R66	to Arg1:T52 Arg2:T53	
+R67	Component-object Arg1:T40 Arg2:T39	
+R68	Component-object Arg1:T45 Arg2:T39	
+R69	Component-object Arg1:T48 Arg2:T39	
+R70	Component-object Arg1:T53 Arg2:T39	
+R71	Input Arg1:T57 Arg2:T58	
+R73	Is-a Arg1:T59 Arg2:T58	
+R74	Is-a Arg1:T60 Arg2:T58	
+R75	Input Arg1:T63 Arg2:T64	
+R76	Attribute Arg1:T69 Arg2:T63	
+R77	to Arg1:T69 Arg2:T66	
+R78	Input Arg1:T67 Arg2:T68	
+R79	Input Arg1:T72 Arg2:T115	
+R80	Attribute Arg1:T72 Arg2:T71	
+R81	Attribute Arg1:T72 Arg2:T70	
+R82	Input Arg1:T78 Arg2:T116	
+R83	Attribute Arg1:T78 Arg2:T77	
+R84	Attribute Arg1:T78 Arg2:T76	
+R85	Input Arg1:T82 Arg2:T83	
+R86	Output Arg1:T82 Arg2:T74	
+R87	Output Arg1:T82 Arg2:T75	
+R88	Output Arg1:T82 Arg2:T80	
+R89	Output Arg1:T82 Arg2:T81	
+R90	In_Out Arg1:T85 Arg2:T84	
+R92	Attribute Arg1:T89 Arg2:T86	
+R93	from Arg1:T89 Arg2:T90	
+R94	to Arg1:T89 Arg2:T91	
+R95	In_Out Arg1:T94 Arg2:T95	
+R96	Condition Arg1:T95 Arg2:T96	
+R97	from Arg1:T98 Arg2:T99	
+R98	to Arg1:T98 Arg2:T100	
+R99	Attribute Arg1:T98 Arg2:T93	
+T121	QUALITY 1545 1558	significantly
+R100	Attribute Arg1:T103 Arg2:T121	
+R101	from Arg1:T106 Arg2:T105	
+R102	to Arg1:T106 Arg2:T107	
+R103	Output Arg1:T105 Arg2:T104	
+T122	MODALITY 476 483	whether
+R104	Attribute Arg1:T29 Arg2:T122	
+R105	Condition Arg1:T85 Arg2:T87	
+R40	Is-a Arg1:T9 Arg2:T10	
+T33	QUALITY 1312 1321	important
+T35	QUALITY 1322 1325	new
+T37	PROCESS 1326 1334	findings
+R91	Attribute Arg1:T37 Arg2:T35	
+R106	Attribute Arg1:T37 Arg2:T33	
+T38	REFERENCE 1338 1347	this work
+R107	Condition Arg1:T37 Arg2:T38	
+T43	IS-A 1348 1355	include
+R108	to Arg1:T43 Arg2:T37	
+R109	from Arg1:T43 Arg2:T85	
+R110	from Arg1:T43 Arg2:T94	
+T44	PERSON 1361 1363	we
+R111	Agent Arg1:T85 Arg2:T44	
+T56	PERSON 1451 1453	we
+R112	Agent Arg1:T94 Arg2:T56	
+T118	PERSON 92 94	we
+T119	REFERENCE 80 90	this paper
+T123	PROCESS 95 102	propose
+T124	PERSON 197 199	we
+T125	PERSON 584 586	we
+T126	PERSON 667 669	we
+T127	PERSON 892 894	we
+T128	PERSON 1538 1540	we
+R113	Agent Arg1:T123 Arg2:T118	
+R114	Condition Arg1:T123 Arg2:T119	
+R115	Output Arg1:T123 Arg2:T6	
+T129	PROCESS 587 595	consider
+R116	Agent Arg1:T129 Arg2:T125	
+R117	In_Out Arg1:T129 Arg2:T34	
+R118	Agent Arg1:T40 Arg2:T126	
+R119	Agent Arg1:T57 Arg2:T127	
+R72	Apply-to Arg1:T57 Arg2:T61	
+R120	Agent Arg1:T103 Arg2:T128	
+T130	PROCESS 200 204	mean
+R121	Agent Arg1:T130 Arg2:T124	
+R122	Destination Arg1:T130 Arg2:T10	
+R123	Output Arg1:T130 Arg2:T9	

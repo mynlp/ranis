@@ -1,0 +1,158 @@
+T1	PROCESS 0 8	Studying
+T2	PROCESS 13 16	Use
+T3	DATA-ITEM 28 40	Destinations
+T4	PLAN-OR-PROCESS 52 74	Web Search Interaction
+T5	PERSON 75 77	We
+T6	PROCESS 78 85	present
+T7	QUALITY 88 93	novel
+T8	DATA-ITEM 94 124	Web search interaction feature
+T9	REFERENCE 125 130	which
+T10	QUALITY 138 143	given
+T11	DATA-ITEM 144 149	query
+T12	PROCESS 151 159	provides
+T13	PLAN 160 165	links
+T14	DATA-ITEM 169 177	websites
+T15	QUALITY 178 188	frequently
+T16	PROCESS 189 196	visited
+T17	PERSON 206 211	users
+T18	QUALITY 217 224	similar
+T19	DATA-ITEM 225 242	information needs
+T21	DATA-ITEM 244 270	These popular destinations
+T22	PROCESS 271 281	complement
+T23	QUALITY 282 293	traditional
+T24	DATA-ITEM 294 308	search results
+T25	QUALITY 319 325	direct
+T26	PLAN-OR-PROCESS 326 336	navigation
+T27	QUALITY 340 353	authoritative
+T28	DATA-ITEM 354 363	resources
+T29	DATA-ITEM 372 383	query topic
+T30	DATA-ITEM 385 397	Destinations
+T31	PROCESS 402 412	identified
+T32	INPUT 413 418	using
+T33	DATA-ITEM 423 430	history
+T34	PLAN-OR-PROCESS 434 440	search
+T36	PLAN-OR-PROCESS 445 462	browsing behavior
+T37	QUANTITY 466 470	many
+T38	PERSON 471 476	users
+T39	TIME 485 505	extended time period
+T40	REFERENCE 507 512	whose
+T41	PLAN-OR-PROCESS 513 532	collective behavior
+T42	PROCESS 533 541	provides
+T43	PLAN 544 549	basis
+T45	DATA-ITEM 564 580	source authority
+T46	PERSON 582 584	We
+T47	PROCESS 585 593	describe
+T48	PLAN 596 606	user study
+T49	REFERENCE 607 612	which
+T50	PROCESS 613 621	compared
+T51	PLAN-OR-PROCESS 626 636	suggestion
+T52	DATA-ITEM 640 652	destinations
+T53	QUALITY 662 681	previously proposed
+T54	PLAN-OR-PROCESS 682 692	suggestion
+T55	QUALITY 696 703	related
+T56	DATA-ITEM 704 711	queries
+T57	QUALITY 729 740	traditional
+T58	PLAN 750 760	Web search
+T59	DATA-ITEM 762 769	Results
+T60	RESULT 770 774	show
+T61	PLAN-OR-PROCESS 780 786	search
+T62	PROCESS 787 795	enhanced
+T63	PLAN 799 822	destination suggestions
+T64	JUDGING-PROCESS 823 834	outperforms
+T65	QUALITY 835 840	other
+T66	PLAN 841 848	systems
+T67	QUALITY 853 864	exploratory
+T68	PLAN 865 870	tasks
+T69	QUALITY 877 881	best
+T70	DATA-ITEM 882 893	performance
+T71	PROCESS 894 902	obtained
+T72	PROCESS 908 914	mining
+T73	TIME 915 919	past
+T74	PLAN-OR-PROCESS 920 933	user behavior
+T75	DATA-ITEM 937 960	query-level granularity
+T76	PROCESS 44 51	Enhance
+R1	In_Out Arg1:T76 Arg2:T4	
+R2	Apply-to Arg1:T2 Arg2:T76	
+R3	Input Arg1:T2 Arg2:T3	
+R4	In_Out Arg1:T1 Arg2:T2	
+T77	QUALITY 20 27	Popular
+R5	Attribute Arg1:T3 Arg2:T77	
+A1	Self T5
+A2	Intentional T6
+R6	Agent Arg1:T6 Arg2:T5	
+R7	Attribute Arg1:T8 Arg2:T7	
+R8	Output Arg1:T6 Arg2:T8	
+R9	Attribute Arg1:T11 Arg2:T10	
+R10	Apply-to Arg1:T9 Arg2:T12	
+R11	Coreference Arg1:T9 Arg2:T8	
+T78	QUALITY 200 205	other
+R12	Attribute Arg1:T17 Arg2:T78	
+R13	Agent Arg1:T16 Arg2:T17	
+R14	Attribute Arg1:T16 Arg2:T15	
+R15	Destination Arg1:T16 Arg2:T14	
+R16	Output Arg1:T12 Arg2:T13	
+R17	Destination Arg1:T13 Arg2:T14	
+R18	Attribute Arg1:T19 Arg2:T18	
+R19	Attribute Arg1:T17 Arg2:T19	
+R20	Attribute Arg1:T24 Arg2:T23	
+R21	Target Arg1:T22 Arg2:T24	
+R22	Equivalence Arg1:T21 Arg2:T14	
+R23	Agent Arg1:T22 Arg2:T21	
+R24	Attribute Arg1:T26 Arg2:T25	
+T20	PROCESS 310 318	allowing
+R25	Target Arg1:T20 Arg2:T26	
+R26	Agent Arg1:T20 Arg2:T21	
+R27	Attribute Arg1:T28 Arg2:T27	
+R28	Destination Arg1:T26 Arg2:T28	
+R29	Condition Arg1:T28 Arg2:T29	
+R30	Output Arg1:T31 Arg2:T30	
+R31	Attribute Arg1:T34 Arg2:T33	
+R32	from Arg1:T32 Arg2:T31	
+R33	to Arg1:T32 Arg2:T33	
+R34	Attribute Arg1:T38 Arg2:T37	
+R35	Agent Arg1:T36 Arg2:T38	
+R36	Agent Arg1:T34 Arg2:T38	
+R39	Condition Arg1:T33 Arg2:T39	
+R37	Attribute Arg1:T36 Arg2:T33	
+R38	Coreference Arg1:T40 Arg2:T38	
+R40	Agent Arg1:T41 Arg2:T40	
+R41	Agent Arg1:T42 Arg2:T41	
+T35	PROCESS 554 563	computing
+R42	Output Arg1:T35 Arg2:T45	
+R43	Apply-to Arg1:T43 Arg2:T35	
+R44	Output Arg1:T42 Arg2:T43	
+A3	Self T46
+A4	Intentional T47
+R45	Agent Arg1:T47 Arg2:T46	
+R46	Output Arg1:T47 Arg2:T48	
+R47	Coreference Arg1:T49 Arg2:T48	
+R48	Condition Arg1:T50 Arg2:T49	
+R49	Output Arg1:T51 Arg2:T52	
+R50	Input Arg1:T50 Arg2:T51	
+R51	Attribute Arg1:T54 Arg2:T53	
+R52	Attribute Arg1:T56 Arg2:T55	
+R53	Output Arg1:T54 Arg2:T56	
+R54	Input Arg1:T50 Arg2:T54	
+T44	QUALITY 742 749	unaided
+R55	Attribute Arg1:T58 Arg2:T44	
+R56	Attribute Arg1:T58 Arg2:T57	
+R57	Input Arg1:T50 Arg2:T58	
+R58	In_Out Arg1:T62 Arg2:T61	
+R59	Apply-to Arg1:T63 Arg2:T62	
+R60	Attribute Arg1:T66 Arg2:T65	
+R61	Compare Arg1:T66 Arg2:T64	
+R62	Apply-to Arg1:T61 Arg2:T64	
+R63	Attribute Arg1:T68 Arg2:T67	
+R64	Apply-to Arg1:T66 Arg2:T68	
+R65	to Arg1:T60 Arg2:T64	
+R66	from Arg1:T60 Arg2:T59	
+R67	Attribute Arg1:T70 Arg2:T69	
+R68	Condition Arg1:T74 Arg2:T73	
+R69	In_Out Arg1:T72 Arg2:T74	
+R70	Output Arg1:T71 Arg2:T70	
+R71	Result Arg1:T72 Arg2:T71	
+R72	Condition Arg1:T72 Arg2:T75	
+R73	Attribute Arg1:T63 Arg2:T70	
+R74	Input Arg1:T12 Arg2:T11	
+A5	Judgment T69
+R75	to Arg1:T60 Arg2:T69	

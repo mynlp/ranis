@@ -1,0 +1,164 @@
+T1	APPLY-TO 258 264	resort
+T2	RESULT 321 325	make
+T3	PROCESS 456 466	specifying
+T4	OUTPUT 523 532	represent
+T5	APPLY-TO 636 643	require
+T6	APPLY-TO 688 696	requires
+T7	PROCESS 764 771	control
+T8	ATTRIBUTE 848 856	performs
+T9	JUDGING-PROCESS 895 906	outperforms
+T10	COMPARE 1184 1194	catches up
+T11	COMPARE 1204 1213	surpasses
+T12	LANGUAGE 1048 1055	Chinese
+T14	QUALITY 248 257	typically
+T15	QUALITY 329 338	difficult
+T16	QUALITY 447 455	directly
+T18	QUALITY 857 861	well
+T20	QUALITY 911 927	state-of-the-art
+T21	QUALITY 1130 1140	first time
+T22	QUANTITY 1018 1028	+0.46 BLEU
+T23	QUANTITY 1044 1047	two
+T24	PLAN 8 34	Dependency-to-String Model
+T25	PLAN-OR-PROCESS 39 70	Statistical Machine Translation
+T26	DATA-ITEM 72 92	Dependency structure
+T27	DATA-ITEM 105 109	step
+T28	DATA-ITEM 118 127	semantics
+T29	QUALITY 166 185	translation quality
+T30	EXTERNAL-REFERENCE 196 210	previous works
+T31	PLAN 214 247	dependency structure based models
+T32	PLAN 268 288	insertion operations
+T33	DATA-ITEM 301 313	translations
+T34	DATA-ITEM 350 370	ordering information
+T35	PLAN 374 391	translation rules
+T36	PLAN 400 405	model
+T37	PLAN 431 443	this problem
+T38	DATA-ITEM 471 491	ordering information
+T39	PLAN 495 516	head-dependents rules
+T40	DATA-ITEM 537 548	source side
+T41	DATA-ITEM 552 577	head-dependents relations
+T42	DATA-ITEM 586 597	target side
+T43	DATA-ITEM 601 608	strings
+T44	PLAN 614 635	head-dependents rules
+T45	PLAN 649 671	substitution operation
+T46	PLAN 682 687	model
+T47	PLAN 700 710	heuristics
+T48	PLAN 714 738	separate ordering models
+T49	EXTERNAL-REFERENCE 746 760	previous works
+T50	DATA-ITEM 776 786	word order
+T51	DATA-ITEM 790 802	translations
+T52	PLAN 842 847	model
+T53	PLAN-OR-PROCESS 865 889	long distance reordering
+T54	PLAN 928 956	constituency-to-string model
+T56	PLAN 985 1016	hierarchical phrase-based model
+T57	DATA-ITEM 1048 1078	Chinese-English NIST test sets
+T58	DATA-ITEM 1097 1104	phrases
+T59	DATA-ITEM 1108 1120	parse forest
+T60	PLAN 1144 1183	source dependency structure based model
+T61	PLAN 1235 1253	translation models
+T62	QUALITY 2 7	Novel
+T63	QUALITY 99 104	first
+T64	QUALITY 147 154	helpful
+T65	PROCESS 158 165	improve
+T67	PROCESS 292 300	complete
+T68	REFERENCE 315 320	which
+R1	Coreference Arg1:T68 Arg2:T32	
+R2	Attribute Arg1:T24 Arg2:T62	
+R3	Attribute Arg1:T27 Arg2:T63	
+R6	Attribute Arg1:T1 Arg2:T14	
+T69	PROCESS 342 349	specify
+R7	Attribute Arg1:T69 Arg2:T15	
+T70	PROCESS 424 430	handle
+R8	Attribute Arg1:T3 Arg2:T16	
+T71	REFERENCE 517 522	which
+R9	Coreference Arg1:T71 Arg2:T39	
+T73	MODALITY 697 699	no
+T76	QUALITY 804 815	Large-scale
+T77	PLAN-OR-PROCESS 816 827	experiments
+R11	Attribute Arg1:T77 Arg2:T76	
+T78	RESULT 828 832	show
+R12	Attribute Arg1:T54 Arg2:T20	
+T19	QUANTITY 958 968	+1.47 BLEU
+T79	PLAN 964 968	BLEU
+T80	PLAN 1024 1028	BLEU
+T82	LANGUAGE 1056 1063	English
+T84	MODALITY 1079 1086	without
+T85	CONDITION 1087 1093	resort
+T87	QUALITY 1218 1234	state-of-the-art
+R13	Attribute Arg1:T61 Arg2:T87	
+T72	PERSON 396 399	our
+T74	PERSON 838 841	our
+R14	to Arg1:T8 Arg2:T18	
+R15	Attribute Arg1:T57 Arg2:T23	
+T75	ORGANIZATION 1064 1068	NIST
+R5	Apply-to Arg1:T52 Arg2:T9	
+R10	Compare Arg1:T54 Arg2:T9	
+R16	from Arg1:T8 Arg2:T52	
+R17	Poss Arg1:T72 Arg2:T36	
+T88	PERSON 678 681	our
+R18	Poss Arg1:T88 Arg2:T46	
+R19	Poss Arg1:T74 Arg2:T52	
+R20	Apply-to Arg1:T24 Arg2:T25	
+T55	QUALITY 969 979	on average
+R22	Attribute Arg1:T19 Arg2:T55	
+T81	QUALITY 1029 1039	on average
+R23	Attribute Arg1:T22 Arg2:T81	
+R24	from Arg1:T1 Arg2:T32	
+R25	to Arg1:T1 Arg2:T67	
+R26	In_Out Arg1:T67 Arg2:T33	
+R27	Attribute Arg1:T51 Arg2:T50	
+R28	In_Out Arg1:T7 Arg2:T50	
+R29	Is-a Arg1:T26 Arg2:T27	
+R31	Attribute Arg1:T65 Arg2:T64	
+R32	In_Out Arg1:T65 Arg2:T29	
+R33	Attribute Arg1:T30 Arg2:T31	
+R34	Condition Arg1:T1 Arg2:T30	
+R35	to Arg1:T2 Arg2:T15	
+R36	from Arg1:T2 Arg2:T68	
+R37	Output Arg1:T69 Arg2:T34	
+R39	Coreference Arg1:T37 Arg2:T15	
+R40	Apply-to Arg1:T36 Arg2:T70	
+R41	Target Arg1:T70 Arg2:T37	
+R42	Output Arg1:T3 Arg2:T38	
+R43	Attribute Arg1:T39 Arg2:T38	
+R38	Condition Arg1:T35 Arg2:T34	
+R44	from Arg1:T4 Arg2:T71	
+R45	to Arg1:T4 Arg2:T40	
+R46	Condition Arg1:T4 Arg2:T41	
+R47	to Arg1:T4 Arg2:T42	
+R48	Condition Arg1:T4 Arg2:T43	
+R49	from Arg1:T5 Arg2:T44	
+R50	to Arg1:T5 Arg2:T45	
+R51	to Arg1:T6 Arg2:T46	
+R52	Attribute Arg1:T47 Arg2:T73	
+R53	Attribute Arg1:T48 Arg2:T73	
+R54	from Arg1:T6 Arg2:T47	
+R55	from Arg1:T6 Arg2:T48	
+R56	Condition Arg1:T47 Arg2:T49	
+R57	Condition Arg1:T48 Arg2:T49	
+R58	Apply-to Arg1:T46 Arg2:T7	
+R59	Apply-to Arg1:T52 Arg2:T53	
+R60	Output Arg1:T9 Arg2:T19	
+R61	Output Arg1:T9 Arg2:T22	
+R64	Input Arg1:T9 Arg2:T57	
+R69	to Arg1:T10 Arg2:T60	
+R70	to Arg1:T11 Arg2:T60	
+R71	from Arg1:T10 Arg2:T61	
+R72	from Arg1:T11 Arg2:T61	
+R73	Apply-to Arg1:T3 Arg2:T70	
+R74	Compare Arg1:T56 Arg2:T9	
+R75	to Arg1:T85 Arg2:T58	
+R76	to Arg1:T85 Arg2:T59	
+R65	Attribute Arg1:T85 Arg2:T84	
+R66	from Arg1:T85 Arg2:T9	
+R77	Attribute Arg1:T10 Arg2:T21	
+R78	Attribute Arg1:T11 Arg2:T21	
+R79	from Arg1:T78 Arg2:T77	
+R80	to Arg1:T78 Arg2:T18	
+R4	Attribute Arg1:T26 Arg2:T64	
+T66	MODALITY 132 140	believed
+R21	Attribute Arg1:T64 Arg2:T66	
+R30	Compare Arg1:T28 Arg2:T63	
+T13	REFERENCE 409 419	this paper
+R62	Condition Arg1:T36 Arg2:T13	
+T17	PERSON 421 423	we
+R63	Agent Arg1:T70 Arg2:T17	

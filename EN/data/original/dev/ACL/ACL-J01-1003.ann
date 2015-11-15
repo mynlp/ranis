@@ -1,0 +1,131 @@
+T1	PROCESS 141 151	developing
+T2	COMPONENT-OBJECT 260 268	consists
+T3	APPLY-TO 434 441	applied
+T4	PROCESS 706 714	compiles
+T5	PROCESS 817 825	combines
+T6	PROCESS 888 895	induced
+T7	APPLY-TO 896 901	using
+T8	PROCESS 1105 1111	builds
+T9	PROCESS 1005 1011	tested
+T10	QUALITY 442 453	iteratively
+T11	QUALITY 1115 1123	improved
+T12	QUANTITY 272 277	three
+T13	PLAN 14 37	Morphological Analyzers
+T14	PLAN-OR-PROCESS 51 68	Human Elicitation
+T15	PLAN-OR-PROCESS 73 89	Machine Learning
+T16	PLAN 113 136	semiautomatic technique
+T17	PLAN 152 203	broad-coverage finite-state morphological analyzers
+T18	PLAN 215 255	natural language processing applications
+T19	PLAN 278 288	components
+T20	DATA-ITEM 305 327	linguistic information
+T21	PERSON 333 339	humans
+T22	PLAN 343 380	machine learning bootstrapping scheme
+T23	PLAN 388 407	testing environment
+T24	PLAN 419 429	components
+T25	DATA-ITEM 462 471	threshold
+T26	DATA-ITEM 475 489	output quality
+T27	APPLY-TO 515 526	application
+T28	PLAN 530 544	this technique
+T29	PLAN 556 566	morphology
+T30	LANGUAGE 570 591	low-density languages
+T31	DOMAIN 599 606	context
+T32	PLAN 614 632	Expedition project
+T34	PLAN 673 705	This elicit-build-test technique
+T35	DATA-ITEM 727 751	inflectional information
+T36	DATA-ITEM 781 812	finite-state transducer lexicon
+T37	PLAN 838 846	sequence
+T38	PLAN 850 879	morphographemic rewrite rules
+T39	PLAN 902 931	transformation-based learning
+T40	DATA-ITEM 950 958	examples
+T41	PLAN 974 996	morphological analyzer
+T42	DATA-ITEM 1022 1030	test set
+T43	DATA-ITEM 1040 1051	corrections
+T44	PLAN 1074 1092	learning procedure
+T45	PLAN 1124 1132	analyzer
+R1	Attribute Arg1:T19 Arg2:T12	
+T46	PLAN 290 301	elicitation
+T47	QUANTITY 413 418	three
+R2	Attribute Arg1:T24 Arg2:T47	
+R3	Attribute Arg1:T3 Arg2:T10	
+T48	PROCESS 493 501	attained
+T49	PLAN 614 624	Expedition
+T50	DATA-ITEM 715 722;740 751	lexical information
+T51	PROCESS 752 760	elicited
+T52	PERSON 768 773	human
+T53	REFERENCE 880 884	that
+R5	Coreference Arg1:T53 Arg2:T37	
+T54	PROCESS 941 949	elicited
+T55	INPUT 1056 1064	fed back
+T56	REFERENCE 1094 1099	which
+R6	Coreference Arg1:T56 Arg2:T44	
+R7	Attribute Arg1:T45 Arg2:T11	
+T57	PERSON 51 56	Human
+T58	PROCESS 41 50	Combining
+T59	PLAN-OR-PROCESS 0 13	Bootstrapping
+T60	REFERENCE 257 259	It
+R8	Coreference Arg1:T60 Arg2:T16	
+R4	Coreference Arg1:T28 Arg2:T60	
+T61	QUALITY 964 973	resulting
+T62	ORGANIZATION 636 671	NMS U Computing Research Laboratory
+R9	Member-collection Arg1:T38 Arg2:T37	
+R10	Coreference Arg1:T34 Arg2:T28	
+T63	REFERENCE 826 830	this
+R11	Coreference Arg1:T63 Arg2:T36	
+R12	Attribute Arg1:T41 Arg2:T61	
+R13	Output Arg1:T8 Arg2:T45	
+R14	Output Arg1:T59 Arg2:T13	
+R15	Apply-to Arg1:T58 Arg2:T59	
+R16	Input Arg1:T58 Arg2:T14	
+R17	Input Arg1:T58 Arg2:T15	
+R18	Apply-to Arg1:T16 Arg2:T1	
+R19	Output Arg1:T1 Arg2:T17	
+T64	APPLY-TO 208 211	use
+R20	from Arg1:T64 Arg2:T17	
+R21	to Arg1:T64 Arg2:T18	
+R22	from Arg1:T2 Arg2:T19	
+R23	to Arg1:T2 Arg2:T60	
+R24	Is-a Arg1:T46 Arg2:T19	
+R25	Attribute Arg1:T26 Arg2:T25	
+R26	from Arg1:T3 Arg2:T24	
+R27	to Arg1:T3 Arg2:T60	
+R28	Other-rel Arg1:T48 Arg2:T25	
+T65	CONDITION 454 459	until
+R29	from Arg1:T65 Arg2:T48	
+R30	to Arg1:T65 Arg2:T3	
+R31	from Arg1:T27 Arg2:T28	
+R32	to Arg1:T27 Arg2:T29	
+R33	Attribute Arg1:T30 Arg2:T29	
+R34	Attribute Arg1:T31 Arg2:T32	
+R35	Condition Arg1:T32 Arg2:T62	
+R36	Condition Arg1:T27 Arg2:T31	
+R37	Input Arg1:T4 Arg2:T35	
+R38	Input Arg1:T4 Arg2:T50	
+R39	Apply-to Arg1:T34 Arg2:T4	
+R40	Output Arg1:T51 Arg2:T50	
+R41	Output Arg1:T51 Arg2:T35	
+R42	Origin Arg1:T51 Arg2:T52	
+R43	Output Arg1:T4 Arg2:T36	
+R44	Input Arg1:T5 Arg2:T63	
+R45	Input Arg1:T5 Arg2:T37	
+R46	from Arg1:T7 Arg2:T39	
+R47	Output Arg1:T54 Arg2:T40	
+R48	Output Arg1:T6 Arg2:T53	
+R49	to Arg1:T7 Arg2:T6	
+R50	Input Arg1:T39 Arg2:T40	
+R51	Input Arg1:T9 Arg2:T42	
+R52	Input Arg1:T9 Arg2:T41	
+T66	QUANTITY 1036 1039	any
+R53	Attribute Arg1:T43 Arg2:T66	
+R54	to Arg1:T55 Arg2:T43	
+R55	from Arg1:T55 Arg2:T44	
+R56	Apply-to Arg1:T56 Arg2:T8	
+T67	QUALITY 507 514	initial
+R57	Attribute Arg1:T27 Arg2:T67	
+R58	Is-a Arg1:T22 Arg2:T19	
+R59	Is-a Arg1:T23 Arg2:T19	
+R60	Output Arg1:T46 Arg2:T20	
+R61	Origin Arg1:T46 Arg2:T21	
+T33	REFERENCE 91 101	This paper
+T68	PROCESS 102 110	presents
+R62	Condition Arg1:T68 Arg2:T33	
+R63	Output Arg1:T68 Arg2:T16	

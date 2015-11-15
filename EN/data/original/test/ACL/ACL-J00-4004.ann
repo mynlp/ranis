@@ -1,0 +1,195 @@
+T1	PLAN 0 16	Learning Methods
+T2	DATA-ITEM 28 49	Linguistic Indicators
+T3	PROCESS 20 27	Combine
+T4	PROCESS 51 60	Improving
+T5	PLAN 61 85	Aspectual Classification
+T6	PROCESS 90 99	Revealing
+T7	PLAN 100 119	Linguistic Insights
+T8	PLAN 121 145	Aspectual classification
+T9	PROCESS 146 150	maps
+T10	DATA-ITEM 151 156	verbs
+T11	QUALITY 162 167	small
+T12	DATA-ITEM 168 171	set
+T13	DATA-ITEM 175 195	primitive categories
+R1	Attribute Arg1:T12 Arg2:T11	
+T14	PROCESS 208 214	reason
+T15	TIME 221 225	time
+T16	PLAN 227 246	This classification
+R2	Coreference Arg1:T16 Arg2:T8	
+T17	CONDITION 250 259	necessary
+T18	PROCESS 264 276	interpreting
+T19	DATA-ITEM 277 295	temporal modifiers
+T20	PROCESS 300 309	assessing
+T21	DATA-ITEM 310 332	temporal relationships
+T22	QUALITY 353 361	required
+T23	PLAN 362 371	component
+T24	QUANTITY 376 380	many
+T25	PLAN 381 410	natural language applications
+T26	DATA-ITEM 414 418	verb
+T27	DATA-ITEM 421 439	aspectual category
+T28	MODALITY 440 443	can
+T29	PROCESS 447 456	predicted
+T30	DATA-ITEM 460 485	co-occurrence frequencies
+T31	DATA-ITEM 498 502	verb
+T32	QUALITY 507 514	certain
+T33	DATA-ITEM 515 535	linguistic modifiers
+T34	DATA-ITEM 537 561	These frequency measures
+T35	DATA-ITEM 570 591	linguistic indicators
+T36	PROCESS 597 603	chosen
+T37	PLAN 607 626	linguistic insights
+T38	DATA-ITEM 637 658	linguistic indicators
+T39	PROCESS 659 663	used
+T40	QUALITY 664 676	in isolation
+T42	QUALITY 681 704	predictively incomplete
+R4	Attribute Arg1:T38 Arg2:T42	
+T43	QUALITY 724 736	insufficient
+R6	Attribute Arg1:T38 Arg2:T43	
+T44	PROCESS 742 746	used
+T45	QUALITY 747 759	individually
+R7	Attribute Arg1:T44 Arg2:T45	
+T46	QUANTITY 789 794	three
+T47	PLAN 795 830	supervised machine learning methods
+T48	PROCESS 835 844	combining
+T49	QUANTITY 845 853	multiple
+T50	DATA-ITEM 854 875	linguistic indicators
+T51	PLAN 880 904	aspectual classification
+T52	PLAN 906 920	decision trees
+T53	PLAN 922 941	genetic programming
+T54	PLAN 947 966	logistic regression
+T55	QUANTITY 977 979	14
+T56	DATA-ITEM 980 990	indicators
+R8	Attribute Arg1:T56 Arg2:T55	
+T57	PLAN-OR-PROCESS 995 1003	combined
+T58	PROCESS 1008 1022	classification
+T59	QUANTITY 1036 1039	two
+T60	DATA-ITEM 1040 1062	aspectual distinctions
+R9	Attribute Arg1:T60 Arg2:T59	
+T61	REFERENCE 1064 1077	This approach
+T62	JUDGING-PROCESS 1078 1086	improves
+T63	DATA-ITEM 1091 1117	classification performance
+T64	QUANTITY 1122 1126	both
+T65	DATA-ITEM 1127 1139	distinctions
+R10	Attribute Arg1:T65 Arg2:T64	
+T66	PROCESS 1144 1153	evaluated
+T67	DATA-ITEM 1172 1176	sets
+T68	DATA-ITEM 1180 1185	verbs
+T69	PROCESS 1186 1195	occurring
+T70	QUANTITY 1203 1206	two
+T71	DATA-ITEM 1207 1214	corpora
+R11	Attribute Arg1:T71 Arg2:T70	
+T72	QUALITY 1238 1251	effectiveness
+T73	DATA-ITEM 1259 1280	linguistic indicators
+T74	PROCESS 1285 1293	provides
+T75	QUALITY 1296 1307	much-needed
+T76	PLAN 1308 1325	full-scale method
+T77	PLAN 1330 1364	automatic aspectual classification
+R12	Attribute Arg1:T76 Arg2:T75	
+T78	RESULT 1221 1233	demonstrates
+T79	PLAN 1380 1386	models
+T80	OUTPUT 1387 1396	resulting
+T81	PLAN-OR-PROCESS 1402 1410	learning
+T82	PROCESS 1411 1417	reveal
+T83	QUANTITY 1418 1425	several
+T84	PLAN 1426 1445	linguistic insights
+R13	Attribute Arg1:T84 Arg2:T83	
+T85	QUALITY 1455 1463	relevant
+T86	PLAN 1467 1491	aspectual classification
+T87	PROCESS 1501 1508	compare
+T88	PLAN 1509 1536	supervised learning methods
+T89	PLAN 1545 1564	unsupervised method
+T90	PLAN 1569 1578	this task
+T91	REFERENCE 1446 1450	that
+R16	Coreference Arg1:T91 Arg2:T84	
+R17	Attribute Arg1:T91 Arg2:T85	
+T93	REFERENCE 1216 1220	This
+R14	Coreference Arg1:T90 Arg2:T86	
+R18	Attribute Arg1:T26 Arg2:T27	
+R19	Member-collection Arg1:T13 Arg2:T12	
+R20	Attribute Arg1:T23 Arg2:T22	
+R21	Attribute Arg1:T33 Arg2:T32	
+R5	Attribute Arg1:T47 Arg2:T46	
+R22	Attribute Arg1:T73 Arg2:T72	
+R23	Apply-to Arg1:T76 Arg2:T77	
+R24	Attribute Arg1:T25 Arg2:T24	
+R25	Attribute Arg1:T50 Arg2:T49	
+R26	Coreference Arg1:T34 Arg2:T30	
+T94	QUALITY 1159 1171	unrestricted
+R28	Attribute Arg1:T67 Arg2:T94	
+R29	Member-collection Arg1:T68 Arg2:T67	
+R30	Coreference Arg1:T93 Arg2:T62	
+T96	DATA-ITEM 970 973	set
+R31	Member-collection Arg1:T56 Arg2:T96	
+R32	Apply-to Arg1:T1 Arg2:T3	
+R33	Input Arg1:T3 Arg2:T2	
+R34	Output Arg1:T6 Arg2:T7	
+R35	In_Out Arg1:T4 Arg2:T5	
+R36	Apply-to Arg1:T1 Arg2:T4	
+R37	Apply-to Arg1:T1 Arg2:T6	
+R38	Apply-to Arg1:T8 Arg2:T9	
+R39	Output Arg1:T9 Arg2:T10	
+R40	Destination Arg1:T9 Arg2:T13	
+R41	Apply-to Arg1:T9 Arg2:T14	
+R42	Target Arg1:T14 Arg2:T15	
+R46	Component-object Arg1:T23 Arg2:T25	
+R45	In_Out Arg1:T18 Arg2:T19	
+R47	In_Out Arg1:T20 Arg2:T21	
+R48	Attribute Arg1:T29 Arg2:T28	
+R49	Output Arg1:T29 Arg2:T27	
+R50	Input Arg1:T29 Arg2:T30	
+R51	Attribute Arg1:T31 Arg2:T30	
+R52	Attribute Arg1:T33 Arg2:T30	
+T99	EQUIVALENCE 563 569	called
+R53	from Arg1:T99 Arg2:T35	
+R54	to Arg1:T99 Arg2:T34	
+R55	In_Out Arg1:T36 Arg2:T34	
+R56	Apply-to Arg1:T37 Arg2:T36	
+R58	Condition Arg1:T43 Arg2:T44	
+R15	Attribute Arg1:T39 Arg2:T40	
+R57	Input Arg1:T39 Arg2:T38	
+R59	Input Arg1:T44 Arg2:T38	
+R60	Apply-to Arg1:T47 Arg2:T48	
+R61	Input Arg1:T48 Arg2:T50	
+R62	Apply-to Arg1:T48 Arg2:T51	
+R63	Is-a Arg1:T52 Arg2:T47	
+R64	Is-a Arg1:T53 Arg2:T47	
+R65	Is-a Arg1:T54 Arg2:T47	
+R66	Input Arg1:T57 Arg2:T56	
+R67	Apply-to Arg1:T57 Arg2:T58	
+T100	INPUT 1023 1035	according to
+R68	to Arg1:T100 Arg2:T60	
+R69	from Arg1:T100 Arg2:T57	
+R70	Attribute Arg1:T56 Arg2:T60	
+R71	In_Out Arg1:T62 Arg2:T63	
+R72	Apply-to Arg1:T61 Arg2:T62	
+R73	Condition Arg1:T63 Arg2:T65	
+R74	Output Arg1:T69 Arg2:T67	
+R75	Condition Arg1:T69 Arg2:T71	
+R76	Input Arg1:T66 Arg2:T67	
+R77	Condition Arg1:T62 Arg2:T66	
+R78	Input Arg1:T66 Arg2:T61	
+R80	Apply-to Arg1:T93 Arg2:T74	
+R81	Output Arg1:T74 Arg2:T76	
+R82	from Arg1:T80 Arg2:T81	
+R83	to Arg1:T80 Arg2:T79	
+R84	Apply-to Arg1:T79 Arg2:T82	
+R85	Output Arg1:T82 Arg2:T84	
+R87	Input Arg1:T87 Arg2:T88	
+R88	Input Arg1:T87 Arg2:T89	
+R89	Apply-to Arg1:T89 Arg2:T90	
+R90	Apply-to Arg1:T88 Arg2:T90	
+R91	Is-a Arg1:T16 Arg2:T23	
+R27	Coreference Arg1:T61 Arg2:T57	
+R79	to Arg1:T78 Arg2:T72	
+R92	from Arg1:T78 Arg2:T93	
+R86	Condition Arg1:T85 Arg2:T86	
+R3	from Arg1:T17 Arg2:T18	
+R43	from Arg1:T17 Arg2:T20	
+R44	to Arg1:T17 Arg2:T16	
+T41	REFERENCE 764 776	this article
+T92	PERSON 778 780	we
+T95	PROCESS 781 788	compare
+T97	PERSON 1493 1495	We
+R93	Condition Arg1:T95 Arg2:T41	
+R94	Agent Arg1:T95 Arg2:T92	
+R95	Input Arg1:T95 Arg2:T47	
+R96	Agent Arg1:T87 Arg2:T97	

@@ -1,0 +1,204 @@
+T1	PLAN 4 23	Noisy Channel Model
+T2	PLAN-OR-PROCESS 28 40	Unsupervised
+T3	PERSON 42 44	We
+T4	PROCESS 45 54	introduce
+T5	PLAN 57 87	generative probabilistic model
+T6	PLAN 93 112	noisy channel model
+T7	PLAN-OR-PROCESS 118 156	unsupervised word sense disambiguation
+T8	PERSON 161 164	our
+T9	PLAN 165 170	model
+T10	DATA-ITEM 177 184	context
+T11	PROCESS 190 197	modeled
+T12	QUALITY 203 211	distinct
+T13	DATA-ITEM 212 219	channel
+T15	PERSON 238 245	speaker
+T16	MODALITY 246 253	intends
+T17	PROCESS 257 265	transmit
+T18	QUALITY 268 278	particular
+T19	DATA-ITEM 279 286	meaning
+T20	PROCESS 289 294	using
+T21	QUALITY 297 315	possibly ambiguous
+T22	DATA-ITEM 316 320	word
+T23	PROCESS 327 338	reconstruct
+T24	QUALITY 343 351	intended
+T25	DATA-ITEM 352 359	meaning
+T26	PERSON 364 370	hearer
+T27	PROCESS 371 375	uses
+T28	DATA-ITEM 380 392	distribution
+T29	QUALITY 396 404	possible
+T30	DATA-ITEM 405 413	meanings
+T31	DATA-ITEM 421 434	given context
+T32	DATA-ITEM 435 441	P(S|C)
+T33	QUALITY 446 454	possible
+T34	DATA-ITEM 455 460	words
+T35	REFERENCE 461 465	that
+T36	MODALITY 466 469	can
+T37	PROCESS 470 477	express
+T38	DATA-ITEM 483 490	meaning
+T39	DATA-ITEM 491 497	P(W|S)
+T40	PERSON 499 501	We
+T41	PROCESS 502 508	assume
+T42	DATA-ITEM 509 515	P(W|S)
+T44	QUALITY 519 530	independent
+T45	DATA-ITEM 538 545	context
+T46	PROCESS 550 558	estimate
+T47	REFERENCE 559 561	it
+T48	INPUT 562 567	using
+T49	DATA-ITEM 568 593	WordNet sense frequencies
+T50	QUALITY 599 603	main
+T51	PROCESS 604 611	problem
+T52	PLAN 615 631	unsupervised WSD
+T53	PROCESS 635 645	estimating
+T54	QUALITY 646 663	context-dependent
+T55	DATA-ITEM 664 670	P(S|C)
+T56	MODALITY 671 678	without
+T57	INPUT 679 685	access
+T58	DATA-ITEM 693 710	sense-tagged text
+T59	PERSON 712 714	We
+T60	PROCESS 715 719	show
+T61	QUANTITY 720 723	one
+T62	PLAN 724 727	way
+T63	PROCESS 731 736	solve
+T64	PLAN 737 749	this problem
+T65	APPLY-TO 750 755	using
+T66	PLAN 758 784	statistical language model
+T67	INPUT 785 793	based on
+T68	QUANTITY 794 807	large amounts
+T69	DATA-ITEM 811 824	untagged text
+T70	PERSON 826 829	Our
+T71	PLAN 830 835	model
+T72	INPUT 836 840	uses
+T73	QUALITY 841 855	coarse-grained
+T74	DATA-ITEM 856 872	semantic classes
+T75	QUALITY 879 889	internally
+T76	PERSON 894 896	we
+T77	PROCESS 897 904	explore
+T78	PROCESS 909 915	effect
+T79	PROCESS 919 924	using
+T80	DATA-ITEM 925 941	different levels
+T81	DATA-ITEM 945 956	granularity
+T82	DATA-ITEM 960 975	WSD performance
+T83	PLAN 981 987	system
+T84	OUTPUT 988 995	outputs
+T85	QUALITY 996 1008	fine-grained
+T86	DATA-ITEM 1009 1015	senses
+T87	PROCESS 1020 1030	evaluation
+T88	REFERENCE 1036 1039	its
+T89	DATA-ITEM 1040 1051	performance
+T90	PLAN-OR-PROCESS 1055 1074	noun disambiguation
+T91	QUALITY 1078 1084	better
+T92	QUALITY 1090 1114	most previously reported
+T93	PLAN 1115 1135	unsupervised systems
+T94	QUALITY 1140 1145	close
+T95	QUALITY 1153 1157	best
+T96	PLAN 1158 1176	supervised systems
+R1	Apply-to Arg1:T1 Arg2:T2	
+A1	Self T3
+A2	Intentional T4
+R2	Agent Arg1:T4 Arg2:T3	
+R3	Output Arg1:T4 Arg2:T5	
+R4	Is-a Arg1:T6 Arg2:T5	
+R5	Apply-to Arg1:T6 Arg2:T7	
+A3	Self T8
+R6	Poss Arg1:T8 Arg2:T9	
+R7	Attribute Arg1:T13 Arg2:T12	
+R8	Input Arg1:T11 Arg2:T10	
+R9	Output Arg1:T11 Arg2:T13	
+R10	Attribute Arg1:T17 Arg2:T16	
+R11	Agent Arg1:T17 Arg2:T15	
+R12	Attribute Arg1:T19 Arg2:T18	
+R13	Target Arg1:T17 Arg2:T19	
+R14	Attribute Arg1:T22 Arg2:T21	
+R15	Apply-to Arg1:T20 Arg2:T17	
+R16	Target Arg1:T20 Arg2:T22	
+R18	Attribute Arg1:T25 Arg2:T24	
+R19	Agent Arg1:T27 Arg2:T26	
+R20	Attribute Arg1:T30 Arg2:T29	
+R21	Attribute Arg1:T30 Arg2:T28	
+R22	Apply-to Arg1:T27 Arg2:T23	
+R23	Target Arg1:T27 Arg2:T28	
+R24	In_Out Arg1:T23 Arg2:T25	
+R25	Condition Arg1:T30 Arg2:T31	
+T97	DATA-ITEM 185 186	C
+R26	Equivalence Arg1:T97 Arg2:T10	
+T98	DATA-ITEM 287 288	S
+R27	Equivalence Arg1:T98 Arg2:T19	
+T99	DATA-ITEM 321 322	W
+R28	Equivalence Arg1:T99 Arg2:T22	
+R29	Equivalence Arg1:T32 Arg2:T31	
+R30	Attribute Arg1:T34 Arg2:T33	
+R31	Coreference Arg1:T35 Arg2:T34	
+R32	Equivalence Arg1:T39 Arg2:T38	
+R33	Output Arg1:T37 Arg2:T38	
+R34	Attribute Arg1:T37 Arg2:T36	
+R35	Input Arg1:T37 Arg2:T35	
+R36	Target Arg1:T27 Arg2:T34	
+A4	Self T40
+A5	Intentional T41
+R37	Agent Arg1:T41 Arg2:T40	
+R38	Attribute Arg1:T42 Arg2:T44	
+R39	Condition Arg1:T44 Arg2:T45	
+A6	Intentional T46
+R40	Agent Arg1:T46 Arg2:T40	
+R41	to Arg1:T48 Arg2:T49	
+R42	from Arg1:T48 Arg2:T46	
+R43	Input Arg1:T46 Arg2:T47	
+R44	Coreference Arg1:T47 Arg2:T42	
+R45	Attribute Arg1:T51 Arg2:T50	
+R46	Attribute Arg1:T55 Arg2:T54	
+R47	Output Arg1:T53 Arg2:T55	
+R48	to Arg1:T57 Arg2:T58	
+R49	Attribute Arg1:T57 Arg2:T56	
+R50	from Arg1:T57 Arg2:T53	
+R51	Equivalence Arg1:T53 Arg2:T51	
+R52	Attribute Arg1:T52 Arg2:T51	
+A7	Self T59
+A8	Intentional T60
+R53	Agent Arg1:T60 Arg2:T59	
+R54	Attribute Arg1:T62 Arg2:T61	
+R55	Apply-to Arg1:T62 Arg2:T63	
+R56	Coreference Arg1:T64 Arg2:T51	
+R57	Target Arg1:T63 Arg2:T64	
+R58	from Arg1:T65 Arg2:T66	
+R59	to Arg1:T65 Arg2:T63	
+R60	Attribute Arg1:T69 Arg2:T68	
+R61	to Arg1:T67 Arg2:T69	
+R62	from Arg1:T67 Arg2:T66	
+A9	Self T70
+R63	Poss Arg1:T70 Arg2:T71	
+R64	Attribute Arg1:T74 Arg2:T73	
+T43	DATA-ITEM 877 878	S
+R65	Attribute Arg1:T43 Arg2:T74	
+R66	to Arg1:T72 Arg2:T74	
+R67	from Arg1:T72 Arg2:T71	
+R68	Attribute Arg1:T72 Arg2:T75	
+A10	Self T76
+A11	Intentional T77
+R69	Agent Arg1:T77 Arg2:T76	
+R70	In_Out Arg1:T77 Arg2:T78	
+R71	Attribute Arg1:T81 Arg2:T80	
+R72	In_Out Arg1:T78 Arg2:T82	
+R73	Input Arg1:T79 Arg2:T80	
+R74	Result Arg1:T78 Arg2:T79	
+R76	Attribute Arg1:T86 Arg2:T85	
+A12	Judgment T85
+R77	Coreference Arg1:T88 Arg2:T83	
+R78	Attribute Arg1:T88 Arg2:T89	
+R79	Apply-to Arg1:T88 Arg2:T90	
+R80	Attribute Arg1:T89 Arg2:T91	
+A13	Judgment T91
+R81	Attribute Arg1:T93 Arg2:T92	
+R83	Attribute Arg1:T96 Arg2:T95	
+R84	Attribute Arg1:T89 Arg2:T94	
+A14	Judgment T94
+A15	Judgment T95
+R86	Input Arg1:T87 Arg2:T86	
+R87	Apply-to Arg1:T9 Arg2:T11	
+R17	from Arg1:T84 Arg2:T83	
+R75	to Arg1:T84 Arg2:T86	
+T14	COMPARE 1085 1089	than
+R88	from Arg1:T14 Arg2:T93	
+R89	to Arg1:T14 Arg2:T91	
+T100	COMPARE 1146 1148	to
+R82	from Arg1:T100 Arg2:T96	
+R90	to Arg1:T100 Arg2:T94	

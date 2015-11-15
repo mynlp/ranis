@@ -1,0 +1,89 @@
+T1	PLAN 2 47	Graph-based Cross-lingual Projection Approach
+T2	PLAN-OR-PROCESS 52 89	Weakly Supervised Relation Extraction
+T3	PERSON 100 111	researchers
+T4	PROCESS 117 126	conducted
+T5	QUALITY 127 136	extensive
+T6	PLAN-OR-PROCESS 137 144	studies
+T7	PLAN-OR-PROCESS 148 167	relation extraction
+T8	TIME 175 186	last decade
+T9	PLAN 188 209	supervised approaches
+T10	QUALITY 214 227	still limited
+T11	REFERENCE 236 240	they
+T12	QUALITY 241 248	require
+T13	QUANTITY 249 262	large amounts
+T14	DATA-ITEM 266 279	training data
+T15	PROCESS 283 290	achieve
+T16	QUALITY 291 295	high
+T17	DATA-ITEM 296 308	performances
+T18	PROCESS 313 318	build
+T19	PLAN 321 339	relation extractor
+T20	MODALITY 340 347	without
+T21	QUALITY 348 359	significant
+T22	PLAN-OR-PROCESS 360 377	annotation effort
+T23	PERSON 379 381	we
+T24	MODALITY 382 385	can
+T25	PROCESS 386 393	exploit
+T26	PLAN-OR-PROCESS 394 429	cross-lingual annotation projection
+T27	REFERENCE 431 436	which
+T28	INPUT 437 446	leverages
+T29	DATA-ITEM 447 463	parallel corpora
+T30	DATA-ITEM 467 485	external resources
+T31	PLAN-OR-PROCESS 490 501	supervision
+T32	QUALITY 525 530	novel
+T33	PLAN 531 562	graph-based projection approach
+T34	PROCESS 567 579	demonstrates
+T35	DATA-ITEM 584 590	merits
+T36	REFERENCE 594 596	it
+T37	APPLY-TO 600 605	using
+T38	PLAN 608 641	Korean relation extraction system
+T39	INPUT 642 647	based
+T40	DATA-ITEM 651 668	projected dataset
+T41	DATA-ITEM 677 707	English-Korean parallel corpus
+R1	Apply-to Arg1:T1 Arg2:T2	
+R2	Agent Arg1:T4 Arg2:T3	
+R3	Attribute Arg1:T6 Arg2:T5	
+R4	Output Arg1:T4 Arg2:T6	
+R5	In_Out Arg1:T6 Arg2:T7	
+R6	Condition Arg1:T4 Arg2:T8	
+R7	Attribute Arg1:T9 Arg2:T10	
+R8	Coreference Arg1:T11 Arg2:T9	
+R9	Attribute Arg1:T14 Arg2:T13	
+R10	Attribute Arg1:T11 Arg2:T14	
+R11	Attribute Arg1:T14 Arg2:T12	
+R12	Attribute Arg1:T17 Arg2:T16	
+R13	Output Arg1:T15 Arg2:T17	
+R14	Apply-to Arg1:T15 Arg2:T11	
+R15	Condition Arg1:T12 Arg2:T15	
+R16	Output Arg1:T18 Arg2:T19	
+R17	Attribute Arg1:T22 Arg2:T21	
+R18	Attribute Arg1:T22 Arg2:T20	
+R19	Condition Arg1:T18 Arg2:T22	
+A1	Self T23
+R20	Attribute Arg1:T25 Arg2:T24	
+R21	Agent Arg1:T25 Arg2:T23	
+R22	Input Arg1:T25 Arg2:T26	
+R23	Coreference Arg1:T27 Arg2:T26	
+R24	to Arg1:T28 Arg2:T29	
+R25	from Arg1:T28 Arg2:T27	
+R26	Is-a Arg1:T29 Arg2:T30	
+R27	Attribute Arg1:T27 Arg2:T30	
+R28	Apply-to Arg1:T27 Arg2:T31	
+T42	REFERENCE 503 513	This paper
+A2	Self T42
+T43	PROCESS 514 522	proposes
+A3	Intentional T43
+R29	Condition Arg1:T43 Arg2:T42	
+R30	Attribute Arg1:T33 Arg2:T32	
+R31	Output Arg1:T43 Arg2:T33	
+R32	Condition Arg1:T34 Arg2:T42	
+A4	Intentional T34
+R33	Coreference Arg1:T36 Arg2:T33	
+R34	Attribute Arg1:T36 Arg2:T35	
+T44	LANGUAGE 608 614	Korean
+T45	LANGUAGE 677 684	English
+T46	LANGUAGE 685 691	Korean
+R35	Component-object Arg1:T41 Arg2:T40	
+R36	to Arg1:T39 Arg2:T40	
+R37	from Arg1:T39 Arg2:T38	
+R38	from Arg1:T37 Arg2:T38	
+R39	to Arg1:T37 Arg2:T34	

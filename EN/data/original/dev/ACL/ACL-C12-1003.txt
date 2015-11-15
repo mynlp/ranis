@@ -1,0 +1,6 @@
+Automatic Detection of Point of View Differences in Wikipedia
+
+We investigate differences in point of view (POV) between two objective documents, where one is describing the subject matter in a more positive/negative way than the other, and present an automatic method for detecting such POV differences.
+We use Amazon Mechanical Turk (AMT) to annotate sentences as positive, negative or neutral based on their POV towards a given target.
+A statistical classifier is trained to predict the POV score of a document, which reflects how positive/negative the document's POV towards its target is.
+The results of our experiments on a set of articles in the Arabic and English Wikipedias from the people category show that our method successfully detects POV differences.

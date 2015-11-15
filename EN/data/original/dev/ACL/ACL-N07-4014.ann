@@ -1,0 +1,67 @@
+R1	Equivalence Arg1:T4 Arg2:T3
+R3	Attribute Arg1:T9 Arg2:T8
+R4	Attribute Arg1:T9 Arg2:T7
+R5	Attribute Arg1:T9 Arg2:T6
+R6	Output Arg1:T9 Arg2:T10
+R7	Equivalence Arg1:T9 Arg2:T3
+R8	Equivalence Arg1:T13 Arg2:T12
+R10	from Arg1:T11 Arg2:T12
+R11	to Arg1:T11 Arg2:T10
+R13	Output Arg1:T18 Arg2:T17
+R14	Apply-to Arg1:T16 Arg2:T36
+R15	Input Arg1:T36 Arg2:T17
+R16	Apply-to Arg1:T16 Arg2:T19
+R17	Target Arg1:T19 Arg2:T22
+R18	Apply-to Arg1:T16 Arg2:T23
+R19	Output Arg1:T23 Arg2:T25
+R20	Apply-to Arg1:T25 Arg2:T20
+R21	Attribute Arg1:T26 Arg2:T21
+R22	Target Arg1:T27 Arg2:T26
+R23	Attribute Arg1:T22 Arg2:T24
+R24	Attribute Arg1:T22 Arg2:T37
+R25	Attribute Arg1:T30 Arg2:T29
+R26	Attribute Arg1:T33 Arg2:T34
+R27	Condition Arg1:T35 Arg2:T38
+R28	Output Arg1:T32 Arg2:T33
+R29	Result Arg1:T28 Arg2:T32
+R30	Is-a Arg1:T28 Arg2:T30
+R31	Condition Arg1:T30 Arg2:T31
+R32	Condition Arg1:T32 Arg2:T35
+#1	AnnotatorNotes T12	Partially Observable Markov-Decision-Process
+R2	In_Out Arg1:T12 Arg2:T15
+T1	PLAN 4 45	Hidden Information State Dialogue Manager
+T2	PLAN 50 79	Real-World POMDP-Based System
+T4	PLAN 113 116	HIS
+T3	PLAN 119 134;86 110	Dialogue System Hidden Information State
+T6	QUALITY 142 147	first
+T7	QUALITY 148 157	trainable
+T8	QUALITY 162 170	scalable
+T9	PLAN 171 185	implementation
+T10	PLAN 191 211	spoken dialog system
+T11	APPLY-TO 212 217	based
+T12	PLAN 225 269;280 285	Partially Observable Markov-Decision-Process model
+T13	PLAN 272 277	POMDP
+T15	DATA-ITEM 289 297	dialogue
+T16	PLAN 304 310	system
+T36	PROCESS 311 319	responds
+T17	DATA-ITEM 323 336	n-best output
+T18	PLAN 346 363	speech recogniser
+T19	PROCESS 366 375	maintains
+T37	QUANTITY 376 384	multiple
+T24	QUALITY 385 395	concurrent
+T22	PLAN 396 421	dialogue state hypotheses
+T23	PROCESS 428 436	provides
+T25	PLAN-OR-PROCESS 439 453	visual display
+T20	PROCESS 454 461	showing
+T21	QUALITY 466 475	competing
+T26	PLAN 476 486	hypotheses
+T27	PROCESS 491 497	ranked
+T28	PLAN 504 508	demo
+T29	QUALITY 514 523	prototype
+T30	PLAN 524 535	application
+T31	DOMAIN 544 570	Tourist Information Domain
+T32	PROCESS 575 583	achieved
+T33	DATA-ITEM 586 606	task completion rate
+T34	QUANTITY 610 619	over 90 %
+T38	TIME 625 631	recent
+T35	PLAN 632 642	user study

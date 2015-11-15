@@ -1,0 +1,8 @@
+GAF: A Grounded Annotation Framework for Events
+
+This paper introduces GAF, a grounded annotation framework to represent events in a formal context that can represent information from both textual and extra-textual sources.
+GAF makes a clear distinction between mentions of events in text and their formal representation as instances in a semantic layer.
+Instances are represented by RDF compliant URIs that are shared across different research disciplines.
+This allows us to complete textual information with external sources and facilitates reasoning.
+The semantic layer can integrate any linguistic information and is compatible with previous event representations in NLP.
+Through a use case on earthquakes in Southeast Asia, we demonstrate GAF flexibility and ability to reason over events with the aid of extra-linguistic resources.

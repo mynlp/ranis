@@ -1,0 +1,6 @@
+Understanding the Yarowsky Algorithm
+
+Many problems in computational linguistics are well suited for bootstrapping (semisupervised learning) techniques.
+The Yarowsky algorithm is a well-known bootstrapping algorithm, but it is not mathematically well understood.
+This article analyzes it as optimizing an objective function.
+More specifically, a number of variants of the Yarowsky algorithm (though not the original algorithm itself) are shown to optimize either likelihood or a closely related objective function K.

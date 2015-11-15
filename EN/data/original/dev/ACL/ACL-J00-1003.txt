@@ -1,0 +1,5 @@
+Practical Experiments with Regular Approximation of Context-Free Languages
+
+Several methods are discussed that construct a finite automaton given a context-free grammar, including both methods that lead to subsets and those that lead to supersets of the original context-free language.
+Some of these methods of regular approximation are new, and some others are presented here in a more refined form with respect to existing literature.
+Practical experiments with the different methods of regular approximation are performed for spoken-language input: hypotheses from a speech recognizer are filtered through a finite automaton.

@@ -1,0 +1,135 @@
+R1	Apply-to Arg1:T2 Arg2:T1
+A1	Self T3
+R2	Attribute Arg1:T5 Arg2:T4
+A2	Intentional T63
+R3	Output Arg1:T63 Arg2:T5
+R4	Condition Arg1:T63 Arg2:T3
+R5	Coreference Arg1:T6 Arg2:T5
+R6	Equivalence Arg1:T10 Arg2:T9
+R7	Apply-to Arg1:T6 Arg2:T64
+R8	In_Out Arg1:T64 Arg2:T8
+R9	Attribute Arg1:T64 Arg2:T7
+R10	Apply-to Arg1:T9 Arg2:T64
+R11	Attribute Arg1:T12 Arg2:T11
+R12	Attribute Arg1:T14 Arg2:T65
+R13	Output Arg1:T14 Arg2:T12
+R14	Condition Arg1:T12 Arg2:T13
+R15	Output Arg1:T17 Arg2:T18
+R16	Coreference Arg1:T15 Arg2:T17
+R17	Attribute Arg1:T15 Arg2:T16
+R18	Attribute Arg1:T21 Arg2:T20
+R19	Attribute Arg1:T21 Arg2:T19
+R20	Attribute Arg1:T23 Arg2:T22
+R21	Input Arg1:T23 Arg2:T21
+R22	Other-rel Arg1:T16 Arg2:T23
+R23	Attribute Arg1:T25 Arg2:T24
+R24	Attribute Arg1:T27 Arg2:T26
+R25	to Arg1:T27 Arg2:T28
+R26	from Arg1:T27 Arg2:T24
+R27	Attribute Arg1:T31 Arg2:T30
+R28	Output Arg1:T31 Arg2:T29
+R29	Attribute Arg1:T31 Arg2:T32
+R30	Attribute Arg1:T32 Arg2:T66
+R31	Attribute Arg1:T34 Arg2:T33
+R32	Attribute Arg1:T36 Arg2:T35
+R33	Input Arg1:T36 Arg2:T34
+R34	Other-rel Arg1:T28 Arg2:T32
+R35	Attribute Arg1:T38 Arg2:T37
+R36	Apply-to Arg1:T38 Arg2:T39
+R37	In_Out Arg1:T39 Arg2:T40
+R38	Output Arg1:T41 Arg2:T38
+R39	Other-rel Arg1:T28 Arg2:T36
+R40	Attribute Arg1:T46 Arg2:T45
+R41	In_Out Arg1:T46 Arg2:T44
+R42	Attribute Arg1:T46 Arg2:T47
+R43	Attribute Arg1:T50 Arg2:T49
+R44	Attribute Arg1:T50 Arg2:T48
+R45	Output Arg1:T52 Arg2:T53
+R46	from Arg1:T51 Arg2:T52
+R47	to Arg1:T51 Arg2:T47
+A3	Intentional T42
+R48	Input Arg1:T42 Arg2:T43
+R49	Result Arg1:T42 Arg2:T46
+R50	Input Arg1:T43 Arg2:T50
+R51	Coreference Arg1:T43 Arg2:T6
+R52	Attribute Arg1:T58 Arg2:T57
+R53	Output Arg1:T56 Arg2:T58
+R54	to Arg1:T55 Arg2:T56
+R55	from Arg1:T55 Arg2:T54
+R56	Attribute Arg1:T60 Arg2:T59
+R57	Result Arg1:T67 Arg2:T60
+R58	In_Out Arg1:T60 Arg2:T61
+R59	Attribute Arg1:T60 Arg2:T62
+R60	Coreference Arg1:T67 Arg2:T58
+#2	AnnotatorNotes T53	IBM4-alignments
+R61	Attribute Arg1:T68 Arg2:T44
+R62	Attribute Arg1:T69 Arg2:T61
+T1	PLAN-OR-PROCESS 0 29	Discriminative Word Alignment
+T2	PLAN-OR-PROCESS 34 59	Alignment Matrix Modeling
+T3	REFERENCE 65 75	this paper
+T4	QUALITY 78 81	new
+T5	PLAN 82 118	discriminative word alignment method
+T63	PROCESS 122 131	presented
+T6	PLAN 134 147	This approach
+T64	PROCESS 148 154	models
+T7	QUALITY 155 163	directly
+T8	DATA-ITEM 168 184	alignment matrix
+T9	PLAN 190 214	conditional random field
+T10	PLAN 217 220	CRF
+T11	QUANTITY 230 232	no
+T12	DATA-ITEM 233 245	restrictions
+T13	DATA-ITEM 253 263	alignments
+T65	MODALITY 264 271	have to
+T14	PROCESS 275 279	made
+T15	REFERENCE 296 298	it
+T16	QUALITY 302 306	easy
+T17	PROCESS 310 313	add
+T18	DATA-ITEM 314 322	features
+T19	QUANTITY 330 333	all
+T20	QUALITY 334 343	available
+T21	DATA-ITEM 344 355	information
+T22	MODALITY 356 359	can
+T23	PROCESS 363 367	used
+T24	DATA-ITEM 380 389	structure
+T25	PLAN 397 401	CRFs
+T26	MODALITY 402 405	can
+T27	ATTRIBUTE 406 409	get
+T28	QUALITY 410 417	complex
+T29	PLAN-OR-PROCESS 424 433	inference
+T30	MODALITY 434 437	can
+T66	QUALITY 438 442	only
+T31	PROCESS 446 450	done
+T32	QUALITY 451 464	approximately
+T33	QUALITY 473 481	standard
+T34	PLAN 482 492	algorithms
+T35	MODALITY 493 499	had to
+T36	PROCESS 503 510	adapted
+T37	QUALITY 527 536	different
+T38	PLAN 537 544	methods
+T39	PROCESS 548 553	train
+T40	PLAN 558 563	model
+T41	PROCESS 574 583	developed
+T42	PROCESS 586 591	Using
+T43	PLAN 592 605	this approach
+T68	PLAN-OR-PROCESS 610 619	alignment
+T44	QUALITY 620 627	quality
+T45	MODALITY 628 633	could
+T46	JUDGING-PROCESS 637 645	improved
+T47	QUANTITY 649 665	up to 23 percent
+T48	QUANTITY 670 671	3
+T49	QUALITY 672 681	different
+T50	DATA-ITEM 682 696	language pairs
+T51	COMPARE 697 705	compared
+T52	PLAN-OR-PROCESS 711 722	combination
+T53	PLAN 731 746	IBM4-alignments
+T54	PLAN-OR-PROCESS 765 779	word alignment
+T55	APPLY-TO 784 788	used
+T56	PROCESS 792 800	generate
+T57	QUALITY 801 804	new
+T58	DATA-ITEM 805 818	phrase tables
+T67	REFERENCE 821 826	These
+T59	MODALITY 827 832	could
+T60	JUDGING-PROCESS 833 840	improve
+T69	PLAN-OR-PROCESS 845 856	translation
+T61	QUALITY 857 864	quality
+T62	QUALITY 865 878	significantly

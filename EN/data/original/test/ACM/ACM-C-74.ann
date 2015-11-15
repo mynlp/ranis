@@ -1,0 +1,153 @@
+T1	PROCESS 0 8	Adapting
+T2	PLAN 9 42	Asynchronous Messaging Middleware
+T3	PLAN-OR-PROCESS 46 63	ad-hoc Networking
+T4	QUALITY 68 83	characteristics
+T5	THING 87 106	mobile environments
+T6	QUALITY 117 128	possibility
+T7	PLAN-OR-PROCESS 141 155	disconnections
+T8	QUALITY 132 140	frequent
+T9	QUALITY 172 181	bandwidth
+T10	QUALITY 160 171	fluctuating
+T11	APPLY-TO 188 194	forced
+T12	PLAN-OR-PROCESS 197 204	rethink
+T13	PLAN 220 230	middleware
+T14	QUALITY 208 219	traditional
+T15	PLAN 251 286	synchronous communication paradigms
+T16	QUALITY 287 292	often
+T17	APPLY-TO 293 301	employed
+T18	PLAN 314 324	middleware
+T19	QUALITY 305 313	standard
+T20	MODALITY 328 331	not
+T21	ATTRIBUTE 332 338	appear
+T22	QUALITY 345 357	particularly
+T23	QUALITY 358 364	suited
+T24	THING 368 387	ad-hoc environments
+T25	REFERENCE 392 397	which
+R1	Coreference Arg1:T25 Arg2:T24	
+T26	MODALITY 398 401	not
+T27	QUALITY 411 423	intermittent
+T28	QUALITY 424 436	availability
+T29	ARTIFACT 442 458	backbone network
+T30	MODALITY 459 462	can
+T31	PROCESS 466 473	assumed
+T32	PLAN 484 510	asynchronous communication
+T33	IS-A 511 516	seems
+T35	QUALITY 535 548	more suitable
+T36	PLAN 549 557	paradigm
+T37	THING 562 579	such environments
+T38	PLAN 581 608	Message oriented middleware
+T39	PLAN 625 632	systems
+T40	PROCESS 642 651	developed
+T41	APPLY-TO 656 660	used
+T42	PROCESS 664 671	provide
+T43	PLAN 675 696	asynchronous paradigm
+T44	PROCESS 700 713	communication
+T45	PLAN 718 737	distributed systems
+T46	QUALITY 613 624	traditional
+T47	TIME 744 752	recently
+T48	QUANTITY 763 767	some
+T49	PLAN 777 801	mobile computing systems
+T51	PROCESS 847 856	designing
+T52	PROCESS 858 870	implementing
+T53	PROCESS 875 885	evaluating
+T54	PLAN 886 890	EMMA
+T55	PLAN 892 941	Epidemic Messaging Middleware for ad-hoc networks
+T56	PLAN 947 957	adaptation
+T57	PLAN 961 981	Java Message Service
+T58	PLAN 983 986	JMS
+R2	Equivalence Arg1:T58 Arg2:T57	
+R3	Equivalence Arg1:T55 Arg2:T54	
+T59	THING 992 1018	mobile ad-hoc environments
+T61	PLAN 1045 1062	design challenges
+T62	QUANTITY 1067 1071	some
+T63	PLAN 1072 1090	possible solutions
+T65	QUALITY 1126 1137	feasibility
+T66	QUALITY 1142 1153	suitability
+T67	PLAN 1161 1172	application
+T68	PLAN 1180 1201	asynchronous paradigm
+T69	PLAN 1205 1217	this setting
+R4	Attribute Arg1:T13 Arg2:T14	
+R5	Attribute Arg1:T39 Arg2:T46	
+R6	Attribute Arg1:T49 Arg2:T48	
+T60	QUALITY 768 776	specific
+R7	Attribute Arg1:T49 Arg2:T60	
+R8	Attribute Arg1:T63 Arg2:T62	
+R9	Attribute Arg1:T7 Arg2:T8	
+R10	Attribute Arg1:T17 Arg2:T16	
+R11	Attribute Arg1:T18 Arg2:T19	
+R12	Attribute Arg1:T36 Arg2:T35	
+R13	Coreference Arg1:T37 Arg2:T25	
+R14	Attribute Arg1:T23 Arg2:T22	
+T70	QUALITY 525 534	generally
+R16	Attribute Arg1:T35 Arg2:T70	
+R17	Attribute Arg1:T67 Arg2:T65	
+R18	Attribute Arg1:T67 Arg2:T66	
+R19	Input Arg1:T1 Arg2:T2	
+R20	Destination Arg1:T1 Arg2:T3	
+R21	Attribute Arg1:T5 Arg2:T4	
+R22	Attribute Arg1:T8 Arg2:T6	
+R23	Attribute Arg1:T9 Arg2:T10	
+R24	from Arg1:T11 Arg2:T4	
+R25	Condition Arg1:T4 Arg2:T7	
+R26	Condition Arg1:T4 Arg2:T9	
+R27	to Arg1:T11 Arg2:T12	
+R28	Target Arg1:T12 Arg2:T13	
+R29	from Arg1:T17 Arg2:T15	
+R30	to Arg1:T17 Arg2:T18	
+R31	Attribute Arg1:T21 Arg2:T20	
+R32	from Arg1:T21 Arg2:T15	
+R33	to Arg1:T21 Arg2:T23	
+R34	Other-rel Arg1:T23 Arg2:T24	
+R35	Attribute Arg1:T28 Arg2:T27	
+R37	Attribute Arg1:T29 Arg2:T28	
+R36	Attribute Arg1:T31 Arg2:T30	
+R38	Attribute Arg1:T31 Arg2:T26	
+R39	Output Arg1:T31 Arg2:T28	
+R40	Attribute Arg1:T33 Arg2:T32	
+R41	to Arg1:T33 Arg2:T36	
+R42	Apply-to Arg1:T36 Arg2:T37	
+R43	Apply-to Arg1:T38 Arg2:T39	
+R44	Output Arg1:T40 Arg2:T38	
+R45	from Arg1:T41 Arg2:T38	
+R46	to Arg1:T41 Arg2:T42	
+R47	Output Arg1:T42 Arg2:T43	
+R48	Attribute Arg1:T43 Arg2:T44	
+R50	Attribute Arg1:T42 Arg2:T47	
+R49	Output Arg1:T42 Arg2:T45	
+R51	Output Arg1:T42 Arg2:T49	
+R52	Output Arg1:T51 Arg2:T54	
+R53	Output Arg1:T52 Arg2:T54	
+R54	Input Arg1:T53 Arg2:T54	
+R55	Is-a Arg1:T54 Arg2:T56	
+R56	In_Out Arg1:T56 Arg2:T57	
+R57	Destination Arg1:T56 Arg2:T59	
+R61	In_Out Arg1:T67 Arg2:T68	
+R62	Condition Arg1:T67 Arg2:T69	
+R15	Apply-to Arg1:T44 Arg2:T45	
+T34	PERSON 818 820	we
+T50	REFERENCE 806 816	this paper
+T64	PROCESS 821 828	present
+T71	PERSON 829 832	our
+T72	PROCESS 833 843	experience
+T73	PERSON 1020 1022	We
+T74	PROCESS 1023 1030	discuss
+T75	QUALITY 1034 1040	detail
+T79	PROCESS 1092 1099	showing
+T80	QUALITY 1102 1110	concrete
+T81	DATA-ITEM 1111 1118	example
+R58	Agent Arg1:T64 Arg2:T34	
+R59	Output Arg1:T64 Arg2:T72	
+R60	Condition Arg1:T64 Arg2:T50	
+R63	Agent Arg1:T74 Arg2:T73	
+R64	Condition Arg1:T74 Arg2:T75	
+R65	Output Arg1:T74 Arg2:T61	
+R66	Output Arg1:T74 Arg2:T63	
+R67	Agent Arg1:T79 Arg2:T73	
+R68	Attribute Arg1:T81 Arg2:T80	
+R69	Output Arg1:T79 Arg2:T81	
+R70	Condition Arg1:T72 Arg2:T51	
+R71	Condition Arg1:T72 Arg2:T52	
+R72	Condition Arg1:T72 Arg2:T53	
+R73	Poss Arg1:T71 Arg2:T72	
+R74	Other-rel Arg1:T65 Arg2:T81	
+R75	Other-rel Arg1:T66 Arg2:T81	

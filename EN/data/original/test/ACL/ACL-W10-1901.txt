@@ -1,0 +1,7 @@
+Two strong baselines for the BioNLP 2009 event extraction task
+
+This paper presents two strong baselines for the BioNLP 2009 shared task on event extraction.
+First we re-implement a rule-based approach which allows us to explore the task and the effect of domain-adapted parsing on it. 
+We then replace the rule-based component with support vector machine classifiers and achieve performance near the state-of-the-art without using any external resources. 
+The good performances achieved and the relative simplicity of both approaches make them reproducible baselines. 
+We conclude withs uggestions for future work with respect tothe task representation.

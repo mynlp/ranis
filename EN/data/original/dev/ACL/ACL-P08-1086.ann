@@ -1,0 +1,133 @@
+R1	Apply-to Arg1:T1 Arg2:T2
+R2	Apply-to Arg1:T2 Arg2:T3
+R3	Attribute Arg1:T6 Arg2:T5
+R5	Apply-to Arg1:T6 Arg2:T7
+R6	Attribute Arg1:T9 Arg2:T8
+R7	In_Out Arg1:T7 Arg2:T9
+R4	Is-a Arg1:T11 Arg2:T6
+R9	Output Arg1:T11 Arg2:T12
+R10	Destination Arg1:T11 Arg2:T13
+A1	Self T14
+A2	Self T15
+A3	Intentional T16
+R11	Agent Arg1:T16 Arg2:T15
+R12	Condition Arg1:T16 Arg2:T14
+R13	In_Out Arg1:T16 Arg2:T17
+R14	Result Arg1:T18 Arg2:T17
+R15	Input Arg1:T18 Arg2:T19
+R16	Attribute Arg1:T21 Arg2:T20
+R17	Apply-to Arg1:T18 Arg2:T21
+R18	In_Out Arg1:T22 Arg2:T21
+R19	Attribute Arg1:T24 Arg2:T23
+R20	Input Arg1:T22 Arg2:T24
+A4	Self T25
+A5	Intentional T26
+R21	Agent Arg1:T26 Arg2:T25
+R22	Output Arg1:T26 Arg2:T27
+R23	In_Out Arg1:T27 Arg2:T28
+R24	Is-a Arg1:T6 Arg2:T19
+R25	In_Out Arg1:T29 Arg2:T30
+R26	Attribute Arg1:T28 Arg2:T30
+R27	Condition Arg1:T30 Arg2:T32
+R28	Coreference Arg1:T34 Arg2:T28
+R29	Is-a Arg1:T33 Arg2:T34
+R30	Attribute Arg1:T36 Arg2:T35
+R31	In_Out Arg1:T36 Arg2:T37
+R32	Attribute Arg1:T39 Arg2:T38
+R33	Input Arg1:T37 Arg2:T39
+R34	Attribute Arg1:T41 Arg2:T40
+R35	Attribute Arg1:T44 Arg2:T43
+R36	Attribute Arg1:T46 Arg2:T45
+R37	to Arg1:T42 Arg2:T44
+R38	from Arg1:T42 Arg2:T36
+R39	Component-object Arg1:T39 Arg2:T41
+R40	Component-object Arg1:T44 Arg2:T46
+R41	Output Arg1:T26 Arg2:T33
+R42	Apply-to Arg1:T33 Arg2:T36
+R43	Attribute Arg1:T48 Arg2:T47
+R44	In_Out Arg1:T31 Arg2:T50
+R45	from Arg1:T49 Arg2:T31
+R46	to Arg1:T49 Arg2:T48
+A6	Self T51
+A7	Intentional T52
+R47	Agent Arg1:T52 Arg2:T51
+R48	Output Arg1:T53 Arg2:T54
+R49	Destination Arg1:T53 Arg2:T55
+R50	Attribute Arg1:T58 Arg2:T57
+R51	Component-object Arg1:T58 Arg2:T56
+R52	from Arg1:T59 Arg2:T53
+R53	Attribute Arg1:T61 Arg2:T60
+A8	Judgment T60
+R54	to Arg1:T59 Arg2:T60
+R55	Apply-to Arg1:T63 Arg2:T62
+R56	Output Arg1:T62 Arg2:T60
+R57	Component-object Arg1:T56 Arg2:T55
+R58	Output Arg1:T52 Arg2:T60
+R59	Apply-to Arg1:T6 Arg2:T4
+R60	Attribute Arg1:T10 Arg2:T64
+R8	Attribute Arg1:T64 Arg2:T9
+A9	Judgment T8
+T1	PLAN-OR-PROCESS 0 27	Distributed Word Clustering
+T2	PLAN-OR-PROCESS 32 73	Large Scale Class-Based Language Modeling
+T3	PLAN 77 96	Machine Translation
+T4	PLAN-OR-PROCESS 102 131	statistical language modeling
+T5	QUANTITY 134 137	one
+T6	PLAN-OR-PROCESS 138 147	technique
+T7	PROCESS 151 157	reduce
+T8	QUALITY 162 173	problematic
+T9	QUALITY 174 181	effects
+T10	DATA-ITEM 185 189	data
+T64	QUALITY 190 198	sparsity
+T11	PROCESS 205 214	partition
+T12	DATA-ITEM 219 229	vocabulary
+T13	DATA-ITEM 235 254	equivalence classes
+T14	REFERENCE 260 270	this paper
+T15	PERSON 271 273	we
+T16	PROCESS 274 285	investigate
+T17	PROCESS 290 297	effects
+T18	PLAN-OR-PROCESS 301 309	applying
+T19	PLAN-OR-PROCESS 310 325	such a techniqu
+T20	QUALITY 330 341	higherorder
+T21	PLAN 342 355	n-gram models
+T22	PROCESS 356 363	trained
+T23	QUALITY 367 372	large
+T24	DATA-ITEM 373 380	corpora
+T25	PERSON 383 385	We
+T26	PROCESS 386 395	introduce
+T27	PLAN-OR-PROCESS 398 410	modification
+T28	PLAN 418 447	exchange clustering algorithm
+T29	JUDGING-PROCESS 453 461	improved
+T30	QUALITY 462 472	efficiency
+T32	PLAN 485 513	partially class-based models
+T33	PLAN 520 539	distributed version
+T34	PLAN 543 557	this algorithm
+T35	QUALITY 561 572	efficiently
+T36	PROCESS 573 579	obtain
+T37	PLAN-OR-PROCESS 580 610	automatic word classifications
+T38	QUALITY 615 620	large
+T39	DATA-ITEM 621 633	vocabularies
+T40	QUANTITY 638 647	1 million
+T41	DATA-ITEM 648 653	words
+T42	INPUT 656 661	using
+T43	QUALITY 667 672	large
+T44	DATA-ITEM 673 689	training corpora
+T45	QUANTITY 694 704	30 billion
+T46	DATA-ITEM 705 711	tokens
+T47	QUALITY 720 729	resulting
+T48	DATA-ITEM 730 741	clusterings
+T49	INPUT 751 755	used
+T31	PROCESS 759 767	training
+T50	PLAN 768 805	partially class-based language models
+T51	PERSON 808 810	We
+T52	PROCESS 811 815	show
+T53	PROCESS 821 830	combining
+T54	REFERENCE 831 835	them
+T55	PLAN 841 865	word-based n-gram models
+T56	PLAN 873 889	log-linear model
+T57	QUALITY 895 911	state-of-the-art
+T58	PLAN 912 950	statistical machine translation system
+T59	RESULT 951 956	leads
+T60	QUALITY 960 972	improvements
+T61	QUALITY 976 995	translation quality
+T62	PROCESS 999 1008	indicated
+T63	PLAN 1016 1026	BLEU score

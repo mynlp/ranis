@@ -1,0 +1,11 @@
+Path-Based And Node-Based Inference In Semantic Networks .
+Two styles of performing inference in semantic networks are presented and compared .
+Path-based inference allows an arc or a path of arcs between two given nodes to be inferred from the existence of another specified path between the same two nodes .
+Path-based inference rules may be written using a binary relational calculus notation .
+Node-based inference allows a structure of nodes to be inferred from the existence of an instance of a pattern of node structures .
+Node-based inference rules can be constructed in a semantic network using a variant of a predicate calculus notation .
+Path-based inference is more efficient , while node-based inference is more general .
+A method is described of combining the two styles in a single system in order to take advantage of the strengths of each .
+Applications of path-based inference rules to the representation of the extensional equivalence of intensional concepts , and to the explication of inheritance in hierarchies are sketched .
+
+

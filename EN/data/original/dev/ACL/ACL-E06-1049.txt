@@ -1,0 +1,11 @@
+A Machine Learning Approach To Extract Temporal Information From Texts In Swedish And Generate Animated 3D Scenes .
+Carsim is a program that automatically converts narratives into 3D scenes .
+Carsim considers authentic texts describing road accidents , generally collected from web sites of Swedish newspapers or transcribed from hand-written accounts by victims of accidents .
+One of the program 's key features is that it animates the generated scene to visualize events .
+To create a consistent animation , Carsim extracts the participants mentioned in a text and identifies what they do .
+In this paper , we focus on the extraction of temporal relations between actions .
+We first describe how we detect time expressions and events .
+We then present a machine learning technique to order the sequence of events identified in the narratives .
+We finally report the results we obtained .
+
+

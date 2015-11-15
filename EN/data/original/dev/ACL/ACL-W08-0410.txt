@@ -1,0 +1,7 @@
+Inductive Detection of Language Features via Clustering Minimal Pairs: Toward Feature-Rich Grammars in Machine Translation
+
+Syntax-based Machine Translation systems have recently become a focus of research with much hope that they will outperform traditional Phrase-Based Statistical Machine Translation (PBSMT).
+Toward this goal, we present a method for analyzing the morphosyntactic content of language from an Elicitation Corpus such as the one included in the LDC's upcoming LCTL language packs.
+The presented method discovers a mapping between morphemes and linguistically relevant features.
+By providing this tool that can augment structure-based MT models with these rich features, we believe the discriminative power of current models can be improved.
+We conclude by outlining how the resulting output can then be used in inducing a morphosyntactically feature-rich grammar for AVENUE, a modern syntax-based MT system.

@@ -1,0 +1,89 @@
+T1	QUALITY 7 26	Computational Power
+T2	PLAN-OR-PROCESS 30 48	Iterative Auctions
+T5	QUALITY 91 96	power
+T6	QUALITY 101 112	limitations
+T7	PLAN-OR-PROCESS 116 148	iterative combinatorial auctions
+T8	QUALITY 150 154	Most
+T9	PLAN 164 196	iterative combinatorial auctions
+T10	QUALITY 155 163	existing
+T11	CONDITION 201 206	based
+T12	PLAN-OR-PROCESS 221 231	suggesting
+T13	QUALITY 210 220	repeatedly
+T14	DATA-ITEM 232 238	prices
+T15	DATA-ITEM 243 250	bundles
+T16	DATA-ITEM 254 259	items
+T17	PLAN-OR-PROCESS 265 273	querying
+T18	PERSON 278 285	bidders
+T19	DATA-ITEM 296 302	demand
+T20	DATA-ITEM 309 321	these prices
+R1	Coreference Arg1:T20 Arg2:T14	
+T21	QUANTITY 334 346	large number
+T22	DATA-ITEM 350 357	results
+T23	PROCESS 358 365	showing
+T24	THING 370 380	boundaries
+T26	MODALITY 389 392	can
+T27	PROCESS 396 404	achieved
+T28	PLAN-OR-PROCESS 408 416	auctions
+T29	PLAN-OR-PROCESS 420 429	this kind
+T31	PLAN-OR-PROCESS 449 457	auctions
+T32	REFERENCE 458 462	that
+R2	Coreference Arg1:T32 Arg2:T31	
+T33	INPUT 463 466	use
+T34	QUANTITY 469 486	polynomial number
+T35	DATA-ITEM 490 504	demand queries
+T37	QUALITY 530 535	power
+T38	PLAN-OR-PROCESS 549 554	kinds
+T39	QUALITY 539 548	different
+T40	PLAN-OR-PROCESS 558 582	ascending-price auctions
+R3	Attribute Arg1:T9 Arg2:T8	
+R4	Attribute Arg1:T9 Arg2:T10	
+R5	Attribute Arg1:T12 Arg2:T13	
+R6	Attribute Arg1:T22 Arg2:T21	
+R7	Attribute Arg1:T27 Arg2:T26	
+R8	Attribute Arg1:T38 Arg2:T39	
+R9	Member-collection Arg1:T16 Arg2:T15	
+T41	REFERENCE 290 295	their
+R10	Coreference Arg1:T41 Arg2:T18	
+R11	Poss Arg1:T41 Arg2:T19	
+R12	Attribute Arg1:T2 Arg2:T1	
+R13	Attribute Arg1:T7 Arg2:T5	
+R14	Attribute Arg1:T7 Arg2:T6	
+R15	from Arg1:T11 Arg2:T9	
+R16	to Arg1:T11 Arg2:T12	
+R17	Output Arg1:T12 Arg2:T14	
+R18	Destination Arg1:T12 Arg2:T15	
+R19	to Arg1:T11 Arg2:T17	
+R20	Other-rel Arg1:T17 Arg2:T18	
+R21	Input Arg1:T17 Arg2:T19	
+R22	Condition Arg1:T17 Arg2:T20	
+R23	Input Arg1:T23 Arg2:T22	
+R24	Output Arg1:T23 Arg2:T24	
+R25	Attribute Arg1:T28 Arg2:T29	
+R26	Apply-to Arg1:T28 Arg2:T27	
+R27	Condition Arg1:T24 Arg2:T27	
+R28	from Arg1:T33 Arg2:T32	
+R29	to Arg1:T33 Arg2:T35	
+R30	Attribute Arg1:T35 Arg2:T34	
+R31	Attribute Arg1:T38 Arg2:T37	
+R32	Is-a Arg1:T38 Arg2:T40	
+T3	PERSON 49 51	We
+T4	PROCESS 52 58	embark
+T25	QUALITY 64 74	systematic
+T30	PLAN-OR-PROCESS 75 83	analysis
+T36	PERSON 323 325	We
+T42	PROCESS 326 331	prove
+T43	PERSON 431 433	We
+T44	PROCESS 440 445	focus
+T45	PERSON 515 517	we
+T46	PROCESS 518 525	analyze
+R33	Agent Arg1:T44 Arg2:T43	
+R34	Agent Arg1:T4 Arg2:T3	
+R35	Output Arg1:T4 Arg2:T30	
+R36	Attribute Arg1:T30 Arg2:T25	
+R37	Input Arg1:T30 Arg2:T5	
+R38	Input Arg1:T30 Arg2:T6	
+R39	Agent Arg1:T42 Arg2:T36	
+R40	Output Arg1:T42 Arg2:T22	
+R41	Target Arg1:T44 Arg2:T31	
+R42	Agent Arg1:T46 Arg2:T45	
+R43	Input Arg1:T46 Arg2:T37	

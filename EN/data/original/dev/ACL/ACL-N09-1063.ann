@@ -1,0 +1,102 @@
+R1	Apply-to Arg1:T1 Arg2:T2
+R2	from Arg1:T5 Arg2:T6
+R5	Attribute Arg1:T10 Arg2:T9
+R6	Target Arg1:T7 Arg2:T8
+R9	to Arg1:T5 Arg2:T7
+R3	to Arg1:T5 Arg2:T4
+R4	to Arg1:T5 Arg2:T3
+A1	Self T11
+A2	Intentional T12
+R7	Agent Arg1:T12 Arg2:T11
+R8	Attribute Arg1:T14 Arg2:T13
+R10	Input Arg1:T12 Arg2:T14
+R11	Attribute Arg1:T16 Arg2:T15
+R12	Attribute Arg1:T20 Arg2:T19
+R13	Attribute Arg1:T20 Arg2:T18
+R14	Coreference Arg1:T20 Arg2:T14
+R15	Output Arg1:T17 Arg2:T18
+R16	Output Arg1:T17 Arg2:T19
+R17	Agent Arg1:T17 Arg2:T11
+R18	Apply-to Arg1:T14 Arg2:T16
+A3	Judgment T22
+R19	Attribute Arg1:T24 Arg2:T23
+R20	Attribute Arg1:T21 Arg2:T22
+R21	Condition Arg1:T22 Arg2:T23
+R22	Attribute Arg1:T21 Arg2:T24
+R23	Attribute Arg1:T23 Arg2:T46
+R24	Attribute Arg1:T26 Arg2:T27
+R25	Attribute Arg1:T26 Arg2:T25
+R26	Condition Arg1:T27 Arg2:T47
+A4	Self T28
+A5	Intentional T29
+R27	Agent Arg1:T29 Arg2:T28
+R28	Attribute Arg1:T31 Arg2:T30
+R29	Output Arg1:T29 Arg2:T31
+R30	Input Arg1:T31 Arg2:T32
+R31	Apply-to Arg1:T38 Arg2:T37
+R32	Target Arg1:T37 Arg2:T35
+R33	Coreference Arg1:T33 Arg2:T32
+R34	Component-object Arg1:T33 Arg2:T35
+R35	Attribute Arg1:T39 Arg2:T40
+R36	Condition Arg1:T40 Arg2:T41
+R37	Attribute Arg1:T39 Arg2:T42
+R38	Condition Arg1:T42 Arg2:T43
+R39	Condition Arg1:T44 Arg2:T45
+R40	from Arg1:T34 Arg2:T44
+R41	to Arg1:T34 Arg2:T42
+R43	Apply-to Arg1:T10 Arg2:T8
+R44	Compare Arg1:T23 Arg2:T47
+R45	Output Arg1:T35 Arg2:T48
+R46	Attribute Arg1:T6 Arg2:T49
+R47	Coreference Arg1:T10 Arg2:T6
+A6	Judgment T40
+A7	Judgment T42
+A8	Intentional T17
+T1	PLAN-OR-PROCESS 0 19	Hierarchical Search
+T2	PLAN-OR-PROCESS 24 31	Parsing
+T3	PLAN 39 53	coarse-to-fine
+T4	PLAN 58 68	A* parsing
+T5	APPLY-TO 69 72	use
+T49	QUALITY 73 79	simple
+T6	PLAN 80 88	grammars
+T7	PROCESS 92 97	guide
+T8	PLAN-OR-PROCESS 98 104	search
+T9	QUALITY 108 115	complex
+T10	REFERENCE 116 120	ones
+T11	PERSON 123 125	We
+T12	PROCESS 126 133	compare
+T13	QUANTITY 138 141	two
+T14	PLAN 142 152	approaches
+T15	QUALITY 158 164	common
+T16	PLAN 167 189	agenda-based framework
+T17	PROCESS 192 205	demonstrating
+T18	DATA-ITEM 210 219	tradeoffs
+T19	DATA-ITEM 224 242	relative strengths
+T20	PLAN 246 257	each method
+T21	PLAN 270 284	coarse-to-fine
+T22	QUALITY 288 299	much faster
+T46	QUALITY 304 312	moderate
+T23	DATA-ITEM 313 319	levels
+T24	DATA-ITEM 323 336	search errors
+T47	QUALITY 343 348	below
+T25	QUALITY 351 358	certain
+T26	PLAN 359 370	threshold A
+T27	QUALITY 375 383	superior
+T28	PERSON 400 402	we
+T29	PROCESS 403 410	present
+T30	QUALITY 415 420	first
+T31	PLAN 421 432	experiments
+T32	PLAN 436 459	hierarchical A* parsing
+T33	REFERENCE 465 470	which
+T35	PLAN 471 482	computation
+T48	PLAN 486 496	heuristics
+T37	PROCESS 507 513	guided
+T38	PLAN 517 532	meta-heuristics
+T39	PLAN 535 558	Multi-level hierarchies
+T40	QUALITY 563 570	helpful
+T41	PLAN 579 589	approaches
+T42	QUALITY 600 614	more effective
+T43	PLAN 622 641	coarse-to-fine case
+T34	RESULT 642 649	because
+T44	DATA-ITEM 653 670	accumulated slack
+T45	PLAN 674 687	A* heuristics

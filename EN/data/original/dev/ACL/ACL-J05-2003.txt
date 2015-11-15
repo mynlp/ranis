@@ -1,0 +1,9 @@
+Tree-Local Multicomponent Tree-Adjoining Grammars with Shared Nodes
+
+This article addresses the problem that the expressive power of tree-adjoining grammars (TAGs) is too limited to deal with certain syntactic phenomena, in particular, with scrambling in free-word-order languages.
+The TAG variants proposed so far in order to account for scrambling are not entirely satisfying.
+Therefore, the article introduces an alternative extension of TAG that is based on the notion of node sharing, so-called (restricted) tree-local multicomponent TAG with shared nodes (RSN-MCTAG).
+The analysis of some German scrambling data is sketched in order to show that this TAG extension can deal with scrambling.
+Then it is shown that for RSN-MCTAGs of a specific type, equivalent simple range concatenation grammars can be constructed.
+As a consequence, these RSN-MCTAGs are mildly context-sensitive and in particular polynomially parsable.
+These specific RSN-MCTAGs probably can deal not with all scrambling phenomena, but with an arbitrarily large subset.

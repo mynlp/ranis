@@ -1,0 +1,136 @@
+T1	PLAN 0 13	Nouveau-ROUGE
+T3	PLAN 17 31	Novelty Metric
+T4	PLAN-OR-PROCESS 36 56	Update Summarization
+T5	QUALITY 61 67	update
+T6	DATA-ITEM 68 75	summary
+T7	MODALITY 76 82	should
+T8	PROCESS 83 90	provide
+T9	QUALITY 93 99	fluent
+T10	PLAN-OR-PROCESS 100 113	summarization
+T11	QUALITY 117 120	new
+T12	DATA-ITEM 121 132	information
+T13	PLAN 138 157	time-evolving topic
+T14	PERSON 177 183	reader
+T15	TIME 188 195	already
+T16	PROCESS 196 204	reviewed
+T17	DATA-ITEM 211 220	documents
+T18	DATA-ITEM 224 233	summaries
+T19	TIME 238 242	2007
+T20	PLAN 256 287	annual summarization evaluation
+T21	COMPONENT-OBJECT 288 296	included
+T22	PLAN 300 325	update summarization task
+T23	QUANTITY 327 334	Several
+T24	PLAN 335 356	participating systems
+T25	PROCESS 357 365	produced
+T26	DATA-ITEM 366 382	update summaries
+T27	QUALITY 383 400	indistinguishable
+T28	DATA-ITEM 406 431	human-generated summaries
+T29	PROCESS 437 445	measured
+T30	APPLY-TO 446 451	using
+T31	PLAN 452 457	ROUGE
+T32	QUANTITY 468 470	no
+T33	PLAN 471 485	machine system
+T34	RESULT 486 495	performed
+T35	DATA-ITEM 501 524	human-level performance
+T36	PLAN-OR-PROCESS 528 546	manual evaluations
+T38	PLAN-OR-PROCESS 567 597	overall responsiveness scoring
+T39	PERSON 599 601	We
+T40	PROCESS 602 609	present
+T41	PLAN 626 639	Nouveau-ROUGE
+T42	REFERENCE 640 644	that
+T43	JUDGING-PROCESS 645 653	improves
+T44	DATA-ITEM 654 665	correlation
+T45	PLAN 671 696	manual evaluation metrics
+T46	MODALITY 701 704	can
+T47	APPLY-TO 708 712	used
+T48	PROCESS 716 723	predict
+T49	DATA-ITEM 733 746	pyramid score
+T50	DATA-ITEM 751 773	overall responsiveness
+T52	DATA-ITEM 778 794	update summaries
+T53	PLAN 796 809	Nouveau-ROUGE
+T54	MODALITY 810 813	can
+T55	PROCESS 814 819	serve
+T56	PLAN 840 849	surrogate
+T57	PLAN-OR-PROCESS 854 872	manual evaluations
+T58	COMPARE 878 887	comparing
+T59	QUALITY 888 896	existing
+T60	PLAN 897 904	systems
+T61	PROCESS 914 924	developing
+T62	QUALITY 925 928	new
+T63	PLAN 929 933	ones
+R1	Is-a Arg1:T1 Arg2:T3	
+R2	Apply-to Arg1:T3 Arg2:T4	
+R3	Attribute Arg1:T6 Arg2:T5	
+R5	Attribute Arg1:T8 Arg2:T7	
+R6	Attribute Arg1:T10 Arg2:T9	
+R4	Output Arg1:T8 Arg2:T10	
+R7	Agent Arg1:T8 Arg2:T6	
+R8	Attribute Arg1:T12 Arg2:T11	
+R9	Input Arg1:T10 Arg2:T12	
+R10	Condition Arg1:T12 Arg2:T13	
+R11	Agent Arg1:T16 Arg2:T14	
+R12	Attribute Arg1:T16 Arg2:T15	
+T2	QUALITY 205 210	older
+R13	Attribute Arg1:T17 Arg2:T2	
+R14	Attribute Arg1:T18 Arg2:T2	
+R15	In_Out Arg1:T16 Arg2:T17	
+R16	In_Out Arg1:T16 Arg2:T18	
+T64	TIME 247 251	2008
+R17	Condition Arg1:T21 Arg2:T64	
+R18	Condition Arg1:T21 Arg2:T19	
+R19	to Arg1:T21 Arg2:T22	
+R20	from Arg1:T21 Arg2:T20	
+R21	Attribute Arg1:T24 Arg2:T23	
+R22	Output Arg1:T25 Arg2:T26	
+R23	Apply-to Arg1:T24 Arg2:T25	
+R24	Attribute Arg1:T26 Arg2:T27	
+T65	COMPARE 401 405	from
+R25	from Arg1:T65 Arg2:T28	
+R26	to Arg1:T65 Arg2:T27	
+R27	from Arg1:T30 Arg2:T31	
+R28	to Arg1:T30 Arg2:T29	
+R29	Input Arg1:T29 Arg2:T26	
+R30	Attribute Arg1:T33 Arg2:T32	
+T66	QUALITY 496 500	near
+R31	to Arg1:T34 Arg2:T66	
+R32	from Arg1:T34 Arg2:T33	
+R33	Compare Arg1:T35 Arg2:T66	
+R34	Is-a Arg1:T38 Arg2:T36	
+A1	Judgment T27
+A2	Judgment T66
+R35	Input Arg1:T33 Arg2:T36	
+A3	Self T39
+A4	Intentional T40
+R36	Output Arg1:T40 Arg2:T41	
+R37	Coreference Arg1:T42 Arg2:T41	
+R38	In_Out Arg1:T43 Arg2:T44	
+R39	Apply-to Arg1:T42 Arg2:T43	
+R40	Attribute Arg1:T44 Arg2:T45	
+R41	Attribute Arg1:T47 Arg2:T46	
+R42	to Arg1:T47 Arg2:T48	
+R43	from Arg1:T47 Arg2:T41	
+R44	Output Arg1:T48 Arg2:T49	
+R45	Output Arg1:T48 Arg2:T50	
+R46	Input Arg1:T48 Arg2:T52	
+R47	Attribute Arg1:T52 Arg2:T50	
+R48	Attribute Arg1:T52 Arg2:T49	
+T37	PLAN-OR-PROCESS 555 562	pyramid
+R49	Is-a Arg1:T37 Arg2:T36	
+R50	Attribute Arg1:T55 Arg2:T54	
+R51	Apply-to Arg1:T53 Arg2:T55	
+R52	Member-collection Arg1:T53 Arg2:T56	
+R53	Apply-to Arg1:T56 Arg2:T57	
+R54	Attribute Arg1:T60 Arg2:T59	
+R55	Attribute Arg1:T63 Arg2:T62	
+R56	Output Arg1:T61 Arg2:T63	
+T51	QUALITY 825 839	less expensive
+R57	Attribute Arg1:T56 Arg2:T51	
+R58	from Arg1:T58 Arg2:T60	
+R59	to Arg1:T58 Arg2:T51	
+R60	Compare Arg1:T61 Arg2:T51	
+R61	Agent Arg1:T40 Arg2:T39	
+T67	PLAN 612 618	metric
+T68	IS-A 619 625	called
+R62	from Arg1:T68 Arg2:T41	
+R63	to Arg1:T68 Arg2:T67	
+R64	Condition Arg1:T27 Arg2:T29	

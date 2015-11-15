@@ -1,0 +1,110 @@
+T1	INPUT 243 247	used
+T2	JUDGING-PROCESS 251 258	enhance
+T3	INPUT 351 355	used
+T4	PROCESS 390 397	support
+T5	PROCESS 678 682	make
+T6	PROCESS 378 386	designed
+T7	MODALITY 236 239	can
+T8	MODALITY 641 646	needs
+T9	QUALITY 533 544	preliminary
+T10	QUALITY 628 635	further
+T11	QUANTITY 120 123	two
+T12	PLAN 40 73	Information Extraction Technology
+T13	PLAN 79 92	Text Browsers
+T14	DATA-ITEM 133 140	outputs
+T15	PLAN 146 168	information extraction
+T16	PLAN 170 172	IE
+T17	DATA-ITEM 185 209	named entity annotations
+T18	DATA-ITEM 214 232	scenario templates
+T19	PLAN-OR-PROCESS 259 265	access
+T20	DATA-ITEM 269 285	text collections
+T21	PLAN 301 313	text browser
+T22	DATA-ITEM 331 347	this information
+T23	PLAN 361 377	prototype system
+T24	PERSON 398 417	information workers
+T25	DATA-ITEM 431 458	pharmaceutical news archive
+T27	PLAN-OR-PROCESS 476 503	``industry watch'' function
+T28	DATA-ITEM 520 527	results
+T29	PLAN-OR-PROCESS 558 573	user evaluation
+T30	PLAN 581 587	system
+T31	PLAN-OR-PROCESS 636 640	work
+T32	PLAN 665 674	interface
+T34	PLAN 725 750	IE-enhanced text browsers
+T35	QUALITY 0 11	Intelligent
+T36	PROCESS 12 18	Access
+R1	Attribute Arg1:T36 Arg2:T35	
+T37	DATA-ITEM 22 26	Text
+T38	PROCESS 28 39	Integrating
+R2	Attribute Arg1:T14 Arg2:T11	
+R3	Equivalence Arg1:T16 Arg2:T15	
+T39	PLAN 174 181	systems
+R4	Split Arg1:T39 Arg2:T15	
+T40	QUALITY 292 300	standard
+R6	Attribute Arg1:T21 Arg2:T40	
+T41	PLAN-OR-PROCESS 419 425	access
+T42	REFERENCE 470 475	their
+R7	Coreference Arg1:T42 Arg2:T24	
+T43	QUALITY 546 557	qualitative
+T44	PERSON 558 562	user
+R8	Attribute Arg1:T29 Arg2:T43	
+R9	Attribute Arg1:T29 Arg2:T9	
+T46	QUALITY 601 617	broadly positive
+T47	RESULT 618 627	indicates
+T48	PROCESS 653 657	done
+R10	Attribute Arg1:T48 Arg2:T8	
+T49	PERSON 683 688	users
+T50	QUALITY 689 694	aware
+T51	QUALITY 702 721	increased potential
+R11	Attribute Arg1:T34 Arg2:T51	
+T26	REFERENCE 589 594	which
+R12	Coreference Arg1:T26 Arg2:T29	
+R13	Coreference Arg1:T22 Arg2:T14	
+R14	Poss Arg1:T24 Arg2:T41	
+R15	Poss Arg1:T42 Arg2:T27	
+R16	Attribute Arg1:T31 Arg2:T10	
+T45	QUALITY 124 132	standard
+R17	Attribute Arg1:T14 Arg2:T45	
+R18	Destination Arg1:T38 Arg2:T13	
+R19	In_Out Arg1:T38 Arg2:T12	
+R20	Target Arg1:T36 Arg2:T37	
+R21	Output Arg1:T39 Arg2:T14	
+R22	Is-a Arg1:T17 Arg2:T14	
+R23	Is-a Arg1:T18 Arg2:T14	
+R5	to Arg1:T1 Arg2:T14	
+R24	from Arg1:T1 Arg2:T2	
+R25	Target Arg1:T19 Arg2:T20	
+R26	Apply-to Arg1:T21 Arg2:T19	
+R27	In_Out Arg1:T2 Arg2:T19	
+R28	to Arg1:T3 Arg2:T22	
+R29	from Arg1:T3 Arg2:T23	
+R30	Target Arg1:T41 Arg2:T25	
+R31	Input Arg1:T29 Arg2:T30	
+R32	Attribute Arg1:T26 Arg2:T46	
+R33	Attribute Arg1:T49 Arg2:T50	
+R34	Output Arg1:T5 Arg2:T50	
+R35	Attribute Arg1:T50 Arg2:T51	
+R36	Output Arg1:T48 Arg2:T31	
+R37	Condition Arg1:T48 Arg2:T32	
+R38	Apply-to Arg1:T48 Arg2:T5	
+R39	from Arg1:T47 Arg2:T26	
+R40	to Arg1:T47 Arg2:T31	
+R41	Attribute Arg1:T1 Arg2:T7	
+R42	Output Arg1:T6 Arg2:T23	
+R43	Apply-to Arg1:T6 Arg2:T4	
+R44	Target Arg1:T4 Arg2:T41	
+R45	Output Arg1:T29 Arg2:T28	
+T33	REFERENCE 97 107	this paper
+T52	PERSON 108 110	we
+T53	PROCESS 111 115	show
+R46	Agent Arg1:T53 Arg2:T52	
+R47	Condition Arg1:T53 Arg2:T33	
+R48	Output Arg1:T53 Arg2:T1	
+T54	PERSON 315 317	We
+T55	PROCESS 318 326	describe
+R49	Agent Arg1:T55 Arg2:T54	
+R50	Output Arg1:T55 Arg2:T3	
+R51	Is-a Arg1:T41 Arg2:T27	
+T56	PERSON 505 507	We
+T57	PROCESS 513 519	report
+R52	Agent Arg1:T57 Arg2:T56	
+R53	Output Arg1:T57 Arg2:T28	

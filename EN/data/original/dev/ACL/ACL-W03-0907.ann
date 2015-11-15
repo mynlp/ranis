@@ -1,0 +1,109 @@
+R1	Apply-to Arg1:T1 Arg2:T51
+A1	Self T2
+A2	Intentional T3
+R2	Agent Arg1:T3 Arg2:T2
+R3	Output Arg1:T3 Arg2:T4
+R4	In_Out Arg1:T4 Arg2:T5
+A3	Intentional T6
+R5	Agent Arg1:T6 Arg2:T2
+R6	Input Arg1:T6 Arg2:T7
+R7	Coreference Arg1:T7 Arg2:T4
+R8	Apply-to Arg1:T6 Arg2:T8
+R9	Poss Arg1:T9 Arg2:T10
+R10	In_Out Arg1:T8 Arg2:T10
+A4	Self T11
+A5	Intentional T12
+R11	Agent Arg1:T12 Arg2:T11
+R12	In_Out Arg1:T13 Arg2:T14
+R13	Output Arg1:T16 Arg2:T17
+#1	AnnotatorNotes T17	multi-representation models
+R14	In_Out Arg1:T17 Arg2:T18
+R15	to Arg1:T15 Arg2:T16
+R16	from Arg1:T15 Arg2:T13
+R17	Attribute Arg1:T21 Arg2:T20
+R18	Output Arg1:T21 Arg2:T19
+R19	from Arg1:T22 Arg2:T23
+R20	to Arg1:T22 Arg2:T21
+A6	Self T24
+A7	Intentional T25
+R21	Agent Arg1:T25 Arg2:T24
+R22	Output Arg1:T25 Arg2:T26
+R23	Coreference Arg1:T27 Arg2:T26
+R24	Attribute Arg1:T30 Arg2:T29
+R25	Attribute Arg1:T31 Arg2:T30
+R26	to Arg1:T28 Arg2:T30
+R27	from Arg1:T28 Arg2:T27
+R29	to Arg1:T32 Arg2:T33
+R30	from Arg1:T32 Arg2:T26
+R31	Input Arg1:T35 Arg2:T36
+R32	Attribute Arg1:T38 Arg2:T37
+R33	Input Arg1:T35 Arg2:T37
+R34	Apply-to Arg1:T26 Arg2:T35
+R35	Output Arg1:T35 Arg2:T39
+R36	Apply-to Arg1:T26 Arg2:T52
+R37	Output Arg1:T52 Arg2:T40
+R38	Apply-to Arg1:T26 Arg2:T41
+R39	Output Arg1:T41 Arg2:T42
+R40	In_Out Arg1:T42 Arg2:T43
+R41	to Arg1:T44 Arg2:T42
+R42	from Arg1:T44 Arg2:T26
+A8	Name T53
+R43	Is-a Arg1:T50 Arg2:T49
+R44	Apply-to Arg1:T49 Arg2:T48
+R45	Output Arg1:T48 Arg2:T47
+R46	Output Arg1:T48 Arg2:T46
+R47	Output Arg1:T48 Arg2:T45
+R49	Output Arg1:T12 Arg2:T21
+R48	Output Arg1:T12 Arg2:T15
+T51	PROCESS 0 19	Story Understanding
+T1	PLAN-OR-PROCESS 28 67	Multi-Representation Model Construction
+T2	PERSON 70 72	We
+T3	PROCESS 73 80	present
+T4	PLAN 84 101	implemented model
+T5	PROCESS 105 124	story understanding
+T6	PROCESS 129 134	apply
+T7	REFERENCE 135 137	it
+T8	PROCESS 145 158	understanding
+T9	PERSON 164 172	children
+T10	DATA-ITEM 176 181	story
+T11	PERSON 184 186	We
+T12	PROCESS 187 192	argue
+T13	PROCESS 198 211	understanding
+T14	DATA-ITEM 214 219	story
+T15	COMPONENT-OBJECT 220 228	consists
+T16	PROCESS 232 240	building
+T17	PLAN 241 267	multirepresentation models
+T18	DATA-ITEM 275 280	story
+T19	PLAN 290 302	story models
+T20	QUALITY 307 318	efficiently
+T21	PROCESS 319 330	constructed
+T22	APPLY-TO 331 336	using
+T23	PLAN 339 360	satisfiability solver
+T24	PERSON 363 365	We
+T25	PROCESS 366 373	present
+T26	PLAN 376 392	computer program
+T27	REFERENCE 393 397	that
+T28	COMPONENT-OBJECT 398 406	contains
+T29	QUANTITY 407 415	multiple
+T30	DATA-ITEM 416 431	representations
+T31	DATA-ITEM 435 456	commonsense knowledge
+T32	INPUT 459 464;477 485	takes as input
+T33	DATA-ITEM 467 476	narrative
+T35	PROCESS 488 498	transforms
+T36	DATA-ITEM 503 512	narrative
+T37	DATA-ITEM 517 532	representations
+T38	DATA-ITEM 536 557	commonsense knowledge
+T39	PLAN 565 587	satisfiability problem
+T52	PROCESS 590 594	runs
+T40	PLAN 597 618	satisfiability solver
+T41	PROCESS 625 633	produces
+T42	PLAN 634 640	models
+T43	DATA-ITEM 648 653	story
+T44	OUTPUT 657 663	output
+T45	DATA-ITEM 670 679	narrative
+T46	PLAN 682 688	models
+T47	DATA-ITEM 695 710	representations
+T48	PROCESS 715 724	expressed
+T49	PLAN 732 740	language
+T50	PLAN 744 770	Shanahan 's event calculus
+T53	PERSON 744 752	Shanahan

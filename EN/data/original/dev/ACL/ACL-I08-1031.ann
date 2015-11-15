@@ -1,0 +1,128 @@
+A1	Self T4
+A2	Intentional T5
+R1	Agent Arg1:T5 Arg2:T4
+R2	Attribute Arg1:T7 Arg2:T6
+R3	Output Arg1:T5 Arg2:T7
+R4	Apply-to Arg1:T7 Arg2:T8
+R5	In_Out Arg1:T8 Arg2:T9
+R7	Apply-to Arg1:T1 Arg2:T2
+A3	Self T11
+A4	Intentional T12
+R8	Agent Arg1:T12 Arg2:T11
+R9	Member-collection Arg1:T59 Arg2:T13
+R10	Member-collection Arg1:T60 Arg2:T13
+R11	Member-collection Arg1:T16 Arg2:T13
+R12	Attribute Arg1:T18 Arg2:T17
+R13	Output Arg1:T12 Arg2:T13
+R14	Input Arg1:T12 Arg2:T18
+R6	Apply-to Arg1:T8 Arg2:T10
+A5	Self T19
+R15	Member-collection Arg1:T22 Arg2:T21
+R16	Target Arg1:T23 Arg2:T24
+A6	Intentional T20
+R17	Agent Arg1:T20 Arg2:T19
+R18	Input Arg1:T20 Arg2:T21
+R19	Apply-to Arg1:T20 Arg2:T23
+R20	Attribute Arg1:T26 Arg2:T25
+R21	In_Out Arg1:T24 Arg2:T26
+R22	Target Arg1:T23 Arg2:T27
+R23	Output Arg1:T27 Arg2:T28
+R24	Input Arg1:T27 Arg2:T30
+R25	Input Arg1:T27 Arg2:T29
+R26	Component-object Arg1:T30 Arg2:T28
+A7	Self T31
+A8	Intentional T32
+R27	Agent Arg1:T32 Arg2:T31
+R28	Attribute Arg1:T34 Arg2:T33
+R29	Input Arg1:T32 Arg2:T34
+R30	Apply-to Arg1:T32 Arg2:T35
+R31	from Arg1:T36 Arg2:T37
+R32	to Arg1:T36 Arg2:T35
+R33	from Arg1:T36 Arg2:T38
+R34	Attribute Arg1:T42 Arg2:T41
+R35	In_Out Arg1:T40 Arg2:T42
+R36	Apply-to Arg1:T39 Arg2:T40
+R37	Output Arg1:T39 Arg2:T38
+R38	Output Arg1:T39 Arg2:T37
+A9	Self T43
+R39	Poss Arg1:T43 Arg2:T44
+A10	Self T45
+R40	Poss Arg1:T45 Arg2:T46
+R41	from Arg1:T47 Arg2:T48
+R42	to Arg1:T47 Arg2:T46
+R43	Attribute Arg1:T50 Arg2:T49
+R44	Attribute Arg1:T46 Arg2:T50
+R45	Compare Arg1:T51 Arg2:T50
+R46	from Arg1:T52 Arg2:T53
+R47	to Arg1:T52 Arg2:T51
+R48	to Arg1:T54 Arg2:T55
+R49	from Arg1:T54 Arg2:T51
+R50	Attribute Arg1:T57 Arg2:T56
+R51	Condition Arg1:T50 Arg2:T57
+A11	Judgment T50
+R52	Attribute Arg1:T44 Arg2:T50
+A12	Name T14
+A13	Name T61
+A14	Name T15
+A15	Name T58
+T1	PLAN-OR-PROCESS 0 20	Hypothesis Selection
+T2	PLAN-OR-PROCESS 24 47	Machine Transliteration
+T3	PLAN 52 71	Web Mining Approach
+T4	PERSON 74 76	We
+T5	PROCESS 77 84	propose
+T6	QUALITY 87 90	new
+T7	PLAN 91 97	method
+T8	PROCESS 101 110	selecting
+T9	DATA-ITEM 111 121	hypotheses
+T10	PLAN-OR-PROCESS 126 149	machine transliteration
+T11	PERSON 152 154	We
+T12	PROCESS 155 163	generate
+T13	DATA-ITEM 166 169	set
+T14	LANGUAGE 173 180	Chinese
+T59	DATA-ITEM 173 180	Chinese
+T15	LANGUAGE 183 191	Japanese
+T60	DATA-ITEM 183 191	Japanese
+T16	DATA-ITEM 198 231	Korean transliteration hypotheses
+T58	LANGUAGE 198 204	Korean
+T17	QUALITY 238 243	given
+T18	DATA-ITEM 244 256	English word
+T61	LANGUAGE 244 251	English
+T19	PERSON 259 261	We
+T20	PROCESS 267 270	use
+T21	DATA-ITEM 275 278	set
+T22	DATA-ITEM 282 308	transliteration hypotheses
+T23	PROCESS 314 319	guide
+T24	PROCESS 323 330	finding
+T25	QUALITY 331 339	relevant
+T26	DATA-ITEM 340 349	Web pages
+T27	PROCESS 354 360	mining
+T28	DATA-ITEM 361 383	contextual information
+T29	DATA-ITEM 392 418	transliteration hypotheses
+T30	DATA-ITEM 428 436	Web page
+T31	PERSON 449 451	we
+T32	PROCESS 452 455	use
+T33	QUALITY 460 465	mined
+T34	DATA-ITEM 466 477	information
+T35	PLAN 482 509	machine-learning algorithms
+T36	IS-A 510 519	including
+T37	PLAN 520 543	support vector machines
+T38	PLAN 548 569	maximum entropy model
+T39	PROCESS 570 578	designed
+T40	PROCESS 582 588	select
+T41	QUALITY 593 600	correct
+T42	DATA-ITEM 601 627	transliteration hypothesis
+T43	PERSON 633 636	our
+T44	PLAN 637 648	experiments
+T45	PERSON 651 654	our
+T46	PLAN 655 670	proposed method
+T47	APPLY-TO 671 679	based on
+T48	PLAN-OR-PROCESS 680 690	Web mining
+T49	QUALITY 691 703	consistently
+T50	QUALITY 704 716	outperformed
+T51	PLAN 717 724	systems
+T52	APPLY-TO 725 730	based
+T53	PLAN-OR-PROCESS 734 751	simple Web counts
+T54	CONDITION 752 756	used
+T55	EXTERNAL-REFERENCE 760 773	previous work
+T56	MODALITY 776 786	regardless
+T57	LANGUAGE 794 802	language

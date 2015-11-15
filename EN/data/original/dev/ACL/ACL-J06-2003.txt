@@ -1,0 +1,9 @@
+Building and Using a Lexical Knowledge Base of Near-Synonym Differences
+
+Choosing the wrong word in a machine translation or natural language generation system can convey unwanted connotations, implications, or attitudes. The choice between near-synonyms such as error, mistake, slip, and blunder -- words that share the same core meaning, but differ in their nuances -- can be made only if knowledge about their differences is available.
+We present a method to automatically acquire a new type of lexical resource: a knowledge base of near-synonym differences.
+We develop an unsupervised decision-list algorithm that learns extraction patterns from a special dictionary of synonym differences.
+The patterns are then used to extract knowledge from the text of the dictionary.
+The initial knowledge base is later enriched with information from other machine-readable dictionaries.
+Information about the collocational behavior of the near-synonyms is acquired from free text.
+The knowledge base is used by Xenon, a natural language generation system that shows how the new lexical resource can be used to choose the best near-synonym in specific situations.

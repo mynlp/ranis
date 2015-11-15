@@ -1,0 +1,172 @@
+T1	PLAN 69 74	class
+T2	PLAN 78 111	single-round, sealed-bid auctions
+T3	DATA-ITEM 135 140	items
+T4	PERSON 144 151	bidders
+T5	PROCESS 161 167	desire
+T6	PLAN 191 223	worst-case competitive framework
+T7	PROCESS 224 231	defined
+T8	PROCESS 247 255	compares
+T9	DATA-ITEM 260 266	profit
+T10	DATA-ITEM 273 280	auction
+T11	PLAN-OR-PROCESS 303 320	single-price sale
+T12	QUALITY 295 302	optimal
+T14	PLAN 34 49;5 20	Supply Auctions Optimal Limited
+T15	PLAN 24 49	Unlimited Supply Auctions
+T16	QUANTITY 330 333	two
+T17	DATA-ITEM 334 339	items
+T18	QUALITY 324 329	least
+T19	QUALITY 375 382	optimal
+T20	PLAN 383 390	auction
+T21	QUANTITY 395 400	three
+T22	DATA-ITEM 401 406	items
+T23	PLAN 421 434	open question
+T24	PROCESS 408 417	answering
+T25	PROCESS 365 371	derive
+T26	QUALITY 470 474	form
+T27	PLAN 478 490	this auction
+R1	Coreference Arg1:T27 Arg2:T20	
+T28	QUALITY 494 505	independent
+T29	PLAN 513 534	competitive framework
+T30	PROCESS 535 539	used
+T31	PLAN 561 567	schema
+T32	PLAN 572 582	converting
+T33	PLAN 591 613	limited-supply auction
+T34	QUALITY 585 590	given
+T35	PLAN 622 646	unlimited supply auction
+T36	APPLY-TO 648 656	Applying
+T37	PLAN 657 671	this technique
+R2	Coreference Arg1:T37 Arg2:T31	
+T38	PLAN 687 694	auction
+T39	QUALITY 679 686	optimal
+T40	QUANTITY 699 704	three
+T41	DATA-ITEM 705 710	items
+T42	PLAN 726 733	auction
+T43	DATA-ITEM 741 758	competitive ratio
+T44	QUANTITY 762 766	3.25
+T46	DATA-ITEM 814 831	competitive ratio
+T47	QUANTITY 835 839	3.39
+T45	QUALITY 792 813	previously best-known
+T48	JUDGING-PROCESS 774 782	improves
+T49	PROCESS 715 722	achieve
+T50	PROCESS 862 872	generalize
+T51	THING 875 881	result
+T52	PROCESS 895 901	extend
+T53	OCCURENT 906 919	understanding
+T54	QUALITY 927 933	nature
+T55	PLAN 949 968	competitive auction
+T56	QUALITY 941 948	optimal
+T58	QUALITY 989 996	optimal
+T59	PLAN 997 1016	competitive auction
+T60	PROCESS 1030 1036	offers
+T61	DATA-ITEM 1037 1043	prices
+T62	QUALITY 1017 1029	occasionally
+T63	QUALITY 1053 1059	higher
+T64	DATA-ITEM 1069 1079	bid values
+T65	QUANTITY 1065 1068	all
+T57	DATA-ITEM 172 176	unit
+T66	QUANTITY 168 171	one
+R5	Attribute Arg1:T57 Arg2:T66	
+R6	Attribute Arg1:T11 Arg2:T12	
+R7	Attribute Arg1:T17 Arg2:T16	
+R9	Attribute Arg1:T22 Arg2:T21	
+R11	Attribute Arg1:T33 Arg2:T34	
+R12	Attribute Arg1:T38 Arg2:T39	
+R13	Attribute Arg1:T43 Arg2:T44	
+R14	Attribute Arg1:T41 Arg2:T40	
+T67	REFERENCE 768 773	which
+R15	Coreference Arg1:T67 Arg2:T43	
+R16	Attribute Arg1:T46 Arg2:T45	
+R17	Attribute Arg1:T46 Arg2:T47	
+R18	Attribute Arg1:T55 Arg2:T56	
+R19	Attribute Arg1:T59 Arg2:T58	
+R20	Attribute Arg1:T60 Arg2:T62	
+R21	Attribute Arg1:T64 Arg2:T65	
+T68	REFERENCE 1044 1048	that
+R22	Coreference Arg1:T68 Arg2:T61	
+R23	Attribute Arg1:T68 Arg2:T63	
+R24	Compare Arg1:T64 Arg2:T63	
+R3	Attribute Arg1:T20 Arg2:T19	
+R4	Attribute Arg1:T26 Arg2:T28	
+T13	EXTERNAL-REFERENCE 235 241	[9, 5]
+T69	EXTERNAL-REFERENCE 440 443	[8]
+T70	EXTERNAL-REFERENCE 845 848	[7]
+T71	EXTERNAL-REFERENCE 887 890	[8]
+T79	REFERENCE 284 288	that
+R10	Coreference Arg1:T79 Arg2:T9	
+T80	REFERENCE 242 246	that
+R25	Coreference Arg1:T80 Arg2:T6	
+T81	DATA-ITEM 118 121	set
+T82	QUALITY 125 134	identical
+T83	PERSON 675 678	our
+R26	Poss Arg1:T83 Arg2:T38	
+T84	PERSON 902 905	our
+R27	Poss Arg1:T84 Arg2:T53	
+T85	TIME 792 802	previously
+R28	Member-collection Arg1:T3 Arg2:T81	
+R29	Attribute Arg1:T3 Arg2:T82	
+R30	Attribute Arg1:T27 Arg2:T26	
+R31	Attribute Arg1:T55 Arg2:T54	
+R33	Output Arg1:T60 Arg2:T61	
+R34	Output Arg1:T2 Arg2:T81	
+R35	Attribute Arg1:T2 Arg2:T1	
+R36	Target Arg1:T5 Arg2:T57	
+T87	REFERENCE 152 155	who
+R37	Coreference Arg1:T87 Arg2:T4	
+R38	Agent Arg1:T5 Arg2:T87	
+R39	Destination Arg1:T2 Arg2:T4	
+R40	Output Arg1:T7 Arg2:T6	
+R41	Condition Arg1:T7 Arg2:T13	
+R42	Apply-to Arg1:T80 Arg2:T8	
+R43	Attribute Arg1:T10 Arg2:T9	
+R44	Input Arg1:T8 Arg2:T9	
+R45	Output Arg1:T11 Arg2:T17	
+R8	Attribute Arg1:T16 Arg2:T18	
+R46	Attribute Arg1:T11 Arg2:T79	
+R47	Output Arg1:T25 Arg2:T20	
+R48	Output Arg1:T20 Arg2:T22	
+R49	Destination Arg1:T24 Arg2:T23	
+R50	Apply-to Arg1:T20 Arg2:T24	
+R51	Condition Arg1:T25 Arg2:T69	
+R32	Apply-to Arg1:T29 Arg2:T30	
+R52	Condition Arg1:T28 Arg2:T29	
+R53	Input Arg1:T32 Arg2:T33	
+R54	Output Arg1:T32 Arg2:T35	
+R55	Apply-to Arg1:T31 Arg2:T32	
+R56	from Arg1:T36 Arg2:T37	
+R57	to Arg1:T36 Arg2:T38	
+R58	Output Arg1:T38 Arg2:T41	
+R61	Attribute Arg1:T42 Arg2:T43	
+R62	Compare Arg1:T46 Arg2:T48	
+R63	Condition Arg1:T46 Arg2:T70	
+R64	Apply-to Arg1:T67 Arg2:T48	
+R66	In_Out Arg1:T50 Arg2:T51	
+R67	Condition Arg1:T51 Arg2:T71	
+R68	In_Out Arg1:T52 Arg2:T53	
+R69	Condition Arg1:T53 Arg2:T54	
+R70	Apply-to Arg1:T59 Arg2:T60	
+T72	PERSON 50 52	We
+T73	PROCESS 53 64	investigate
+T74	PERSON 178 180	We
+T75	PROCESS 181 186	adopt
+T76	REFERENCE 344 354	this paper
+T77	PERSON 356 358	we
+T78	PERSON 453 455	we
+T86	PROCESS 456 460	show
+T88	PERSON 548 550	we
+T89	PROCESS 551 558	propose
+T90	PERSON 859 861	we
+R71	Agent Arg1:T73 Arg2:T72	
+R72	In_Out Arg1:T73 Arg2:T1	
+R73	Agent Arg1:T75 Arg2:T74	
+R74	In_Out Arg1:T75 Arg2:T6	
+R75	Agent Arg1:T25 Arg2:T77	
+R76	Condition Arg1:T25 Arg2:T76	
+R77	Agent Arg1:T86 Arg2:T78	
+R78	Agent Arg1:T89 Arg2:T88	
+R79	Output Arg1:T89 Arg2:T31	
+R80	Agent Arg1:T50 Arg2:T90	
+R81	Agent Arg1:T52 Arg2:T90	
+T91	PERSON 712 714	we
+R82	Agent Arg1:T49 Arg2:T91	
+R65	Result Arg1:T49 Arg2:T42	
+R59	Other-rel Arg1:T36 Arg2:T49	

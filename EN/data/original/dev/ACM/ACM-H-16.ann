@@ -1,0 +1,176 @@
+T1	PROCESS 4 10	Impact
+T2	PLAN-OR-PROCESS 14 21	Caching
+T3	PLAN-OR-PROCESS 25 39	Search Engines
+T4	REFERENCE 43 53	this paper
+T5	PERSON 54 56	we
+T6	PROCESS 57 62	study
+T7	PLAN-OR-PROCESS 67 77	trade-offs
+T8	PROCESS 81 90	designing
+T9	QUALITY 91 100	efficient
+T10	PLAN 101 116	caching systems
+T11	PLAN 121 139	Web search engines
+T12	PERSON 141 143	We
+T13	PROCESS 144 151	explore
+T14	PROCESS 156 162	impact
+T15	QUALITY 166 175	different
+T16	PLAN-OR-PROCESS 176 186	approaches
+T17	PLAN-OR-PROCESS 196 202	static
+T18	PLAN-OR-PROCESS 207 222	dynamic caching
+T19	PROCESS 228 235	caching
+T20	DATA-ITEM 236 249	query results
+T21	PROCESS 254 261	caching
+T22	DATA-ITEM 262 275	posting lists
+T23	INPUT 277 282	Using
+T24	DATA-ITEM 285 294	query log
+T26	TIME 295 316	spanning a whole year
+T27	PERSON 317 319	we
+T28	PROCESS 320 327	explore
+T29	PLAN-OR-PROCESS 332 343	limitations
+T30	PROCESS 347 354	caching
+T31	PERSON 359 361	we
+T32	PROCESS 362 373	demonstrate
+T33	PROCESS 379 386	caching
+T34	DATA-ITEM 387 400	posting lists
+T35	MODALITY 401 404	can
+T36	RESULT 405 412	achieve
+T37	QUALITY 413 419	higher
+T38	DATA-ITEM 420 429	hit rates
+T39	PROCESS 435 442	caching
+T40	DATA-ITEM 443 456	query answers
+T41	PERSON 458 460	We
+T42	PROCESS 461 468	propose
+T43	QUALITY 471 474	new
+T44	PLAN 475 484	algorithm
+T45	PLAN-OR-PROCESS 489 503	static caching
+T47	DATA-ITEM 507 520	posting lists
+T48	REFERENCE 522 527	which
+T49	JUDGING-PROCESS 528 539	outperforms
+T50	TIME 540 548	previous
+T51	PLAN 549 556	methods
+T52	PERSON 558 560	We
+T53	PROCESS 566 571	study
+T54	PLAN 576 583	problem
+T55	PROCESS 587 594	finding
+T56	QUALITY 599 606	optimal
+T57	PLAN 607 610	way
+T58	PROCESS 614 619	split
+T59	DATA-ITEM 624 636	static cache
+T60	DATA-ITEM 645 652	answers
+T61	DATA-ITEM 657 670	posting lists
+T62	PERSON 681 683	we
+T63	PROCESS 684 691	measure
+T64	PROCESS 700 707	changes
+T65	DATA-ITEM 715 724	query log
+T66	PROCESS 725 731	affect
+T67	DATA-ITEM 736 749	effectiveness
+T68	PLAN-OR-PROCESS 753 767	static caching
+T69	PERSON 775 778	our
+T70	PLAN 779 790	observation
+T71	PLAN-OR-PROCESS 800 812	distribution
+T72	PLAN-OR-PROCESS 820 827	queries
+T73	QUALITY 836 842	slowly
+T74	TIME 843 851	over tim
+T75	PERSON 854 857	Our
+T76	DATA-ITEM 858 865	results
+T77	PLAN 870 882	observations
+T78	QUALITY 887 897	applicable
+T79	PLAN 901 917	different levels
+T80	PLAN 925 946	data-access hierarchy
+T81	PLAN 968 985	memory/disk layer
+T83	PLAN 991 1017	broker/remote server layer
+A1	Self T4
+A2	Self T5
+A3	Intentional T6
+R1	Agent Arg1:T6 Arg2:T5	
+R2	Condition Arg1:T6 Arg2:T4	
+R3	Attribute Arg1:T10 Arg2:T9	
+R4	Apply-to Arg1:T10 Arg2:T11	
+R5	Output Arg1:T8 Arg2:T10	
+R6	In_Out Arg1:T6 Arg2:T7	
+R7	Condition Arg1:T7 Arg2:T8	
+A4	Self T12
+A5	Intentional T13
+R8	Agent Arg1:T13 Arg2:T12	
+R9	Attribute Arg1:T16 Arg2:T15	
+R10	Is-a Arg1:T17 Arg2:T16	
+R11	Is-a Arg1:T18 Arg2:T16	
+R12	Is-a Arg1:T19 Arg2:T16	
+R13	Is-a Arg1:T21 Arg2:T16	
+R14	In_Out Arg1:T19 Arg2:T20	
+R15	In_Out Arg1:T21 Arg2:T22	
+R16	Result Arg1:T2 Arg2:T1	
+R17	In_Out Arg1:T1 Arg2:T3	
+R18	Result Arg1:T16 Arg2:T14	
+R19	In_Out Arg1:T13 Arg2:T14	
+R20	Condition Arg1:T24 Arg2:T26	
+A6	Self T27
+A7	Intentional T28
+R21	Agent Arg1:T28 Arg2:T27	
+R22	from Arg1:T23 Arg2:T28	
+R23	to Arg1:T23 Arg2:T24	
+R24	Target Arg1:T29 Arg2:T30	
+R25	In_Out Arg1:T28 Arg2:T29	
+A8	Self T31
+A9	Intentional T32
+R26	Agent Arg1:T32 Arg2:T31	
+R27	In_Out Arg1:T33 Arg2:T34	
+R28	Attribute Arg1:T38 Arg2:T37	
+R29	Attribute Arg1:T36 Arg2:T35	
+R30	from Arg1:T36 Arg2:T33	
+R31	to Arg1:T36 Arg2:T37	
+R32	In_Out Arg1:T39 Arg2:T40	
+R34	Output Arg1:T32 Arg2:T37	
+A10	Self T41
+A11	Intentional T42
+R35	Agent Arg1:T42 Arg2:T41	
+R36	Attribute Arg1:T44 Arg2:T43	
+R37	Output Arg1:T42 Arg2:T44	
+R38	Apply-to Arg1:T44 Arg2:T45	
+R39	In_Out Arg1:T45 Arg2:T47	
+R40	Condition Arg1:T51 Arg2:T50	
+R41	Compare Arg1:T51 Arg2:T49	
+R42	Coreference Arg1:T48 Arg2:T44	
+R43	Apply-to Arg1:T48 Arg2:T49	
+A12	Self T52
+A13	Intentional T53
+R44	Agent Arg1:T53 Arg2:T52	
+R45	Other-rel Arg1:T55 Arg2:T54	
+R46	In_Out Arg1:T53 Arg2:T54	
+R47	Attribute Arg1:T57 Arg2:T56	
+R48	In_Out Arg1:T55 Arg2:T57	
+R49	Apply-to Arg1:T57 Arg2:T58	
+R50	In_Out Arg1:T58 Arg2:T59	
+A14	Self T62
+A15	Intentional T63
+R53	Agent Arg1:T63 Arg2:T62	
+R54	Attribute Arg1:T68 Arg2:T67	
+R55	In_Out Arg1:T66 Arg2:T67	
+R56	In_Out Arg1:T64 Arg2:T65	
+R57	Result Arg1:T64 Arg2:T66	
+T25	PROCESS 769 774	given
+A16	Self T69
+R58	Poss Arg1:T69 Arg2:T70	
+R59	Output Arg1:T71 Arg2:T72	
+T46	PROCESS 828 835	changes
+R60	Attribute Arg1:T46 Arg2:T73	
+R61	Condition Arg1:T46 Arg2:T74	
+R62	In_Out Arg1:T46 Arg2:T71	
+R63	Output Arg1:T25 Arg2:T70	
+R64	Result Arg1:T63 Arg2:T25	
+R65	Output Arg1:T70 Arg2:T46	
+A17	Self T75
+R66	Poss Arg1:T75 Arg2:T76	
+R67	Poss Arg1:T75 Arg2:T77	
+R68	Attribute Arg1:T77 Arg2:T78	
+R69	Attribute Arg1:T76 Arg2:T78	
+R70	Condition Arg1:T78 Arg2:T79	
+R71	Component-object Arg1:T80 Arg2:T79	
+R72	Is-a Arg1:T81 Arg2:T79	
+R73	Is-a Arg1:T83 Arg2:T79	
+T82	COMPARE 430 434	than
+R74	from Arg1:T82 Arg2:T39	
+R75	to Arg1:T82 Arg2:T37	
+T84	CONDITION 637 644	between
+R33	from Arg1:T84 Arg2:T58	
+R76	to Arg1:T84 Arg2:T60	
+R77	to Arg1:T84 Arg2:T61	

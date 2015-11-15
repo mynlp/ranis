@@ -1,0 +1,119 @@
+R1	Input Arg1:T1 Arg2:T2
+R2	from Arg1:T3 Arg2:T4
+R3	from Arg1:T3 Arg2:T5
+R4	to Arg1:T3 Arg2:T1
+R5	Origin Arg1:T6 Arg2:T56
+R6	Destination Arg1:T6 Arg2:T7
+R7	Result Arg1:T6 Arg2:T8
+R8	Output Arg1:T8 Arg2:T9
+R9	Target Arg1:T9 Arg2:T10
+R10	Attribute Arg1:T12 Arg2:T11
+R11	Condition Arg1:T10 Arg2:T12
+R12	to Arg1:T13 Arg2:T14
+R13	from Arg1:T13 Arg2:T9
+R14	Is-a Arg1:T24 Arg2:T23
+R15	Target Arg1:T22 Arg2:T23
+R16	In_Out Arg1:T21 Arg2:T23
+R17	Target Arg1:T20 Arg2:T21
+R18	Target Arg1:T20 Arg2:T22
+R19	Apply-to Arg1:T19 Arg2:T20
+R20	In_Out Arg1:T18 Arg2:T19
+R21	Target Arg1:T17 Arg2:T18
+R22	Apply-to Arg1:T16 Arg2:T17
+R23	Condition Arg1:T17 Arg2:T15
+A1	Self T25
+A2	Self T26
+A3	Intentional T27
+R24	Agent Arg1:T27 Arg2:T26
+R25	Condition Arg1:T27 Arg2:T25
+R26	Attribute Arg1:T29 Arg2:T28
+R27	Input Arg1:T27 Arg2:T29
+R28	Apply-to Arg1:T29 Arg2:T30
+R29	Output Arg1:T30 Arg2:T31
+R30	Destination Arg1:T30 Arg2:T32
+R31	to Arg1:T35 Arg2:T36
+R32	from Arg1:T35 Arg2:T34
+R33	from Arg1:T33 Arg2:T34
+R34	to Arg1:T33 Arg2:T31
+R35	Attribute Arg1:T39 Arg2:T38
+R36	from Arg1:T39 Arg2:T40
+R37	to Arg1:T39 Arg2:T37
+R38	Coreference Arg1:T37 Arg2:T30
+A4	Self T41
+A5	Intentional T42
+R39	Agent Arg1:T42 Arg2:T41
+R40	Attribute Arg1:T46 Arg2:T45
+R41	Attribute Arg1:T47 Arg2:T45
+R42	Output Arg1:T43 Arg2:T44
+R43	to Arg1:T57 Arg2:T45
+R44	from Arg1:T57 Arg2:T43
+A6	Self T48
+R45	Agent Arg1:T49 Arg2:T48
+A7	Judgment T54
+R46	In_Out Arg1:T54 Arg2:T55
+R47	Target Arg1:T53 Arg2:T54
+R48	Attribute Arg1:T53 Arg2:T52
+#12	AnnotatorNotes T50	domian-specific represenation
+R49	Output Arg1:T50 Arg2:T51
+R50	Result Arg1:T50 Arg2:T53
+R51	Coreference Arg1:T40 Arg2:T29
+A8	Judgment T45
+R52	Output Arg1:T42 Arg2:T45
+R53	In_Out Arg1:T49 Arg2:T54
+T1	PLAN-OR-PROCESS 0 18	Automatic Indexing
+T2	DATA-ITEM 22 43	Specialized Documents
+T3	APPLY-TO 46 51	Using
+T4	PLAN-OR-PROCESS 52 59	Generic
+T5	PLAN-OR-PROCESS 64 104	Domain-Specific Document Representations
+T6	PROCESS 111 116	shift
+T56	DATA-ITEM 122 127	paper
+T7	DATA-ITEM 131 151	electronic documents
+T8	PROCESS 156 162	caused
+T9	PLAN-OR-PROCESS 167 175	curation
+T10	DATA-ITEM 179 198	information sources
+T11	QUALITY 202 207	large
+T12	DATA-ITEM 208 228	electronic databases
+T13	ATTRIBUTE 232 238	become
+T14	QUALITY 239 255	more generalized
+T15	DOMAIN 265 282	biomedical domain
+T16	PLAN-OR-PROCESS 285 303	continuing efforts
+T17	PROCESS 304 307	aim
+T18	PROCESS 311 319	refining
+T19	PLAN 320 334	indexing tools
+T20	PROCESS 338 344	assist
+T21	PROCESS 354 360	update
+T22	PROCESS 365 376	maintenance
+T23	DATA-ITEM 380 389	databases
+T24	PLAN 398 409	MEDLINE (R)
+T25	REFERENCE 415 425	this paper
+T26	PERSON 428 430	we
+T27	PROCESS 431 439	evaluate
+T28	QUANTITY 440 443	two
+T29	PLAN 444 463	statistical methods
+T30	PROCESS 467 476	producing
+T31	DATA-ITEM 477 510	MeSH (R) indexing recommendations
+T32	DATA-ITEM 519 538	genetics literature
+T33	IS-A 541 550	including
+T34	DATA-ITEM 551 566	recommendations
+T35	COMPONENT-OBJECT 567 576	involving
+T36	DATA-ITEM 577 588	subheadings
+T37	REFERENCE 591 596	which
+T38	QUALITY 602 607	novel
+T39	APPLY-TO 608 619	application
+T40	PLAN 624 635	the methods
+T41	PERSON 638 640	We
+T42	PROCESS 641 645	show
+T43	PLAN-OR-PROCESS 653 675	generic representation
+T44	DATA-ITEM 683 692	documents
+T57	RESULT 693 699	yields
+T45	QUALITY 705 711	better
+T46	DATA-ITEM 712 721	precision
+T47	DATA-ITEM 726 732	recall
+T48	PERSON 735 737	We
+T49	PROCESS 743 747	find
+T50	PLAN-OR-PROCESS 755 785	domain-specific representation
+T51	DATA-ITEM 793 802	documents
+T52	MODALITY 803 806	can
+T53	PROCESS 807 817	contribute
+T54	PROCESS 821 830	enhancing
+T55	DATA-ITEM 831 837	recall

@@ -1,0 +1,11 @@
+Toward an Aposynthesis of Topic Continuity and Intrasentential Anaphora
+
+The problem of proposing referents for anaphoric expressions has been extensively researched in the literature and significant insights have been gained through the various approaches.
+However, no single model is capable of handling all the cases.
+We argue that this is due to a failure of the models to identify two distinct processes.
+Drawing on current insights and empirical data from various languages we propose an aposynthetic model of discourse in which topic continuity, computed across units, and focusing preferences internal to these units are subject to different mechanisms.
+The observed focusing preferences across the units (i.e., intersententially) are best modeled structurally, along the lines suggested in centering theory.
+The focusing mechanism within the unit is subject to preferences projected by the semantics of the verbs and the connectives in the unit as suggested in semantic/pragmatic focusing accounts.
+We show that this distinction not only overcomes important problems in anaphora resolution but also reconciles seemingly contradictory experimental results reported in the literature.
+We specify a model of anaphora resolution that interleaves the two mechanisms.
+We test the central hypotheses of the proposed model with an experimental study in English and a corpus-based study in Greek.

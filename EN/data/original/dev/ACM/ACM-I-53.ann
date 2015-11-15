@@ -1,0 +1,132 @@
+T1	PLAN 2 19	Randomized Method
+T2	PLAN 28 41	Shapley Value
+T3	PERSON 28 35	Shapley
+T4	PLAN 50 61	Voting Game
+T5	PLAN 66 79	Shapley value
+T6	PERSON 66 73	Shapley
+T7	PLAN 98 115	solution concepts
+T8	PLAN 120 135	coalition games
+T9	QUALITY 146 155	advantage
+T10	REFERENCE 164 166	it
+T11	PROCESS 167 175	provides
+R1	Coreference Arg1:T10 Arg2:T61	
+T12	DATA-ITEM 194 202	solution
+T13	QUALITY 189 193	fair
+T14	QUALITY 178 184	unique
+T15	PLAN 217 224	problem
+T16	PLAN 243 258	coalition games
+T17	QUANTITY 238 242	many
+T18	PERSON 264 271	Shapley
+T19	PLAN 264 277	Shapley value
+T20	MODALITY 278 284	cannot
+T21	PROCESS 288 298	determined
+T22	QUALITY 302 317	polynomial time
+T23	PLAN 338 345	problem
+T24	PLAN-OR-PROCESS 349 356	finding
+T25	PLAN 357 367	this value
+R2	Coreference Arg1:T25 Arg2:T19	
+T26	PLAN 376 387	voting game
+T27	QUALITY 403 414	#P-complete
+T28	PLAN 422 434	general case
+T29	EQUIVALENCE 391 396	known
+T30	QUANTITY 483 487	some
+T31	PLAN 488 509	specific voting games
+T32	PLAN 524 531	problem
+T33	QUALITY 535 560	computationally tractable
+T35	REFERENCE 514 519	which
+R3	Coreference Arg1:T35 Arg2:T31	
+T36	PLAN 572 592	general voting games
+T37	QUALITY 566 571	other
+T38	PLAN 610 617	problem
+T39	PROCESS 597 605	overcome
+T40	QUALITY 621 645	computational complexity
+T41	APPLY-TO 649 659	presenting
+T42	PLAN 666 683	randomized method
+T43	QUALITY 662 665	new
+T44	PLAN-OR-PROCESS 688 699	determining
+T45	PLAN 704 729	approximate Shapley value
+T46	PERSON 716 723	Shapley
+T47	QUALITY 735 750	time complexity
+T48	PLAN 754 765	this method
+T49	QUALITY 769 775	linear
+T50	QUANTITY 783 789	number
+T51	INTELLIGENT-AGENT 793 800	players
+T53	QUALITY 852 868	percentage error
+T54	PLAN 877 892	proposed method
+T55	TIME 896 902	always
+T56	QUANTITY 903 916	less than 20%
+T57	PLAN 930 935	cases
+T58	QUANTITY 925 929	most
+T59	QUANTITY 937 949	less than 5%
+T60	QUALITY 94 97	key
+R5	Attribute Arg1:T7 Arg2:T60	
+T61	REFERENCE 137 140	Its
+R6	Coreference Arg1:T61 Arg2:T5	
+R7	Attribute Arg1:T12 Arg2:T14	
+R8	Attribute Arg1:T12 Arg2:T13	
+R9	Attribute Arg1:T16 Arg2:T17	
+R10	Attribute Arg1:T36 Arg2:T37	
+R11	Attribute Arg1:T42 Arg2:T43	
+R12	Coreference Arg1:T48 Arg2:T42	
+T34	REFERENCE 208 211	its
+R4	Coreference Arg1:T34 Arg2:T10	
+R13	Attribute Arg1:T31 Arg2:T30	
+R14	Attribute Arg1:T61 Arg2:T9	
+R15	Attribute Arg1:T34 Arg2:T15	
+R16	Attribute Arg1:T51 Arg2:T50	
+T67	QUANTITY 83 86	one
+T68	QUALITY 141 145	main
+R17	Attribute Arg1:T9 Arg2:T68	
+T69	QUALITY 212 216	main
+R18	Attribute Arg1:T15 Arg2:T69	
+R19	Apply-to Arg1:T2 Arg2:T4	
+R20	Output Arg1:T1 Arg2:T2	
+R21	Attribute Arg1:T7 Arg2:T67	
+R22	Is-a Arg1:T5 Arg2:T7	
+R23	Apply-to Arg1:T7 Arg2:T8	
+R24	Apply-to Arg1:T10 Arg2:T11	
+R25	Output Arg1:T11 Arg2:T12	
+R26	Attribute Arg1:T21 Arg2:T20	
+R27	Condition Arg1:T21 Arg2:T22	
+R28	Output Arg1:T21 Arg2:T19	
+R29	Destination Arg1:T21 Arg2:T16	
+R30	Attribute Arg1:T23 Arg2:T24	
+R31	Output Arg1:T24 Arg2:T25	
+R32	Apply-to Arg1:T24 Arg2:T26	
+R33	from Arg1:T29 Arg2:T23	
+R34	to Arg1:T29 Arg2:T27	
+R35	Condition Arg1:T29 Arg2:T28	
+R36	Condition Arg1:T33 Arg2:T35	
+R37	Attribute Arg1:T32 Arg2:T33	
+R38	Condition Arg1:T39 Arg2:T36	
+R39	In_Out Arg1:T39 Arg2:T38	
+R40	Attribute Arg1:T38 Arg2:T40	
+R41	to Arg1:T41 Arg2:T39	
+R42	from Arg1:T41 Arg2:T42	
+R43	Apply-to Arg1:T42 Arg2:T44	
+R44	Output Arg1:T44 Arg2:T45	
+R45	Attribute Arg1:T48 Arg2:T47	
+R46	Attribute Arg1:T47 Arg2:T49	
+R47	Other-rel Arg1:T49 Arg2:T50	
+R48	Attribute Arg1:T54 Arg2:T53	
+R49	Attribute Arg1:T56 Arg2:T55	
+R50	Attribute Arg1:T53 Arg2:T56	
+R51	Attribute Arg1:T57 Arg2:T58	
+R52	Attribute Arg1:T53 Arg2:T59	
+R53	Condition Arg1:T59 Arg2:T57	
+R54	Other-rel Arg1:T9 Arg2:T11	
+R55	Other-rel Arg1:T15 Arg2:T20	
+T52	PERSON 460 462	we
+T62	REFERENCE 448 458	this paper
+T63	PROCESS 463 467	show
+T64	PERSON 802 804	We
+T65	PROCESS 810 814	show
+T66	PLAN 824 841	empirical studies
+T70	PERSON 594 596	we
+R56	Agent Arg1:T39 Arg2:T70	
+R57	Agent Arg1:T63 Arg2:T52	
+R58	Condition Arg1:T63 Arg2:T62	
+R59	Agent Arg1:T65 Arg2:T64	
+R60	Apply-to Arg1:T66 Arg2:T65	
+R61	Output Arg1:T63 Arg2:T30	
+R62	Output Arg1:T65 Arg2:T56	

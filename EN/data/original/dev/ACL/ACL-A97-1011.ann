@@ -1,0 +1,69 @@
+R1	Attribute Arg1:T6 Arg2:T5
+R2	Output Arg1:T4 Arg2:T6
+R3	Output Arg1:T3 Arg2:T4
+A1	Intentional T3
+A2	Self T2
+R4	Agent Arg1:T3 Arg2:T2
+R5	Apply-to Arg1:T7 Arg2:T8
+R6	Output Arg1:T8 Arg2:T9
+R7	Apply-to Arg1:T7 Arg2:T11
+R8	Destination Arg1:T11 Arg2:T12
+R9	Coreference Arg1:T13 Arg2:T12
+R10	Attribute Arg1:T13 Arg2:T14
+R11	from Arg1:T31 Arg2:T11
+R12	to Arg1:T31 Arg2:T14
+R13	Attribute Arg1:T9 Arg2:T10
+A3	Self T15
+A4	Intentional T16
+R14	Agent Arg1:T16 Arg2:T15
+R15	Attribute Arg1:T17 Arg2:T32
+R16	Output Arg1:T16 Arg2:T17
+R17	Attribute Arg1:T19 Arg2:T18
+R18	Output Arg1:T20 Arg2:T19
+R21	Coreference Arg1:T34 Arg2:T17
+A5	Self T21
+A6	Intentional T22
+R22	Agent Arg1:T22 Arg2:T21
+R23	Target Arg1:T22 Arg2:T23
+R24	Attribute Arg1:T25 Arg2:T24
+R25	Attribute Arg1:T28 Arg2:T27
+R26	Poss Arg1:T26 Arg2:T28
+A7	Self T26
+R27	Attribute Arg1:T28 Arg2:T25
+R28	Output Arg1:T23 Arg2:T25
+A8	Intentional T30
+R29	Input Arg1:T30 Arg2:T29
+R19	Origin Arg1:T20 Arg2:T34
+T1	PLAN 2 34	Non-Projective Dependency Parser
+T2	PERSON 37 39	We
+T3	PROCESS 40 48	describe
+T4	PLAN 51 67	practical parser
+T5	QUALITY 72 84	unrestricted
+T6	DATA-ITEM 85 97	dependencies
+T7	PLAN 104 110	parser
+T8	PROCESS 111 118	creates
+T9	DATA-ITEM 119 124	links
+T10	DATA-ITEM 133 138	words
+T11	PROCESS 143 148	names
+T12	DATA-ITEM 153 158	links
+T31	INPUT 159 171	according to
+T13	REFERENCE 172 177	their
+T14	DATA-ITEM 178 197	syntactic functions
+T15	PERSON 200 202	We
+T16	PROCESS 209 217	describe
+T32	QUALITY 222 227	older
+T17	PLAN 228 253	Constraint Grammar parser
+T34	REFERENCE 254 259	where
+T18	QUANTITY 260 264	many
+T19	PLAN 272 277	ideas
+T20	PROCESS 278 282	come
+T21	PERSON 295 297	we
+T22	PROCESS 298 305	proceed
+T23	PROCESS 309 317	describe
+T24	QUALITY 322 329	central
+T25	PLAN 330 335	ideas
+T26	PERSON 339 342	our
+T27	QUALITY 343 346	new
+T28	PLAN 347 353	parser
+T29	PLAN 370 376	parser
+T30	PROCESS 380 389	evaluated

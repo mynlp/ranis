@@ -1,0 +1,149 @@
+T1	PLAN 0 23	Unsupervised Approaches
+T2	PLAN-OR-PROCESS 28 56	Automatic Keyword Extraction
+T3	DATA-ITEM 63 82	Meeting Transcripts
+T4	INPUT 57 62	Using
+T5	QUANTITY 104 111	several
+T6	PLAN 112 135	unsupervised approaches
+T7	PLAN-OR-PROCESS 139 167	automatic keyword extraction
+T8	INPUT 168 173	using
+T9	DATA-ITEM 174 193	meeting transcripts
+T10	PLAN 202 207	TFIDF
+T11	PLAN 209 251	term frequency, inverse document frequency
+R1	Equivalence Arg1:T11 Arg2:T10	
+T12	PLAN 253 272	weighting framework
+R2	Split Arg1:T12 Arg2:T10	
+T13	PROCESS 277 289	incorporated
+T14	DATA-ITEM 290 304	part-of-speech
+T15	DATA-ITEM 306 309	POS
+R3	Equivalence Arg1:T15 Arg2:T14	
+T16	DATA-ITEM 311 322	information
+R4	Split Arg1:T16 Arg2:T14	
+T17	PLAN 324 339	word clustering
+T18	DATA-ITEM 345 368	sentence salience score
+T19	PROCESS 378 387	evaluated
+T20	PLAN 390 410	graph-based approach
+T21	PROCESS 416 424	measures
+T22	QUALITY 429 439	importance
+T23	DATA-ITEM 445 449	word
+T24	INPUT 450 458	based on
+T25	QUALITY 463 473	connection
+T26	DATA-ITEM 485 494	sentences
+T27	DATA-ITEM 498 503	words
+T28	QUALITY 479 484	other
+T29	DATA-ITEM 509 527	system performance
+T30	PROCESS 531 540	evaluated
+T31	PLAN-OR-PROCESS 554 558	ways
+T32	QUALITY 544 553	different
+T33	IS-A 560 569	including
+T34	PROCESS 570 580	comparison
+T35	DATA-ITEM 584 608	human annotated keywords
+T36	APPLY-TO 609 614	using
+T37	PLAN 615 624	F-measure
+T38	PLAN 631 645	weighted score
+T39	QUALITY 646 654	relative
+T41	DATA-ITEM 662 687	oracle system performance
+T42	QUALITY 702 707	novel
+T43	QUALITY 708 719	alternative
+T44	PLAN-OR-PROCESS 720 736	human evaluation
+T45	DATA-ITEM 742 749	results
+T46	PLAN 777 804	unsupervised TFIDF approach
+T47	RESULT 805 813	performs
+T48	QUALITY 814 829	reasonably well
+T49	DATA-ITEM 850 861	information
+T50	DATA-ITEM 867 870	POS
+T51	DATA-ITEM 875 889	sentence score
+T52	PLAN-OR-PROCESS 896 914	keyword extraction
+T53	PROCESS 890 895	helps
+T54	RESULT 755 760	shown
+T55	PLAN 929 941	graph method
+T56	QUALITY 945 959	less effective
+T57	DOMAIN 964 975	this domain
+T58	PROCESS 977 988	Experiments
+T59	PROCESS 999 1008	performed
+T60	INPUT 1009 1014	using
+T61	DATA-ITEM 1015 1040	speech recognition output
+T62	JUDGING-PROCESS 1057 1068	degradation
+T63	DATA-ITEM 1083 1091	patterns
+T64	QUALITY 1073 1082	different
+T65	COMPARE 1092 1100	compared
+T66	DATA-ITEM 1104 1121	human transcripts
+T67	PROCESS 1048 1056	observed
+R5	Attribute Arg1:T6 Arg2:T5	
+R6	Attribute Arg1:T26 Arg2:T28	
+R7	Attribute Arg1:T27 Arg2:T28	
+R8	Attribute Arg1:T31 Arg2:T32	
+R9	Attribute Arg1:T44 Arg2:T42	
+R10	Attribute Arg1:T44 Arg2:T43	
+T40	PERSON 720 725	human
+T68	PERSON 584 589	human
+T69	PERSON 1104 1109	human
+R11	to Arg1:T47 Arg2:T48	
+R12	Attribute Arg1:T63 Arg2:T64	
+R13	Attribute Arg1:T38 Arg2:T39	
+R14	Compare Arg1:T41 Arg2:T39	
+R15	Attribute Arg1:T23 Arg2:T22	
+T70	REFERENCE 459 462	its
+R16	Coreference Arg1:T70 Arg2:T23	
+R17	to Arg1:T24 Arg2:T25	
+R18	from Arg1:T24 Arg2:T21	
+T73	REFERENCE 411 415	that
+R19	Coreference Arg1:T73 Arg2:T20	
+T74	PERSON 738 741	Our
+R20	Poss Arg1:T74 Arg2:T45	
+R21	Attribute Arg1:T70 Arg2:T25	
+T75	QUALITY 770 776	simple
+R22	Attribute Arg1:T46 Arg2:T75	
+T76	QUALITY 839 849	additional
+R23	Attribute Arg1:T49 Arg2:T76	
+R24	Attribute Arg1:T55 Arg2:T56	
+R25	Apply-to Arg1:T1 Arg2:T2	
+R26	to Arg1:T4 Arg2:T3	
+R27	from Arg1:T4 Arg2:T2	
+R28	Apply-to Arg1:T6 Arg2:T7	
+R29	to Arg1:T8 Arg2:T9	
+R30	from Arg1:T8 Arg2:T7	
+R31	Input Arg1:T13 Arg2:T14	
+R32	Input Arg1:T13 Arg2:T17	
+R33	Input Arg1:T13 Arg2:T18	
+R34	Output Arg1:T13 Arg2:T12	
+R35	Input Arg1:T19 Arg2:T20	
+R36	Apply-to Arg1:T73 Arg2:T21	
+R37	Output Arg1:T21 Arg2:T22	
+R38	Condition Arg1:T25 Arg2:T26	
+R39	Condition Arg1:T25 Arg2:T27	
+R40	Output Arg1:T30 Arg2:T29	
+R41	Apply-to Arg1:T31 Arg2:T30	
+R42	from Arg1:T33 Arg2:T34	
+R43	to Arg1:T33 Arg2:T31	
+R44	Destination Arg1:T34 Arg2:T35	
+R45	from Arg1:T36 Arg2:T37	
+R46	to Arg1:T36 Arg2:T34	
+R47	from Arg1:T36 Arg2:T38	
+R48	from Arg1:T33 Arg2:T44	
+R49	from Arg1:T54 Arg2:T45	
+R50	from Arg1:T47 Arg2:T46	
+R51	to Arg1:T54 Arg2:T48	
+R52	Attribute Arg1:T50 Arg2:T49	
+R54	Input Arg1:T53 Arg2:T49	
+R55	Target Arg1:T53 Arg2:T52	
+R53	Attribute Arg1:T51 Arg2:T49	
+R56	Condition Arg1:T56 Arg2:T57	
+R57	Apply-to Arg1:T55 Arg2:T57	
+R58	Output Arg1:T67 Arg2:T62	
+R59	Output Arg1:T67 Arg2:T64	
+R61	from Arg1:T65 Arg2:T66	
+R62	to Arg1:T65 Arg2:T64	
+R63	Output Arg1:T59 Arg2:T58	
+R64	from Arg1:T60 Arg2:T58	
+R65	to Arg1:T60 Arg2:T61	
+T71	PERSON 274 276	we
+T72	PERSON 370 372	We
+T77	PERSON 1045 1047	we
+R60	Result Arg1:T58 Arg2:T67	
+R66	Agent Arg1:T67 Arg2:T77	
+R67	Agent Arg1:T19 Arg2:T72	
+R68	Agent Arg1:T13 Arg2:T71	
+T78	REFERENCE 84 94	This paper
+T79	PROCESS 95 103	explores
+R69	Condition Arg1:T79 Arg2:T78	
+R70	In_Out Arg1:T79 Arg2:T6	

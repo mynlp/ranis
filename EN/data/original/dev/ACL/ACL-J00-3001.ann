@@ -1,0 +1,181 @@
+T1	PROCESS 0 10	Extracting
+T2	DATA-ITEM 32 37	Words
+T4	QUALITY 15 31	Lowest-Frequency
+T5	PLAN 39 47	Pitfalls
+T6	PLAN 52 65	Possibilities
+T7	PLAN 72 109	medical information extraction system
+T8	PLAN 118 152	common word association techniques
+T9	PROCESS 156 163	extract
+T10	DATA-ITEM 164 189	side-effect-related terms
+T11	QUANTITY 191 195	Many
+T12	DATA-ITEM 199 210	these terms
+R1	Coreference Arg1:T12 Arg2:T10	
+T13	DATA-ITEM 218 227	frequency
+T14	QUANTITY 231 245	less than five
+T15	PLAN 256 291	word-association-based applications
+T16	PROCESS 292 301	disregard
+T17	DATA-ITEM 323 328	words
+T19	QUALITY 306 322	lowest-frequency
+T20	PROCESS 340 349	disregard
+T21	DATA-ITEM 357 368	information
+T22	QUALITY 350 356	useful
+T23	PLAN 394 411	extraction system
+T25	DATA-ITEM 425 445	word frequency range
+T26	QUANTITY 420 424	full
+T27	PLAN 447 458	This system
+R2	Coreference Arg1:T27 Arg2:T23	
+T28	PROCESS 459 467	computes
+T29	QUALITY 472 484	significance
+T30	DATA-ITEM 488 499	association
+T31	DATA-ITEM 507 527	log-likelihood ratio
+T32	PLAN 532 551	Fisher's exact test
+T33	PERSON 532 538	Fisher
+T34	DATA-ITEM 557 563	output
+T35	PLAN 571 577	system
+T36	QUALITY 586 595	recurrent
+T37	DATA-ITEM 597 623	corpus-independent pattern
+T38	DATA-ITEM 632 638	recall
+T39	QUANTITY 647 653	number
+T40	DATA-ITEM 669 674	words
+T41	QUALITY 657 668	significant
+T42	DATA-ITEM 692 706	these patterns
+R4	Coreference Arg1:T42 Arg2:T37	
+T43	QUALITY 714 734	statistical behavior
+T44	DATA-ITEM 759 764	words
+T46	QUALITY 742 758	lowest-frequency
+T47	DATA-ITEM 774 806	Dutch verb-particle combinations
+T48	PLAN 835 869	collocation extraction application
+T49	QUALITY 812 818	second
+T50	PROCESS 873 883	illustrate
+T51	QUALITY 888 898	generality
+T52	OCCURENT 906 924	observed phenomena
+T53	PLAN 951 992	word-association-based extraction systems
+T54	MODALITY 993 996	can
+T55	JUDGING-PROCESS 1000 1008	enhanced
+T56	PROCESS 1017 1028	considering
+T57	DATA-ITEM 1050 1055	words
+T59	QUALITY 1033 1049	lowest-frequency
+T60	DATA-ITEM 1060 1079	significance levels
+T62	MODALITY 1080 1086	should
+T63	PROCESS 1094 1099	fixed
+T64	PROCESS 1104 1112	adjusted
+T65	QUALITY 1121 1128	optimal
+T66	DATA-ITEM 1129 1140	window size
+T67	DATA-ITEM 1145 1159	hapax legomena
+T68	DATA-ITEM 1161 1166	words
+T69	PROCESS 1167 1176	occurring
+T70	QUANTITY 1177 1186	only once
+T71	MODALITY 1188 1194	should
+T72	PROCESS 1198 1209	disregarded
+T73	QUALITY 1210 1218	a priori
+T74	PLAN-OR-PROCESS 1226 1246	statistical analysis
+T75	DATA-ITEM 1259 1271	distribution
+T76	DATA-ITEM 1279 1286	targets
+T77	PROCESS 1290 1297	extract
+T78	MODALITY 1298 1304	should
+T79	PROCESS 1308 1318	considered
+T80	APPLY-TO 1322 1333	combination
+T81	PLAN 1343 1360	extraction method
+T82	PROCESS 769 773	used
+R6	Attribute Arg1:T2 Arg2:T4	
+R7	Attribute Arg1:T12 Arg2:T11	
+R8	Attribute Arg1:T17 Arg2:T19	
+T3	QUALITY 247 255	Standard
+R9	Attribute Arg1:T15 Arg2:T3	
+R10	Attribute Arg1:T21 Arg2:T22	
+R11	Attribute Arg1:T25 Arg2:T26	
+R3	Attribute Arg1:T37 Arg2:T36	
+R12	Attribute Arg1:T40 Arg2:T41	
+R13	Attribute Arg1:T44 Arg2:T46	
+T18	LANGUAGE 774 779	Dutch
+R5	Attribute Arg1:T57 Arg2:T59	
+T45	MODALITY 1087 1090	not
+R14	Attribute Arg1:T66 Arg2:T65	
+R15	Attribute Arg1:T72 Arg2:T73	
+R16	Attribute Arg1:T13 Arg2:T14	
+T58	QUALITY 823 834	independent
+R17	Attribute Arg1:T48 Arg2:T49	
+R18	Attribute Arg1:T48 Arg2:T58	
+R19	Output Arg1:T35 Arg2:T34	
+R20	Attribute Arg1:T52 Arg2:T51	
+R21	Attribute Arg1:T55 Arg2:T54	
+R22	Attribute Arg1:T30 Arg2:T29	
+R23	Output Arg1:T1 Arg2:T2	
+R24	Output Arg1:T9 Arg2:T10	
+T84	PROCESS 114 117	use
+R25	Input Arg1:T84 Arg2:T8	
+R26	Apply-to Arg1:T84 Arg2:T9	
+R27	Condition Arg1:T84 Arg2:T7	
+R28	Attribute Arg1:T12 Arg2:T13	
+R29	Apply-to Arg1:T15 Arg2:T16	
+R30	Target Arg1:T16 Arg2:T17	
+T85	RESULT 334 339	hence
+R31	Apply-to Arg1:T15 Arg2:T20	
+R32	Target Arg1:T20 Arg2:T21	
+R33	Input Arg1:T23 Arg2:T25	
+R34	Condition Arg1:T5 Arg2:T1	
+R35	Condition Arg1:T6 Arg2:T1	
+R36	Apply-to Arg1:T27 Arg2:T28	
+R37	Output Arg1:T28 Arg2:T29	
+R38	Input Arg1:T28 Arg2:T31	
+R39	Apply-to Arg1:T32 Arg2:T28	
+T86	RESULT 578 583	shows
+R41	Attribute Arg1:T38 Arg2:T37	
+R42	Attribute Arg1:T40 Arg2:T39	
+R43	Attribute Arg1:T40 Arg2:T37	
+T88	PROCESS 684 691	explain
+R44	Target Arg1:T88 Arg2:T42	
+R45	Input Arg1:T88 Arg2:T43	
+R46	Attribute Arg1:T44 Arg2:T43	
+R47	Input Arg1:T82 Arg2:T47	
+R48	Apply-to Arg1:T82 Arg2:T48	
+R49	Output Arg1:T50 Arg2:T51	
+R50	Apply-to Arg1:T48 Arg2:T50	
+R51	In_Out Arg1:T55 Arg2:T53	
+R52	Apply-to Arg1:T56 Arg2:T55	
+R53	Input Arg1:T56 Arg2:T57	
+R54	Attribute Arg1:T63 Arg2:T45	
+R55	Attribute Arg1:T63 Arg2:T62	
+R56	Attribute Arg1:T64 Arg2:T62	
+R57	Target Arg1:T63 Arg2:T60	
+R58	In_Out Arg1:T64 Arg2:T60	
+R59	Condition Arg1:T64 Arg2:T66	
+R60	Is-a Arg1:T67 Arg2:T68	
+R61	Target Arg1:T69 Arg2:T68	
+R62	Attribute Arg1:T69 Arg2:T70	
+R63	Attribute Arg1:T72 Arg2:T71	
+R64	Condition Arg1:T72 Arg2:T74	
+R65	Output Arg1:T77 Arg2:T76	
+R66	Attribute Arg1:T76 Arg2:T75	
+R67	Attribute Arg1:T79 Arg2:T78	
+R68	Target Arg1:T79 Arg2:T75	
+R69	to Arg1:T80 Arg2:T79	
+R70	from Arg1:T80 Arg2:T81	
+R71	to Arg1:T85 Arg2:T20	
+R72	from Arg1:T85 Arg2:T16	
+T91	PROCESS 383 390	devised
+R73	Output Arg1:T91 Arg2:T23	
+R74	Input Arg1:T91 Arg2:T25	
+R75	from Arg1:T86 Arg2:T34	
+R40	to Arg1:T86 Arg2:T37	
+R76	Target Arg1:T72 Arg2:T68	
+T24	PERSON 370 372	We
+R77	Agent Arg1:T91 Arg2:T24	
+T61	PERSON 676 678	We
+R78	Agent Arg1:T88 Arg2:T61	
+T83	PERSON 766 768	We
+R79	Agent Arg1:T82 Arg2:T83	
+T87	PERSON 926 928	We
+T89	PROCESS 934 942	conclude
+R80	Agent Arg1:T89 Arg2:T87	
+R81	Output Arg1:T89 Arg2:T55	
+R82	Output Arg1:T89 Arg2:T63	
+R83	Output Arg1:T89 Arg2:T64	
+R84	Output Arg1:T89 Arg2:T72	
+R85	Output Arg1:T89 Arg2:T79	
+T90	PERSON 111 113	we
+R86	Agent Arg1:T84 Arg2:T90	
+T92	MODALITY 679 683	will
+R87	Attribute Arg1:T88 Arg2:T92	
+T93	MODALITY 929 933	will
+R88	Attribute Arg1:T89 Arg2:T93	

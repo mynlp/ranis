@@ -1,0 +1,141 @@
+A1	Self T3
+A2	Intentional T4
+R1	Agent Arg1:T4 Arg2:T3
+R2	Output Arg1:T4 Arg2:T5
+R3	Input Arg1:T5 Arg2:T6
+R4	Coreference Arg1:T7 Arg2:T5
+R5	Destination Arg1:T8 Arg2:T7
+R6	Output Arg1:T8 Arg2:T9
+R7	Target Arg1:T10 Arg2:T11
+R8	Is-a Arg1:T12 Arg2:T11
+R9	Target Arg1:T14 Arg2:T69
+R10	Target Arg1:T14 Arg2:T15
+R11	Apply-to Arg1:T13 Arg2:T14
+R12	Apply-to Arg1:T14 Arg2:T10
+R13	Component-object Arg1:T13 Arg2:T69
+R14	Component-object Arg1:T13 Arg2:T15
+R15	Is-a Arg1:T16 Arg2:T17
+R16	Component-object Arg1:T2 Arg2:T1
+R17	Component-object Arg1:T64 Arg2:T63
+R18	from Arg1:T18 Arg2:T19
+R19	to Arg1:T18 Arg2:T17
+R20	from Arg1:T21 Arg2:T22
+R22	Component-object Arg1:T25 Arg2:T24
+R23	Component-object Arg1:T20 Arg2:T25
+R24	to Arg1:T21 Arg2:T24
+R21	Attribute Arg1:T27 Arg2:T26
+R25	Output Arg1:T28 Arg2:T27
+R26	Input Arg1:T28 Arg2:T29
+R27	Output Arg1:T30 Arg2:T29
+R28	Apply-to Arg1:T31 Arg2:T30
+A3	Self T32
+A4	Intentional T33
+R29	Agent Arg1:T33 Arg2:T32
+R30	Input Arg1:T33 Arg2:T34
+R31	Input Arg1:T34 Arg2:T35
+R32	from Arg1:T36 Arg2:T37
+R33	from Arg1:T36 Arg2:T38
+R34	to Arg1:T36 Arg2:T33
+A5	Self T41
+R35	Poss Arg1:T41 Arg2:T42
+R36	Attribute Arg1:T45 Arg2:T44
+R37	Attribute Arg1:T45 Arg2:T46
+R38	Input Arg1:T42 Arg2:T47
+R39	Attribute Arg1:T42 Arg2:T45
+A6	Judgment T44
+R42	Attribute Arg1:T45 Arg2:T48
+R43	Attribute Arg1:T50 Arg2:T51
+R44	Target Arg1:T50 Arg2:T49
+R45	Condition Arg1:T48 Arg2:T50
+R46	from Arg1:T39 Arg2:T40
+R40	Apply-to Arg1:T42 Arg2:T43
+R41	Output Arg1:T43 Arg2:T45
+A7	Self T55
+R48	Poss Arg1:T55 Arg2:T56
+R49	Attribute Arg1:T56 Arg2:T54
+R50	Attribute Arg1:T54 Arg2:T57
+R51	Condition Arg1:T58 Arg2:T59
+R52	Input Arg1:T56 Arg2:T58
+R53	from Arg1:T52 Arg2:T53
+R54	to Arg1:T52 Arg2:T56
+A8	Self T60
+R55	Poss Arg1:T60 Arg2:T61
+R56	Attribute Arg1:T63 Arg2:T62
+R57	Is-a Arg1:T61 Arg2:T63
+R58	Coreference Arg1:T65 Arg2:T61
+A9	Judgment T66
+R59	Attribute Arg1:T65 Arg2:T66
+R60	Compare Arg1:T67 Arg2:T66
+R61	Attribute Arg1:T67 Arg2:T68
+R62	Attribute Arg1:T65 Arg2:T68
+R63	Condition Arg1:T66 Arg2:T68
+R47	to Arg1:T39 Arg2:T42
+A10	Name T6
+T1	PLAN 0 39	Dependency-based Semantic Role Labeling
+T2	PLAN 43 51	PropBank
+T3	PERSON 54 56	We
+T4	PROCESS 57 64	present
+T5	PLAN 67 105	PropBank semantic role labeling system
+T6	LANGUAGE 110 117	English
+T7	REFERENCE 118 122	that
+T8	PROCESS 126 136	integrated
+T9	PLAN 144 161	dependency parser
+T10	PROCESS 167 173	tackle
+T11	PLAN 178 185	problem
+T12	PLAN 189 225	joint syntactic -- semantic analysis
+T13	PLAN 232 238	system
+T14	PROCESS 239 245	relies
+T69	PLAN 251 260	syntactic
+T15	PLAN 267 288	semantic subcomponent
+T16	PLAN 295 310	syntactic model
+T17	PLAN 316 333	projective parser
+T18	APPLY-TO 334 339	using
+T19	PLAN 340 373	pseudo-projective transformations
+T20	PLAN 384 398	semantic model
+T21	APPLY-TO 399 403	uses
+T22	PLAN 404 431	global inference mechanisms
+T24	PLAN 444 452	pipeline
+T25	PLAN 456 467	classifiers
+T26	QUALITY 474 482	complete
+T27	DATA-ITEM 483 511	syntactic -- semantic output
+T28	PROCESS 515 523	selected
+T29	DATA-ITEM 531 545	candidate pool
+T30	PROCESS 546 555	generated
+T31	PLAN 563 573	subsystems
+T32	PERSON 576 578	We
+T33	PROCESS 579 587	evaluate
+T34	PLAN 592 598	system
+T35	DATA-ITEM 606 625	CoNLL2005 test sets
+T36	APPLY-TO 626 631	using
+T37	PLAN 632 645	segment-based
+T38	PLAN 650 674	dependency-based metrics
+T39	APPLY-TO 677 682	Using
+T40	PLAN 687 718	segment-based CoNLL-2005 metric
+T41	PERSON 721 724	our
+T42	PLAN 725 731	system
+T43	PROCESS 732 740	achieves
+T44	QUALITY 743 764	near state-of-the-art
+T45	DATA-ITEM 765 774	F1 figure
+T46	QUANTITY 778 783	77.97
+T47	DATA-ITEM 791 810	WSJ+B rown test set
+T48	QUANTITY 816 821	78.84
+T49	DATA-ITEM 825 836	punctuation
+T50	PROCESS 840 847	treated
+T51	QUALITY 848 860	consistently
+T52	APPLY-TO 863 868	Using
+T53	PLAN 871 894	dependency-based metric
+T54	DATA-ITEM 901 910	F1 figure
+T55	PERSON 914 917	our
+T56	PLAN 918 924	system
+T57	QUANTITY 928 933	84.29
+T58	DATA-ITEM 941 949	test set
+T59	PLAN 955 965	CoNLL-2008
+T60	PERSON 968 971	Our
+T61	PLAN 972 978	system
+T62	QUALITY 986 991	first
+T63	PLAN 992 1030	dependency-based semantic role labeler
+T64	PLAN 1035 1043	PropBank
+T65	REFERENCE 1044 1048	that
+T66	QUALITY 1049 1055	rivals
+T67	PLAN 1056 1081	constituent-based systems
+T68	DATA-ITEM 1094 1105	performance

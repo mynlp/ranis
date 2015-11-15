@@ -1,0 +1,103 @@
+T1	DATA-ITEM 16 27	Paraphrases
+T2	QUALITY 11 15	Full
+T3	PROCESS 0 10	Generating
+T4	DATA-ITEM 31 40	Fragments
+T5	PLAN 46 76	Dialogue Interpretation System
+T6	PLAN 84 90	SHARDS
+T7	PLAN 96 128	semantically-based HPSG approach
+T8	APPLY-TO 78 83	Using
+T9	PLAN-OR-PROCESS 136 146	resolution
+T10	DATA-ITEM 150 168	dialogue fragments
+T11	PROCESS 192 200	generate
+T12	DATA-ITEM 206 217	paraphrases
+T13	QUALITY 201 205	full
+T14	DATA-ITEM 222 231	fragments
+T15	DATA-ITEM 235 243	dialogue
+T17	PLAN 256 280	template-filler approach
+T18	MODALITY 291 294	not
+T19	QUALITY 295 302	require
+T20	PLAN-OR-PROCESS 308 318	generation
+T21	QUALITY 303 307	deep
+T22	DATA-ITEM 338 361	semantic representation
+T23	QUALITY 327 337	underlying
+T24	REFERENCE 371 373	it
+R1	Coreference Arg1:T24 Arg2:T17	
+T25	PROCESS 374 380	reuses
+T26	DATA-ITEM 385 392	results
+T27	PLAN-OR-PROCESS 400 405	parse
+T28	PLAN-OR-PROCESS 410 432	interpretation process
+T29	QUALITY 436 447	dynamically
+T30	PROCESS 448 455	compute
+T31	DATA-ITEM 456 465	templates
+T32	PROCESS 473 479	update
+T33	DATA-ITEM 480 487	fillers
+T34	PLAN-OR-PROCESS 504 512	proceeds
+T35	PROCESS 514 528	This recycling
+T36	DATA-ITEM 564 588	phonological information
+T37	DATA-ITEM 550 559;577 588	syntactic information
+T38	QUALITY 532 549	already available
+T39	RESULT 589 594	makes
+T40	PROCESS 595 605	generation
+T41	QUALITY 606 615	efficient
+T42	PROCESS 623 630	reduces
+T43	PROCESS 635 645	operations
+T44	PLAN 653 662	generator
+T45	PLAN-OR-PROCESS 671 691	string manipulations
+T46	QUALITY 666 670	mere
+T47	REFERENCE 620 622	it
+R2	Coreference Arg1:T47 Arg2:T35	
+R3	Attribute Arg1:T1 Arg2:T2	
+R4	Attribute Arg1:T22 Arg2:T23	
+R5	Attribute Arg1:T30 Arg2:T29	
+T48	DATA-ITEM 495 503	dialogue
+R6	Coreference Arg1:T35 Arg2:T25	
+R7	Attribute Arg1:T37 Arg2:T38	
+R8	Attribute Arg1:T36 Arg2:T38	
+R9	Attribute Arg1:T45 Arg2:T46	
+R10	Output Arg1:T3 Arg2:T1	
+R11	Apply-to Arg1:T5 Arg2:T3	
+R12	Input Arg1:T3 Arg2:T4	
+R13	Is-a Arg1:T6 Arg2:T7	
+R14	Apply-to Arg1:T7 Arg2:T9	
+R15	Input Arg1:T9 Arg2:T10	
+R16	Attribute Arg1:T12 Arg2:T13	
+R17	Output Arg1:T11 Arg2:T12	
+R18	Input Arg1:T11 Arg2:T14	
+R19	Component-object Arg1:T14 Arg2:T15	
+R20	from Arg1:T8 Arg2:T6	
+R21	to Arg1:T8 Arg2:T11	
+R22	Attribute Arg1:T20 Arg2:T21	
+R23	Input Arg1:T20 Arg2:T22	
+R24	In_Out Arg1:T35 Arg2:T37	
+R25	In_Out Arg1:T35 Arg2:T36	
+R27	Attribute Arg1:T40 Arg2:T41	
+R26	from Arg1:T39 Arg2:T35	
+R28	to Arg1:T39 Arg2:T41	
+R29	Attribute Arg1:T19 Arg2:T18	
+R31	Input Arg1:T25 Arg2:T26	
+R32	Output Arg1:T27 Arg2:T26	
+R33	Output Arg1:T28 Arg2:T26	
+R34	Output Arg1:T30 Arg2:T31	
+R35	In_Out Arg1:T32 Arg2:T33	
+R36	Output Arg1:T34 Arg2:T48	
+R37	Apply-to Arg1:T25 Arg2:T30	
+R38	Apply-to Arg1:T25 Arg2:T32	
+R40	Compare Arg1:T34 Arg2:T29	
+R41	Apply-to Arg1:T44 Arg2:T43	
+R42	Input Arg1:T42 Arg2:T43	
+R43	Apply-to Arg1:T47 Arg2:T42	
+R44	Output Arg1:T42 Arg2:T45	
+T49	REFERENCE 281 285	that
+R45	Coreference Arg1:T49 Arg2:T17	
+R46	Condition Arg1:T19 Arg2:T49	
+R30	Attribute Arg1:T20 Arg2:T19	
+R39	Apply-to Arg1:T24 Arg2:T25	
+T16	PERSON 245 247	We
+T50	PROCESS 248 253	adopt
+T51	PERSON 172 174	we
+T52	MODALITY 175 179	will
+T53	PROCESS 180 184	show
+R47	Agent Arg1:T53 Arg2:T51	
+R48	Agent Arg1:T50 Arg2:T16	
+R49	Attribute Arg1:T53 Arg2:T52	
+R50	Output Arg1:T50 Arg2:T17	

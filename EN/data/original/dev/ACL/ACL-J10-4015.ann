@@ -1,0 +1,93 @@
+T1	PLAN-OR-PROCESS 0 10	Commentary
+T2	PLAN-OR-PROCESS 28 36	Response
+T3	PERSON 40 54	Richard Sproat
+T4	PLAN 58 72	Random Systems
+T5	PLAN 74 81	Writing
+T6	PLAN 87 94	Entropy
+T7	REFERENCE 99 102	his
+T8	DATA-ITEM 112 127	Ancient symbols
+T9	DOMAIN 132 157	computational linguistics
+T10	EXTERNAL-REFERENCE 160 171	Sproat 2010
+T11	PLAN 202 210	concerns
+T12	PLAN 218 224	method
+T13	REFERENCE 225 229	that
+T14	PERSON 230 232	we
+T15	PROCESS 238 246	proposed
+T16	PROCESS 251 260	analyzing
+T17	QUALITY 261 266	small
+T18	DATA-ITEM 267 276	data sets
+T19	DATA-ITEM 280 287	symbols
+T20	APPLY-TO 288 293	using
+T21	PLAN 294 301	entropy
+T22	EXTERNAL-REFERENCE 303 332	Lee, Jonathan, and Ziman 2010
+T23	PLAN 351 357	method
+T24	QUALITY 361 367	unable
+T25	PROCESS 371 377	detect
+T26	QUALITY 378 384	random
+T27	QUALITY 389 405	non-equiprobable
+T28	PLAN 406 413	systems
+T29	REFERENCE 432 434	it
+T30	PROCESS 435 448	misclassifies
+T31	DATA-ITEM 449 462	kudurru texts
+T32	PERSON 464 466	We
+T33	PROCESS 467 474	address
+T34	PLAN 475 489	these concerns
+T35	PLAN-OR-PROCESS 497 515	following response
+T36	PLAN-OR-PROCESS 15 25	Discussion
+A1	Name T3
+T37	EXTERNAL-REFERENCE 103 110	article
+R1	Coreference Arg1:T7 Arg2:T3	
+R2	Poss Arg1:T7 Arg2:T37	
+T38	EXTERNAL-REFERENCE 112 157	Ancient symbols and computational linguistics
+T39	PERSON 160 166	Sproat
+A2	Name T39
+T40	TIME 167 171	2010
+R3	Other-rel Arg1:T10 Arg2:T38	
+R4	Other-rel Arg1:T38 Arg2:T37	
+T42	PERSON 174 190	Professor Sproat
+A4	Name T42
+T41	QUANTITY 198 201	two
+R5	Attribute Arg1:T11 Arg2:T41	
+T43	PROCESS 191 197	raised
+R6	Output Arg1:T43 Arg2:T11	
+R7	Agent Arg1:T43 Arg2:T42	
+R8	Condition Arg1:T43 Arg2:T10	
+R9	Coreference Arg1:T13 Arg2:T12	
+R10	Destination Arg1:T2 Arg2:T3	
+A3	Self T14
+A5	Intentional T15
+R11	Agent Arg1:T15 Arg2:T14	
+R12	Output Arg1:T15 Arg2:T13	
+R13	Apply-to Arg1:T13 Arg2:T16	
+R14	Attribute Arg1:T18 Arg2:T17	
+R15	Member-collection Arg1:T19 Arg2:T18	
+R16	Input Arg1:T16 Arg2:T18	
+R17	from Arg1:T20 Arg2:T21	
+R18	to Arg1:T20 Arg2:T16	
+T44	PERSON 303 306	Lee
+A6	Name T44
+T45	PERSON 308 316	Jonathan
+A7	Name T45
+T46	PERSON 322 327	Ziman
+A8	Name T46
+T47	TIME 328 332	2010
+R19	Apply-to Arg1:T23 Arg2:T25	
+R20	Attribute Arg1:T25 Arg2:T24	
+R21	Attribute Arg1:T28 Arg2:T27	
+R22	Attribute Arg1:T28 Arg2:T26	
+R23	In_Out Arg1:T25 Arg2:T28	
+R24	Target Arg1:T43 Arg2:T12	
+R25	Coreference Arg1:T29 Arg2:T23	
+R26	Apply-to Arg1:T29 Arg2:T30	
+R27	Input Arg1:T30 Arg2:T31	
+A9	Self T32
+A10	Intentional T33
+R28	Agent Arg1:T33 Arg2:T32	
+R29	Coreference Arg1:T34 Arg2:T11	
+R30	Target Arg1:T33 Arg2:T34	
+R31	Apply-to Arg1:T35 Arg2:T33	
+R32	Condition Arg1:T2 Arg2:T4	
+R33	Condition Arg1:T2 Arg2:T5	
+R34	Condition Arg1:T2 Arg2:T6	
+R35	Component-object Arg1:T2 Arg2:T36	
+R36	Component-object Arg1:T2 Arg2:T1	

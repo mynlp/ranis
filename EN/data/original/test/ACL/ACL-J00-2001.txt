@@ -1,0 +1,8 @@
+Integrating Text Planning and Linguistic Choice Without Abandoning Modularity: The IGEN Generator
+
+Natural language generation is usually divided into separate text planning and linguistic components.
+This division, though, assumes that the two components can operate independently, which is not always true.
+The IGEN generator eliminates the need for this assumption; it handles interactions between the components without sacri~cing the advantages of modularity.
+IGEN accomplishes this by means of annotations that its linguistic component places on the structures it builds; these annotations provide an abstract description of the effects of particular linguistic choices, allowing the planner to evaluate these choices without needing any linguistic knowledge.
+This approach allows IGEN to vary the work done by each component independently, even in cases where the final output depends on interactions between them.
+In addition, since IGEN explicitly models the effects of linguistic choices, it can gracefully handle situations where the available time or linguistic resources are limited.

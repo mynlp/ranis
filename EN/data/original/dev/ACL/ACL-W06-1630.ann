@@ -1,0 +1,168 @@
+R1	Input Arg1:T1 Arg2:T78
+R2	Input Arg1:T1 Arg2:T77
+A1	Self T2
+A2	Self T3
+A3	Intentional T4
+R3	Agent Arg1:T4 Arg2:T3
+R4	Condition Arg1:T4 Arg2:T2
+R5	In_Out Arg1:T4 Arg2:T5
+R6	Attribute Arg1:T8 Arg2:T7
+R7	Coreference Arg1:T79 Arg2:T9
+R8	Attribute Arg1:T12 Arg2:T11
+R9	Condition Arg1:T10 Arg2:T12
+R10	Attribute Arg1:T16 Arg2:T15
+R11	Attribute Arg1:T16 Arg2:T14
+R12	Agent Arg1:T13 Arg2:T10
+R13	Target Arg1:T13 Arg2:T16
+R14	Condition Arg1:T13 Arg2:T79
+R15	to Arg1:T6 Arg2:T8
+R16	from Arg1:T6 Arg2:T5
+R17	to Arg1:T6 Arg2:T9
+R18	Target Arg1:T80 Arg2:T17
+R19	Attribute Arg1:T18 Arg2:T17
+R20	Agent Arg1:T80 Arg2:T10
+R21	Attribute Arg1:T21 Arg2:T20
+R22	Attribute Arg1:T20 Arg2:T19
+R23	Coreference Arg1:T21 Arg2:T10
+R24	Equivalence Arg1:T20 Arg2:T10
+A4	Self T22
+A5	Intentional T23
+R25	Agent Arg1:T23 Arg2:T22
+R26	Attribute Arg1:T26 Arg2:T25
+R27	Attribute Arg1:T26 Arg2:T24
+R28	Output Arg1:T23 Arg2:T26
+R29	Apply-to Arg1:T26 Arg2:T27
+R30	Is-a Arg1:T28 Arg2:T26
+R31	Is-a Arg1:T31 Arg2:T26
+R32	from Arg1:T29 Arg2:T30
+R33	to Arg1:T29 Arg2:T28
+R34	Attribute Arg1:T34 Arg2:T33
+R35	to Arg1:T32 Arg2:T33
+R36	from Arg1:T32 Arg2:T31
+R37	Coreference Arg1:T35 Arg2:T26
+R39	Attribute Arg1:T36 Arg2:T37
+R40	Target Arg1:T38 Arg2:T39
+R41	Coreference Arg1:T39 Arg2:T35
+R42	Is-a Arg1:T81 Arg2:T35
+R43	Apply-to Arg1:T81 Arg2:T36
+R38	Attribute Arg1:T44 Arg2:T43
+R44	Attribute Arg1:T42 Arg2:T41
+R45	Agent Arg1:T42 Arg2:T40
+R46	Output Arg1:T42 Arg2:T44
+R47	Result Arg1:T38 Arg2:T42
+A6	Self T45
+A7	Intentional T46
+R48	Agent Arg1:T46 Arg2:T45
+R49	Poss Arg1:T48 Arg2:T49
+A8	Self T48
+R50	Attribute Arg1:T49 Arg2:T47
+R51	Origin Arg1:T50 Arg2:T51
+R52	Output Arg1:T50 Arg2:T47
+R53	Coreference Arg1:T52 Arg2:T51
+R54	Attribute Arg1:T56 Arg2:T55
+R55	Output Arg1:T54 Arg2:T56
+R56	Output Arg1:T54 Arg2:T57
+R57	Attribute Arg1:T59 Arg2:T60
+R58	Poss Arg1:T59 Arg2:T58
+R59	Condition Arg1:T57 Arg2:T58
+R60	from Arg1:T53 Arg2:T54
+R61	to Arg1:T53 Arg2:T52
+R62	Condition Arg1:T63 Arg2:T62
+R63	Apply-to Arg1:T63 Arg2:T64
+R64	Attribute Arg1:T65 Arg2:T61
+R65	Condition Arg1:T61 Arg2:T63
+R66	Member-collection Arg1:T69 Arg2:T68
+R67	Attribute Arg1:T71 Arg2:T70
+R68	Input Arg1:T67 Arg2:T68
+R69	Input Arg1:T67 Arg2:T71
+R70	Attribute Arg1:T75 Arg2:T74
+R71	Output Arg1:T73 Arg2:T74
+R73	Apply-to Arg1:T65 Arg2:T67
+R74	Attribute Arg1:T67 Arg2:T66
+R75	Attribute Arg1:T67 Arg2:T82
+R76	Target Arg1:T46 Arg2:T50
+R72	Condition Arg1:T74 Arg2:T76
+R77	Component-object Arg1:T72 Arg2:T73
+A9	Name T60
+T1	PLAN-OR-PROCESS 0 41	Unsupervised Named Entity Transliteration
+T78	DATA-ITEM 48 56	Temporal
+T77	DATA-ITEM 61 81	Phonetic Correlation
+T2	REFERENCE 87 97	this paper
+T3	PERSON 98 100	we
+T4	PROCESS 101 112	investigate
+T5	PLAN-OR-PROCESS 113 146	unsupervised name transliteration
+T6	INPUT 147 152	using
+T7	QUALITY 153 163	comparable
+T8	DATA-ITEM 164 171	corpora
+T9	DATA-ITEM 174 181	corpora
+T79	REFERENCE 182 187	where
+T10	DATA-ITEM 188 193	texts
+T11	QUANTITY 201 204	two
+T12	LANGUAGE 205 214	languages
+T13	PROCESS 215 219	deal
+T14	QUANTITY 223 227	some
+T15	QUALITY 235 239	same
+T16	DATA-ITEM 240 246	topics
+T80	PROCESS 264 269	share
+T17	DATA-ITEM 270 280	references
+T18	DATA-ITEM 284 298	named entities
+T19	MODALITY 310 313	not
+T20	DATA-ITEM 314 326	translations
+T21	REFERENCE 330 340	each other
+T22	PERSON 343 345	We
+T23	PROCESS 346 353	present
+T24	QUANTITY 354 357	two
+T25	QUALITY 358 366	distinct
+T26	PLAN 367 374	methods
+T27	PROCESS 379 394	transliteration
+T28	PLAN 397 409	one approach
+T29	APPLY-TO 410 415	using
+T30	PLAN 419 463	unsupervised phonetic transliteration method
+T31	PLAN 474 479	other
+T32	INPUT 480 485	using
+T33	DATA-ITEM 490 511	temporal distribution
+T34	DATA-ITEM 515 530	candidate pairs
+T81	PLAN 533 537	Each
+T35	PLAN 541 557	these approaches
+T36	PROCESS 558 563	works
+T37	QUALITY 564 574	quite well
+T38	PROCESS 584 593	combining
+T39	PLAN 594 608	the approaches
+T40	PERSON 609 612	one
+T41	MODALITY 613 616	can
+T42	PROCESS 617 624	achieve
+T43	QUALITY 625 636	even better
+T44	DATA-ITEM 637 644	results
+T45	PERSON 647 649	We
+T46	PROCESS 650 657	believe
+T47	DATA-ITEM 667 674	novelty
+T48	PERSON 678 681	our
+T49	PLAN 682 690	approach
+T50	PROCESS 691 695	lies
+T51	PLAN 703 732	phonetic-based scoring method
+T52	REFERENCE 735 740	which
+T53	APPLY-TO 744 752	based on
+T54	PLAN-OR-PROCESS 755 766	combination
+T55	QUALITY 770 787	carefully crafted
+T56	DATA-ITEM 788 805	phonetic features
+T57	DATA-ITEM 812 829	empirical results
+T58	DATA-ITEM 839 859	pronunciation errors
+T59	PERSON 863 887	second-language learners
+T60	LANGUAGE 891 898	English
+T61	QUALITY 901 907	Unlike
+T62	TIME 908 916	previous
+T63	PLAN 917 927	approaches
+T64	PROCESS 931 946	transliteration
+T65	PLAN 949 960	this method
+T66	MODALITY 961 964	can
+T82	QUALITY 965 977	in principle
+T67	PLAN-OR-PROCESS 978 982	work
+T68	LANGUAGE 992 996	pair
+T69	LANGUAGE 1000 1009	languages
+T70	MODALITY 1017 1024	absence
+T71	DATA-ITEM 1030 1049	training dictionary
+T72	PLAN 1052 1064	provided one
+T73	PLAN-OR-PROCESS 1072 1080	estimate
+T74	DATA-ITEM 1088 1101	pronunciation
+T75	DATA-ITEM 1105 1110	words
+T76	DATA-ITEM 1114 1118	text

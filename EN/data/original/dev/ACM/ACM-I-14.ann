@@ -1,0 +1,164 @@
+T1	PLAN 2 59	Reinforcement Learning based Distributed Search Algorithm
+T2	QUALITY 124 132	dominant
+T3	QUALITY 133 141	existing
+T4	PLAN 142 160	routing strategies
+T5	APPLY-TO 161 169	employed
+T9	PLAN 173 229	peerto-peer(P2P) based information retrieval(IR) systems
+T10	PLAN 234 261	similarity-based approaches
+T11	PLAN 266 282	these approaches
+T12	INTELLIGENT-AGENT 284 290	agents
+T13	PROCESS 291 297	depend
+T14	DATA-ITEM 305 323	content similarity
+T15	DATA-ITEM 341 348	queries
+T16	REFERENCE 353 358	their
+T18	QUALITY 359 377	direct neighboring
+T19	INTELLIGENT-AGENT 378 384	agents
+T20	PROCESS 388 394	direct
+T21	PLAN 399 426	distributed search sessions
+T22	PLAN 437 453	such a heuristic
+T23	QUALITY 457 463	myopic
+T24	QUALITY 476 487	neighboring
+T25	INTELLIGENT-AGENT 488 494	agents
+T26	MODALITY 495 498	may
+T27	MODALITY 499 502	not
+T28	PROCESS 506 515	connected
+T29	QUALITY 519 532	more relevant
+T30	INTELLIGENT-AGENT 533 539	agents
+T31	REFERENCE 544 554	this paper
+T32	PLAN 559 603	online reinforcement-learning based approach
+T33	PROCESS 607 616	developed
+T34	PROCESS 620 634	take advantage
+T35	PLAN 642 674	dynamic run-time characteristics
+T36	PLAN 678 692	P2P IR systems
+T37	PROCESS 696 707	represented
+T38	DATA-ITEM 711 722	information
+T39	PLAN 734 749	search sessions
+T40	INTELLIGENT-AGENT 765 771	agents
+T41	PROCESS 772 780	maintain
+T42	PLAN-OR-PROCESS 781 790	estimates
+T43	QUALITY 798 808	downstream
+T44	INTELLIGENT-AGENT 809 815	agents
+T45	DATA-ITEM 817 826	abilities
+T46	PROCESS 830 837	provide
+T47	QUALITY 838 846	relevant
+T48	DATA-ITEM 847 856	documents
+T49	QUALITY 861 869	incoming
+T50	DATA-ITEM 870 877	queries
+T51	PLAN-OR-PROCESS 879 894	These estimates
+T52	PROCESS 899 906	updated
+T53	QUALITY 907 916	gradually
+T54	PROCESS 920 928	learning
+T55	DATA-ITEM 938 958	feedback information
+T56	PROCESS 959 967	returned
+T57	TIME 973 981	previous
+T58	PLAN 982 997	search sessions
+T59	INPUT 999 1004	Based
+T60	DATA-ITEM 1008 1024	this information
+T61	INTELLIGENT-AGENT 1030 1036	agents
+T62	PROCESS 1037 1043	derive
+T63	QUALITY 1044 1057	corresponding
+T64	PLAN 1058 1074	routing policies
+T66	INTELLIGENT-AGENT 1088 1100	these agents
+T67	PROCESS 1101 1106	route
+T68	DATA-ITEM 1111 1118	queries
+T69	APPLY-TO 1119 1127	based on
+T70	PLAN 1132 1148	learned policies
+T71	PROCESS 1153 1159	update
+T72	PLAN-OR-PROCESS 1164 1173	estimates
+T73	APPLY-TO 1174 1179	based
+T74	QUALITY 1187 1190	new
+T75	PLAN 1191 1207	routing policies
+T76	DATA-ITEM 1209 1229	Experimental results
+T77	RESULT 1230 1241	demonstrate
+T78	PLAN 1251 1269	learning algorithm
+T79	JUDGING-PROCESS 1270 1278	improves
+T80	QUALITY 1279 1291	considerably
+T82	DATA-ITEM 1296 1315	routing performance
+T83	QUANTITY 1319 1322	two
+T84	DATA-ITEM 1323 1343	test collection sets
+T85	REFERENCE 1344 1348	that
+T86	INPUT 1359 1363	used
+T87	QUALITY 1367 1376	a variety
+T88	PLAN 1380 1402	distributed IR studies
+T89	PLAN 64 119	Hierarchical Peer-to-Peer Information Retrieval Systems
+R1	Apply-to Arg1:T1 Arg2:T89	
+R2	Attribute Arg1:T4 Arg2:T3	
+R3	Attribute Arg1:T4 Arg2:T2	
+R4	from Arg1:T5 Arg2:T4	
+R5	to Arg1:T5 Arg2:T9	
+R6	Is-a Arg1:T10 Arg2:T4	
+R7	Coreference Arg1:T11 Arg2:T4	
+R8	Agent Arg1:T13 Arg2:T12	
+R9	Condition Arg1:T14 Arg2:T15	
+R10	Attribute Arg1:T19 Arg2:T18	
+R12	Target Arg1:T20 Arg2:T21	
+R13	Apply-to Arg1:T13 Arg2:T20	
+R14	Target Arg1:T13 Arg2:T14	
+R15	Target Arg1:T13 Arg2:T19	
+R16	Condition Arg1:T13 Arg2:T11	
+R17	Coreference Arg1:T22 Arg2:T11	
+R18	Attribute Arg1:T22 Arg2:T23	
+R19	Attribute Arg1:T25 Arg2:T24	
+R20	Attribute Arg1:T30 Arg2:T29	
+R21	Attribute Arg1:T28 Arg2:T27	
+R22	Attribute Arg1:T28 Arg2:T26	
+R23	Destination Arg1:T28 Arg2:T30	
+R24	Agent Arg1:T28 Arg2:T25	
+A1	Self T31
+R25	Output Arg1:T33 Arg2:T32	
+A2	Intentional T33
+R26	Condition Arg1:T33 Arg2:T31	
+R27	Apply-to Arg1:T33 Arg2:T34	
+R28	Target Arg1:T34 Arg2:T35	
+R29	Attribute Arg1:T36 Arg2:T35	
+R30	Output Arg1:T37 Arg2:T35	
+R31	Agent Arg1:T37 Arg2:T38	
+R32	Condition Arg1:T38 Arg2:T39	
+R33	Agent Arg1:T41 Arg2:T40	
+R34	Target Arg1:T41 Arg2:T42	
+R35	Attribute Arg1:T44 Arg2:T43	
+R36	Attribute Arg1:T44 Arg2:T45	
+R37	Output Arg1:T42 Arg2:T45	
+R38	Attribute Arg1:T48 Arg2:T47	
+R39	Output Arg1:T46 Arg2:T48	
+R40	Attribute Arg1:T50 Arg2:T49	
+T6	QUALITY 332 340	incoming
+R41	Attribute Arg1:T15 Arg2:T6	
+R42	Destination Arg1:T46 Arg2:T50	
+R43	Condition Arg1:T45 Arg2:T46	
+R44	Coreference Arg1:T51 Arg2:T42	
+R45	In_Out Arg1:T52 Arg2:T51	
+R46	Attribute Arg1:T52 Arg2:T53	
+R47	Apply-to Arg1:T54 Arg2:T52	
+R48	Input Arg1:T54 Arg2:T55	
+T7	TIME 729 733	past
+R49	Condition Arg1:T39 Arg2:T7	
+R50	Condition Arg1:T58 Arg2:T57	
+R51	Apply-to Arg1:T58 Arg2:T56	
+R52	Output Arg1:T56 Arg2:T55	
+R53	Coreference Arg1:T60 Arg2:T55	
+R54	Attribute Arg1:T64 Arg2:T63	
+R55	Agent Arg1:T62 Arg2:T61	
+R56	Output Arg1:T62 Arg2:T64	
+R57	from Arg1:T59 Arg2:T62	
+R58	to Arg1:T59 Arg2:T60	
+R59	Coreference Arg1:T66 Arg2:T61	
+R60	Agent Arg1:T67 Arg2:T66	
+R61	Target Arg1:T67 Arg2:T68	
+R62	from Arg1:T69 Arg2:T70	
+R63	to Arg1:T69 Arg2:T67	
+R64	Agent Arg1:T71 Arg2:T66	
+R65	In_Out Arg1:T71 Arg2:T72	
+R66	Attribute Arg1:T75 Arg2:T74	
+R67	from Arg1:T73 Arg2:T75	
+R68	to Arg1:T73 Arg2:T71	
+R69	Attribute Arg1:T84 Arg2:T83	
+R70	Apply-to Arg1:T78 Arg2:T79	
+R71	Attribute Arg1:T79 Arg2:T80	
+R72	In_Out Arg1:T79 Arg2:T82	
+R73	Condition Arg1:T82 Arg2:T84	
+R74	Attribute Arg1:T88 Arg2:T87	
+R75	from Arg1:T86 Arg2:T88	
+R76	to Arg1:T86 Arg2:T85	
+R77	Coreference Arg1:T85 Arg2:T84	
+R11	Poss Arg1:T16 Arg2:T19	

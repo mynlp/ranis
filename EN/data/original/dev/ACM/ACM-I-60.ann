@@ -1,0 +1,177 @@
+T1	QUALITY 7 15	Benefits
+T2	PROCESS 19 27	Cheating
+T3	QUALITY 31 46	Self-Interested
+T4	INTELLIGENT-AGENT 47 53	Agents
+T5	ARTIFACT 57 75	Vehicular Networks
+T6	ARTIFACT 93 97	cars
+T7	QUANTITY 79 92	more and more
+T8	PROCESS 102 110	equipped
+T9	ARTIFACT 116 119	GPS
+T10	ARTIFACT 124 142	Wi-Fi transmitters
+T11	PROCESS 147 154	becomes
+T12	QUALITY 155 161	easier
+T13	PROCESS 165 171	design
+T14	PLAN 172 179	systems
+T15	PROCESS 190 195	allow
+T16	MODALITY 185 189	will
+T17	ARTIFACT 196 200	cars
+T18	PROCESS 204 212	interact
+T19	QUALITY 213 225	autonomously
+T20	REFERENCE 231 241	each other
+T21	LOCATION 274 279	roads
+T22	PROCESS 259 266	traffic
+T23	ORGANIZATION 289 306	car manufacturers
+T24	TIME 311 318	already
+T25	PROCESS 319 328	equipping
+T26	ARTIFACT 335 339	cars
+T27	ARTIFACT 345 357	such devices
+T28	TIME 367 376	currently
+T29	PLAN 377 390	these systems
+T30	QUALITY 397 408	proprietary
+T31	PROCESS 413 421	envision
+T32	PROCESS 424 441	natural evolution
+T33	PLAN 448 466	agent applications
+T35	PROCESS 475 484	developed
+T36	PLAN 489 506	vehicular systems
+T37	PROCESS 517 524	improve
+T38	PLAN-OR-PROCESS 525 536	car routing
+T39	LOCATION 540 557	dense urban areas
+T40	PLAN 572 576;581 591	this technology
+T41	QUALITY 577 580	new
+T42	PLAN 596 614	agent applications
+T43	MODALITY 615 618	may
+T44	PROCESS 619 623	lead
+T45	PROCESS 631 640	emergence
+T46	QUALITY 644 659	self-interested
+T47	PERSON 660 670	car owners
+T48	MODALITY 676 680	will
+T49	PROCESS 681 685	care
+T50	QUALITY 707 714	welfare
+T51	QUALITY 724 738	social welfare
+T52	PERSON 748 753	peers
+T53	QUALITY 686 690	more
+T54	PERSON 755 771	These car owners
+T55	MODALITY 772 776	will
+T56	PROCESS 777 780	try
+T57	PROCESS 784 794	manipulate
+T58	INTELLIGENT-AGENT 801 807	agents
+T59	REFERENCE 818 822	they
+T60	PROCESS 823 831	transmit
+T61	DATA-ITEM 832 842	false data
+T62	INTELLIGENT-AGENT 852 857	peers
+T63	APPLY-TO 859 864	Using
+T64	PLAN 867 889	simulation environment
+T65	PROCESS 897 903	models
+T66	THING 906 933	real transportation network
+T67	LOCATION 945 949	city
+T68	QUALITY 939 944	large
+T69	QUALITY 970 978	benefits
+T70	PROCESS 979 987	achieved
+T71	QUALITY 991 1006	self-interested
+T72	INTELLIGENT-AGENT 1007 1013	agents
+T73	QUANTITY 1017 1019	no
+T74	PLAN-OR-PROCESS 1020 1036	counter-measures
+T75	PROCESS 1041 1052	implemented
+R1	Attribute Arg1:T4 Arg2:T3	
+R2	Attribute Arg1:T6 Arg2:T7	
+R3	Attribute Arg1:T13 Arg2:T12	
+R4	Attribute Arg1:T15 Arg2:T16	
+R5	Attribute Arg1:T18 Arg2:T19	
+R6	Destination Arg1:T18 Arg2:T20	
+R7	Attribute Arg1:T25 Arg2:T24	
+T76	REFERENCE 329 334	their
+R8	Coreference Arg1:T76 Arg2:T23	
+R9	Coreference Arg1:T27 Arg2:T10	
+R10	Coreference Arg1:T27 Arg2:T9	
+R11	Attribute Arg1:T29 Arg2:T30	
+R13	Attribute Arg1:T40 Arg2:T41	
+R14	Attribute Arg1:T44 Arg2:T43	
+R15	Attribute Arg1:T47 Arg2:T46	
+T77	REFERENCE 672 675	who
+R16	Coreference Arg1:T77 Arg2:T47	
+T78	REFERENCE 697 706	their own
+R18	Coreference Arg1:T78 Arg2:T77	
+T79	REFERENCE 742 747	their
+R21	Coreference Arg1:T79 Arg2:T78	
+R22	Attribute Arg1:T56 Arg2:T55	
+T80	REFERENCE 795 800	their
+R23	Coreference Arg1:T80 Arg2:T54	
+R24	Coreference Arg1:T59 Arg2:T54	
+T81	REFERENCE 846 851	their
+R25	Coreference Arg1:T81 Arg2:T59	
+R26	Attribute Arg1:T67 Arg2:T68	
+R27	Attribute Arg1:T72 Arg2:T71	
+R28	Attribute Arg1:T74 Arg2:T73	
+R19	Coreference Arg1:T54 Arg2:T79	
+T82	REFERENCE 891 896	which
+R20	Coreference Arg1:T82 Arg2:T64	
+T83	REFERENCE 377 382	these
+T86	REFERENCE 180 184	that
+R29	Coreference Arg1:T86 Arg2:T14	
+R30	Poss Arg1:T76 Arg2:T26	
+R31	Poss Arg1:T78 Arg2:T50	
+R32	Poss Arg1:T79 Arg2:T52	
+R33	Poss Arg1:T80 Arg2:T58	
+R34	Poss Arg1:T81 Arg2:T62	
+R12	Attribute Arg1:T2 Arg2:T1	
+R35	Agent Arg1:T2 Arg2:T4	
+R36	Condition Arg1:T2 Arg2:T5	
+R37	Destination Arg1:T8 Arg2:T6	
+R38	Output Arg1:T8 Arg2:T9	
+R39	Output Arg1:T8 Arg2:T10	
+R40	Output Arg1:T13 Arg2:T14	
+R41	Output Arg1:T11 Arg2:T12	
+R42	Apply-to Arg1:T86 Arg2:T15	
+R43	Apply-to Arg1:T17 Arg2:T18	
+R44	Target Arg1:T15 Arg2:T18	
+R45	Condition Arg1:T22 Arg2:T21	
+T89	IN_OUT 249 258	regarding
+R46	from Arg1:T89 Arg2:T22	
+R47	to Arg1:T89 Arg2:T18	
+R48	Agent Arg1:T25 Arg2:T23	
+R49	Destination Arg1:T25 Arg2:T26	
+R50	Output Arg1:T25 Arg2:T27	
+R51	Condition Arg1:T30 Arg2:T28	
+R52	Target Arg1:T31 Arg2:T32	
+R53	Output Arg1:T35 Arg2:T33	
+R54	Apply-to Arg1:T33 Arg2:T36	
+R55	In_Out Arg1:T37 Arg2:T38	
+R56	Apply-to Arg1:T35 Arg2:T37	
+R57	Condition Arg1:T38 Arg2:T39	
+R58	Apply-to Arg1:T40 Arg2:T44	
+R59	Apply-to Arg1:T42 Arg2:T44	
+R60	Target Arg1:T44 Arg2:T45	
+R61	Agent Arg1:T45 Arg2:T47	
+R62	Agent Arg1:T49 Arg2:T77	
+R63	Attribute Arg1:T49 Arg2:T53	
+R64	Target Arg1:T49 Arg2:T50	
+T90	COMPARE 715 719	than
+R65	from Arg1:T90 Arg2:T51	
+R66	to Arg1:T90 Arg2:T53	
+R67	Attribute Arg1:T52 Arg2:T51	
+R68	Agent Arg1:T56 Arg2:T54	
+R69	Apply-to Arg1:T56 Arg2:T57	
+R70	Target Arg1:T57 Arg2:T58	
+R71	Agent Arg1:T60 Arg2:T59	
+R72	Output Arg1:T60 Arg2:T61	
+R74	Apply-to Arg1:T82 Arg2:T65	
+R75	Input Arg1:T65 Arg2:T66	
+R76	Condition Arg1:T66 Arg2:T67	
+R77	Output Arg1:T75 Arg2:T74	
+R78	Agent Arg1:T70 Arg2:T72	
+R79	Output Arg1:T70 Arg2:T69	
+R80	Condition Arg1:T75 Arg2:T70	
+R81	from Arg1:T63 Arg2:T64	
+R17	Attribute Arg1:T49 Arg2:T48	
+T91	MODALITY 1014 1016	if
+R82	Attribute Arg1:T75 Arg2:T91	
+R83	Destination Arg1:T60 Arg2:T62	
+T34	PERSON 410 412	we
+R73	Agent Arg1:T31 Arg2:T34	
+T84	PERSON 951 953	we
+T85	PROCESS 954 965	demonstrate
+R84	to Arg1:T63 Arg2:T85	
+R85	Agent Arg1:T85 Arg2:T84	
+R86	Output Arg1:T85 Arg2:T69	
+T87	MODALITY 467 471	will
+R87	Attribute Arg1:T35 Arg2:T87	

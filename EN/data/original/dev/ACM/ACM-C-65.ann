@@ -1,0 +1,137 @@
+T1	COMPONENT-OBJECT 181 189	consists
+T2	PROCESS 303 313	implements
+T3	PROCESS 414 422	provides
+T4	APPLY-TO 457 461	used
+T5	PROCESS 503 510	running
+T6	PROCESS 767 776	estimates
+T7	ATTRIBUTE 984 997	characterized
+T8	PROCESS 1152 1158	tested
+T9	MODALITY 593 596	can
+T10	MODALITY 639 642	can
+T12	ARTIFACT 229 244	COTS MICAz mote
+T14	QUALITY 898 909	independent
+T15	QUANTITY 738 746	multiple
+T16	QUANTITY 1035 1043	over 95%
+T17	QUANTITY 1076 1079	all
+T18	PLAN-OR-PROCESS 25 46	Weapon Classification
+T19	ARTIFACT 52 86	Soldier-Wearable Networked Sensors
+T20	PLAN 108 165	wireless sensor network-based mobile countersniper system
+T21	ARTIFACT 169 180	sensor node
+T22	ARTIFACT 195 225	helmetmounted microphone array
+T23	PLAN-OR-PROCESS 249 272	internode communication
+T24	ARTIFACT 279 297	custom sensorboard
+T25	PLAN 318 336;374 384	acoustic detection algorithms
+T26	PLAN 341 356	Time of Arrival
+T27	PLAN 363 384	estimation algorithms
+T29	ARTIFACT 399 413	3-axis compass
+T30	PLAN-OR-PROCESS 423 439	self orientation
+T32	PLAN-OR-PROCESS 466 479	communication
+T33	PLAN 515 526	data fusion
+T34	PLAN 535 549	user interface
+T35	PLAN 555 592	heterogeneous sensor fusion algorithm
+T36	DATA-ITEM 607 611	data
+T37	ARTIFACT 626 632	sensor
+T38	REFERENCE 636 638	it
+T39	PROCESS 678 690	observations
+T40	PROCESS 694 707	muzzle blasts
+T41	PROCESS 712 732	ballistic shockwaves
+T42	ARTIFACT 747 754	sensors
+T43	PLAN 760 766	system
+T44	DATA-ITEM 781 791	trajectory
+T45	DATA-ITEM 797 802	range
+T46	DATA-ITEM 808 815	caliber
+T47	DATA-ITEM 824 835	weapon type
+T48	PLAN 860 873	system design
+T49	DATA-ITEM 882 889	results
+T50	PLAN-OR-PROCESS 910 920	evaluation
+T51	DATA-ITEM 962 980	system performance
+T52	DATA-ITEM 1010 1030	trajectory precision
+T53	DATA-ITEM 1044 1071	caliber estimation accuracy
+T54	PLAN-OR-PROCESS 1080 1085	shots
+T55	DATA-ITEM 1105 1131	weapon estimation accuracy
+T56	ARTIFACT 1147 1151	guns
+T57	PERSON 0 7	Shooter
+T58	PROCESS 0 20	Shooter Localization
+T59	PLAN 358 361	ToA
+R1	Equivalence Arg1:T59 Arg2:T26	
+R2	Split Arg1:T27 Arg2:T26	
+T11	ARTIFACT 229 239	COTS MICAz
+T60	PERSON 489 496	soldier
+T61	ARTIFACT 499 502	PDA
+T62	PROCESS 597 601	work
+R3	Attribute Arg1:T62 Arg2:T9	
+T63	QUANTITY 619 625	single
+R4	Attribute Arg1:T37 Arg2:T63	
+T64	PROCESS 643 647	fuse
+T65	PROCESS 648 651;678 690	ToA observations
+T66	PROCESS 655 671	Angle of Arrival
+T67	PROCESS 673 676	AoA
+R5	Equivalence Arg1:T67 Arg2:T66	
+R8	Attribute Arg1:T42 Arg2:T15	
+R9	Attribute Arg1:T50 Arg2:T14	
+T68	QUANTITY 1001 1009	1-degree
+R10	Attribute Arg1:T52 Arg2:T68	
+R12	Attribute Arg1:T53 Arg2:T16	
+R13	Attribute Arg1:T54 Arg2:T17	
+T70	QUALITY 1091 1096	close
+T71	QUANTITY 1100 1104	100%
+R14	Attribute Arg1:T71 Arg2:T70	
+R15	Attribute Arg1:T55 Arg2:T71	
+T72	QUANTITY 1136 1146	4 out of 6
+R16	Attribute Arg1:T56 Arg2:T72	
+T73	PERSON 52 59	Soldier
+T74	ARTIFACT 391 395	FPGA
+T75	PLAN 444 453	Bluetooth
+R17	Coreference Arg1:T38 Arg2:T35	
+T76	ORGANIZATION 928 956	US Army Aberdeen Test Center
+T31	REFERENCE 298 302	that
+R6	Coreference Arg1:T31 Arg2:T24	
+R18	Poss Arg1:T60 Arg2:T61	
+R11	Apply-to Arg1:T19 Arg2:T58	
+R19	Apply-to Arg1:T19 Arg2:T18	
+R20	from Arg1:T1 Arg2:T22	
+R21	to Arg1:T1 Arg2:T21	
+R22	from Arg1:T1 Arg2:T12	
+R23	from Arg1:T1 Arg2:T24	
+R24	Apply-to Arg1:T12 Arg2:T23	
+R25	Apply-to Arg1:T31 Arg2:T2	
+R26	Output Arg1:T2 Arg2:T25	
+R27	Output Arg1:T2 Arg2:T27	
+R28	Condition Arg1:T2 Arg2:T74	
+R29	Apply-to Arg1:T29 Arg2:T3	
+R30	Output Arg1:T3 Arg2:T30	
+R31	from Arg1:T4 Arg2:T75	
+R32	to Arg1:T4 Arg2:T32	
+R33	Destination Arg1:T32 Arg2:T61	
+R34	Condition Arg1:T5 Arg2:T61	
+R35	Output Arg1:T5 Arg2:T33	
+R36	Output Arg1:T5 Arg2:T34	
+R37	Apply-to Arg1:T35 Arg2:T62	
+R38	Input Arg1:T62 Arg2:T36	
+R39	Condition Arg1:T36 Arg2:T37	
+R40	Attribute Arg1:T64 Arg2:T10	
+R41	Apply-to Arg1:T38 Arg2:T64	
+R42	In_Out Arg1:T64 Arg2:T65	
+R45	Target Arg1:T65 Arg2:T40	
+R47	Target Arg1:T65 Arg2:T41	
+R49	Apply-to Arg1:T42 Arg2:T65	
+R50	Apply-to Arg1:T43 Arg2:T6	
+R51	Output Arg1:T6 Arg2:T44	
+R52	Output Arg1:T6 Arg2:T45	
+R53	Output Arg1:T6 Arg2:T46	
+R54	Output Arg1:T6 Arg2:T47	
+R55	Output Arg1:T50 Arg2:T49	
+R56	Condition Arg1:T50 Arg2:T76	
+R57	from Arg1:T7 Arg2:T51	
+R58	to Arg1:T7 Arg2:T52	
+R59	to Arg1:T7 Arg2:T53	
+R60	Condition Arg1:T52 Arg2:T54	
+R61	Condition Arg1:T53 Arg2:T54	
+R62	to Arg1:T7 Arg2:T55	
+R64	Target Arg1:T8 Arg2:T56	
+R63	Condition Arg1:T55 Arg2:T56	
+R7	Split Arg1:T39 Arg2:T66	
+R43	Target Arg1:T39 Arg2:T40	
+R44	Target Arg1:T39 Arg2:T41	
+R46	Apply-to Arg1:T42 Arg2:T39	
+R48	In_Out Arg1:T64 Arg2:T39	

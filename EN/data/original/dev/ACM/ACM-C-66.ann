@@ -1,0 +1,168 @@
+T1	PROCESS 97 103	create
+T2	PROCESS 129 136	provide
+T3	PROCESS 250 256	sought
+T4	PROCESS 260 266	define
+T5	PROCESS 289 296	improve
+T7	PROCESS 609 617	complete
+T8	PROCESS 730 736	mapped
+T9	PLAN-OR-PROCESS 884 894	scheduling
+T10	PROCESS 1105 1112	perform
+T11	PROCESS 1228 1236	produces
+T13	MODALITY 76 79	can
+T14	MODALITY 348 351	not
+T15	QUALITY 352 357	fully
+T16	QUALITY 523 531	relevant
+T17	QUALITY 1090 1101	appropriate
+T18	QUALITY 1192 1196	well
+T19	QUALITY 1237 1243	better
+T20	QUALITY 1258 1269	traditional
+T21	QUANTITY 758 766	multiple
+T22	QUANTITY 917 925	multiple
+T23	QUANTITY 1019 1022	all
+T24	PLAN-OR-PROCESS 0 27	Heuristics-Based Scheduling
+T25	PLAN-OR-PROCESS 31 62	Composite Web Service Workloads
+T26	PLAN 63 75	Web services
+T27	PLAN 104 123	composite workflows
+T28	PLAN-OR-PROCESS 149 162	functionality
+T29	PLAN 182 195	other systems
+T30	PLAN 206 224	industry standards
+T31	EXTERNAL-REFERENCE 229 244	recent research
+T32	PLAN-OR-PROCESS 267 281	best practices
+T33	PLAN-OR-PROCESS 297 328	end-to-end workflow composition
+T34	PLAN-OR-PROCESS 379 389	scheduling
+T35	DATA-ITEM 406 426	web service requests
+T36	PLAN-OR-PROCESS 437 457	service provisioning
+T37	THING 496 507	environment
+T39	PLAN 542 560	business scenarios
+T40	PLAN-OR-PROCESS 567 585	business processes
+T41	PLAN 595 603	workflow
+T42	DATA-ITEM 625 643	QoS-defined limits
+T43	PLAN-OR-PROCESS 653 677	these business processes
+T44	PLAN-OR-PROCESS 682 703	web service consumers
+T45	DATA-ITEM 705 721	service requests
+T46	PLAN-OR-PROCESS 767 788	web service providers
+T47	DATA-ITEM 819 842	service level agreement
+T48	PLAN 869 879	heuristics
+T49	DATA-ITEM 895 911	service requests
+T50	DATA-ITEM 926 952	business process workflows
+T51	PLAN-OR-PROCESS 956 977	web service providers
+T52	PLAN 990 1011	business value metric
+T53	PLAN 1023 1032	workflows
+T54	PLAN 1062 1086	genetic search algorithm
+T55	PLAN-OR-PROCESS 1113 1128	this scheduling
+T56	PLAN-OR-PROCESS 1142 1157	experimentation
+T57	PLAN 1175 1184	algorithm
+T58	PLAN 1214 1223	workflows
+T59	DATA-ITEM 1244 1252	mappings
+T60	PLAN 1270 1280	approaches
+T61	PROCESS 83 93	aggregated
+R1	Attribute Arg1:T61 Arg2:T13	
+T62	PERSON 167 178	human users
+T64	DOMAIN 334 338	area
+T65	PROCESS 363 371	explored
+R3	Attribute Arg1:T65 Arg2:T15	
+R4	Attribute Arg1:T65 Arg2:T14	
+T66	PROCESS 741 750	scheduled
+R5	Attribute Arg1:T46 Arg2:T21	
+T67	MODALITY 722 726	must
+R6	Attribute Arg1:T8 Arg2:T67	
+R7	Attribute Arg1:T66 Arg2:T67	
+R9	Attribute Arg1:T50 Arg2:T22	
+R10	Attribute Arg1:T53 Arg2:T23	
+T69	JUDGING-PROCESS 1036 1045	maximised
+R12	Attribute Arg1:T54 Arg2:T17	
+T12	PROCESS 1185 1191	scales
+R13	Attribute Arg1:T12 Arg2:T18	
+T70	QUANTITY 1205 1213	thousand
+R14	Attribute Arg1:T58 Arg2:T70	
+R15	Attribute Arg1:T59 Arg2:T19	
+R16	Attribute Arg1:T60 Arg2:T20	
+R17	Coreference Arg1:T55 Arg2:T9	
+T71	PERSON 1171 1174	our
+T72	PLAN 509 519	This issue
+T76	REFERENCE 339 343	that
+R18	Coreference Arg1:T76 Arg2:T64	
+T77	QUANTITY 330 333	one
+T78	REFERENCE 124 128	that
+R19	Coreference Arg1:T78 Arg2:T27	
+R20	Poss Arg1:T71 Arg2:T57	
+T68	REFERENCE 800 807	its own
+R8	Coreference Arg1:T68 Arg2:T46	
+R21	Poss Arg1:T68 Arg2:T47	
+R2	Attribute Arg1:T72 Arg2:T16	
+R22	Target Arg1:T24 Arg2:T25	
+R23	In_Out Arg1:T61 Arg2:T26	
+R24	Apply-to Arg1:T61 Arg2:T1	
+R25	Output Arg1:T1 Arg2:T27	
+R26	Apply-to Arg1:T78 Arg2:T2	
+R27	Output Arg1:T2 Arg2:T28	
+R28	Destination Arg1:T2 Arg2:T62	
+R29	Destination Arg1:T2 Arg2:T29	
+R30	Apply-to Arg1:T30 Arg2:T3	
+R31	Other-rel Arg1:T3 Arg2:T31	
+R32	Apply-to Arg1:T3 Arg2:T4	
+R33	Output Arg1:T4 Arg2:T32	
+R34	Apply-to Arg1:T3 Arg2:T5	
+R35	In_Out Arg1:T5 Arg2:T33	
+R36	Attribute Arg1:T64 Arg2:T77	
+R37	Target Arg1:T65 Arg2:T76	
+R38	Is-a Arg1:T34 Arg2:T64	
+R39	Output Arg1:T34 Arg2:T35	
+R42	Condition Arg1:T34 Arg2:T37	
+R43	Condition Arg1:T16 Arg2:T39	
+R45	Component-object Arg1:T40 Arg2:T41	
+R46	Apply-to Arg1:T40 Arg2:T7	
+R47	Condition Arg1:T7 Arg2:T42	
+R48	Coreference Arg1:T43 Arg2:T40	
+R49	Is-a Arg1:T43 Arg2:T44	
+R50	Output Arg1:T8 Arg2:T45	
+R51	Output Arg1:T66 Arg2:T45	
+R52	Condition Arg1:T8 Arg2:T46	
+R53	Condition Arg1:T66 Arg2:T46	
+T80	QUALITY 808 818	negotiated
+R54	Attribute Arg1:T47 Arg2:T80	
+R55	Apply-to Arg1:T48 Arg2:T9	
+R56	Output Arg1:T9 Arg2:T49	
+R58	Destination Arg1:T9 Arg2:T51	
+R60	Condition Arg1:T52 Arg2:T53	
+R61	Condition Arg1:T17 Arg2:T10	
+R62	Output Arg1:T10 Arg2:T55	
+R63	Apply-to Arg1:T57 Arg2:T12	
+R64	Destination Arg1:T12 Arg2:T58	
+R65	Apply-to Arg1:T57 Arg2:T11	
+R66	Output Arg1:T11 Arg2:T59	
+R44	Condition Arg1:T7 Arg2:T39	
+R57	Origin Arg1:T9 Arg2:T50	
+R11	In_Out Arg1:T69 Arg2:T52	
+R59	Apply-to Arg1:T9 Arg2:T69	
+T81	COMPARE 1253 1257	than
+R67	from Arg1:T81 Arg2:T60	
+R68	to Arg1:T81 Arg2:T19	
+R40	Destination Arg1:T34 Arg2:T36	
+T38	QUALITY 463 475	multi-tiered
+T82	QUALITY 477 495	multi-organisation
+R41	Attribute Arg1:T37 Arg2:T38	
+R69	Attribute Arg1:T37 Arg2:T82	
+T83	QUALITY 137 148	streamlined
+R70	Attribute Arg1:T28 Arg2:T83	
+T84	QUALITY 430 436	actual
+T85	PLAN 395 403	workflow
+R71	Other-rel Arg1:T85 Arg2:T35	
+R72	Attribute Arg1:T36 Arg2:T84	
+T86	QUALITY 535 541	modern
+R73	Attribute Arg1:T39 Arg2:T86	
+T6	PERSON 858 860	we
+T63	REFERENCE 847 857	this paper
+T73	PROCESS 861 868	provide
+T74	PERSON 1047 1049	We
+T75	PROCESS 1050 1054	show
+T79	PERSON 1158 1160	we
+T87	PROCESS 1161 1165	show
+R74	Agent Arg1:T73 Arg2:T6	
+R75	Condition Arg1:T73 Arg2:T63	
+R76	Output Arg1:T73 Arg2:T48	
+R77	Agent Arg1:T75 Arg2:T74	
+R78	Agent Arg1:T87 Arg2:T79	
+R79	Output Arg1:T75 Arg2:T17	
+R80	Output Arg1:T87 Arg2:T18	
+R81	Output Arg1:T87 Arg2:T19	

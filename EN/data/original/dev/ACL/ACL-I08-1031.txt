@@ -1,0 +1,8 @@
+Hypothesis Selection in Machine Transliteration : A Web Mining Approach .
+We propose a new method of selecting hypotheses for machine transliteration .
+We generate a set of Chinese , Japanese , and Korean transliteration hypotheses for a given English word .
+We then use the set of transliteration hypotheses as a guide to finding relevant Web pages and mining contextual information for the transliteration hypotheses from the Web page .
+Finally , we use the mined information for machine-learning algorithms including support vector machines and maximum entropy model designed to select the correct transliteration hypothesis .
+In our experiments , our proposed method based on Web mining consistently outperformed systems based on simple Web counts used in previous work , regardless of the language .
+
+

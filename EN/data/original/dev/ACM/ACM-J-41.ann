@@ -1,0 +1,246 @@
+T1	PROCESS 242 251	allocated
+T2	PROCESS 346 352	appear
+T3	PROCESS 597 601	used
+T4	APPLY-TO 1327 1332	using
+T5	PROCESS 1381 1387	exists
+T6	PROCESS 1526 1534	assuming
+T7	PROCESS 757 761	used
+T8	MODALITY 1111 1114	not
+T9	QUALITY 293 299	higher
+T10	TIME 587 596	currently
+T12	TIME 762 774	historically
+T13	QUALITY 890 900	incomplete
+T14	QUALITY 1086 1095	efficient
+T15	QUALITY 1171 1179	possible
+T16	QUALITY 1251 1259	complete
+T18	QUALITY 1371 1380	typically
+T19	QUALITY 1553 1563	truthfully
+T20	QUANTITY 460 463	two
+T21	QUANTITY 1535 1538	all
+T22	PROCESS 3 11	Analysis
+T23	PLAN 27 47	Slot Auction Designs
+T24	PLAN-OR-PROCESS 52 68	Sponsored Search
+T25	QUANTITY 69 88	Billions of dollars
+T27	TIME 104 108	year
+T28	PLAN-OR-PROCESS 112 128	sponsored search
+T30	PLAN-OR-PROCESS 176 185	placement
+T31	DATA-ITEM 196 214	web search results
+T32	DATA-ITEM 216 221	Slots
+T33	DATA-ITEM 226 237	ad listings
+T34	PLAN 259 282	auction-style mechanism
+T35	PERSON 302 310	merchant
+T36	REFERENCE 333 336	his
+T37	DATA-ITEM 365 368	ads
+T38	DATA-ITEM 376 380	page
+T39	QUALITY 411 420;446 456	incentive properties
+T40	QUALITY 422 432;446 456	efficiency properties
+T41	QUALITY 438 456	revenue properties
+T42	PLAN 464 484	slot auction designs
+T43	PLAN 486 497	rank by bid
+T44	PLAN 499 502	RBB
+T46	PLAN 508 523	rank by revenue
+T47	PLAN 525 528	RBR
+T48	PLAN 551 568	stylized versions
+T49	PLAN 576 586	mechanisms
+T50	PLAN 666 692	second-price payment rules
+T51	PLAN 707 737	each of these allocation rules
+T52	PLAN 797 837	short-run incomplete information setting
+T53	PLAN 846 883	long-run complete information setting
+T54	DATA-ITEM 901 912	information
+T55	PLAN 968 982	second pricing
+T56	PLAN 1001 1027	informational requirements
+T57	PLAN 1031 1034	RBB
+T58	PLAN 1065 1068	RBR
+T59	PLAN 1104 1107	RBB
+T60	PLAN-OR-PROCESS 1137 1152	revenue ranking
+T61	PLAN 1156 1159	RBB
+T62	PLAN 1164 1167	RBR
+T63	DATA-ITEM 1189 1211	arbitrary distribution
+T64	DATA-ITEM 1217 1230	bidder values
+T65	QUALITY 1235 1244	relevance
+T66	DATA-ITEM 1260 1271	information
+T67	PLAN 1289 1300	equilibrium
+T68	PLAN 1313 1326	first pricing
+T69	PLAN 1340 1343	RBB
+T70	PLAN 1347 1350	RBR
+T71	QUANTITY 1390 1399	multitude
+T72	PLAN 1403 1413	equilibria
+T73	PLAN 1419 1433	second pricing
+T74	DATA-ITEM 1452 1462	divergence
+T75	DATA-ITEM 1477 1482	value
+T76	PLAN 1486 1501	such equilibria
+T77	PROCESS 1549 1552	bid
+T78	PROCESS 93 98	spent
+T79	QUALITY 99 103	each
+R2	Attribute Arg1:T27 Arg2:T79	
+T80	PLAN-OR-PROCESS 140 151	advertising
+T81	PERSON 158 167	merchants
+T82	PROCESS 168 171	pay
+T83	PROCESS 311 315	bids
+R3	Coreference Arg1:T36 Arg2:T35	
+T84	DATA-ITEM 337 339	ad
+T85	QUALITY 359 364	other
+R4	Attribute Arg1:T37 Arg2:T85	
+R5	Attribute Arg1:T42 Arg2:T20	
+R6	Equivalence Arg1:T44 Arg2:T43	
+R7	Equivalence Arg1:T47 Arg2:T46	
+T45	QUALITY 537 547	correspond
+R8	Attribute Arg1:T3 Arg2:T10	
+T86	ORGANIZATION 605 611	Yahoo!
+T87	ORGANIZATION 616 622	Google
+T88	PLAN 655 661;673 692	first- price payment rules
+R9	Attribute Arg1:T7 Arg2:T12	
+R10	Attribute Arg1:T54 Arg2:T13	
+T11	MODALITY 914 921	neither
+T89	MODALITY 926 929	nor
+T90	PLAN 922 925	RBB
+T91	PLAN 930 933	RBR
+T92	QUALITY 938 946	truthful
+R11	Attribute Arg1:T92 Arg2:T11	
+R12	Attribute Arg1:T92 Arg2:T89	
+T93	PLAN 959 964;975 982	first pricing
+T94	QUALITY 1039 1050	much weaker
+R13	Attribute Arg1:T56 Arg2:T94	
+T95	REFERENCE 1056 1061	those
+R14	Coreference Arg1:T95 Arg2:T56	
+T96	PLAN 1079 1082	RBR
+R15	Attribute Arg1:T96 Arg2:T14	
+R16	Attribute Arg1:T14 Arg2:T8	
+T97	QUANTITY 1134 1136	no
+R17	Attribute Arg1:T60 Arg2:T97	
+T98	PROCESS 1180 1185	given
+R18	Attribute Arg1:T66 Arg2:T16	
+T99	QUANTITY 1286 1288	no
+R19	Attribute Arg1:T67 Arg2:T99	
+T100	PROCESS 1301 1307	exists
+R21	Attribute Arg1:T5 Arg2:T18	
+T102	QUALITY 1467 1475	economic
+R23	Attribute Arg1:T77 Arg2:T19	
+T103	REFERENCE 531 536	which
+R24	Coreference Arg1:T103 Arg2:T43	
+R25	Coreference Arg1:T103 Arg2:T46	
+T104	QUALITY 15 26	Alternative
+R26	Attribute Arg1:T23 Arg2:T104	
+T105	REFERENCE 742 746	both
+R27	Attribute Arg1:T75 Arg2:T102	
+T106	PROCESS 1442 1447	bound
+T107	DATA-ITEM 1511 1516	value
+T108	PERSON 1539 1548	merchants
+R28	Attribute Arg1:T72 Arg2:T71	
+R29	Poss Arg1:T36 Arg2:T84	
+T118	CONDITION 353 358	above
+R30	Attribute Arg1:T90 Arg2:T92	
+R31	Attribute Arg1:T91 Arg2:T92	
+R32	Attribute Arg1:T60 Arg2:T15	
+R34	Input Arg1:T22 Arg2:T23	
+R35	Apply-to Arg1:T23 Arg2:T24	
+R36	Output Arg1:T78 Arg2:T25	
+R37	Condition Arg1:T78 Arg2:T27	
+R38	Destination Arg1:T78 Arg2:T28	
+T29	IS-A 132 136	form
+R39	from Arg1:T29 Arg2:T28	
+R40	to Arg1:T29 Arg2:T80	
+T120	REFERENCE 152 157	where
+R41	Coreference Arg1:T120 Arg2:T80	
+R42	Agent Arg1:T82 Arg2:T81	
+R43	Condition Arg1:T82 Arg2:T120	
+R44	Destination Arg1:T82 Arg2:T30	
+R45	Condition Arg1:T30 Arg2:T31	
+R46	Other-rel Arg1:T32 Arg2:T33	
+R47	Output Arg1:T1 Arg2:T32	
+R48	Apply-to Arg1:T34 Arg2:T1	
+T121	REFERENCE 283 288	where
+R49	Coreference Arg1:T121 Arg2:T34	
+R50	Agent Arg1:T83 Arg2:T35	
+R51	Attribute Arg1:T83 Arg2:T9	
+T122	QUALITY 321 332	more likely
+R52	Attribute Arg1:T2 Arg2:T122	
+R53	Output Arg1:T2 Arg2:T84	
+R55	from Arg1:T118 Arg2:T2	
+R56	to Arg1:T118 Arg2:T37	
+R57	Component-object Arg1:T37 Arg2:T38	
+R58	Attribute Arg1:T42 Arg2:T40	
+R59	Attribute Arg1:T42 Arg2:T41	
+R60	Attribute Arg1:T42 Arg2:T39	
+R61	Is-a Arg1:T43 Arg2:T42	
+R62	Is-a Arg1:T46 Arg2:T42	
+R64	Condition Arg1:T45 Arg2:T48	
+R65	Member-collection Arg1:T48 Arg2:T49	
+R66	Input Arg1:T3 Arg2:T48	
+R67	Agent Arg1:T3 Arg2:T86	
+R68	Agent Arg1:T3 Arg2:T87	
+R69	Coreference Arg1:T51 Arg2:T103	
+R70	Coreference Arg1:T105 Arg2:T50	
+R71	Coreference Arg1:T105 Arg2:T88	
+R72	Apply-to Arg1:T105 Arg2:T7	
+R73	Condition Arg1:T92 Arg2:T54	
+R74	Condition Arg1:T92 Arg2:T55	
+R75	Condition Arg1:T92 Arg2:T93	
+R76	Attribute Arg1:T57 Arg2:T56	
+R77	Attribute Arg1:T58 Arg2:T95	
+R78	Compare Arg1:T95 Arg2:T94	
+R79	Compare Arg1:T59 Arg2:T14	
+R80	Target Arg1:T60 Arg2:T61	
+R81	Target Arg1:T60 Arg2:T62	
+R83	Output Arg1:T98 Arg2:T63	
+R86	Condition Arg1:T100 Arg2:T66	
+R87	Condition Arg1:T100 Arg2:T68	
+R88	from Arg1:T4 Arg2:T69	
+R89	from Arg1:T4 Arg2:T70	
+R91	Target Arg1:T5 Arg2:T72	
+R92	Condition Arg1:T5 Arg2:T73	
+R20	Target Arg1:T106 Arg2:T74	
+R22	Attribute Arg1:T75 Arg2:T74	
+R93	Coreference Arg1:T76 Arg2:T72	
+R94	Destination Arg1:T106 Arg2:T76	
+T101	PROCESS 1517 1525	obtained
+R96	Output Arg1:T101 Arg2:T107	
+R97	Condition Arg1:T101 Arg2:T6	
+R98	Attribute Arg1:T108 Arg2:T21	
+R99	Agent Arg1:T77 Arg2:T108	
+R100	Output Arg1:T6 Arg2:T77	
+R54	Attribute Arg1:T103 Arg2:T45	
+R63	Condition Arg1:T15 Arg2:T98	
+R82	to Arg1:T4 Arg2:T68	
+R90	Condition Arg1:T76 Arg2:T107	
+R84	Condition Arg1:T63 Arg2:T64	
+R85	Condition Arg1:T63 Arg2:T65	
+R33	Target Arg1:T100 Arg2:T67	
+R95	Other-rel Arg1:T83 Arg2:T122	
+T17	REFERENCE 385 395	this paper
+T26	PERSON 396 398	we
+T109	PROCESS 399 406	analyze
+T110	PERSON 638 640	We
+T111	PROCESS 646 654	consider
+T112	PERSON 776 778	We
+T113	PROCESS 779 787	consider
+T114	PERSON 984 986	We
+T115	PROCESS 987 991	find
+T116	PERSON 1116 1118	We
+T117	PROCESS 1124 1128	show
+T119	PERSON 1273 1275	we
+T123	PROCESS 1276 1280	find
+R1	Agent Arg1:T123 Arg2:T119	
+R101	Output Arg1:T123 Arg2:T100	
+T124	PERSON 1352 1354	We
+T125	PROCESS 1355 1359	show
+T126	PERSON 1439 1441	we
+R102	Agent Arg1:T109 Arg2:T26	
+R103	Condition Arg1:T109 Arg2:T17	
+R104	Input Arg1:T109 Arg2:T41	
+R105	Input Arg1:T109 Arg2:T39	
+R106	Input Arg1:T109 Arg2:T40	
+R107	Agent Arg1:T111 Arg2:T110	
+R108	Input Arg1:T111 Arg2:T50	
+R109	Input Arg1:T111 Arg2:T88	
+R110	Agent Arg1:T113 Arg2:T112	
+R111	Input Arg1:T113 Arg2:T52	
+R112	Input Arg1:T113 Arg2:T53	
+R113	Agent Arg1:T115 Arg2:T114	
+R114	Agent Arg1:T117 Arg2:T116	
+R115	Agent Arg1:T125 Arg2:T124	
+R116	Agent Arg1:T106 Arg2:T126	
+R117	Output Arg1:T115 Arg2:T94	
+R118	Output Arg1:T115 Arg2:T14	
+R119	Output Arg1:T117 Arg2:T15	
+R120	Output Arg1:T125 Arg2:T5	

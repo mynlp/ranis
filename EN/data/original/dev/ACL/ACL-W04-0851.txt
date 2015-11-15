@@ -1,0 +1,6 @@
+Regularized Least-Squares Classification For Word Sense Disambiguation .
+The paper describes RLSC-LIN and RLSCCOMB systems which participated in the Senseval-3 English lexical sample task .
+These systems are based on Regularized Least-Squares Classification ( RLSC ) learning method .
+We describe the reasons of choosing this method , how we applied it to word sense disambiguation , what results we obtained on Senseval-1 , Senseval-2 and Senseval-3 data and discuss some possible improvements .
+
+

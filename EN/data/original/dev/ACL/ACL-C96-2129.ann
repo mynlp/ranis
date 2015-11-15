@@ -1,0 +1,102 @@
+R1	In_Out Arg1:T1 Arg2:T2
+R2	Component-object Arg1:T3 Arg2:T2
+R5	Apply-to Arg1:T5 Arg2:T6
+R6	In_Out Arg1:T6 Arg2:T7
+R7	Component-object Arg1:T8 Arg2:T7
+R8	Attribute Arg1:T10 Arg2:T11
+R9	Apply-to Arg1:T9 Arg2:T10
+R10	Target Arg1:T10 Arg2:T12
+R11	Input Arg1:T12 Arg2:T13
+R12	Attribute Arg1:T16 Arg2:T15
+R13	from Arg1:T14 Arg2:T9
+R14	to Arg1:T14 Arg2:T16
+R15	Coreference Arg1:T19 Arg2:T9
+R16	Attribute Arg1:T20 Arg2:T21
+R17	Target Arg1:T20 Arg2:T22
+R18	Apply-to Arg1:T19 Arg2:T20
+R20	Target Arg1:T18 Arg2:T20
+R22	Attribute Arg1:T25 Arg2:T24
+R23	Coreference Arg1:T23 Arg2:T22
+R24	Condition Arg1:T25 Arg2:T26
+R25	Attribute Arg1:T23 Arg2:T25
+R26	Attribute Arg1:T28 Arg2:T27
+R27	from Arg1:T28 Arg2:T29
+R28	to Arg1:T28 Arg2:T22
+R29	Attribute Arg1:T35 Arg2:T34
+R30	Output Arg1:T33 Arg2:T35
+R31	Attribute Arg1:T37 Arg2:T36
+R32	Input Arg1:T38 Arg2:T39
+R33	Input Arg1:T38 Arg2:T37
+R34	Input Arg1:T33 Arg2:T37
+R35	Coreference Arg1:T32 Arg2:T30
+R36	Apply-to Arg1:T30 Arg2:T31
+R37	Target Arg1:T31 Arg2:T32
+R38	Apply-to Arg1:T30 Arg2:T33
+R39	Result Arg1:T33 Arg2:T31
+R40	Input Arg1:T40 Arg2:T41
+R41	from Arg1:T51 Arg2:T40
+R42	Attribute Arg1:T44 Arg2:T43
+R43	Condition Arg1:T44 Arg2:T42
+R44	Attribute Arg1:T47 Arg2:T46
+R47	Component-object Arg1:T45 Arg2:T44
+R48	to Arg1:T51 Arg2:T46
+R49	Condition Arg1:T46 Arg2:T48
+R50	Condition Arg1:T46 Arg2:T49
+R51	Is-a Arg1:T45 Arg2:T47
+R45	Is-a Arg1:T4 Arg2:T5
+A1	Judgment T46
+A2	Judgment T43
+A3	Judgment T21
+R3	Attribute Arg1:T9 Arg2:T17
+R4	Agent Arg1:T18 Arg2:T17
+A4	Judgment T31
+T1	PLAN-OR-PROCESS 0 19	Automatic Detection
+T2	DATA-ITEM 23 32	Omissions
+T3	DATA-ITEM 36 48	Translations
+T4	PLAN 51 57	ADOMIT
+T5	PLAN 64 73	algorithm 
+T6	PLAN-OR-PROCESS 78 97	Automatic Detection
+T7	DATA-ITEM 101 110	OMissions
+T8	DATA-ITEM 114 126	Translations
+T9	PLAN 133 142	algorithm
+T10	PROCESS 143 149	relies
+T11	QUALITY 150 156	solely
+T12	PLAN 160 178	geometric analysis
+T13	DATA-ITEM 182 193	bitext maps
+T14	INPUT 198 202	uses
+T15	QUANTITY 203 205	no
+T16	DATA-ITEM 206 228	linguistic information
+T17	DATA-ITEM 231 244	This property
+T18	PROCESS 245 251	allows
+T19	REFERENCE 252 254	it
+T20	PROCESS 258 262	deal
+T21	QUALITY 263 275	equally well
+T22	DATA-ITEM 281 290	omissions
+T23	REFERENCE 291 295	that
+T24	MODALITY 299 302	not
+T25	QUALITY 303 313	correspond
+T26	DATA-ITEM 317 333	linguistic units
+T27	MODALITY 344 349	might
+T28	RESULT 350 356	result
+T29	OCCURENT 362 385	word-processing mishaps
+T30	PLAN 388 394	ADOMIT
+T31	PROCESS 399 405	proven
+T32	REFERENCE 406 412	itself
+T33	PROCESS 416 427	discovering
+T34	QUANTITY 428 432	many
+T35	DATA-ITEM 433 439	errors
+T36	QUALITY 445 461	hand-constructed 
+T37	DATA-ITEM 462 475	gold standard
+T38	PROCESS 480 490	evaluating
+T39	PLAN 491 516	bitext mapping algorithms
+T40	PLAN-OR-PROCESS 519 542	Quantitative evaluation
+T41	PLAN-OR-PROCESS 546 565	simulated omissions
+T51	RESULT 566 572	showed
+T42	TIME 590 595	today
+T43	QUALITY 599 603	poor
+T44	PLAN 604 629	bitext mapping technology
+T45	PLAN 632 638	ADOMIT
+T46	QUALITY 644 652	valuable
+T47	PLAN 653 673	quality control tool
+T48	PERSON 678 689	translators
+T49	ORGANIZATION 694 713	translation bureaus

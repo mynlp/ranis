@@ -1,0 +1,118 @@
+R1	In_Out Arg1:T51 Arg2:T2
+R2	Target Arg1:T1 Arg2:T51
+R3	Attribute Arg1:T4 Arg2:T3
+R4	Input Arg1:T4 Arg2:T5
+A1	Self T6
+A2	Intentional T7
+R5	Agent Arg1:T7 Arg2:T6
+A3	Self T10
+R6	Poss Arg1:T10 Arg2:T11
+R7	Output Arg1:T7 Arg2:T8
+R8	Output Arg1:T7 Arg2:T9
+R9	Condition Arg1:T9 Arg2:T11
+R10	Output Arg1:T11 Arg2:T8
+R11	from Arg1:T13 Arg2:T14
+R12	to Arg1:T13 Arg2:T12
+R13	Input Arg1:T11 Arg2:T12
+A4	Self T54
+#5	AnnotatorNotes T18	off-the-shelf parser
+R14	Input Arg1:T17 Arg2:T18
+R15	Is-a Arg1:T17 Arg2:T16
+R16	Apply-to Arg1:T17 Arg2:T19
+R17	Output Arg1:T19 Arg2:T20
+R18	Destination Arg1:T19 Arg2:T22
+R20	Input Arg1:T23 Arg2:T24
+R21	Apply-to Arg1:T17 Arg2:T23
+R22	from Arg1:T15 Arg2:T16
+R23	to Arg1:T15 Arg2:T54
+R19	Output Arg1:T21 Arg2:T24
+R26	to Arg1:T28 Arg2:T29
+R27	from Arg1:T28 Arg2:T27
+A5	Self T30
+A6	Intentional T31
+R28	Agent Arg1:T31 Arg2:T30
+R29	Attribute Arg1:T33 Arg2:T32
+R30	Output Arg1:T31 Arg2:T33
+R31	Attribute Arg1:T37 Arg2:T36
+R32	Attribute Arg1:T37 Arg2:T56
+R33	Condition Arg1:T33 Arg2:T34
+R34	Condition Arg1:T35 Arg2:T37
+R35	Output Arg1:T31 Arg2:T35
+R36	Attribute Arg1:T40 Arg2:T39
+A7	Self T38
+R37	Poss Arg1:T38 Arg2:T40
+R38	Apply-to Arg1:T42 Arg2:T57
+R39	Apply-to Arg1:T42 Arg2:T43
+R40	from Arg1:T41 Arg2:T57
+R41	to Arg1:T41 Arg2:T40
+R42	from Arg1:T41 Arg2:T43
+#11	AnnotatorNotes T42	parser's
+R43	Attribute Arg1:T45 Arg2:T44
+R44	Input Arg1:T45 Arg2:T46
+R45	In_Out Arg1:T49 Arg2:T50
+R46	Result Arg1:T48 Arg2:T49
+R47	to Arg1:T47 Arg2:T49
+R48	from Arg1:T47 Arg2:T45
+R25	Input Arg1:T23 Arg2:T27
+A8	Name T53
+A9	Name T55
+A10	Name T52
+A11	Name T25
+R24	Attribute Arg1:T26 Arg2:T50
+T1	PROCESS 0 7	Getting
+T51	PROCESS 11 15	Know
+T2	PLAN 16 21	Moses
+T3	QUALITY 24 31	Initial
+T4	PLAN 32 43	Experiments
+T5	PLAN-OR-PROCESS 47 82	German-English Factored Translation
+T52	LANGUAGE 47 53	German
+T53	LANGUAGE 54 61	English
+T6	PERSON 85 87	We
+T7	PROCESS 88 95	present
+T8	DATA-ITEM 96 103	results
+T9	OCCURENT 108 119	experiences
+T10	PERSON 125 128	our
+T11	PLAN 129 140	experiments
+T12	PLAN-OR-PROCESS 146 190	phrase-based statistical machine translation
+T13	APPLY-TO 191 196	using
+T14	PLAN 197 202	Moses
+T54	REFERENCE 205 214	The paper
+T15	APPLY-TO 218 223	based
+T16	PLAN-OR-PROCESS 231 235	idea
+T17	PROCESS 239 244	using
+T18	PLAN 248 268	off-the-shelf parser
+T19	PROCESS 272 278	supply
+T20	DATA-ITEM 279 301	linguistic information
+T22	PLAN 307 333	factored translation model
+T23	PROCESS 338 345	compare
+T24	DATA-ITEM 350 357	results
+T25	LANGUAGE 361 367	German
+T21	PLAN-OR-PROCESS 361 387	German-English translation
+T55	LANGUAGE 368 375	English
+T27	PLAN 395 422	shared task baseline system
+T28	INPUT 423 428	based
+T29	DATA-ITEM 432 441	word form
+T30	PERSON 444 446	We
+T31	PROCESS 447 453	report
+T32	QUALITY 454 461	partial
+T33	DATA-ITEM 462 469	results
+T34	PLAN 474 484	this model
+T35	DATA-ITEM 489 496	results
+T36	QUANTITY 501 504	two
+T56	QUALITY 505 515	simplified
+T37	PLAN 516 522	setups
+T38	PERSON 525 528	Our
+T39	QUALITY 529 533	best
+T40	PLAN 534 539	setup
+T41	APPLY-TO 540 558	takes advantage of
+T42	PLAN 563 569	parser
+T57	PROCESS 573 586	lemmatization
+T43	PROCESS 591 604	decompounding
+T44	QUALITY 609 620	qualitative
+T45	PLAN 621 629	analysis
+T46	PLAN-OR-PROCESS 633 653	compound translation
+T47	RESULT 654 659	shows
+T48	PROCESS 665 678	decompounding
+T49	JUDGING-PROCESS 679 687	improves
+T26	PLAN-OR-PROCESS 688 699	translation
+T50	QUALITY 700 707	quality

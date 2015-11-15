@@ -1,0 +1,139 @@
+R1	Condition Arg1:T1 Arg2:T2
+R2	Condition Arg1:T67 Arg2:T2
+R3	Attribute Arg1:T4 Arg2:T3
+R4	Output Arg1:T5 Arg2:T6
+R5	Attribute Arg1:T5 Arg2:T4
+A1	Intentional T68
+A2	Intentional T8
+R7	Output Arg1:T68 Arg2:T4
+R8	Input Arg1:T8 Arg2:T4
+R9	Attribute Arg1:T15 Arg2:T14
+R10	Attribute Arg1:T15 Arg2:T13
+R12	Attribute Arg1:T12 Arg2:T11
+R13	from Arg1:T10 Arg2:T9
+R15	to Arg1:T10 Arg2:T16
+R16	Attribute Arg1:T19 Arg2:T18
+R17	Attribute Arg1:T19 Arg2:T17
+R18	Attribute Arg1:T19 Arg2:T70
+R19	Input Arg1:T16 Arg2:T17
+R20	Output Arg1:T16 Arg2:T69
+R21	Output Arg1:T16 Arg2:T11
+R14	Attribute Arg1:T22 Arg2:T21
+R22	Attribute Arg1:T22 Arg2:T20
+R23	Ori_Dest Arg1:T19 Arg2:T22
+R24	from Arg1:T26 Arg2:T27
+R25	to Arg1:T26 Arg2:T25
+R26	Attribute Arg1:T25 Arg2:T24
+R27	Output Arg1:T25 Arg2:T23
+R28	Attribute Arg1:T31 Arg2:T30
+R29	Output Arg1:T32 Arg2:T30
+R30	to Arg1:T29 Arg2:T32
+R31	from Arg1:T29 Arg2:T28
+R32	Input Arg1:T32 Arg2:T33
+R33	Attribute Arg1:T34 Arg2:T33
+R34	Attribute Arg1:T36 Arg2:T35
+R35	Attribute Arg1:T35 Arg2:T34
+R36	Attribute Arg1:T43 Arg2:T42
+R37	from Arg1:T41 Arg2:T43
+R38	from Arg1:T41 Arg2:T39
+R39	Attribute Arg1:T39 Arg2:T38
+R40	Output Arg1:T39 Arg2:T37
+R41	Condition Arg1:T39 Arg2:T40
+R42	Attribute Arg1:T44 Arg2:T45
+R43	Attribute Arg1:T46 Arg2:T47
+R44	Attribute Arg1:T52 Arg2:T51
+R45	Attribute Arg1:T54 Arg2:T53
+R46	Input Arg1:T50 Arg2:T52
+R47	Output Arg1:T50 Arg2:T54
+R49	Target Arg1:T49 Arg2:T48
+R50	Coreference Arg1:T71 Arg2:T52
+R51	Attribute Arg1:T71 Arg2:T56
+R52	Input Arg1:T55 Arg2:T56
+R53	to Arg1:T72 Arg2:T55
+R54	from Arg1:T72 Arg2:T50
+R55	from Arg1:T57 Arg2:T58
+R56	to Arg1:T57 Arg2:T59
+R57	Output Arg1:T59 Arg2:T60
+R58	Attribute Arg1:T62 Arg2:T61
+R59	Attribute Arg1:T60 Arg2:T73
+R60	Attribute Arg1:T62 Arg2:T60
+R61	Condition Arg1:T64 Arg2:T65
+R62	Output Arg1:T63 Arg2:T64
+R63	to Arg1:T57 Arg2:T63
+R64	Output Arg1:T66 Arg2:T57
+R6	Condition Arg1:T5 Arg2:T7
+R48	Output Arg1:T49 Arg2:T50
+R11	Ori_Dest Arg1:T11 Arg2:T15
+T67	PLAN 0 10	Path-Based
+T1	PLAN 15 35	Node-Based Inference
+T2	DATA-ITEM 39 56	Semantic Networks
+T3	QUANTITY 59 62	Two
+T4	DATA-ITEM 63 69	styles
+T5	PROCESS 73 83	performing
+T6	PLAN 84 93	inference
+T7	DATA-ITEM 97 114	semantic networks
+T68	PROCESS 119 128	presented
+T8	PROCESS 133 141	compared
+T9	PLAN 144 164	Path-based inference
+T10	APPLY-TO 165 171	allows
+T69	DATA-ITEM 175 178	arc
+T11	PLAN 184 188	path
+T12	DATA-ITEM 192 196	arcs
+T13	QUANTITY 205 208	two
+T14	QUALITY 209 214	given
+T15	DATA-ITEM 215 220	nodes
+T16	PROCESS 227 235	inferred
+T17	DATA-ITEM 245 254	existence
+T18	QUALITY 258 265	another
+T70	QUALITY 266 275	specified
+T19	PLAN 276 280	path
+T20	QUALITY 293 297	same
+T21	QUANTITY 298 301	two
+T22	DATA-ITEM 302 307	nodes
+T23	PLAN 310 336	Path-based inference rules
+T24	MODALITY 337 340	may
+T25	PROCESS 344 351	written
+T26	APPLY-TO 352 357	using
+T27	PLAN 360 395	binary relational calculus notation
+T28	PLAN 398 418	Node-based inference
+T29	APPLY-TO 419 425	allows
+T30	DATA-ITEM 428 437	structure
+T31	DATA-ITEM 441 446	nodes
+T32	PROCESS 453 461	inferred
+T33	DATA-ITEM 471 480	existence
+T34	DATA-ITEM 487 495	instance
+T35	DATA-ITEM 501 508	pattern
+T36	DATA-ITEM 512 527	node structures
+T37	PLAN 530 556	Node-based inference rules
+T38	MODALITY 557 560	can
+T39	PROCESS 564 575	constructed
+T40	DATA-ITEM 581 597	semantic network
+T41	APPLY-TO 598 603	using
+T42	QUALITY 606 613	variant
+T43	PLAN 619 646	predicate calculus notation
+T44	PLAN 649 669	Path-based inference
+T45	QUALITY 673 687	more efficient
+T46	PLAN 696 716	node-based inference
+T47	QUALITY 720 732	more general
+T48	PLAN 737 743	method
+T49	PROCESS 747 756	described
+T50	PROCESS 760 769	combining
+T51	QUANTITY 774 777	two
+T52	DATA-ITEM 778 784	styles
+T53	QUANTITY 790 796	single
+T54	PLAN 797 803	system
+T72	APPLY-TO 804 815	in order to
+T55	PROCESS 816 830	take advantage
+T56	DATA-ITEM 838 847	strengths
+T71	REFERENCE 851 855	each
+T57	APPLY-TO 858 870	Applications
+T58	PLAN 874 900	path-based inference rules
+T59	PLAN-OR-PROCESS 908 922	representation
+T73	QUALITY 930 941	extensional
+T60	DATA-ITEM 942 953	equivalence
+T61	QUALITY 957 968	intensional
+T62	DATA-ITEM 969 977	concepts
+T63	PLAN-OR-PROCESS 991 1002	explication
+T64	DATA-ITEM 1006 1017	inheritance
+T65	DATA-ITEM 1021 1032	hierarchies
+T66	PROCESS 1037 1045	sketched

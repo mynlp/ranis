@@ -1,0 +1,11 @@
+Bootstrapping Distributional Feature Vector Quality
+
+This article presents a novel bootstrapping approach for improving the quality of feature vector weighting in distributional word similarity.
+The method was motivated by attempts to utilize distributional similarity for identifying the concrete semantic relationship of lexical entailment.
+Our analysis revealed that a major reason for the rather loose semantic similarity obtained by distributional similarity methods is insufficient quality of the word feature vectors, caused by deficient feature weighting. This observation led to the definition of a bootstrapping scheme
+which yields improved feature weights, and hence higher quality feature vectors.
+The underlying idea of our approach is that features which are common to similar words are also most characteristic for their meanings, and thus should be promoted. This idea is realized via a bootstrapping step applied to an initial standard approximation of the similarity space.
+The superior performance of the bootstrapping method was assessed in two different experiments, one based on direct human gold-standard annotation and the other based on an automatically created disambiguation dataset.
+These results are further supported by applying a novel quantitative measurement of the quality of feature weighting functions.
+Improved feature weighting also allows massive feature reduction, which indicates that the most characteristic features for a word are indeed concentrated at the top ranks of its vector.
+Finally, experiments with three prominent similarity measures and two feature weighting functions showed that the bootstrapping scheme is robust and is independent of the original functions over which it is applied.

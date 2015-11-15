@@ -1,0 +1,81 @@
+T1	PROCESS 209 218	achieving
+T2	RESULT 439 446	achieve
+T3	QUALITY 67 76	Efficient
+T4	QUALITY 256 262	faster
+T6	QUALITY 479 484	often
+T8	QUALITY 563 567	same
+T9	PLAN 39 65	Integrated Language Models
+T10	PLAN 77 85	decoding
+T11	PLAN 109 116	problem
+T12	PLAN-OR-PROCESS 120 139	machine translation
+T13	PLAN 171 185	language model
+T14	QUALITY 224 243	translation quality
+T15	PLAN 263 273	approaches
+T16	PLAN 278 290	this problem
+T17	PLAN 300 325	k-best parsing algorithms
+T18	QUALITY 348 361	effectiveness
+T19	PLAN 370 382;400 410	phrase-based MT systems
+T20	PLAN 387 410	syntax-based MT systems
+T21	PLAN 420 425	cases
+T22	PLAN 431 438	methods
+T23	QUALITY 447 477	significant speed improvements
+T25	PLAN 537 555	beam-search method
+T26	THING 568 574	levels
+T27	QUALITY 578 590	search error
+T28	QUALITY 595 615	translation accuracy
+T29	PLAN-OR-PROCESS 0 16	Forest Rescoring
+T30	QUALITY 18 24	Faster
+T31	PLAN-OR-PROCESS 25 33	Decoding
+R1	Attribute Arg1:T31 Arg2:T30	
+R2	Attribute Arg1:T10 Arg2:T3	
+T32	RESULT 195 204	essential
+T33	REFERENCE 186 191	which
+R3	from Arg1:T32 Arg2:T33	
+R4	Coreference Arg1:T33 Arg2:T13	
+T34	QUALITY 219 223	good
+R5	Attribute Arg1:T14 Arg2:T34	
+T35	PROCESS 248 255	develop
+R6	Attribute Arg1:T15 Arg2:T4	
+T36	RESULT 330 341	demonstrate
+T37	REFERENCE 342 347	their
+R7	Coreference Arg1:T37 Arg2:T15	
+T38	QUANTITY 415 419	both
+R8	Attribute Arg1:T21 Arg2:T38	
+T39	QUANTITY 488 513	more than a factor of ten
+R13	Attribute Arg1:T26 Arg2:T8	
+T7	QUALITY 97 108	fundamental
+R14	Attribute Arg1:T11 Arg2:T7	
+R15	Coreference Arg1:T16 Arg2:T10	
+T24	QUALITY 524 536	conventional
+R10	Attribute Arg1:T25 Arg2:T24	
+R11	Attribute Arg1:T6 Arg2:T39	
+R12	Attribute Arg1:T2 Arg2:T6	
+R16	Apply-to Arg1:T15 Arg2:T16	
+T40	APPLY-TO 291 299	based on
+R17	to Arg1:T40 Arg2:T15	
+R18	from Arg1:T40 Arg2:T17	
+R19	Output Arg1:T35 Arg2:T15	
+R21	Apply-to Arg1:T29 Arg2:T31	
+R22	Apply-to Arg1:T9 Arg2:T31	
+R23	from Arg1:T36 Arg2:T35	
+R24	to Arg1:T36 Arg2:T18	
+T41	PERSON 427 430	our
+R20	Poss Arg1:T41 Arg2:T22	
+R25	Attribute Arg1:T37 Arg2:T18	
+T42	QUALITY 160 170	integrated
+R26	Attribute Arg1:T13 Arg2:T42	
+R27	Is-a Arg1:T10 Arg2:T11	
+R28	Condition Arg1:T11 Arg2:T12	
+R29	Output Arg1:T1 Arg2:T14	
+R30	to Arg1:T32 Arg2:T1	
+R31	Attribute Arg1:T19 Arg2:T18	
+R32	Attribute Arg1:T20 Arg2:T18	
+R33	from Arg1:T2 Arg2:T22	
+R34	Condition Arg1:T2 Arg2:T21	
+R35	to Arg1:T2 Arg2:T23	
+R37	Attribute Arg1:T26 Arg2:T27	
+R38	Attribute Arg1:T26 Arg2:T28	
+R39	Compare Arg1:T26 Arg2:T23	
+R9	Compare Arg1:T25 Arg2:T23	
+T5	PERSON 245 247	We
+R36	Agent Arg1:T35 Arg2:T5	

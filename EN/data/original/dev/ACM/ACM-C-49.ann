@@ -1,0 +1,130 @@
+T1	PLAN 11 42	Opportunistic Routing Protocols
+T2	QUALITY 79 90	Traditional
+T3	QUALITY 48 53	Large
+T4	QUALITY 54 63	Realistic
+T5	DATA-ITEM 64 78	Contact Traces
+R1	Attribute Arg1:T5 Arg2:T3	
+R2	Attribute Arg1:T5 Arg2:T4	
+T6	PLAN 91 112	mobile ad-hoc network
+T7	PLAN 114 119	MANET
+R3	Equivalence Arg1:T7 Arg2:T6	
+T8	PLAN 121 138	routing protocols
+R4	Split Arg1:T8 Arg2:T6	
+T9	QUALITY 151 166	contemporaneous
+T10	PLAN 167 197	end-to-end communication paths
+R5	Attribute Arg1:T10 Arg2:T9	
+R6	Attribute Arg1:T8 Arg2:T2	
+T11	ARTIFACT 212 224	data senders
+T12	ARTIFACT 212 216;229 238	data receivers
+T13	ATTRIBUTE 198 203	exist
+T14	APPLY-TO 139 145	assume
+T15	ARTIFACT 248 270	mobile ad-hoc networks
+T16	ARTIFACT 285 300	node population
+T17	QUANTITY 243 247	some
+R8	Attribute Arg1:T15 Arg2:T17	
+T18	DATA-ITEM 305 334	end-to-end communication path
+T19	MODALITY 335 338	may
+T20	PROCESS 339 344	break
+R9	Attribute Arg1:T20 Arg2:T19	
+T21	QUALITY 345 355	frequently
+R10	Attribute Arg1:T20 Arg2:T21	
+T22	MODALITY 359 362	may
+T23	PROCESS 367 372	exist
+R11	Attribute Arg1:T23 Arg2:T22	
+T24	QUANTITY 386 390	Many
+T25	PLAN 391 408	routing protocols
+R12	Attribute Arg1:T25 Arg2:T24	
+T26	PROCESS 419 427	proposed
+T27	EXTERNAL-REFERENCE 435 445	literature
+T28	APPLY-TO 449 456	address
+T29	PLAN 461 468	problem
+T30	REFERENCE 474 477	few
+T31	PROCESS 483 492	evaluated
+T32	QUALITY 498 507	realistic
+T33	PLAN 508 537	opportunistic network setting
+R13	Attribute Arg1:T33 Arg2:T32	
+T34	PLAN-OR-PROCESS 546 556	simulation
+T35	DATA-ITEM 561 575	contact traces
+T36	DATA-ITEM 590 594	logs
+T37	ARTIFACT 600 618	production network
+T38	PROCESS 577 584	derived
+T39	PROCESS 623 631	evaluate
+T40	PROCESS 636 643	compare
+T41	QUANTITY 644 648	five
+T42	QUALITY 649 657	existing
+T43	PLAN 658 667	protocols
+R14	Attribute Arg1:T43 Arg2:T42	
+R15	Attribute Arg1:T43 Arg2:T41	
+T44	PLAN 669 684	direct-delivery
+T45	PLAN 686 694	epidemic
+T46	PLAN 696 702	random
+T47	PLAN 704 711	PRoPHET
+T48	PLAN 717 727	Link-State
+T49	PLAN 748 773	proposed routing protocol
+T50	PERSON 740 747	our own
+T52	PLAN 792 807	direct delivery
+T53	PLAN 812 838	epidemic routing protocols
+T54	ATTRIBUTE 839 845	suffer
+T55	QUALITY 853 856	low
+T56	DATA-ITEM 857 871	delivery ratio
+T57	QUALITY 875 879	high
+T58	DATA-ITEM 880 894	resource usage
+R16	Attribute Arg1:T58 Arg2:T57	
+R17	Attribute Arg1:T56 Arg2:T55	
+T59	PLAN 900 915	other protocols
+T61	JUDGING-PROCESS 916 930	make tradeoffs
+T62	DATA-ITEM 939 953	delivery ratio
+T63	DATA-ITEM 958 972	resource usage
+T64	PLAN-OR-PROCESS 0 10	Evaluating
+T65	QUALITY 278 284	sparse
+R18	Attribute Arg1:T16 Arg2:T65	
+R19	Coreference Arg1:T30 Arg2:T25	
+R7	Poss Arg1:T50 Arg2:T49	
+R20	Input Arg1:T64 Arg2:T1	
+R21	Input Arg1:T64 Arg2:T5	
+R22	from Arg1:T14 Arg2:T8	
+R23	to Arg1:T14 Arg2:T10	
+R24	from Arg1:T13 Arg2:T10	
+R25	to Arg1:T13 Arg2:T11	
+R26	to Arg1:T13 Arg2:T12	
+R27	Attribute Arg1:T15 Arg2:T16	
+R28	Condition Arg1:T20 Arg2:T15	
+R29	Input Arg1:T20 Arg2:T18	
+R30	Other-rel Arg1:T23 Arg2:T18	
+R31	Output Arg1:T26 Arg2:T25	
+R32	Condition Arg1:T26 Arg2:T27	
+R33	from Arg1:T28 Arg2:T26	
+R34	to Arg1:T28 Arg2:T29	
+R35	Input Arg1:T31 Arg2:T30	
+R36	Apply-to Arg1:T33 Arg2:T31	
+R37	Input Arg1:T38 Arg2:T36	
+R38	Condition Arg1:T36 Arg2:T37	
+R39	Output Arg1:T38 Arg2:T35	
+T67	PROCESS 542 545	use
+R40	Input Arg1:T67 Arg2:T34	
+R41	Input Arg1:T67 Arg2:T35	
+R42	Apply-to Arg1:T67 Arg2:T39	
+R43	Apply-to Arg1:T67 Arg2:T40	
+R44	Input Arg1:T39 Arg2:T43	
+R45	Input Arg1:T40 Arg2:T43	
+R46	Member-collection Arg1:T44 Arg2:T43	
+R47	Member-collection Arg1:T45 Arg2:T43	
+R48	Member-collection Arg1:T46 Arg2:T43	
+R49	Member-collection Arg1:T47 Arg2:T43	
+R50	Member-collection Arg1:T48 Arg2:T43	
+R51	Input Arg1:T39 Arg2:T49	
+R52	Input Arg1:T40 Arg2:T49	
+R53	from Arg1:T54 Arg2:T52	
+R54	from Arg1:T54 Arg2:T53	
+R55	to Arg1:T54 Arg2:T56	
+R56	to Arg1:T54 Arg2:T58	
+R59	Condition Arg1:T61 Arg2:T62	
+R60	Condition Arg1:T61 Arg2:T63	
+R57	Apply-to Arg1:T59 Arg2:T61	
+T60	MODALITY 363 366	not
+R58	Attribute Arg1:T23 Arg2:T60	
+T51	PERSON 539 541	We
+T66	PERSON 775 777	We
+T68	PROCESS 778 782	show
+R61	Agent Arg1:T67 Arg2:T51	
+R62	Agent Arg1:T68 Arg2:T66	

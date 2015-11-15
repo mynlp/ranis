@@ -1,0 +1,9 @@
+Syllable-Pattern-Based Unknown-Morpheme Segmentation and Estimation for Hybrid Part-of-Speech Tagging of Korean
+
+Most errors in Korean morphological analysis and part-of-speech (POS) tagging are caused by unknown morphemes.
+This paper presents a syllable-pattern-based generalized unknownmorpheme-estimation method with POSTAG (POStech TAGger), which is a statistical and rule-based hybrid POS tagging system.
+This method of guessing unknown morphemes is based on a combination of a morpheme pattern dictionary that encodes general lexical patterns of Korean morphemes with a posteriori syllable trigram estimation.
+The syllable trigrams help to calculate lexical probabilities of the unknown morphemes and are utilized to search for the best tagging result.
+This method can guess the POS tags of unknown morphemes regardless of their numbers and/or positions in an eojeol (a Korean spacing unit similar to an English word), which is not possible with other systems for tagging Korean.
+In a series of experiments using three different domain corpora, the system achieved a 97% tagging accuracy even though 10% of the morphemes in the test corpora were unknown.
+It also achieved very high coverage and accuracy of estimation for all classes of unknown morphemes.

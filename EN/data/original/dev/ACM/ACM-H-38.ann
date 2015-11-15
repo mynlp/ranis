@@ -1,0 +1,204 @@
+T2	QUALITY 17 25	Possible
+T3	ARTIFACT 26 36	Penicillin
+R1	Attribute Arg1:T3 Arg2:T2	
+T6	PLAN 64 82	PageRank algorithm
+T8	QUALITY 100 114	very effective
+T9	PROCESS 119 126	ranking
+T10	DATA-ITEM 127 136	Web pages
+R2	Attribute Arg1:T6 Arg2:T8	
+T7	DATA-ITEM 142 153	rank scores
+T11	DATA-ITEM 157 166	Web pages
+T12	MODALITY 167 170	can
+T13	PROCESS 174 185	manipulated
+R3	Attribute Arg1:T13 Arg2:T12	
+T14	PROCESS 190 196	handle
+T15	PLAN 201 221	manipulation problem
+T16	PROCESS 229 233;240 247	cast insight
+T17	DATA-ITEM 255 268	Web structure
+T18	PLAN 283 300	ranking algorithm
+T21	PROCESS 357 381	heat diffusion phenomena
+T22	MODALITY 389 392	can
+T23	PROCESS 396 405	connected
+T24	PLAN 409 420	Web ranking
+R4	Attribute Arg1:T23 Arg2:T22	
+T25	PROCESS 433 448	activities flow
+T26	DATA-ITEM 456 459	Web
+T27	MODALITY 460 463	can
+T28	PROCESS 467 475	imagined
+R5	Attribute Arg1:T28 Arg2:T27	
+T29	PROCESS 479 488	heat flow
+T30	PLAN 494 498	link
+T31	DATA-ITEM 506 510	page
+T32	REFERENCE 514 521	another
+T33	MODALITY 522 525	can
+T34	PROCESS 529 536	treated
+T35	ARTIFACT 544 548	pipe
+T36	ARTIFACT 555 570	air-conditioner
+R6	Attribute Arg1:T34 Arg2:T33	
+T37	PROCESS 576 585	heat flow
+T38	MODALITY 586 589	can
+T39	PROCESS 590 596	embody
+R7	Attribute Arg1:T39 Arg2:T38	
+T40	QUALITY 601 610	structure
+T42	MODALITY 681 684	can
+T43	EQUIVALENCE 685 690	serve
+R8	Attribute Arg1:T43 Arg2:T42	
+T44	PLAN 696 710	generalization
+T46	DATA-ITEM 732 760	heat diffusion coefficient γ
+T47	ATTRIBUTE 761 766	tends
+T48	QUANTITY 770 778	infinity
+T49	QUANTITY 801 802	0
+T51	PLAN 819 827	PageRank
+T52	QUALITY 833 836	low
+T53	QUALITY 837 844	ability
+T54	PLAN-OR-PROCESS 848 865	anti-manipulation
+R9	Attribute Arg1:T53 Arg2:T52	
+T55	QUANTITY 876 877	0
+T57	ATTRIBUTE 893 900	obtains
+T58	QUALITY 905 912	highest
+T59	QUALITY 913 920	ability
+T60	PLAN-OR-PROCESS 924 941	anti-manipulation
+T65	DATA-ITEM 967 980	web structure
+T66	QUALITY 984 994	completely
+T67	PROCESS 995 1002	ignored
+R12	Attribute Arg1:T67 Arg2:T66	
+T68	DATA-ITEM 1018 1019	γ
+T69	DATA-ITEM 1038 1044	factor
+T70	QUALITY 1026 1037	interesting
+R13	Attribute Arg1:T69 Arg2:T70	
+T71	MODALITY 1050 1053	can
+T72	PROCESS 1054 1061	control
+T73	QUALITY 1066 1073	balance
+T74	QUALITY 1086 1093	ability
+T75	PROCESS 1097 1107	preserving
+T76	DATA-ITEM 1112 1124	original Web
+T77	QUALITY 1133 1140	ability
+T78	PROCESS 1144 1152	reducing
+T79	PROCESS 1157 1163	effect
+T80	PLAN-OR-PROCESS 1167 1179	manipulation
+T82	QUANTITY 1220 1221	1
+T84	PROCESS 1259 1265	effect
+T85	PROCESS 1273 1290	link manipulation
+T87	MODALITY 1316 1319	can
+T88	APPLY-TO 1323 1331	employed
+R15	Attribute Arg1:T88 Arg2:T87	
+T89	PROCESS 1335 1339	find
+T90	DATA-ITEM 1340 1364	group-to-group relations
+T91	DATA-ITEM 1372 1375	Web
+T92	PROCESS 1380 1386	divide
+T93	DATA-ITEM 1391 1400	Web graph
+T94	DATA-ITEM 1406 1419	several parts
+T95	PROCESS 1428 1432	find
+T96	DATA-ITEM 1433 1449	link communities
+T98	PLAN 1486 1509	DiffusionRank algorithm
+T99	PROCESS 1510 1518	achieves
+T100	QUALITY 1539 1549	advantages
+T5	PLAN 64 72	PageRank
+T97	PLAN 1486 1499	DiffusionRank
+R16	Attribute Arg1:T59 Arg2:T58	
+R17	Attribute Arg1:T72 Arg2:T71	
+T101	REFERENCE 1045 1049	that
+R18	Coreference Arg1:T101 Arg2:T69	
+T104	DATA-ITEM 1451 1471	Experimental results
+T106	RESULT 1472 1476	show
+T107	PLAN 0 13	DiffusionRank
+T108	PLAN-OR-PROCESS 41 53	Web Spamming
+T109	PLAN 308 321	DiffusionRank
+T110	PLAN 323 336	DiffusionRank
+R20	Component-object Arg1:T35 Arg2:T36	
+T111	DATA-ITEM 629 638	Web graph
+T112	PLAN 667 680	DiffusionRank
+T113	PLAN 714 722	PageRank
+T114	PLAN 804 817	DiffusionRank
+T116	PLAN 879 892	DiffusionRank
+T117	PLAN 1223 1236	DiffusionRank
+T118	PLAN 1302 1315	DiffusionRank
+T1	REFERENCE 383 388	which
+R21	Coreference Arg1:T1 Arg2:T21	
+T41	FORMULA 795 802	1/γ = 0
+T45	FORMULA 872 877	γ = 0
+T50	FORMULA 1216 1221	γ = 1
+R22	Other-rel Arg1:T107 Arg2:T3	
+R23	Other-rel Arg1:T3 Arg2:T108	
+R24	Apply-to Arg1:T6 Arg2:T9	
+R25	Input Arg1:T9 Arg2:T10	
+R26	Attribute Arg1:T11 Arg2:T7	
+R27	Target Arg1:T13 Arg2:T7	
+R28	Target Arg1:T14 Arg2:T15	
+T56	QUALITY 236 239	new
+R29	Attribute Arg1:T16 Arg2:T56	
+R30	Target Arg1:T16 Arg2:T17	
+T86	IS-A 301 307	called
+T115	APPLY-TO 340 349	motivated
+R32	In_Out Arg1:T23 Arg2:T1	
+R33	Target Arg1:T23 Arg2:T24	
+R34	Attribute Arg1:T25 Arg2:T26	
+R35	Output Arg1:T28 Arg2:T29	
+R36	Origin Arg1:T30 Arg2:T31	
+R37	Destination Arg1:T30 Arg2:T32	
+R39	Input Arg1:T34 Arg2:T30	
+R40	Output Arg1:T34 Arg2:T35	
+R41	Apply-to Arg1:T37 Arg2:T39	
+R42	In_Out Arg1:T39 Arg2:T40	
+R43	Attribute Arg1:T111 Arg2:T40	
+R44	from Arg1:T43 Arg2:T112	
+R45	to Arg1:T43 Arg2:T44	
+R46	In_Out Arg1:T44 Arg2:T113	
+R47	from Arg1:T47 Arg2:T46	
+R48	to Arg1:T47 Arg2:T48	
+R49	Is-a Arg1:T114 Arg2:T51	
+R50	Attribute Arg1:T54 Arg2:T53	
+R51	Attribute Arg1:T114 Arg2:T53	
+R52	Attribute Arg1:T57 Arg2:T116	
+R53	to Arg1:T57 Arg2:T59	
+R54	Attribute Arg1:T60 Arg2:T59	
+R55	Target Arg1:T67 Arg2:T65	
+R56	Is-a Arg1:T68 Arg2:T69	
+R57	Other-rel Arg1:T72 Arg2:T101	
+R58	Target Arg1:T72 Arg2:T73	
+R59	Condition Arg1:T73 Arg2:T74	
+R60	Output Arg1:T75 Arg2:T76	
+R61	Other-rel Arg1:T74 Arg2:T75	
+R62	Other-rel Arg1:T77 Arg2:T78	
+R63	In_Out Arg1:T78 Arg2:T79	
+R64	Attribute Arg1:T80 Arg2:T79	
+T103	QUALITY 1243 1258	Penicillin-like
+R19	Attribute Arg1:T84 Arg2:T103	
+R65	Apply-to Arg1:T117 Arg2:T84	
+R66	Target Arg1:T84 Arg2:T85	
+R67	Condition Arg1:T84 Arg2:T50	
+R68	from Arg1:T88 Arg2:T118	
+R69	to Arg1:T88 Arg2:T89	
+R70	Output Arg1:T89 Arg2:T90	
+R71	Condition Arg1:T89 Arg2:T91	
+R72	to Arg1:T88 Arg2:T92	
+R73	Input Arg1:T92 Arg2:T93	
+R74	Output Arg1:T92 Arg2:T94	
+R75	to Arg1:T88 Arg2:T95	
+R76	Output Arg1:T95 Arg2:T96	
+R77	from Arg1:T106 Arg2:T104	
+R78	to Arg1:T106 Arg2:T99	
+R79	Output Arg1:T99 Arg2:T100	
+R80	Result Arg1:T9 Arg2:T13	
+T120	PROCESS 273 280	propose
+R81	from Arg1:T86 Arg2:T109	
+R82	to Arg1:T86 Arg2:T18	
+R31	Output Arg1:T120 Arg2:T109	
+R83	Apply-to Arg1:T120 Arg2:T16	
+R84	Apply-to Arg1:T120 Arg2:T14	
+R85	from Arg1:T115 Arg2:T110	
+R86	to Arg1:T115 Arg2:T21	
+R87	Input Arg1:T28 Arg2:T25	
+R38	Result Arg1:T28 Arg2:T34	
+R88	Result Arg1:T28 Arg2:T39	
+R89	Other-rel Arg1:T48 Arg2:T43	
+R90	Condition Arg1:T67 Arg2:T45	
+R91	Compare Arg1:T73 Arg2:T77	
+R92	Apply-to Arg1:T98 Arg2:T99	
+T4	QUALITY 640 653	Theoretically
+T19	PERSON 654 656	we
+T20	PROCESS 657 661	show
+T61	PERSON 270 272	we
+R10	Agent Arg1:T120 Arg2:T61	
+R11	Agent Arg1:T20 Arg2:T19	
+R14	Condition Arg1:T20 Arg2:T4	

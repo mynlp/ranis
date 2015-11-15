@@ -1,0 +1,75 @@
+T1	PLAN 34 52	Boolean Extensions
+T2	PLAN 60 81	Incremental Algorithm
+T3	PROCESS 0 10	Generating
+T4	DATA-ITEM 11 32	Referring Expressions
+T6	PLAN-OR-PROCESS 130 140	generation
+T7	DATA-ITEM 144 165	referring expressions
+T8	PROCESS 167 177	addressing
+T9	QUALITY 182 196	incompleteness
+T10	PLAN 209 219	algorithms
+T11	QUALITY 200 208	existing
+T12	PLAN-OR-PROCESS 223 232	this area
+R1	Coreference Arg1:T12 Arg2:T6	
+T13	DATA-ITEM 249 259	references
+T14	DATA-ITEM 274 281	objects
+T15	QUALITY 263 273	individual
+T16	DATA-ITEM 294 304	references
+T17	DATA-ITEM 308 312	sets
+T18	DATA-ITEM 324 344	Boolean descriptions
+T19	REFERENCE 345 349	that
+R2	Coreference Arg1:T19 Arg2:T18	
+T20	ATTRIBUTE 350 361	make use of
+T22	DATA-ITEM 384 394	properties
+T23	QUALITY 374 383	disjoined
+T24	QUALITY 362 369	negated
+T25	IS-A 314 323	including
+T26	PROCESS 399 408	guarantee
+T27	DATA-ITEM 416 442	distinguishing description
+T28	PROCESS 446 455	generated
+T29	DATA-ITEM 465 482	such descriptions
+R3	Coreference Arg1:T29 Arg2:T27	
+T30	QUALITY 483 488	exist
+T31	PLAN 509 524	generalizations
+T32	PLAN 529 539	extensions
+T33	PLAN 547 568	Incremental Algorithm
+T34	PERSON 572 576	Dale
+T35	PERSON 581 587	Reiter
+T36	TIME 589 593	1995
+R4	Attribute Arg1:T10 Arg2:T11	
+R5	Attribute Arg1:T10 Arg2:T9	
+R6	Attribute Arg1:T22 Arg2:T24	
+R7	Attribute Arg1:T22 Arg2:T23	
+T21	EXTERNAL-REFERENCE 572 594	Dale and Reiter (1995)
+R8	Attribute Arg1:T14 Arg2:T15	
+R9	Output Arg1:T3 Arg2:T4	
+R10	In_Out Arg1:T1 Arg2:T2	
+R11	Output Arg1:T6 Arg2:T7	
+R12	Condition Arg1:T10 Arg2:T12	
+R13	Target Arg1:T8 Arg2:T9	
+R14	Apply-to Arg1:T6 Arg2:T8	
+R15	Attribute Arg1:T14 Arg2:T13	
+R16	Attribute Arg1:T17 Arg2:T16	
+R17	from Arg1:T25 Arg2:T18	
+R18	to Arg1:T20 Arg2:T22	
+R19	from Arg1:T20 Arg2:T19	
+R20	to Arg1:T25 Arg2:T16	
+R21	Output Arg1:T28 Arg2:T27	
+R22	In_Out Arg1:T31 Arg2:T33	
+R23	In_Out Arg1:T32 Arg2:T33	
+R24	Apply-to Arg1:T31 Arg2:T26	
+R25	Apply-to Arg1:T32 Arg2:T26	
+R26	Target Arg1:T26 Arg2:T28	
+R27	Attribute Arg1:T29 Arg2:T30	
+R28	Condition Arg1:T28 Arg2:T29	
+T5	PERSON 283 285	we
+T37	PROCESS 286 293	discuss
+R29	Agent Arg1:T37 Arg2:T5	
+R30	Output Arg1:T37 Arg2:T16	
+T38	REFERENCE 83 93	This paper
+T39	PROCESS 94 100	brings
+T40	THING 111 122	perspective
+T41	QUALITY 103 110	logical
+R31	Attribute Arg1:T40 Arg2:T41	
+R32	Output Arg1:T39 Arg2:T40	
+R33	Condition Arg1:T39 Arg2:T38	
+R34	Destination Arg1:T39 Arg2:T6	

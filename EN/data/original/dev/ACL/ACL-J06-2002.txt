@@ -1,0 +1,6 @@
+Generating Referring Expressions
+
+This article examines the role of gradable properties in referring expressions from the perspective of natural language generation. First, we propose a simple semantic analysis of vague descriptions (i.e., referring expressions that contain gradable adjectives) that reflects the context-dependent meaning of the adjectives in them.
+Second, we show how this type of analysis can inform algorithms for the generation of vague descriptions from numerical data.
+Third, we ask when such descriptions should be used.
+The article concludes with a discussion of salience and pointing, which are analyzed as if they were gradable adjectives.

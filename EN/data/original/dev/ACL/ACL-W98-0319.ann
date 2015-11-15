@@ -1,0 +1,201 @@
+R1	Attribute Arg1:T5 Arg2:T4
+R2	Attribute Arg1:T8 Arg2:T7
+R3	Coreference Arg1:T9 Arg2:T4
+R4	Attribute Arg1:T10 Arg2:T8
+R5	Output Arg1:T6 Arg2:T4
+R6	Destination Arg1:T6 Arg2:T8
+R7	Attribute Arg1:T9 Arg2:T10
+R8	Coreference Arg1:T12 Arg2:T9
+R9	Attribute Arg1:T12 Arg2:T82
+R10	Attribute Arg1:T12 Arg2:T83
+R11	Attribute Arg1:T12 Arg2:T84
+R12	Attribute Arg1:T12 Arg2:T13
+R13	from Arg1:T11 Arg2:T82
+R14	from Arg1:T11 Arg2:T83
+R15	from Arg1:T11 Arg2:T84
+R16	from Arg1:T11 Arg2:T13
+R17	to Arg1:T11 Arg2:T8
+R19	Equivalence Arg1:T21 Arg2:T20
+R20	Member-collection Arg1:T18 Arg2:T19
+R21	Attribute Arg1:T18 Arg2:T17
+R22	Equivalence Arg1:T20 Arg2:T18
+R23	to Arg1:T16 Arg2:T18
+R24	from Arg1:T16 Arg2:T15
+R25	Member-collection Arg1:T23 Arg2:T24
+R26	Attribute Arg1:T23 Arg2:T22
+R27	Compare Arg1:T23 Arg2:T85
+R28	Attribute Arg1:T25 Arg2:T85
+R29	Component-object Arg1:T26 Arg2:T25
+R30	Output Arg1:T27 Arg2:T25
+R31	Coreference Arg1:T28 Arg2:T25
+R32	Attribute Arg1:T28 Arg2:T29
+R33	Attribute Arg1:T28 Arg2:T86
+R34	Attribute Arg1:T28 Arg2:T30
+A1	Self T87
+A2	Intentional T88
+R35	Condition Arg1:T88 Arg2:T87
+R36	Attribute Arg1:T32 Arg2:T31
+R37	Output Arg1:T88 Arg2:T32
+R38	Attribute Arg1:T34 Arg2:T33
+R39	Member-collection Arg1:T34 Arg2:T35
+R40	Attribute Arg1:T34 Arg2:T89
+R41	In_Out Arg1:T32 Arg2:T33
+R42	Coreference Arg1:T36 Arg2:T34
+R43	Attribute Arg1:T38 Arg2:T91
+R44	Agent Arg1:T37 Arg2:T36
+R45	Output Arg1:T37 Arg2:T38
+R46	Condition Arg1:T37 Arg2:T90
+A3	Self T41
+A4	Intentional T42
+R49	Agent Arg1:T42 Arg2:T41
+R50	Output Arg1:T42 Arg2:T43
+R51	Output Arg1:T42 Arg2:T92
+R52	Output Arg1:T42 Arg2:T44
+R53	Attribute Arg1:T46 Arg2:T45
+R54	Attribute Arg1:T46 Arg2:T93
+R55	Is-a Arg1:T47 Arg2:T46
+R56	Is-a Arg1:T48 Arg2:T46
+R57	Is-a Arg1:T49 Arg2:T46
+R58	Is-a Arg1:T50 Arg2:T46
+R59	Is-a Arg1:T51 Arg2:T46
+R60	Attribute Arg1:T46 Arg2:T44
+R47	Member-collection Arg1:T39 Arg2:T34
+R48	Member-collection Arg1:T40 Arg2:T34
+R61	Is-a Arg1:T40 Arg2:T94
+R62	Is-a Arg1:T39 Arg2:T94
+R63	Attribute Arg1:T94 Arg2:T44
+A5	Self T52
+A6	Intentional T53
+R64	Agent Arg1:T53 Arg2:T52
+R65	Agent Arg1:T55 Arg2:T54
+R66	Condition Arg1:T55 Arg2:T56
+R67	In_Out Arg1:T56 Arg2:T57
+R68	Is-a Arg1:T46 Arg2:T57
+R69	Is-a Arg1:T94 Arg2:T57
+R70	Attribute Arg1:T60 Arg2:T59
+R71	Attribute Arg1:T59 Arg2:T58
+R72	Is-a Arg1:T95 Arg2:T60
+R73	Condition Arg1:T56 Arg2:T59
+R74	Agent Arg1:T62 Arg2:T61
+R75	Condition Arg1:T62 Arg2:T64
+R76	Attribute Arg1:T66 Arg2:T65
+R77	Condition Arg1:T64 Arg2:T66
+R78	Attribute Arg1:T69 Arg2:T68
+R79	Attribute Arg1:T67 Arg2:T69
+R80	Condition Arg1:T69 Arg2:T70
+A7	Self T71
+R81	Agent Arg1:T72 Arg2:T71
+R82	Attribute Arg1:T74 Arg2:T73
+R83	In_Out Arg1:T72 Arg2:T73
+R84	Attribute Arg1:T77 Arg2:T76
+R85	Attribute Arg1:T79 Arg2:T78
+R86	Is-a Arg1:T80 Arg2:T79
+R87	from Arg1:T63 Arg2:T72
+R88	Attribute Arg1:T76 Arg2:T75
+R89	Attribute Arg1:T77 Arg2:T79
+R90	to Arg1:T63 Arg2:T79
+R91	Condition Arg1:T2 Arg2:T3
+R92	Condition Arg1:T1 Arg2:T3
+R93	Condition Arg1:T81 Arg2:T3
+#1	AnnotatorNotes T15	Multi-party dialog
+R18	Output Arg1:T53 Arg2:T62
+R94	Output Arg1:T53 Arg2:T62
+R95	Output Arg1:T55 Arg2:T14
+R96	Output Arg1:T62 Arg2:T96
+A8	Intentional T72
+T81	DATA-ITEM 0 7	Lexical
+T1	DATA-ITEM 10 18	Prosodic
+T2	DATA-ITEM 25 39	Syntactic Cues
+T3	DATA-ITEM 44 55	Dialog Acts
+T4	DATA-ITEM 62 71	structure
+T5	DATA-ITEM 77 86	discourse
+T6	PROCESS 90 99	reflected
+T7	QUANTITY 103 107	many
+T8	DATA-ITEM 108 115	aspects
+T9	REFERENCE 119 122	its
+T10	DATA-ITEM 123 145	linguistic realization
+T11	IS-A 148 157	including
+T12	REFERENCE 158 161	its
+T82	DATA-ITEM 162 169	lexical
+T83	DATA-ITEM 172 180	prosodic
+T84	DATA-ITEM 183 192	syntactic
+T13	DATA-ITEM 199 214	semantic nature
+T15	DATA-ITEM 217 234	Multiparty dialog
+T16	COMPONENT-OBJECT 235 243	contains
+T17	QUALITY 246 256	particular
+T18	DATA-ITEM 257 261	kind
+T19	DATA-ITEM 265 284	discourse structure
+T20	DATA-ITEM 291 301	dialog act
+T21	DATA-ITEM 304 306	DA
+T85	QUALITY 311 315	Like
+T22	QUALITY 316 321	other
+T23	DATA-ITEM 322 327	types
+T24	DATA-ITEM 331 340	structure
+T25	DATA-ITEM 347 366	dialog act sequence
+T26	DATA-ITEM 372 384	conversation
+T27	PROCESS 393 402	reflected
+T28	REFERENCE 406 409	its
+T29	DATA-ITEM 410 417	lexical
+T86	DATA-ITEM 420 428	prosodic
+T30	DATA-ITEM 435 456	syntactic realization
+T87	REFERENCE 459 469	This paper
+T88	PROCESS 470 478	presents
+T31	QUALITY 481 492	preliminary
+T32	PLAN-OR-PROCESS 493 506	investigation
+T33	DATA-ITEM 516 527	realization
+T89	QUALITY 533 543	particular
+T34	DATA-ITEM 544 549	class
+T35	DATA-ITEM 553 564	dialog acts
+T36	REFERENCE 565 570	which
+T37	PROCESS 571 575	play
+T91	QUALITY 579 588	essential
+T38	DATA-ITEM 589 605	structuring role
+T90	DATA-ITEM 609 615	dialog
+T39	DATA-ITEM 622 634	backchannels
+T40	DATA-ITEM 638 661	acknowledgements tokens
+T41	PERSON 664 666	We
+T42	PROCESS 667 674	discuss
+T43	DATA-ITEM 679 686	lexical
+T92	DATA-ITEM 689 697	prosodic
+T44	DATA-ITEM 704 725	syntactic realization
+T94	REFERENCE 729 734	these
+T93	QUALITY 739 747	subsumed
+T45	QUALITY 751 758	related
+T46	DATA-ITEM 759 770	dialog acts
+T47	DATA-ITEM 776 786	continuers
+T48	DATA-ITEM 789 800	assessments
+T49	DATA-ITEM 803 813	yesanswers
+T50	DATA-ITEM 816 826	agreements
+T51	DATA-ITEM 833 854	incipient-speakership
+T52	PERSON 857 859	We
+T53	PROCESS 860 864	show
+T54	DATA-ITEM 870 887	lexical knowledge
+T55	PROCESS 888 893	plays
+T14	DATA-ITEM 896 900	role
+T56	PROCESS 904 918	distinguishing
+T57	DATA-ITEM 919 936	these dialog acts
+T58	QUALITY 951 961	widespread
+T59	DATA-ITEM 962 971	ambiguity
+T60	DATA-ITEM 975 980	words
+T95	DATA-ITEM 989 993	yeah
+T61	DATA-ITEM 1005 1023	prosodic knowledge
+T62	PROCESS 1024 1029	plays
+T96	DATA-ITEM 1032 1036	role
+T64	PLAN-OR-PROCESS 1040 1057	DA identification
+T65	QUALITY 1062 1069	certain
+T66	DATA-ITEM 1070 1078	DA types
+T67	DATA-ITEM 1087 1099	lexical cues
+T68	MODALITY 1100 1103	may
+T69	QUALITY 1107 1117	sufficient
+T70	DATA-ITEM 1126 1135	remainder
+T71	PERSON 1148 1151	our
+T72	PROCESS 1152 1165	investigation
+T73	DATA-ITEM 1173 1179	syntax
+T74	DATA-ITEM 1183 1194	assessments
+T63	RESULT 1195 1203	suggests
+T75	QUALITY 1209 1217	at least
+T76	QUANTITY 1218 1222	some
+T77	DATA-ITEM 1223 1234	dialog acts
+T78	QUALITY 1242 1258	very constrained
+T79	DATA-ITEM 1259 1280	syntactic realization
+T80	DATA-ITEM 1285 1313	per-dialog act ` microsyntax

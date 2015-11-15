@@ -1,0 +1,151 @@
+R1	Output Arg1:T2 Arg2:T3
+R2	Apply-to Arg1:T1 Arg2:T2
+R3	Input Arg1:T2 Arg2:T4
+R4	Output Arg1:T5 Arg2:T67
+R5	Apply-to Arg1:T1 Arg2:T5
+R6	Condition Arg1:T4 Arg2:T66
+R7	Is-a Arg1:T6 Arg2:T7
+R8	Coreference Arg1:T8 Arg2:T7
+R9	Attribute Arg1:T10 Arg2:T9
+R10	Apply-to Arg1:T8 Arg2:T10
+R11	Input Arg1:T10 Arg2:T11
+R12	Output Arg1:T10 Arg2:T12
+R13	Apply-to Arg1:T68 Arg2:T69
+R14	In_Out Arg1:T69 Arg2:T13
+R15	Agent Arg1:T14 Arg2:T13
+R16	Output Arg1:T14 Arg2:T15
+R17	Attribute Arg1:T17 Arg2:T16
+R18	Input Arg1:T17 Arg2:T18
+R19	Output Arg1:T17 Arg2:T13
+R20	Condition Arg1:T18 Arg2:T70
+R21	Attribute Arg1:T22 Arg2:T21
+R22	Input Arg1:T19 Arg2:T20
+R23	Output Arg1:T19 Arg2:T13
+R24	Poss Arg1:T21 Arg2:T20
+R25	Output Arg1:T27 Arg2:T28
+R26	In_Out Arg1:T71 Arg2:T26
+R27	Apply-to Arg1:T71 Arg2:T27
+R28	Attribute Arg1:T24 Arg2:T25
+R29	to Arg1:T23 Arg2:T25
+R32	from Arg1:T23 Arg2:T71
+R33	Attribute Arg1:T31 Arg2:T30
+R34	Output Arg1:T29 Arg2:T31
+R35	Apply-to Arg1:T32 Arg2:T33
+R36	Condition Arg1:T35 Arg2:T36
+R37	Output Arg1:T35 Arg2:T34
+R38	In_Out Arg1:T33 Arg2:T34
+R39	Apply-to Arg1:T32 Arg2:T37
+R40	Coreference Arg1:T39 Arg2:T34
+R41	Agent Arg1:T73 Arg2:T39
+A1	Self T40
+A2	Self T41
+R44	Agent Arg1:T42 Arg2:T41
+R45	Condition Arg1:T42 Arg2:T40
+R46	Target Arg1:T42 Arg2:T43
+R47	Output Arg1:T43 Arg2:T44
+R48	Attribute Arg1:T44 Arg2:T45
+A3	Intentional T42
+A4	Self T46
+A5	Intentional T47
+R49	Agent Arg1:T47 Arg2:T46
+A6	Self T48
+R50	Agent Arg1:T49 Arg2:T48
+R51	In_Out Arg1:T49 Arg2:T50
+R52	In_Out Arg1:T49 Arg2:T51
+A7	Self T52
+A8	Intentional T53
+R53	Agent Arg1:T53 Arg2:T52
+R54	Output Arg1:T53 Arg2:T54
+R55	Apply-to Arg1:T54 Arg2:T55
+R56	In_Out Arg1:T55 Arg2:T56
+R57	Attribute Arg1:T56 Arg2:T57
+R58	Output Arg1:T58 Arg2:T56
+R59	Condition Arg1:T58 Arg2:T59
+A9	Self T60
+A10	Intentional T62
+R60	Attribute Arg1:T62 Arg2:T61
+R61	Agent Arg1:T62 Arg2:T60
+A11	Self T64
+R62	Agent Arg1:T65 Arg2:T64
+R63	Output Arg1:T65 Arg2:T63
+R64	Output Arg1:T62 Arg2:T63
+R65	Coreference Arg1:T75 Arg2:T24
+R30	Apply-to Arg1:T75 Arg2:T71
+R31	Apply-to Arg1:T33 Arg2:T29
+R42	Apply-to Arg1:T37 Arg2:T29
+R43	Output Arg1:T47 Arg2:T49
+A12	Name T74
+A13	Name T66
+T1	PLAN 2 27	Machine Learning Approach
+T2	PROCESS 31 38	Extract
+T3	DATA-ITEM 39 59	Temporal Information
+T4	DATA-ITEM 65 70	Texts
+T66	LANGUAGE 74 81	Swedish
+T5	PROCESS 86 94	Generate
+T67	DATA-ITEM 95 113	Animated 3D Scenes
+T6	PLAN 116 122	Carsim
+T7	PLAN 128 135	program
+T8	REFERENCE 136 140	that
+T9	QUALITY 141 154	automatically
+T10	PROCESS 155 163	converts
+T11	DATA-ITEM 164 174	narratives
+T12	DATA-ITEM 180 189	3D scenes
+T68	PLAN 192 198	Carsim
+T69	PROCESS 199 208	considers
+T13	DATA-ITEM 209 224	authentic texts
+T14	PROCESS 225 235	describing
+T15	DATA-ITEM 236 250	road accidents
+T16	QUALITY 253 262	generally
+T17	PROCESS 263 272	collected
+T18	PLAN 278 287	web sites
+T74	LANGUAGE 291 298	Swedish
+T70	DATA-ITEM 299 309	newspapers
+T19	PROCESS 313 324	transcribed
+T20	DATA-ITEM 330 351	hand-written accounts
+T21	PERSON 355 362	victims
+T22	OCCURENT 366 375	accidents
+T23	IS-A 378 384	One of
+T24	PLAN 389 396	program
+T25	DATA-ITEM 400 412	key features
+T75	REFERENCE 421 423	it
+T71	PROCESS 424 432	animates
+T26	DATA-ITEM 437 452	generated scene
+T27	PROCESS 456 465	visualize
+T28	DATA-ITEM 466 472	events
+T29	PROCESS 478 484	create
+T30	QUALITY 487 497	consistent
+T31	DATA-ITEM 498 507	animation
+T32	PLAN 510 516	Carsim
+T33	PROCESS 517 525	extracts
+T34	DATA-ITEM 530 542	participants
+T35	PROCESS 543 552	mentioned
+T36	DATA-ITEM 558 562	text
+T37	PROCESS 567 577	identifies
+T39	REFERENCE 583 587	they
+T73	PROCESS 588 590	do
+T40	REFERENCE 596 606	this paper
+T41	PERSON 609 611	we
+T42	PROCESS 612 617	focus
+T43	PLAN-OR-PROCESS 625 635	extraction
+T44	DATA-ITEM 639 657	temporal relations
+T45	DATA-ITEM 666 673	actions
+T46	PERSON 676 678	We
+T47	PROCESS 685 693	describe
+T48	PERSON 698 700	we
+T49	PROCESS 701 707	detect
+T50	DATA-ITEM 708 724	time expressions
+T51	DATA-ITEM 729 735	events
+T52	PERSON 738 740	We
+T53	PROCESS 746 753	present
+T54	PLAN 756 782	machine learning technique
+T55	PROCESS 786 791	order
+T56	DATA-ITEM 796 804	sequence
+T57	DATA-ITEM 808 814	events
+T58	PROCESS 815 825	identified
+T59	DATA-ITEM 833 843	narratives
+T60	PERSON 846 848	We
+T61	QUALITY 849 856	finally
+T62	PROCESS 857 863	report
+T63	DATA-ITEM 868 875	results
+T64	PERSON 876 878	we
+T65	PROCESS 879 887	obtained

@@ -1,0 +1,105 @@
+T1	PROCESS 2 15	Reformulation
+T2	PLAN 19 25	Rule 2
+T3	PLAN 29 45	Centering Theory
+T5	PROCESS 52 80	standard preference ordering
+T6	QUALITY 88 98	well-known
+T7	PLAN 99 120	centering transitions
+T8	PLAN 139 144	Shift
+T9	MODALITY 148 154	argued
+T10	QUALITY 161 172	unmotivated
+T11	QUALITY 176 183	partial
+T12	PLAN-OR-PROCESS 185 211	context-dependent ordering
+T13	PROCESS 212 219	emerges
+T14	PLAN-OR-PROCESS 229 240	interaction
+T15	PLAN 260 275	dubbed cohesion
+T16	PROCESS 277 288	maintaining
+T17	QUALITY 293 297	same
+T18	PLAN 298 304	center
+T19	OCCURENT 308 317	attention
+T20	PLAN 323 331	salience
+T21	PROCESS 333 342	realizing
+T22	DATA-ITEM 347 353	center
+T23	OCCURENT 357 366	attention
+T24	QUALITY 374 388	most prominent
+T25	DATA-ITEM 389 391	NP
+T26	QUALITY 396 399	new
+T27	PROCESS 400 411	formulation
+T28	PLAN 415 421	Rule 2
+T29	PLAN 425 441	centering theory
+T30	PROCESS 445 453	proposed
+T31	REFERENCE 454 458	that
+T32	PROCESS 459 471	incorporates
+T33	PLAN 472 488	these principles
+T34	QUALITY 502 513	streamlined
+T35	PLAN 514 521	version
+T36	EXTERNAL-REFERENCE 525 548	Strube and Hahn's (1999
+T37	PLAN 525 569	Strube and Hahn's (1999) notion of cheapness
+T39	REFERENCE 571 573	It
+T40	PROCESS 589 605	this formulation
+T41	PROCESS 606 614	provides
+T42	QUALITY 617 624	natural
+T43	PLAN 625 628	way
+T44	PROCESS 632 638	handle
+T45	PLAN 640 654	topic switches
+T46	REFERENCE 656 660	that
+T47	MODALITY 661 667	appear
+T48	PROCESS 671 678	violate
+T49	QUALITY 683 692	canonical
+T50	PLAN-OR-PROCESS 693 712	preference ordering
+R1	In_Out Arg1:T1 Arg2:T2	
+R2	Component-object Arg1:T3 Arg2:T2	
+R3	Attribute Arg1:T7 Arg2:T6	
+R4	In_Out Arg1:T5 Arg2:T7	
+R5	Attribute Arg1:T5 Arg2:T10	
+R6	Attribute Arg1:T10 Arg2:T9	
+T4	PLAN 121 129	Continue
+T51	PLAN 131 137	Retain
+R7	Is-a Arg1:T4 Arg2:T7	
+R8	Is-a Arg1:T51 Arg2:T7	
+R9	Is-a Arg1:T8 Arg2:T7	
+R10	Attribute Arg1:T12 Arg2:T11	
+R11	Output Arg1:T13 Arg2:T12	
+R12	Input Arg1:T13 Arg2:T14	
+R14	Attribute Arg1:T18 Arg2:T17	
+R15	Target Arg1:T16 Arg2:T18	
+R16	In_Out Arg1:T21 Arg2:T22	
+R17	Agent Arg1:T23 Arg2:T22	
+R18	Agent Arg1:T19 Arg2:T18	
+R19	Attribute Arg1:T25 Arg2:T24	
+R20	Equivalence Arg1:T22 Arg2:T25	
+R23	Attribute Arg1:T27 Arg2:T26	
+R24	Component-object Arg1:T29 Arg2:T28	
+R25	In_Out Arg1:T27 Arg2:T28	
+R26	Output Arg1:T30 Arg2:T27	
+R27	Target Arg1:T32 Arg2:T33	
+R28	Apply-to Arg1:T31 Arg2:T32	
+R29	Coreference Arg1:T31 Arg2:T28	
+R30	Member-collection Arg1:T35 Arg2:T37	
+R31	Attribute Arg1:T35 Arg2:T34	
+R32	Target Arg1:T32 Arg2:T35	
+T38	PROCESS 577 583	argued
+A1	Intentional T38
+R33	Coreference Arg1:T40 Arg2:T27	
+R34	Apply-to Arg1:T40 Arg2:T41	
+R35	Attribute Arg1:T43 Arg2:T42	
+R36	Output Arg1:T41 Arg2:T43	
+R37	Target Arg1:T44 Arg2:T45	
+R38	Apply-to Arg1:T43 Arg2:T44	
+R39	Attribute Arg1:T48 Arg2:T47	
+R40	Attribute Arg1:T50 Arg2:T49	
+R41	Target Arg1:T48 Arg2:T50	
+R42	Coreference Arg1:T46 Arg2:T45	
+R43	Apply-to Arg1:T46 Arg2:T48	
+R44	Output Arg1:T38 Arg2:T39	
+T52	PLAN 249 259	principles
+R13	Is-a Arg1:T15 Arg2:T52	
+R21	Is-a Arg1:T20 Arg2:T52	
+R45	Target Arg1:T14 Arg2:T52	
+A2	Judgment T24
+A3	Intentional T30
+T53	PERSON 525 531	Strube
+A4	Name T53
+T54	PERSON 536 540	Hahn
+A5	Name T54
+T55	TIME 544 548	1999
+R22	Coreference Arg1:T33 Arg2:T52	

@@ -1,0 +1,159 @@
+T1	PLAN 2 11	Framework
+T2	PLAN-OR-PROCESS 16 56	Agent-Based Distributed Machine Learning
+T3	PLAN-OR-PROCESS 16 39;61 72	Agent-Based Distributed Data Mining
+T4	PLAN 95 104	framework
+T5	PLAN-OR-PROCESS 109 149	agent-based distributed machine learning
+T6	PLAN-OR-PROCESS 109 132;154 165	agent-based distributed data mining
+T8	PLAN-OR-PROCESS 183 191	exchange
+T9	DATA-ITEM 195 218	meta-level descriptions
+T10	PLAN-OR-PROCESS 222 251	individual learning processes
+T11	INTELLIGENT-AGENT 258 264	agents
+T12	PLAN-OR-PROCESS 274 290	online reasoning
+T14	QUALITY 297 313	learning success
+T16	QUALITY 318 335	learning progress
+T17	INTELLIGENT-AGENT 339 354	learning agents
+T18	PLAN 370 391	abstract architecture
+T19	REFERENCE 392 396	that
+R1	Coreference Arg1:T19 Arg2:T18	
+T20	RESULT 397 404	enables
+T21	INTELLIGENT-AGENT 405 411	agents
+T22	PROCESS 415 423	exchange
+T23	PLAN 424 430	models
+T24	PLAN-OR-PROCESS 440 464	local learning processes
+T25	PROCESS 469 479	introduces
+T26	QUANTITY 480 488	a number
+T27	PLAN 502 509	methods
+T28	QUALITY 492 501	different
+T29	PLAN-OR-PROCESS 514 525	integrating
+T30	PLAN-OR-PROCESS 526 541	these processes
+R2	Coreference Arg1:T30 Arg2:T24	
+T31	REFERENCE 543 547	This
+T32	PROCESS 548 554	allows
+T34	PROCESS 561 566	apply
+T35	PLAN 576 604	agent interaction mechanisms
+T36	QUALITY 567 575	existing
+T38	PLAN 608 642	distributed machine learning tasks
+T39	APPLY-TO 649 659	leveraging
+T40	QUALITY 664 672	powerful
+T41	PLAN 673 693	coordination methods
+T42	QUALITY 694 703	available
+T43	PLAN-OR-PROCESS 707 728	agent-based computing
+T44	PROCESS 734 741	enables
+T45	INTELLIGENT-AGENT 742 748	agents
+T46	PROCESS 752 758	engage
+T47	PROCESS 762 776	meta-reasoning
+T48	PLAN-OR-PROCESS 793 811	learning decisions
+T49	PROCESS 816 821	apply
+T50	PLAN 822 839	this architecture
+R3	Coreference Arg1:T50 Arg2:T18	
+T51	PLAN 856 890	distributed clustering application
+T53	QUALITY 845 855	real-world
+T54	PROCESS 894 904	illustrate
+T56	PLAN 913 933	conceptual framework
+T57	MODALITY 934 937	can
+T58	APPLY-TO 941 945	used
+T59	PLAN 959 966	systems
+T52	REFERENCE 970 975	which
+T60	INTELLIGENT-AGENT 986 994	learners
+T61	QUALITY 976 985	different
+T62	MODALITY 995 998	may
+T63	PROCESS 1002 1007	using
+T64	QUALITY 1008 1017	different
+T65	DATA-ITEM 1018 1026	datasets
+T66	PLAN 1028 1038	hypotheses
+T67	PLAN 1043 1062	learning algorithms
+T68	DATA-ITEM 1077 1097	experimental results
+T69	PROCESS 1098 1106	obtained
+T70	APPLY-TO 1107 1112	using
+T71	PLAN 1113 1124	this system
+R4	Coreference Arg1:T71 Arg2:T51	
+T72	EXTERNAL-REFERENCE 1133 1145	related work
+T73	DOMAIN 1153 1160	subject
+R5	Attribute Arg1:T27 Arg2:T26	
+R6	Attribute Arg1:T27 Arg2:T28	
+R7	Attribute Arg1:T41 Arg2:T40	
+T13	REFERENCE 783 792	their own
+R8	Coreference Arg1:T13 Arg2:T45	
+R9	Attribute Arg1:T51 Arg2:T53	
+T15	QUALITY 949 958	practical
+R10	Attribute Arg1:T59 Arg2:T15	
+R11	Coreference Arg1:T52 Arg2:T59	
+R12	Attribute Arg1:T65 Arg2:T64	
+R13	Attribute Arg1:T66 Arg2:T64	
+R14	Attribute Arg1:T67 Arg2:T64	
+T37	REFERENCE 434 439	their
+R15	Coreference Arg1:T37 Arg2:T21	
+R16	Attribute Arg1:T35 Arg2:T36	
+R17	Attribute Arg1:T60 Arg2:T61	
+R18	Poss Arg1:T37 Arg2:T24	
+R19	Poss Arg1:T13 Arg2:T48	
+R20	Attribute Arg1:T41 Arg2:T42	
+R21	Apply-to Arg1:T1 Arg2:T2	
+R22	Apply-to Arg1:T1 Arg2:T3	
+R23	Apply-to Arg1:T4 Arg2:T6	
+R24	Apply-to Arg1:T4 Arg2:T5	
+T7	APPLY-TO 166 174	based on
+R25	from Arg1:T7 Arg2:T8	
+R26	to Arg1:T7 Arg2:T4	
+R27	Input Arg1:T8 Arg2:T9	
+R28	Attribute Arg1:T10 Arg2:T9	
+R29	from Arg1:T7 Arg2:T12	
+R30	Target Arg1:T12 Arg2:T14	
+R32	Agent Arg1:T12 Arg2:T17	
+R33	Target Arg1:T12 Arg2:T16	
+R34	from Arg1:T20 Arg2:T19	
+R35	to Arg1:T20 Arg2:T22	
+R36	Agent Arg1:T22 Arg2:T21	
+R37	In_Out Arg1:T22 Arg2:T23	
+R38	Apply-to Arg1:T23 Arg2:T24	
+R39	Apply-to Arg1:T19 Arg2:T25	
+R40	Output Arg1:T25 Arg2:T27	
+R41	Apply-to Arg1:T27 Arg2:T29	
+R42	In_Out Arg1:T29 Arg2:T30	
+R43	Coreference Arg1:T31 Arg2:T19	
+R47	Input Arg1:T34 Arg2:T35	
+R48	Apply-to Arg1:T34 Arg2:T38	
+R49	from Arg1:T39 Arg2:T41	
+R50	Condition Arg1:T42 Arg2:T43	
+R51	Other-rel Arg1:T46 Arg2:T45	
+R52	Other-rel Arg1:T46 Arg2:T47	
+R53	Other-rel Arg1:T44 Arg2:T46	
+R54	Other-rel Arg1:T47 Arg2:T48	
+R55	Input Arg1:T49 Arg2:T50	
+R56	Apply-to Arg1:T49 Arg2:T51	
+R57	Other-rel Arg1:T49 Arg2:T54	
+R58	Other-rel Arg1:T54 Arg2:T56	
+R59	Attribute Arg1:T58 Arg2:T57	
+R60	from Arg1:T58 Arg2:T56	
+R61	to Arg1:T58 Arg2:T59	
+R62	Attribute Arg1:T63 Arg2:T62	
+R63	Input Arg1:T63 Arg2:T65	
+R64	Input Arg1:T63 Arg2:T66	
+R65	Input Arg1:T63 Arg2:T67	
+R66	Agent Arg1:T63 Arg2:T60	
+R67	from Arg1:T70 Arg2:T71	
+R68	to Arg1:T70 Arg2:T69	
+R69	Output Arg1:T69 Arg2:T68	
+R70	Attribute Arg1:T72 Arg2:T73	
+R31	Other-rel Arg1:T8 Arg2:T11	
+T33	PERSON 813 815	We
+T55	REFERENCE 73 83	This paper
+T74	PROCESS 84 92	proposes
+R46	Condition Arg1:T74 Arg2:T55	
+R71	Output Arg1:T74 Arg2:T4	
+T75	PERSON 356 358	We
+T76	PROCESS 359 366	present
+T77	PERSON 1064 1066	We
+T78	PROCESS 1067 1073	report
+R72	Agent Arg1:T76 Arg2:T75	
+R73	Output Arg1:T76 Arg2:T18	
+R74	Agent Arg1:T49 Arg2:T33	
+R75	Agent Arg1:T78 Arg2:T77	
+R76	Output Arg1:T78 Arg2:T68	
+T80	PROCESS 1126 1132	review
+R77	Agent Arg1:T80 Arg2:T77	
+R78	Other-rel Arg1:T80 Arg2:T72	
+T79	PERSON 555 557	us
+R44	Agent Arg1:T34 Arg2:T79	
+R45	Target Arg1:T32 Arg2:T79	
+R79	Apply-to Arg1:T31 Arg2:T32	

@@ -1,0 +1,139 @@
+R1	Attribute Arg1:T2 Arg2:T1
+R2	Apply-to Arg1:T2 Arg2:T3
+A1	Self T4
+R3	Condition Arg1:T5 Arg2:T4
+A2	Intentional T5
+R4	Is-a Arg1:T9 Arg2:T10
+R5	Attribute Arg1:T8 Arg2:T9
+R6	from Arg1:T7 Arg2:T9
+R7	to Arg1:T7 Arg2:T14
+R8	Attribute Arg1:T7 Arg2:T6
+R9	Target Arg1:T14 Arg2:T15
+R10	Coreference Arg1:T11 Arg2:T6
+R11	Attribute Arg1:T11 Arg2:T12
+R12	from Arg1:T12 Arg2:T13
+R13	to Arg1:T12 Arg2:T14
+R14	Input Arg1:T5 Arg2:T6
+R15	Input Arg1:T5 Arg2:T11
+R16	Coreference Arg1:T61 Arg2:T15
+R17	Agent Arg1:T17 Arg2:T16
+R18	Target Arg1:T17 Arg2:T19
+R19	Attribute Arg1:T22 Arg2:T21
+R20	Member-collection Arg1:T22 Arg2:T23
+R21	Member-collection Arg1:T22 Arg2:T24
+R22	Member-collection Arg1:T22 Arg2:T25
+R23	Is-a Arg1:T23 Arg2:T20
+R24	Is-a Arg1:T24 Arg2:T20
+R25	Is-a Arg1:T25 Arg2:T20
+R26	Destination Arg1:T17 Arg2:T26
+R27	Target Arg1:T17 Arg2:T20
+R28	Attribute Arg1:T29 Arg2:T27
+R29	Condition Arg1:T17 Arg2:T61
+R30	Coreference Arg1:T32 Arg2:T29
+R31	Poss Arg1:T32 Arg2:T33
+R32	Apply-to Arg1:T34 Arg2:T31
+R33	Apply-to Arg1:T34 Arg2:T30
+R34	Output Arg1:T30 Arg2:T29
+R35	Destination Arg1:T31 Arg2:T33
+R36	from Arg1:T36 Arg2:T35
+R37	Attribute Arg1:T40 Arg2:T39
+R38	Attribute Arg1:T37 Arg2:T40
+R39	from Arg1:T18 Arg2:T37
+R40	to Arg1:T18 Arg2:T39
+R41	to Arg1:T36 Arg2:T18
+R42	Attribute Arg1:T43 Arg2:T42
+R43	to Arg1:T41 Arg2:T43
+R44	from Arg1:T41 Arg2:T37
+R45	Output Arg1:T44 Arg2:T45
+R46	Attribute Arg1:T47 Arg2:T46
+R47	Attribute Arg1:T39 Arg2:T38
+R48	Attribute Arg1:T44 Arg2:T28
+R49	Attribute Arg1:T28 Arg2:T47
+R50	Attribute Arg1:T48 Arg2:T49
+R51	Condition Arg1:T47 Arg2:T48
+R52	Attribute Arg1:T51 Arg2:T50
+R53	from Arg1:T52 Arg2:T51
+R54	to Arg1:T52 Arg2:T53
+R55	Attribute Arg1:T54 Arg2:T53
+R56	Attribute Arg1:T58 Arg2:T57
+R57	from Arg1:T63 Arg2:T62
+R58	to Arg1:T63 Arg2:T58
+R59	Attribute Arg1:T59 Arg2:T58
+R60	Apply-to Arg1:T62 Arg2:T60
+R61	Apply-to Arg1:T59 Arg2:T60
+R62	from Arg1:T56 Arg2:T55
+R63	to Arg1:T56 Arg2:T58
+A3	Judgment T47
+A4	Judgment T53
+A5	Judgment T58
+A6	Judgment T39
+R64	Is-a Arg1:T23 Arg2:T19
+R65	Is-a Arg1:T24 Arg2:T19
+R66	Is-a Arg1:T25 Arg2:T19
+A7	Intentional T17
+R67	Output Arg1:T31 Arg2:T29
+A8	Intentional T30
+A9	Intentional T31
+T1	QUALITY 4 14	Efficiency
+T2	PLAN-OR-PROCESS 18 40	Multimodal Interaction
+T3	PLAN 47 61	Map-Based Task
+T4	REFERENCE 64 74	This paper
+T5	PROCESS 75 83	compares
+T6	QUALITY 88 98	efficiency
+T7	APPLY-TO 102 107	using
+T8	QUALITY 110 118	standard
+T9	PLAN 119 163	direct-manipulation graphical user interface
+T10	PLAN 166 169	GUI
+T11	REFERENCE 177 181	that
+T12	APPLY-TO 185 190	using
+T13	PLAN 195 234	QuickSet pen/voice multimodal interface
+T14	PROCESS 239 249	supporting
+T15	PLAN 252 265	military task
+T61	PLAN 271 280	this task
+T16	PERSON 285 289	user
+T17	PROCESS 290 296	places
+T19	DATA-ITEM 297 311	military units
+T20	DATA-ITEM 316 332	control measures
+T21	QUALITY 342 349	various
+T22	DATA-ITEM 350 355	types
+T23	DATA-ITEM 359 364	lines
+T24	DATA-ITEM 367 376	obstacles
+T25	DATA-ITEM 379 389	objectives
+T26	DATA-ITEM 397 400	map
+T27	QUANTITY 403 407	Four
+T29	DATA-ITEM 408 426	military personnel
+T30	PROCESS 427 435	designed
+T31	PROCESS 440 447	entered
+T32	REFERENCE 448 457	their own
+T33	PLAN 458 478	simulation scenarios
+T34	PLAN 483 498	both interfaces
+T35	PLAN-OR-PROCESS 501 509	Analyses
+T36	OUTPUT 510 518	revealed
+T37	PLAN 528 548	multimodal interface
+T18	RESULT 549 552	led
+T38	QUANTITY 559 575	average 3.5-fold
+T39	QUALITY 576 593	speed improvement
+T40	DATA-ITEM 601 629	average entity creation time
+T41	COMPONENT-OBJECT 632 641	including
+T42	QUANTITY 642 645	all
+T43	PLAN-OR-PROCESS 646 660	error handling
+T28	DATA-ITEM 667 676	mean time
+T44	PROCESS 680 686	repair
+T45	DATA-ITEM 687 693	errors
+T46	QUANTITY 703 712	4.3 times
+T47	QUALITY 713 719	faster
+T48	PROCESS 725 736	interacting
+T49	QUALITY 737 749	multimodally
+T50	QUANTITY 755 758	all
+T51	DATA-ITEM 766 774	subjects
+T52	RESULT 775 783	reported
+T53	QUALITY 786 803	strong preference
+T54	PLAN-OR-PROCESS 808 830	multimodal interaction
+T55	DATA-ITEM 833 846	These results
+T56	RESULT 847 855	indicate
+T57	QUALITY 858 869	substantial
+T58	QUALITY 870 890	efficiency advantage
+T59	PLAN-OR-PROCESS 895 905	multimodal
+T63	COMPARE 906 910	over
+T62	PLAN-OR-PROCESS 911 932	GUI-based interaction
+T60	PLAN 940 955	map-based tasks

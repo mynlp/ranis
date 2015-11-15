@@ -1,0 +1,142 @@
+T1	INTELLIGENT-AGENT 0 6	Agents
+T2	OCCURENT 8 15	Beliefs
+T3	QUALITY 21 30	Plausible
+T4	PLAN-OR-PROCESS 31 39	Behavior
+T5	PLAN 45 61	Temporal Setting
+T6	PLAN 62 68	Logics
+T7	DATA-ITEM 72 81	knowledge
+T8	OCCURENT 86 92	belief
+T9	QUALITY 97 102	often
+T10	QUALITY 103 113	too static
+T11	QUALITY 103 106;118 128	too inflexible
+T12	APPLY-TO 135 139	used
+T13	PLAN 143 162	real-world problems
+T15	REFERENCE 179 183	they
+T16	QUALITY 184 191	usually
+T17	PROCESS 192 197	offer
+T18	QUANTITY 198 200	no
+T19	THING 201 208	concept
+T20	PROCESS 213 223	expressing
+T21	QUANTITY 229 233	some
+T22	PROCESS 234 240	course
+T24	QUALITY 254 265	more likely
+T25	PROCESS 269 275	happen
+T26	PROCESS 281 288	another
+T23	PLAN 301 313	this problem
+T27	PROCESS 318 324	extend
+T28	PLAN 331 368	computation tree logic with knowledge
+T29	PLAN 325 329	CTLK
+R1	Equivalence Arg1:T28 Arg2:T29	
+T30	PLAN 377 383	notion
+T31	QUALITY 387 399	plausibility
+T32	PROCESS 407 413	allows
+T33	PLAN-OR-PROCESS 432 456	counterfactual reasoning
+T34	PLAN-OR-PROCESS 418 427;447 456	practical reasoning
+T35	PLAN 479 501	CTLK with plausibility
+T36	PLAN 472 477	CTLKP
+T37	PROCESS 293 300	address
+T38	QUALITY 462 465	new
+T39	PLAN 466 471	logic
+T40	CONDITION 503 511	includes
+T41	THING 519 536	particular notion
+T42	OCCURENT 540 546	belief
+T43	PLAN 550 578	plausibility update operator
+T44	PROCESS 582 587	added
+T45	PLAN 591 601	this logic
+R2	Coreference Arg1:T45 Arg2:T36	
+T46	PROCESS 614 620	change
+T47	PLAN 621 645	plausibility assumptions
+T48	QUALITY 646 657	dynamically
+T49	QUALITY 688 697	important
+T50	PLAN 698 708	properties
+T51	QUANTITY 683 687	some
+T53	PLAN 712 726	these concepts
+T54	PLAN 763 776	natural class
+T55	PLAN 780 786	models
+T56	OCCURENT 788 794	belief
+T57	PLAN 800 813	KD45 modality
+T58	PLAN 800 804	KD45
+T61	MODALITY 876 879	can
+T62	QUALITY 891 902	time linear
+T63	DATA-ITEM 923 927	size
+T64	PLAN 931 937	models
+T65	PLAN 942 950	formulae
+T66	PROCESS 883 887	done
+T69	QUALITY 857 871	PTIME-complete
+R3	Attribute Arg1:T4 Arg2:T3	
+R4	Attribute Arg1:T6 Arg2:T10	
+R5	Attribute Arg1:T6 Arg2:T11	
+R6	Attribute Arg1:T11 Arg2:T9	
+R7	Attribute Arg1:T10 Arg2:T9	
+R8	Coreference Arg1:T15 Arg2:T6	
+R9	Attribute Arg1:T17 Arg2:T16	
+R10	Attribute Arg1:T19 Arg2:T18	
+R11	Attribute Arg1:T22 Arg2:T21	
+R12	Attribute Arg1:T25 Arg2:T24	
+R13	Attribute Arg1:T39 Arg2:T38	
+R14	Attribute Arg1:T46 Arg2:T48	
+R15	Attribute Arg1:T50 Arg2:T51	
+R16	Attribute Arg1:T50 Arg2:T49	
+R19	Attribute Arg1:T66 Arg2:T61	
+R20	Attribute Arg1:T66 Arg2:T62	
+R21	Equivalence Arg1:T35 Arg2:T36	
+T68	PLAN 848 853	CTLKP
+T73	REFERENCE 401 406	which
+R17	Coreference Arg1:T73 Arg2:T31	
+R23	Condition Arg1:T4 Arg2:T5	
+R25	Attribute Arg1:T7 Arg2:T6	
+R26	Attribute Arg1:T8 Arg2:T6	
+R27	to Arg1:T12 Arg2:T13	
+R28	from Arg1:T12 Arg2:T6	
+R29	Condition Arg1:T11 Arg2:T12	
+R30	Condition Arg1:T10 Arg2:T12	
+R31	Apply-to Arg1:T15 Arg2:T17	
+R32	Output Arg1:T17 Arg2:T19	
+R33	Apply-to Arg1:T19 Arg2:T20	
+T72	PROCESS 244 250	events
+R34	Attribute Arg1:T72 Arg2:T22	
+T74	COMPARE 276 280	than
+R35	from Arg1:T74 Arg2:T26	
+R36	to Arg1:T74 Arg2:T24	
+R37	Apply-to Arg1:T22 Arg2:T25	
+R38	Target Arg1:T37 Arg2:T23	
+R39	In_Out Arg1:T27 Arg2:T29	
+R40	Attribute Arg1:T30 Arg2:T31	
+R43	Apply-to Arg1:T73 Arg2:T32	
+R44	Target Arg1:T32 Arg2:T34	
+R45	Target Arg1:T32 Arg2:T33	
+R46	Is-a Arg1:T36 Arg2:T39	
+R47	Attribute Arg1:T41 Arg2:T42	
+R48	from Arg1:T40 Arg2:T36	
+R49	to Arg1:T40 Arg2:T41	
+R41	Input Arg1:T27 Arg2:T30	
+R42	Destination Arg1:T44 Arg2:T45	
+R50	Output Arg1:T44 Arg2:T43	
+R51	In_Out Arg1:T46 Arg2:T47	
+R52	Apply-to Arg1:T44 Arg2:T46	
+R53	Attribute Arg1:T53 Arg2:T50	
+R54	Attribute Arg1:T64 Arg2:T63	
+R55	Condition Arg1:T62 Arg2:T63	
+R56	Condition Arg1:T62 Arg2:T65	
+T75	PLAN-OR-PROCESS 833 847	model checking
+R58	Attribute Arg1:T75 Arg2:T69	
+T76	IS-A 795 799	is a
+R60	from Arg1:T76 Arg2:T56	
+R61	to Arg1:T76 Arg2:T57	
+R62	Is-a Arg1:T54 Arg2:T55	
+R63	Condition Arg1:T56 Arg2:T54	
+R22	Input Arg1:T75 Arg2:T68	
+R57	Output Arg1:T66 Arg2:T75	
+T14	PERSON 290 292	We
+T52	PERSON 672 674	we
+T59	PROCESS 675 682	examine
+T60	PERSON 743 745	we
+T67	PROCESS 746 750	show
+T70	PERSON 815 817	We
+T71	PROCESS 823 827	show
+R18	Agent Arg1:T37 Arg2:T14	
+R24	Agent Arg1:T27 Arg2:T14	
+R59	Agent Arg1:T59 Arg2:T52	
+R64	Input Arg1:T59 Arg2:T50	
+R65	Agent Arg1:T67 Arg2:T60	
+R66	Agent Arg1:T71 Arg2:T70	

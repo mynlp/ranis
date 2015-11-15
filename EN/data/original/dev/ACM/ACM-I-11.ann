@@ -1,0 +1,148 @@
+T1	PLAN-OR-PROCESS 0 32	Real-Time Agent Characterization
+T2	PLAN-OR-PROCESS 37 47	Prediction
+T3	PROCESS 48 57	Reasoning
+T4	INTELLIGENT-AGENT 64 70	agents
+T5	REFERENCE 71 75	that
+T6	PERSON 76 78	we
+T7	PROCESS 79 86	observe
+T8	LOCATION 94 99	world
+T9	QUALITY 103 114	challenging
+T10	PERSON 116 119	Our
+T11	QUALITY 120 129	available
+T12	DATA-ITEM 130 141	information
+T13	QUALITY 145 150	often
+T14	PROCESS 151 158	limited
+T15	PLAN-OR-PROCESS 162 174	observations
+T16	INTELLIGENT-AGENT 182 187	agent
+T17	QUALITY 190 198	external
+T18	TIME 224 231	present
+T19	PROCESS 236 246	understand
+T20	PLAN-OR-PROCESS 247 260	these actions
+T21	PERSON 262 264	we
+T22	MODALITY 265 269	need
+T23	PROCESS 273 279	deduce
+T24	INTELLIGENT-AGENT 284 289	agent
+T25	DATA-ITEM 301 306	state
+T26	REFERENCE 308 313	which
+T27	IS-A 314 322	includes
+T29	QUALITY 332 340	rational
+T30	PLAN 341 349	elements
+T31	PLAN 359 369	intentions
+T32	PLAN 374 379	plans
+T33	QUALITY 391 398	emotive
+T34	PLAN 399 403	ones
+T35	PERSON 433 435	we
+T36	PROCESS 450 457	predict
+T37	INTELLIGENT-AGENT 462 467	agent
+T38	PLAN-OR-PROCESS 477 484	actions
+T39	REFERENCE 486 491	which
+T40	PROCESS 496 507	constrained
+T43	DATA-ITEM 520 548	these inward characteristics
+T44	OCCURENT 566 574	dynamics
+T45	INTELLIGENT-AGENT 582 587	agent
+T46	PLAN-OR-PROCESS 590 601	interaction
+T47	REFERENCE 607 610	its
+T48	THING 611 622	environment
+T49	PLAN 624 627	BEE
+T50	PLAN 629 665	Behavior Evolution and Extrapolation
+T51	APPLY-TO 667 671	uses
+T52	PLAN 674 713	faster-than-real-time agent-based model
+T53	THING 721 732	environment
+T54	PROCESS 736 748	characterize
+T55	INTELLIGENT-AGENT 749 755	agents
+T56	DATA-ITEM 766 771	state
+T57	PLAN-OR-PROCESS 775 784	evolution
+T58	QUALITY 793 801	observed
+T59	PROCESS 821 828	predict
+T60	REFERENCE 829 834	their
+T61	PLAN-OR-PROCESS 842 850	behavior
+T62	PROCESS 852 871	taking into account
+T63	OCCURENT 876 884	dynamics
+T64	REFERENCE 888 893	their
+T65	PLAN-OR-PROCESS 894 905	interaction
+T66	THING 915 926	environment
+A1	Self T6
+A2	Intentional T7
+R1	Agent Arg1:T7 Arg2:T6	
+R2	Condition Arg1:T7 Arg2:T8	
+R3	In_Out Arg1:T7 Arg2:T5	
+R4	Coreference Arg1:T5 Arg2:T4	
+R5	Other-rel Arg1:T3 Arg2:T4	
+R6	Attribute Arg1:T3 Arg2:T9	
+A3	Self T10
+R7	Attribute Arg1:T12 Arg2:T11	
+R8	Poss Arg1:T10 Arg2:T12	
+R9	Attribute Arg1:T14 Arg2:T13	
+R10	Target Arg1:T14 Arg2:T12	
+T67	TIME 215 219	past
+T68	PROCESS 199 207	behavior
+R11	Attribute Arg1:T68 Arg2:T17	
+R12	Agent Arg1:T68 Arg2:T16	
+R13	Condition Arg1:T68 Arg2:T67	
+R14	Condition Arg1:T68 Arg2:T18	
+R15	In_Out Arg1:T15 Arg2:T68	
+R16	Destination Arg1:T14 Arg2:T15	
+R17	In_Out Arg1:T19 Arg2:T20	
+R18	Coreference Arg1:T20 Arg2:T68	
+R19	Agent Arg1:T23 Arg2:T21	
+A4	Self T21
+R20	Attribute Arg1:T23 Arg2:T22	
+R21	Attribute Arg1:T24 Arg2:T25	
+R22	Output Arg1:T23 Arg2:T25	
+T69	QUALITY 292 300	internal
+R23	Attribute Arg1:T25 Arg2:T69	
+R24	Attribute Arg1:T30 Arg2:T29	
+R25	Is-a Arg1:T31 Arg2:T30	
+R26	Is-a Arg1:T32 Arg2:T30	
+R27	Attribute Arg1:T34 Arg2:T33	
+T28	OCCURENT 413 417	fear
+R28	from Arg1:T27 Arg2:T30	
+R29	from Arg1:T27 Arg2:T34	
+R30	to Arg1:T27 Arg2:T26	
+R31	Coreference Arg1:T26 Arg2:T25	
+R32	Other-rel Arg1:T28 Arg2:T34	
+A5	Self T35
+T70	QUALITY 436 441	often
+T71	PROCESS 442 446	want
+A6	Intentional T71
+R33	Attribute Arg1:T71 Arg2:T70	
+R34	Agent Arg1:T71 Arg2:T35	
+R35	Target Arg1:T71 Arg2:T36	
+T72	TIME 470 476	future
+R36	Condition Arg1:T38 Arg2:T72	
+R37	Agent Arg1:T38 Arg2:T37	
+R38	Output Arg1:T36 Arg2:T38	
+R40	Agent Arg1:T40 Arg2:T43	
+R41	Target Arg1:T40 Arg2:T39	
+R42	Coreference Arg1:T39 Arg2:T38	
+R43	Coreference Arg1:T47 Arg2:T45	
+R44	Attribute Arg1:T47 Arg2:T48	
+R45	Target Arg1:T46 Arg2:T48	
+R46	Target Arg1:T46 Arg2:T45	
+R47	Attribute Arg1:T46 Arg2:T44	
+R48	Result Arg1:T44 Arg2:T40	
+R39	Coreference Arg1:T43 Arg2:T25	
+R49	Equivalence Arg1:T50 Arg2:T49	
+R50	from Arg1:T51 Arg2:T52	
+R51	to Arg1:T51 Arg2:T50	
+R52	In_Out Arg1:T52 Arg2:T53	
+T41	QUALITY 757 765	internal
+R53	Attribute Arg1:T56 Arg2:T41	
+R54	Attribute Arg1:T55 Arg2:T56	
+R55	Output Arg1:T54 Arg2:T56	
+R56	Apply-to Arg1:T50 Arg2:T54	
+T42	PLAN-OR-PROCESS 802 810	behavior
+R57	Attribute Arg1:T42 Arg2:T58	
+R58	In_Out Arg1:T57 Arg2:T42	
+R59	Apply-to Arg1:T57 Arg2:T54	
+R60	Coreference Arg1:T60 Arg2:T55	
+T73	TIME 835 841	future
+R61	Condition Arg1:T61 Arg2:T73	
+R62	Agent Arg1:T61 Arg2:T60	
+R63	Output Arg1:T59 Arg2:T61	
+R64	Coreference Arg1:T64 Arg2:T60	
+R65	Target Arg1:T65 Arg2:T64	
+R66	Target Arg1:T65 Arg2:T66	
+R67	Attribute Arg1:T65 Arg2:T63	
+R68	Target Arg1:T62 Arg2:T63	
+R69	Apply-to Arg1:T62 Arg2:T59	

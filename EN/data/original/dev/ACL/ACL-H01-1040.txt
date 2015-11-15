@@ -1,0 +1,5 @@
+Intelligent Access to Text: Integrating Information Extraction Technology into Text Browsers
+
+In this paper we show how two standard outputs from information extraction (IE) systems -- named entity annotations and scenario templates -- can be used to enhance access to text collections via a standard text browser.
+We describe how this information is used in a prototype system designed to support information workers' access to a pharmaceutical news archive as part of their ``industry watch'' function.
+We also report results of a preliminary, qualitative user evaluation of the system, which while broadly positive indicates further work needs to be done on the interface to make users aware of the increased potential of IE-enhanced text browsers.

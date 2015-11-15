@@ -1,0 +1,7 @@
+Parsing Word-Aligned Parallel Corpora In A Grammar Induction Context .
+We present an Earley-style dynamic programming algorithm for parsing sentence pairs from a parallel corpus simultaneously , building up two phrase structure trees and a correspondence mapping between the nodes .
+The intended use of the algorithm is in bootstrapping grammars for less studied languages by using implicit grammatical information in parallel corpora .
+Therefore , we presuppose a given ( statistical ) word alignment underlying in the synchronous parsing task ; this leads to a significant reduction of the parsing complexity .
+The theoretical complexity results are corroborated by a quantitative evaluation in which we ran an implementation of the algorithm on a suite of test sentences from the Europarl parallel corpus .
+
+

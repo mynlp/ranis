@@ -1,0 +1,89 @@
+T1	DATA-ITEM 6 21	POS Information
+T2	PLAN-OR-PROCESS 26 57	Statistical Machine Translation
+T3	INPUT 0 5	Using
+T4	QUALITY 63 83	Morphologically Rich
+T5	LANGUAGE 84 93	Languages
+T6	PROCESS 100 111	translating
+T7	LANGUAGE 117 126	languages
+T8	LANGUAGE 172 179	English
+T9	QUALITY 143 166	inflectional morphology
+T10	QUALITY 185 205	morphologically rich
+T11	LANGUAGE 206 215	languages
+T12	DATA-ITEM 221 239	English word forms
+T13	QUALITY 240 245	often
+T14	MODALITY 249 252	not
+T15	COMPONENT-OBJECT 253 260	contain
+T16	DATA-ITEM 268 279	information
+T17	QUALITY 261 267	enough
+T18	PROCESS 284 293	producing
+T19	LANGUAGE 323 338	target language
+T20	DATA-ITEM 306 315	full form
+T21	QUALITY 298 305	correct
+T22	PLAN-OR-PROCESS 355 362	methods
+T23	PROCESS 367 376	improving
+T24	DATA-ITEM 381 388	quality
+T25	REFERENCE 392 409	such translations
+T26	PROCESS 413 423	making use
+T28	DATA-ITEM 427 453	part-of-speech information
+T29	PLAN-OR-PROCESS 458 482	maximum entropy modeling
+T30	DATA-ITEM 484 491	Results
+T31	PROCESS 496 508	translations
+T32	LANGUAGE 514 521	English
+T33	LANGUAGE 527 534	Spanish
+T34	LANGUAGE 539 546	Catalan
+T35	DATA-ITEM 568 575	LC-STAR
+T36	PROCESS 551 560	presented
+T37	DATA-ITEM 601 631	spontaneously spoken dialogues
+T38	DOMAIN 639 645	domain
+T39	PLAN-OR-PROCESS 649 671	appointment scheduling
+T40	PLAN-OR-PROCESS 676 691	travel planning
+T41	MEMBER-COLLECTION 589 597	consists
+T42	LANGUAGE 221 228	English
+T43	DATA-ITEM 568 582	LC-STAR corpus
+R1	Attribute Arg1:T5 Arg2:T4	
+R2	Attribute Arg1:T11 Arg2:T10	
+R3	Attribute Arg1:T20 Arg2:T21	
+T27	REFERENCE 583 588	which
+R4	Coreference Arg1:T27 Arg2:T43	
+R5	Attribute Arg1:T16 Arg2:T17	
+R6	Attribute Arg1:T15 Arg2:T13	
+R7	Attribute Arg1:T15 Arg2:T14	
+R8	Other-rel Arg1:T2 Arg2:T5	
+R9	to Arg1:T3 Arg2:T1	
+R10	from Arg1:T3 Arg2:T2	
+R11	Other-rel Arg1:T6 Arg2:T7	
+T44	QUALITY 132 142	hardly any
+R12	Attribute Arg1:T9 Arg2:T44	
+R13	Attribute Arg1:T7 Arg2:T9	
+T45	QUALITY 167 171	like
+R14	Attribute Arg1:T7 Arg2:T45	
+R15	Compare Arg1:T8 Arg2:T45	
+R16	Other-rel Arg1:T6 Arg2:T11	
+R17	from Arg1:T15 Arg2:T16	
+R18	to Arg1:T15 Arg2:T12	
+R19	Input Arg1:T18 Arg2:T16	
+R20	Condition Arg1:T17 Arg2:T18	
+R21	Output Arg1:T18 Arg2:T20	
+R22	Attribute Arg1:T20 Arg2:T19	
+R23	Apply-to Arg1:T22 Arg2:T23	
+R24	In_Out Arg1:T23 Arg2:T24	
+R25	Coreference Arg1:T25 Arg2:T6	
+R26	Attribute Arg1:T25 Arg2:T24	
+R27	Apply-to Arg1:T26 Arg2:T23	
+R28	Input Arg1:T26 Arg2:T28	
+R29	Apply-to Arg1:T29 Arg2:T26	
+R30	Attribute Arg1:T31 Arg2:T30	
+R31	Other-rel Arg1:T31 Arg2:T32	
+R32	Other-rel Arg1:T31 Arg2:T33	
+R33	Other-rel Arg1:T31 Arg2:T34	
+R34	from Arg1:T41 Arg2:T37	
+R35	to Arg1:T41 Arg2:T27	
+R36	Attribute Arg1:T38 Arg2:T39	
+R37	Attribute Arg1:T38 Arg2:T40	
+R38	Attribute Arg1:T37 Arg2:T38	
+R39	Output Arg1:T36 Arg2:T30	
+R40	Input Arg1:T31 Arg2:T43	
+T46	PERSON 340 342	We
+T47	PROCESS 343 354	investigate
+R41	Agent Arg1:T47 Arg2:T46	
+R42	In_Out Arg1:T47 Arg2:T22	

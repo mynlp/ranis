@@ -1,0 +1,165 @@
+T1	PLAN-OR-PROCESS 0 13	Remote Access
+T2	QUALITY 17 22	Large
+T3	DATA-ITEM 23 40	Spatial Databases
+T4	ORGANIZATION 41 52	Enterprises
+T5	ORGANIZATION 60 66;79 86	public sectors
+T6	ORGANIZATION 71 86	private sectors
+T7	PROCESS 97 103	making
+T8	DATA-ITEM 116 137	spatial data archives
+T9	QUALITY 110 115	large
+T10	QUALITY 138 147	available
+T11	DATA-ITEM 157 165	Internet
+T12	PLAN-OR-PROCESS 176 192	interactive work
+T13	QUANTITY 203 216	large volumes
+T14	DATA-ITEM 220 239	online spatial data
+T15	QUALITY 245 256	challenging
+T16	PLAN-OR-PROCESS 257 261	task
+T17	PLAN 288 298	approaches
+T18	QUALITY 278 287	efficient
+T19	QUANTITY 274 277	two
+T20	PLAN-OR-PROCESS 302 315	remote access
+T21	DATA-ITEM 325 337	spatial data
+T22	QUALITY 319 324	large
+T23	PLAN 361 387	client-server architecture
+T24	REFERENCE 388 393	where
+R1	Coreference Arg1:T24 Arg2:T23	
+T25	PLAN-OR-PROCESS 398 402	work
+T26	PROCESS 406 417	distributed
+T27	PLAN 430 436	server
+T28	PLAN 445 463	individual clients
+T29	PLAN-OR-PROCESS 468 492	spatial query evaluation
+T30	PLAN-OR-PROCESS 494 512	data visualization
+T31	PLAN-OR-PROCESS 518 533	data management
+T32	PROCESS 538 544	enable
+T33	PLAN-OR-PROCESS 549 561	minimization
+T34	PLAN 569 581	requirements
+T35	THING 586 602	system resources
+T36	THING 610 621	client side
+T37	QUALITY 646 660	responsiveness
+T38	PROCESS 628 638	maximizing
+T39	QUANTITY 676 682	number
+T40	OCCURENT 686 697	connections
+T41	PLAN 702 708	server
+T42	MODALITY 709 712	can
+T43	PROCESS 713 719	handle
+T44	QUALITY 720 732	concurrently
+T45	TIME 756 763	periods
+T46	QUALITY 746 755	prolonged
+T47	PLAN-OR-PROCESS 767 773	access
+T48	QUALITY 777 782	large
+T49	DATA-ITEM 783 794	online data
+T50	PLAN 809 816	APPOINT
+T51	PLAN 821 870	Approach for Peer-to-Peer Offloading the INTernet
+R2	Equivalence Arg1:T51 Arg2:T50	
+T52	PLAN 883 916	centralized peer-to-peer approach
+T53	REFERENCE 917 921	that
+R3	Coreference Arg1:T53 Arg2:T52	
+T54	APPLY-TO 922 927	helps
+T55	PERSON 928 942	Internet users
+T56	PROCESS 943 951	transfer
+T57	QUALITY 958 965	volumes
+T58	DATA-ITEM 969 980	online data
+T59	QUALITY 981 992	efficiently
+T60	PLAN 997 1004	APPOINT
+T61	PLAN 1006 1020	active clients
+T62	PLAN 1028 1054	client-server architecture
+T63	PROCESS 1055 1058	act
+T64	QUALITY 1066 1081	server's behalf
+T66	PROCESS 1086 1097	communicate
+T67	REFERENCE 1103 1113	each other
+T68	JUDGING-PROCESS 1117 1125	decrease
+T69	QUALITY 1126 1141	network latency
+T70	JUDGING-PROCESS 1143 1150	improve
+T71	QUALITY 1151 1168	service bandwidth
+T72	JUDGING-PROCESS 1174 1181	resolve
+T73	OCCURENT 1182 1200	server congestions
+R4	Attribute Arg1:T3 Arg2:T2	
+R5	Attribute Arg1:T8 Arg2:T9	
+R6	Attribute Arg1:T16 Arg2:T15	
+R7	Attribute Arg1:T17 Arg2:T19	
+R8	Attribute Arg1:T17 Arg2:T18	
+R9	Attribute Arg1:T21 Arg2:T22	
+T75	PLAN 639 645	system
+R10	Attribute Arg1:T49 Arg2:T48	
+T76	REFERENCE 104 109	their
+R11	Coreference Arg1:T76 Arg2:T4	
+R12	Attribute Arg1:T14 Arg2:T13	
+R13	Attribute Arg1:T58 Arg2:T57	
+R14	Attribute Arg1:T56 Arg2:T59	
+T77	REFERENCE 873 877	This
+R15	Coreference Arg1:T77 Arg2:T50	
+R16	Poss Arg1:T76 Arg2:T8	
+R17	Attribute Arg1:T40 Arg2:T39	
+R18	Attribute Arg1:T75 Arg2:T37	
+R19	Attribute Arg1:T45 Arg2:T46	
+T84	QUALITY 952 957	large
+R20	Attribute Arg1:T57 Arg2:T84	
+R21	Target Arg1:T1 Arg2:T3	
+R22	Agent Arg1:T7 Arg2:T4	
+R23	Attribute Arg1:T4 Arg2:T6	
+R24	Attribute Arg1:T4 Arg2:T5	
+R25	In_Out Arg1:T7 Arg2:T8	
+R26	Attribute Arg1:T8 Arg2:T10	
+R27	Destination Arg1:T7 Arg2:T11	
+R28	Input Arg1:T12 Arg2:T14	
+R29	Is-a Arg1:T12 Arg2:T16	
+R30	Apply-to Arg1:T17 Arg2:T20	
+R31	Destination Arg1:T20 Arg2:T21	
+R32	Condition Arg1:T24 Arg2:T26	
+R33	In_Out Arg1:T26 Arg2:T25	
+R34	Destination Arg1:T26 Arg2:T27	
+R35	Destination Arg1:T26 Arg2:T28	
+R36	Apply-to Arg1:T26 Arg2:T29	
+R37	Apply-to Arg1:T26 Arg2:T30	
+R38	Apply-to Arg1:T26 Arg2:T31	
+R39	Input Arg1:T32 Arg2:T33	
+R40	In_Out Arg1:T33 Arg2:T34	
+R41	Attribute Arg1:T34 Arg2:T35	
+R42	Attribute Arg1:T35 Arg2:T36	
+R43	Apply-to Arg1:T32 Arg2:T38	
+R44	In_Out Arg1:T38 Arg2:T37	
+R45	In_Out Arg1:T38 Arg2:T39	
+T85	QUANTITY 698 701	one
+R46	Attribute Arg1:T43 Arg2:T42	
+R47	Attribute Arg1:T41 Arg2:T85	
+R48	Target Arg1:T43 Arg2:T40	
+R49	Attribute Arg1:T43 Arg2:T44	
+R50	Apply-to Arg1:T41 Arg2:T43	
+R51	Attribute Arg1:T47 Arg2:T45	
+R52	Destination Arg1:T47 Arg2:T49	
+R53	Is-a Arg1:T77 Arg2:T52	
+R54	from Arg1:T54 Arg2:T53	
+R55	Agent Arg1:T56 Arg2:T55	
+R56	to Arg1:T54 Arg2:T56	
+R57	In_Out Arg1:T56 Arg2:T58	
+R58	Apply-to Arg1:T61 Arg2:T63	
+R59	Condition Arg1:T63 Arg2:T60	
+R60	Component-object Arg1:T61 Arg2:T62	
+R61	Other-rel Arg1:T63 Arg2:T64	
+R63	Apply-to Arg1:T61 Arg2:T66	
+R64	Coreference Arg1:T67 Arg2:T61	
+R65	Ori_Dest Arg1:T66 Arg2:T67	
+R66	Apply-to Arg1:T66 Arg2:T68	
+R67	In_Out Arg1:T68 Arg2:T69	
+R68	Apply-to Arg1:T66 Arg2:T70	
+R69	In_Out Arg1:T70 Arg2:T71	
+R70	Apply-to Arg1:T66 Arg2:T72	
+R71	In_Out Arg1:T72 Arg2:T73	
+T86	CONDITION 148 152	over
+R72	from Arg1:T86 Arg2:T11	
+R73	to Arg1:T86 Arg2:T10	
+T87	PROCESS 799 808	introduce
+R74	Output Arg1:T87 Arg2:T50	
+R75	Apply-to Arg1:T87 Arg2:T47	
+T65	PERSON 263 265	We
+T74	PROCESS 266 273	propose
+T78	PERSON 346 348	we
+T79	PROCESS 349 358	introduce
+T80	PERSON 535 537	We
+T81	PERSON 796 798	we
+R62	Agent Arg1:T74 Arg2:T65	
+R76	Output Arg1:T74 Arg2:T17	
+R77	Agent Arg1:T79 Arg2:T78	
+R78	Output Arg1:T79 Arg2:T23	
+R79	Agent Arg1:T32 Arg2:T80	
+R80	Agent Arg1:T87 Arg2:T81	

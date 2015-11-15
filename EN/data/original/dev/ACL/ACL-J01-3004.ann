@@ -1,0 +1,163 @@
+T1	PLAN-OR-PROCESS 21 25;47 57	Text Generation
+T2	PLAN-OR-PROCESS 27 34;47 57	Diagram Generation
+T3	PLAN-OR-PROCESS 40 57	Layout Generation
+T4	PLAN-OR-PROCESS 62 86	Information Presentation
+T5	QUALITY 107 120	appropriately
+T6	DATA-ITEM 98 106	elements
+T7	PROCESS 88 97	Combining
+T8	PLAN 139 150	page layout
+T9	QUALITY 156 171	well-recognized
+T10	QUALITY 176 183	crucial
+T11	QUALITY 184 190	aspect
+T12	PLAN-OR-PROCESS 208 232	information presentation
+T13	QUALITY 194 207	sophisticated
+T14	PLAN 246 254	function
+T15	QUALITY 238 245	precise
+T16	PLAN 269 275	layout
+T17	QUALITY 259 265	nature
+T18	MODALITY 280 283	not
+T19	QUALITY 299 311	sufficiently
+T20	PROCESS 312 321	addressed
+T21	PLAN 329 353	computational approaches
+T22	OCCURENT 355 364	attention
+T23	QUALITY 368 373	often
+T24	PROCESS 374 384	restricted
+T25	PLAN 405 411	issues
+T26	PLAN 415 425	typography
+T27	PLAN 430 445	text-formatting
+T28	PROCESS 480 491	unaddressed
+T29	PLAN 473 479	layout
+T30	PLAN 463 469	issues
+T31	QUALITY 455 462	broader
+T32	PROCESS 447 454	leaving
+T33	QUALITY 388 404	relatively local
+T35	PLAN-OR-PROCESS 523 532	selection
+T36	PLAN 537 545	function
+T37	PLAN 549 555	layout
+T38	DATA-ITEM 559 564	pages
+T39	QUALITY 570 583	appropriately
+T40	PROCESS 584 591	combine
+T41	QUALITY 592 599;614 635	textual representation styles
+T42	QUALITY 604 635	graphical representation styles
+T43	PROCESS 639 644	yield
+T44	QUALITY 130 138	coherent
+T45	QUALITY 645 653	coherent
+T46	DATA-ITEM 654 674	presentation designs
+T47	PLAN 696 702	layout
+T48	PROCESS 703 709	offers
+T49	PLAN 717 725	resource
+T50	QUALITY 712 716	rich
+T51	PROCESS 730 739	achieving
+T52	QUALITY 740 764	presentational coherence
+T53	PLAN-OR-PROCESS 793 802	resources
+T54	DATA-ITEM 860 881	discourse connections
+T55	PLAN-OR-PROCESS 835 856	text-internal marking
+T56	PLAN-OR-PROCESS 811 826	text-formatting
+T57	PLAN 915 923	approach
+T58	PLAN-OR-PROCESS 927 933;953 963	layout generation
+T59	PLAN-OR-PROCESS 935 939;953 963	text generation
+T60	PLAN-OR-PROCESS 945 963	diagram generation
+T61	PROCESS 981 990	developed
+T62	PLAN-OR-PROCESS 1021 1044	empirical investigation
+T63	DATA-ITEM 1072 1079	layouts
+T64	PLAN-OR-PROCESS 1093 1107	implementation
+T65	QUALITY 1048 1071	professionally produced
+T66	PLAN 1127 1145	information system
+T67	DOMAIN 1161 1172	art history
+T68	DOMAIN 1153 1157	area
+R1	Attribute Arg1:T8 Arg2:T44	
+R2	Attribute Arg1:T11 Arg2:T9	
+R3	Attribute Arg1:T11 Arg2:T10	
+R4	Attribute Arg1:T12 Arg2:T13	
+R5	Attribute Arg1:T49 Arg2:T50	
+T70	QUALITY 8 20	Constructive
+R6	Attribute Arg1:T1 Arg2:T70	
+R7	Attribute Arg1:T2 Arg2:T70	
+R8	Attribute Arg1:T3 Arg2:T70	
+R9	Attribute Arg1:T63 Arg2:T65	
+T71	QUALITY 1009 1020	preliminary
+R10	Attribute Arg1:T62 Arg2:T71	
+T72	QUALITY 776 792	more traditional
+R11	Attribute Arg1:T53 Arg2:T72	
+T74	REFERENCE 565 569	that
+R12	Coreference Arg1:T74 Arg2:T37	
+T76	PERSON 965 968	Our
+T77	PLAN 969 977	approach
+R13	Poss Arg1:T76 Arg2:T77	
+R14	Attribute Arg1:T7 Arg2:T5	
+R15	Attribute Arg1:T14 Arg2:T15	
+R16	Attribute Arg1:T20 Arg2:T19	
+R17	Attribute Arg1:T24 Arg2:T23	
+R18	Attribute Arg1:T25 Arg2:T33	
+R19	Attribute Arg1:T30 Arg2:T31	
+R20	Attribute Arg1:T40 Arg2:T39	
+R21	Attribute Arg1:T46 Arg2:T45	
+T78	QUALITY 904 914	integrated
+R22	Attribute Arg1:T57 Arg2:T78	
+T79	QUALITY 1117 1126	prototype
+R23	Attribute Arg1:T66 Arg2:T79	
+R24	Apply-to Arg1:T2 Arg2:T4	
+R25	Apply-to Arg1:T1 Arg2:T4	
+R26	Apply-to Arg1:T3 Arg2:T4	
+R27	Input Arg1:T7 Arg2:T6	
+R28	Destination Arg1:T7 Arg2:T8	
+R29	Attribute Arg1:T12 Arg2:T11	
+R30	Is-a Arg1:T7 Arg2:T11	
+R31	Attribute Arg1:T16 Arg2:T17	
+R32	Attribute Arg1:T19 Arg2:T18	
+R33	Attribute Arg1:T16 Arg2:T14	
+R34	Attribute Arg1:T17 Arg2:T15	
+R35	Condition Arg1:T20 Arg2:T21	
+R36	Target Arg1:T20 Arg2:T14	
+R37	Target Arg1:T20 Arg2:T17	
+R38	Destination Arg1:T24 Arg2:T25	
+R39	Target Arg1:T24 Arg2:T22	
+R40	Attribute Arg1:T25 Arg2:T26	
+R41	Attribute Arg1:T25 Arg2:T27	
+R42	Attribute Arg1:T30 Arg2:T29	
+R43	Target Arg1:T28 Arg2:T30	
+R44	Target Arg1:T32 Arg2:T30	
+R45	Result Arg1:T24 Arg2:T32	
+R46	Attribute Arg1:T37 Arg2:T36	
+R47	In_Out Arg1:T35 Arg2:T37	
+R48	Condition Arg1:T37 Arg2:T38	
+R49	Apply-to Arg1:T74 Arg2:T40	
+R50	Input Arg1:T40 Arg2:T41	
+R51	Input Arg1:T40 Arg2:T42	
+R52	Apply-to Arg1:T40 Arg2:T43	
+R53	Output Arg1:T43 Arg2:T46	
+R54	Apply-to Arg1:T47 Arg2:T48	
+R55	Output Arg1:T48 Arg2:T49	
+R56	Apply-to Arg1:T48 Arg2:T51	
+R57	Output Arg1:T51 Arg2:T52	
+R58	Is-a Arg1:T56 Arg2:T53	
+R59	Is-a Arg1:T55 Arg2:T53	
+R60	Output Arg1:T48 Arg2:T53	
+R61	Output Arg1:T55 Arg2:T54	
+R62	Apply-to Arg1:T57 Arg2:T60	
+R63	Apply-to Arg1:T57 Arg2:T58	
+R64	Apply-to Arg1:T57 Arg2:T59	
+R65	Output Arg1:T61 Arg2:T77	
+T80	APPLY-TO 991 1006	on the basis of
+R66	from Arg1:T80 Arg2:T62	
+R67	to Arg1:T80 Arg2:T61	
+R68	In_Out Arg1:T62 Arg2:T63	
+R70	Output Arg1:T64 Arg2:T66	
+R71	Attribute Arg1:T68 Arg2:T67	
+R72	Apply-to Arg1:T66 Arg2:T68	
+R69	Output Arg1:T64 Arg2:T77	
+T34	REFERENCE 496 506	this paper
+T69	PERSON 507 509	we
+T73	PERSON 676 678	We
+T75	PROCESS 679 690	demonstrate
+T81	PERSON 883 885	We
+T82	PROCESS 891 900	introduce
+T83	PROCESS 510 515	focus
+R73	Condition Arg1:T83 Arg2:T34	
+R74	Agent Arg1:T83 Arg2:T69	
+R75	Target Arg1:T83 Arg2:T35	
+R76	Target Arg1:T83 Arg2:T36	
+R77	Agent Arg1:T75 Arg2:T73	
+R78	Output Arg1:T75 Arg2:T47	
+R79	Agent Arg1:T82 Arg2:T81	
+R80	Output Arg1:T82 Arg2:T57	

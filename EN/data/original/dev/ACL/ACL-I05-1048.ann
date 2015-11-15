@@ -1,0 +1,131 @@
+R1	Apply-to Arg1:T1 Arg2:T2
+A1	Self T58
+R2	Condition Arg1:T59 Arg2:T58
+R3	Output Arg1:T59 Arg2:T3
+R4	Coreference Arg1:T4 Arg2:T3
+R5	Apply-to Arg1:T4 Arg2:T5
+R6	Output Arg1:T5 Arg2:T60
+R7	Output Arg1:T5 Arg2:T6
+R8	Apply-to Arg1:T5 Arg2:T7
+R9	Attribute Arg1:T9 Arg2:T8
+R10	Target Arg1:T7 Arg2:T9
+R11	Condition Arg1:T9 Arg2:T10
+R12	Input Arg1:T12 Arg2:T13
+R13	Target Arg1:T12 Arg2:T11
+R14	Output Arg1:T14 Arg2:T11
+R15	Apply-to Arg1:T14 Arg2:T15
+R16	In_Out Arg1:T15 Arg2:T16
+R17	Component-object Arg1:T18 Arg2:T17
+R18	Output Arg1:T19 Arg2:T20
+R19	Destination Arg1:T19 Arg2:T17
+R20	Apply-to Arg1:T21 Arg2:T19
+R21	Output Arg1:T24 Arg2:T23
+R22	Output Arg1:T24 Arg2:T22
+R23	to Arg1:T25 Arg2:T26
+R24	from Arg1:T25 Arg2:T24
+R25	Target Arg1:T28 Arg2:T29
+R26	Apply-to Arg1:T27 Arg2:T28
+R27	Is-a Arg1:T30 Arg2:T29
+R28	Attribute Arg1:T34 Arg2:T33
+R29	Is-a Arg1:T31 Arg2:T29
+R30	Is-a Arg1:T32 Arg2:T29
+R31	Condition Arg1:T32 Arg2:T34
+R32	Condition Arg1:T31 Arg2:T34
+R33	Condition Arg1:T30 Arg2:T34
+R34	Attribute Arg1:T36 Arg2:T35
+R35	Attribute Arg1:T38 Arg2:T39
+R36	Attribute Arg1:T41 Arg2:T40
+R37	Compare Arg1:T41 Arg2:T39
+R38	Attribute Arg1:T44 Arg2:T43
+R39	Input Arg1:T42 Arg2:T44
+R40	Apply-to Arg1:T41 Arg2:T42
+R41	to Arg1:T37 Arg2:T39
+R42	from Arg1:T37 Arg2:T36
+A2	Self T45
+R43	Poss Arg1:T45 Arg2:T46
+R44	Attribute Arg1:T49 Arg2:T48
+R45	Attribute Arg1:T49 Arg2:T47
+R46	Attribute Arg1:T51 Arg2:T50
+R47	Destination Arg1:T49 Arg2:T51
+R48	Output Arg1:T49 Arg2:T46
+R49	Is-a Arg1:T46 Arg2:T52
+R50	Component-object Arg1:T51 Arg2:T52
+R51	Attribute Arg1:T55 Arg2:T54
+R53	to Arg1:T53 Arg2:T55
+R54	from Arg1:T53 Arg2:T52
+R52	In_Out Arg1:T55 Arg2:T56
+R55	Attribute Arg1:T51 Arg2:T56
+A3	Judgment T39
+A4	Name T57
+A5	Name T62
+A6	Name T64
+A7	Name T61
+A8	Name T63
+R56	Attribute Arg1:T65 Arg2:T66
+R57	Output Arg1:T30 Arg2:T65
+T1	PLAN 2 37	Lexicon-Constrained Character Model
+T2	PLAN-OR-PROCESS 42 72	Chinese Morphological Analysis :OFF: 0 : Chinese Morphological Analysis  : Chinese Morphological Analysis 
+T57	LANGUAGE 42 49	Chinese
+T58	REFERENCE 75 85	This paper
+T59	PROCESS 86 94	proposes
+T3	PLAN 97 132	lexicon-constrained character model
+T4	REFERENCE 133 137	that
+T5	PROCESS 138 146	combines
+T60	DATA-ITEM 152 156	word
+T6	DATA-ITEM 161 179	character features
+T7	PROCESS 183 188	solve
+T8	QUALITY 189 200	complicated
+T9	PLAN-OR-PROCESS 201 207	issues
+T10	PLAN-OR-PROCESS 211 241	Chinese morphological analysis
+T61	LANGUAGE 211 218	Chinese
+T11	PLAN 246 275	Chinese character-based model
+T62	LANGUAGE 246 253	Chinese
+T12	PROCESS 276 287	constrained
+T13	DATA-ITEM 293 300	lexicon
+T14	PROCESS 304 309	built
+T15	PROCESS 313 320	acquire
+T16	PLAN 321 340	word building rules
+T17	DATA-ITEM 348 357	character
+T18	DATA-ITEM 363 379	Chinese sentence
+T63	LANGUAGE 363 370	Chinese
+T19	PROCESS 383 391	assigned
+T20	DATA-ITEM 394 397	tag
+T21	PLAN 405 419	proposed model
+T22	DATA-ITEM 426 443	word segmentation
+T23	DATA-ITEM 448 478	part-of-speech tagging results
+T24	PROCESS 488 497	generated
+T25	INPUT 498 506	based on
+T26	DATA-ITEM 511 525	character tags
+T27	PLAN 532 547	proposed method
+T28	PROCESS 548 554	solves
+T29	PLAN 555 568	such problems
+T66	QUALITY 572 579	unknown
+T65	DATA-ITEM 580 584	word
+T30	PLAN 585 599	identification
+T31	PLAN 602 617	data sparseness
+T32	PLAN 624 639	estimation bias
+T33	QUALITY 646 656	integrated
+T34	PLAN 659 676	unified framework
+T35	QUALITY 679 690	Preliminary
+T36	PLAN 691 702	experiments
+T37	RESULT 703 711	indicate
+T38	PLAN 721 736	proposed method
+T39	QUALITY 737 748	outperforms
+T40	QUALITY 753 757	best
+T41	PLAN 758 790	SIGHAN word segmentation systems
+T42	PLAN 798 808	open track
+T43	QUANTITY 812 826	3 out of the 4
+T44	DATA-ITEM 827 839	test corpora
+T45	PERSON 857 860	our
+T46	PLAN 861 867	method
+T47	MODALITY 868 871	can
+T48	QUALITY 875 887	conveniently
+T49	PROCESS 888 898	integrated
+T50	QUALITY 908 913	other
+T51	PLAN 914 943	Chinese morphological systems
+T64	LANGUAGE 914 921	Chinese
+T52	PLAN 949 971	post-processing module
+T53	APPLY-TO 972 979	leading
+T54	QUALITY 983 994	significant
+T55	PROCESS 995 1006	improvement
+T56	DATA-ITEM 1010 1021	performance

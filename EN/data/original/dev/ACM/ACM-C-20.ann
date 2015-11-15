@@ -1,0 +1,136 @@
+T1	PLAN 0 26	Live Data Center Migration
+T2	PLAN 34 38	WANs
+T3	QUALITY 42 48	Robust
+T4	PLAN 49 83	Cooperative Context Aware Approach
+T5	QUALITY 86 97	significant
+T6	ORGANIZATION 110 142	Internet-based service providers
+T7	QUALITY 150 159	continued
+T8	PLAN-OR-PROCESS 160 169	operation
+T9	DATA-ITEM 174 186	availability
+T10	PLAN-OR-PROCESS 190 198	services
+T11	OCCURENT 214 221	outages
+T13	PROCESS 231 238	planned
+T14	PROCESS 242 251	unplanned
+T15	REFERENCE 256 266	this paper
+T16	PERSON 267 269	we
+T17	PROCESS 270 278	advocate
+T18	QUALITY 281 292	cooperative
+T19	PLAN 294 316	context-aware approach
+T20	PLAN-OR-PROCESS 320 341	data center migration
+T21	PLAN 349 353	WANs
+T22	PROCESS 357 366	deal with
+T23	OCCURENT 367 374	outages
+T24	QUALITY 380 401	non-disruptive manner
+T25	PERSON 403 405	We
+T26	QUALITY 406 418	specifically
+T27	PROCESS 419 423	seek
+T28	PROCESS 427 434	achieve
+T29	QUALITY 435 439	high
+T30	DATA-ITEM 440 452	availability
+T31	PLAN-OR-PROCESS 456 476	data center services
+T32	OCCURENT 523 530	outages
+T33	ARTIFACT 534 556	data center facilities
+T34	PERSON 558 560	We
+T35	PROCESS 561 569	make use
+T37	PLAN 573 607	server virtualization technologies
+T38	PROCESS 611 617	enable
+T39	PLAN-OR-PROCESS 622 633	replication
+T40	PLAN-OR-PROCESS 638 647	migration
+T41	PLAN 651 667	server functions
+T42	PERSON 669 671	We
+T43	PROCESS 672 679	propose
+T44	QUALITY 680 683	new
+T45	PLAN 684 701	network functions
+T46	PROCESS 705 711	enable
+T47	PLAN-OR-PROCESS 712 728	server migration
+T48	PLAN-OR-PROCESS 733 744	replication
+T49	PLAN 752 770	wide area networks
+T50	PLAN 782 790	Internet
+T51	QUALITY 797 804	finally
+T52	PROCESS 805 809	show
+T53	QUALITY 814 821	utility
+T54	QUALITY 825 836	intelligent
+T55	PLAN 849 879	storage replication technology
+T56	PROCESS 883 889	ensure
+T57	PLAN 890 902	applications
+T58	PROCESS 903 914	have access
+T59	DATA-ITEM 918 922	data
+T60	OCCURENT 938 945	outages
+T61	QUALITY 951 961	very tight
+T62	DATA-ITEM 962 987	recovery point objectives
+R1	Attribute Arg1:T4 Arg2:T3	
+R2	Condition Arg1:T1 Arg2:T2	
+T63	THING 98 105	concern
+R3	Attribute Arg1:T6 Arg2:T63	
+R4	Attribute Arg1:T63 Arg2:T5	
+R5	Attribute Arg1:T8 Arg2:T7	
+R6	Attribute Arg1:T10 Arg2:T9	
+R7	Condition Arg1:T9 Arg2:T11	
+R8	Condition Arg1:T8 Arg2:T11	
+R9	Component-object Arg1:T8 Arg2:T10	
+R10	Is-a Arg1:T8 Arg2:T63	
+R11	Is-a Arg1:T9 Arg2:T63	
+R12	Output Arg1:T13 Arg2:T11	
+R13	Output Arg1:T14 Arg2:T11	
+A1	Self T15
+A2	Self T16
+A3	Intentional T17
+R14	Attribute Arg1:T19 Arg2:T18	
+R15	Output Arg1:T17 Arg2:T19	
+R16	Apply-to Arg1:T19 Arg2:T20	
+R17	Condition Arg1:T20 Arg2:T21	
+R18	Target Arg1:T22 Arg2:T23	
+R19	Attribute Arg1:T22 Arg2:T24	
+R20	Apply-to Arg1:T19 Arg2:T22	
+R21	Agent Arg1:T17 Arg2:T16	
+R22	Condition Arg1:T17 Arg2:T15	
+A4	Self T25
+A5	Intentional T27
+R23	Attribute Arg1:T27 Arg2:T26	
+R24	Agent Arg1:T27 Arg2:T25	
+R25	Attribute Arg1:T30 Arg2:T29	
+R26	Attribute Arg1:T31 Arg2:T30	
+R27	Output Arg1:T28 Arg2:T30	
+R28	Apply-to Arg1:T27 Arg2:T28	
+T12	QUALITY 509 522	unanticipated
+T64	QUALITY 497 504	planned
+R29	Attribute Arg1:T32 Arg2:T12	
+R30	Attribute Arg1:T32 Arg2:T64	
+R31	Condition Arg1:T31 Arg2:T32	
+R32	Condition Arg1:T32 Arg2:T33	
+A6	Self T34
+A7	Intentional T35
+R33	Agent Arg1:T35 Arg2:T34	
+R34	Input Arg1:T35 Arg2:T37	
+R35	Apply-to Arg1:T35 Arg2:T38	
+R36	Target Arg1:T40 Arg2:T41	
+R37	In_Out Arg1:T39 Arg2:T41	
+R38	Output Arg1:T38 Arg2:T39	
+R39	Output Arg1:T38 Arg2:T40	
+A8	Self T42
+A9	Intentional T43
+R40	Agent Arg1:T43 Arg2:T42	
+R41	Attribute Arg1:T45 Arg2:T44	
+R42	Output Arg1:T43 Arg2:T45	
+R43	Apply-to Arg1:T45 Arg2:T46	
+R44	Output Arg1:T46 Arg2:T47	
+R45	Output Arg1:T46 Arg2:T48	
+R46	Condition Arg1:T48 Arg2:T49	
+R47	Condition Arg1:T47 Arg2:T49	
+R48	Is-a Arg1:T50 Arg2:T49	
+R49	Attribute Arg1:T52 Arg2:T51	
+A10	Intentional T52
+R50	Agent Arg1:T52 Arg2:T42	
+A11	Judgment T53
+T36	QUALITY 841 848	dynamic
+R51	Attribute Arg1:T55 Arg2:T36	
+R52	Attribute Arg1:T55 Arg2:T54	
+R53	Attribute Arg1:T55 Arg2:T53	
+R54	Output Arg1:T52 Arg2:T53	
+R55	Apply-to Arg1:T55 Arg2:T56	
+R57	Attribute Arg1:T62 Arg2:T61	
+R58	Target Arg1:T58 Arg2:T59	
+R60	Condition Arg1:T58 Arg2:T60	
+R61	Apply-to Arg1:T57 Arg2:T58	
+R56	Target Arg1:T56 Arg2:T57	
+R59	Attribute Arg1:T59 Arg2:T62	

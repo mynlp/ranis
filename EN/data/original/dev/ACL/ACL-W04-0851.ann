@@ -1,0 +1,64 @@
+R1	Apply-to Arg1:T1 Arg2:T2
+A1	Self T31
+R2	Condition Arg1:T32 Arg2:T31
+R3	Output Arg1:T32 Arg2:T3
+R4	Output Arg1:T32 Arg2:T4
+R5	Target Arg1:T6 Arg2:T7
+R6	Apply-to Arg1:T5 Arg2:T6
+R7	Coreference Arg1:T5 Arg2:T4
+R8	Coreference Arg1:T5 Arg2:T3
+R9	Is-a Arg1:T3 Arg2:T8
+R10	Is-a Arg1:T4 Arg2:T8
+R11	Equivalence Arg1:T11 Arg2:T10
+R13	from Arg1:T9 Arg2:T10
+R14	to Arg1:T9 Arg2:T8
+A2	Self T13
+A3	Intentional T14
+R15	Agent Arg1:T14 Arg2:T13
+R16	Output Arg1:T14 Arg2:T15
+R17	In_Out Arg1:T16 Arg2:T17
+R18	Coreference Arg1:T17 Arg2:T10
+R19	Attribute Arg1:T16 Arg2:T15
+A4	Self T18
+A5	Intentional T19
+R20	Agent Arg1:T19 Arg2:T18
+R21	Input Arg1:T19 Arg2:T20
+R22	Apply-to Arg1:T19 Arg2:T22
+R23	Coreference Arg1:T20 Arg2:T17
+A6	Self T24
+R24	Agent Arg1:T25 Arg2:T24
+R25	Output Arg1:T25 Arg2:T23
+R29	Output Arg1:T14 Arg2:T19
+R30	Output Arg1:T14 Arg2:T23
+R31	Input Arg1:T25 Arg2:T26
+R32	Input Arg1:T25 Arg2:T27
+R33	Input Arg1:T25 Arg2:T28
+T1	PLAN-OR-PROCESS 0 40	Regularized Least-Squares Classification
+T2	PLAN-OR-PROCESS 45 70	Word Sense Disambiguation
+T31	REFERENCE 73 82	The paper
+T32	PROCESS 83 92	describes
+T3	PLAN 93 101	RLSC-LIN
+T4	PLAN 106 122	RLSCCOMB systems
+T5	REFERENCE 123 128	which
+T6	PROCESS 129 141	participated
+T7	PLAN 149 187	Senseval-3 English lexical sample task
+T8	PLAN 190 203	These systems
+T9	APPLY-TO 208 216	based on
+T10	PLAN 217 257;267 282	Regularized Least-Squares Classification learning method
+T11	PLAN 260 264	RLSC
+T13	PERSON 285 287	We
+T14	PROCESS 288 296	describe
+T15	PLAN 301 308	reasons
+T16	PROCESS 312 320	choosing
+T17	REFERENCE 321 332	this method
+T18	PERSON 339 341	we
+T19	PROCESS 342 349	applied
+T20	REFERENCE 350 352	it
+T22	PLAN-OR-PROCESS 356 381	word sense disambiguation
+T23	DATA-ITEM 389 396	results
+T24	PERSON 397 399	we
+T25	PROCESS 400 408	obtained
+T26	DATA-ITEM 412 422	Senseval-1
+T27	DATA-ITEM 425 435	Senseval-2
+T28	DATA-ITEM 440 455	Senseval-3 data
+T21	OUT-OF-SCOPE 460 494	discuss some possible improvements

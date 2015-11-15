@@ -1,0 +1,9 @@
+Paraphrasing with Search Engine Query Logs
+
+This paper proposes a method that extracts paraphrases from search engine query logs.
+The method first extracts paraphrase query-title pairs based on an assumption that a search query and its corresponding clicked document titles may mean the same thing.
+It then extracts paraphrase query-query and title-title pairs from the query-title paraphrases with a pivot approach.
+Paraphrases extracted in each step are validated with a binary classifier.
+We evaluate the method using a query log from Baidu1, a Chinese search engine.
+Experimental results show that the proposed method is effective, which extracts more than 3.5 million pairs of paraphrases with a precision of over 70%.
+The results also show that the extracted paraphrases can be used to generate high-quality paraphrase patterns.

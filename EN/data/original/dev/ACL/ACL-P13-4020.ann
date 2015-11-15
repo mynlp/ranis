@@ -1,0 +1,209 @@
+T1	PROCESS 16 24	Analysis
+T2	PLAN 28 41	NLP Pipelines
+T3	PLAN 45 49	Argo
+T4	PROCESS 51 61	Developing
+T5	QUALITY 62 75	sophisticated
+T6	PLAN 76 89	NLP pipelines
+T7	COMPONENT-OBJECT 90 98	composed
+T8	QUANTITY 102 110	multiple
+T9	PLAN 111 127	processing tools
+T10	PLAN 132 142	components
+T11	QUALITY 143 152	available
+T12	QUALITY 161 170	different
+T13	ORGANIZATION 171 180	providers
+T14	MODALITY 181 184	may
+T15	PROCESS 185 189	pose
+T16	THING 192 201	challenge
+T17	REFERENCE 214 219	their
+T18	QUALITY 220 236	interoperability
+T19	PLAN 242 290	Unstructured Information Management Architecture
+T20	PLAN 292 296	UIMA
+T21	PLAN 304 321	industry standard
+T22	PROCESS 338 344	ensure
+T23	QUALITY 345 366	such interoperability
+T24	PROCESS 370 378	defining
+T25	DATA-ITEM 386 401	data structures
+T26	DATA-ITEM 406 416	interfaces
+T27	PLAN 422 434	architecture
+T28	PROCESS 444 451	gaining
+T29	ORGANIZATION 467 475	industry
+T30	RESULT 496 505	resulting
+T31	QUANTITY 511 523	large volume
+T32	PLAN 527 563	UIMA-compliant processing components
+T33	REFERENCE 568 578	this paper
+T34	PERSON 580 582	we
+T35	PROCESS 583 594	demonstrate
+T36	PLAN 603 622	Web-based workbench
+T37	PROCESS 647 657	processing
+T38	PLAN 661 684	NLP pipelines/workflows
+T39	PLAN 690 699	workbench
+T40	APPLY-TO 703 708	based
+T41	PLAN 714 718	UIMA
+T42	QUALITY 737 746	potential
+T43	PROCESS 750 755	using
+T44	PLAN 756 760	many
+T45	QUALITY 768 776	existing
+T46	PLAN 777 791	UIMA resources
+T47	PERSON 793 795	We
+T48	PROCESS 796 803	present
+T49	DATA-ITEM 804 812	features
+T50	PROCESS 818 822	show
+T51	DATA-ITEM 823 831	examples
+T52	PROCESS 836 848	facilitating
+T53	PROCESS 865 876	development
+T54	PLAN 880 890	components
+T55	PLAN-OR-PROCESS 899 907	analysis
+T57	DATA-ITEM 911 929	processing results
+T58	PLAN 951 973	annotation visualisers
+T59	PLAN 978 985	editors
+T60	PLAN 998 1011	serialisation
+T61	PLAN 1015 1025	RDF format
+T62	REFERENCE 1027 1032	which
+T63	PROCESS 1033 1040	enables
+T64	QUALITY 1041 1049	flexible
+T65	PROCESS 1050 1058	querying
+T66	PLAN-OR-PROCESS 1074 1091	data manipulation
+T67	PLAN 1106 1129	semantic query language
+T68	DATA-ITEM 1154 1173	development feature
+T69	PROCESS 1174 1180	allows
+T70	PERSON 1181 1186	users
+T71	QUALITY 1190 1200	seamlessly
+T72	PROCESS 1201 1208	connect
+T73	REFERENCE 1209 1214	their
+T74	PLAN 1215 1220	tools
+T75	PLAN 1224 1233	workflows
+T76	PROCESS 1234 1241	running
+T77	PROCESS 1260 1277	take advantage of
+T78	QUALITY 1287 1296	available
+T79	PLAN 1297 1304	library
+T80	PLAN 1308 1318	components
+T81	MODALITY 1320 1327	without
+T82	QUALITY 1332 1336	need
+T83	PROCESS 1340 1350	installing
+T84	REFERENCE 1351 1355	them
+T85	QUALITY 1356 1363	locally
+T86	PLAN 1373 1389	analytical tools
+T87	PROCESS 0 11	Development
+R1	In_Out Arg1:T1 Arg2:T2	
+R2	Output Arg1:T87 Arg2:T2	
+R3	Attribute Arg1:T6 Arg2:T5	
+R4	Output Arg1:T4 Arg2:T6	
+R5	Attribute Arg1:T9 Arg2:T8	
+R6	Attribute Arg1:T10 Arg2:T8	
+R7	from Arg1:T7 Arg2:T6	
+R8	to Arg1:T7 Arg2:T9	
+R9	to Arg1:T7 Arg2:T10	
+R10	Attribute Arg1:T13 Arg2:T12	
+R11	Attribute Arg1:T6 Arg2:T11	
+A1	Judgment T5
+R12	Condition Arg1:T11 Arg2:T13	
+R13	Output Arg1:T15 Arg2:T16	
+R14	Attribute Arg1:T15 Arg2:T14	
+R15	Result Arg1:T4 Arg2:T15	
+R16	Coreference Arg1:T17 Arg2:T6	
+R17	Attribute Arg1:T17 Arg2:T18	
+T88	CONDITION 202 213	in terms of
+R19	from Arg1:T88 Arg2:T16	
+R20	to Arg1:T88 Arg2:T17	
+R18	Equivalence Arg1:T20 Arg2:T19	
+T89	REFERENCE 322 327	whose
+T90	PLAN 328 331	aim
+R21	Attribute Arg1:T89 Arg2:T90	
+R22	Is-a Arg1:T20 Arg2:T21	
+R23	Coreference Arg1:T89 Arg2:T21	
+R24	Other-rel Arg1:T22 Arg2:T90	
+R25	Coreference Arg1:T23 Arg2:T18	
+R26	Target Arg1:T22 Arg2:T23	
+T91	QUALITY 379 385	common
+R27	Attribute Arg1:T25 Arg2:T91	
+R28	Attribute Arg1:T26 Arg2:T91	
+R29	Output Arg1:T24 Arg2:T26	
+R30	Apply-to Arg1:T24 Arg2:T22	
+T92	OCCURENT 452 461	attention
+R31	In_Out Arg1:T28 Arg2:T92	
+R32	Condition Arg1:T92 Arg2:T29	
+R33	Agent Arg1:T28 Arg2:T27	
+T93	ORGANIZATION 480 488	academia
+R34	Condition Arg1:T92 Arg2:T93	
+R35	Attribute Arg1:T32 Arg2:T31	
+R36	to Arg1:T30 Arg2:T31	
+R37	from Arg1:T30 Arg2:T28	
+A2	Self T33
+A3	Self T34
+T94	PLAN 595 599	Argo
+R38	Output Arg1:T35 Arg2:T94	
+A4	Intentional T35
+R39	Agent Arg1:T35 Arg2:T34	
+R40	Condition Arg1:T35 Arg2:T33	
+R41	Is-a Arg1:T94 Arg2:T36	
+T95	PROCESS 631 642	development
+R42	Apply-to Arg1:T36 Arg2:T95	
+R43	Apply-to Arg1:T36 Arg2:T37	
+R44	Output Arg1:T95 Arg2:T38	
+R45	Output Arg1:T37 Arg2:T38	
+R46	from Arg1:T40 Arg2:T41	
+R47	to Arg1:T40 Arg2:T39	
+R48	Attribute Arg1:T46 Arg2:T45	
+R49	Member-collection Arg1:T44 Arg2:T46	
+R50	Input Arg1:T43 Arg2:T44	
+R51	Condition Arg1:T42 Arg2:T43	
+R52	Attribute Arg1:T39 Arg2:T42	
+A5	Self T47
+A6	Intentional T48
+R53	Agent Arg1:T48 Arg2:T47	
+R54	Output Arg1:T48 Arg2:T49	
+A7	Intentional T50
+R55	Agent Arg1:T50 Arg2:T47	
+R56	Output Arg1:T50 Arg2:T51	
+T96	QUALITY 853 864	distributed
+R57	Attribute Arg1:T53 Arg2:T96	
+R58	Target Arg1:T52 Arg2:T53	
+R59	Output Arg1:T53 Arg2:T54	
+R60	Agent Arg1:T52 Arg2:T51	
+R61	Target Arg1:T52 Arg2:T55	
+R62	Input Arg1:T55 Arg2:T57	
+T56	REFERENCE 931 941	The latter
+R63	Coreference Arg1:T56 Arg2:T51	
+T97	MEMBER-COLLECTION 942 950	includes
+R64	from Arg1:T97 Arg2:T58	
+R65	from Arg1:T97 Arg2:T59	
+R66	to Arg1:T97 Arg2:T56	
+R67	Output Arg1:T60 Arg2:T61	
+R68	from Arg1:T97 Arg2:T60	
+R69	Agent Arg1:T52 Arg2:T49	
+R70	Attribute Arg1:T65 Arg2:T64	
+R71	Target Arg1:T63 Arg2:T65	
+R72	Apply-to Arg1:T62 Arg2:T63	
+R73	Coreference Arg1:T62 Arg2:T61	
+T98	PLAN 1130 1136	SPARQL
+R74	Is-a Arg1:T98 Arg2:T67	
+R75	Attribute Arg1:T66 Arg2:T64	
+R76	Target Arg1:T63 Arg2:T66	
+T99	APPLY-TO 1092 1101	thanks to
+R77	from Arg1:T99 Arg2:T98	
+R78	to Arg1:T99 Arg2:T63	
+T100	QUALITY 1142 1153	distributed
+R79	Attribute Arg1:T68 Arg2:T100	
+R80	Agent Arg1:T69 Arg2:T68	
+R81	Target Arg1:T69 Arg2:T72	
+R82	Agent Arg1:T72 Arg2:T70	
+R83	Attribute Arg1:T72 Arg2:T71	
+R84	Coreference Arg1:T73 Arg2:T70	
+R85	Poss Arg1:T73 Arg2:T74	
+R86	Target Arg1:T72 Arg2:T74	
+R87	Destination Arg1:T72 Arg2:T75	
+R88	Target Arg1:T76 Arg2:T75	
+T101	PLAN 1245 1249	Argo
+R89	Component-object Arg1:T3 Arg2:T2	
+R90	Component-object Arg1:T101 Arg2:T75	
+R91	Member-collection Arg1:T80 Arg2:T79	
+R92	Attribute Arg1:T79 Arg2:T78	
+R93	Coreference Arg1:T84 Arg2:T79	
+R94	Output Arg1:T83 Arg2:T84	
+R95	Attribute Arg1:T83 Arg2:T85	
+R96	Attribute Arg1:T83 Arg2:T82	
+R97	Attribute Arg1:T82 Arg2:T81	
+R98	Agent Arg1:T77 Arg2:T70	
+R99	Target Arg1:T77 Arg2:T79	
+R100	Target Arg1:T77 Arg2:T86	
+R101	Condition Arg1:T77 Arg2:T83	

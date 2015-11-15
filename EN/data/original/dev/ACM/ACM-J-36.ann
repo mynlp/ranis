@@ -1,0 +1,291 @@
+T1	PROCESS 0 7	Playing
+T2	PLAN 8 13	Games
+T3	THING 31 37	Worlds
+T4	QUANTITY 17 21	Many
+T5	PLAN 53 64	game theory
+T6	INTELLIGENT-AGENT 66 73	players
+T7	PROCESS 88 95	endowed
+T8	QUALITY 41 52	traditional
+T9	DATA-ITEM 119 128	knowledge
+T10	QUALITY 136 145	structure
+T11	PLAN 153 157	game
+T12	QUALITY 165 180	full omniscient
+T13	DATA-ITEM 181 190	knowledge
+T14	QUALITY 194 201	partial
+T15	QUALITY 206 211	fixed
+T16	DATA-ITEM 212 223	information
+T17	THING 228 237	real life
+T18	PERSON 248 254	people
+T19	QUALITY 265 272	unaware
+T20	QUALITY 259 264	often
+T21	QUALITY 280 287	utility
+T22	PROCESS 291 297	taking
+T23	PLAN-OR-PROCESS 311 317	action
+T24	REFERENCE 324 328	they
+T25	PROCESS 329 336	perform
+T26	PLAN-OR-PROCESS 337 345	research
+T27	THING 355 367	consequences
+T30	PROCESS 413 420	imagine
+T31	PERSON 423 429	player
+T32	PROCESS 430 437	engaged
+T33	PLAN-OR-PROCESS 443 469	questionand-answer session
+T34	PROCESS 471 477	asking
+T35	DATA-ITEM 478 487	questions
+T36	DATA-ITEM 506 525	her own preferences
+T37	DATA-ITEM 499 502;510 525	his own preferences
+T38	QUALITY 540 545	state
+T39	THING 549 556	reality
+T40	THING 584 604	Socratic game theory
+T41	PROCESS 566 570	call
+T42	PLAN 611 624	Socratic game
+T43	INTELLIGENT-AGENT 626 633	players
+T44	PROCESS 634 639	begin
+T45	DATA-ITEM 657 681	probability distribution
+T46	QUANTITY 687 691	many
+T47	QUALITY 692 700	possible
+T48	THING 701 707	worlds
+T49	QUALITY 22 30	Possible
+T50	QUALITY 78 87	typically
+T51	QUALITY 716 725	different
+T52	PLAN 726 742	utility function
+T53	THING 752 757	world
+T54	INTELLIGENT-AGENT 759 766	Players
+T55	MODALITY 767 770	can
+T56	PROCESS 771 775	make
+T57	DATA-ITEM 776 783	queries
+T58	DATA-ITEM 793 797	cost
+T59	QUANTITY 788 792	some
+T60	PROCESS 802 807	learn
+T61	DATA-ITEM 816 827	information
+T62	QUALITY 808 815	partial
+T63	THING 856 862	worlds
+T64	QUALITY 847 855	possible
+T65	THING 877 882	world
+T66	PROCESS 891 899	choosing
+T67	OCCURENT 903 909	action
+T68	TIME 884 890	before
+T69	PLAN 927 939	query models
+T70	QUANTITY 923 926	two
+T71	PLAN 948 972	unobservable-query model
+T72	INTELLIGENT-AGENT 983 990	players
+T73	PROCESS 991 996	learn
+T74	DATA-ITEM 1006 1014	response
+T75	DATA-ITEM 1028 1035	queries
+T76	QUALITY 997 1001	only
+T77	PLAN 1048 1070	observable-query model
+T78	INTELLIGENT-AGENT 1081 1088	players
+T79	PROCESS 1094 1099	learn
+T80	INTELLIGENT-AGENT 1120 1129	opponents
+T81	DATA-ITEM 1106 1113	queries
+T82	PROCESS 1130 1134	made
+T83	DATA-ITEM 1140 1147	results
+T84	PLAN 1171 1176	cases
+T85	THING 1190 1207	underlying worlds
+T86	PLAN 1213 1237	two-player Socratic game
+T87	PLAN 1249 1267	constant-sum games
+T88	PLAN 1271 1299	strategically zero-sum games
+T89	PLAN 1303 1308	class
+T90	PROCESS 1314 1325	generalizes
+T91	PLAN 1326 1344	constant-sum games
+T92	IS-A 1348 1355	include
+T93	PLAN 1360 1365	games
+T94	QUANTITY 1356 1359	all
+T95	DATA-ITEM 1379 1382	sum
+T96	DATA-ITEM 1386 1393	payoffs
+T97	RESULT 1394 1401	depends
+T98	QUALITY 1402 1410	linearly
+T99	PROCESS 1418 1429	interaction
+T100	INTELLIGENT-AGENT 1442 1449	players
+T101	THING 1471 1477	worlds
+T102	QUALITY 1482 1494	constant sum
+T104	PROCESS 1499 1503	give
+T105	PLAN 1520 1530	algorithms
+T106	PLAN 1539 1554	Nash equilibria
+T107	PROCESS 1534 1538	find
+T108	PLAN 1567 1577;1596 1608	observable query models
+T109	PLAN 1583 1608	unobservable-query models
+T110	THING 1619 1625	worlds
+T111	QUALITY 1630 1652	strategically zero sum
+T112	PROCESS 1657 1661	give
+T113	QUALITY 1662 1671	efficient
+T114	PLAN 1672 1682	algorithms
+T115	PROCESS 1686 1690	find
+T116	PLAN 1691 1706	Nash equilibria
+T117	PLAN 1710 1743	unobservable-query Socratic games
+T118	PLAN 1773 1804	observable-query Socratic games
+T119	PLAN 1748 1769	correlated equilibria
+R1	Attribute Arg1:T3 Arg2:T4	
+R2	Attribute Arg1:T3 Arg2:T49	
+R3	Attribute Arg1:T5 Arg2:T8	
+R4	Attribute Arg1:T7 Arg2:T50	
+R5	Attribute Arg1:T13 Arg2:T12	
+R6	Attribute Arg1:T16 Arg2:T14	
+R7	Attribute Arg1:T16 Arg2:T15	
+R8	Attribute Arg1:T19 Arg2:T20	
+R9	Attribute Arg1:T48 Arg2:T46	
+R10	Attribute Arg1:T48 Arg2:T47	
+R11	Attribute Arg1:T52 Arg2:T51	
+R12	Attribute Arg1:T56 Arg2:T55	
+R13	Attribute Arg1:T58 Arg2:T59	
+R14	Attribute Arg1:T61 Arg2:T62	
+R15	Attribute Arg1:T63 Arg2:T64	
+R16	Attribute Arg1:T69 Arg2:T70	
+R17	Attribute Arg1:T74 Arg2:T76	
+R18	Attribute Arg1:T93 Arg2:T94	
+R19	Attribute Arg1:T97 Arg2:T98	
+T103	PERSON 1539 1543	Nash
+R21	Attribute Arg1:T114 Arg2:T113	
+T121	PERSON 1691 1695	Nash
+T122	PERSON 1729 1737	Socratic
+T123	PERSON 1790 1798	Socratic
+T124	REFERENCE 977 982	which
+R22	Coreference Arg1:T124 Arg2:T71	
+T125	REFERENCE 1075 1080	which
+R23	Coreference Arg1:T125 Arg2:T77	
+T128	REFERENCE 1180 1185	which
+R24	Coreference Arg1:T128 Arg2:T84	
+T129	REFERENCE 1369 1374	which
+R25	Coreference Arg1:T129 Arg2:T93	
+T130	QUALITY 300 310	particular
+R26	Attribute Arg1:T23 Arg2:T130	
+T131	REFERENCE 499 502	his
+T132	REFERENCE 506 509	her
+T133	QUALITY 648 656	a priori
+R27	Attribute Arg1:T45 Arg2:T133	
+T134	REFERENCE 1018 1027	their own
+R28	Coreference Arg1:T134 Arg2:T72	
+T135	REFERENCE 1114 1119	their
+R29	Coreference Arg1:T135 Arg2:T78	
+T120	PERSON 584 592	Socratic
+T136	PERSON 611 619	Socratic
+T137	PERSON 1224 1232	Socratic
+R20	Coreference Arg1:T24 Arg2:T18	
+T138	REFERENCE 351 354	its
+R30	Coreference Arg1:T138 Arg2:T23	
+T139	OCCURENT 393 408	this phenomenon
+R31	Coreference Arg1:T131 Arg2:T31	
+R32	Coreference Arg1:T132 Arg2:T31	
+T140	THING 571 583	this setting
+T143	REFERENCE 1309 1313	that
+R33	Coreference Arg1:T143 Arg2:T89	
+R34	Poss Arg1:T138 Arg2:T27	
+R35	Poss Arg1:T134 Arg2:T75	
+R36	Poss Arg1:T135 Arg2:T80	
+R37	Compare Arg1:T66 Arg2:T68	
+R38	Attribute Arg1:T56 Arg2:T68	
+R39	Attribute Arg1:T11 Arg2:T10	
+R40	Attribute Arg1:T101 Arg2:T102	
+R41	Attribute Arg1:T110 Arg2:T111	
+T145	QUALITY 1504 1519	polynomial-time
+R42	Attribute Arg1:T105 Arg2:T145	
+T146	QUALITY 101 118	exogenously given
+R43	Attribute Arg1:T9 Arg2:T146	
+R44	Attribute Arg1:T18 Arg2:T19	
+R45	Attribute Arg1:T22 Arg2:T21	
+T147	QUALITY 870 876	actual
+R46	Attribute Arg1:T65 Arg2:T147	
+R47	Target Arg1:T1 Arg2:T2	
+R48	Condition Arg1:T1 Arg2:T3	
+R49	Output Arg1:T7 Arg2:T9	
+R50	Destination Arg1:T7 Arg2:T6	
+R51	Condition Arg1:T7 Arg2:T5	
+R52	Condition Arg1:T9 Arg2:T10	
+R53	Is-a Arg1:T13 Arg2:T9	
+R54	Is-a Arg1:T16 Arg2:T9	
+R55	Condition Arg1:T19 Arg2:T21	
+R56	Output Arg1:T22 Arg2:T23	
+R57	Agent Arg1:T25 Arg2:T24	
+R58	Output Arg1:T25 Arg2:T26	
+R59	In_Out Arg1:T26 Arg2:T27	
+R60	Output Arg1:T32 Arg2:T33	
+R61	Agent Arg1:T32 Arg2:T31	
+R62	Output Arg1:T34 Arg2:T35	
+R63	Attribute Arg1:T39 Arg2:T38	
+R64	Condition Arg1:T35 Arg2:T36	
+R65	Condition Arg1:T35 Arg2:T37	
+R66	Condition Arg1:T35 Arg2:T38	
+R67	Agent Arg1:T34 Arg2:T31	
+R68	Target Arg1:T30 Arg2:T31	
+R69	Destination Arg1:T41 Arg2:T140	
+R70	Output Arg1:T41 Arg2:T40	
+R71	Agent Arg1:T44 Arg2:T43	
+R72	Origin Arg1:T44 Arg2:T45	
+R73	Condition Arg1:T44 Arg2:T42	
+T28	QUALITY 747 751	each
+R75	Attribute Arg1:T53 Arg2:T28	
+R76	Is-a Arg1:T53 Arg2:T48	
+R77	Condition Arg1:T45 Arg2:T48	
+R74	Condition Arg1:T52 Arg2:T53	
+R78	Origin Arg1:T44 Arg2:T52	
+R79	Agent Arg1:T56 Arg2:T54	
+R80	Apply-to Arg1:T56 Arg2:T60	
+R81	Agent Arg1:T60 Arg2:T54	
+R82	Output Arg1:T56 Arg2:T57	
+R83	Condition Arg1:T56 Arg2:T58	
+R84	In_Out Arg1:T60 Arg2:T61	
+R85	Agent Arg1:T66 Arg2:T54	
+R86	In_Out Arg1:T66 Arg2:T67	
+R87	Is-a Arg1:T63 Arg2:T65	
+R88	Is-a Arg1:T71 Arg2:T69	
+R89	Is-a Arg1:T77 Arg2:T69	
+R90	Agent Arg1:T73 Arg2:T72	
+R91	In_Out Arg1:T73 Arg2:T74	
+R92	Attribute Arg1:T75 Arg2:T74	
+R93	Condition Arg1:T73 Arg2:T124	
+R94	Agent Arg1:T79 Arg2:T78	
+R95	Agent Arg1:T82 Arg2:T80	
+R96	Output Arg1:T82 Arg2:T81	
+R97	In_Out Arg1:T79 Arg2:T81	
+R98	Attribute Arg1:T86 Arg2:T85	
+R99	Is-a Arg1:T85 Arg2:T87	
+R100	Is-a Arg1:T85 Arg2:T88	
+R101	In_Out Arg1:T90 Arg2:T91	
+R102	from Arg1:T92 Arg2:T93	
+R103	to Arg1:T92 Arg2:T91	
+R104	Apply-to Arg1:T143 Arg2:T90	
+R105	Condition Arg1:T85 Arg2:T128	
+R106	Attribute Arg1:T96 Arg2:T95	
+R107	Condition Arg1:T99 Arg2:T100	
+R108	from Arg1:T97 Arg2:T99	
+R109	to Arg1:T97 Arg2:T95	
+R110	Condition Arg1:T97 Arg2:T129	
+R111	Input Arg1:T104 Arg2:T105	
+R112	Apply-to Arg1:T104 Arg2:T107	
+R113	In_Out Arg1:T107 Arg2:T106	
+R114	Condition Arg1:T106 Arg2:T109	
+R115	Condition Arg1:T106 Arg2:T108	
+R116	Condition Arg1:T104 Arg2:T102	
+R117	Input Arg1:T112 Arg2:T114	
+R118	Apply-to Arg1:T112 Arg2:T115	
+R119	In_Out Arg1:T115 Arg2:T116	
+R120	Condition Arg1:T116 Arg2:T117	
+R122	Condition Arg1:T19 Arg2:T17	
+T150	QUALITY 1460 1470	underlying
+R123	Attribute Arg1:T101 Arg2:T150	
+T29	PERSON 384 386	we
+T126	PROCESS 387 392	model
+T127	PERSON 410 412	We
+T141	PERSON 563 565	we
+T142	PERSON 911 913	We
+T144	PROCESS 914 922	consider
+T148	PERSON 1496 1498	we
+R124	Agent Arg1:T104 Arg2:T148	
+T149	PERSON 1654 1656	we
+R125	In_Out Arg1:T115 Arg2:T119	
+R121	Condition Arg1:T119 Arg2:T118	
+R126	Agent Arg1:T126 Arg2:T29	
+T151	REFERENCE 372 382	this paper
+R127	Condition Arg1:T126 Arg2:T151	
+R128	In_Out Arg1:T126 Arg2:T139	
+R129	Agent Arg1:T41 Arg2:T141	
+R130	Agent Arg1:T30 Arg2:T127	
+R131	Attribute Arg1:T63 Arg2:T61	
+R132	Agent Arg1:T112 Arg2:T149	
+R133	Condition Arg1:T112 Arg2:T111	
+R134	Agent Arg1:T144 Arg2:T142	
+R135	Input Arg1:T144 Arg2:T69	
+T152	REFERENCE 1151 1161	this paper
+R136	Condition Arg1:T83 Arg2:T152	
+T153	PROCESS 1162 1170	consider
+R137	Condition Arg1:T153 Arg2:T83	
+R138	In_Out Arg1:T153 Arg2:T84	

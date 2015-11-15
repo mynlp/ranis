@@ -1,0 +1,152 @@
+T1	PLAN 4 30	Sequential Auction Problem
+T2	ORGANIZATION 34 38	eBay
+T3	PLAN-OR-PROCESS 43 61	Empirical Analysis
+T4	PLAN-OR-PROCESS 68 76	Solution
+T5	PERSON 77 84	Bidders
+T6	ORGANIZATION 88 92	eBay
+T7	QUANTITY 98 100	no
+T8	PLAN 110 126	bidding strategy
+T9	PROCESS 132 137	faced
+T10	PLAN-OR-PROCESS 152 160	auctions
+T11	QUANTITY 143 151	multiple
+T12	PROCESS 166 174	offering
+T13	DATA-ITEM 178 182	item
+T14	QUALITY 186 194	interest
+T15	REFERENCE 161 165	each
+T17	PROCESS 215 223	analysis
+T18	QUANTITY 227 232	1,956
+T19	PLAN-OR-PROCESS 233 241	auctions
+T20	ORGANIZATION 245 249	eBay
+T21	ARTIFACT 256 279	Dell E193FP LCD monitor
+T22	QUANTITY 281 285	some
+T23	PERSON 286 293	bidders
+T24	PLAN-OR-PROCESS 298 306	auctions
+T25	PROCESS 294 297	win
+T26	DATA-ITEM 310 316	prices
+T27	QUALITY 317 323	higher
+T28	REFERENCE 329 334	those
+T29	PLAN-OR-PROCESS 344 362	available auctions
+T30	REFERENCE 370 376	others
+T31	MODALITY 377 382	never
+T32	PROCESS 383 386	win
+T33	PLAN-OR-PROCESS 390 397	auction
+T34	PROCESS 406 413	placing
+T35	DATA-ITEM 414 418	bids
+T38	QUALITY 446 453	greater
+T39	REFERENCE 437 441	that
+R2	Coreference Arg1:T39 Arg2:T35	
+T40	DATA-ITEM 463 477	closing prices
+T41	PLAN-OR-PROCESS 487 505	available auctions
+T42	PLAN-OR-PROCESS 513 522	misqueues
+T43	PLAN-OR-PROCESS 526 544	strategic behavior
+T44	PROCESS 545 551	hamper
+T45	QUALITY 556 566	efficiency
+T46	PLAN 574 580	system
+T48	JUDGING-PROCESS 598 603	limit
+T49	QUALITY 608 625	revenue potential
+T50	PERSON 630 637	sellers
+T51	QUALITY 661 666	novel
+T52	PLAN 667 690	options-based extension
+T53	ORGANIZATION 694 698	eBay
+T54	PLAN 701 721	proxy-bidding system
+T55	REFERENCE 722 726	that
+T56	PROCESS 727 735	resolves
+R3	Coreference Arg1:T55 Arg2:T52	
+T57	PLAN 736 756	this strategic issue
+T58	PERSON 761 767	buyers
+T59	PLAN-OR-PROCESS 771 791	commoditized markets
+T60	PLAN-OR-PROCESS 796 814	empirical analysis
+T61	ORGANIZATION 818 822	eBay
+T62	OUTPUT 823 831	provides
+T63	PLAN 834 839	basis
+T64	PLAN 844 864	computer simulations
+T65	REFERENCE 865 869	that
+R4	Coreference Arg1:T65 Arg2:T64	
+T66	PROCESS 870 881	investigate
+T67	PROCESS 886 900	market effects
+T68	PLAN 908 928	options-based scheme
+T69	OUTPUT 934 946	demonstrates
+T70	PLAN 956 976	options-based scheme
+T71	OUTPUT 977 985	provides
+T72	QUALITY 986 1004	greater efficiency
+T73	ORGANIZATION 1010 1014	eBay
+T74	PROCESS 1027 1037	increasing
+T75	QUALITY 1038 1052	seller revenue
+T76	PERSON 1038 1044	seller
+T77	QUALITY 101 109	dominant
+R5	Attribute Arg1:T8 Arg2:T77	
+R1	Attribute Arg1:T13 Arg2:T14	
+R6	Attribute Arg1:T19 Arg2:T18	
+R7	Attribute Arg1:T23 Arg2:T22	
+R8	Attribute Arg1:T26 Arg2:T27	
+R9	Coreference Arg1:T28 Arg2:T26	
+R10	Attribute Arg1:T52 Arg2:T51	
+R11	Poss Arg1:T53 Arg2:T54	
+R12	Condition Arg1:T1 Arg2:T2	
+R13	Other-rel Arg1:T5 Arg2:T6	
+R14	Attribute Arg1:T8 Arg2:T7	
+R15	Attribute Arg1:T10 Arg2:T11	
+R16	Target Arg1:T9 Arg2:T10	
+R17	Condition Arg1:T12 Arg2:T15	
+R18	Output Arg1:T12 Arg2:T13	
+R19	Input Arg1:T17 Arg2:T19	
+R20	Condition Arg1:T19 Arg2:T20	
+R21	Other-rel Arg1:T19 Arg2:T21	
+R22	Agent Arg1:T25 Arg2:T23	
+R23	Target Arg1:T25 Arg2:T24	
+R24	Condition Arg1:T25 Arg2:T26	
+R25	Condition Arg1:T29 Arg2:T28	
+T80	QUALITY 338 343	other
+R26	Attribute Arg1:T29 Arg2:T80	
+R27	Coreference Arg1:T30 Arg2:T23	
+R28	Attribute Arg1:T32 Arg2:T31	
+R29	Target Arg1:T32 Arg2:T33	
+T81	MODALITY 398 405	despite
+R30	Attribute Arg1:T34 Arg2:T81	
+R31	Output Arg1:T34 Arg2:T35	
+R33	Attribute Arg1:T39 Arg2:T38	
+R34	Compare Arg1:T40 Arg2:T38	
+R35	Attribute Arg1:T41 Arg2:T40	
+T82	QUALITY 481 486	other
+R36	Attribute Arg1:T41 Arg2:T82	
+R37	Agent Arg1:T32 Arg2:T30	
+R38	Agent Arg1:T34 Arg2:T30	
+R39	Attribute Arg1:T43 Arg2:T42	
+R40	Apply-to Arg1:T42 Arg2:T44	
+R41	Target Arg1:T44 Arg2:T45	
+R42	Attribute Arg1:T46 Arg2:T45	
+R43	Apply-to Arg1:T42 Arg2:T48	
+R44	Target Arg1:T48 Arg2:T49	
+R45	Attribute Arg1:T50 Arg2:T49	
+R46	Apply-to Arg1:T52 Arg2:T54	
+R47	Apply-to Arg1:T55 Arg2:T56	
+R48	Input Arg1:T56 Arg2:T57	
+R49	Attribute Arg1:T58 Arg2:T57	
+R50	Condition Arg1:T56 Arg2:T59	
+R51	Input Arg1:T60 Arg2:T61	
+R52	from Arg1:T62 Arg2:T60	
+R53	to Arg1:T62 Arg2:T63	
+R54	Input Arg1:T64 Arg2:T63	
+R55	Apply-to Arg1:T65 Arg2:T66	
+R56	In_Out Arg1:T66 Arg2:T67	
+R57	Attribute Arg1:T68 Arg2:T67	
+R58	from Arg1:T69 Arg2:T60	
+R59	Other-rel Arg1:T69 Arg2:T71	
+R60	from Arg1:T71 Arg2:T70	
+R61	to Arg1:T71 Arg2:T72	
+R62	Compare Arg1:T73 Arg2:T72	
+R63	In_Out Arg1:T74 Arg2:T75	
+R64	Apply-to Arg1:T70 Arg2:T74	
+R65	Apply-to Arg1:T4 Arg2:T1	
+R66	Attribute Arg1:T5 Arg2:T8	
+R67	Input Arg1:T3 Arg2:T1	
+R68	Agent Arg1:T9 Arg2:T5	
+R69	Coreference Arg1:T15 Arg2:T10	
+R70	Destination Arg1:T12 Arg2:T5	
+R71	Compare Arg1:T28 Arg2:T27	
+T83	QUALITY 422 436	losing efforts
+R32	Attribute Arg1:T34 Arg2:T83	
+T16	REFERENCE 639 649	This paper
+T36	PROCESS 650 658	proposes
+R72	Condition Arg1:T36 Arg2:T16	
+R73	Output Arg1:T36 Arg2:T52	

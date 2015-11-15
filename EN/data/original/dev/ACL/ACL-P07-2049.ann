@@ -1,0 +1,134 @@
+R2	In_Out Arg1:T1 Arg2:T2
+R3	Apply-to Arg1:T1 Arg2:T3
+R4	Attribute Arg1:T64 Arg2:T4
+R5	Attribute Arg1:T5 Arg2:T64
+R6	Coreference Arg1:T65 Arg2:T8
+R7	Attribute Arg1:T65 Arg2:T7
+R8	to Arg1:T6 Arg2:T7
+R9	from Arg1:T6 Arg2:T4
+R10	from Arg1:T12 Arg2:T11
+R11	to Arg1:T12 Arg2:T13
+R12	Attribute Arg1:T11 Arg2:T14
+R13	Attribute Arg1:T14 Arg2:T13
+R14	Attribute Arg1:T8 Arg2:T9
+A1	Self T15
+A2	Intentional T16
+R15	Agent Arg1:T16 Arg2:T15
+R16	Attribute Arg1:T18 Arg2:T17
+R17	Output Arg1:T16 Arg2:T18
+R18	Attribute Arg1:T23 Arg2:T20
+R19	Attribute Arg1:T23 Arg2:T19
+R20	Input Arg1:T18 Arg2:T23
+R21	Output Arg1:T24 Arg2:T25
+R22	Attribute Arg1:T28 Arg2:T27
+R23	Destination Arg1:T24 Arg2:T26
+R24	Apply-to Arg1:T23 Arg2:T24
+R25	Target Arg1:T10 Arg2:T29
+R26	Apply-to Arg1:T10 Arg2:T24
+R28	Output Arg1:T29 Arg2:T30
+R29	Output Arg1:T29 Arg2:T31
+R30	Output Arg1:T29 Arg2:T32
+R27	Condition Arg1:T25 Arg2:T27
+A3	Self T33
+A4	Intentional T34
+R32	Agent Arg1:T34 Arg2:T33
+R33	Attribute Arg1:T36 Arg2:T35
+A5	Judgment T35
+R34	Coreference Arg1:T38 Arg2:T36
+R35	Attribute Arg1:T38 Arg2:T39
+R36	from Arg1:T37 Arg2:T39
+R37	to Arg1:T37 Arg2:T35
+R38	Target Arg1:T41 Arg2:T42
+R39	Member-collection Arg1:T44 Arg2:T43
+R40	In_Out Arg1:T42 Arg2:T43
+R41	Attribute Arg1:T50 Arg2:T49
+R42	Output Arg1:T48 Arg2:T49
+R43	Attribute Arg1:T46 Arg2:T47
+R44	Agent Arg1:T48 Arg2:T47
+R45	Coreference Arg1:T45 Arg2:T43
+R46	Coreference Arg1:T46 Arg2:T45
+R47	Result Arg1:T40 Arg2:T41
+R48	Coreference Arg1:T40 Arg2:T35
+A6	Self T51
+R49	Agent Arg1:T52 Arg2:T51
+R50	Attribute Arg1:T53 Arg2:T54
+R51	Condition Arg1:T54 Arg2:T55
+A7	Judgment T54
+R52	Compare Arg1:T21 Arg2:T56
+R53	Coreference Arg1:T57 Arg2:T53
+R54	Attribute Arg1:T53 Arg2:T56
+R55	Attribute Arg1:T57 Arg2:T58
+R56	Condition Arg1:T58 Arg2:T59
+R57	Agent Arg1:T61 Arg2:T62
+R58	Output Arg1:T61 Arg2:T60
+R59	In_Out Arg1:T59 Arg2:T60
+A8	Judgment T58
+R61	Output Arg1:T52 Arg2:T54
+R1	In_Out Arg1:T1 Arg2:T22
+R31	Other-rel Arg1:T58 Arg2:T54
+A9	Intentional T61
+R60	Attribute Arg1:T26 Arg2:T25
+T1	PLAN-OR-PROCESS 0 9	Measuring
+T22	DATA-ITEM 10 20	Importance
+T2	DATA-ITEM 25 40	Query Relevance
+T3	PLAN 44 86	Topic-focused Multi-document Summarization
+T4	QUALITY 93 103	increasing
+T64	DATA-ITEM 104 114	complexity
+T5	PLAN 118 139	summarization systems
+T6	RESULT 140 145	makes
+T65	REFERENCE 146 148	it
+T7	QUALITY 149 158	difficult
+T8	PROCESS 162 169	analyze
+T9	QUALITY 170 177	exactly
+T11	PLAN 184 191	modules
+T12	RESULT 192 196	make
+T13	DATA-ITEM 199 209	difference
+T14	DATA-ITEM 213 224	performance
+T15	PERSON 227 229	We
+T16	PROCESS 230 241	carried out
+T17	QUALITY 244 254	principled
+T18	PROCESS 255 265	comparison
+T19	QUANTITY 278 281	two
+T20	QUALITY 282 300	most commonly used
+T23	PLAN 301 308	schemes
+T24	PROCESS 313 322	assigning
+T25	DATA-ITEM 323 333	importance
+T26	DATA-ITEM 337 342	words
+T27	DATA-ITEM 350 357	context
+T28	DATA-ITEM 361 366	query
+T10	PROCESS 367 374	focused
+T29	PLAN-OR-PROCESS 375 403	multi-document summarization
+T30	DATA-ITEM 406 419	raw frequency
+T31	DATA-ITEM 422 438	word probability
+T32	DATA-ITEM 445 465	log-likelihood ratio
+T33	PERSON 468 470	We
+T34	PROCESS 471 482	demonstrate
+T35	QUALITY 492 502	advantages
+T36	DATA-ITEM 506 526	log-likelihood ratio
+T37	RESULT 527 531	come
+T38	REFERENCE 537 540	its
+T39	DATA-ITEM 541 572	known distributional properties
+T40	REFERENCE 573 578	which
+T41	PROCESS 579 584	allow
+T42	PROCESS 593 607	identification
+T43	DATA-ITEM 613 616	set
+T44	DATA-ITEM 620 625	words
+T45	REFERENCE 626 630	that
+T46	REFERENCE 634 637	its
+T47	DATA-ITEM 638 646	entirety
+T48	PROCESS 647 654	defines
+T49	DATA-ITEM 659 668	aboutness
+T50	DATA-ITEM 676 681	input
+T51	PERSON 684 686	We
+T52	PROCESS 692 696	find
+T53	DATA-ITEM 702 705	LLR
+T54	QUALITY 709 722	more suitable
+T55	PLAN-OR-PROCESS 727 754	query-focused summarization
+T56	QUALITY 763 769	unlike
+T21	DATA-ITEM 770 783	raw frequency
+T57	REFERENCE 786 788	it
+T58	QUALITY 792 806	more sensitive
+T59	PLAN-OR-PROCESS 814 825	integration
+T60	DATA-ITEM 833 849	information need
+T61	PROCESS 850 857	defined
+T62	PERSON 865 869	user

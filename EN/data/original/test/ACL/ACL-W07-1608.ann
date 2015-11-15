@@ -1,0 +1,62 @@
+T1	PLAN-OR-PROCESS 0 33	Simple Preposition Correspondence
+T2	PLAN-OR-PROCESS 37 44	problem
+T3	LANGUAGE 48 55	English
+T4	LANGUAGE 59 74	Indian language
+T5	PLAN-OR-PROCESS 48 94	English to Indian language Machine Translation
+T6	PLAN 119 127	approach
+T7	QUALITY 131 144	automatically
+T8	PLAN-OR-PROCESS 145 151	select
+T9	LANGUAGE 157 172	Indian Language
+T11	QUALITY 177 188	appropriate
+T12	DATA-ITEM 189 211	lexical correspondence
+T13	LANGUAGE 215 222	English
+T14	DATA-ITEM 215 241	English simple preposition
+T15	PLAN-OR-PROCESS 263 272	this task
+R1	Coreference Arg1:T15 Arg2:T8	
+T16	PLAN 280 299	Machine Translation
+T17	PLAN 301 303	MT
+R2	Equivalence Arg1:T17 Arg2:T16	
+T18	PLAN 305 316	perspective
+R3	Split Arg1:T18 Arg2:T16	
+T19	DATA-ITEM 329 339	properties
+T20	DATA-ITEM 347 351	head
+T21	DATA-ITEM 356 366	complement
+T22	DATA-ITEM 374 385	preposition
+T23	PROCESS 389 395	select
+T24	DATA-ITEM 412 417	sense
+T25	QUALITY 400 411	appropriate
+T26	LANGUAGE 425 440	target language
+T27	DATA-ITEM 465 472	results
+T28	RESULT 473 481	obtained
+T29	PLAN 487 500	this approach
+R4	Coreference Arg1:T29 Arg2:T6	
+T30	QUALITY 505 514	promising
+R5	Attribute Arg1:T8 Arg2:T7	
+R6	Attribute Arg1:T12 Arg2:T11	
+R7	Attribute Arg1:T24 Arg2:T25	
+T34	TIME 445 450	later
+R8	Attribute Arg1:T27 Arg2:T30	
+R9	Condition Arg1:T2 Arg2:T5	
+R10	Is-a Arg1:T1 Arg2:T2	
+R12	Attribute Arg1:T14 Arg2:T12	
+R13	In_Out Arg1:T8 Arg2:T12	
+R11	Apply-to Arg1:T6 Arg2:T8	
+T31	PROCESS 321 324	use
+R17	Attribute Arg1:T22 Arg2:T21	
+R18	Attribute Arg1:T22 Arg2:T20	
+R19	Attribute Arg1:T20 Arg2:T19	
+R20	Attribute Arg1:T21 Arg2:T19	
+R21	Attribute Arg1:T24 Arg2:T26	
+R22	In_Out Arg1:T23 Arg2:T24	
+R23	from Arg1:T28 Arg2:T29	
+R24	to Arg1:T28 Arg2:T30	
+R14	Other-rel Arg1:T8 Arg2:T9	
+T10	PERSON 318 320	We
+T32	PERSON 442 444	We
+T33	PROCESS 451 455	show
+R15	Apply-to Arg1:T31 Arg2:T23	
+R16	Agent Arg1:T33 Arg2:T32	
+R25	Agent Arg1:T31 Arg2:T10	
+R26	Input Arg1:T31 Arg2:T19	
+R27	Attribute Arg1:T33 Arg2:T34	
+R28	Output Arg1:T33 Arg2:T30	

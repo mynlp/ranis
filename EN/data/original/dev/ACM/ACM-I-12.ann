@@ -1,0 +1,226 @@
+T1	PROCESS 0 7	Sharing
+T2	DATA-ITEM 8 19	Experiences
+T3	PROCESS 23 28	Learn
+T4	DATA-ITEM 29 49	User Characteristics
+T5	PLAN 53 73	Dynamic Environments
+T6	DATA-ITEM 86 90	Data
+T7	REFERENCE 91 101	This paper
+T8	PROCESS 102 114	investigates
+T9	PLAN 119 126	problem
+T10	PROCESS 130 140	estimating
+T11	DATA-ITEM 145 150	value
+T12	DATA-ITEM 154 178	probabilistic parameters
+T13	QUALITY 179 185	needed
+T14	PLAN-OR-PROCESS 190 205	decision making
+T15	PLAN 209 221	environments
+T16	REFERENCE 225 230	which
+T17	INTELLIGENT-AGENT 234 239	agent
+T18	PROCESS 241 250	operating
+T19	PLAN 260 278	multi-agent system
+T20	QUANTITY 284 286	no
+T21	QUALITY 287 295	a priori
+T22	DATA-ITEM 296 307	information
+T23	DATA-ITEM 318 327	structure
+T24	DATA-ITEM 335 347	distribution
+T25	DATA-ITEM 351 367	parameter values
+T26	INTELLIGENT-AGENT 373 378	agent
+T27	MODALITY 379 383	must
+T28	MODALITY 387 391	able
+T29	PROCESS 395 402	produce
+T30	PLAN-OR-PROCESS 403 414	estimations
+T31	REFERENCE 425 427	it
+T32	MODALITY 428 431	may
+T33	PROCESS 437 441	made
+T34	QUALITY 442 446	only
+T35	QUANTITY 449 461	small number
+T36	PLAN-OR-PROCESS 472 484	observations
+T37	REFERENCE 495 497	it
+T38	MODALITY 498 502	must
+T39	MODALITY 506 510	able
+T40	PROCESS 514 521	operate
+T41	DATA-ITEM 534 538	data
+T42	PLAN 562 571	mechanism
+T43	REFERENCE 572 576	that
+T44	PROCESS 577 584	enables
+T45	INTELLIGENT-AGENT 589 594	agent
+T46	QUALITY 598 611	significantly
+T47	JUDGING-PROCESS 612 619	improve
+T48	REFERENCE 620 623	its
+T49	PLAN-OR-PROCESS 624 634	estimation
+T50	PROCESS 638 648	augmenting
+T51	REFERENCE 649 652	its
+T52	PLAN-OR-PROCESS 660 672	observations
+T53	PLAN-OR-PROCESS 678 683	those
+T54	PROCESS 684 692	obtained
+T55	QUALITY 696 701	other
+T56	INTELLIGENT-AGENT 702 708	agents
+T57	REFERENCE 714 719	which
+T58	REFERENCE 720 722	it
+T59	QUALITY 726 738	coordinating
+T60	PROCESS 743 748	avoid
+T61	QUALITY 749 760	undesirable
+T62	DATA-ITEM 761 765	bias
+T63	QUALITY 769 793	relatively heterogeneous
+T64	PLAN 794 806	environments
+T65	QUALITY 813 824	effectively
+T66	INPUT 825 830	using
+T67	DATA-ITEM 831 844	relevant data
+T68	PROCESS 848 855	improve
+T69	REFERENCE 856 859	its
+T70	PLAN-OR-PROCESS 860 871	estimations
+T71	PLAN 877 886	mechanism
+T72	PROCESS 887 893	weighs
+T73	PLAN-OR-PROCESS 898 911	contributions
+T74	QUALITY 915 920	other
+T75	INTELLIGENT-AGENT 921 927	agents
+T76	PLAN-OR-PROCESS 929 941	observations
+T77	APPLY-TO 942 950	based on
+T78	PLAN-OR-PROCESS 953 973	real-time estimation
+T79	DATA-ITEM 981 986	level
+T80	DATA-ITEM 990 1000	similarity
+T82	INTELLIGENT-AGENT 1017 1029	these agents
+T83	REFERENCE 1034 1040	itself
+T84	PLAN 1046 1074	coordination autonomy module
+T85	PLAN 1080 1107	coordination-manager system
+T86	PROCESS 1108 1116	provided
+T87	DATA-ITEM 1130 1137	setting
+T88	PLAN-OR-PROCESS 1142 1152	evaluation
+T89	PLAN 1154 1182	Simulation-based evaluations
+T90	RESULT 1183 1195	demonstrated
+T91	PLAN 1205 1223	proposed mechanism
+T92	QUALITY 1224 1235	outperforms
+T93	PLAN-OR-PROCESS 1236 1247	estimations
+T94	INPUT 1248 1253	based
+T95	QUALITY 1254 1265	exclusively
+T96	INTELLIGENT-AGENT 1272 1277	agent
+T97	DATA-ITEM 1280 1296	own observations
+T98	PLAN-OR-PROCESS 1308 1319	estimations
+T99	INPUT 1320 1325	based
+T100	PLAN-OR-PROCESS 1343 1352	aggregate
+T101	QUANTITY 1356 1359	all
+T102	QUALITY 1360 1365	other
+T103	INTELLIGENT-AGENT 1366 1372	agents
+T104	PLAN-OR-PROCESS 1374 1386	observations
+T105	PERSON 29 33	User
+R1	In_Out Arg1:T3 Arg2:T4	
+R2	Target Arg1:T1 Arg2:T2	
+T106	QUALITY 79 85	Sparse
+R3	Attribute Arg1:T6 Arg2:T106	
+R4	Other-rel Arg1:T5 Arg2:T6	
+A1	Self T7
+A2	Intentional T8
+R5	Condition Arg1:T8 Arg2:T7	
+R6	Output Arg1:T10 Arg2:T11	
+R7	Attribute Arg1:T12 Arg2:T11	
+R8	Other-rel Arg1:T10 Arg2:T9	
+R9	In_Out Arg1:T8 Arg2:T9	
+R10	Condition Arg1:T13 Arg2:T14	
+R11	Attribute Arg1:T11 Arg2:T13	
+R12	Condition Arg1:T14 Arg2:T15	
+R13	Agent Arg1:T18 Arg2:T17	
+R14	Apply-to Arg1:T19 Arg2:T18	
+R15	Attribute Arg1:T22 Arg2:T21	
+R16	Attribute Arg1:T22 Arg2:T20	
+R17	Attribute Arg1:T25 Arg2:T24	
+R18	Attribute Arg1:T24 Arg2:T23	
+R19	Condition Arg1:T22 Arg2:T23	
+T107	PROCESS 280 283	has
+R20	Target Arg1:T107 Arg2:T22	
+R21	Agent Arg1:T107 Arg2:T17	
+R22	Coreference Arg1:T16 Arg2:T15	
+R23	Condition Arg1:T107 Arg2:T16	
+R24	Output Arg1:T29 Arg2:T30	
+R25	Attribute Arg1:T29 Arg2:T28	
+R26	Attribute Arg1:T28 Arg2:T27	
+R27	Agent Arg1:T29 Arg2:T26	
+R28	Attribute Arg1:T35 Arg2:T34	
+R29	Attribute Arg1:T36 Arg2:T35	
+R30	Output Arg1:T33 Arg2:T36	
+R31	Attribute Arg1:T33 Arg2:T32	
+R32	Coreference Arg1:T31 Arg2:T26	
+R33	Agent Arg1:T33 Arg2:T31	
+T108	QUALITY 527 533	sparse
+R34	Attribute Arg1:T41 Arg2:T108	
+R35	Attribute Arg1:T40 Arg2:T39	
+R36	Attribute Arg1:T39 Arg2:T38	
+R37	Agent Arg1:T40 Arg2:T37	
+R38	Coreference Arg1:T37 Arg2:T31	
+R39	Input Arg1:T40 Arg2:T41	
+T109	REFERENCE 540 549	The paper
+A3	Self T109
+T110	PROCESS 550 559	describes
+A4	Intentional T110
+R40	Condition Arg1:T110 Arg2:T109	
+R41	Output Arg1:T110 Arg2:T42	
+R42	Coreference Arg1:T43 Arg2:T42	
+R43	Attribute Arg1:T47 Arg2:T46	
+R44	Agent Arg1:T47 Arg2:T45	
+R45	Agent Arg1:T52 Arg2:T51	
+R46	Agent Arg1:T49 Arg2:T48	
+R47	In_Out Arg1:T47 Arg2:T49	
+R48	In_Out Arg1:T50 Arg2:T52	
+R49	Apply-to Arg1:T50 Arg2:T47	
+R50	Target Arg1:T44 Arg2:T47	
+R51	Apply-to Arg1:T43 Arg2:T44	
+R52	Attribute Arg1:T56 Arg2:T55	
+R53	Agent Arg1:T54 Arg2:T56	
+R54	In_Out Arg1:T54 Arg2:T53	
+R56	Output Arg1:T50 Arg2:T53	
+T111	QUALITY 653 659	direct
+R57	Attribute Arg1:T52 Arg2:T111	
+T112	QUALITY 465 471	direct
+R58	Attribute Arg1:T36 Arg2:T112	
+R59	Attribute Arg1:T58 Arg2:T59	
+R60	Condition Arg1:T59 Arg2:T57	
+R61	Coreference Arg1:T58 Arg2:T53	
+R62	Coreference Arg1:T57 Arg2:T52	
+R63	Attribute Arg1:T62 Arg2:T61	
+R64	Target Arg1:T60 Arg2:T62	
+R65	Attribute Arg1:T64 Arg2:T63	
+R66	In_Out Arg1:T68 Arg2:T70	
+R67	to Arg1:T66 Arg2:T67	
+R68	from Arg1:T66 Arg2:T68	
+R69	Attribute Arg1:T66 Arg2:T65	
+R70	Apply-to Arg1:T71 Arg2:T72	
+R71	In_Out Arg1:T72 Arg2:T73	
+R72	Attribute Arg1:T75 Arg2:T74	
+R73	Agent Arg1:T76 Arg2:T75	
+R74	Agent Arg1:T76 Arg2:T73	
+R75	Attribute Arg1:T80 Arg2:T79	
+R76	Output Arg1:T78 Arg2:T79	
+R77	Coreference Arg1:T82 Arg2:T75	
+R78	Agent Arg1:T70 Arg2:T69	
+R79	Coreference Arg1:T83 Arg2:T69	
+R80	Coreference Arg1:T69 Arg2:T45	
+R81	from Arg1:T77 Arg2:T78	
+R82	to Arg1:T77 Arg2:T72	
+R83	Condition Arg1:T80 Arg2:T82	
+R84	Condition Arg1:T80 Arg2:T83	
+R85	Condition Arg1:T62 Arg2:T64	
+R86	Component-object Arg1:T85 Arg2:T84	
+R87	Apply-to Arg1:T84 Arg2:T86	
+R88	Output Arg1:T86 Arg2:T87	
+T81	QUALITY 1120 1129	empirical
+R89	Attribute Arg1:T87 Arg2:T81	
+R90	Input Arg1:T88 Arg2:T87	
+R91	Coreference Arg1:T91 Arg2:T71	
+R92	Poss Arg1:T96 Arg2:T97	
+R93	to Arg1:T94 Arg2:T97	
+R94	from Arg1:T94 Arg2:T93	
+R96	Attribute Arg1:T91 Arg2:T92	
+A5	Judgment T92
+T113	QUALITY 1332 1342	unweighted
+R97	Attribute Arg1:T100 Arg2:T113	
+R98	Member-collection Arg1:T104 Arg2:T100	
+R99	Agent Arg1:T104 Arg2:T103	
+R100	Attribute Arg1:T103 Arg2:T102	
+R101	Attribute Arg1:T102 Arg2:T101	
+R102	from Arg1:T99 Arg2:T98	
+R103	to Arg1:T99 Arg2:T100	
+R104	Compare Arg1:T98 Arg2:T92	
+R105	to Arg1:T90 Arg2:T92	
+R106	from Arg1:T90 Arg2:T89	
+R107	Attribute Arg1:T94 Arg2:T95	
+R95	Compare Arg1:T93 Arg2:T92	
+R55	Condition Arg1:T3 Arg2:T5	
+R108	Apply-to Arg1:T1 Arg2:T3	

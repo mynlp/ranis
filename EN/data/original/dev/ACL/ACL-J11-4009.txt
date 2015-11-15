@@ -1,0 +1,8 @@
+Splittability of Bilexical Context-Free Grammars is Undecidable
+
+Bilexical context-free grammars (2-LCFGs) have proved to be accurate models for statistical natural language parsing.
+Existing dynamic programming algorithms used to parse sentences under these models have running time of O(|w|4), where w is the input string.
+A 2-LCFG is splittable if the left arguments of a lexical head are always independent of the right arguments, and vice versa.
+When a 2-LCFGs is splittable, parsing time can be asymptotically improved to O(|w|3).
+Testing this property is therefore of central interest to parsing efficiency.
+In this article, however, we show the negative result that splittability of 2-LCFGs is undecidable.

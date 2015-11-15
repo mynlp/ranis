@@ -1,0 +1,91 @@
+T1	QUALITY 0 24	Communication Complexity
+T2	PLAN 28 47	Common Voting Rules
+T3	QUALITY 65 89	communication complexity
+T4	PLAN 97 116	common voting rules
+T5	PLAN 122 127	rules
+T6	PROCESS 129 135	sorted
+T7	QUALITY 145 169	communication complexity
+T8	QUALITY 170 186	from low to high
+T11	PLAN 203 224	plurality with runoff
+T12	PLAN 192 201	plurality
+T13	PLAN 226 250	single transferable vote
+T14	PLAN 252 255	STV
+R1	Equivalence Arg1:T14 Arg2:T13	
+T15	PLAN 258 267	Condorcet
+T16	PLAN 269 277	approval
+T17	PLAN 279 286	Bucklin
+T18	PLAN 288 291	cup
+T19	PLAN 293 300	maximin
+T20	PLAN 302 307	Borda
+T21	PLAN 309 317	Copeland
+T22	PLAN 323 335	ranked pairs
+T23	PLAN 346 350	rule
+T26	PLAN 368 404	deterministic communication protocol
+T27	DATA-ITEM 412 423	upper bound
+T29	QUANTITY 431 437	number
+T30	DATA-ITEM 441 445	bits
+T31	PROCESS 446 458	communicated
+T32	REFERENCE 462 464	it
+R2	Coreference Arg1:T32 Arg2:T26	
+T34	DATA-ITEM 482 493	lower bound
+T36	QUALITY 507 523	nondeterministic
+T37	QUALITY 525 551	communication requirements
+T38	PLAN 559 570	voting rule
+T39	PLAN 617 620	STV
+T40	PLAN 625 632	maximin
+T41	MODALITY 610 616	except
+T42	PLAN 597 609	voting rules
+T43	QUANTITY 593 596	all
+T44	PROCESS 583 588	match
+T45	DATA-ITEM 576 582	bounds
+R3	Attribute Arg1:T6 Arg2:T8	
+R6	Attribute Arg1:T37 Arg2:T36	
+R7	Attribute Arg1:T42 Arg2:T43	
+T9	REFERENCE 139 144	their
+R4	Coreference Arg1:T9 Arg2:T5	
+R5	Attribute Arg1:T9 Arg2:T7	
+R8	Attribute Arg1:T2 Arg2:T1	
+R9	Attribute Arg1:T4 Arg2:T3	
+R10	Input Arg1:T6 Arg2:T5	
+R11	Input Arg1:T6 Arg2:T7	
+R12	Is-a Arg1:T12 Arg2:T5	
+R13	Is-a Arg1:T11 Arg2:T5	
+R14	Is-a Arg1:T13 Arg2:T5	
+R15	Is-a Arg1:T15 Arg2:T5	
+R16	Is-a Arg1:T16 Arg2:T5	
+R17	Is-a Arg1:T17 Arg2:T5	
+R18	Is-a Arg1:T18 Arg2:T5	
+R19	Is-a Arg1:T19 Arg2:T5	
+R20	Is-a Arg1:T20 Arg2:T5	
+R21	Is-a Arg1:T21 Arg2:T5	
+R22	Is-a Arg1:T22 Arg2:T5	
+T28	PROCESS 361 365	give
+R23	Output Arg1:T28 Arg2:T26	
+T33	QUALITY 341 345	each
+R24	Attribute Arg1:T23 Arg2:T33	
+R25	Coreference Arg1:T23 Arg2:T5	
+R26	Destination Arg1:T28 Arg2:T23	
+R27	Output Arg1:T28 Arg2:T27	
+R28	Attribute Arg1:T30 Arg2:T29	
+R30	Condition Arg1:T31 Arg2:T32	
+R31	Output Arg1:T31 Arg2:T30	
+T35	PROCESS 475 479	give
+R32	Output Arg1:T35 Arg2:T34	
+R34	Attribute Arg1:T38 Arg2:T37	
+R35	Input Arg1:T44 Arg2:T45	
+R36	Destination Arg1:T44 Arg2:T42	
+R37	Attribute Arg1:T39 Arg2:T41	
+R38	Attribute Arg1:T40 Arg2:T41	
+R39	Condition Arg1:T42 Arg2:T40	
+R40	Condition Arg1:T42 Arg2:T39	
+R29	Condition Arg1:T27 Arg2:T29	
+R33	Destination Arg1:T35 Arg2:T23	
+R41	Condition Arg1:T34 Arg2:T37	
+T10	PERSON 48 50	We
+T24	PROCESS 51 60	determine
+T25	PERSON 352 354	we
+R42	Agent Arg1:T28 Arg2:T25	
+T46	PERSON 472 474	we
+R43	Agent Arg1:T35 Arg2:T46	
+R44	Agent Arg1:T24 Arg2:T10	
+R45	In_Out Arg1:T24 Arg2:T3	

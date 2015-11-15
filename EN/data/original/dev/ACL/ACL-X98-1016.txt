@@ -1,0 +1,9 @@
+Transforming Examples Into Patterns For Information Extraction .
+Information Extraction ( IE ) systems today are commonly based on pattern matching .
+The patterns are regular expressions stored in a customizable knowledge base .
+Adapting an IE system to a new subject domain entails the construction of a new pattern base - a time-consuming and expensive task .
+We describe a strategy for building patterns from examples .
+To adapt the IE system to a new domain quickly , the user chooses a set of examples in a training text , and for each example gives the logical form entries which the example induces .
+The system transforms these examples into patterns and then applies meta-rules to generalize these patterns .
+
+

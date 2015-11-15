@@ -1,0 +1,96 @@
+T1	RESULT 228 233	makes
+T2	PROCESS 249 254	study
+T3	PROCESS 428 436	attained
+T4	RESULT 590 600	influences
+T5	MODALITY 421 424	can
+T6	MODALITY 557 561	will
+T7	QUALITY 195 203	formally
+T8	QUALITY 237 245	possible
+T9	QUALITY 348 355	related
+T10	QUALITY 398 406	possible
+T12	PLAN 36 67	Argumentation-based Negotiation
+T14	PLAN 124 155	argumentation-based negotiation
+T15	THING 170 174	role
+T16	PLAN-OR-PROCESS 178 191	argumentation
+T17	PLAN 218 227	framework
+T18	DATA-ITEM 259 267	outcomes
+T19	PLAN-OR-PROCESS 274 305	argumentation-based negotiation
+T20	PLAN 324 333	agreement
+T21	PLAN-OR-PROCESS 363 371	theories
+T22	INTELLIGENT-AGENT 379 385	agents
+T23	REFERENCE 416 420	this
+T24	THING 466 475	this case
+T25	PLAN 497 503	notion
+T26	PLAN-OR-PROCESS 507 517	concession
+T27	PROCESS 523 528	shows
+T28	THING 538 547	situation
+T29	INTELLIGENT-AGENT 551 556	agent
+T30	PLAN-OR-PROCESS 605 614	evolution
+T31	PLAN-OR-PROCESS 622 630	dialogue
+T32	PLAN 22 31	Framework
+T33	PLAN 110 119	framework
+T34	PROCESS 204 212	analyzed
+R1	Attribute Arg1:T34 Arg2:T7	
+T35	REFERENCE 342 344	it
+R2	Coreference Arg1:T35 Arg2:T20	
+T36	REFERENCE 392 394	it
+R4	Coreference Arg1:T36 Arg2:T35	
+R5	Attribute Arg1:T36 Arg2:T10	
+R6	Attribute Arg1:T3 Arg2:T5	
+T37	INTELLIGENT-AGENT 444 462	negotiating agents
+T38	REFERENCE 477 479	It
+R7	Coreference Arg1:T38 Arg2:T39	
+T39	REFERENCE 307 309	It
+R8	Coreference Arg1:T39 Arg2:T17	
+T40	PROCESS 480 487	defines
+T41	PROCESS 562 566	make
+T42	REFERENCE 567 570	one
+T43	REFERENCE 587 589	it
+R9	Coreference Arg1:T43 Arg2:T42	
+R10	Coreference Arg1:T42 Arg2:T26	
+R11	Attribute Arg1:T41 Arg2:T6	
+R12	Attribute Arg1:T2 Arg2:T8	
+T11	QUALITY 2 9	Unified
+T44	QUALITY 14 21	General
+R13	Attribute Arg1:T32 Arg2:T11	
+R14	Attribute Arg1:T32 Arg2:T44	
+T13	QUALITY 90 97	unified
+T45	QUALITY 102 109	general
+R15	Attribute Arg1:T33 Arg2:T13	
+R16	Attribute Arg1:T33 Arg2:T45	
+R3	Coreference Arg1:T23 Arg2:T36	
+T47	REFERENCE 160 165	which
+R17	Coreference Arg1:T47 Arg2:T33	
+R18	Attribute Arg1:T35 Arg2:T9	
+R19	Apply-to Arg1:T32 Arg2:T12	
+R20	Apply-to Arg1:T33 Arg2:T14	
+R21	Attribute Arg1:T16 Arg2:T15	
+R22	Condition Arg1:T34 Arg2:T47	
+R23	Output Arg1:T34 Arg2:T15	
+R25	to Arg1:T1 Arg2:T8	
+R26	Attribute Arg1:T19 Arg2:T18	
+R27	In_Out Arg1:T2 Arg2:T18	
+T49	PROCESS 310 315	shows
+R28	Apply-to Arg1:T39 Arg2:T49	
+R29	Output Arg1:T49 Arg2:T20	
+R30	Attribute Arg1:T22 Arg2:T21	
+R31	Condition Arg1:T9 Arg2:T21	
+R32	Output Arg1:T3 Arg2:T23	
+R33	Agent Arg1:T3 Arg2:T37	
+R34	Condition Arg1:T3 Arg2:T24	
+R35	Apply-to Arg1:T38 Arg2:T40	
+R36	Output Arg1:T40 Arg2:T25	
+R37	Condition Arg1:T25 Arg2:T26	
+R38	Apply-to Arg1:T38 Arg2:T27	
+R40	Output Arg1:T27 Arg2:T41	
+R41	Agent Arg1:T41 Arg2:T29	
+R42	Output Arg1:T41 Arg2:T42	
+R43	from Arg1:T4 Arg2:T43	
+R44	to Arg1:T4 Arg2:T30	
+R45	In_Out Arg1:T30 Arg2:T31	
+R39	Condition Arg1:T41 Arg2:T28	
+R24	from Arg1:T1 Arg2:T17	
+T46	REFERENCE 68 78	This paper
+T48	PROCESS 79 87	proposes
+R46	Condition Arg1:T48 Arg2:T46	
+R47	Output Arg1:T48 Arg2:T33	

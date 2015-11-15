@@ -1,0 +1,169 @@
+T1	PLAN-OR-PROCESS 0 19	Information Markets
+T2	PLAN-OR-PROCESS 24 37	Opinion Pools
+T3	PLAN-OR-PROCESS 42 62	Empirical Comparison
+T4	QUALITY 102 119	forecast accuracy
+T5	PLAN-OR-PROCESS 123 142	information markets
+T6	PLAN-OR-PROCESS 150 168	expert aggregation
+T7	PROCESS 173 181	leverage
+T8	DATA-ITEM 191 202	data source
+T9	QUANTITY 206 217	almost 2000
+T10	PERSON 218 224	people
+T11	DATA-ITEM 227 259	subjective probability judgments
+T12	PLAN-OR-PROCESS 263 301	2003 US National Football League games
+T13	TIME 263 267	2003
+T14	ORGANIZATION 268 295	US National Football League
+T15	PROCESS 306 313	compare
+T16	DATA-ITEM 323 343	market probabilities
+T17	PROCESS 344 349	given
+T18	QUANTITY 353 356	two
+T19	QUALITY 357 366	different
+T20	PLAN-OR-PROCESS 367 386	information markets
+T21	QUALITY 390 406	exactly the same
+T22	PLAN-OR-PROCESS 407 413	events
+T24	PROCESS 418 425	combine
+T25	DATA-ITEM 426 437	assessments
+T26	QUANTITY 441 449	multiple
+T27	PERSON 450 457	experts
+T28	PROCESS 510 514	form
+T29	DATA-ITEM 522 533	predictions
+T30	PLAN 462 468;485 506	linear aggregation functions
+T31	PLAN 473 506	logarithmic aggregation functions
+T32	DATA-ITEM 535 541	Prices
+T33	PLAN-OR-PROCESS 545 564	information markets
+T34	INPUT 569 573	used
+T35	PROCESS 577 583	derive
+T36	DATA-ITEM 584 602	market predictions
+T37	DATA-ITEM 608 615	results
+T38	RESULT 616 620	show
+T39	PLAN-OR-PROCESS 663 667	game
+T40	TIME 639 649	time point
+T41	QUALITY 634 638	same
+T42	PLAN-OR-PROCESS 669 688	information markets
+T43	PROCESS 689 696	provide
+T44	QUALITY 700 708	accurate
+T45	DATA-ITEM 709 720	predictions
+T46	DATA-ITEM 731 749	expert assessments
+T47	PERSON 731 737	expert
+T48	DATA-ITEM 771 789	expert predictions
+T49	QUALITY 515 521	pooled
+T50	QUALITY 724 730	pooled
+T51	QUALITY 764 770	pooled
+T52	PERSON 771 777	expert
+T53	PLAN 804 822	arithmetic average
+T54	PLAN 849 865	pooling function
+T55	QUALITY 828 834	robust
+T56	QUALITY 839 848	efficient
+T57	DATA-ITEM 877 895	expert assessments
+T58	PERSON 877 883	expert
+T59	PROCESS 867 876	weighting
+T60	INPUT 896 908	according to
+T61	DATA-ITEM 915 931	past performance
+T62	MODALITY 937 940	not
+T63	JUDGING-PROCESS 941 948	improve
+T64	QUALITY 949 957	accuracy
+T65	DATA-ITEM 968 979	predictions
+T66	QUALITY 961 967	pooled
+T67	PLAN 985 1018	logarithmic aggregation functions
+T68	OUTPUT 1019 1024	offer
+T69	QUALITY 1025 1031	bolder
+T70	DATA-ITEM 1032 1043	predictions
+T71	PLAN 1049 1077	linear aggregation functions
+T72	DATA-ITEM 1083 1090	results
+T73	RESULT 1091 1098	provide
+T74	PLAN-OR-PROCESS 1099 1107	insights
+T75	QUALITY 1117 1139	predictive performance
+T76	PLAN-OR-PROCESS 1143 1162	information markets
+T77	QUALITY 1172 1187	relative merits
+T78	PLAN-OR-PROCESS 1191 1200	selecting
+T79	PLAN 1215 1238	opinion pooling methods
+T80	QUALITY 1207 1214	various
+R1	Attribute Arg1:T45 Arg2:T44	
+R2	Attribute Arg1:T40 Arg2:T41	
+R3	Attribute Arg1:T22 Arg2:T21	
+R4	Attribute Arg1:T20 Arg2:T18	
+R5	Attribute Arg1:T20 Arg2:T19	
+R6	Attribute Arg1:T46 Arg2:T50	
+R7	Attribute Arg1:T48 Arg2:T51	
+R8	Attribute Arg1:T65 Arg2:T66	
+R9	Attribute Arg1:T70 Arg2:T69	
+R10	Attribute Arg1:T79 Arg2:T80	
+T84	PERSON 604 607	Our
+R11	Poss Arg1:T84 Arg2:T37	
+R12	Poss Arg1:T10 Arg2:T11	
+T85	REFERENCE 909 914	their
+R13	Poss Arg1:T85 Arg2:T61	
+R14	Coreference Arg1:T85 Arg2:T58	
+T86	TIME 915 919	past
+R15	Attribute Arg1:T29 Arg2:T49	
+R16	Input Arg1:T3 Arg2:T1	
+R17	Input Arg1:T3 Arg2:T2	
+R18	Attribute Arg1:T5 Arg2:T4	
+R19	Compare Arg1:T6 Arg2:T4	
+T87	QUALITY 93 101	relative
+R20	Attribute Arg1:T4 Arg2:T87	
+T88	QUALITY 184 190	unique
+R21	Attribute Arg1:T8 Arg2:T88	
+R22	Input Arg1:T7 Arg2:T8	
+R23	Attribute Arg1:T10 Arg2:T9	
+R24	Member-collection Arg1:T11 Arg2:T8	
+R25	Output Arg1:T12 Arg2:T11	
+R26	Input Arg1:T15 Arg2:T16	
+R27	Output Arg1:T17 Arg2:T16	
+R28	Condition Arg1:T17 Arg2:T20	
+R29	Condition Arg1:T17 Arg2:T22	
+R30	Attribute Arg1:T27 Arg2:T26	
+R31	Input Arg1:T24 Arg2:T25	
+R32	Apply-to Arg1:T31 Arg2:T24	
+R33	Apply-to Arg1:T30 Arg2:T24	
+R34	Poss Arg1:T27 Arg2:T25	
+R35	Apply-to Arg1:T24 Arg2:T28	
+R36	Output Arg1:T28 Arg2:T29	
+R37	Attribute Arg1:T32 Arg2:T33	
+R38	to Arg1:T34 Arg2:T32	
+R39	from Arg1:T34 Arg2:T35	
+R40	Output Arg1:T35 Arg2:T36	
+R41	from Arg1:T38 Arg2:T37	
+R42	to Arg1:T38 Arg2:T43	
+R43	Output Arg1:T43 Arg2:T45	
+R44	Apply-to Arg1:T42 Arg2:T43	
+R45	Attribute Arg1:T39 Arg2:T40	
+R46	Condition Arg1:T43 Arg2:T40	
+R47	Compare Arg1:T46 Arg2:T44	
+T90	PROCESS 754 763	screening
+R48	Input Arg1:T90 Arg2:T48	
+R49	Attribute Arg1:T53 Arg2:T55	
+R50	Attribute Arg1:T53 Arg2:T56	
+R51	Split Arg1:T53 Arg2:T54	
+R52	Target Arg1:T59 Arg2:T57	
+R53	to Arg1:T60 Arg2:T61	
+R54	from Arg1:T60 Arg2:T59	
+R55	Attribute Arg1:T63 Arg2:T62	
+R56	In_Out Arg1:T63 Arg2:T64	
+R57	Attribute Arg1:T65 Arg2:T64	
+R58	from Arg1:T68 Arg2:T67	
+R59	to Arg1:T68 Arg2:T70	
+R60	Compare Arg1:T71 Arg2:T69	
+R61	from Arg1:T73 Arg2:T72	
+R62	to Arg1:T73 Arg2:T74	
+R63	Input Arg1:T74 Arg2:T75	
+R64	Attribute Arg1:T76 Arg2:T75	
+R65	Input Arg1:T74 Arg2:T77	
+R66	Attribute Arg1:T78 Arg2:T77	
+R67	Condition Arg1:T78 Arg2:T79	
+R68	Input Arg1:T15 Arg2:T8	
+R69	Apply-to Arg1:T59 Arg2:T63	
+T23	REFERENCE 66 77	this paper,
+T81	PERSON 78 80	we
+T82	PROCESS 81 88	examine
+T83	PERSON 170 172	We
+T89	PERSON 415 417	We
+T91	PERSON 791 793	we
+T92	PROCESS 794 798	find
+R70	Agent Arg1:T82 Arg2:T81	
+R71	Condition Arg1:T82 Arg2:T23	
+R72	Input Arg1:T82 Arg2:T4	
+R73	Agent Arg1:T7 Arg2:T83	
+R74	Agent Arg1:T24 Arg2:T89	
+R75	Agent Arg1:T92 Arg2:T91	
+R76	Output Arg1:T92 Arg2:T55	
+R77	Output Arg1:T92 Arg2:T56	

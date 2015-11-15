@@ -1,0 +1,83 @@
+R1	In_Out Arg1:T1 Arg2:T2
+R3	to Arg1:T36 Arg2:T1
+R4	from Arg1:T36 Arg2:T3
+A1	Self T37
+A2	Intentional T38
+R5	Condition Arg1:T38 Arg2:T37
+R6	Attribute Arg1:T5 Arg2:T4
+R7	Output Arg1:T38 Arg2:T5
+R8	Component-object Arg1:T7 Arg2:T6
+R9	Target Arg1:T5 Arg2:T6
+R10	Is-a Arg1:T8 Arg2:T7
+R11	Attribute Arg1:T10 Arg2:T11
+R12	Attribute Arg1:T2 Arg2:T39
+R13	In_Out Arg1:T9 Arg2:T10
+R14	Attribute Arg1:T10 Arg2:T12
+R2	Condition Arg1:T39 Arg2:T35
+R15	Condition Arg1:T11 Arg2:T40
+R16	Condition Arg1:T12 Arg2:T40
+A3	Self T13
+A4	Intentional T14
+R17	Agent Arg1:T14 Arg2:T13
+R18	Attribute Arg1:T16 Arg2:T15
+R19	Input Arg1:T14 Arg2:T16
+R20	Apply-to Arg1:T14 Arg2:T17
+R21	Output Arg1:T17 Arg2:T18
+R22	Attribute Arg1:T19 Arg2:T18
+R23	Apply-to Arg1:T20 Arg2:T17
+R24	In_Out Arg1:T22 Arg2:T21
+R25	Input Arg1:T23 Arg2:T21
+A5	Intentional T22
+A6	Intentional T23
+R26	Attribute Arg1:T25 Arg2:T24
+R27	Input Arg1:T22 Arg2:T25
+R28	Input Arg1:T23 Arg2:T25
+R29	Output Arg1:T28 Arg2:T29
+R30	Result Arg1:T28 Arg2:T30
+R31	In_Out Arg1:T30 Arg2:T31
+R32	Attribute Arg1:T34 Arg2:T33
+R33	Poss Arg1:T32 Arg2:T34
+R34	Attribute Arg1:T34 Arg2:T31
+R35	to Arg1:T27 Arg2:T30
+R36	from Arg1:T27 Arg2:T26
+R37	Apply-to Arg1:T9 Arg2:T5
+T1	PROCESS 0 8	Choosing
+T2	DATA-ITEM 13 17	Word
+T39	QUALITY 18 30	Most Typical
+T35	DATA-ITEM 34 41	Context
+T36	APPLY-TO 42 47	Using
+T3	PLAN 50 79	Lexical Co-Occurrence Network
+T37	REFERENCE 82 92	This paper
+T38	PROCESS 93 101	presents
+T4	QUALITY 104 111	partial
+T5	PLAN 112 120	solution
+T6	PLAN 126 135	component
+T7	PLAN-OR-PROCESS 143 150	problem
+T8	PLAN-OR-PROCESS 154 168	lexical choice
+T9	PROCESS 171 179	choosing
+T10	DATA-ITEM 184 191	synonym
+T11	QUALITY 192 204	most typical
+T12	QUALITY 210 218	expected
+T40	DATA-ITEM 224 231	context
+T13	PERSON 234 236	We
+T14	PROCESS 237 242	apply
+T15	QUALITY 245 248	new
+T16	PLAN 249 269	statistical approach
+T17	PROCESS 273 285	representing
+T18	DATA-ITEM 290 297	context
+T19	DATA-ITEM 303 307	word
+T20	PLAN 316 346	lexical co-occurrence networks
+T21	PLAN 353 367	implementation
+T22	PROCESS 372 379	trained
+T23	PROCESS 384 393	evaluated
+T24	QUALITY 399 404	large
+T25	DATA-ITEM 405 411	corpus
+T26	DATA-ITEM 418 425	results
+T27	RESULT 426 430	show
+T28	PLAN-OR-PROCESS 440 449	inclusion
+T29	DATA-ITEM 453 489	second-order co-occurrence relations
+T30	JUDGING-PROCESS 490 498	improves
+T31	DATA-ITEM 503 514	performance
+T32	PERSON 518 521	our
+T33	QUALITY 522 533	implemented
+T34	PLAN 534 556	lexical choice program

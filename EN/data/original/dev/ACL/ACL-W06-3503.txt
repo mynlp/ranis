@@ -1,0 +1,5 @@
+Understanding Complex Natural Language Explanations in Tutorial Applications?
+
+We describe the WHY2-ATLAS intelligent tutoring system for qualitative physics that interacts with students via natural language dialogue.
+We focus on the issue of analyzing and responding to multi-sentential explanations.
+We explore an approach that combines a statistical classifier, multiple semantic parsers and a formal reasoner for achieving a deeper understanding of these explanations in order to provide appropriate feedback on them.

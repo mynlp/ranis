@@ -1,0 +1,18 @@
+Co-occurrence Retrieval: A Flexible Framework for Lexical Distributional Similarity
+
+Techniques that exploit knowledge of distributional similarity between words have been proposed in many areas of Natural Language Processing.
+For example, in language modeling, the sparse data problem can be alleviated by estimating the probabilities of unseen co-occurrences of events from the probabilities of seen co-occurrences of similar events.
+In other applications, distributional similarity is taken to be an approximation to semantic similarity.
+However, due to the wide range of potential applications and the lack of a strict definition of the concept of distributional similarity, many methods of calculating distributional similarity have been proposed or adopted.
+
+In this work, a flexible, parameterized framework for calculating distributional similarity is proposed.
+Within this framework, the problem of finding distributionally similar words is cast as one of co-occurrence retrieval (CR) for which precision and recall can be measured by analogy with the way they are measured in document retrieval.
+As will be shown, a number of popular existing measures of distributional similarity are simulated with parameter settings within the CR framework.
+In this article, the CR framework is then used to systematically investigate three fundamental questions concerning distributional similarity.
+First, is the relationship of lexical similarity necessarily symmetric, or are there advantages to be gained from considering it as an asymmetric relationship?
+Second, are some co-occurrences inherently more salient than others in the calculation of distributional similarity?
+Third, is it necessary to consider the difference in the extent to which each word occurs in each co-occurrence type?
+
+Two application-based tasks are used for evaluation: automatic thesaurus generation and pseudo-disambiguation.
+It is possible to achieve significantly better results on both these tasks by varying the parameters within the CR framework rather than using other existing distributional similarity measures; it will also be shown that any single unparameterized measure is unlikely to be able to do better on both tasks.
+This is due to an inherent asymmetry in lexical substitutability and therefore also in lexical distributional similarity.

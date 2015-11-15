@@ -1,0 +1,5 @@
+A Topic Model for Word Sense Disambiguation
+
+We develop latent Dirichlet alocation with WORDNET (LDAWN), an unsupervised probabilistic topic model that includes word sense as a hidden variable.
+We develop a probabilistic posterior inference algorithm for simultaneously disambiguating a corpus and learning the domains in which to consider each word.
+Using the WORDNET hierarchy, we embed the construction of Abney and Light (1999) in the topic model and show that automatically learned domainsimprove WSD accuracy compared to alternative contexts.

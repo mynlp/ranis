@@ -1,0 +1,8 @@
+Nouveau-ROUGE: A Novelty Metric for Update Summarization
+
+An update summary should provide a fluent summarization of new information on a time-evolving topic, assuming that the reader has already reviewed older documents or summaries.
+In 2007 and 2008, an annual summarization evaluation included an update summarization task.
+Several participating systems produced update summaries indistinguishable from human-generated summaries when measured using ROUGE.
+However, no machine system performed near human-level performance in manual evaluations such as pyramid and overall responsiveness scoring.
+We present a metric called Nouveau-ROUGE that improves correlation with manual evaluation metrics and can be used to predict both the pyramid score and overall responsiveness for update summaries.
+Nouveau-ROUGE can serve as a less expensive surrogate for manual evaluations when comparing existing systems and when developing new ones.

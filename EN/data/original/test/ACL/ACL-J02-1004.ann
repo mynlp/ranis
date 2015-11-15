@@ -1,0 +1,188 @@
+T1	PLAN-OR-PROCESS 0 52	Syllable-Pattern-Based Unknown-Morpheme Segmentation
+T2	PLAN-OR-PROCESS 57 67	Estimation
+T3	PLAN-OR-PROCESS 72 101	Hybrid Part-of-Speech Tagging
+T4	LANGUAGE 105 111	Korean
+T5	DATA-ITEM 118 124	errors
+T6	QUANTITY 113 117	Most
+T7	LANGUAGE 128 134	Korean
+T8	PLAN-OR-PROCESS 128 157	Korean morphological analysis
+T9	PLAN-OR-PROCESS 162 176	part-of-speech
+T10	PLAN-OR-PROCESS 178 181	POS
+R1	Equivalence Arg1:T10 Arg2:T9	
+T11	PLAN-OR-PROCESS 183 190	tagging
+R2	Split Arg1:T11 Arg2:T9	
+T12	RESULT 195 201	caused
+T13	DATA-ITEM 213 222	morphemes
+T14	QUALITY 205 212	unknown
+T15	PLAN 281 314	unknownmorpheme-estimation method
+T18	REFERENCE 345 350	which
+T19	PLAN 383 408	hybrid POS tagging system
+R4	Coreference Arg1:T18 Arg2:T15	
+T20	PLAN 410 421	This method
+T21	PROCESS 425 433	guessing
+T22	DATA-ITEM 442 451	morphemes
+T23	QUALITY 434 441	unknown
+T24	PLAN-OR-PROCESS 466 477	combination
+T25	DATA-ITEM 483 510	morpheme pattern dictionary
+T26	PROCESS 516 523	encodes
+T27	REFERENCE 511 515	that
+R5	Coreference Arg1:T27 Arg2:T25	
+T28	DATA-ITEM 532 548	lexical patterns
+T29	QUALITY 524 531	general
+T30	LANGUAGE 552 558	Korean
+T31	DATA-ITEM 552 568	Korean morphemes
+T32	PLAN-OR-PROCESS 587 614	syllable trigram estimation
+T33	DATA-ITEM 620 637	syllable trigrams
+T34	INPUT 638 642	help
+T35	PROCESS 646 655	calculate
+T36	DATA-ITEM 656 677	lexical probabilities
+T37	DATA-ITEM 693 702	morphemes
+T38	QUALITY 685 692	unknown
+T39	INPUT 711 719	utilized
+T40	PROCESS 723 729	search
+T41	QUALITY 738 742	best
+T42	DATA-ITEM 743 757	tagging result
+T43	PLAN 759 770	This method
+R6	Coreference Arg1:T20 Arg2:T18	
+R7	Coreference Arg1:T43 Arg2:T20	
+T44	MODALITY 771 774	can
+T45	PROCESS 775 780	guess
+T46	DATA-ITEM 785 793	POS tags
+T47	DATA-ITEM 805 814	morphemes
+T48	QUALITY 797 804	unknown
+T49	QUANTITY 835 842	numbers
+T50	QUALITY 850 859	positions
+T51	DATA-ITEM 866 872	eojeol
+T52	LANGUAGE 876 882	Korean
+T53	DATA-ITEM 876 895	Korean spacing unit
+T54	LANGUAGE 910 917	English
+T55	DATA-ITEM 910 922	English word
+T56	REFERENCE 925 930	which
+T57	MODALITY 934 937	not
+T58	QUALITY 938 946	possible
+T59	PLAN 958 965	systems
+T61	PROCESS 970 977	tagging
+T62	LANGUAGE 978 984	Korean
+T63	PROCESS 1001 1012	experiments
+T64	INPUT 1013 1018	using
+T65	QUANTITY 1019 1024	three
+T66	DATA-ITEM 1035 1049	domain corpora
+T67	PLAN 1055 1061	system
+T68	OUTPUT 1062 1070	achieved
+T69	QUANTITY 1073 1076	97%
+T70	DATA-ITEM 1077 1093	tagging accuracy
+T71	QUANTITY 1106 1109	10%
+T72	DATA-ITEM 1117 1126	morphemes
+T73	DATA-ITEM 1134 1146	test corpora
+T74	QUALITY 1152 1159	unknown
+T75	REFERENCE 1161 1163	It
+T76	OUTPUT 1169 1177	achieved
+T77	DATA-ITEM 1188 1196	coverage
+T78	QUALITY 1178 1187	very high
+T79	DATA-ITEM 1201 1209	accuracy
+T80	PLAN-OR-PROCESS 1213 1223	estimation
+T81	DATA-ITEM 1232 1239	classes
+T82	QUANTITY 1228 1231	all
+T83	DATA-ITEM 1251 1260	morphemes
+T84	QUALITY 1243 1250	unknown
+R8	Coreference Arg1:T75 Arg2:T67	
+T85	MODALITY 815 825	regardless
+R9	Attribute Arg1:T5 Arg2:T6	
+R10	Attribute Arg1:T13 Arg2:T14	
+T86	PLAN 320 326	POSTAG
+T87	PLAN 328 342	POStech TAGger
+R11	Equivalence Arg1:T87 Arg2:T86	
+R3	Attribute Arg1:T22 Arg2:T23	
+R12	Attribute Arg1:T28 Arg2:T29	
+T88	QUALITY 574 586	a posteriori
+R13	Attribute Arg1:T32 Arg2:T88	
+R14	Attribute Arg1:T37 Arg2:T38	
+R15	Attribute Arg1:T42 Arg2:T41	
+R16	Attribute Arg1:T45 Arg2:T44	
+R17	Attribute Arg1:T47 Arg2:T48	
+T60	QUALITY 952 957	other
+T89	QUALITY 1025 1034	different
+R18	Attribute Arg1:T66 Arg2:T89	
+R19	Attribute Arg1:T66 Arg2:T65	
+R20	Attribute Arg1:T72 Arg2:T74	
+R21	Attribute Arg1:T81 Arg2:T82	
+R22	Attribute Arg1:T83 Arg2:T84	
+T16	INPUT 455 463	based on
+R23	from Arg1:T16 Arg2:T20	
+R24	to Arg1:T16 Arg2:T24	
+T17	REFERENCE 829 834	their
+R25	Coreference Arg1:T17 Arg2:T47	
+R26	Poss Arg1:T17 Arg2:T49	
+R27	Attribute Arg1:T59 Arg2:T60	
+R28	Attribute Arg1:T58 Arg2:T57	
+R29	Coreference Arg1:T56 Arg2:T45	
+R30	Attribute Arg1:T56 Arg2:T58	
+R31	Apply-to Arg1:T59 Arg2:T61	
+R32	Attribute Arg1:T72 Arg2:T71	
+R33	Attribute Arg1:T77 Arg2:T78	
+R34	Attribute Arg1:T79 Arg2:T78	
+R35	Condition Arg1:T3 Arg2:T4	
+R36	Apply-to Arg1:T1 Arg2:T3	
+R37	Apply-to Arg1:T2 Arg2:T3	
+R38	Attribute Arg1:T8 Arg2:T5	
+R39	Attribute Arg1:T9 Arg2:T5	
+R40	from Arg1:T12 Arg2:T13	
+R41	to Arg1:T12 Arg2:T5	
+R42	Is-a Arg1:T18 Arg2:T19	
+R43	Apply-to Arg1:T86 Arg2:T15	
+R44	Apply-to Arg1:T20 Arg2:T21	
+R45	Output Arg1:T21 Arg2:T22	
+R46	Attribute Arg1:T24 Arg2:T25	
+R47	Attribute Arg1:T24 Arg2:T32	
+R48	Attribute Arg1:T31 Arg2:T28	
+R49	Output Arg1:T26 Arg2:T28	
+R50	Apply-to Arg1:T27 Arg2:T26	
+R51	from Arg1:T34 Arg2:T35	
+R52	to Arg1:T34 Arg2:T33	
+R53	Output Arg1:T35 Arg2:T36	
+R54	Attribute Arg1:T37 Arg2:T36	
+R55	In_Out Arg1:T40 Arg2:T42	
+R56	from Arg1:T39 Arg2:T40	
+R57	to Arg1:T39 Arg2:T33	
+R58	Apply-to Arg1:T43 Arg2:T45	
+R59	Output Arg1:T45 Arg2:T46	
+R60	Attribute Arg1:T47 Arg2:T46	
+R61	Attribute Arg1:T49 Arg2:T85	
+R62	Condition Arg1:T45 Arg2:T49	
+R63	Poss Arg1:T17 Arg2:T50	
+R64	Attribute Arg1:T50 Arg2:T85	
+R65	Condition Arg1:T45 Arg2:T50	
+R66	Is-a Arg1:T51 Arg2:T53	
+T91	QUALITY 896 903	similar
+R67	Attribute Arg1:T53 Arg2:T91	
+R68	Compare Arg1:T55 Arg2:T91	
+R69	Condition Arg1:T50 Arg2:T51	
+R70	In_Out Arg1:T61 Arg2:T62	
+R71	Condition Arg1:T58 Arg2:T59	
+R72	to Arg1:T64 Arg2:T66	
+R73	from Arg1:T64 Arg2:T63	
+R74	Attribute Arg1:T70 Arg2:T69	
+R75	to Arg1:T68 Arg2:T69	
+R76	from Arg1:T68 Arg2:T67	
+R77	Apply-to Arg1:T67 Arg2:T63	
+R78	Component-object Arg1:T72 Arg2:T73	
+R81	from Arg1:T76 Arg2:T75	
+R82	to Arg1:T76 Arg2:T77	
+R83	Attribute Arg1:T80 Arg2:T79	
+R84	Attribute Arg1:T80 Arg2:T77	
+R85	Attribute Arg1:T83 Arg2:T81	
+R86	Input Arg1:T80 Arg2:T81	
+T92	QUALITY 356 367	statistical
+T93	QUALITY 372 382	rule-based
+R87	Attribute Arg1:T19 Arg2:T93	
+R88	Attribute Arg1:T19 Arg2:T92	
+T94	QUALITY 246 268	syllable-pattern-based
+T95	QUALITY 269 280	generalized
+R89	Attribute Arg1:T15 Arg2:T94	
+R90	Attribute Arg1:T15 Arg2:T95	
+R91	to Arg1:T76 Arg2:T79	
+R79	Condition Arg1:T68 Arg2:T74	
+T90	REFERENCE 224 234	This paper
+T96	PROCESS 235 243	presents
+R80	Condition Arg1:T96 Arg2:T90	
+R92	Output Arg1:T96 Arg2:T15	

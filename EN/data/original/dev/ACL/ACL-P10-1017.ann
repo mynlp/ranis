@@ -1,0 +1,93 @@
+T1	PLAN 0 19	Hierarchical Search
+T2	PLAN-OR-PROCESS 24 38	Word Alignment
+T3	PLAN 73 102	hierarchical search algorithm
+T4	QUALITY 64 72	powerful
+T5	QUALITY 53 59	simple
+T6	PLAN-OR-PROCESS 107 131	automatic word alignment
+T7	PLAN 137 146	algorithm
+T8	PROCESS 147 154	induces
+T9	DATA-ITEM 167 177	alignments
+T10	DATA-ITEM 157 163	forest
+T11	REFERENCE 183 188	which
+R2	Coreference Arg1:T11 Arg2:T10	
+T12	QUALITY 196 207	efficiently
+T13	MODALITY 192 195	can
+T15	PROCESS 208 215	extract
+T16	DATA-ITEM 218 236	ranked k-best list
+T17	DATA-ITEM 249 264	given alignment
+T18	PROCESS 241 246	score
+T19	DATA-ITEM 276 282	forest
+T20	PLAN 300 327	linear discriminative model
+T21	QUALITY 290 298	flexible
+T22	INPUT 328 341	incorporating
+T23	QUANTITY 342 350	hundreds
+T24	DATA-ITEM 354 362	features
+T25	PROCESS 368 375	trained
+T26	QUANTITY 381 404	relatively small amount
+T27	DATA-ITEM 408 422	annotated data
+R4	Attribute Arg1:T3 Arg2:T5	
+R5	Attribute Arg1:T3 Arg2:T4	
+T28	PERSON 133 136	Our
+R1	Member-collection Arg1:T9 Arg2:T10	
+R3	Attribute Arg1:T15 Arg2:T12	
+R6	Attribute Arg1:T20 Arg2:T21	
+R7	Attribute Arg1:T24 Arg2:T23	
+R8	Attribute Arg1:T27 Arg2:T26	
+T29	LANGUAGE 445 451	Arabic
+T30	LANGUAGE 452 459	English
+T31	PLAN 445 474;491 496	Arabic-English word alignment tasks
+T32	PLAN 479 496	translation tasks
+T33	PLAN 502 507	model
+T34	DATA-ITEM 434 441	results
+T35	OUTPUT 508 519	outperforms
+T36	PLAN 522 536	GIZA++ Model-4
+T37	PLAN 522 545	GIZA++ Model-4 baseline
+T38	QUANTITY 549 559	6.3 points
+T39	PLAN 563 572	F-measure
+T40	PLAN 589 593	BLEU
+T41	QUANTITY 585 599	1.1 BLEU score
+T43	QUALITY 616 632	state-of-the-art
+T44	PLAN 633 672	syntax-based machine translation system
+R9	Attribute Arg1:T44 Arg2:T43	
+R10	Attribute Arg1:T15 Arg2:T13	
+R11	Poss Arg1:T28 Arg2:T7	
+T45	PERSON 498 501	Our
+R12	Poss Arg1:T45 Arg2:T33	
+R13	Apply-to Arg1:T1 Arg2:T2	
+R14	Apply-to Arg1:T3 Arg2:T6	
+R15	Apply-to Arg1:T7 Arg2:T8	
+R16	Output Arg1:T8 Arg2:T10	
+R17	Input Arg1:T15 Arg2:T11	
+R18	Output Arg1:T15 Arg2:T16	
+R20	Other-rel Arg1:T18 Arg2:T17	
+R21	Component-object Arg1:T17 Arg2:T19	
+R22	Apply-to Arg1:T20 Arg2:T18	
+R23	to Arg1:T22 Arg2:T24	
+R24	from Arg1:T22 Arg2:T20	
+R25	Output Arg1:T25 Arg2:T20	
+R26	Input Arg1:T25 Arg2:T27	
+R27	Attribute Arg1:T34 Arg2:T32	
+R28	Attribute Arg1:T34 Arg2:T31	
+R29	from Arg1:T35 Arg2:T33	
+R30	Compare Arg1:T37 Arg2:T38	
+R31	Other-rel Arg1:T39 Arg2:T38	
+R32	to Arg1:T35 Arg2:T38	
+T42	JUDGING-PROCESS 600 608	increase
+R33	In_Out Arg1:T42 Arg2:T41	
+T49	OUTPUT 574 582	yielding
+R35	from Arg1:T49 Arg2:T33	
+R36	to Arg1:T49 Arg2:T41	
+R34	Compare Arg1:T44 Arg2:T41	
+T14	PERSON 40 42	We
+T46	PROCESS 43 50	present
+T47	PERSON 238 240	We
+T48	PERSON 424 426	We
+T50	PROCESS 427 433	report
+R19	Agent Arg1:T46 Arg2:T14	
+R37	Agent Arg1:T18 Arg2:T47	
+R38	Agent Arg1:T25 Arg2:T47	
+R39	Agent Arg1:T50 Arg2:T48	
+R40	Output Arg1:T46 Arg2:T3	
+R41	Output Arg1:T50 Arg2:T34	
+T51	PERSON 189 191	we
+R42	Agent Arg1:T15 Arg2:T51	

@@ -1,0 +1,180 @@
+T1	PROCESS 0 14	Disambiguating
+T2	DATA-ITEM 15 20	Nouns
+T3	DATA-ITEM 22 27	Verbs
+T4	DATA-ITEM 33 43	Adjectives
+T5	INPUT 44 49	Using
+T6	DATA-ITEM 50 96	Automatically Acquired Selectional Preferences
+T7	DATA-ITEM 98 121	Selectional preferences
+T8	INPUT 132 136	used
+T9	PLAN 140 165	word sense disambiguation
+T10	PLAN 167 170	WSD
+R1	Equivalence Arg1:T10 Arg2:T9	
+T11	PLAN 172 179	systems
+R2	Split Arg1:T11 Arg2:T9	
+T12	DATA-ITEM 187 193	source
+T13	QUANTITY 183 186	one
+T14	DATA-ITEM 197 223	disambiguating information
+T15	PROCESS 228 236	evaluate
+T16	PLAN-OR-PROCESS 237 240	WSD
+T17	INPUT 241 246	using
+T18	DATA-ITEM 247 270	selectional preferences
+T19	PROCESS 271 279	acquired
+T20	LANGUAGE 284 291	English
+T21	DATA-ITEM 284 306;335 360	English adjective-noun grammatical relationships
+T22	DATA-ITEM 284 291;308 315;335 360	English subject grammatical relationships
+T23	DATA-ITEM 388 399	test corpus
+T24	DATA-ITEM 284 291;321 360	English direct object grammatical relationships
+T25	DATA-ITEM 405 428	selectional preferences
+T26	DATA-ITEM 445 449;463 470	verb classes
+T27	DATA-ITEM 453 470	adjective classes
+T28	DATA-ITEM 495 505	word forms
+T29	REFERENCE 510 514	they
+R3	Coreference Arg1:T29 Arg2:T25	
+T30	MODALITY 515 518	can
+T31	INPUT 522 526	used
+T32	PROCESS 530 542	disambiguate
+T33	DATA-ITEM 547 570	co-occurring adjectives
+T34	DATA-ITEM 547 559;575 580	co-occurring verbs
+T35	DATA-ITEM 603 625	nominal argument heads
+T36	APPLY-TO 647 650	use
+T37	PLAN 658 691	one-sense-per-discourse heuristic
+T38	PROCESS 695 704	propagate
+T39	DATA-ITEM 707 716	sense tag
+T40	DATA-ITEM 723 727	word
+T41	PROCESS 737 748	occurrences
+T42	QUALITY 731 736	other
+T43	QUALITY 756 760	same
+T44	DATA-ITEM 761 765	word
+T45	DATA-ITEM 777 793	current document
+T46	PROCESS 806 814	increase
+T47	DATA-ITEM 815 823	coverage
+T48	DATA-ITEM 838 849	preferences
+T49	RESULT 850 857	perform
+T50	QUALITY 858 862	well
+T51	COMPARE 866 876	comparison
+T52	PLAN 888 912	unsupervised WSD systems
+T53	QUALITY 882 887	other
+T54	DATA-ITEM 925 931	corpus
+T55	QUALITY 920 924	same
+T56	DATA-ITEM 937 944	results
+T57	PROCESS 945 949	show
+T58	PLAN-OR-PROCESS 964 976	applications
+T59	QUANTITY 959 963	many
+T60	DATA-ITEM 986 1003	knowledge sources
+T61	MODALITY 1004 1009	would
+T62	CONDITION 1013 1021	required
+T63	OUTPUT 1025 1032	achieve
+T64	DATA-ITEM 1045 1050	level
+T65	QUALITY 1036 1044	adequate
+T66	DATA-ITEM 1054 1062	accuracy
+T67	DATA-ITEM 1067 1075	coverage
+T68	QUALITY 978 985	further
+T69	DATA-ITEM 1104 1115	performance
+T70	DATA-ITEM 1132 1139	results
+T71	PROCESS 1120 1127	analyze
+T72	PROCESS 1143 1154	investigate
+T73	THING 1159 1169	situations
+T74	REFERENCE 1173 1178	which
+R4	Coreference Arg1:T74 Arg2:T73	
+T75	DATA-ITEM 1183 1206	selectional preferences
+T76	PROCESS 1207 1214	achieve
+T77	DATA-ITEM 1224 1233	precision
+T78	QUALITY 1219 1223	best
+T79	REFERENCE 1241 1246	which
+R5	Coreference Arg1:T79 Arg2:T73	
+T80	PLAN 1251 1284	one-sense-per-discourse heuristic
+T81	DATA-ITEM 1295 1306	performance
+T82	JUDGING-PROCESS 1285 1294	increases
+R6	Attribute Arg1:T12 Arg2:T13	
+T83	QUALITY 484 494	individual
+R7	Attribute Arg1:T28 Arg2:T83	
+R8	Attribute Arg1:T41 Arg2:T42	
+R9	Attribute Arg1:T44 Arg2:T43	
+R10	Attribute Arg1:T52 Arg2:T53	
+R11	Attribute Arg1:T54 Arg2:T55	
+R12	Attribute Arg1:T60 Arg2:T68	
+R13	Attribute Arg1:T64 Arg2:T65	
+T86	QUALITY 379 387	standard
+R14	Attribute Arg1:T23 Arg2:T86	
+R15	to Arg1:T49 Arg2:T50	
+R16	Attribute Arg1:T77 Arg2:T78	
+R18	In_Out Arg1:T1 Arg2:T2	
+R19	In_Out Arg1:T1 Arg2:T3	
+R20	In_Out Arg1:T1 Arg2:T4	
+R21	to Arg1:T5 Arg2:T6	
+R22	from Arg1:T5 Arg2:T1	
+R23	to Arg1:T8 Arg2:T7	
+R24	from Arg1:T8 Arg2:T9	
+R25	Is-a Arg1:T7 Arg2:T12	
+R26	Attribute Arg1:T12 Arg2:T14	
+R27	Input Arg1:T15 Arg2:T16	
+R28	to Arg1:T17 Arg2:T18	
+R29	from Arg1:T17 Arg2:T15	
+R30	Output Arg1:T19 Arg2:T18	
+R31	Input Arg1:T19 Arg2:T24	
+R32	Input Arg1:T19 Arg2:T21	
+R33	Input Arg1:T19 Arg2:T22	
+R34	Condition Arg1:T21 Arg2:T23	
+R35	Condition Arg1:T24 Arg2:T23	
+R36	Condition Arg1:T22 Arg2:T23	
+T88	QUALITY 433 444	specific to
+R37	Attribute Arg1:T25 Arg2:T88	
+R38	Condition Arg1:T88 Arg2:T27	
+R39	Condition Arg1:T88 Arg2:T26	
+T89	MODALITY 472 483	rather than
+R40	Condition Arg1:T88 Arg2:T28	
+R42	Attribute Arg1:T31 Arg2:T30	
+R43	to Arg1:T31 Arg2:T29	
+R44	from Arg1:T31 Arg2:T32	
+R45	In_Out Arg1:T32 Arg2:T33	
+R46	In_Out Arg1:T32 Arg2:T34	
+R47	In_Out Arg1:T32 Arg2:T35	
+T90	MODALITY 582 593	rather than
+R48	Attribute Arg1:T35 Arg2:T90	
+R41	Attribute Arg1:T28 Arg2:T89	
+R49	from Arg1:T36 Arg2:T37	
+R50	to Arg1:T36 Arg2:T38	
+R51	Output Arg1:T38 Arg2:T39	
+R52	Condition Arg1:T41 Arg2:T45	
+R53	Output Arg1:T41 Arg2:T44	
+R54	Destination Arg1:T38 Arg2:T41	
+R55	In_Out Arg1:T46 Arg2:T47	
+R56	Apply-to Arg1:T38 Arg2:T46	
+R57	Attribute Arg1:T40 Arg2:T39	
+R58	from Arg1:T49 Arg2:T48	
+R59	from Arg1:T51 Arg2:T52	
+R60	to Arg1:T51 Arg2:T50	
+R61	Condition Arg1:T49 Arg2:T54	
+R62	Attribute Arg1:T66 Arg2:T64	
+R63	Attribute Arg1:T67 Arg2:T64	
+R64	Attribute Arg1:T58 Arg2:T59	
+R65	Attribute Arg1:T58 Arg2:T66	
+R66	Attribute Arg1:T58 Arg2:T67	
+R67	from Arg1:T63 Arg2:T58	
+R68	to Arg1:T63 Arg2:T64	
+R69	to Arg1:T62 Arg2:T60	
+R70	Attribute Arg1:T62 Arg2:T61	
+R71	from Arg1:T62 Arg2:T63	
+R73	Input Arg1:T71 Arg2:T70	
+R74	Apply-to Arg1:T71 Arg2:T72	
+R75	In_Out Arg1:T72 Arg2:T73	
+T84	PROCESS 1092 1103	quantifying
+R72	In_Out Arg1:T84 Arg2:T69	
+R76	Input Arg1:T76 Arg2:T75	
+R77	Output Arg1:T76 Arg2:T77	
+R78	Condition Arg1:T76 Arg2:T74	
+R17	Apply-to Arg1:T80 Arg2:T82	
+R79	In_Out Arg1:T82 Arg2:T81	
+R80	Condition Arg1:T82 Arg2:T79	
+T85	PERSON 225 227	We
+T87	PERSON 627 629	We
+T91	PROCESS 635 646	investigate
+T92	PERSON 1117 1119	we
+R81	Input Arg1:T57 Arg2:T56	
+R82	Condition Arg1:T57 Arg2:T58	
+R83	Output Arg1:T57 Arg2:T62	
+R84	Agent Arg1:T71 Arg2:T92	
+R85	Apply-to Arg1:T71 Arg2:T84	
+R86	Agent Arg1:T15 Arg2:T85	
+R87	Agent Arg1:T91 Arg2:T87	
+R88	Input Arg1:T91 Arg2:T37	

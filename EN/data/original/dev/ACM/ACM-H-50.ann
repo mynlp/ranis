@@ -1,0 +1,136 @@
+T1	PLAN-OR-PROCESS 3 22	Outranking Approach
+T2	PLAN-OR-PROCESS 27 43	Rank Aggregation
+T3	PLAN-OR-PROCESS 47 68	Information Retrieval
+T4	PROCESS 69 77	Research
+T5	PLAN-OR-PROCESS 81 102	Information Retrieval
+T6	QUALITY 103 110	usually
+T7	DATA-ITEM 117 140	performance improvement
+T8	QUANTITY 146 150	many
+T9	DATA-ITEM 151 158	sources
+T10	DATA-ITEM 162 170	evidence
+T11	PROCESS 175 183	combined
+T12	PROCESS 187 194	produce
+T13	DATA-ITEM 197 204	ranking
+T14	DATA-ITEM 208 217	documents
+T15	DATA-ITEM 225 230	texts
+T16	DATA-ITEM 232 240	pictures
+T17	DATA-ITEM 242 248	sounds
+T18	PROCESS 111 116	shows
+T20	PLAN 288 312	rank aggregation problem
+T21	PLAN 326 345	data fusion problem
+T23	DATA-ITEM 353 361	rankings
+T24	DATA-ITEM 365 374	documents
+T25	PROCESS 376 384	searched
+T26	DATA-ITEM 399 409	collection
+T27	QUALITY 394 398	same
+T28	PROCESS 414 422	provided
+T29	QUANTITY 426 434	multiple
+T30	PLAN 435 442	methods
+T31	PROCESS 448 456	combined
+T32	PROCESS 469 476	produce
+T33	DATA-ITEM 483 490	ranking
+T34	QUALITY 479 482	new
+T36	PLAN 522 545	rank aggregation method
+T38	PLAN 555 582	multiple criteria framework
+T39	APPLY-TO 583 588	using
+T40	PLAN 589 611	aggregation mechanisms
+T41	PLAN 621 635	decision rules
+T42	PROCESS 636 647	identifying
+T43	QUALITY 648 656	positive
+T44	QUALITY 661 669	negative
+T45	PLAN 670 677	reasons
+T46	PROCESS 682 689	judging
+T47	APPLY-TO 612 617	based
+T48	DATA-ITEM 700 708	document
+T49	MODALITY 709 715	should
+T50	PROCESS 716 719	get
+T51	QUALITY 722 728	better
+T52	DATA-ITEM 729 733	rank
+T53	DATA-ITEM 739 746	another
+T54	PLAN 765 780	proposed method
+T55	RESULT 781 786	deals
+T56	QUALITY 787 791	well
+T57	DATA-ITEM 801 843	Information Retrieval distinctive features
+T58	DATA-ITEM 845 865	Experimental results
+T59	PLAN 896 912	suggested method
+T60	ATTRIBUTE 913 921	performs
+T61	QUALITY 922 928	better
+T62	PLAN 949 956	CombSUM
+T63	PLAN 961 968	CombMNZ
+T64	PLAN 961 978	CombMNZ operators
+T65	PLAN 949 956;969 978	CombSUM operators
+T66	QUALITY 938 948	well-known
+R1	Attribute Arg1:T18 Arg2:T6	
+R2	Attribute Arg1:T9 Arg2:T8	
+R3	Equivalence Arg1:T21 Arg2:T20	
+R4	Attribute Arg1:T26 Arg2:T27	
+R5	Attribute Arg1:T30 Arg2:T29	
+R6	Attribute Arg1:T33 Arg2:T34	
+R7	Attribute Arg1:T45 Arg2:T43	
+R8	Attribute Arg1:T45 Arg2:T44	
+R9	Attribute Arg1:T50 Arg2:T49	
+R10	Attribute Arg1:T52 Arg2:T51	
+R11	Compare Arg1:T53 Arg2:T51	
+R14	Attribute Arg1:T65 Arg2:T66	
+R15	Attribute Arg1:T64 Arg2:T66	
+R16	Compare Arg1:T65 Arg2:T61	
+R17	Compare Arg1:T64 Arg2:T61	
+T67	RESULT 879 886	showing
+R18	Apply-to Arg1:T1 Arg2:T2	
+R19	Apply-to Arg1:T2 Arg2:T3	
+R20	Condition Arg1:T4 Arg2:T5	
+R21	Output Arg1:T18 Arg2:T7	
+R22	Apply-to Arg1:T4 Arg2:T18	
+R23	Attribute Arg1:T9 Arg2:T10	
+R24	Input Arg1:T11 Arg2:T9	
+R25	Apply-to Arg1:T11 Arg2:T12	
+R26	Attribute Arg1:T14 Arg2:T13	
+R27	Output Arg1:T12 Arg2:T13	
+R28	Is-a Arg1:T15 Arg2:T14	
+R29	Is-a Arg1:T16 Arg2:T14	
+R30	Is-a Arg1:T17 Arg2:T14	
+R31	Attribute Arg1:T24 Arg2:T23	
+R32	Input Arg1:T25 Arg2:T26	
+R33	Apply-to Arg1:T30 Arg2:T28	
+R34	Output Arg1:T25 Arg2:T23	
+R35	Output Arg1:T28 Arg2:T23	
+R36	Input Arg1:T31 Arg2:T23	
+R37	Apply-to Arg1:T31 Arg2:T32	
+R38	Output Arg1:T32 Arg2:T33	
+R39	Apply-to Arg1:T36 Arg2:T38	
+R40	from Arg1:T39 Arg2:T40	
+R41	to Arg1:T39 Arg2:T36	
+R42	from Arg1:T47 Arg2:T41	
+R43	to Arg1:T47 Arg2:T40	
+R44	Apply-to Arg1:T41 Arg2:T42	
+R45	In_Out Arg1:T42 Arg2:T45	
+R46	Apply-to Arg1:T45 Arg2:T46	
+R47	Destination Arg1:T50 Arg2:T48	
+R48	Output Arg1:T50 Arg2:T52	
+R49	from Arg1:T55 Arg2:T54	
+R50	to Arg1:T55 Arg2:T56	
+R51	Attribute Arg1:T57 Arg2:T56	
+R12	Attribute Arg1:T54 Arg2:T57	
+R52	from Arg1:T60 Arg2:T59	
+R53	to Arg1:T60 Arg2:T61	
+R54	from Arg1:T67 Arg2:T58	
+R55	to Arg1:T67 Arg2:T61	
+R56	In_Out Arg1:T46 Arg2:T50	
+T69	MODALITY 690 697	whether
+R57	Attribute Arg1:T50 Arg2:T69	
+T19	REFERENCE 260 270	this paper
+T22	PERSON 272 274	we
+T35	PROCESS 275 280	focus
+T37	PERSON 509 511	we
+T68	PROCESS 512 519	propose
+T70	PERSON 748 750	We
+T71	PROCESS 751 755	show
+R13	Target Arg1:T35 Arg2:T20	
+R58	Condition Arg1:T25 Arg2:T20	
+R59	Condition Arg1:T28 Arg2:T20	
+R60	Agent Arg1:T35 Arg2:T22	
+R61	Condition Arg1:T35 Arg2:T19	
+R62	Agent Arg1:T68 Arg2:T37	
+R63	Output Arg1:T68 Arg2:T36	
+R64	Agent Arg1:T71 Arg2:T70	
+R65	Output Arg1:T71 Arg2:T56	

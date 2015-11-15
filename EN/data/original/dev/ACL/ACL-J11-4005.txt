@@ -1,0 +1,6 @@
+Annotating and Learning Event Durations in Text
+
+This article presents our work on constructing a corpus of news articles in which events are annotated for estimated bounds on their duration, and automatically learning from this corpus.
+We describe the annotation guidelines, the event classes we categorized to reduce gross discrepancies in inter-annotator judgments, and our use of normal distributions to model vague and implicit temporal information and to measure inter-annotator agreement for these event duration distributions.
+We then show that machine learning techniques applied to this data can produce coarse-grained event duration information automatically, considerably outperforming a baseline and approaching human performance.
+The methods described here should be applicable to other kinds of vague but substantive information in texts.

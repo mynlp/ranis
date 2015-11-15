@@ -1,0 +1,95 @@
+R1	Equivalence Arg1:T11 Arg2:T10
+R2	In_Out Arg1:T2 Arg2:T3
+R3	Input Arg1:T2 Arg2:T43
+R4	Apply-to Arg1:T2 Arg2:T4
+R5	Equivalence Arg1:T8 Arg2:T7
+A1	Self T5
+A2	Intentional T6
+R6	Agent Arg1:T6 Arg2:T5
+R7	Output Arg1:T6 Arg2:T7
+R8	Is-a Arg1:T8 Arg2:T9
+R9	Destination Arg1:T9 Arg2:T10
+R10	Is-a Arg1:T12 Arg2:T13
+R11	Coreference Arg1:T14 Arg2:T13
+R12	Attribute Arg1:T16 Arg2:T15
+R13	In_Out Arg1:T16 Arg2:T14
+R14	Input Arg1:T16 Arg2:T17
+R15	Attribute Arg1:T17 Arg2:T44
+R16	Destination Arg1:T45 Arg2:T19
+R17	Output Arg1:T45 Arg2:T20
+R19	Attribute Arg1:T23 Arg2:T22
+R20	Attribute Arg1:T23 Arg2:T21
+R21	Attribute Arg1:T23 Arg2:T20
+R22	Destination Arg1:T26 Arg2:T24
+R23	Attribute Arg1:T26 Arg2:T25
+R24	Coreference Arg1:T46 Arg2:T23
+R25	Output Arg1:T26 Arg2:T46
+R18	Apply-to Arg1:T18 Arg2:T45
+A3	Self T27
+A4	Intentional T28
+R26	Agent Arg1:T28 Arg2:T27
+R27	Input Arg1:T28 Arg2:T29
+R28	Apply-to Arg1:T28 Arg2:T30
+R29	Attribute Arg1:T32 Arg2:T31
+R30	Output Arg1:T28 Arg2:T32
+A5	Judgment T31
+A6	Self T33
+A7	Intentional T34
+R31	Agent Arg1:T34 Arg2:T33
+R32	Output Arg1:T34 Arg2:T35
+R33	Attribute Arg1:T37 Arg2:T36
+R34	Condition Arg1:T35 Arg2:T37
+A8	Self T40
+R35	Poss Arg1:T40 Arg2:T41
+R36	Member-collection Arg1:T42 Arg2:T41
+R37	Is-a Arg1:T41 Arg2:T37
+R38	Is-a Arg1:T38 Arg2:T37
+R39	Is-a Arg1:T39 Arg2:T37
+A9	Name T47
+T1	PLAN 0 4	FLSA
+T2	PROCESS 7 16	Extending
+T3	PLAN 17 41	Latent Semantic Analysis
+T43	DATA-ITEM 47 55	Features
+T4	PLAN-OR-PROCESS 60 87	Dialogue Act Classification
+T5	PERSON 90 92	We
+T6	PROCESS 93 100	discuss
+T7	PLAN 101 133	Feature Latent Semantic Analysis
+T8	PLAN 136 140	FLSA
+T9	PLAN-OR-PROCESS 148 157	extension
+T10	PLAN 161 185	Latent Semantic Analysis
+T11	PLAN 188 191	LSA
+T12	PLAN 196 199	LSA
+T13	PLAN 205 223	statistical method
+T14	REFERENCE 224 228	that
+T15	QUALITY 232 242	ordinarily
+T16	PROCESS 243 250	trained
+T17	DATA-ITEM 254 259	words
+T44	QUALITY 260 264	only
+T18	PLAN 267 271	FLSA
+T45	PROCESS 272 276	adds
+T19	PLAN 280 283	LSA
+T20	QUALITY 288 296	richness
+T21	QUANTITY 304 308	many
+T22	QUALITY 309 314	other
+T23	DATA-ITEM 315 334	linguistic features
+T46	REFERENCE 335 339	that
+T24	DATA-ITEM 342 348	corpus
+T25	MODALITY 349 352	may
+T26	PROCESS 356 363	labeled
+T27	PERSON 371 373	We
+T28	PROCESS 374 381	applied
+T29	PLAN 382 386	FLSA
+T30	PLAN-OR-PROCESS 390 417	dialogue act classification
+T31	QUALITY 423 432	excellent
+T32	DATA-ITEM 433 440	results
+T33	PERSON 443 445	We
+T34	PROCESS 446 452	report
+T35	DATA-ITEM 453 460	results
+T36	QUANTITY 464 469	three
+T37	DATA-ITEM 470 477	corpora
+T38	DATA-ITEM 480 496	CallHome Spanish
+T47	LANGUAGE 489 496	Spanish
+T39	DATA-ITEM 499 506	MapTask
+T40	PERSON 513 520	our own
+T41	DATA-ITEM 521 527	corpus
+T42	DATA-ITEM 531 549	tutoring dialogues

@@ -1,0 +1,180 @@
+T1	PLAN-OR-PROCESS 14 27	User Behavior
+T2	PLAN-OR-PROCESS 31 56	Online Feedback Reporting
+T3	PLAN 57 71	Online reviews
+T4	ATTRIBUTE 77 83	become
+T5	QUALITY 84 104	increasingly popular
+T6	PLAN 110 113	way
+T7	PROCESS 117 122	judge
+T8	DATA-ITEM 127 134	quality
+T9	QUALITY 138 145	various
+T10	DATA-ITEM 146 154	products
+T11	DATA-ITEM 159 167	services
+T12	EXTERNAL-REFERENCE 169 182	Previous work
+T13	PROCESS 187 199	demonstrated
+T14	QUALITY 205 218	contradictory
+T15	PROCESS 219 228	reporting
+T16	QUALITY 233 243	underlying
+T17	DATA-ITEM 244 255	user biases
+T18	RESULT 256 260	make
+T19	PROCESS 261 268	judging
+T20	DATA-ITEM 273 283	true worth
+T21	DATA-ITEM 289 296	service
+T22	REFERENCE 311 321	this paper
+T23	PERSON 323 325	we
+T24	PROCESS 326 337	investigate
+T25	THING 349 356	factors
+T26	REFERENCE 357 361	that
+T27	PROCESS 362 371	influence
+T28	PLAN-OR-PROCESS 372 385	user behavior
+T29	PROCESS 391 400	reporting
+T30	PLAN-OR-PROCESS 401 409	feedback
+T31	PERSON 411 413	We
+T32	PROCESS 414 418	look
+T33	QUANTITY 422 425	two
+T34	DATA-ITEM 426 433	sources
+T35	DATA-ITEM 437 448	information
+T36	PLAN-OR-PROCESS 457 474	numerical ratings
+T37	DATA-ITEM 476 495	linguistic evidence
+T38	DATA-ITEM 505 520	textual comment
+T39	PROCESS 521 533	accompanying
+T40	DATA-ITEM 536 542	review
+T41	DATA-ITEM 548 556	patterns
+T42	DATA-ITEM 564 577	time sequence
+T43	DATA-ITEM 581 588	reports
+T44	PERSON 590 592	We
+T45	PROCESS 599 603	show
+T46	PERSON 609 615	groups
+T47	PERSON 619 624	users
+T48	REFERENCE 625 628	who
+T49	QUALITY 629 634	amply
+T50	PROCESS 635 642	discuss
+T51	QUALITY 645 652	certain
+T52	DATA-ITEM 653 660	feature
+T53	QUALITY 665 676	more likely
+T54	PROCESS 680 685	agree
+T55	QUALITY 691 697	common
+T56	PLAN-OR-PROCESS 698 704	rating
+T57	DATA-ITEM 709 721	that feature
+T58	PERSON 731 733	we
+T59	PROCESS 734 738	show
+T60	PERSON 746 750	user
+T61	PLAN-OR-PROCESS 753 759	rating
+T62	QUALITY 760 766	partly
+T63	RESULT 767 775	reflects
+T64	QUALITY 780 790	difference
+T65	DATA-ITEM 799 811	true quality
+T66	OCCURENT 822 833	expectation
+T67	DATA-ITEM 837 844	quality
+T68	PROCESS 848 856	inferred
+T69	TIME 862 870	previous
+T70	DATA-ITEM 871 878	reviews
+T71	QUALITY 895 905	less noisy
+T72	PLAN 906 909	way
+T73	PROCESS 913 920	produce
+T74	PLAN-OR-PROCESS 921 937	rating estimates
+T75	PROCESS 942 948	reveal
+T76	THING 953 960	reasons
+T77	PERSON 968 972	user
+T78	PERSON 979 982	Our
+T79	PROCESS 983 993	hypotheses
+T80	PROCESS 999 1008	validated
+T81	QUALITY 1012 1023	statistical
+T82	DATA-ITEM 1024 1032	evidence
+T83	DATA-ITEM 1038 1051	hotel reviews
+T84	PLAN 1059 1078	TripAdvisor website
+T85	PROCESS 0 13	Understanding
+T86	PERSON 14 18	User
+R1	In_Out Arg1:T85 Arg2:T1	
+R2	to Arg1:T4 Arg2:T5	
+R3	from Arg1:T4 Arg2:T3	
+R4	Apply-to Arg1:T6 Arg2:T7	
+R5	Attribute Arg1:T10 Arg2:T9	
+R6	Attribute Arg1:T11 Arg2:T9	
+R7	Attribute Arg1:T10 Arg2:T8	
+R8	Attribute Arg1:T11 Arg2:T8	
+R9	Output Arg1:T7 Arg2:T8	
+R10	Is-a Arg1:T3 Arg2:T6	
+R11	Attribute Arg1:T15 Arg2:T14	
+R12	Attribute Arg1:T17 Arg2:T16	
+T87	PERSON 244 248	user
+T88	QUALITY 297 306	difficult
+R13	Output Arg1:T19 Arg2:T20	
+R14	Attribute Arg1:T21 Arg2:T20	
+R15	Attribute Arg1:T19 Arg2:T88	
+R16	to Arg1:T18 Arg2:T88	
+R17	from Arg1:T18 Arg2:T17	
+R18	from Arg1:T18 Arg2:T15	
+R19	Condition Arg1:T13 Arg2:T12	
+A1	Self T22
+A2	Self T23
+A3	Intentional T24
+R20	Agent Arg1:T24 Arg2:T23	
+R21	Condition Arg1:T24 Arg2:T22	
+T89	QUALITY 338 348	underlying
+R22	Attribute Arg1:T25 Arg2:T89	
+R23	Coreference Arg1:T26 Arg2:T25	
+T90	PERSON 372 376	user
+R24	In_Out Arg1:T27 Arg2:T28	
+R25	Result Arg1:T26 Arg2:T27	
+R26	Output Arg1:T29 Arg2:T30	
+R28	In_Out Arg1:T24 Arg2:T25	
+A4	Self T31
+A5	Intentional T32
+R29	Agent Arg1:T32 Arg2:T31	
+R30	Attribute Arg1:T34 Arg2:T33	
+R31	Condition Arg1:T34 Arg2:T35	
+R32	Target Arg1:T32 Arg2:T34	
+R33	Target Arg1:T32 Arg2:T36	
+R34	Target Arg1:T39 Arg2:T40	
+R35	Target Arg1:T39 Arg2:T38	
+R36	Attribute Arg1:T43 Arg2:T42	
+R37	Attribute Arg1:T42 Arg2:T41	
+R38	Component-object Arg1:T38 Arg2:T37	
+R39	Is-a Arg1:T37 Arg2:T34	
+R40	Is-a Arg1:T41 Arg2:T34	
+A6	Self T44
+A7	Intentional T45
+R41	Agent Arg1:T45 Arg2:T44	
+R42	Member-collection Arg1:T47 Arg2:T46	
+R43	Coreference Arg1:T48 Arg2:T47	
+R44	Attribute Arg1:T50 Arg2:T49	
+R45	Agent Arg1:T50 Arg2:T48	
+R46	Attribute Arg1:T52 Arg2:T51	
+R47	Output Arg1:T50 Arg2:T52	
+R48	Attribute Arg1:T54 Arg2:T53	
+R49	Agent Arg1:T54 Arg2:T48	
+R50	Attribute Arg1:T56 Arg2:T55	
+R51	Target Arg1:T54 Arg2:T56	
+R52	Coreference Arg1:T57 Arg2:T52	
+A8	Self T58
+A9	Intentional T59
+R53	Agent Arg1:T59 Arg2:T58	
+R54	Agent Arg1:T61 Arg2:T60	
+R55	Attribute Arg1:T63 Arg2:T62	
+R56	Target Arg1:T66 Arg2:T67	
+R57	Attribute Arg1:T65 Arg2:T64	
+R58	Attribute Arg1:T64 Arg2:T66	
+R59	from Arg1:T63 Arg2:T64	
+R60	to Arg1:T63 Arg2:T61	
+R61	Condition Arg1:T70 Arg2:T69	
+R62	Input Arg1:T68 Arg2:T70	
+R63	Output Arg1:T68 Arg2:T66	
+T91	TIME 816 821	prior
+R64	Condition Arg1:T66 Arg2:T91	
+R65	Attribute Arg1:T72 Arg2:T71	
+R66	Apply-to Arg1:T72 Arg2:T73	
+R67	Output Arg1:T73 Arg2:T74	
+R68	Apply-to Arg1:T72 Arg2:T75	
+T92	DATA-ITEM 968 977	user bias
+R69	Output Arg1:T75 Arg2:T76	
+R70	Condition Arg1:T76 Arg2:T92	
+A10	Self T78
+A11	Intentional T79
+R71	Agent Arg1:T79 Arg2:T78	
+R72	Target Arg1:T80 Arg2:T79	
+R73	Attribute Arg1:T82 Arg2:T81	
+R74	Input Arg1:T80 Arg2:T82	
+R75	Condition Arg1:T82 Arg2:T83	
+R76	Condition Arg1:T83 Arg2:T84	
+R27	Condition Arg1:T27 Arg2:T29	
+R77	Input Arg1:T56 Arg2:T57	

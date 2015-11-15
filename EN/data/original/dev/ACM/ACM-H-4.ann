@@ -1,0 +1,185 @@
+T1	PLAN 8 62	Task-based Personal Information Management Evaluations
+T2	PLAN 63 94	Personal Information Management
+T3	PLAN 96 99	PIM
+T4	QUALITY 106 121	rapidly growing
+T5	DOMAIN 122 126	area
+T6	PROCESS 130 138	research
+T7	QUALITY 139 148	concerned
+T8	PERSON 158 164	people
+T9	PROCESS 172 178	manage
+T10	DATA-ITEM 191 202	information
+T11	DATA-ITEM 206 213	feature
+T12	PLAN 217 229	PIM research
+T13	QUANTITY 238 242	many
+T14	PLAN 243 250	systems
+T15	PROCESS 261 269	designed
+T16	PROCESS 273 279	assist
+T17	PERSON 280 285	users
+T18	PROCESS 286 292	manage
+T19	DATA-ITEM 305 316	information
+T20	PLAN 322 330	very few
+T21	PROCESS 341 350	evaluated
+T22	REFERENCE 352 356	This
+T23	PROCESS 366 371	noted
+T24	QUANTITY 375 382	several
+T25	PERSON 383 391	scholars
+T26	PROCESS 396 405	explained
+T27	QUALITY 413 425	difficulties
+T28	ATTRIBUTE 426 434	involved
+T29	PROCESS 438 448	performing
+T30	PLAN 449 464	PIM evaluations
+T31	QUALITY 470 482	difficulties
+T32	IS-A 483 490	include
+T33	PERSON 496 502	people
+T34	PROCESS 503 510	re-find
+T35	DATA-ITEM 511 522	information
+T36	QUALITY 535 541	unique
+T37	DATA-ITEM 542 562	personal collections
+T38	PERSON 564 575	researchers
+T39	PROCESS 576 580	know
+T40	QUALITY 581 587	little
+T41	PLAN 598 603	tasks
+T42	REFERENCE 604 608	that
+T43	RESULT 609 614	cause
+T44	PERSON 615 621	people
+T45	PROCESS 625 632	re-find
+T46	DATA-ITEM 633 644	information
+T47	PLAN 650 673	numerous privacy issues
+T48	DATA-ITEM 685 705	personal information
+T49	REFERENCE 710 720	this paper
+T50	PERSON 721 723	we
+T51	PROCESS 724 727	aim
+T52	PROCESS 731 741	facilitate
+T53	PLAN 742 757	PIM evaluations
+T54	PROCESS 761 771	addressing
+T55	THING 780 798	these difficulties
+T56	PERSON 819 821	we
+T57	PROCESS 822 829	present
+T58	PLAN 832 843	diary study
+T59	PLAN 847 875	information re-finding tasks
+T60	PLAN 881 886	study
+T61	PROCESS 887 895	examines
+T62	PLAN 908 913	tasks
+T63	REFERENCE 914 918	that
+T64	QUALITY 919 926	require
+T65	PERSON 927 932	users
+T66	PROCESS 936 943	re-find
+T68	DATA-ITEM 944 955	information
+T69	PROCESS 960 968	produces
+T70	PLAN 971 979	taxonomy
+T72	PLAN 983 999	re-finding tasks
+T73	DATA-ITEM 1004 1018	email messages
+T74	DATA-ITEM 1023 1032	web pages
+T75	PERSON 1054 1056	we
+T76	PROCESS 1057 1064	propose
+T77	PLAN 1067 1100	task-based evaluation methodology
+T78	APPLY-TO 1101 1109	based on
+T79	PERSON 1110 1113	our
+T80	PROCESS 1114 1122	findings
+T81	PROCESS 1127 1134	examine
+T82	DATA-ITEM 1139 1150	feasibility
+T83	PLAN 1158 1166	approach
+T84	APPLY-TO 1167 1172	using
+T85	QUANTITY 1173 1176	two
+T86	QUALITY 1177 1186	different
+T87	PLAN 1187 1194	methods
+T88	PLAN-OR-PROCESS 1198 1211	task creation
+R1	Equivalence Arg1:T3 Arg2:T2	
+R2	Attribute Arg1:T5 Arg2:T4	
+R3	Condition Arg1:T6 Arg2:T5	
+R4	Other-rel Arg1:T3 Arg2:T5	
+T89	PROCESS 165 170	store
+R5	Agent Arg1:T89 Arg2:T8	
+R6	Agent Arg1:T9 Arg2:T8	
+R7	Target Arg1:T9 Arg2:T10	
+R8	Target Arg1:T89 Arg2:T10	
+R9	Attribute Arg1:T6 Arg2:T7	
+R10	Condition Arg1:T7 Arg2:T89	
+R11	Condition Arg1:T7 Arg2:T9	
+R12	Attribute Arg1:T12 Arg2:T11	
+R13	Attribute Arg1:T14 Arg2:T13	
+R14	Output Arg1:T15 Arg2:T14	
+R15	Apply-to Arg1:T15 Arg2:T16	
+R17	Target Arg1:T16 Arg2:T17	
+T90	PROCESS 183 190	re-find
+R18	Agent Arg1:T90 Arg2:T8	
+R19	In_Out Arg1:T90 Arg2:T10	
+R20	Condition Arg1:T7 Arg2:T90	
+T91	PROCESS 297 304	re-find
+R16	Agent Arg1:T18 Arg2:T17	
+R21	Agent Arg1:T91 Arg2:T17	
+R22	In_Out Arg1:T91 Arg2:T19	
+R23	Target Arg1:T18 Arg2:T19	
+R24	In_Out Arg1:T21 Arg2:T20	
+R25	Attribute Arg1:T25 Arg2:T24	
+R26	Agent Arg1:T23 Arg2:T25	
+R27	Agent Arg1:T26 Arg2:T25	
+R28	Output Arg1:T29 Arg2:T30	
+R29	from Arg1:T28 Arg2:T29	
+R30	to Arg1:T28 Arg2:T27	
+R31	Other-rel Arg1:T26 Arg2:T27	
+R32	Output Arg1:T23 Arg2:T22	
+R33	Output Arg1:T26 Arg2:T22	
+R34	Coreference Arg1:T22 Arg2:T11	
+R35	Agent Arg1:T34 Arg2:T33	
+R36	Output Arg1:T34 Arg2:T35	
+R37	Attribute Arg1:T37 Arg2:T36	
+R38	Input Arg1:T34 Arg2:T37	
+R39	Attribute Arg1:T39 Arg2:T40	
+R40	Agent Arg1:T39 Arg2:T38	
+R41	In_Out Arg1:T39 Arg2:T41	
+R42	Coreference Arg1:T42 Arg2:T41	
+R43	Agent Arg1:T45 Arg2:T44	
+R44	In_Out Arg1:T45 Arg2:T46	
+R45	Condition Arg1:T47 Arg2:T48	
+R46	to Arg1:T32 Arg2:T31	
+R47	from Arg1:T32 Arg2:T47	
+R48	to Arg1:T43 Arg2:T45	
+R49	from Arg1:T43 Arg2:T42	
+A1	Self T49
+A2	Self T50
+A3	Intentional T51
+R50	Agent Arg1:T51 Arg2:T50	
+R51	Condition Arg1:T51 Arg2:T49	
+R52	Target Arg1:T51 Arg2:T52	
+R53	Target Arg1:T52 Arg2:T53	
+R54	Apply-to Arg1:T54 Arg2:T52	
+R55	In_Out Arg1:T54 Arg2:T55	
+R56	Coreference Arg1:T55 Arg2:T31	
+A4	Self T56
+A5	Intentional T57
+R57	Agent Arg1:T57 Arg2:T56	
+R58	Output Arg1:T57 Arg2:T58	
+R59	Condition Arg1:T58 Arg2:T59	
+R60	In_Out Arg1:T66 Arg2:T68	
+R61	Agent Arg1:T66 Arg2:T65	
+R62	Input Arg1:T72 Arg2:T73	
+R63	Input Arg1:T72 Arg2:T74	
+R64	Condition Arg1:T70 Arg2:T72	
+R65	Output Arg1:T69 Arg2:T70	
+A6	Intentional T69
+R66	Condition Arg1:T69 Arg2:T60	
+A7	Intentional T61
+R67	Condition Arg1:T61 Arg2:T60	
+R69	Attribute Arg1:T66 Arg2:T64	
+R68	Condition Arg1:T64 Arg2:T63	
+R70	Coreference Arg1:T63 Arg2:T62	
+R71	In_Out Arg1:T61 Arg2:T62	
+A8	Self T75
+A9	Intentional T76
+R72	Agent Arg1:T76 Arg2:T75	
+R73	Output Arg1:T76 Arg2:T77	
+A10	Self T79
+R74	Poss Arg1:T79 Arg2:T80	
+R75	from Arg1:T78 Arg2:T80	
+R76	from Arg1:T78 Arg2:T77	
+A11	Intentional T81
+R77	Agent Arg1:T81 Arg2:T75	
+R78	In_Out Arg1:T81 Arg2:T82	
+R79	Attribute Arg1:T83 Arg2:T82	
+R80	Attribute Arg1:T87 Arg2:T86	
+R81	Attribute Arg1:T87 Arg2:T85	
+R82	Apply-to Arg1:T87 Arg2:T88	
+R83	from Arg1:T84 Arg2:T87	
+R84	to Arg1:T84 Arg2:T83	
+R85	Member-collection Arg1:T20 Arg2:T14	

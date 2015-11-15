@@ -1,0 +1,103 @@
+R1	from Arg1:T2 Arg2:T3
+R2	to Arg1:T2 Arg2:T1
+A1	Name T47
+A2	Name T48
+A3	Name T49
+A4	Judgment T7
+R3	Apply-to Arg1:T5 Arg2:T4
+R4	Attribute Arg1:T5 Arg2:T7
+R5	Compare Arg1:T51 Arg2:T7
+R6	Compare Arg1:T8 Arg2:T7
+A5	Name T52
+R7	Attribute Arg1:T16 Arg2:T15
+R8	Attribute Arg1:T16 Arg2:T14
+R9	Attribute Arg1:T17 Arg2:T14
+R10	Output Arg1:T13 Arg2:T14
+R11	Apply-to Arg1:T12 Arg2:T13
+R14	Coreference Arg1:T18 Arg2:T10
+R15	Coreference Arg1:T18 Arg2:T11
+R16	Poss Arg1:T18 Arg2:T19
+R17	Condition Arg1:T14 Arg2:T19
+R12	Apply-to Arg1:T24 Arg2:T23
+R13	Attribute Arg1:T23 Arg2:T22
+R18	Attribute Arg1:T23 Arg2:T21
+R19	In_Out Arg1:T23 Arg2:T20
+R20	Coreference Arg1:T20 Arg2:T14
+R21	Component-object Arg1:T9 Arg2:T12
+A6	Self T25
+A7	Intentional T26
+R22	Agent Arg1:T26 Arg2:T25
+R23	Output Arg1:T26 Arg2:T27
+R24	from Arg1:T28 Arg2:T29
+R25	to Arg1:T28 Arg2:T27
+R26	Attribute Arg1:T33 Arg2:T32
+R27	In_Out Arg1:T33 Arg2:T31
+R28	Apply-to Arg1:T34 Arg2:T33
+R29	Component-object Arg1:T35 Arg2:T34
+R30	Coreference Arg1:T30 Arg2:T27
+R31	Component-object Arg1:T30 Arg2:T35
+R32	Input Arg1:T36 Arg2:T37
+R33	Coreference Arg1:T38 Arg2:T27
+A8	Judgment T39
+R34	Attribute Arg1:T38 Arg2:T39
+R35	Condition Arg1:T41 Arg2:T40
+R36	Compare Arg1:T41 Arg2:T39
+R37	Result Arg1:T36 Arg2:T39
+R38	from Arg1:T42 Arg2:T44
+R39	to Arg1:T42 Arg2:T41
+R40	Condition Arg1:T5 Arg2:T6
+R41	Input Arg1:T13 Arg2:T11
+R42	Input Arg1:T13 Arg2:T10
+A9	Name T46
+A10	Name T45
+T1	PLAN-OR-PROCESS 0 27	Japanese Dependency Parsing
+T45	LANGUAGE 0 8	Japanese
+T2	APPLY-TO 28 33	Using
+T3	PLAN 36 52	Tournament Model
+T4	PLAN-OR-PROCESS 58 85	Japanese dependency parsing
+T46	LANGUAGE 58 66	Japanese
+T5	PLAN 88 128	Kudo 's relative preference-based method
+T47	PERSON 88 92	Kudo
+T6	EXTERNAL-REFERENCE 131 156	Kudo and Matsumoto , 2005
+T48	PERSON 131 135	Kudo
+T49	PERSON 140 149	Matsumoto
+T50	TIME 152 156	2005
+T7	QUALITY 159 170	outperforms
+T51	PLAN 176 189	deterministic
+T8	PLAN 194 233	probabilistic CKY-based parsing methods
+T9	PLAN 239 253	Kudo 's method
+T52	PERSON 239 243	Kudo
+T10	DATA-ITEM 265 279	dependent word
+T11	DATA-ITEM 285 290	chunk
+T12	PLAN 295 310	loglinear model
+T13	PROCESS 311 320	estimates
+T14	DATA-ITEM 321 340	relative preference
+T15	QUANTITY 344 347	all
+T16	DATA-ITEM 348 369	other candidate words
+T17	DATA-ITEM 375 381	chunks
+T18	REFERENCE 397 400	its
+T19	DATA-ITEM 401 405	head
+T20	REFERENCE 408 412	This
+T21	MODALITY 413 416	can
+T22	MODALITY 417 420	not
+T23	PROCESS 424 434	considered
+T24	PLAN 442 471	deterministic parsing methods
+T25	PERSON 474 476	We
+T26	PROCESS 477 484	propose
+T27	PLAN 488 497	algorithm
+T28	APPLY-TO 498 506	based on
+T29	PLAN 509 525	tournament model
+T30	REFERENCE 531 536	which
+T31	DATA-ITEM 541 561	relative preferences
+T32	QUALITY 566 574	directly
+T33	PROCESS 575 582	modeled
+T34	PLAN 586 602	one-on-one games
+T35	PLAN 608 630	step-ladder tournament
+T36	PLAN 639 660	evaluation experiment
+T37	DATA-ITEM 666 695	Kyoto Text Corpus Version 4.0
+T38	PLAN 702 717	proposed method
+T39	QUALITY 718 729	outperforms
+T40	TIME 730 738	previous
+T41	PLAN 739 749	approaches
+T42	IS-A 752 761	including
+T44	PLAN 766 798	relative preference-based method

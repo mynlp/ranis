@@ -1,0 +1,9 @@
+Unsupervised Concept Discovery In Hebrew Using Simple Unsupervised Word Prefix Segmentation for Hebrew and Arabic .
+Fully unsupervised pattern-based methods for discovery of word categories have been proven to be useful in several languages .
+The majority of these methods rely on the existence of function words as separate text units .
+However , in morphology-rich languages , in particular Semitic languages such as Hebrew and Arabic , the equivalents of such function words are usually written as morphemes attached as prefixes to other words .
+As a result , they are missed by word-based pattern discovery methods , causing many useful patterns to be undetected and a drastic deterioration in performance .
+To enable high quality lexical category acquisition , we propose a simple unsupervised word segmentation algorithm that separates these morphemes .
+We study the performance of the algorithm for Hebrew and Arabic , and show that it indeed improves a state-of-art unsupervised concept acquisition algorithm in Hebrew .
+
+

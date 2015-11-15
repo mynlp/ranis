@@ -1,0 +1,15 @@
+A Multistrategy Approach to Improving Pronunciation by Analogy
+
+Pronunciation by analogy (PbA) is a data-driven method for relating letters to sound, with potential application to next-generation text-to-speech systems.
+This paper extends previous work on PbA in several directions.
+First, we have included ``full'' pattern matching between input letter string and dictionary entries, as well as including lexical stress in letter-to-phoneme conversion.
+Second, we have extended the method to phoneme-to-letter conversion.
+Third, and most important, we have experimented with multiple, different strategies for scoring the candidate pronunciations.
+Individual scores for each strategy are obtained on the basis of rank and either multiplied or summed to produce a final, overall score.
+Five strategies have been studied and results obtained from all 31 possible combinations.
+The two combination methods perform comparably, with the product rule only very marginally superior to the sum rule.
+Nonparametric statistical analysis reveals that performance improves as more strategies are included in the combination: this trend is very highly significant (p << 0.0005).
+Accordingly for letter-to-phoneme conversion, best results are obtained when all five strategies are combined: word accuracy is raised to 65.5% relative to 61.7% for our best previous result and 63.0% for the best-performing single strategy.
+These improvements are very highly significant (p ~ 0 and p = 0.00011 respectively).
+Similar results were found for phoneme-to-letter and letter-to-stress conversion, although the former was an easier problem for PbA than letter-to-phoneme conversion and the latter was harder.
+The main sources of error for the multistrategy approach are very similar to those for the best single strategy, and mostly involve vowel letters and phonemes.

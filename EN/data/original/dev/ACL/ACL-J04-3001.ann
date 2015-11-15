@@ -1,0 +1,141 @@
+T1	PLAN-OR-PROCESS 0 16	Sample Selection
+T2	PLAN-OR-PROCESS 21 40	Statistical Parsing
+T3	PLAN 42 74	Corpus-based statistical parsing
+T4	PROCESS 75 81	relies
+T5	PROCESS 85 90	using
+T6	QUANTITY 91 107	large quantities
+T8	DATA-ITEM 111 125	annotated text
+T9	DATA-ITEM 129 146	training examples
+T10	PROCESS 148 156	Building
+T11	DATA-ITEM 170 178	resource
+T12	QUALITY 182 191	expensive
+T13	QUALITY 196 211	labor-intensive
+T14	APPLY-TO 235 238	use
+T15	PLAN-OR-PROCESS 239 255	sample selection
+T16	PROCESS 259 263	find
+T17	DATA-ITEM 272 289	training examples
+T18	PROCESS 294 300	reduce
+T19	DATA-ITEM 301 313	human effort
+T20	PROCESS 314 319	spent
+T21	PROCESS 323 333	annotating
+T22	REFERENCE 351 355	ones
+T23	PERSON 357 359	We
+T24	PROCESS 360 368	consider
+T25	QUANTITY 369 376	several
+T26	PLAN 377 385	criteria
+T27	PROCESS 390 400	predicting
+T28	MODALITY 401 408	whether
+T29	DATA-ITEM 409 423	unlabeled data
+T30	MODALITY 424 429	might
+T31	QUALITY 435 442	helpful
+T32	DATA-ITEM 443 459	training example
+T33	PLAN 461 472	Experiments
+T34	PROCESS 477 486	performed
+T35	QUANTITY 494 497	two
+T36	PLAN 498 522	syntactic learning tasks
+T37	QUANTITY 538 544	single
+T38	PLAN-OR-PROCESS 545 549	task
+T39	PLAN-OR-PROCESS 553 560	parsing
+T40	QUANTITY 568 571	two
+T41	PLAN 572 587	learning models
+T42	PROCESS 591 598	compare
+T43	PROCESS 603 609	effect
+T44	QUALITY 613 622	different
+T45	PLAN 623 642	predictive criteria
+T46	PERSON 644 646	We
+T47	PROCESS 647 651	find
+T48	PLAN-OR-PROCESS 657 673	sample selection
+T49	MODALITY 674 677	can
+T50	QUALITY 678 691	significantly
+T51	PROCESS 692 698	reduce
+T52	DATA-ITEM 703 707	size
+T53	DATA-ITEM 711 737	annotated training corpora
+T54	PLAN 747 758	uncertainty
+T55	QUALITY 764 770	robust
+T56	PLAN 771 791	predictive criterion
+T57	REFERENCE 792 796	that
+T58	MODALITY 797 800	can
+T59	QUALITY 804 810	easily
+T60	APPLY-TO 811 818	applied
+T61	QUALITY 822 831	different
+T62	PLAN 832 847	learning models
+R1	Apply-to Arg1:T1 Arg2:T2	
+R2	Attribute Arg1:T8 Arg2:T6	
+R4	Is-a Arg1:T8 Arg2:T9	
+R6	Input Arg1:T5 Arg2:T8	
+R8	Output Arg1:T10 Arg2:T65	
+R9	Attribute Arg1:T10 Arg2:T12	
+R10	Attribute Arg1:T10 Arg2:T13	
+A1	Judgment T12
+A2	Judgment T13
+T7	REFERENCE 213 222	This work
+T63	PROCESS 223 231	proposes
+A3	Intentional T63
+R11	Condition Arg1:T63 Arg2:T7	
+R12	Output Arg1:T63 Arg2:T14	
+T64	QUALITY 264 271	helpful
+A4	Judgment T64
+R13	Attribute Arg1:T17 Arg2:T64	
+R14	In_Out Arg1:T16 Arg2:T17	
+R15	to Arg1:T14 Arg2:T16	
+R16	from Arg1:T14 Arg2:T15	
+T65	DATA-ITEM 157 166	this kind
+R17	Coreference Arg1:T65 Arg2:T8	
+R18	Member-collection Arg1:T65 Arg2:T11	
+A5	Self T7
+R19	In_Out Arg1:T18 Arg2:T19	
+R20	Output Arg1:T63 Arg2:T18	
+R21	Output Arg1:T20 Arg2:T19	
+R22	Condition Arg1:T20 Arg2:T21	
+T66	QUALITY 334 350	less informative
+A6	Judgment T66
+R23	Attribute Arg1:T22 Arg2:T66	
+R24	Coreference Arg1:T22 Arg2:T17	
+R25	Output Arg1:T21 Arg2:T22	
+A7	Self T23
+A8	Intentional T24
+R26	Agent Arg1:T24 Arg2:T23	
+R27	Attribute Arg1:T26 Arg2:T25	
+R28	In_Out Arg1:T24 Arg2:T26	
+R29	Attribute Arg1:T31 Arg2:T30	
+R30	Attribute Arg1:T31 Arg2:T28	
+R31	Output Arg1:T27 Arg2:T31	
+R32	Attribute Arg1:T32 Arg2:T31	
+R33	Apply-to Arg1:T26 Arg2:T27	
+R34	Output Arg1:T34 Arg2:T33	
+R35	Attribute Arg1:T36 Arg2:T35	
+R37	Attribute Arg1:T38 Arg2:T37	
+R38	Attribute Arg1:T41 Arg2:T40	
+R39	Attribute Arg1:T45 Arg2:T44	
+R40	Result Arg1:T45 Arg2:T43	
+R41	In_Out Arg1:T42 Arg2:T43	
+R42	Apply-to Arg1:T39 Arg2:T41	
+R43	Is-a Arg1:T39 Arg2:T38	
+R45	Apply-to Arg1:T34 Arg2:T42	
+A9	Self T46
+R46	Agent Arg1:T47 Arg2:T46	
+R47	Attribute Arg1:T51 Arg2:T50	
+R48	Attribute Arg1:T51 Arg2:T49	
+R49	Apply-to Arg1:T48 Arg2:T51	
+R50	Attribute Arg1:T53 Arg2:T52	
+R51	In_Out Arg1:T51 Arg2:T52	
+R52	Attribute Arg1:T56 Arg2:T55	
+R53	Is-a Arg1:T54 Arg2:T56	
+R54	Coreference Arg1:T57 Arg2:T56	
+R55	Attribute Arg1:T62 Arg2:T61	
+R56	from Arg1:T60 Arg2:T57	
+R57	to Arg1:T60 Arg2:T62	
+R58	Attribute Arg1:T60 Arg2:T59	
+R59	Attribute Arg1:T60 Arg2:T58	
+R60	In_Out Arg1:T47 Arg2:T51	
+A11	Judgment T59
+R61	In_Out Arg1:T47 Arg2:T54	
+R3	Target Arg1:T4 Arg2:T5	
+R7	Attribute Arg1:T3 Arg2:T9	
+R5	Apply-to Arg1:T3 Arg2:T4	
+R62	Is-a Arg1:T29 Arg2:T32	
+A13	Intentional T34
+R36	Input Arg1:T33 Arg2:T36	
+R44	Input Arg1:T33 Arg2:T38	
+A10	Judgment T51
+A12	Judgment T55

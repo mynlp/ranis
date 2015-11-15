@@ -1,0 +1,7 @@
+Substring-Based Transliteration .
+Transliteration is the task of converting a word from one alphabetic script to another .
+We present a novel , substring-based approach to transliteration , inspired by phrasebased models of machine translation .
+We investigate two implementations of substring-based transliteration : a dynamic programming algorithm , and a finite-state transducer .
+We show that our substring-based transducer not only outperforms a state-of-the-art letter-based approach by a significant margin , but is also orders of magnitude faster .
+
+

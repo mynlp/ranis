@@ -1,0 +1,116 @@
+T1	PLAN-OR-PROCESS 0 45	Dependency Based Chinese Sentence Realization
+T2	PLAN 69 86	log-linear models
+T3	PLAN 93 126	general-purpose sentence realizer
+T4	INPUT 127 135	based on
+T5	DATA-ITEM 136 157	dependency structures
+T6	QUALITY 159 165	Unlike
+T7	PLAN 166 187	traditional realizers
+T8	APPLY-TO 188 193	using
+T9	PLAN 194 207	grammar rules
+T10	PERSON 209 212	our
+T11	PLAN 213 219	method
+T12	PROCESS 220 228	realizes
+T13	DATA-ITEM 229 238	sentences
+T14	PROCESS 242 253	linearizing
+T15	DATA-ITEM 254 274	dependency relations
+T16	QUALITY 275 283	directly
+T17	QUANTITY 287 290	two
+T18	PLAN 291 296	steps
+T19	DATA-ITEM 309 323	relative order
+T20	DATA-ITEM 332 336	head
+T21	DATA-ITEM 346 355	dependent
+T22	PROCESS 359 369	determined
+T23	REFERENCE 373 378	their
+T24	DATA-ITEM 379 398	dependency relation
+T25	QUALITY 409 413	best
+T26	PLAN-OR-PROCESS 414 428	linearizations
+T27	QUALITY 429 439	compatible
+T28	DATA-ITEM 449 463	relative order
+T29	PROCESS 468 476	selected
+T30	PLAN 480 497	log-linear models
+T31	PLAN 503 520	log-linear models
+T32	PROCESS 521 532	incorporate
+T33	QUANTITY 533 538	three
+T34	DATA-ITEM 539 544	types
+T35	DATA-ITEM 548 565	feature functions
+T36	MEMBER-COLLECTION 567 576	including
+T37	DATA-ITEM 577 599	dependency rela- tions
+T38	DATA-ITEM 601 614	surface words
+T39	DATA-ITEM 619 628	headwords
+T40	PERSON 630 633	Our
+T41	PLAN 634 642	approach
+T42	PLAN-OR-PROCESS 646 666	sentence realization
+T43	RESULT 667 675	provides
+T44	QUALITY 676 686	simplicity
+T45	QUALITY 688 698	efficiency
+T46	QUALITY 703 723	competitive accuracy
+T47	PROCESS 725 732	Trained
+T48	QUANTITY 736 741	8,975
+T49	DATA-ITEM 742 763	dependency structures
+T50	DATA-ITEM 769 796	Chinese Dependency Treebank
+T51	PLAN 802 810	realizer
+T52	RESULT 811 819	achieves
+T53	DATA-ITEM 822 832	BLEU score
+T54	QUANTITY 836 842	0.8874
+T55	REFERENCE 48 58	This paper
+A1	Self T55
+T56	PROCESS 59 68	describes
+A2	Intentional T56
+R1	Condition Arg1:T56 Arg2:T55	
+R2	Output Arg1:T56 Arg2:T2	
+R3	Apply-to Arg1:T2 Arg2:T3	
+R4	from Arg1:T4 Arg2:T3	
+R5	to Arg1:T4 Arg2:T5	
+R6	from Arg1:T8 Arg2:T9	
+R7	to Arg1:T8 Arg2:T7	
+A3	Self T10
+R8	Poss Arg1:T10 Arg2:T11	
+R9	Attribute Arg1:T11 Arg2:T6	
+R10	Compare Arg1:T7 Arg2:T6	
+R11	Apply-to Arg1:T11 Arg2:T12	
+R12	In_Out Arg1:T12 Arg2:T13	
+R13	Apply-to Arg1:T14 Arg2:T12	
+R14	In_Out Arg1:T14 Arg2:T15	
+R15	Attribute Arg1:T18 Arg2:T17	
+R16	Attribute Arg1:T14 Arg2:T16	
+R17	Other-rel Arg1:T14 Arg2:T18	
+R18	Attribute Arg1:T20 Arg2:T19	
+R19	Attribute Arg1:T21 Arg2:T19	
+R20	Output Arg1:T22 Arg2:T19	
+R21	Member-collection Arg1:T21 Arg2:T23	
+R22	Member-collection Arg1:T20 Arg2:T23	
+R23	Attribute Arg1:T24 Arg2:T23	
+R24	Attribute Arg1:T26 Arg2:T25	
+A4	Judgment T25
+R25	Attribute Arg1:T26 Arg2:T27	
+R26	Condition Arg1:T27 Arg2:T28	
+R27	In_Out Arg1:T29 Arg2:T26	
+R28	Apply-to Arg1:T30 Arg2:T29	
+R29	Apply-to Arg1:T31 Arg2:T32	
+R30	Attribute Arg1:T34 Arg2:T33	
+R31	Member-collection Arg1:T34 Arg2:T35	
+R32	In_Out Arg1:T32 Arg2:T34	
+R33	to Arg1:T36 Arg2:T34	
+R34	from Arg1:T36 Arg2:T37	
+R35	from Arg1:T36 Arg2:T38	
+R36	from Arg1:T36 Arg2:T39	
+A5	Self T40
+R37	Poss Arg1:T40 Arg2:T41	
+R38	Apply-to Arg1:T41 Arg2:T42	
+R39	from Arg1:T43 Arg2:T41	
+R40	to Arg1:T43 Arg2:T44	
+R41	to Arg1:T43 Arg2:T45	
+R42	to Arg1:T43 Arg2:T46	
+A6	Judgment T44
+A7	Judgment T45
+A8	Judgment T46
+R43	Attribute Arg1:T49 Arg2:T48	
+T57	LANGUAGE 769 776	Chinese
+T58	LANGUAGE 17 24	Chinese
+R44	Component-object Arg1:T50 Arg2:T49	
+R45	Input Arg1:T47 Arg2:T49	
+R46	In_Out Arg1:T47 Arg2:T51	
+R47	Attribute Arg1:T53 Arg2:T54	
+R48	from Arg1:T52 Arg2:T47	
+R49	to Arg1:T52 Arg2:T54	
+R50	Attribute Arg1:T51 Arg2:T53	

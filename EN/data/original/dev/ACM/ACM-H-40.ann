@@ -1,0 +1,190 @@
+T1	LANGUAGE 61 70	Languages
+T2	QUALITY 51 60	Different
+T3	DATA-ITEM 37 47	Query Logs
+T4	INPUT 31 36	Using
+T5	PLAN 0 30	Cross-Lingual Query Suggestion
+T6	PLAN 71 87	Query suggestion
+T7	PROCESS 96 103	suggest
+T8	PROCESS 88 92	aims
+T9	DATA-ITEM 113 120	queries
+T10	QUALITY 104 112	relevant
+T11	DATA-ITEM 133 138	query
+T12	QUALITY 127 132	given
+T13	PROCESS 146 150	help
+T14	PERSON 151 156	users
+T15	QUALITY 157 163	better
+T16	PROCESS 164 171	specify
+T17	QUALITY 178 195	information needs
+T18	TIME 197 207	Previously
+T19	DATA-ITEM 223 228	terms
+T20	QUALITY 213 222	suggested
+T21	QUALITY 233 239	mostly
+T22	QUALITY 247 251	same
+T23	LANGUAGE 252 260	language
+T24	DATA-ITEM 268 279	input query
+T27	DATA-ITEM 357 362	query
+T28	LANGUAGE 370 378	language
+T29	QUANTITY 366 369	one
+T30	QUALITY 391 398	similar
+T31	QUALITY 402 410	relevant
+T32	DATA-ITEM 411 418	queries
+T33	LANGUAGE 428 437	languages
+T34	QUALITY 422 427	other
+T35	REFERENCE 306 308	it
+T36	PROCESS 299 305	extend
+R2	Coreference Arg1:T35 Arg2:T6	
+T37	QUALITY 447 461	very important
+T38	PLAN 465 474	scenarios
+T41	PLAN 526 555	cross-lingual keyword bidding
+T42	PLAN-OR-PROCESS 560 587	search engine advertisement
+T43	PROCESS 600 607	relying
+T44	PLAN 620 650	query translation technologies
+T45	QUALITY 611 619	existing
+T47	QUALITY 675 684	effective
+T48	PLAN 685 690	means
+T49	PROCESS 694 697	map
+T50	DATA-ITEM 702 713	input query
+T51	LANGUAGE 721 729	language
+T52	QUANTITY 717 720	one
+T53	DATA-ITEM 733 740	queries
+T54	QUALITY 748 753	other
+T55	LANGUAGE 754 762	language
+T56	DATA-ITEM 770 779	query log
+T57	QUALITY 781 790	Important
+T58	DATA-ITEM 807 832	cross-lingual information
+T59	DATA-ITEM 791 802;821 832	monolingual information
+T60	DATA-ITEM 841 867	word translation relations
+T61	DATA-ITEM 872 901	word co-occurrence statistics
+T62	INPUT 912 916	used
+T63	PROCESS 920 928	estimate
+T64	DATA-ITEM 933 963	cross-lingual query similarity
+T65	PLAN 971 991	discriminative model
+T66	PLAN-OR-PROCESS 993 1003	Benchmarks
+T67	PLAN 1028 1039	CLQS system
+T68	QUALITY 1018 1027	resulting
+T69	QUALITY 1040 1053	significantly
+T70	JUDGING-PROCESS 1054 1065	outperforms
+T71	PLAN 1068 1083	baseline system
+T72	PLAN 1093 1127	dictionary-based query translation
+T74	QUALITY 1142 1151	resulting
+T75	PROCESS 1160 1166	tested
+T76	LANGUAGE 1172 1178	French
+T77	LANGUAGE 1182 1189	English
+T78	PLAN 1172 1200	French to English CLIR tasks
+T80	DATA-ITEM 1204 1220	TREC collections
+T81	DATA-ITEM 1226 1233	results
+T83	QUALITY 1246 1266	higher effectiveness
+T84	PLAN 1288 1313	query translation methods
+T85	QUALITY 1276 1287	traditional
+T86	ATTRIBUTE 1234 1245	demonstrate
+R4	Attribute Arg1:T1 Arg2:T2	
+R5	Attribute Arg1:T9 Arg2:T10	
+R6	Attribute Arg1:T11 Arg2:T12	
+R7	Attribute Arg1:T16 Arg2:T15	
+R8	Attribute Arg1:T19 Arg2:T20	
+R10	Attribute Arg1:T23 Arg2:T22	
+R11	Attribute Arg1:T28 Arg2:T29	
+R12	Attribute Arg1:T32 Arg2:T30	
+R13	Attribute Arg1:T32 Arg2:T31	
+R14	Attribute Arg1:T33 Arg2:T34	
+T87	REFERENCE 439 443	This
+R15	Attribute Arg1:T87 Arg2:T37	
+R16	Coreference Arg1:T87 Arg2:T82	
+R17	Attribute Arg1:T44 Arg2:T45	
+R18	Attribute Arg1:T48 Arg2:T47	
+R19	Attribute Arg1:T51 Arg2:T52	
+R20	Attribute Arg1:T55 Arg2:T54	
+R21	Attribute Arg1:T59 Arg2:T57	
+R22	Attribute Arg1:T58 Arg2:T57	
+R23	Attribute Arg1:T67 Arg2:T68	
+R24	Attribute Arg1:T70 Arg2:T69	
+R26	Apply-to Arg1:T67 Arg2:T70	
+R28	Attribute Arg1:T84 Arg2:T85	
+T90	LANGUAGE 484 492	language
+T82	PLAN 312 342	cross-lingual query suggestion
+T91	PLAN 344 348	CLQS
+R27	Equivalence Arg1:T91 Arg2:T82	
+T92	PLAN 478 514	cross-language information retrieval
+T93	PLAN 516 520	CLIR
+R3	Equivalence Arg1:T93 Arg2:T92	
+T39	PLAN 655 659	CLQS
+T40	PLAN 1152 1156	CLQS
+T89	PLAN 1204 1208	TREC
+T94	REFERENCE 140 145	which
+R29	Coreference Arg1:T94 Arg2:T7	
+R1	Attribute Arg1:T40 Arg2:T74	
+T25	RESULT 1004 1008	show
+T26	REFERENCE 172 177	their
+R25	Poss Arg1:T26 Arg2:T17	
+R30	Coreference Arg1:T26 Arg2:T14	
+R31	to Arg1:T4 Arg2:T3	
+R32	from Arg1:T4 Arg2:T5	
+R33	Attribute Arg1:T3 Arg2:T1	
+R34	Target Arg1:T8 Arg2:T7	
+R35	Apply-to Arg1:T6 Arg2:T8	
+R36	Output Arg1:T7 Arg2:T9	
+R37	Input Arg1:T7 Arg2:T11	
+R38	Apply-to Arg1:T94 Arg2:T13	
+R39	Target Arg1:T13 Arg2:T14	
+R40	Agent Arg1:T16 Arg2:T14	
+R41	Output Arg1:T16 Arg2:T17	
+R42	Attribute Arg1:T24 Arg2:T23	
+R43	Attribute Arg1:T19 Arg2:T23	
+R44	Input Arg1:T36 Arg2:T35	
+R45	Output Arg1:T36 Arg2:T82	
+R46	Attribute Arg1:T27 Arg2:T28	
+T73	PROCESS 383 390	suggest
+R47	Output Arg1:T73 Arg2:T32	
+R48	Compare Arg1:T27 Arg2:T30	
+R49	Compare Arg1:T27 Arg2:T31	
+R50	Input Arg1:T73 Arg2:T27	
+R51	Attribute Arg1:T32 Arg2:T33	
+R52	Attribute Arg1:T92 Arg2:T38	
+R53	Attribute Arg1:T41 Arg2:T38	
+R54	Apply-to Arg1:T41 Arg2:T42	
+R55	Apply-to Arg1:T92 Arg2:T42	
+R56	Condition Arg1:T37 Arg2:T38	
+R57	Target Arg1:T43 Arg2:T45	
+T79	MODALITY 589 596	Instead
+R58	Attribute Arg1:T43 Arg2:T79	
+R59	Apply-to Arg1:T44 Arg2:T39	
+R60	Apply-to Arg1:T48 Arg2:T49	
+R61	Output Arg1:T49 Arg2:T50	
+R62	Destination Arg1:T49 Arg2:T53	
+R63	Attribute Arg1:T50 Arg2:T51	
+R64	Attribute Arg1:T53 Arg2:T55	
+R65	Condition Arg1:T53 Arg2:T56	
+R66	Is-a Arg1:T60 Arg2:T59	
+R67	Is-a Arg1:T60 Arg2:T58	
+R68	Is-a Arg1:T61 Arg2:T59	
+R69	Is-a Arg1:T61 Arg2:T58	
+R70	to Arg1:T62 Arg2:T58	
+R71	to Arg1:T62 Arg2:T59	
+R72	from Arg1:T62 Arg2:T63	
+R73	Output Arg1:T63 Arg2:T64	
+R75	from Arg1:T25 Arg2:T66	
+R76	to Arg1:T25 Arg2:T70	
+T88	APPLY-TO 1084 1089	based
+R77	from Arg1:T88 Arg2:T72	
+R78	to Arg1:T88 Arg2:T71	
+R79	Compare Arg1:T71 Arg2:T70	
+R80	Input Arg1:T75 Arg2:T40	
+R81	Apply-to Arg1:T40 Arg2:T78	
+R82	Input Arg1:T78 Arg2:T80	
+R83	from Arg1:T86 Arg2:T81	
+R84	to Arg1:T86 Arg2:T83	
+T96	COMPARE 1267 1271	than
+R85	from Arg1:T96 Arg2:T84	
+R86	to Arg1:T96 Arg2:T83	
+R74	Apply-to Arg1:T65 Arg2:T63	
+R9	Attribute Arg1:T22 Arg2:T21	
+T46	REFERENCE 284 294	this paper
+T95	PERSON 296 298	we
+R87	Agent Arg1:T36 Arg2:T95	
+R88	Condition Arg1:T36 Arg2:T46	
+T97	PERSON 380 382	we
+R89	Agent Arg1:T73 Arg2:T97	
+T98	PERSON 661 663	we
+T99	PROCESS 664 671	present
+R90	Agent Arg1:T99 Arg2:T98	
+R91	Output Arg1:T99 Arg2:T48	

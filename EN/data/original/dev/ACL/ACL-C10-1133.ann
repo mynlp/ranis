@@ -1,0 +1,122 @@
+T1	PLAN 0 27	Near-synonym Lexical Choice
+T2	DATA-ITEM 31 52	Latent Semantic Space
+T3	PLAN 69 104	near-synonym lexical choice problem
+T4	INPUT 105 110	using
+T5	DATA-ITEM 119 133	representation
+T6	QUALITY 113 118	novel
+T7	DATA-ITEM 137 150	near-synonyms
+T8	DATA-ITEM 161 169	contexts
+T9	DATA-ITEM 177 198	latent semantic space
+T10	PLAN 227 251	latent semantic analysis
+T11	PLAN 253 256	LSA
+T12	QUALITY 215 226	traditional
+T13	PLAN 263 268	model
+T14	PROCESS 272 277	built
+T15	THING 285 298	lexical level
+T16	DATA-ITEM 302 315	co-occurrence
+T17	REFERENCE 317 322	which
+T18	QUALITY 332 343	empirically
+T19	PROCESS 344 350	proven
+T20	QUALITY 357 366	effective
+T21	PROCESS 370 379	providing
+T22	DATA-ITEM 399 410	information
+T23	QUALITY 425 436	differences
+T24	QUALITY 418 424	subtle
+T25	DATA-ITEM 443 456	near-synonyms
+T26	APPLY-TO 461 470	employing
+T27	PLAN 471 490	supervised learning
+T28	DATA-ITEM 498 513	latent features
+T29	PLAN 519 525	system
+T30	OUTPUT 526 534	achieves
+T31	DATA-ITEM 538 546	accuracy
+T32	QUANTITY 550 555	74.5%
+T33	PLAN 561 587	``fill-in-the-blank'' task
+T34	QUALITY 593 604	improvement
+T35	PLAN 614 638	current state-of-the-art
+T36	QUALITY 642 667	statistically significant
+T38	QUALITY 701 709	subtlety
+T39	PLAN 691 697	notion
+T40	PROCESS 677 686	formalize
+T41	DATA-ITEM 722 730	relation
+T42	QUALITY 734 763	semantic space dimensionality
+T43	PLAN 771 789	this formalization
+T44	PLAN 798 813	learning models
+T45	APPLY-TO 765 770	Using
+T46	OCCURENT 830 840	intuitions
+T47	QUALITY 847 855	subtlety
+T48	QUANTITY 815 822	several
+T49	QUALITY 857 871	dimensionality
+T50	DATA-ITEM 877 884	context
+T51	PROCESS 889 899	quantified
+T52	PROCESS 916 922	tested
+T53	QUALITY 904 915	empirically
+R1	Attribute Arg1:T5 Arg2:T6	
+R2	Attribute Arg1:T10 Arg2:T12	
+R3	Equivalence Arg1:T11 Arg2:T10	
+T54	PERSON 259 262	our
+R4	Attribute Arg1:T19 Arg2:T18	
+R5	Attribute Arg1:T23 Arg2:T24	
+T55	PERSON 515 518	our
+T37	REFERENCE 718 721	its
+R6	Coreference Arg1:T37 Arg2:T39	
+T56	PERSON 794 797	our
+R7	Attribute Arg1:T46 Arg2:T48	
+R8	Coreference Arg1:T43 Arg2:T40	
+T57	QUALITY 380 398	higher dimensional
+R9	Attribute Arg1:T22 Arg2:T57	
+R10	Coreference Arg1:T17 Arg2:T13	
+R11	Attribute Arg1:T31 Arg2:T32	
+T58	REFERENCE 155 160	their
+R12	Coreference Arg1:T58 Arg2:T7	
+R13	Poss Arg1:T54 Arg2:T13	
+R14	Poss Arg1:T55 Arg2:T29	
+R15	Poss Arg1:T56 Arg2:T44	
+T60	PERSON 826 829	our
+R16	Poss Arg1:T60 Arg2:T46	
+R17	Attribute Arg1:T58 Arg2:T8	
+R18	Poss Arg1:T37 Arg2:T41	
+R19	Attribute Arg1:T52 Arg2:T53	
+R20	Condition Arg1:T1 Arg2:T2	
+R21	to Arg1:T4 Arg2:T5	
+R22	from Arg1:T4 Arg2:T3	
+R23	Attribute Arg1:T5 Arg2:T7	
+R24	Attribute Arg1:T5 Arg2:T8	
+T61	COMPARE 200 214	In contrast to
+R26	Output Arg1:T14 Arg2:T13	
+R27	Attribute Arg1:T16 Arg2:T15	
+R28	Input Arg1:T14 Arg2:T16	
+R29	Input Arg1:T19 Arg2:T17	
+R31	Attribute Arg1:T21 Arg2:T20	
+R32	Output Arg1:T21 Arg2:T22	
+R33	Compare Arg1:T25 Arg2:T23	
+R34	Attribute Arg1:T22 Arg2:T23	
+R35	from Arg1:T26 Arg2:T27	
+R36	Input Arg1:T27 Arg2:T28	
+R37	to Arg1:T26 Arg2:T29	
+R38	from Arg1:T30 Arg2:T29	
+R39	to Arg1:T30 Arg2:T31	
+R40	Condition Arg1:T30 Arg2:T33	
+R41	Compare Arg1:T35 Arg2:T34	
+R42	Attribute Arg1:T34 Arg2:T36	
+R43	Output Arg1:T40 Arg2:T39	
+R44	Attribute Arg1:T41 Arg2:T42	
+R45	Input Arg1:T40 Arg2:T41	
+R46	from Arg1:T45 Arg2:T43	
+R47	from Arg1:T45 Arg2:T44	
+R48	to Arg1:T45 Arg2:T51	
+R49	Attribute Arg1:T46 Arg2:T47	
+R50	Attribute Arg1:T46 Arg2:T49	
+R51	Attribute Arg1:T46 Arg2:T50	
+R52	Input Arg1:T51 Arg2:T46	
+R53	Input Arg1:T52 Arg2:T46	
+R25	Attribute Arg1:T8 Arg2:T9	
+R54	from Arg1:T61 Arg2:T10	
+R30	Attribute Arg1:T17 Arg2:T20	
+R55	Output Arg1:T19 Arg2:T20	
+T59	PERSON 54 56	We
+T62	PROCESS 57 64	explore
+R56	Agent Arg1:T62 Arg2:T59	
+R57	In_Out Arg1:T62 Arg2:T3	
+R58	to Arg1:T4 Arg2:T8	
+T63	PERSON 669 671	We
+R59	Agent Arg1:T40 Arg2:T63	

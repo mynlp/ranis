@@ -1,0 +1,135 @@
+T1	PLAN 0 49	Tree-Local Multicomponent Tree-Adjoining Grammars
+T2	PLAN 55 67	Shared Nodes
+T3	REFERENCE 69 81	This article
+T4	PROCESS 82 91	addresses
+T5	PLAN 96 103	problem
+T6	DATA-ITEM 113 129	expressive power
+T7	PLAN 133 156	tree-adjoining grammars
+T8	PLAN 158 162	TAGs
+T9	QUALITY 167 178	too limited
+T10	PROCESS 182 191	deal with
+T11	QUALITY 192 199	certain
+T12	DATA-ITEM 200 219	syntactic phenomena
+T13	PROCESS 241 251	scrambling
+T14	PLAN 255 280	free-word-order languages
+T15	PLAN 286 298	TAG variants
+T16	PROCESS 299 307	proposed
+T17	PROCESS 327 338	account for
+T18	PROCESS 339 349	scrambling
+T19	MODALITY 354 357	not
+T20	QUALITY 358 366	entirely
+T21	QUALITY 367 377	satisfying
+T22	REFERENCE 390 401	the article
+T23	PROCESS 402 412	introduces
+T24	QUALITY 416 427	alternative
+T25	PLAN-OR-PROCESS 428 437	extension
+T26	PLAN 441 444	TAG
+T27	REFERENCE 445 449	that
+T28	APPLY-TO 453 461	based on
+T29	PLAN 466 472	notion
+T30	PLAN 476 488	node sharing
+T31	IS-A 490 499	so-called
+T32	PLAN 500 560	(restricted) tree-local multicomponent TAG with shared nodes
+T34	PLAN 562 571	RSN-MCTAG
+T35	PLAN-OR-PROCESS 578 586	analysis
+T36	QUANTITY 590 594	some
+T37	DATA-ITEM 595 617	German scrambling data
+T38	PROCESS 621 629	sketched
+T39	PROCESS 642 646	show
+T40	PLAN-OR-PROCESS 652 670	this TAG extension
+T41	MODALITY 671 674	can
+T42	PROCESS 675 684	deal with
+T43	PROCESS 685 695	scrambling
+T44	PLAN 723 733	RSN-MCTAGs
+T45	PLAN 739 752	specific type
+T46	QUALITY 754 764	equivalent
+T47	QUALITY 765 771	simple
+T48	PLAN 772 800	range concatenation grammars
+T49	MODALITY 801 804	can
+T50	PROCESS 808 819	constructed
+T51	PLAN 839 855	these RSN-MCTAGs
+T52	QUALITY 860 884	mildly context-sensitive
+T53	QUALITY 889 902	in particular
+T55	PLAN 926 951	These specific RSN-MCTAGs
+T56	MODALITY 961 964	can
+T57	PROCESS 965 969	deal
+T58	MODALITY 970 973	not
+T59	QUANTITY 979 982	all
+T60	PLAN 983 1003	scrambling phenomena
+T61	QUALITY 1017 1034	arbitrarily large
+T62	DATA-ITEM 1035 1041	subset
+R1	Component-object Arg1:T1 Arg2:T2	
+A1	Self T3
+A2	Intentional T4
+R2	Condition Arg1:T4 Arg2:T3	
+R3	Target Arg1:T4 Arg2:T5	
+R4	Equivalence Arg1:T8 Arg2:T7	
+R6	Condition Arg1:T9 Arg2:T10	
+R7	Attribute Arg1:T12 Arg2:T11	
+R8	Target Arg1:T10 Arg2:T12	
+R9	Apply-to Arg1:T8 Arg2:T10	
+R5	Attribute Arg1:T6 Arg2:T9	
+R10	Attribute Arg1:T7 Arg2:T6	
+R11	In_Out Arg1:T13 Arg2:T14	
+R12	Target Arg1:T10 Arg2:T13	
+R13	Output Arg1:T17 Arg2:T18	
+T63	TIME 308 314	so far
+R14	Output Arg1:T16 Arg2:T15	
+R15	Attribute Arg1:T16 Arg2:T63	
+R16	Apply-to Arg1:T15 Arg2:T17	
+A3	Judgment T21
+R17	Attribute Arg1:T21 Arg2:T20	
+R19	Attribute Arg1:T15 Arg2:T21	
+A4	Self T22
+A5	Intentional T23
+R20	Condition Arg1:T23 Arg2:T22	
+R21	Attribute Arg1:T25 Arg2:T24	
+R22	In_Out Arg1:T25 Arg2:T26	
+R23	Output Arg1:T23 Arg2:T25	
+R24	Coreference Arg1:T27 Arg2:T25	
+R25	Is-a Arg1:T30 Arg2:T29	
+R26	from Arg1:T28 Arg2:T29	
+R27	to Arg1:T28 Arg2:T25	
+R28	Equivalence Arg1:T34 Arg2:T32	
+R29	to Arg1:T31 Arg2:T25	
+R30	from Arg1:T31 Arg2:T32	
+R31	Attribute Arg1:T37 Arg2:T36	
+R32	Input Arg1:T35 Arg2:T37	
+A6	Intentional T38
+R33	Output Arg1:T38 Arg2:T35	
+R34	Coreference Arg1:T40 Arg2:T25	
+R35	Attribute Arg1:T42 Arg2:T41	
+R36	Target Arg1:T42 Arg2:T43	
+R37	Apply-to Arg1:T40 Arg2:T42	
+R38	Apply-to Arg1:T38 Arg2:T39	
+R39	Output Arg1:T39 Arg2:T42	
+T33	PROCESS 708 713	shown
+A7	Intentional T33
+A8	Intentional T39
+R40	Attribute Arg1:T48 Arg2:T47	
+R41	Attribute Arg1:T47 Arg2:T46	
+R42	Output Arg1:T50 Arg2:T48	
+R43	Member-collection Arg1:T45 Arg2:T44	
+R44	Attribute Arg1:T50 Arg2:T49	
+R45	Condition Arg1:T50 Arg2:T45	
+T64	QUALITY 903 924	polynomially parsable
+R46	Attribute Arg1:T64 Arg2:T53	
+R47	Attribute Arg1:T51 Arg2:T52	
+R48	Attribute Arg1:T51 Arg2:T64	
+T65	QUALITY 952 960	probably
+R49	Coreference Arg1:T51 Arg2:T45	
+R50	Coreference Arg1:T55 Arg2:T51	
+R51	Attribute Arg1:T57 Arg2:T56	
+R52	Attribute Arg1:T56 Arg2:T65	
+T54	PROCESS 974 978	with
+R53	Split Arg1:T54 Arg2:T57	
+R54	Attribute Arg1:T60 Arg2:T59	
+R55	Target Arg1:T57 Arg2:T60	
+R56	Apply-to Arg1:T55 Arg2:T57	
+R57	Attribute Arg1:T62 Arg2:T61	
+R58	Attribute Arg1:T54 Arg2:T58	
+T66	PROCESS 1009 1013	with
+R59	Split Arg1:T66 Arg2:T57	
+R60	Target Arg1:T66 Arg2:T62	
+A9	Intentional T16
+R18	Attribute Arg1:T20 Arg2:T19	

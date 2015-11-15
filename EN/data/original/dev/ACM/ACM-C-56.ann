@@ -1,0 +1,101 @@
+T1	PLAN-OR-PROCESS 2 40	Hierarchical Process Execution Support
+T2	PLAN-OR-PROCESS 45 59	Grid Computing
+T3	ARTIFACT 60 64	Grid
+T4	ARTIFACT 80 94	infrastructure
+T5	QUALITY 71 79	emerging
+T7	PROCESS 103 108	share
+T8	PLAN-OR-PROCESS 109 118	resources
+T9	ORGANIZATION 125 146	virtual organizations
+T10	QUALITY 152 167	seamless manner
+T11	PROCESS 175 182	provide
+T12	THING 196 211	computing power
+T13	QUALITY 215 223	low cost
+T15	TIME 225 233	Nowadays
+T16	QUANTITY 244 250	dozens
+T17	PLAN 254 262;278 286	academic products
+T18	PLAN 267 286	commercial products
+T19	PROCESS 292 297	allow
+T20	PROCESS 298 307	execution
+T21	PLAN-OR-PROCESS 311 325	isolated tasks
+T22	ARTIFACT 329 334	grids
+T23	QUANTITY 340 343	few
+T24	PLAN 344 352	products
+T25	PROCESS 353 360	support
+T26	PLAN-OR-PROCESS 365 374	enactment
+T27	PROCESS 378 400	long-running processes
+T28	QUALITY 406 425	distributed fashion
+T31	PLAN 483 500	programming model
+T32	PLAN 508 522	infrastructure
+T33	QUALITY 528 542	hierarchically
+T34	PROCESS 543 552	schedules
+T35	PLAN-OR-PROCESS 553 571	process activities
+T36	PROCESS 572 577	using
+T37	ARTIFACT 588 593	nodes
+T38	QUALITY 578 587	available
+T39	ARTIFACT 604 620	grid environment
+T40	QUALITY 599 603	wide
+T41	QUALITY 628 638	advantages
+T42	PROCESS 657 680	structured distribution
+T43	PROCESS 643 652;668 680	automatic distribution
+T44	PROCESS 684 694	activities
+T45	QUALITY 699 703	easy
+T46	PROCESS 704 722	process monitoring
+T47	PROCESS 704 711;727 735	process steering
+R1	Attribute Arg1:T4 Arg2:T5	
+R2	Attribute Arg1:T7 Arg2:T10	
+R3	Condition Arg1:T11 Arg2:T13	
+R4	Attribute Arg1:T17 Arg2:T16	
+R5	Attribute Arg1:T18 Arg2:T16	
+R6	Attribute Arg1:T24 Arg2:T23	
+R7	Attribute Arg1:T25 Arg2:T28	
+R8	Attribute Arg1:T34 Arg2:T33	
+R9	Attribute Arg1:T37 Arg2:T38	
+R10	Attribute Arg1:T39 Arg2:T40	
+T6	REFERENCE 622 627	Their
+R12	Coreference Arg1:T6 Arg2:T30	
+R13	Attribute Arg1:T6 Arg2:T41	
+R14	Attribute Arg1:T46 Arg2:T45	
+R15	Attribute Arg1:T47 Arg2:T45	
+T29	REFERENCE 287 291	that
+R16	Coreference Arg1:T29 Arg2:T18	
+R17	Coreference Arg1:T29 Arg2:T17	
+T30	REFERENCE 523 527	that
+R18	Coreference Arg1:T30 Arg2:T31	
+R19	Coreference Arg1:T30 Arg2:T32	
+T48	QUALITY 183 195	breakthrough
+R11	Attribute Arg1:T12 Arg2:T48	
+R24	Output Arg1:T43 Arg2:T44	
+R25	Output Arg1:T42 Arg2:T44	
+R26	Apply-to Arg1:T1 Arg2:T2	
+T49	IS-A 65 70	is an
+R27	from Arg1:T49 Arg2:T3	
+R28	to Arg1:T49 Arg2:T4	
+T50	PROCESS 95 99	used
+R29	Target Arg1:T50 Arg2:T4	
+R30	Apply-to Arg1:T50 Arg2:T7	
+R31	Target Arg1:T7 Arg2:T8	
+R32	Condition Arg1:T7 Arg2:T9	
+R33	Apply-to Arg1:T50 Arg2:T11	
+R34	Output Arg1:T11 Arg2:T48	
+R35	Apply-to Arg1:T29 Arg2:T19	
+R36	Output Arg1:T20 Arg2:T21	
+R37	Target Arg1:T19 Arg2:T20	
+R38	Condition Arg1:T20 Arg2:T22	
+R39	Apply-to Arg1:T24 Arg2:T25	
+R40	Target Arg1:T25 Arg2:T26	
+R41	Output Arg1:T26 Arg2:T27	
+R42	Apply-to Arg1:T30 Arg2:T34	
+R43	Target Arg1:T34 Arg2:T35	
+R44	Target Arg1:T36 Arg2:T37	
+R45	Apply-to Arg1:T36 Arg2:T34	
+R46	Component-object Arg1:T37 Arg2:T39	
+R20	Apply-to Arg1:T6 Arg2:T42	
+R21	Apply-to Arg1:T6 Arg2:T43	
+R22	Apply-to Arg1:T6 Arg2:T46	
+R23	Apply-to Arg1:T6 Arg2:T47	
+R47	Attribute Arg1:T16 Arg2:T15	
+T14	REFERENCE 461 471	this paper
+T51	PROCESS 472 480	presents
+R48	Condition Arg1:T51 Arg2:T14	
+R49	Output Arg1:T51 Arg2:T31	
+R50	Output Arg1:T51 Arg2:T32	

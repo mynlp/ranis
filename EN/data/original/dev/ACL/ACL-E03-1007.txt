@@ -1,0 +1,5 @@
+Using POS Information for Statistical Machine Translation into Morphologically Rich Languages
+
+When translating from languages with hardly any inflectional morphology like English into morphologically rich languages, the English word forms often do not contain enough information for producing the correct full form in the target language.
+We investigate methods for improving the quality of such translations by making use of part-of-speech information and maximum entropy modeling.
+Results for translations from English into Spanish and Catalan are presented on the LC-STAR corpus which consists of spontaneously spoken dialogues in the domain of appointment scheduling and travel planning.

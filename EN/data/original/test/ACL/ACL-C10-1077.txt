@@ -1,0 +1,7 @@
+Filtered Ranking for Bootstrapping in Event Extraction
+
+Several researchers have proposed semi-supervised learning methods for adapting event extraction systems to new event types.
+This paper investigates two kinds of bootstrapping methods used for event extraction: the document-centric and similarity-centric approaches, and proposes a filtered ranking method that combines the advantages of the two.
+We use a range of extraction tasks to compare the generality of this method to previous work.
+We analyze the results using two evaluation metrics and observe the effect of different training corpora.
+Experiments show that our new ranking method not only achieves higher performance on different evaluation metrics, but also is more stable across different bootstrapping corpora.

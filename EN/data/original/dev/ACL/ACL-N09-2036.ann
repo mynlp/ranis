@@ -1,0 +1,57 @@
+R1	Attribute Arg1:T28 Arg2:T1
+R2	Attribute Arg1:T3 Arg2:T5
+R3	Output Arg1:T4 Arg2:T3
+A1	Judgment T5
+R4	Attribute Arg1:T6 Arg2:T7
+A2	Judgment T7
+R5	Attribute Arg1:T10 Arg2:T9
+R6	Condition Arg1:T10 Arg2:T11
+R7	to Arg1:T8 Arg2:T10
+R8	from Arg1:T8 Arg2:T6
+R9	Attribute Arg1:T15 Arg2:T14
+R10	from Arg1:T13 Arg2:T12
+R11	to Arg1:T13 Arg2:T15
+A3	Self T16
+A4	Intentional T17
+R12	Agent Arg1:T17 Arg2:T16
+R13	Attribute Arg1:T19 Arg2:T18
+R14	Output Arg1:T17 Arg2:T19
+R15	Coreference Arg1:T20 Arg2:T19
+R16	from Arg1:T21 Arg2:T20
+R17	Attribute Arg1:T24 Arg2:T23
+R18	Compare Arg1:T24 Arg2:T22
+R19	Attribute Arg1:T19 Arg2:T22
+R20	to Arg1:T21 Arg2:T22
+R21	Attribute Arg1:T26 Arg2:T25
+R22	Condition Arg1:T26 Arg2:T27
+R23	to Arg1:T21 Arg2:T26
+A5	Judgment T22
+R24	Apply-to Arg1:T2 Arg2:T28
+T1	QUALITY 0 6	Faster
+T28	PLAN-OR-PROCESS 7 18	MT Decoding
+T2	PLAN 27 45	Pervasive Laziness
+T3	PLAN 48 71	Syntax-based MT systems
+T4	PROCESS 77 83	proven
+T5	QUALITY 84 93	effective
+T6	PLAN 101 107	models
+T7	QUALITY 112 122	compelling
+T8	RESULT 127 131	show
+T9	QUALITY 132 136	good
+T10	PLAN 137 141	room
+T11	PLAN-OR-PROCESS 146 157	improvement
+T12	PROCESS 170 178	decoding
+T13	COMPONENT-OBJECT 179 187	involves
+T14	QUALITY 190 194	slow
+T15	PLAN-OR-PROCESS 195 201	search
+T16	PERSON 204 206	We
+T17	PROCESS 207 214	present
+T18	QUALITY 217 220	new
+T19	PLAN 221 239	lazy-search method
+T20	REFERENCE 240 244	that
+T21	RESULT 245 252	obtains
+T22	QUALITY 253 273	significant speedups
+T23	QUALITY 281 287	strong
+T24	PLAN 288 296	baseline
+T25	QUANTITY 304 306	no
+T26	DATA-ITEM 307 311	loss
+T27	PLAN 315 319	Bleu

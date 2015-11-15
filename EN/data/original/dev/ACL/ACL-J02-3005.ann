@@ -1,0 +1,161 @@
+T2	PROCESS 10 16	Typing
+T3	DATA-ITEM 17 35	Feature Structures
+T4	DATA-ITEM 37 55	Feature structures
+T5	APPLY-TO 60 64	used
+T6	PROCESS 68 74	convey
+T7	DATA-ITEM 75 97	linguistic information
+T8	PLAN 114 135	linguistic formalisms
+T9	QUALITY 101 113	a variety of
+T10	PLAN 145 156	definitions
+T11	QUALITY 137 144	Various
+T12	DATA-ITEM 160 178	feature structures
+T13	PROCESS 179 184	exist
+T14	PLAN 203 212	variation
+T15	PLAN 216 222	typing
+T16	DATA-ITEM 231 257	untyped feature structures
+T17	DATA-ITEM 259 269	typed ones
+T18	PROCESS 270 279	associate
+T19	DATA-ITEM 282 286	type
+T20	DATA-ITEM 292 307	every structure
+T21	PROCESS 312 318	impose
+T22	PLAN 319 346	appropriateness constraints
+T23	DATA-ITEM 354 365	occurrences
+T24	DATA-ITEM 369 377	features
+T25	DATA-ITEM 389 395	values
+T26	REFERENCE 401 405	they
+T27	PROCESS 406 410	take
+R1	Coreference Arg1:T26 Arg2:T24	
+T28	PLAN-OR-PROCESS 453 459	typing
+T29	MODALITY 460 463	can
+T30	PROCESS 464 469	carry
+T31	PLAN 479 500	linguistic formalisms
+T32	REFERENCE 501 505	that
+R2	Coreference Arg1:T32 Arg2:T31	
+T33	APPLY-TO 506 509	use
+T34	DATA-ITEM 510 536	untyped feature structures
+T35	QUALITY 439 447	benefits
+T36	PLAN 551 557	method
+T37	PROCESS 562 572	validating
+T38	QUALITY 577 588	consistency
+T39	PLAN 592 634	(untyped) feature structure specifications
+T40	PROCESS 638 646	imposing
+T41	PLAN 649 664	type discipline
+T42	PLAN 666 677	This method
+R3	Coreference Arg1:T42 Arg2:T36	
+T43	APPLY-TO 678 689	facilitates
+T44	QUANTITY 692 704	great number
+T45	PLAN-OR-PROCESS 708 727	compile time checks
+T46	DATA-ITEM 743 749	errors
+T47	QUALITY 734 742	possible
+T48	QUANTITY 729 733	many
+T49	MODALITY 750 753	can
+T50	PROCESS 757 765	detected
+T51	PLAN 777 784	grammar
+T52	APPLY-TO 788 792	used
+T53	PLAN-OR-PROCESS 797 804	parsing
+T54	PROCESS 814 825	constructed
+T55	DATA-ITEM 828 842	type signature
+T56	QUALITY 850 858	existing
+T57	PLAN 859 881	broad-coverage grammar
+T58	LANGUAGE 885 892	English
+T59	PROCESS 897 908	implemented
+T60	PLAN 911 935	type inference algorithm
+T61	REFERENCE 936 940	that
+R4	Coreference Arg1:T61 Arg2:T60	
+T62	APPLY-TO 941 949	operates
+T63	PLAN 957 989	feature structure specifications
+T64	PLAN 997 1004	grammar
+T65	OUTPUT 1009 1016	reports
+T66	QUALITY 1017 1034	incompatibilities
+T67	DATA-ITEM 1044 1053	signature
+T68	PROCESS 1063 1071	detected
+T69	QUANTITY 1074 1086	large number
+T70	DATA-ITEM 1090 1096	errors
+T71	PLAN 1104 1111	grammar
+T72	QUANTITY 1113 1117	some
+T73	REFERENCE 1121 1126	which
+R5	Coreference Arg1:T73 Arg2:T70	
+R6	Attribute Arg1:T8 Arg2:T9	
+R7	Attribute Arg1:T10 Arg2:T11	
+T76	QUALITY 190 199	dimension
+R8	Attribute Arg1:T45 Arg2:T44	
+R9	Attribute Arg1:T46 Arg2:T47	
+R10	Attribute Arg1:T39 Arg2:T38	
+R11	Attribute Arg1:T46 Arg2:T48	
+R12	Attribute Arg1:T70 Arg2:T69	
+T77	REFERENCE 448 452	that
+R13	Coreference Arg1:T77 Arg2:T35	
+T78	REFERENCE 396 400	that
+R14	Coreference Arg1:T78 Arg2:T25	
+T80	TIME 766 772	before
+R15	Attribute Arg1:T50 Arg2:T80	
+R16	Attribute Arg1:T50 Arg2:T49	
+R17	Attribute Arg1:T57 Arg2:T56	
+R18	In_Out Arg1:T2 Arg2:T3	
+R19	from Arg1:T5 Arg2:T4	
+R20	to Arg1:T5 Arg2:T6	
+R21	Target Arg1:T6 Arg2:T7	
+R22	Condition Arg1:T6 Arg2:T8	
+R23	Attribute Arg1:T10 Arg2:T12	
+R24	Target Arg1:T13 Arg2:T10	
+R25	Attribute Arg1:T14 Arg2:T76	
+R26	Is-a Arg1:T14 Arg2:T15	
+R27	Input Arg1:T18 Arg2:T17	
+R28	In_Out Arg1:T18 Arg2:T19	
+R29	In_Out Arg1:T18 Arg2:T20	
+R30	Other-rel Arg1:T21 Arg2:T17	
+R31	Output Arg1:T21 Arg2:T22	
+R32	Destination Arg1:T21 Arg2:T23	
+R33	Attribute Arg1:T24 Arg2:T23	
+R34	Destination Arg1:T21 Arg2:T25	
+R35	Output Arg1:T27 Arg2:T78	
+R36	Destination Arg1:T27 Arg2:T26	
+R38	Attribute Arg1:T30 Arg2:T29	
+R37	Other-rel Arg1:T30 Arg2:T28	
+R39	Other-rel Arg1:T30 Arg2:T77	
+R40	Other-rel Arg1:T30 Arg2:T31	
+R41	from Arg1:T33 Arg2:T34	
+R42	to Arg1:T33 Arg2:T32	
+R43	Apply-to Arg1:T36 Arg2:T37	
+R44	Output Arg1:T37 Arg2:T38	
+R45	Output Arg1:T40 Arg2:T41	
+R46	Apply-to Arg1:T40 Arg2:T37	
+R47	from Arg1:T43 Arg2:T42	
+R48	to Arg1:T43 Arg2:T45	
+R49	Output Arg1:T50 Arg2:T46	
+R50	Other-rel Arg1:T52 Arg2:T80	
+R51	from Arg1:T52 Arg2:T51	
+R52	to Arg1:T52 Arg2:T53	
+R53	Output Arg1:T54 Arg2:T55	
+R55	Attribute Arg1:T57 Arg2:T58	
+R56	Output Arg1:T59 Arg2:T60	
+R57	from Arg1:T62 Arg2:T61	
+R58	to Arg1:T62 Arg2:T63	
+R59	Component-object Arg1:T63 Arg2:T64	
+R60	from Arg1:T65 Arg2:T61	
+R61	to Arg1:T65 Arg2:T66	
+R62	Compare Arg1:T67 Arg2:T66	
+R63	Output Arg1:T68 Arg2:T70	
+R64	Condition Arg1:T71 Arg2:T70	
+R65	Attribute Arg1:T73 Arg2:T72	
+R66	Member-collection Arg1:T14 Arg2:T10	
+T74	COMPARE 224 230	unlike
+R67	from Arg1:T74 Arg2:T16	
+R54	Condition Arg1:T54 Arg2:T57	
+T1	REFERENCE 412 421	This work
+T75	PROCESS 422 434	demonstrates
+T79	PERSON 538 540	We
+T81	PROCESS 541 548	present
+T82	PERSON 806 808	We
+T83	PERSON 1055 1057	We
+T84	PROCESS 1131 1140	described
+T85	REFERENCE 1148 1155	article
+R68	Condition Arg1:T84 Arg2:T85	
+R69	Output Arg1:T84 Arg2:T73	
+R70	Agent Arg1:T81 Arg2:T79	
+R71	Agent Arg1:T54 Arg2:T82	
+R72	Agent Arg1:T68 Arg2:T83	
+R73	Output Arg1:T81 Arg2:T36	
+R74	Agent Arg1:T59 Arg2:T82	
+R75	Condition Arg1:T75 Arg2:T1	
+R76	Output Arg1:T75 Arg2:T35	

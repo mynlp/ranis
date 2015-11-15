@@ -1,0 +1,182 @@
+T1	PROCESS 0 12	Representing
+T2	DATA-ITEM 13 32	Discourse Coherence
+T3	PLAN 36 54	Corpus-Based Study
+T4	PROCESS 77 84	present
+T5	DATA-ITEM 87 90	set
+T6	DATA-ITEM 94 123	discourse structure relations
+T7	REFERENCE 124 128	that
+T8	QUALITY 133 137	easy
+T9	PROCESS 141 145	code
+T10	PROCESS 153 160	develop
+T11	PLAN 161 169	criteria
+T12	QUALITY 177 188	appropriate
+T13	PLAN 189 203	data structure
+T14	PROCESS 208 220	representing
+T15	DATA-ITEM 221 236	these relations
+T16	DATA-ITEM 238 257	Discourse structure
+T17	EQUIVALENCE 263 269	refers
+T18	DATA-ITEM 273 296	informational relations
+T19	REFERENCE 297 301	that
+T20	ATTRIBUTE 302 306	hold
+T21	DATA-ITEM 315 324	sentences
+T22	DATA-ITEM 330 339	discourse
+T23	DATA-ITEM 345 348	set
+T24	DATA-ITEM 352 371	discourse relations
+T25	PROCESS 372 382	introduced
+T26	PROCESS 391 399	based on
+T28	EXTERNAL-REFERENCE 400 412	Hobbs (1985)
+T29	PERSON 414 416	We
+T30	PROCESS 417 424	present
+T31	PLAN 427 433	method
+T32	PROCESS 438 448	annotating
+T33	DATA-ITEM 449 479	discourse coherence structures
+T34	PERSON 485 487	we
+T35	MODALITY 488 492	used
+T36	QUALITY 496 504	manually
+T37	PROCESS 505 513	annotate
+T38	DATA-ITEM 516 524	database
+T39	QUANTITY 528 531	135
+T40	DATA-ITEM 532 537	texts
+T41	DATA-ITEM 547 566	Wall Street Journal
+T42	PLAN 575 586	AP Newswire
+T43	QUANTITY 588 591	All
+T44	DATA-ITEM 592 597	texts
+T45	QUALITY 603 616	independently
+T46	PROCESS 617 626	annotated
+T47	QUANTITY 630 633	two
+T48	PERSON 634 644	annotators
+T49	DATA-ITEM 646 658	Kappa values
+T50	QUANTITY 662 678	greater than 0.8
+T52	RESULT 679 688	indicated
+T53	QUALITY 689 693	good
+T54	PLAN 694 718	interannotator agreement
+T55	PERSON 720 722	We
+T56	PROCESS 735 742	present
+T57	DATA-ITEM 743 751	evidence
+T58	PLAN 757 762	trees
+T59	MODALITY 767 770	not
+T60	QUALITY 773 795	descriptively adequate
+T61	PLAN 796 810	data structure
+T62	PROCESS 815 827	representing
+T63	DATA-ITEM 828 847	discourse structure
+T64	DATA-ITEM 852 872	coherence structures
+T65	QUALITY 876 885	naturally
+T66	QUALITY 886 895	occurring
+T67	DATA-ITEM 896 901	texts
+T68	PERSON 903 905	we
+T69	PROCESS 906 911	found
+T70	QUANTITY 912 916	many
+T71	QUALITY 917 926	different
+T72	DATA-ITEM 927 932	kinds
+T73	DATA-ITEM 936 956	crossed dependencies
+T74	QUANTITY 969 973	many
+T75	DATA-ITEM 974 979	nodes
+T76	QUANTITY 985 993	multiple
+T77	DATA-ITEM 994 1001	parents
+T78	PLAN 1007 1013	claims
+T79	PROCESS 1018 1027	supported
+T80	DATA-ITEM 1031 1050	statistical results
+T81	PERSON 1056 1059	our
+T82	DATA-ITEM 1060 1083	hand-annotated database
+T83	QUANTITY 1087 1090	135
+T84	DATA-ITEM 1091 1096	texts
+R1	Output Arg1:T1 Arg2:T2	
+T85	REFERENCE 56 68	This article
+A1	Self T85
+T86	PROCESS 69 73	aims
+A2	Intentional T86
+R2	Condition Arg1:T86 Arg2:T85	
+R3	Target Arg1:T86 Arg2:T4	
+A3	Intentional T4
+R4	Member-collection Arg1:T6 Arg2:T5	
+R5	Output Arg1:T4 Arg2:T5	
+R6	Attribute Arg1:T9 Arg2:T8	
+R7	Coreference Arg1:T7 Arg2:T5	
+R10	Output Arg1:T10 Arg2:T11	
+R11	Attribute Arg1:T13 Arg2:T12	
+A4	Judgment T12
+A5	Judgment T8
+R12	Output Arg1:T14 Arg2:T15	
+R15	from Arg1:T17 Arg2:T18	
+R17	Coreference Arg1:T19 Arg2:T18	
+R19	from Arg1:T20 Arg2:T19	
+R20	to Arg1:T20 Arg2:T21	
+R21	Member-collection Arg1:T24 Arg2:T23	
+A6	Intentional T25
+R22	Output Arg1:T25 Arg2:T23	
+R23	Other-rel Arg1:T26 Arg2:T28	
+A7	Self T29
+A8	Intentional T30
+R25	Agent Arg1:T30 Arg2:T29	
+R26	Apply-to Arg1:T31 Arg2:T32	
+R27	Output Arg1:T30 Arg2:T31	
+R28	Output Arg1:T32 Arg2:T33	
+R29	Attribute Arg1:T37 Arg2:T36	
+R30	Attribute Arg1:T37 Arg2:T35	
+A9	Self T34
+A10	Intentional T37
+R31	Agent Arg1:T37 Arg2:T34	
+R32	Attribute Arg1:T40 Arg2:T39	
+R33	Component-object Arg1:T40 Arg2:T38	
+R34	Destination Arg1:T37 Arg2:T38	
+R35	Component-object Arg1:T41 Arg2:T40	
+R36	Other-rel Arg1:T42 Arg2:T40	
+T27	REFERENCE 480 484	that
+R37	Coreference Arg1:T27 Arg2:T33	
+R38	Output Arg1:T37 Arg2:T27	
+R39	Attribute Arg1:T44 Arg2:T43	
+R40	Attribute Arg1:T46 Arg2:T45	
+R41	Attribute Arg1:T48 Arg2:T47	
+R42	Agent Arg1:T46 Arg2:T48	
+R43	Destination Arg1:T46 Arg2:T44	
+R44	Attribute Arg1:T54 Arg2:T53	
+R45	to Arg1:T52 Arg2:T54	
+A11	Judgment T53
+R47	Attribute Arg1:T49 Arg2:T50	
+R48	from Arg1:T52 Arg2:T49	
+A12	Self T55
+A13	Intentional T56
+R49	Agent Arg1:T56 Arg2:T55	
+R50	Output Arg1:T56 Arg2:T57	
+R51	Attribute Arg1:T61 Arg2:T60	
+A14	Judgment T60
+R54	Output Arg1:T62 Arg2:T63	
+R55	Is-a Arg1:T58 Arg2:T61	
+R56	Attribute Arg1:T67 Arg2:T66	
+R57	Attribute Arg1:T66 Arg2:T65	
+R58	Attribute Arg1:T67 Arg2:T64	
+A15	Self T68
+R59	Agent Arg1:T69 Arg2:T68	
+R60	Attribute Arg1:T72 Arg2:T71	
+R61	Attribute Arg1:T72 Arg2:T70	
+R62	Member-collection Arg1:T72 Arg2:T73	
+R63	Output Arg1:T69 Arg2:T72	
+R64	Input Arg1:T69 Arg2:T64	
+R65	Attribute Arg1:T77 Arg2:T76	
+R16	to Arg1:T17 Arg2:T16	
+R53	Attribute Arg1:T60 Arg2:T59	
+R52	Attribute Arg1:T75 Arg2:T74	
+R66	Attribute Arg1:T75 Arg2:T77	
+R67	Output Arg1:T69 Arg2:T75	
+A16	Self T81
+R68	Poss Arg1:T81 Arg2:T82	
+R69	Attribute Arg1:T84 Arg2:T83	
+R70	Component-object Arg1:T84 Arg2:T82	
+R71	Attribute Arg1:T82 Arg2:T80	
+R72	Target Arg1:T79 Arg2:T78	
+R73	Input Arg1:T79 Arg2:T80	
+R8	Output Arg1:T9 Arg2:T7	
+R9	Target Arg1:T86 Arg2:T10	
+A17	Intentional T10
+R74	Coreference Arg1:T15 Arg2:T6	
+R18	Component-object Arg1:T22 Arg2:T21	
+T87	PERSON 400 405	Hobbs
+A18	Name T87
+T88	TIME 407 411	1985
+R24	Output Arg1:T26 Arg2:T23	
+A19	Intentional T46
+R13	Apply-to Arg1:T14 Arg2:T13	
+R14	Attribute Arg1:T13 Arg2:T11	
+R75	Input Arg1:T62 Arg2:T61	
+R76	Component-object Arg1:T64 Arg2:T75	
+R77	Component-object Arg1:T64 Arg2:T72	

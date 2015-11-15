@@ -1,0 +1,8 @@
+The Affect of Machine Translation on the Performance of Arabic-English QA System
+
+The aim of this paper is to investigate how much the effectiveness of a Question Answering (QA) system was affected by the performance of Machine Translation (MT) based question translation.
+Nearly 200 questions were selected from TREC QA tracks and ran through a question answering system.
+It was able to answer 42.6% of the questions correctly in a monolingual run.
+These questions were then translated manually from English into Arabic and back into English using an MT system, and then re-applied to the QA system.
+The system was able to answer 10.2% of the translated questions.
+An analysis of what sort of translation error affected which questions was conducted, concluding that factoid type questions are less prone to translation error than others.

@@ -1,0 +1,201 @@
+T1	PLAN 2 7	Model
+T2	PLAN-OR-PROCESS 12 43	Multimodal Reference Resolution
+T3	QUALITY 58 64	aspect
+T4	QUALITY 48 57	important
+T5	PLAN-OR-PROCESS 72 86	interpretation
+T6	DATA-ITEM 90 109	multimodal messages
+T7	QUALITY 117 124	ability
+T8	PROCESS 128 136	identify
+T9	THING 151 157	object
+T10	QUALITY 146 150	same
+T11	LOCATION 165 170	world
+T12	THING 178 186	referent
+T13	DATA-ITEM 190 197	symbols
+T15	QUALITY 201 221	different modalities
+T16	PROCESS 226 236	understand
+T17	DATA-ITEM 241 248	caption
+T18	DATA-ITEM 254 261	picture
+T19	PERSON 277 280	one
+T20	MODALITY 281 286	needs
+T21	PROCESS 290 298	identify
+T22	DATA-ITEM 303 320	graphical symbols
+T23	PROCESS 330 338	referred
+T24	DATA-ITEM 345 350	names
+T25	DATA-ITEM 355 363	pronouns
+T26	DATA-ITEM 371 392	natural language text
+T27	PROCESS 405 410	think
+T28	PLAN-OR-PROCESS 414 426	this problem
+T29	PLAN 446 452	notion
+T30	PLAN 456 464	anaphora
+T31	PLAN 398 401	way
+T32	QUANTITY 394 397	One
+T33	QUALITY 475 481	unlike
+T34	PROCESS 482 512	linguistic anaphoric inference
+T35	DATA-ITEM 523 534	antecedents
+T36	DATA-ITEM 539 547	pronouns
+T37	PROCESS 552 560	selected
+T38	DATA-ITEM 568 586	linguistic context
+T39	PROCESS 595 609	interpretation
+T40	DATA-ITEM 617 629	textual part
+T41	DATA-ITEM 633 652	multimodal messages
+T42	DATA-ITEM 657 668	antecedents
+T43	PROCESS 673 681	selected
+T44	DATA-ITEM 689 706	graphical context
+T45	PROCESS 725 734	resolving
+T46	DATA-ITEM 735 756	multimodal references
+T47	QUALITY 760 764	like
+T48	PROCESS 765 774	resolving
+T49	DATA-ITEM 775 783	anaphora
+T50	THING 791 801	modalities
+T51	PLAN 811 814	way
+T52	PLAN-OR-PROCESS 831 838	problem
+T53	QUALITY 826 830	same
+T54	DATA-ITEM 853 861	pronouns
+T55	DATA-ITEM 865 870	texts
+T56	QUALITY 889 896	deictic
+T57	DATA-ITEM 877 885	drawings
+T58	PROCESS 845 849	look
+T59	PROCESS 818 821	see
+T60	QUALITY 803 810	Another
+T61	DATA-ITEM 923 930	context
+T62	PROCESS 934 948	interpretation
+T63	DATA-ITEM 954 975	natural language term
+T64	DATA-ITEM 999 1010	expressions
+T65	DATA-ITEM 1016 1034	graphical language
+T66	PROCESS 979 986	defined
+T69	LANGUAGE 1075 1091	Natural language
+T70	DATA-ITEM 1096 1111	graphical terms
+T71	DATA-ITEM 1144 1152	relation
+T72	PLAN-OR-PROCESS 1156 1167	translation
+T73	QUALITY 1168 1175	similar
+T74	OCCURENT 1183 1203	translation relation
+T75	LANGUAGE 1223 1240	natural languages
+T76	MODALITY 1112 1126	are thought of
+T77	PROCESS 1130 1141	standing in
+T78	PROCESS 1209 1214	holds
+T79	PLAN 1258 1264	theory
+T80	REFERENCE 1308 1319	this theory
+R1	Coreference Arg1:T80 Arg2:T79	
+T81	OCCURENT 1325 1334	relations
+T82	DATA-ITEM 1343 1368	multimodal representation
+T83	DATA-ITEM 1373 1387	spatial deixis
+T84	PROCESS 1410 1430	multimodal reasoning
+T85	PROCESS 1435 1452	deictic inference
+T86	PLAN-OR-PROCESS 1486 1502	integrated model
+T87	PLAN-OR-PROCESS 1506 1515;1528 1538	anaphoric resolution
+T88	PLAN-OR-PROCESS 1520 1538	deictic resolution
+T89	CONDITION 1546 1553	context
+T90	PROCESS 1561 1575	interpretation
+T91	DATA-ITEM 1579 1599	multimodal discourse
+T92	JUDGING-PROCESS 1608 1616	advanced
+T93	DATA-ITEM 992 995	set
+T67	QUALITY 1040 1052	well-defined
+T68	PLAN 1053 1059	syntax
+T94	PLAN 1064 1073	semantics
+R2	Attribute Arg1:T3 Arg2:T4	
+R4	Attribute Arg1:T9 Arg2:T10	
+R5	Attribute Arg1:T68 Arg2:T67	
+R6	Attribute Arg1:T94 Arg2:T67	
+R7	Attribute Arg1:T51 Arg2:T60	
+R8	Attribute Arg1:T52 Arg2:T53	
+R9	Attribute Arg1:T45 Arg2:T47	
+R10	Compare Arg1:T48 Arg2:T47	
+R11	Compare Arg1:T34 Arg2:T33	
+R12	Attribute Arg1:T39 Arg2:T33	
+R14	Compare Arg1:T74 Arg2:T73	
+R15	Attribute Arg1:T71 Arg2:T73	
+T95	PLAN 1274 1290	this second view
+T96	REFERENCE 517 522	which
+R16	Coreference Arg1:T96 Arg2:T34	
+T97	REFERENCE 321 325	that
+R17	Coreference Arg1:T97 Arg2:T22	
+T98	REFERENCE 1204 1208	that
+R18	Coreference Arg1:T98 Arg2:T74	
+R13	Attribute Arg1:T54 Arg2:T56	
+R19	Member-collection Arg1:T64 Arg2:T93	
+R20	Apply-to Arg1:T1 Arg2:T2	
+R21	Attribute Arg1:T5 Arg2:T3	
+R22	Input Arg1:T5 Arg2:T6	
+R23	Attribute Arg1:T5 Arg2:T7	
+R24	Is-a Arg1:T7 Arg2:T3	
+R25	Condition Arg1:T7 Arg2:T8	
+R26	Condition Arg1:T9 Arg2:T11	
+R27	Attribute Arg1:T13 Arg2:T12	
+R28	Is-a Arg1:T9 Arg2:T12	
+R30	In_Out Arg1:T8 Arg2:T13	
+R31	Attribute Arg1:T18 Arg2:T17	
+R32	In_Out Arg1:T16 Arg2:T17	
+R33	Attribute Arg1:T21 Arg2:T20	
+R35	Agent Arg1:T21 Arg2:T19	
+R34	In_Out Arg1:T21 Arg2:T22	
+R36	Component-object Arg1:T25 Arg2:T26	
+R37	Component-object Arg1:T24 Arg2:T26	
+R38	Destination Arg1:T23 Arg2:T97	
+R39	Output Arg1:T23 Arg2:T24	
+R40	Output Arg1:T23 Arg2:T25	
+R41	Apply-to Arg1:T21 Arg2:T16	
+R42	Attribute Arg1:T31 Arg2:T32	
+R43	Apply-to Arg1:T31 Arg2:T27	
+R44	In_Out Arg1:T27 Arg2:T28	
+T103	DATA-ITEM 433 438	terms
+R45	Attribute Arg1:T103 Arg2:T29	
+R46	Attribute Arg1:T103 Arg2:T30	
+R47	Attribute Arg1:T36 Arg2:T35	
+R48	Input Arg1:T37 Arg2:T38	
+R49	Output Arg1:T37 Arg2:T35	
+R50	Component-object Arg1:T37 Arg2:T96	
+R51	Input Arg1:T39 Arg2:T40	
+R52	Component-object Arg1:T40 Arg2:T41	
+R53	Input Arg1:T43 Arg2:T44	
+R54	Output Arg1:T43 Arg2:T42	
+R55	Component-object Arg1:T43 Arg2:T39	
+R56	In_Out Arg1:T45 Arg2:T46	
+R57	In_Out Arg1:T48 Arg2:T49	
+R29	Target Arg1:T59 Arg2:T52	
+R58	Component-object Arg1:T54 Arg2:T55	
+R59	Attribute Arg1:T55 Arg2:T57	
+R60	Target Arg1:T58 Arg2:T54	
+R61	Apply-to Arg1:T51 Arg2:T59	
+R62	Apply-to Arg1:T51 Arg2:T58	
+R64	Is-a Arg1:T29 Arg2:T31	
+R65	Attribute Arg1:T62 Arg2:T61	
+R66	Input Arg1:T62 Arg2:T63	
+R68	Attribute Arg1:T65 Arg2:T64	
+R69	Apply-to Arg1:T68 Arg2:T66	
+R70	Apply-to Arg1:T94 Arg2:T66	
+R71	Output Arg1:T66 Arg2:T93	
+R72	Condition Arg1:T48 Arg2:T50	
+R73	Input Arg1:T77 Arg2:T70	
+R74	Input Arg1:T77 Arg2:T69	
+R75	Condition Arg1:T78 Arg2:T75	
+R76	Apply-to Arg1:T98 Arg2:T78	
+R77	Attribute Arg1:T71 Arg2:T72	
+R78	Destination Arg1:T77 Arg2:T71	
+R67	Is-a Arg1:T61 Arg2:T93	
+R79	Coreference Arg1:T95 Arg2:T51	
+T104	APPLY-TO 1265 1273	based on
+R80	from Arg1:T104 Arg2:T95	
+R81	to Arg1:T104 Arg2:T79	
+R82	Attribute Arg1:T81 Arg2:T82	
+R83	Attribute Arg1:T81 Arg2:T83	
+R84	to Arg1:T89 Arg2:T90	
+R85	Input Arg1:T90 Arg2:T91	
+R86	In_Out Arg1:T92 Arg2:T86	
+R87	Input Arg1:T86 Arg2:T88	
+R88	Input Arg1:T86 Arg2:T87	
+R89	from Arg1:T89 Arg2:T86	
+R90	Attribute Arg1:T81 Arg2:T84	
+R91	Attribute Arg1:T81 Arg2:T85	
+R92	Compare Arg1:T28 Arg2:T53	
+R93	Compare Arg1:T31 Arg2:T60	
+R94	Attribute Arg1:T77 Arg2:T76	
+R95	Condition Arg1:T81 Arg2:T80	
+R63	Is-a Arg1:T30 Arg2:T29	
+T99	REFERENCE 1245 1255	this paper
+T100	PROCESS 1294 1303	presented
+R96	Output Arg1:T100 Arg2:T79	
+R97	Condition Arg1:T100 Arg2:T99	
+T101	PROCESS 1472 1481	discussed
+R98	Input Arg1:T101 Arg2:T81	
+R99	Condition Arg1:T101 Arg2:T80	
+R3	Attribute Arg1:T13 Arg2:T15	

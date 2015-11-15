@@ -1,0 +1,182 @@
+T1	PLAN-OR-PROCESS 5 23	Approximate Search
+T2	DATA-ITEM 33 45	Dictionaries
+T3	MODALITY 51 55	need
+T4	DATA-ITEM 75 82	strings
+T5	QUALITY 67 74	garbled
+T6	PROCESS 59 66	correct
+T7	CONDITION 83 89	arises
+T8	DOMAIN 98 103	areas
+T9	QUANTITY 93 97	many
+T10	DOMAIN 107 134	natural language processing
+T11	DATA-ITEM 141 151	dictionary
+T12	QUALITY 155 164	available
+T13	MEMBER-COLLECTION 170 176	covers
+T14	DATA-ITEM 190 202	input tokens
+T15	QUALITY 181 189	possible
+T16	QUANTITY 177 180	all
+T17	REFERENCE 165 169	that
+R1	Coreference Arg1:T17 Arg2:T11	
+T18	DATA-ITEM 214 217	set
+T19	DATA-ITEM 221 231	candidates
+T20	PROCESS 236 246	correcting
+T21	DATA-ITEM 260 267	input P
+T22	QUALITY 250 259	erroneous
+T23	DATA-ITEM 286 291	words
+T24	QUANTITY 282 285	all
+T25	DATA-ITEM 299 309	dictionary
+T26	REFERENCE 314 319	which
+R2	Coreference Arg1:T26 Arg2:T23	
+T27	DATA-ITEM 324 344	Levenshtein distance
+T28	PERSON 324 335	Levenshtein
+T29	DATA-ITEM 348 349	P
+T30	MODALITY 355 358	not
+T31	COMPARE 359 365	exceed
+T34	DATA-ITEM 368 389	given (small) bound k
+T35	PLAN 419 426	methods
+T36	QUALITY 431 442	efficiently
+T37	PROCESS 443 452	selecting
+T38	DATA-ITEM 453 472	such candidate sets
+T39	PLAN 520 537	correction method
+T42	PLAN 566 597	universal Levenshtein automaton
+T43	PLAN 617 634	filtering methods
+T44	QUANTITY 613 616	two
+T45	PROCESS 635 640	known
+T46	DOMAIN 650 655	field
+T47	DOMAIN 659 682	approximate text search
+T48	MODALITY 683 686	can
+T49	APPLY-TO 690 694	used
+T50	JUDGING-PROCESS 698 705	improve
+T51	PLAN 716 725	procedure
+T53	QUALITY 731 746	significant way
+T55	PLAN 758 764	method
+T56	QUALITY 752 757	first
+T57	REFERENCE 766 771	which
+R3	Coreference Arg1:T57 Arg2:T55	
+T58	INPUT 772 776	uses
+T59	DATA-ITEM 777 798	standard dictionaries
+T60	DATA-ITEM 804 816	dictionaries
+T61	DATA-ITEM 822 836	reversed words
+T62	RESULT 838 843	leads
+T63	TIME 858 874	correction times
+T64	QUALITY 847 857	very short
+T65	DATA-ITEM 884 891	classes
+T66	QUANTITY 879 883	most
+T67	DATA-ITEM 895 908	input strings
+T68	DATA-ITEM 914 932	evaluation results
+T69	RESULT 933 944	demonstrate
+T70	TIME 950 966	correction times
+T71	DATA-ITEM 971 992	fixed-distance bounds
+T73	QUANTITY 1016 1022	number
+T74	DATA-ITEM 1026 1047	correction candidates
+T75	QUALITY 1007 1015	expected
+T76	CONDITION 993 999	depend
+T72	REFERENCE 1049 1054	which
+T77	PROCESS 1055 1064	decreases
+T78	DATA-ITEM 1076 1087	input words
+T79	QUALITY 1069 1075	longer
+R4	Coreference Arg1:T72 Arg2:T73	
+T80	PLAN-OR-PROCESS 1103 1109	choice
+T81	PLAN 1124 1140	filtering method
+T82	QUALITY 1116 1123	optimal
+T83	CONDITION 1141 1148	depends
+T84	QUALITY 1156 1162	length
+T85	DATA-ITEM 1170 1181	input words
+T86	QUALITY 0 4	Fast
+R5	Attribute Arg1:T1 Arg2:T86	
+T87	QUALITY 27 32	Large
+R6	Attribute Arg1:T2 Arg2:T87	
+R7	Attribute Arg1:T4 Arg2:T5	
+R8	Attribute Arg1:T14 Arg2:T16	
+R9	Attribute Arg1:T14 Arg2:T15	
+T32	DATA-ITEM 275 278	set
+R10	Attribute Arg1:T23 Arg2:T24	
+R11	Attribute Arg1:T37 Arg2:T36	
+T33	QUALITY 514 519	basic
+R12	Attribute Arg1:T39 Arg2:T33	
+R13	Attribute Arg1:T43 Arg2:T44	
+T88	QUALITY 710 715	basic
+R14	Attribute Arg1:T51 Arg2:T88	
+R15	Attribute Arg1:T55 Arg2:T56	
+R16	Member-collection Arg1:T61 Arg2:T60	
+R17	Attribute Arg1:T63 Arg2:T64	
+R18	Attribute Arg1:T81 Arg2:T82	
+R19	Attribute Arg1:T78 Arg2:T79	
+R20	Member-collection Arg1:T19 Arg2:T18	
+R21	Attribute Arg1:T21 Arg2:T22	
+R22	Member-collection Arg1:T23 Arg2:T25	
+R23	Attribute Arg1:T65 Arg2:T66	
+R24	Attribute Arg1:T73 Arg2:T75	
+R25	Attribute Arg1:T8 Arg2:T9	
+R26	Member-collection Arg1:T23 Arg2:T32	
+R27	Coreference Arg1:T38 Arg2:T32	
+R28	Attribute Arg1:T85 Arg2:T84	
+T92	PERSON 910 913	Our
+R29	Poss Arg1:T92 Arg2:T68	
+R30	Attribute Arg1:T11 Arg2:T12	
+R31	Apply-to Arg1:T35 Arg2:T37	
+R32	Output Arg1:T37 Arg2:T38	
+R33	Input Arg1:T1 Arg2:T2	
+R34	Attribute Arg1:T6 Arg2:T3	
+R35	Input Arg1:T6 Arg2:T4	
+R36	to Arg1:T7 Arg2:T8	
+R37	Attribute Arg1:T8 Arg2:T10	
+R38	from Arg1:T7 Arg2:T6	
+R39	to Arg1:T13 Arg2:T17	
+R40	from Arg1:T13 Arg2:T14	
+T52	QUALITY 206 213	natural
+R41	Attribute Arg1:T18 Arg2:T52	
+R42	Attribute Arg1:T29 Arg2:T27	
+R43	from Arg1:T31 Arg2:T34	
+R44	Attribute Arg1:T31 Arg2:T30	
+R45	to Arg1:T31 Arg2:T27	
+T40	APPLY-TO 538 546	based on
+R47	from Arg1:T40 Arg2:T42	
+R48	to Arg1:T40 Arg2:T39	
+R49	Attribute Arg1:T46 Arg2:T47	
+R50	Output Arg1:T45 Arg2:T43	
+R51	Condition Arg1:T45 Arg2:T46	
+R52	Attribute Arg1:T49 Arg2:T48	
+R53	from Arg1:T49 Arg2:T43	
+R54	to Arg1:T49 Arg2:T50	
+R55	In_Out Arg1:T50 Arg2:T51	
+R56	Attribute Arg1:T50 Arg2:T53	
+R57	to Arg1:T58 Arg2:T59	
+R58	from Arg1:T58 Arg2:T57	
+R59	to Arg1:T58 Arg2:T60	
+R60	from Arg1:T62 Arg2:T55	
+R61	to Arg1:T62 Arg2:T63	
+R62	Is-a Arg1:T67 Arg2:T65	
+R63	Attribute Arg1:T65 Arg2:T63	
+R64	from Arg1:T69 Arg2:T68	
+R65	Other-rel Arg1:T76 Arg2:T71	
+R66	to Arg1:T69 Arg2:T76	
+R67	from Arg1:T76 Arg2:T70	
+R68	Attribute Arg1:T74 Arg2:T73	
+R69	to Arg1:T76 Arg2:T73	
+R70	Output Arg1:T77 Arg2:T72	
+R71	Condition Arg1:T77 Arg2:T78	
+R72	to Arg1:T83 Arg2:T84	
+R73	from Arg1:T83 Arg2:T80	
+R74	Output Arg1:T80 Arg2:T81	
+R76	Input Arg1:T20 Arg2:T21	
+R78	Other-rel Arg1:T12 Arg2:T18	
+T94	PROCESS 480 491	introducing
+T95	PLAN 497 511	starting point
+R79	Input Arg1:T94 Arg2:T39	
+R80	Output Arg1:T94 Arg2:T95	
+R81	Result Arg1:T94 Arg2:T50	
+R82	Attribute Arg1:T71 Arg2:T70	
+R46	Attribute Arg1:T26 Arg2:T27	
+R75	In_Out Arg1:T20 Arg2:T18	
+T54	MODALITY 136 138	If
+R77	Attribute Arg1:T12 Arg2:T54	
+R83	Attribute Arg1:T18 Arg2:T32	
+T41	PERSON 407 409	we
+T89	PROCESS 410 418	describe
+T90	PERSON 601 603	we
+T91	PROCESS 604 608	show
+R84	Agent Arg1:T91 Arg2:T90	
+R85	Agent Arg1:T89 Arg2:T41	
+R86	Output Arg1:T89 Arg2:T35	
+T93	REFERENCE 394 406	this article
+R87	Condition Arg1:T89 Arg2:T93	

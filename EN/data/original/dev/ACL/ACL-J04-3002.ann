@@ -1,0 +1,168 @@
+T1	PLAN-OR-PROCESS 0 8	Learning
+T2	LANGUAGE 9 28	Subjective Language
+T3	QUALITY 30 42	Subjectivity
+T4	LANGUAGE 46 62	natural language
+T5	PROCESS 63 69	refers
+T6	QUALITY 73 80	aspects
+T7	LANGUAGE 84 92	language
+T8	INPUT 93 97	used
+T9	PROCESS 101 108	express
+T10	PLAN 109 117	opinions
+T11	PLAN 119 130	evaluations
+T12	PLAN 136 148	speculations
+T13	QUANTITY 160 168	numerous
+T14	PLAN 169 209	natural language processing applications
+T15	PLAN-OR-PROCESS 220 241	subjectivity analysis
+T16	QUALITY 245 253	relevant
+T17	REFERENCE 214 219	which
+R1	Coreference Arg1:T17 Arg2:T14	
+T18	IS-A 255 264	including
+T19	PLAN 265 287	information extraction
+T20	PLAN 292 311	text categorization
+T23	PLAN-OR-PROCESS 338 346	learning
+T24	LANGUAGE 347 366	subjective language
+T25	DATA-ITEM 372 379	corpora
+T26	DATA-ITEM 381 386	Clues
+T27	QUALITY 390 402	subjectivity
+T28	PROCESS 407 416	generated
+T29	PROCESS 421 427	tested
+T30	IS-A 429 438	including
+T31	DATA-ITEM 453 458	words
+T34	DATA-ITEM 460 472	collocations
+T35	DATA-ITEM 478 488	adjectives
+T36	DATA-ITEM 493 498	verbs
+T37	PROCESS 499 509	identified
+T38	INPUT 510 515	using
+T39	DATA-ITEM 516 541	distributional similarity
+T40	DATA-ITEM 547 555	features
+T41	PROCESS 565 573	examined
+T42	PROCESS 574 581	working
+T44	QUALITY 582 601	together in concert
+T45	DATA-ITEM 607 615	features
+T46	PROCESS 617 626	generated
+T47	DATA-ITEM 642 651	data sets
+T48	QUALITY 632 641	different
+T49	APPLY-TO 652 657	using
+T50	PLAN 668 678	procedures
+T51	QUALITY 658 667	different
+T52	ATTRIBUTE 680 687	exhibit
+T53	QUALITY 688 699	consistency
+T54	QUALITY 703 714	performance
+T56	REFERENCE 723 727	they
+T57	DATA-ITEM 764 773	data sets
+T58	QUALITY 759 763	same
+T59	QUALITY 735 741	better
+T60	QUALITY 746 751	worse
+T61	QUANTITY 728 731	all
+T62	PROCESS 732 734	do
+R2	Coreference Arg1:T56 Arg2:T45	
+T63	QUALITY 816 823	density
+T64	DATA-ITEM 827 845	subjectivity clues
+T65	DATA-ITEM 853 872	surrounding context
+T66	PROCESS 882 889	affects
+T67	QUALITY 873 881	strongly
+T68	DATA-ITEM 914 918	word
+T69	QUALITY 922 932	subjective
+T70	PROCESS 941 949	provides
+T71	DATA-ITEM 954 961	results
+T72	PLAN-OR-PROCESS 968 984	annotation study
+T73	PROCESS 985 994	assessing
+T74	QUALITY 999 1011	subjectivity
+T75	DATA-ITEM 1015 1024	sentences
+T76	DATA-ITEM 1043 1051	features
+T78	QUALITY 1030 1042	high-density
+T79	DATA-ITEM 1066 1071	clues
+T80	INPUT 1076 1080	used
+T81	PROCESS 1084 1091	perform
+T82	PLAN 1092 1117	opinion piece recognition
+T83	PLAN 1129 1148	text categorization
+T84	PLAN 1153 1168	genre detection
+T85	PROCESS 1173 1184	demonstrate
+T86	QUALITY 1189 1196	utility
+T87	DATA-ITEM 1204 1213	knowledge
+T32	QUALITY 439 452	low-frequency
+R4	Attribute Arg1:T31 Arg2:T32	
+R5	Attribute Arg1:T47 Arg2:T48	
+R6	Attribute Arg1:T50 Arg2:T51	
+R3	Attribute Arg1:T57 Arg2:T58	
+R7	Attribute Arg1:T66 Arg2:T67	
+R8	Attribute Arg1:T76 Arg2:T78	
+R9	Attribute Arg1:T14 Arg2:T13	
+R10	Attribute Arg1:T64 Arg2:T63	
+R11	Attribute Arg1:T68 Arg2:T69	
+R12	Attribute Arg1:T75 Arg2:T74	
+T88	IS-A 1121 1125	type
+R13	Attribute Arg1:T87 Arg2:T86	
+R14	Attribute Arg1:T15 Arg2:T16	
+R15	Attribute Arg1:T42 Arg2:T44	
+R16	In_Out Arg1:T1 Arg2:T2	
+R17	Attribute Arg1:T4 Arg2:T3	
+R18	Input Arg1:T5 Arg2:T3	
+R19	Output Arg1:T5 Arg2:T6	
+R20	Attribute Arg1:T7 Arg2:T6	
+R21	to Arg1:T8 Arg2:T6	
+R22	from Arg1:T8 Arg2:T9	
+R23	Output Arg1:T9 Arg2:T10	
+R24	Output Arg1:T9 Arg2:T11	
+R25	Output Arg1:T9 Arg2:T12	
+R26	Apply-to Arg1:T15 Arg2:T17	
+R27	to Arg1:T18 Arg2:T14	
+R28	from Arg1:T18 Arg2:T19	
+R29	from Arg1:T18 Arg2:T20	
+R30	Other-rel Arg1:T23 Arg2:T24	
+R31	Input Arg1:T23 Arg2:T25	
+R32	Other-rel Arg1:T26 Arg2:T27	
+R33	Output Arg1:T28 Arg2:T26	
+R34	Input Arg1:T29 Arg2:T26	
+R35	to Arg1:T30 Arg2:T26	
+R36	from Arg1:T30 Arg2:T31	
+R37	from Arg1:T30 Arg2:T34	
+R38	from Arg1:T30 Arg2:T35	
+R39	from Arg1:T30 Arg2:T36	
+R40	to Arg1:T38 Arg2:T39	
+R41	from Arg1:T38 Arg2:T37	
+R43	Output Arg1:T37 Arg2:T36	
+R44	In_Out Arg1:T41 Arg2:T40	
+R45	Input Arg1:T42 Arg2:T40	
+R46	Output Arg1:T46 Arg2:T45	
+R47	Input Arg1:T46 Arg2:T47	
+R48	from Arg1:T49 Arg2:T50	
+R49	to Arg1:T49 Arg2:T46	
+R50	Attribute Arg1:T54 Arg2:T53	
+R51	to Arg1:T52 Arg2:T53	
+R52	from Arg1:T52 Arg2:T45	
+R53	Attribute Arg1:T56 Arg2:T61	
+R54	Apply-to Arg1:T56 Arg2:T62	
+R55	Attribute Arg1:T62 Arg2:T59	
+R56	Attribute Arg1:T62 Arg2:T60	
+R57	Input Arg1:T62 Arg2:T57	
+R58	Condition Arg1:T63 Arg2:T65	
+R59	Input Arg1:T66 Arg2:T63	
+R60	Target Arg1:T66 Arg2:T69	
+R61	Output Arg1:T70 Arg2:T71	
+R62	Output Arg1:T72 Arg2:T71	
+R63	Apply-to Arg1:T72 Arg2:T73	
+R64	In_Out Arg1:T73 Arg2:T74	
+R65	Component-object Arg1:T76 Arg2:T75	
+R66	to Arg1:T80 Arg2:T79	
+R67	from Arg1:T80 Arg2:T81	
+R68	Other-rel Arg1:T81 Arg2:T82	
+R69	from Arg1:T88 Arg2:T82	
+R70	to Arg1:T88 Arg2:T83	
+R71	to Arg1:T88 Arg2:T84	
+R72	Apply-to Arg1:T81 Arg2:T85	
+R73	Output Arg1:T85 Arg2:T86	
+T21	REFERENCE 788 800	this article
+T22	PROCESS 801 806	shows
+R42	Condition Arg1:T22 Arg2:T21	
+T33	REFERENCE 1226 1238	this article
+T43	PROCESS 1214 1222	acquired
+R74	Condition Arg1:T43 Arg2:T33	
+R75	In_Out Arg1:T43 Arg2:T87	
+T55	REFERENCE 325 334	this work
+T77	THING 317 321	goal
+R76	Attribute Arg1:T55 Arg2:T77	
+R77	Is-a Arg1:T23 Arg2:T77	
+T89	REFERENCE 938 940	it
+R78	Coreference Arg1:T89 Arg2:T21	
+R79	Condition Arg1:T70 Arg2:T89	

@@ -1,0 +1,6 @@
+Interaction Grammars .
+Interaction Grammars ( IG ) are a new linguistic formalism which is based on descriptions of under-specified trees in the flamework of intuitionistic linear logic ( ILL ) .
+Syntactic composition , which is expressed by deduction in linear logic , is controlled by a system of polarized features .
+In this way , parsing amounts to generating models of tree descriptions and it is implemented as a constraint satisfaction problem .
+
+

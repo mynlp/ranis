@@ -1,0 +1,307 @@
+T1	QUALITY 0 10	Complexity
+T2	PLAN 15 23;25 34	Iterated Dominance
+T4	QUALITY 52 73	computational aspects
+T5	QUALITY 44 51	various
+T6	PROCESS 77 84	solving
+T7	PLAN 85 90	games
+T8	APPLY-TO 91 96	using
+T9	PLAN 97 106	dominance
+T10	PLAN 111 129	iterated dominance
+T11	PLAN 162 176	weak dominance
+T14	MODALITY 178 181	not
+T15	QUALITY 182 190	iterated
+T16	PROCESS 207 215	checking
+T17	PLAN 232 240	strategy
+T18	QUALITY 226 231	given
+T19	QUALITY 244 253	dominated
+T20	PLAN 262 276	mixed strategy
+T21	MODALITY 277 280	can
+T22	PROCESS 284 288	done
+T23	QUALITY 292 307	polynomial time
+T24	APPLY-TO 308 313	using
+T25	PLAN-OR-PROCESS 323 343	linear program solve
+T26	PLAN 364 382	iterated dominance
+T27	PROCESS 397 408	determining
+T29	PLAN 431 435	path
+T30	PROCESS 441 451	eliminates
+T31	REFERENCE 436 440	that
+R1	Coreference Arg1:T31 Arg2:T29	
+T32	PLAN 460 468	strategy
+T33	QUALITY 454 459	given
+T34	QUALITY 472 483	NP-complete
+T38	PROCESS 547 558	determining
+T39	PLAN 578 582	path
+T40	RESULT 588 593	leads
+T41	DATA-ITEM 606 614	solution
+T42	QUALITY 618 629	NP-complete
+T43	QUALITY 639 652	these results
+T45	ATTRIBUTE 653 657	hold
+T46	MODALITY 672 679	without
+T47	QUALITY 680 689	dominance
+T48	PLAN 693 709	mixed strategies
+T49	THING 721 728	version
+T50	QUALITY 714 720	weaker
+T51	THING 743 749	result
+T52	MODALITY 756 763	without
+T53	QUALITY 764 773	dominance
+T54	PLAN 777 793	mixed strategies
+T55	TIME 799 806	already
+T56	PROCESS 807 812	known
+T57	PLAN 819 844	Iterated strict dominance
+T58	QUALITY 868 884	path-independent
+T59	MODALITY 900 907	without
+T60	QUALITY 908 917	dominance
+T61	PLAN 921 937	mixed strategies
+T62	MODALITY 943 946	can
+T63	PROCESS 960 964	done
+T64	QUALITY 968 983	polynomial time
+T67	PLAN 1021 1040	dominating strategy
+T68	MODALITY 1044 1051	allowed
+T69	OUTPUT 1055 1060	place
+T70	QUALITY 1061 1069	positive
+T71	DATA-ITEM 1070 1081	probability
+T72	QUANTITY 1090 1095	a few
+T73	PLAN 1096 1111	pure strategies
+T74	PROCESS 1133 1140	finding
+T75	PLAN 1145 1164	dominating strategy
+T76	QUALITY 1170 1177	minimum
+T77	QUALITY 1178 1190	support size
+T78	QUALITY 1194 1205	NP-complete
+T79	PLAN 1216 1222;1232 1241	strict dominance
+T80	PLAN 1227 1241	weak dominance
+T81	PLAN 1263 1288	iterated strict dominance
+T82	ATTRIBUTE 1289 1296	becomes
+T83	QUALITY 1297 1311	path-dependent
+T84	PLAN 1328 1333	limit
+T85	QUALITY 1341 1353	support size
+T86	PLAN 1361 1382	dominating strategies
+T87	PROCESS 1393 1401	deciding
+T88	PLAN 1418 1426	strategy
+T89	QUALITY 1412 1417	given
+T90	MODALITY 1427 1430	can
+T91	PROCESS 1434 1444	eliminated
+T92	PLAN 1448 1473	iterated strict dominance
+T93	PLAN 1480 1496	this restriction
+T94	QUALITY 1500 1511	NP-complete
+R2	Coreference Arg1:T93 Arg2:T84	
+T95	PLAN 1527 1532	limit
+T96	QUALITY 1540 1552	support size
+T97	QUANTITY 1556 1557	3
+T98	PLAN 1578 1592	Bayesian games
+T100	PLAN 1618 1635	normal form games
+T101	PROCESS 1637 1645	deciding
+T102	QUALITY 1656 1661	given
+T103	PLAN 1662 1675	pure strategy
+T104	QUALITY 1679 1688	dominated
+T105	PLAN 1700 1713	pure strategy
+T106	QUALITY 1692 1699	another
+T107	PLAN 1719 1732	Bayesian game
+T108	QUALITY 1736 1747	NP-complete
+T109	PLAN 1759 1765;1775 1784	strict dominance
+T110	PLAN 1770 1784	weak dominance
+T111	PROCESS 1796 1804	deciding
+T112	PLAN 1815 1823	strategy
+T113	QUALITY 1827 1836	dominated
+T114	PLAN 1845 1859	mixed strategy
+T116	MODALITY 1860 1863	can
+T118	PROCESS 1873 1877	done
+T119	QUALITY 1881 1896	polynomial time
+T120	PLAN-OR-PROCESS 1911 1931	linear program solve
+T121	PLAN 1943 1949;1959 1968	strict dominance
+T122	PLAN 1954 1968	weak dominance
+T123	PLAN 1993 2011	iterated dominance
+T124	APPLY-TO 2012 2017	using
+T125	PLAN 2018 2033	pure strategies
+T126	MODALITY 2034 2037	can
+T127	CONDITION 2038 2045	require
+T128	QUANTITY 2049 2067	exponential number
+T129	PLAN-OR-PROCESS 2071 2081	iterations
+T130	PLAN 2087 2100	Bayesian game
+T131	PLAN 2112 2118;2128 2137	strict dominance
+T132	PLAN 2123 2137	weak dominance
+T12	PLAN 151 157;167 176	strict dominance
+R4	Attribute Arg1:T4 Arg2:T5	
+R5	Attribute Arg1:T15 Arg2:T14	
+R7	Attribute Arg1:T17 Arg2:T18	
+R8	Attribute Arg1:T22 Arg2:T21	
+R9	Attribute Arg1:T32 Arg2:T33	
+T115	PLAN 489 512	iterated weak dominance
+R14	Attribute Arg1:T47 Arg2:T46	
+R15	Attribute Arg1:T49 Arg2:T50	
+T133	QUALITY 751 755	only
+R16	Attribute Arg1:T53 Arg2:T52	
+R17	Attribute Arg1:T53 Arg2:T133	
+R18	Attribute Arg1:T56 Arg2:T55	
+R19	Attribute Arg1:T57 Arg2:T58	
+R20	Attribute Arg1:T60 Arg2:T59	
+R21	Attribute Arg1:T63 Arg2:T62	
+R22	Attribute Arg1:T71 Arg2:T70	
+T134	QUALITY 1085 1089	only
+R23	Attribute Arg1:T72 Arg2:T134	
+R24	Attribute Arg1:T73 Arg2:T72	
+R25	Attribute Arg1:T77 Arg2:T76	
+R28	Attribute Arg1:T91 Arg2:T90	
+R30	Attribute Arg1:T96 Arg2:T97	
+R32	Attribute Arg1:T103 Arg2:T102	
+R33	Attribute Arg1:T105 Arg2:T106	
+T135	PERSON 1719 1727	Bayesian
+T136	PERSON 1578 1586	Bayesian
+T137	PERSON 2087 2095	Bayesian
+R35	Attribute Arg1:T118 Arg2:T116	
+R36	Attribute Arg1:T127 Arg2:T126	
+T117	EXTERNAL-REFERENCE 813 816	[7]
+T13	QUANTITY 316 322	single
+R6	Attribute Arg1:T25 Arg2:T13	
+R13	Attribute Arg1:T38 Arg2:T42	
+R3	Attribute Arg1:T74 Arg2:T78	
+R26	Attribute Arg1:T87 Arg2:T94	
+R29	Attribute Arg1:T101 Arg2:T108	
+T3	QUANTITY 1904 1910	single
+R34	Attribute Arg1:T120 Arg2:T3	
+T148	REFERENCE 583 587	that
+R37	Coreference Arg1:T148 Arg2:T39	
+T150	QUALITY 736 742	second
+R38	Attribute Arg1:T51 Arg2:T150	
+T152	QUANTITY 426 430	some
+R39	Attribute Arg1:T88 Arg2:T89	
+R31	Attribute Arg1:T2 Arg2:T1	
+R40	from Arg1:T8 Arg2:T9	
+R41	from Arg1:T8 Arg2:T10	
+R42	In_Out Arg1:T6 Arg2:T7	
+R43	to Arg1:T8 Arg2:T6	
+R44	Attribute Arg1:T6 Arg2:T4	
+R45	Attribute Arg1:T11 Arg2:T15	
+R46	Target Arg1:T16 Arg2:T19	
+R47	Attribute Arg1:T17 Arg2:T19	
+R48	Condition Arg1:T19 Arg2:T20	
+R49	Attribute Arg1:T22 Arg2:T23	
+R50	to Arg1:T24 Arg2:T25	
+R51	to Arg1:T24 Arg2:T22	
+R52	Output Arg1:T27 Arg2:T29	
+R53	Attribute Arg1:T29 Arg2:T152	
+R54	Apply-to Arg1:T31 Arg2:T30	
+R55	Output Arg1:T30 Arg2:T32	
+R56	Condition Arg1:T34 Arg2:T115	
+R57	Output Arg1:T38 Arg2:T39	
+R58	from Arg1:T40 Arg2:T148	
+R59	to Arg1:T40 Arg2:T41	
+T36	QUALITY 599 605	unique
+R60	Attribute Arg1:T41 Arg2:T36	
+R61	Coreference Arg1:T43 Arg2:T34	
+R62	Coreference Arg1:T43 Arg2:T42	
+R63	from Arg1:T45 Arg2:T43	
+R64	to Arg1:T45 Arg2:T47	
+R65	Condition Arg1:T47 Arg2:T48	
+R66	Is-a Arg1:T49 Arg2:T51	
+R67	Condition Arg1:T53 Arg2:T54	
+R68	Attribute Arg1:T51 Arg2:T53	
+R69	Output Arg1:T56 Arg2:T49	
+R70	Condition Arg1:T60 Arg2:T61	
+R71	Condition Arg1:T58 Arg2:T60	
+R72	Attribute Arg1:T63 Arg2:T64	
+R74	to Arg1:T69 Arg2:T71	
+R76	from Arg1:T69 Arg2:T73	
+R77	Output Arg1:T74 Arg2:T75	
+R78	Attribute Arg1:T75 Arg2:T77	
+R79	Condition Arg1:T74 Arg2:T80	
+R80	Condition Arg1:T74 Arg2:T79	
+R81	Attribute Arg1:T84 Arg2:T85	
+R82	Condition Arg1:T83 Arg2:T84	
+R83	Attribute Arg1:T86 Arg2:T85	
+R84	Output Arg1:T87 Arg2:T91	
+R85	Output Arg1:T91 Arg2:T88	
+R86	Condition Arg1:T91 Arg2:T92	
+R87	Attribute Arg1:T95 Arg2:T96	
+R88	Attribute Arg1:T129 Arg2:T128	
+R89	Output Arg1:T101 Arg2:T104	
+R90	Attribute Arg1:T103 Arg2:T104	
+R91	Condition Arg1:T104 Arg2:T105	
+R92	Condition Arg1:T101 Arg2:T107	
+R93	Output Arg1:T111 Arg2:T113	
+R94	Attribute Arg1:T112 Arg2:T113	
+R95	Condition Arg1:T113 Arg2:T114	
+R96	Apply-to Arg1:T111 Arg2:T118	
+R97	Attribute Arg1:T118 Arg2:T119	
+R98	Condition Arg1:T118 Arg2:T120	
+R99	Condition Arg1:T101 Arg2:T110	
+R100	Condition Arg1:T101 Arg2:T109	
+R101	Condition Arg1:T118 Arg2:T122	
+R102	Condition Arg1:T118 Arg2:T121	
+R103	from Arg1:T124 Arg2:T125	
+R104	to Arg1:T124 Arg2:T123	
+R105	from Arg1:T127 Arg2:T123	
+R106	Condition Arg1:T127 Arg2:T129	
+R107	to Arg1:T127 Arg2:T130	
+R108	to Arg1:T127 Arg2:T132	
+R109	to Arg1:T127 Arg2:T131	
+T153	MODALITY 216 223	whether
+R110	Attribute Arg1:T19 Arg2:T153	
+R111	Apply-to Arg1:T16 Arg2:T22	
+T154	MODALITY 409 416	whether
+R112	Attribute Arg1:T29 Arg2:T154	
+R113	Attribute Arg1:T27 Arg2:T34	
+T155	MODALITY 559 566	whether
+R10	Attribute Arg1:T39 Arg2:T155	
+R27	from Arg1:T82 Arg2:T81	
+R114	to Arg1:T82 Arg2:T83	
+T156	MODALITY 1402 1409	whether
+R115	Attribute Arg1:T91 Arg2:T156	
+R116	Condition Arg1:T94 Arg2:T95	
+T157	MODALITY 1646 1653	whether
+R117	Attribute Arg1:T104 Arg2:T157	
+T158	MODALITY 1805 1812	whether
+R118	Attribute Arg1:T113 Arg2:T158	
+R119	Other-rel Arg1:T63 Arg2:T57	
+R73	Attribute Arg1:T69 Arg2:T68	
+R75	Other-rel Arg1:T67 Arg2:T69	
+T28	PERSON 35 37	We
+T35	PROCESS 38 43	study
+T37	PERSON 131 133	We
+T44	PROCESS 140 145	study
+T65	PERSON 345 347	We
+T66	PROCESS 353 357	move
+T99	PERSON 384 386	We
+T138	PROCESS 387 391	show
+T139	PERSON 526 528	us
+T140	PROCESS 537 541	show
+T141	PROCESS 519 525	allows
+T142	PERSON 985 987	We
+T143	PROCESS 993 998	study
+T144	PERSON 1120 1122	we
+T145	PROCESS 1123 1127	show
+T146	PERSON 1250 1252	we
+T147	PROCESS 1253 1257	show
+T149	PERSON 1569 1571	we
+T151	PROCESS 1572 1577	study
+T159	PERSON 1594 1596	We
+T160	PROCESS 1597 1601	show
+T161	PERSON 1980 1982	we
+T162	PROCESS 1983 1987	show
+R120	Agent Arg1:T140 Arg2:T139	
+R121	Agent Arg1:T35 Arg2:T28	
+R122	In_Out Arg1:T35 Arg2:T6	
+R123	Agent Arg1:T44 Arg2:T37	
+T163	PROCESS 197 201	show
+R124	Agent Arg1:T163 Arg2:T37	
+R125	In_Out Arg1:T44 Arg2:T11	
+R126	In_Out Arg1:T44 Arg2:T12	
+R127	Output Arg1:T163 Arg2:T16	
+R128	Agent Arg1:T66 Arg2:T65	
+R129	Destination Arg1:T66 Arg2:T26	
+R130	Agent Arg1:T138 Arg2:T99	
+R131	Agent Arg1:T143 Arg2:T142	
+R132	Agent Arg1:T145 Arg2:T144	
+R133	Agent Arg1:T147 Arg2:T146	
+R134	Agent Arg1:T151 Arg2:T149	
+R135	In_Out Arg1:T151 Arg2:T98	
+R136	Agent Arg1:T160 Arg2:T159	
+R137	Agent Arg1:T162 Arg2:T161	
+R11	Target Arg1:T141 Arg2:T139	
+T164	REFERENCE 514 518	This
+R12	Coreference Arg1:T164 Arg2:T27	
+R138	Apply-to Arg1:T164 Arg2:T141	
+R139	Output Arg1:T138 Arg2:T34	
+R140	Output Arg1:T145 Arg2:T78	
+R141	Output Arg1:T147 Arg2:T83	
+R142	Output Arg1:T160 Arg2:T108	
+R143	Output Arg1:T162 Arg2:T127	

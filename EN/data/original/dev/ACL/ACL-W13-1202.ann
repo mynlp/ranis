@@ -1,0 +1,128 @@
+T1	PLAN 0 3	GAF
+T2	PLAN 7 36	Grounded Annotation Framework
+T3	DATA-ITEM 41 47	Events
+T4	PLAN 71 74	GAF
+T5	PLAN 78 107	grounded annotation framework
+T6	PROCESS 111 120	represent
+T7	DATA-ITEM 121 127	events
+T8	DATA-ITEM 133 147	formal context
+T9	REFERENCE 148 152	that
+T10	MODALITY 153 156	can
+T11	PROCESS 157 166	represent
+T12	DATA-ITEM 167 178	information
+T13	DATA-ITEM 201 222	extra-textual sources
+T14	PLAN 224 227	GAF
+T15	PROCESS 228 233	makes
+T16	QUALITY 236 241	clear
+T17	PLAN-OR-PROCESS 242 253	distinction
+T18	PLAN-OR-PROCESS 262 270	mentions
+T19	DATA-ITEM 274 280	events
+T20	REFERENCE 293 298	their
+T21	PLAN-OR-PROCESS 299 320	formal representation
+T22	DATA-ITEM 324 333	instances
+T23	DATA-ITEM 339 353	semantic layer
+T24	DATA-ITEM 355 364	Instances
+T25	PROCESS 369 380	represented
+T26	PLAN 384 402	RDF compliant URIs
+T27	REFERENCE 403 407	that
+T28	APPLY-TO 412 418	shared
+T29	QUALITY 426 435	different
+T30	PLAN 436 456	research disciplines
+T31	REFERENCE 458 462	This
+T32	RESULT 463 469	allows
+T33	PROCESS 476 484	complete
+T34	DATA-ITEM 485 504	textual information
+T35	DATA-ITEM 510 526	external sources
+T36	PROCESS 531 542	facilitates
+T37	PLAN-OR-PROCESS 543 552	reasoning
+T38	DATA-ITEM 558 572	semantic layer
+T39	MODALITY 573 576	can
+T40	PROCESS 577 586	integrate
+T41	DATA-ITEM 591 613	linguistic information
+T42	QUALITY 621 631	compatible
+T43	TIME 637 645	previous
+T44	PLAN-OR-PROCESS 646 667	event representations
+T45	PLAN-OR-PROCESS 671 674	NLP
+T46	PLAN 686 694	use case
+T47	OCCURENT 698 709	earthquakes
+T48	LOCATION 713 727	Southeast Asia
+T49	PERSON 729 731	we
+T50	PROCESS 732 743	demonstrate
+T51	QUALITY 748 759	flexibility
+T52	QUALITY 764 771	ability
+T53	PROCESS 775 781	reason
+T54	DATA-ITEM 787 793	events
+T55	DATA-ITEM 810 836	extra-linguistic resources
+R1	Is-a Arg1:T1 Arg2:T2	
+T56	REFERENCE 49 59	This paper
+A1	Self T56
+T57	PROCESS 60 70	introduces
+A2	Intentional T57
+R2	Condition Arg1:T57 Arg2:T56	
+R3	Output Arg1:T57 Arg2:T4	
+R4	Is-a Arg1:T4 Arg2:T5	
+R5	Apply-to Arg1:T5 Arg2:T6	
+R6	Output Arg1:T6 Arg2:T7	
+R7	Output Arg1:T2 Arg2:T3	
+R8	Input Arg1:T6 Arg2:T8	
+R9	Attribute Arg1:T11 Arg2:T10	
+R10	Output Arg1:T11 Arg2:T12	
+T58	DATA-ITEM 189 196	textual
+R11	Input Arg1:T11 Arg2:T58	
+R12	Input Arg1:T11 Arg2:T13	
+R13	Apply-to Arg1:T9 Arg2:T11	
+R14	Coreference Arg1:T9 Arg2:T4	
+R15	Attribute Arg1:T17 Arg2:T16	
+T59	DATA-ITEM 284 288	text
+R16	Condition Arg1:T18 Arg2:T59	
+R17	In_Out Arg1:T17 Arg2:T18	
+R18	In_Out Arg1:T17 Arg2:T21	
+R19	Coreference Arg1:T20 Arg2:T18	
+R20	Input Arg1:T20 Arg2:T21	
+R22	Output Arg1:T15 Arg2:T17	
+R23	Apply-to Arg1:T14 Arg2:T15	
+R24	Output Arg1:T18 Arg2:T19	
+R25	Output Arg1:T21 Arg2:T22	
+R21	Condition Arg1:T21 Arg2:T23	
+R26	Output Arg1:T25 Arg2:T24	
+R27	Apply-to Arg1:T26 Arg2:T25	
+R28	Coreference Arg1:T27 Arg2:T26	
+R29	Attribute Arg1:T30 Arg2:T29	
+R30	to Arg1:T28 Arg2:T30	
+R31	from Arg1:T28 Arg2:T26	
+R32	In_Out Arg1:T33 Arg2:T34	
+R33	Input Arg1:T33 Arg2:T35	
+T60	PERSON 470 472	us
+A3	Self T60
+R34	Agent Arg1:T33 Arg2:T60	
+R35	to Arg1:T32 Arg2:T33	
+R36	from Arg1:T32 Arg2:T31	
+R37	Coreference Arg1:T31 Arg2:T26	
+R38	Apply-to Arg1:T31 Arg2:T36	
+R39	Target Arg1:T36 Arg2:T37	
+R40	Attribute Arg1:T40 Arg2:T39	
+R41	In_Out Arg1:T40 Arg2:T41	
+R42	Destination Arg1:T40 Arg2:T38	
+R43	Attribute Arg1:T38 Arg2:T42	
+A4	Judgment T42
+R44	Condition Arg1:T44 Arg2:T43	
+R45	Compare Arg1:T44 Arg2:T42	
+R46	Condition Arg1:T44 Arg2:T45	
+R47	Apply-to Arg1:T46 Arg2:T47	
+R48	Condition Arg1:T47 Arg2:T48	
+A5	Self T49
+A6	Intentional T50
+R49	Agent Arg1:T50 Arg2:T49	
+T61	INPUT 803 806	aid
+T62	PLAN 744 747	GAF
+R50	Attribute Arg1:T62 Arg2:T51	
+A7	Judgment T51
+R51	Output Arg1:T50 Arg2:T51	
+R52	Output Arg1:T50 Arg2:T52	
+R54	Output Arg1:T53 Arg2:T54	
+R55	to Arg1:T61 Arg2:T55	
+R56	from Arg1:T61 Arg2:T53	
+R57	Apply-to Arg1:T46 Arg2:T50	
+R58	Apply-to Arg1:T62 Arg2:T46	
+R53	Apply-to Arg1:T62 Arg2:T53	
+R60	Attribute Arg1:T62 Arg2:T52	

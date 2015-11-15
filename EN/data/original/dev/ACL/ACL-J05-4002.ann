@@ -1,0 +1,277 @@
+T1	PLAN-OR-PROCESS 0 23	Co-occurrence Retrieval
+T2	QUALITY 27 35	Flexible
+T3	PLAN-OR-PROCESS 36 45	Framework
+T4	DATA-ITEM 50 83	Lexical Distributional Similarity
+T5	PLAN 85 95	Techniques
+T6	REFERENCE 96 100	that
+R1	Coreference Arg1:T6 Arg2:T5	
+T7	PROCESS 101 108	exploit
+T8	DATA-ITEM 109 118	knowledge
+T9	DATA-ITEM 122 147	distributional similarity
+T10	DATA-ITEM 156 161	words
+T11	PROCESS 172 180	proposed
+T12	QUANTITY 184 188	many
+T13	DOMAIN 189 194	areas
+T14	PLAN-OR-PROCESS 198 225	Natural Language Processing
+T16	PLAN-OR-PROCESS 243 260	language modeling
+T17	PLAN 266 285	sparse data problem
+T18	MODALITY 286 289	can
+T19	PROCESS 293 303	alleviated
+T20	PROCESS 307 317	estimating
+T21	DATA-ITEM 322 335	probabilities
+T22	DATA-ITEM 339 360	unseen co-occurrences
+T23	DATA-ITEM 364 370	events
+T24	DATA-ITEM 380 393	probabilities
+T25	DATA-ITEM 397 416	seen co-occurrences
+T26	DATA-ITEM 428 434	events
+T27	QUALITY 420 427	similar
+T28	PLAN-OR-PROCESS 445 457	applications
+T29	QUALITY 439 444	other
+T30	DATA-ITEM 459 484	distributional similarity
+T31	PROCESS 488 493	taken
+T32	DATA-ITEM 503 516	approximation
+T33	DATA-ITEM 520 539	semantic similarity
+T34	PLAN 566 571	range
+T35	QUALITY 561 565	wide
+T36	PLAN 585 597	applications
+T37	QUALITY 575 584	potential
+T38	MODALITY 606 610	lack
+T39	PLAN 623 633	definition
+T40	THING 641 648	concept
+T41	DATA-ITEM 652 677	distributional similarity
+T42	QUANTITY 679 683	many
+T43	PLAN 684 691	methods
+T44	PROCESS 695 706	calculating
+T45	DATA-ITEM 707 732	distributional similarity
+T46	PROCESS 755 762	adopted
+T47	PROCESS 743 751	proposed
+T48	QUALITY 781 789	flexible
+T49	PLAN 791 814	parameterized framework
+T50	PROCESS 819 830	calculating
+T51	DATA-ITEM 831 856	distributional similarity
+T52	PLAN 877 891	this framework
+T53	PLAN 897 904	problem
+T54	PROCESS 908 915	finding
+T55	DATA-ITEM 916 946	distributionally similar words
+T56	PROCESS 950 954	cast
+T57	PLAN 965 988	co-occurrence retrieval
+T58	PLAN 990 992	CR
+R2	Equivalence Arg1:T58 Arg2:T57	
+R3	Coreference Arg1:T52 Arg2:T49	
+T59	PLAN 958 961	one
+T60	DATA-ITEM 1004 1013	precision
+T61	DATA-ITEM 1018 1024	recall
+T62	MODALITY 1025 1028	can
+T63	PROCESS 1032 1040	measured
+T64	PLAN 1044 1051	analogy
+T65	PLAN 1061 1064	way
+T66	REFERENCE 1065 1069	they
+T67	PROCESS 1074 1082	measured
+T68	PLAN-OR-PROCESS 1086 1104	document retrieval
+T69	QUANTITY 1124 1132	a number
+T70	PLAN 1153 1161	measures
+T71	QUALITY 1136 1143	popular
+T72	QUALITY 1144 1152	existing
+T73	DATA-ITEM 1165 1190	distributional similarity
+T74	PROCESS 1195 1204	simulated
+T75	DATA-ITEM 1210 1228	parameter settings
+T76	PLAN 1240 1252	CR framework
+T77	PLAN 1275 1287	CR framework
+T78	APPLY-TO 1296 1300	used
+T79	PROCESS 1319 1330	investigate
+T80	QUALITY 1304 1318	systematically
+T81	QUANTITY 1331 1336	three
+T82	PLAN 1349 1358	questions
+T83	DATA-ITEM 1370 1395	distributional similarity
+T84	DATA-ITEM 1411 1423	relationship
+T85	QUALITY 1458 1467	symmetric
+T86	DATA-ITEM 1427 1445	lexical similarity
+T87	QUALITY 1482 1492	advantages
+T88	PROCESS 1499 1505	gained
+T89	PROCESS 1511 1522	considering
+T90	DATA-ITEM 1532 1555	asymmetric relationship
+T91	REFERENCE 1523 1525	it
+T92	QUANTITY 1569 1573	some
+T93	DATA-ITEM 1574 1588	co-occurrences
+T95	QUALITY 1589 1612	inherently more salient
+T96	DATA-ITEM 1618 1624	others
+T97	PLAN-OR-PROCESS 1632 1643	calculation
+T98	DATA-ITEM 1647 1672	distributional similarity
+T99	QUALITY 1687 1696	necessary
+T100	PROCESS 1700 1708	consider
+T101	QUALITY 1713 1723	difference
+T102	THING 1731 1737	extent
+T103	DATA-ITEM 1752 1756	word
+T104	PROCESS 1757 1763	occurs
+T105	DATA-ITEM 1772 1790	co-occurrence type
+T106	QUANTITY 1793 1796	Two
+T107	PLAN 1797 1820	application-based tasks
+T108	APPLY-TO 1825 1829	used
+T109	PLAN-OR-PROCESS 1834 1844	evaluation
+T110	PLAN 1846 1876	automatic thesaurus generation
+T111	PLAN 1881 1902	pseudo-disambiguation
+T112	QUALITY 1910 1918	possible
+T113	RESULT 1922 1929	achieve
+T114	QUALITY 1930 1950	significantly better
+T115	DATA-ITEM 1951 1958	results
+T116	PLAN 1962 1978	both these tasks
+R4	Coreference Arg1:T116 Arg2:T107	
+T117	PROCESS 1982 1989	varying
+T118	DATA-ITEM 1994 2004	parameters
+T119	PLAN 2016 2028	CR framework
+T120	PROCESS 2041 2046	using
+T121	PLAN 2062 2096	distributional similarity measures
+T122	QUALITY 2053 2061	existing
+T123	QUALITY 2047 2052	other
+T124	PLAN 2136 2159	unparameterized measure
+T125	QUALITY 2163 2171	unlikely
+T126	MODALITY 2178 2182	able
+T127	RESULT 2186 2188	do
+T128	QUALITY 2189 2195	better
+T129	PLAN 2199 2209	both tasks
+R5	Coreference Arg1:T129 Arg2:T116	
+T130	QUALITY 2229 2247	inherent asymmetry
+T131	DATA-ITEM 2251 2275	lexical substitutability
+T132	DATA-ITEM 2298 2331	lexical distributional similarity
+R6	Attribute Arg1:T19 Arg2:T18	
+R7	Attribute Arg1:T26 Arg2:T27	
+R8	Attribute Arg1:T36 Arg2:T37	
+R9	Attribute Arg1:T43 Arg2:T42	
+R10	Coreference Arg1:T66 Arg2:T60	
+R11	Coreference Arg1:T66 Arg2:T61	
+R12	Attribute Arg1:T70 Arg2:T71	
+R13	Attribute Arg1:T70 Arg2:T72	
+R14	Attribute Arg1:T79 Arg2:T80	
+T133	QUALITY 1337 1348	fundamental
+R15	Attribute Arg1:T82 Arg2:T133	
+T134	QUALITY 1446 1457	necessarily
+R16	Attribute Arg1:T84 Arg2:T85	
+R17	Coreference Arg1:T91 Arg2:T84	
+R18	Attribute Arg1:T93 Arg2:T92	
+R19	Attribute Arg1:T115 Arg2:T114	
+R20	Attribute Arg1:T121 Arg2:T123	
+R21	Attribute Arg1:T121 Arg2:T122	
+R22	Attribute Arg1:T3 Arg2:T2	
+R23	Attribute Arg1:T127 Arg2:T126	
+R24	to Arg1:T127 Arg2:T128	
+R25	Attribute Arg1:T127 Arg2:T125	
+R26	Attribute Arg1:T13 Arg2:T12	
+R27	Attribute Arg1:T34 Arg2:T35	
+R28	Attribute Arg1:T28 Arg2:T29	
+R29	Attribute Arg1:T49 Arg2:T48	
+R30	Attribute Arg1:T63 Arg2:T62	
+R31	Attribute Arg1:T70 Arg2:T69	
+T138	REFERENCE 998 1003	which
+R32	Coreference Arg1:T138 Arg2:T57	
+T147	REFERENCE 2211 2215	This
+T148	QUALITY 616 622	strict
+R33	Attribute Arg1:T39 Arg2:T148	
+R34	Attribute Arg1:T82 Arg2:T81	
+R35	Attribute Arg1:T93 Arg2:T95	
+R36	Attribute Arg1:T100 Arg2:T99	
+R37	Attribute Arg1:T113 Arg2:T112	
+R38	to Arg1:T113 Arg2:T114	
+T94	QUANTITY 2129 2135	single
+R39	Attribute Arg1:T131 Arg2:T130	
+R40	Condition Arg1:T3 Arg2:T4	
+R41	Is-a Arg1:T1 Arg2:T3	
+R42	Apply-to Arg1:T6 Arg2:T7	
+R43	Output Arg1:T7 Arg2:T8	
+R44	Condition Arg1:T8 Arg2:T9	
+R45	Attribute Arg1:T10 Arg2:T9	
+R46	Output Arg1:T11 Arg2:T5	
+R47	Attribute Arg1:T13 Arg2:T14	
+R48	In_Out Arg1:T19 Arg2:T17	
+R49	Apply-to Arg1:T20 Arg2:T19	
+R50	Output Arg1:T20 Arg2:T21	
+R51	Attribute Arg1:T22 Arg2:T21	
+R52	Attribute Arg1:T22 Arg2:T23	
+R53	Attribute Arg1:T25 Arg2:T26	
+R54	Attribute Arg1:T25 Arg2:T24	
+R55	Input Arg1:T20 Arg2:T24	
+R56	Condition Arg1:T19 Arg2:T16	
+R57	Input Arg1:T31 Arg2:T30	
+T149	IS-A 497 499	be
+R58	from Arg1:T149 Arg2:T30	
+R59	to Arg1:T149 Arg2:T32	
+R61	Other-rel Arg1:T32 Arg2:T33	
+R60	Condition Arg1:T31 Arg2:T28	
+R62	Attribute Arg1:T36 Arg2:T34	
+R63	Attribute Arg1:T39 Arg2:T38	
+R64	Attribute Arg1:T40 Arg2:T39	
+R65	Attribute Arg1:T40 Arg2:T41	
+R66	Apply-to Arg1:T43 Arg2:T44	
+R67	Output Arg1:T44 Arg2:T45	
+R68	Output Arg1:T47 Arg2:T43	
+R69	Apply-to Arg1:T43 Arg2:T46	
+T150	RESULT 550 556	due to
+R70	from Arg1:T150 Arg2:T35	
+R71	to Arg1:T150 Arg2:T42	
+R72	from Arg1:T150 Arg2:T39	
+R73	In_Out Arg1:T54 Arg2:T55	
+R74	Condition Arg1:T53 Arg2:T54	
+R75	Is-a Arg1:T59 Arg2:T57	
+R76	Destination Arg1:T56 Arg2:T53	
+R77	Output Arg1:T56 Arg2:T59	
+R81	Output Arg1:T63 Arg2:T61	
+R82	Output Arg1:T63 Arg2:T60	
+R78	Output Arg1:T67 Arg2:T66	
+R79	Condition Arg1:T67 Arg2:T68	
+R83	Apply-to Arg1:T65 Arg2:T67	
+R80	Apply-to Arg1:T64 Arg2:T63	
+R84	Apply-to Arg1:T65 Arg2:T63	
+R85	Output Arg1:T70 Arg2:T73	
+R86	Output Arg1:T74 Arg2:T70	
+R87	Input Arg1:T74 Arg2:T75	
+R88	Apply-to Arg1:T74 Arg2:T76	
+R89	Condition Arg1:T82 Arg2:T83	
+R90	from Arg1:T78 Arg2:T77	
+R91	to Arg1:T78 Arg2:T79	
+R92	Condition Arg1:T11 Arg2:T13	
+R93	Output Arg1:T50 Arg2:T51	
+R94	Apply-to Arg1:T49 Arg2:T50	
+R95	In_Out Arg1:T79 Arg2:T82	
+R96	Attribute Arg1:T85 Arg2:T134	
+R97	Attribute Arg1:T86 Arg2:T84	
+R98	Target Arg1:T89 Arg2:T91	
+R99	Output Arg1:T88 Arg2:T87	
+R100	Result Arg1:T89 Arg2:T88	
+R101	Is-a Arg1:T91 Arg2:T90	
+R102	Compare Arg1:T96 Arg2:T95	
+R103	Output Arg1:T97 Arg2:T98	
+R104	Condition Arg1:T93 Arg2:T97	
+R105	Target Arg1:T100 Arg2:T101	
+R106	Output Arg1:T104 Arg2:T103	
+R107	Attribute Arg1:T104 Arg2:T105	
+R108	Condition Arg1:T101 Arg2:T102	
+R109	Attribute Arg1:T107 Arg2:T106	
+R110	from Arg1:T108 Arg2:T109	
+R111	to Arg1:T108 Arg2:T107	
+R112	Is-a Arg1:T110 Arg2:T107	
+R113	Is-a Arg1:T111 Arg2:T107	
+R114	In_Out Arg1:T117 Arg2:T118	
+R115	Attribute Arg1:T119 Arg2:T118	
+R116	Condition Arg1:T115 Arg2:T116	
+R117	from Arg1:T113 Arg2:T117	
+R118	Compare Arg1:T120 Arg2:T114	
+R119	Apply-to Arg1:T121 Arg2:T120	
+R120	Condition Arg1:T127 Arg2:T94	
+R121	from Arg1:T127 Arg2:T124	
+R122	Apply-to Arg1:T124 Arg2:T129	
+R123	Coreference Arg1:T147 Arg2:T127	
+T151	RESULT 2219 2225	due to
+R124	from Arg1:T151 Arg2:T130	
+R125	to Arg1:T151 Arg2:T147	
+R126	Attribute Arg1:T132 Arg2:T130	
+T139	REFERENCE 1741 1746	which
+R127	Coreference Arg1:T139 Arg2:T102	
+R128	Condition Arg1:T104 Arg2:T139	
+T15	REFERENCE 1257 1269	this article
+R129	Condition Arg1:T78 Arg2:T15	
+T135	REFERENCE 768 777	this work
+T136	PROCESS 860 868	proposed
+R130	Output Arg1:T136 Arg2:T49	
+R131	Condition Arg1:T136 Arg2:T135	
+T137	PROCESS 2114 2119	shown
+T140	MODALITY 2101 2105	will
+R132	Attribute Arg1:T137 Arg2:T140	

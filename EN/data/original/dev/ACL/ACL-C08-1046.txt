@@ -1,0 +1,8 @@
+Japanese Dependency Parsing Using a Tournament Model .
+In Japanese dependency parsing , Kudo 's relative preference-based method ( Kudo and Matsumoto , 2005 ) outperforms both deterministic and probabilistic CKY-based parsing methods .
+In Kudo 's method , for each dependent word ( or chunk ) a loglinear model estimates relative preference of all other candidate words ( or chunks ) for being as its head .
+This can not be considered in the deterministic parsing methods .
+We propose an algorithm based on a tournament model , in which the relative preferences are directly modeled by one-on-one games in a step-ladder tournament .
+In an evaluation experiment with Kyoto Text Corpus Version 4.0 , the proposed method outperforms previous approaches , including the relative preference-based method .
+
+

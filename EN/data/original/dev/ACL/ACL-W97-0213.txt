@@ -1,0 +1,5 @@
+A Perspective On Word Sense Disambiguation Methods And Their Evaluation .
+In this position paper , we make several observations about the state of the art in automatic word sense disambiguation .
+Motivated by these observations , we offer several specific proposals to the community regarding improved evaluation criteria , common training and testing resources , and the definition of sense inventories .
+
+

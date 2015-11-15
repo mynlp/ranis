@@ -1,0 +1,182 @@
+T1	PROCESS 0 11	Integrating
+T2	PROCESS 138 145	divided
+T3	PROCESS 328 338	eliminates
+T4	APPLY-TO 372 379	handles
+T5	PROCESS 424 434	sacri~cing
+T6	PROCESS 470 482	accomplishes
+T7	PROCESS 570 576	builds
+T8	PROCESS 596 603	provide
+T9	APPLY-TO 677 685	allowing
+T10	PROCESS 701 709	evaluate
+T12	APPLY-TO 780 786	allows
+T13	PROCESS 809 813	done
+T14	CONDITION 884 891	depends
+T15	PROCESS 957 963	models
+T16	PROCESS 1017 1023	handle
+T17	MODALITY 256 259	can
+T18	MODALITY 292 295	not
+T19	MODALITY 1002 1005	can
+T20	QUALITY 130 137	usually
+T21	QUALITY 151 159	separate
+T22	QUALITY 268 281	independently
+T23	QUALITY 646 656	particular
+T24	QUALITY 832 845	independently
+T25	QUALITY 946 956	explicitly
+T26	QUALITY 1006 1016	gracefully
+T27	QUALITY 1045 1054	available
+T28	QUANTITY 241 244	two
+T29	PLAN-OR-PROCESS 12 25	Text Planning
+T30	PLAN-OR-PROCESS 30 47	Linguistic Choice
+T31	PROCESS 56 66	Abandoning
+T32	PLAN 83 97	IGEN Generator
+T33	PLAN-OR-PROCESS 99 126	Natural language generation
+T34	PLAN 160 173;189 199	text planning components
+T35	PLAN 178 199	linguistic components
+T36	PROCESS 201 214	This division
+T37	PLAN 245 255	components
+T38	PLAN 313 327	IGEN generator
+T39	QUALITY 343 347	need
+T40	PLAN-OR-PROCESS 352 367	this assumption
+T41	PLAN-OR-PROCESS 380 392	interactions
+T42	PLAN 405 415	components
+T43	QUALITY 439 449	advantages
+T44	QUALITY 453 463	modularity
+T45	DATA-ITEM 500 511	annotations
+T46	PLAN 521 541	linguistic component
+T47	DATA-ITEM 556 566	structures
+T48	DATA-ITEM 578 595	these annotations
+T49	DATA-ITEM 607 627	abstract description
+T50	PROCESS 635 642	effects
+T51	PLAN-OR-PROCESS 657 675	linguistic choices
+T52	PLAN-OR-PROCESS 690 697	planner
+T53	PLAN-OR-PROCESS 710 723	these choices
+T54	DATA-ITEM 744 764	linguistic knowledge
+T55	PLAN 766 779	This approach
+T56	PROCESS 804 808	work
+T57	PLAN 822 831	component
+T58	OCCURENT 855 860	cases
+T59	DATA-ITEM 871 883	final output
+T60	PLAN-OR-PROCESS 895 907	interactions
+T61	REFERENCE 916 920	them
+T62	QUALITY 968 975	effects
+T63	PLAN-OR-PROCESS 979 997	linguistic choices
+T64	PLAN 1024 1034	situations
+T65	DATA-ITEM 1063 1083	linguistic resources
+T66	MODALITY 48 55	Without
+R2	Attribute Arg1:T2 Arg2:T20	
+R3	Attribute Arg1:T34 Arg2:T21	
+R4	Attribute Arg1:T35 Arg2:T21	
+T67	PROCESS 260 267	operate
+R5	Attribute Arg1:T67 Arg2:T17	
+R6	Attribute Arg1:T67 Arg2:T22	
+T68	TIME 296 302	always
+T69	QUALITY 303 307	true
+R7	Attribute Arg1:T69 Arg2:T68	
+R8	Attribute Arg1:T68 Arg2:T18	
+T70	REFERENCE 369 371	it
+R9	Coreference Arg1:T70 Arg2:T38	
+T71	MODALITY 416 423	without
+R10	Attribute Arg1:T5 Arg2:T71	
+T73	PLAN 83 87	IGEN
+T74	PLAN 313 317	IGEN
+T75	REFERENCE 483 487	this
+T76	INPUT 488 499	by means of
+T77	REFERENCE 517 520	its
+T78	REFERENCE 567 569	it
+R11	Attribute Arg1:T51 Arg2:T23	
+T79	MODALITY 724 739	without needing
+T81	PROCESS 795 799	vary
+T82	QUALITY 817 821	each
+R13	Attribute Arg1:T57 Arg2:T82	
+R15	Coreference Arg1:T61 Arg2:T58	
+T83	PLAN 941 945	IGEN
+R16	Attribute Arg1:T15 Arg2:T25	
+T84	REFERENCE 999 1001	it
+R17	Coreference Arg1:T84 Arg2:T83	
+R18	Attribute Arg1:T16 Arg2:T19	
+R19	Attribute Arg1:T16 Arg2:T26	
+R20	Attribute Arg1:T37 Arg2:T28	
+T85	TIME 1055 1059	time
+R21	Attribute Arg1:T85 Arg2:T27	
+T86	QUALITY 1088 1095	limited
+R22	Attribute Arg1:T65 Arg2:T86	
+T87	QUALITY 67 77	Modularity
+T88	PROCESS 542 548	places
+R1	Coreference Arg1:T48 Arg2:T45	
+R23	Coreference Arg1:T53 Arg2:T51	
+T89	PLAN 465 469	IGEN
+T90	PLAN 787 791	IGEN
+R24	Coreference Arg1:T77 Arg2:T89	
+R25	Coreference Arg1:T78 Arg2:T77	
+T72	REFERENCE 283 288	which
+T91	REFERENCE 512 516	that
+R26	Coreference Arg1:T91 Arg2:T45	
+R27	Poss Arg1:T77 Arg2:T46	
+T92	APPLY-TO 224 231	assumes
+R28	Attribute Arg1:T44 Arg2:T43	
+R29	Attribute Arg1:T85 Arg2:T86	
+R30	Input Arg1:T2 Arg2:T33	
+R31	Output Arg1:T2 Arg2:T35	
+R32	Output Arg1:T2 Arg2:T34	
+R33	Coreference Arg1:T36 Arg2:T2	
+R34	Attribute Arg1:T72 Arg2:T69	
+R35	Coreference Arg1:T75 Arg2:T4	
+R36	Output Arg1:T88 Arg2:T91	
+R37	Destination Arg1:T88 Arg2:T47	
+R38	Apply-to Arg1:T78 Arg2:T7	
+R39	Output Arg1:T7 Arg2:T47	
+R40	Input Arg1:T1 Arg2:T29	
+R41	Input Arg1:T1 Arg2:T30	
+R42	Coreference Arg1:T72 Arg2:T67	
+T94	REFERENCE 1035 1040	where
+R43	Coreference Arg1:T94 Arg2:T64	
+R44	from Arg1:T92 Arg2:T36	
+R45	Apply-to Arg1:T37 Arg2:T67	
+R46	to Arg1:T92 Arg2:T67	
+R47	Coreference Arg1:T40 Arg2:T92	
+R48	Apply-to Arg1:T38 Arg2:T3	
+R49	Output Arg1:T3 Arg2:T39	
+R50	Target Arg1:T5 Arg2:T43	
+R51	from Arg1:T4 Arg2:T70	
+R52	to Arg1:T4 Arg2:T41	
+R53	Input Arg1:T41 Arg2:T42	
+R54	Agent Arg1:T5 Arg2:T70	
+R55	Apply-to Arg1:T89 Arg2:T6	
+R56	Target Arg1:T6 Arg2:T75	
+R57	to Arg1:T76 Arg2:T45	
+R58	from Arg1:T76 Arg2:T6	
+R59	Input Arg1:T8 Arg2:T48	
+R60	Output Arg1:T8 Arg2:T49	
+R61	Attribute Arg1:T50 Arg2:T49	
+R62	Condition Arg1:T50 Arg2:T51	
+R63	to Arg1:T9 Arg2:T10	
+R65	Input Arg1:T10 Arg2:T53	
+T11	QUANTITY 740 743	any
+R12	Attribute Arg1:T54 Arg2:T11	
+R66	Attribute Arg1:T54 Arg2:T79	
+R67	Condition Arg1:T10 Arg2:T54	
+R68	from Arg1:T12 Arg2:T55	
+R69	to Arg1:T12 Arg2:T81	
+R70	Apply-to Arg1:T90 Arg2:T81	
+R71	In_Out Arg1:T81 Arg2:T56	
+R72	Output Arg1:T13 Arg2:T56	
+R73	Apply-to Arg1:T57 Arg2:T13	
+R14	Attribute Arg1:T13 Arg2:T24	
+T95	REFERENCE 861 866	where
+R74	Coreference Arg1:T95 Arg2:T58	
+R75	Other-rel Arg1:T95 Arg2:T14	
+R76	from Arg1:T14 Arg2:T59	
+R77	to Arg1:T14 Arg2:T60	
+R78	Input Arg1:T60 Arg2:T61	
+R79	Apply-to Arg1:T83 Arg2:T15	
+R80	Input Arg1:T15 Arg2:T62	
+R81	Attribute Arg1:T63 Arg2:T62	
+R82	Target Arg1:T16 Arg2:T64	
+R83	Condition Arg1:T94 Arg2:T86	
+R84	Attribute Arg1:T31 Arg2:T66	
+R85	Output Arg1:T31 Arg2:T87	
+R86	Condition Arg1:T1 Arg2:T31	
+R87	Attribute Arg1:T40 Arg2:T39	
+R88	from Arg1:T9 Arg2:T52	
+R64	Apply-to Arg1:T84 Arg2:T16	
+R89	Condition Arg1:T81 Arg2:T58	

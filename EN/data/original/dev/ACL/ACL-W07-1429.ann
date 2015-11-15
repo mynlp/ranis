@@ -1,0 +1,120 @@
+R1	Input Arg1:T1 Arg2:T2
+R2	Apply-to Arg1:T1 Arg2:T3
+A1	Self T4
+A2	Self T5
+A3	Intentional T6
+R3	Agent Arg1:T6 Arg2:T5
+R4	Condition Arg1:T6 Arg2:T4
+R5	Output Arg1:T6 Arg2:T7
+R6	In_Out Arg1:T7 Arg2:T8
+R7	In_Out Arg1:T7 Arg2:T9
+R8	Output Arg1:T8 Arg2:T10
+R9	Target Arg1:T9 Arg2:T10
+R10	to Arg1:T11 Arg2:T12
+R11	from Arg1:T11 Arg2:T9
+R12	from Arg1:T11 Arg2:T8
+A4	Self T13
+A5	Intentional T14
+R13	Agent Arg1:T14 Arg2:T13
+R14	Attribute Arg1:T17 Arg2:T16
+R15	Output Arg1:T18 Arg2:T19
+R16	Target Arg1:T14 Arg2:T15
+R17	Input Arg1:T15 Arg2:T17
+R18	Apply-to Arg1:T15 Arg2:T18
+A6	Self T20
+A7	Intentional T21
+R19	Agent Arg1:T21 Arg2:T20
+R20	Condition Arg1:T23 Arg2:T24
+R21	Output Arg1:T23 Arg2:T22
+R22	In_Out Arg1:T21 Arg2:T22
+R23	Agent Arg1:T23 Arg2:T90
+R24	Agent Arg1:T23 Arg2:T91
+R25	Coreference Arg1:T25 Arg2:T91
+R26	Coreference Arg1:T25 Arg2:T90
+R27	Agent Arg1:T26 Arg2:T25
+R28	Target Arg1:T27 Arg2:T28
+R29	Input Arg1:T26 Arg2:T27
+R30	Apply-to Arg1:T26 Arg2:T29
+R31	Output Arg1:T29 Arg2:T30
+A8	Self T31
+R32	Agent Arg1:T32 Arg2:T31
+A9	Name T93
+A10	Name T90
+A11	Name T91
+A12	Name T94
+R33	Condition Arg1:T33 Arg2:T34
+R34	Attribute Arg1:T40 Arg2:T39
+R35	Apply-to Arg1:T40 Arg2:T41
+R40	Attribute Arg1:T32 Arg2:T97
+R41	Result Arg1:T33 Arg2:T32
+R42	Result Arg1:T35 Arg2:T32
+A13	Self T42
+A14	Intentional T43
+R43	Attribute Arg1:T43 Arg2:T98
+R44	Agent Arg1:T43 Arg2:T42
+R45	Attribute Arg1:T45 Arg2:T44
+R46	Output Arg1:T43 Arg2:T45
+R47	Attribute Arg1:T47 Arg2:T46
+R48	Output Arg1:T47 Arg2:T45
+R49	Apply-to Arg1:T47 Arg2:T48
+A28	Intentional T23
+A29	Intentional T26
+R70	Attribute Arg1:T39 Arg2:T37
+R72	Attribute Arg1:T39 Arg2:T38
+R36	Attribute Arg1:T36 Arg2:T39
+T1	PLAN 0 24	Biology Based Alignments
+T2	DATA-ITEM 28 39	Paraphrases
+T3	PLAN-OR-PROCESS 44 64	Sentence Compression
+T4	REFERENCE 70 80	this paper
+T5	PERSON 83 85	we
+T6	PROCESS 86 93	present
+T7	PLAN 96 101	study
+T8	PROCESS 106 116	extracting
+T9	PROCESS 121 129	aligning
+T10	DATA-ITEM 130 141	paraphrases
+T11	APPLY-TO 149 156	context
+T12	PLAN-OR-PROCESS 160 180	Sentence Compression
+T13	PERSON 191 193	we
+T14	PROCESS 194 201	justify
+T15	PLAN 206 217	application
+T16	QUALITY 223 226	new
+T17	PLAN 227 234	measure
+T18	PLAN-OR-PROCESS 243 263	automatic extraction
+T19	DATA-ITEM 267 285	paraphrase corpora
+T20	PERSON 297 299	we
+T21	PROCESS 300 307	discuss
+T22	PLAN 312 316	work
+T23	PROCESS 317 321	done
+T24	EXTERNAL-REFERENCE 327 348	Barzilay & Lee , 2003
+T90	PERSON 327 335	Barzilay
+T91	PERSON 338 341	Lee
+T92	TIME 344 348	2003
+T25	REFERENCE 351 354	who
+T26	PROCESS 355 358	use
+T27	PLAN-OR-PROCESS 359 369	clustering
+T28	DATA-ITEM 373 384	paraphrases
+T29	PROCESS 388 394	induce
+T30	PLAN 395 410	rewriting rules
+T31	PERSON 413 415	We
+T97	MODALITY 416 420	will
+T32	PROCESS 421 424	see
+T33	PLAN 435 472	classical visualization methodologies
+T34	EXTERNAL-REFERENCE 475 496	Kruskal & Wish , 1977
+T93	PERSON 475 482	Kruskal
+T94	PERSON 485 489	Wish
+T95	TIME 492 496	1977
+T35	PLAN 503 525	exhaustive experiments
+T36	PLAN-OR-PROCESS 533 543	clustering
+T37	MODALITY 544 547	may
+T38	MODALITY 548 551	not
+T39	QUALITY 559 563	best
+T40	PLAN 564 572	approach
+T41	PLAN-OR-PROCESS 577 609	automatic pattern identification
+T42	PERSON 622 624	we
+T98	MODALITY 625 629	will
+T43	PROCESS 630 637	provide
+T44	QUANTITY 638 642	some
+T45	DATA-ITEM 643 650	results
+T46	QUALITY 654 663	different
+T47	PLAN 664 691	biology based methodologies
+T48	PLAN-OR-PROCESS 696 725	pairwise paraphrase alignment

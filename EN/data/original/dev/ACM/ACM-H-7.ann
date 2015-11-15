@@ -1,0 +1,132 @@
+T1	QUALITY 0 9	Efficient
+T2	PLAN 10 45	Bayesian Hierarchical User Modeling
+T3	PLAN 50 72	Recommendation Systems
+T4	PLAN 75 123	content-based personalized recommendation system
+T5	DATA-ITEM 159 172	user feedback
+T6	REFERENCE 181 183	it
+T7	MODALITY 184 187	can
+T8	PROCESS 188 195	deliver
+T9	DATA-ITEM 196 207	information
+T10	PROCESS 208 216	tailored
+T12	PERSON 225 240	individual user
+T13	DATA-ITEM 243 251	interest
+T14	PLAN 255 261	system
+T15	PROCESS 262 269	serving
+T16	QUANTITY 270 278	millions
+T17	PERSON 282 287	users
+T18	MODALITY 288 291	can
+T19	PROCESS 292 297	learn
+T20	QUALITY 300 306	better
+T21	DATA-ITEM 307 319	user profile
+T22	QUALITY 326 329	new
+T23	PERSON 330 334	user
+T24	PERSON 341 345	user
+T25	QUALITY 351 357	little
+T26	PLAN-OR-PROCESS 358 366	feedback
+T27	PROCESS 371 380	borrowing
+T28	DATA-ITEM 381 392	information
+T29	QUALITY 398 403	other
+T30	PERSON 404 409	users
+T31	APPLY-TO 422 425	use
+T32	PLAN 431 458	Bayesian hierarchical model
+T33	PLAN-OR-PROCESS 460 468	Learning
+T34	PLAN 473 489	model parameters
+T35	PROCESS 493 501	optimize
+T36	DATA-ITEM 506 527	joint data likelihood
+T37	QUANTITY 533 541	millions
+T38	PERSON 545 550	users
+T39	QUALITY 554 584	very computationally expensive
+T40	QUALITY 590 603	commonly used
+T42	PLAN 604 616	EM algorithm
+T43	PROCESS 617 626	converges
+T44	QUALITY 627 638	very slowly
+T45	QUALITY 650 660	sparseness
+T46	DATA-ITEM 668 672	data
+T47	PLAN 676 691	IR applications
+T48	QUALITY 715 718	new
+T49	PLAN 719 742	fast learning technique
+T50	PROCESS 746 751	learn
+T51	QUANTITY 754 766	large number
+T52	PERSON 770 785	individual user
+T53	DATA-ITEM 770 794	individual user profiles
+T54	QUALITY 800 808	efficacy
+T55	QUALITY 813 823	efficiency
+T56	PLAN 831 849	proposed algorithm
+T57	PROCESS 854 863	justified
+T58	PLAN 867 873	theory
+T59	PROCESS 878 890	demonstrated
+T60	DATA-ITEM 894 910	actual user data
+T61	PLAN 916 923	Netflix
+T62	PLAN 928 937	MovieLens
+R1	Attribute Arg1:T2 Arg2:T1	
+R2	Apply-to Arg1:T2 Arg2:T3	
+T63	PROCESS 124 130	learns
+T64	DATA-ITEM 131 153	user specific profiles
+T65	PERSON 131 135	user
+T66	PERSON 159 163	user
+R3	Apply-to Arg1:T4 Arg2:T63	
+R4	Output Arg1:T63 Arg2:T64	
+R5	Input Arg1:T63 Arg2:T5	
+R6	Coreference Arg1:T6 Arg2:T4	
+R8	Attribute Arg1:T8 Arg2:T7	
+R7	Apply-to Arg1:T6 Arg2:T8	
+R9	Target Arg1:T8 Arg2:T9	
+R10	Poss Arg1:T12 Arg2:T13	
+R11	Destination Arg1:T10 Arg2:T13	
+R12	Output Arg1:T10 Arg2:T9	
+T11	RESULT 173 180	so that
+R13	from Arg1:T11 Arg2:T63	
+R14	to Arg1:T11 Arg2:T8	
+R15	Attribute Arg1:T17 Arg2:T16	
+R16	Apply-to Arg1:T14 Arg2:T15	
+R17	Destination Arg1:T15 Arg2:T17	
+R18	Attribute Arg1:T19 Arg2:T18	
+R19	Apply-to Arg1:T14 Arg2:T19	
+R20	Attribute Arg1:T21 Arg2:T20	
+R21	In_Out Arg1:T19 Arg2:T21	
+R22	Attribute Arg1:T23 Arg2:T22	
+T67	PERSON 307 311	user
+R23	Attribute Arg1:T23 Arg2:T21	
+R24	Attribute Arg1:T26 Arg2:T25	
+R25	Agent Arg1:T26 Arg2:T24	
+R26	Attribute Arg1:T24 Arg2:T21	
+R27	In_Out Arg1:T27 Arg2:T28	
+R28	Attribute Arg1:T30 Arg2:T29	
+R29	Apply-to Arg1:T27 Arg2:T19	
+R30	Origin Arg1:T27 Arg2:T30	
+R31	from Arg1:T31 Arg2:T32	
+R32	to Arg1:T31 Arg2:T27	
+R33	In_Out Arg1:T33 Arg2:T34	
+R34	Apply-to Arg1:T34 Arg2:T35	
+R35	In_Out Arg1:T35 Arg2:T36	
+R36	Attribute Arg1:T38 Arg2:T37	
+R37	Origin Arg1:T34 Arg2:T38	
+R38	Attribute Arg1:T33 Arg2:T39	
+R39	Attribute Arg1:T42 Arg2:T40	
+R40	Attribute Arg1:T43 Arg2:T44	
+R42	Attribute Arg1:T46 Arg2:T45	
+R43	Input Arg1:T47 Arg2:T46	
+T41	RESULT 639 645	due to
+R41	from Arg1:T41 Arg2:T45	
+R44	to Arg1:T41 Arg2:T44	
+R45	Result Arg1:T42 Arg2:T43	
+T68	REFERENCE 693 703	This paper
+A1	Self T68
+T69	PROCESS 704 712	proposes
+A2	Intentional T69
+R46	Attribute Arg1:T49 Arg2:T48	
+R47	Output Arg1:T69 Arg2:T49	
+R48	Condition Arg1:T69 Arg2:T68	
+R49	Apply-to Arg1:T49 Arg2:T50	
+R50	Attribute Arg1:T53 Arg2:T51	
+R51	In_Out Arg1:T50 Arg2:T53	
+R52	Result Arg1:T58 Arg2:T57	
+R53	Attribute Arg1:T56 Arg2:T55	
+R54	Attribute Arg1:T56 Arg2:T54	
+R55	Output Arg1:T59 Arg2:T55	
+R57	Output Arg1:T57 Arg2:T55	
+R56	Output Arg1:T57 Arg2:T54	
+R58	Input Arg1:T56 Arg2:T60	
+R59	Condition Arg1:T60 Arg2:T61	
+R60	Condition Arg1:T60 Arg2:T62	
+A3	Judgment T39

@@ -1,0 +1,105 @@
+T1	PROCESS 0 10	Generating
+T2	DATA-ITEM 11 32	Referring Expressions
+T3	REFERENCE 34 46	This article
+T4	PROCESS 47 55	examines
+T5	QUALITY 60 64	role
+T6	DATA-ITEM 68 87	gradable properties
+T7	DATA-ITEM 91 112	referring expressions
+T8	PLAN-OR-PROCESS 122 133	perspective
+T9	PLAN-OR-PROCESS 137 164	natural language generation
+T10	PERSON 173 175	we
+T11	PROCESS 176 183	propose
+T12	QUALITY 186 192	simple
+T13	PLAN-OR-PROCESS 193 210	semantic analysis
+T14	DATA-ITEM 214 232	vague descriptions
+T15	DATA-ITEM 240 261	referring expressions
+T16	REFERENCE 262 266	that
+T17	COMPONENT-OBJECT 267 274	contain
+T18	QUALITY 275 283	gradable
+T19	DATA-ITEM 284 294	adjectives
+T20	REFERENCE 296 300	that
+T21	PROCESS 301 309	reflects
+T22	DATA-ITEM 314 339	context-dependent meaning
+T23	DATA-ITEM 347 357	adjectives
+T24	REFERENCE 361 365	them
+T25	PERSON 375 377	we
+T26	PROCESS 378 382	show
+T27	PLAN-OR-PROCESS 387 396	this type
+T28	PLAN-OR-PROCESS 400 408	analysis
+T29	MODALITY 409 412	can
+T30	PROCESS 413 419	inform
+T31	PLAN 420 430	algorithms
+T32	PLAN-OR-PROCESS 439 449	generation
+T33	DATA-ITEM 453 471	vague descriptions
+T34	DATA-ITEM 477 491	numerical data
+T35	PERSON 500 502	we
+T36	PROCESS 503 506	ask
+T37	DATA-ITEM 512 529	such descriptions
+T38	MODALITY 530 536	should
+T39	PROCESS 540 544	used
+T40	REFERENCE 546 557	The article
+T41	PLAN 575 585	discussion
+T42	DATA-ITEM 589 597	salience
+T43	DATA-ITEM 602 610	pointing
+T44	REFERENCE 612 617	which
+T45	PROCESS 622 630	analyzed
+T46	MODALITY 631 636	as if
+T47	REFERENCE 637 641	they
+T48	QUALITY 647 655	gradable
+T49	DATA-ITEM 656 666	adjectives
+R1	Output Arg1:T1 Arg2:T2	
+A1	Self T3
+R2	Condition Arg1:T4 Arg2:T3	
+R3	Attribute Arg1:T6 Arg2:T5	
+R4	In_Out Arg1:T4 Arg2:T5	
+R5	Condition Arg1:T5 Arg2:T7	
+R6	Is-a Arg1:T9 Arg2:T8	
+R7	Condition Arg1:T4 Arg2:T8	
+A2	Self T10
+A3	Intentional T11
+A4	Intentional T4
+R8	Agent Arg1:T11 Arg2:T10	
+R9	Attribute Arg1:T13 Arg2:T12	
+R10	Input Arg1:T13 Arg2:T14	
+R11	Output Arg1:T11 Arg2:T13	
+R12	Equivalence Arg1:T15 Arg2:T14	
+R13	Coreference Arg1:T16 Arg2:T15	
+R14	Attribute Arg1:T19 Arg2:T18	
+R15	from Arg1:T17 Arg2:T19	
+R16	to Arg1:T17 Arg2:T16	
+R18	Apply-to Arg1:T20 Arg2:T21	
+R19	In_Out Arg1:T21 Arg2:T22	
+R20	Attribute Arg1:T23 Arg2:T22	
+R17	Coreference Arg1:T20 Arg2:T13	
+R21	Coreference Arg1:T24 Arg2:T14	
+A5	Self T25
+A6	Intentional T26
+R22	Agent Arg1:T26 Arg2:T25	
+R23	Attribute Arg1:T30 Arg2:T29	
+R24	Member-collection Arg1:T27 Arg2:T28	
+R26	Output Arg1:T30 Arg2:T31	
+R27	Apply-to Arg1:T31 Arg2:T32	
+R28	Output Arg1:T32 Arg2:T33	
+R29	Input Arg1:T32 Arg2:T34	
+A7	Self T35
+A8	Intentional T36
+R30	Agent Arg1:T36 Arg2:T35	
+R31	Attribute Arg1:T39 Arg2:T38	
+R32	Coreference Arg1:T37 Arg2:T33	
+R33	Input Arg1:T39 Arg2:T37	
+A9	Self T40
+T50	PROCESS 558 567	concludes
+A10	Intentional T50
+R34	Condition Arg1:T50 Arg2:T40	
+R35	Target Arg1:T50 Arg2:T41	
+R36	Output Arg1:T41 Arg2:T42	
+R37	Output Arg1:T41 Arg2:T43	
+R38	Coreference Arg1:T44 Arg2:T43	
+R39	Coreference Arg1:T44 Arg2:T42	
+R40	Input Arg1:T45 Arg2:T44	
+R41	Coreference Arg1:T47 Arg2:T44	
+R43	Attribute Arg1:T48 Arg2:T46	
+R44	Component-object Arg1:T24 Arg2:T23	
+R25	Apply-to Arg1:T27 Arg2:T30	
+R45	Attribute Arg1:T49 Arg2:T48	
+R42	Is-a Arg1:T47 Arg2:T49	

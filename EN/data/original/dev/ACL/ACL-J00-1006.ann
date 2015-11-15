@@ -1,0 +1,100 @@
+T1	PLAN-OR-PROCESS 0 32	Multitiered Nonlinear Morphology
+T2	APPLY-TO 33 38	Using
+T3	PLAN 39 64	Multitape Finite Automata
+T4	PLAN 68 78	Case Study
+T5	LANGUAGE 82 88	Syriac
+T6	LANGUAGE 93 99	Arabic
+T7	PLAN 123 142	computational model
+T8	PLAN 147 167	nonlinear morphology
+T9	DATA-ITEM 173 186	illustrations
+T10	LANGUAGE 192 198	Syriac
+T11	LANGUAGE 203 209	Arabic
+T12	PLAN 215 220	model
+T13	PLAN 226 241	multitiered one
+T14	PROCESS 253 259	allows
+T15	QUANTITY 264 272	multiple
+T16	DATA-ITEM 273 296	lexical representations
+T17	PROCESS 297 310	corresponding
+T18	QUANTITY 318 326	multiple
+T19	PLAN-OR-PROCESS 327 332	tiers
+T20	PLAN-OR-PROCESS 336 359	autosegmental phonology
+R1	Coreference Arg1:T12 Arg2:T7	
+T21	PLAN 365 370	model
+R2	Coreference Arg1:T21 Arg2:T12	
+T22	COMPONENT-OBJECT 371 379	consists
+T23	QUANTITY 383 388	three
+T24	PLAN 389 404	main components
+T25	DATA-ITEM 412 419	lexicon
+T26	REFERENCE 421 426	which
+R3	Coreference Arg1:T26 Arg2:T25	
+T27	MEMBER-COLLECTION 430 434	made
+T28	DATA-ITEM 438 447	sublexica
+T29	DATA-ITEM 459 469	sublexicon
+T30	PROCESS 470 482	representing
+T31	DATA-ITEM 483 499	lexical material
+T32	PLAN-OR-PROCESS 507 520	specific tier
+T33	PLAN 529 552	rewrite rules component
+T34	PROCESS 558 562	maps
+T35	QUANTITY 563 571	multiple
+T36	DATA-ITEM 572 595	lexical representations
+T37	DATA-ITEM 601 617	one surface form
+T38	QUALITY 622 632	vice versa
+T39	PLAN 646 668	morphotactic component
+T40	APPLY-TO 674 681	employs
+T41	PLAN 682 698	regular grammars
+T42	PLAN 704 710	system
+T43	QUALITY 714 726	finite-state
+T44	DATA-ITEM 735 741	lexica
+T45	PLAN 746 751	rules
+T46	MODALITY 752 755	can
+T47	PROCESS 759 770	represented
+T48	PLAN 774 805	multitape finite-state machines
+T50	REFERENCE 250 252	it
+R6	Coreference Arg1:T50 Arg2:T12	
+R5	Attribute Arg1:T24 Arg2:T23	
+R7	Attribute Arg1:T19 Arg2:T18	
+R8	Attribute Arg1:T36 Arg2:T35	
+T51	REFERENCE 553 557	that
+R9	Coreference Arg1:T51 Arg2:T33	
+T52	REFERENCE 669 673	that
+R10	Coreference Arg1:T52 Arg2:T39	
+R11	Attribute Arg1:T42 Arg2:T43	
+R12	from Arg1:T2 Arg2:T3	
+R13	to Arg1:T2 Arg2:T1	
+R14	Apply-to Arg1:T7 Arg2:T8	
+R15	Is-a Arg1:T12 Arg2:T13	
+R16	Attribute Arg1:T20 Arg2:T19	
+R17	Destination Arg1:T17 Arg2:T19	
+R18	Attribute Arg1:T16 Arg2:T15	
+R19	Output Arg1:T17 Arg2:T16	
+R20	Output Arg1:T14 Arg2:T16	
+R21	Apply-to Arg1:T50 Arg2:T14	
+R22	from Arg1:T22 Arg2:T24	
+R23	to Arg1:T22 Arg2:T21	
+R24	Is-a Arg1:T25 Arg2:T24	
+R25	from Arg1:T27 Arg2:T28	
+R26	to Arg1:T27 Arg2:T26	
+R27	Is-a Arg1:T29 Arg2:T28	
+R28	Input Arg1:T30 Arg2:T29	
+R29	Output Arg1:T30 Arg2:T31	
+R30	Condition Arg1:T31 Arg2:T32	
+R31	Is-a Arg1:T33 Arg2:T24	
+R32	Is-a Arg1:T39 Arg2:T24	
+R33	Apply-to Arg1:T51 Arg2:T34	
+R34	In_Out Arg1:T34 Arg2:T36	
+R35	In_Out Arg1:T34 Arg2:T37	
+R36	Attribute Arg1:T34 Arg2:T38	
+R4	from Arg1:T40 Arg2:T41	
+R37	to Arg1:T40 Arg2:T52	
+R38	Attribute Arg1:T47 Arg2:T46	
+R39	Apply-to Arg1:T48 Arg2:T47	
+R40	Output Arg1:T47 Arg2:T45	
+R41	Output Arg1:T47 Arg2:T44	
+R42	Condition Arg1:T4 Arg2:T5	
+R43	Condition Arg1:T4 Arg2:T6	
+R44	Attribute Arg1:T9 Arg2:T10	
+R45	Attribute Arg1:T9 Arg2:T11	
+T49	REFERENCE 101 111	This paper
+T53	PROCESS 112 120	presents
+R46	Output Arg1:T53 Arg2:T7	
+R47	Condition Arg1:T53 Arg2:T49	

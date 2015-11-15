@@ -1,0 +1,234 @@
+T1	DATA-ITEM 0 10	Similarity
+T2	DATA-ITEM 14 32	Semantic Relations
+T3	QUALITY 44 52	at least
+T4	QUANTITY 53 56	two
+T5	DATA-ITEM 57 62	kinds
+T6	DATA-ITEM 66 76	similarity
+T7	DATA-ITEM 78 99	Relational similarity
+T8	DATA-ITEM 103 117	correspondence
+T9	DATA-ITEM 126 135	relations
+T10	DATA-ITEM 154 178	attributional similarity
+T11	REFERENCE 180 185	which
+T12	DATA-ITEM 189 203	correspondence
+T13	DATA-ITEM 212 222	attributes
+T14	QUANTITY 229 232	two
+T15	DATA-ITEM 233 238	words
+T16	QUALITY 246 257	high degree
+T17	DATA-ITEM 261 285	attributional similarity
+T18	PERSON 287 289	we
+T19	PROCESS 290 294	call
+T20	REFERENCE 295 299	them
+T21	DATA-ITEM 300 308	synonyms
+T22	QUANTITY 315 318	two
+T23	DATA-ITEM 319 324	pairs
+T24	DATA-ITEM 328 333	words
+T25	QUALITY 341 352	high degree
+T26	DATA-ITEM 356 377	relational similarity
+T27	PERSON 379 381	we
+T28	REFERENCE 391 396	their
+T29	DATA-ITEM 397 406	relations
+T30	QUALITY 411 420	analogous
+T31	DATA-ITEM 439 448	word pair
+T32	QUALITY 464 473	analogous
+T33	DATA-ITEM 481 485	pair
+T34	PLAN 527 553	Latent Relational Analysis
+T35	PLAN 555 558	LRA
+T36	PLAN 563 569	method
+T37	PROCESS 574 583	measuring
+T38	DATA-ITEM 584 605	relational similarity
+T39	PLAN 607 610	LRA
+T40	QUALITY 615 624	potential
+T41	APPLY-TO 625 637	applications
+T42	QUANTITY 641 645	many
+T43	PLAN-OR-PROCESS 646 651	areas
+T44	MEMBER-COLLECTION 653 662	including
+T45	PLAN-OR-PROCESS 663 685	information extraction
+T46	PLAN-OR-PROCESS 687 712	word sense disambiguation
+T47	PLAN-OR-PROCESS 718 739	information retrieval
+T48	PLAN 754 772	Vector Space Model
+T49	PLAN 774 777	VSM
+T50	PLAN 782 803	information retrieval
+T51	APPLY-TO 813 820	adapted
+T52	PROCESS 824 833	measuring
+T53	DATA-ITEM 834 855	relational similarity
+T54	RESULT 857 866	achieving
+T55	DATA-ITEM 869 874	score
+T56	QUANTITY 878 881	47%
+T57	DATA-ITEM 887 897	collection
+T58	QUANTITY 901 904	374
+T59	DATA-ITEM 905 957	college-level multiple-choice word analogy questions
+T60	PLAN 966 978	VSM approach
+T61	DATA-ITEM 984 992	relation
+T62	DATA-ITEM 1003 1007	pair
+T63	DATA-ITEM 1011 1016	words
+T64	PROCESS 1020 1033	characterized
+T65	DATA-ITEM 1039 1045	vector
+T66	DATA-ITEM 1049 1060	frequencies
+T67	QUALITY 1064 1074	predefined
+T68	DATA-ITEM 1075 1083	patterns
+T69	QUALITY 1089 1094	large
+T70	DATA-ITEM 1095 1101	corpus
+T71	PLAN 1103 1106	LRA
+T72	PROCESS 1107 1114	extends
+T73	PLAN 1119 1131	VSM approach
+T74	QUANTITY 1135 1140	three
+T75	PLAN 1141 1145	ways
+T76	DATA-ITEM 1155 1163	patterns
+T77	PROCESS 1168 1175	derived
+T78	QUALITY 1176 1189	automatically
+T79	DATA-ITEM 1199 1205	corpus
+T80	PLAN 1215 1243	Singular Value Decomposition
+T81	PLAN 1245 1248	SVD
+T82	APPLY-TO 1253 1257	used
+T83	PROCESS 1261 1267	smooth
+T84	DATA-ITEM 1272 1286	frequency data
+T85	QUALITY 1296 1319	automatically generated
+T86	DATA-ITEM 1320 1328	synonyms
+T87	INPUT 1333 1337	used
+T88	PROCESS 1341 1348	explore
+T89	DATA-ITEM 1349 1359	variations
+T90	DATA-ITEM 1367 1377	word pairs
+T91	PLAN 1379 1382	LRA
+T92	RESULT 1383 1391	achieves
+T93	QUANTITY 1392 1395	56%
+T94	QUANTITY 1403 1406	374
+T95	DATA-ITEM 1407 1424	analogy questions
+T96	QUALITY 1426 1450	statistically equivalent
+T97	DATA-ITEM 1458 1477	average human score
+T98	QUANTITY 1481 1484	57%
+T99	QUALITY 1493 1500	related
+T100	PROCESS 1501 1508	problem
+T101	PROCESS 1512 1523	classifying
+T102	DATA-ITEM 1524 1542	semantic relations
+T103	PLAN 1544 1547	LRA
+T104	RESULT 1548 1556	achieves
+T105	QUALITY 1557 1564	similar
+T107	PLAN 1580 1583	VSM
+R1	Attribute Arg1:T2 Arg2:T1	
+R2	Attribute Arg1:T5 Arg2:T4	
+R3	Attribute Arg1:T4 Arg2:T3	
+R4	Member-collection Arg1:T5 Arg2:T6	
+R5	Attribute Arg1:T9 Arg2:T8	
+R6	Equivalence Arg1:T8 Arg2:T7	
+R7	Coreference Arg1:T11 Arg2:T10	
+R8	Attribute Arg1:T13 Arg2:T12	
+R9	Other-rel Arg1:T12 Arg2:T11	
+R10	Attribute Arg1:T15 Arg2:T14	
+R11	Attribute Arg1:T17 Arg2:T16	
+T108	ATTRIBUTE 239 243	have
+R12	from Arg1:T108 Arg2:T15	
+R13	to Arg1:T108 Arg2:T17	
+A1	Self T18
+R14	Agent Arg1:T19 Arg2:T18	
+A2	Intentional T19
+R15	Destination Arg1:T19 Arg2:T20	
+R16	Output Arg1:T19 Arg2:T21	
+R17	Coreference Arg1:T20 Arg2:T15	
+R18	Attribute Arg1:T23 Arg2:T22	
+R19	Member-collection Arg1:T24 Arg2:T23	
+R20	Attribute Arg1:T26 Arg2:T25	
+T109	ATTRIBUTE 334 338	have
+R21	from Arg1:T109 Arg2:T23	
+R22	to Arg1:T109 Arg2:T26	
+A3	Self T27
+T110	PROCESS 382 385	say
+A4	Intentional T110
+R23	Agent Arg1:T110 Arg2:T27	
+R24	Attribute Arg1:T29 Arg2:T30	
+R25	Attribute Arg1:T29 Arg2:T28	
+T111	DATA-ITEM 449 454	mason
+T112	DATA-ITEM 455 460	stone
+R26	Member-collection Arg1:T111 Arg2:T31	
+R27	Member-collection Arg1:T112 Arg2:T31	
+T113	DATA-ITEM 486 495	carpenter
+T114	DATA-ITEM 496 500	wood
+R28	Member-collection Arg1:T113 Arg2:T33	
+R29	Member-collection Arg1:T114 Arg2:T33	
+R30	Attribute Arg1:T31 Arg2:T32	
+T115	COMPARE 474 476	to
+R31	from Arg1:T115 Arg2:T33	
+R32	to Arg1:T115 Arg2:T32	
+T116	REFERENCE 503 515	This article
+A5	Self T116
+T117	PROCESS 516 526	introduces
+A6	Intentional T117
+R33	Condition Arg1:T117 Arg2:T116	
+R34	Equivalence Arg1:T35 Arg2:T34	
+R35	Output Arg1:T117 Arg2:T34	
+R36	Is-a Arg1:T35 Arg2:T36	
+R37	Apply-to Arg1:T36 Arg2:T37	
+R38	In_Out Arg1:T37 Arg2:T38	
+R39	Attribute Arg1:T41 Arg2:T40	
+R40	Attribute Arg1:T43 Arg2:T42	
+R41	to Arg1:T41 Arg2:T43	
+R42	from Arg1:T41 Arg2:T39	
+R43	from Arg1:T44 Arg2:T45	
+R45	from Arg1:T44 Arg2:T46	
+R46	from Arg1:T44 Arg2:T47	
+T118	TIME 741 749	Recently
+R47	Equivalence Arg1:T49 Arg2:T48	
+R48	Apply-to Arg1:T49 Arg2:T50	
+R49	Attribute Arg1:T51 Arg2:T118	
+R50	from Arg1:T51 Arg2:T49	
+R51	to Arg1:T51 Arg2:T52	
+R52	Output Arg1:T52 Arg2:T53	
+R53	Attribute Arg1:T55 Arg2:T56	
+R54	Attribute Arg1:T59 Arg2:T58	
+R55	Member-collection Arg1:T59 Arg2:T57	
+R56	to Arg1:T54 Arg2:T56	
+R57	from Arg1:T54 Arg2:T49	
+R58	Input Arg1:T52 Arg2:T57	
+R59	Member-collection Arg1:T63 Arg2:T62	
+R60	Attribute Arg1:T61 Arg2:T62	
+R61	Attribute Arg1:T66 Arg2:T65	
+R62	Attribute Arg1:T68 Arg2:T67	
+R63	Attribute Arg1:T70 Arg2:T69	
+R64	Attribute Arg1:T68 Arg2:T66	
+R65	Input Arg1:T64 Arg2:T65	
+R66	Input Arg1:T64 Arg2:T61	
+R67	Output Arg1:T60 Arg2:T64	
+R68	Component-object Arg1:T70 Arg2:T68	
+R69	Apply-to Arg1:T72 Arg2:T71	
+R70	In_Out Arg1:T72 Arg2:T73	
+R71	Attribute Arg1:T75 Arg2:T74	
+R72	Apply-to Arg1:T75 Arg2:T72	
+R73	Output Arg1:T77 Arg2:T76	
+R74	Attribute Arg1:T77 Arg2:T78	
+R75	Input Arg1:T77 Arg2:T79	
+R76	Equivalence Arg1:T81 Arg2:T80	
+R77	from Arg1:T82 Arg2:T81	
+R78	to Arg1:T82 Arg2:T83	
+R79	In_Out Arg1:T83 Arg2:T84	
+R80	Target Arg1:T86 Arg2:T85	
+R81	In_Out Arg1:T88 Arg2:T89	
+R82	from Arg1:T87 Arg2:T88	
+R83	to Arg1:T87 Arg2:T86	
+R84	Attribute Arg1:T90 Arg2:T89	
+R85	Attribute Arg1:T95 Arg2:T94	
+R86	Attribute Arg1:T97 Arg2:T98	
+R87	Attribute Arg1:T93 Arg2:T96	
+T119	COMPARE 1451 1453	to
+R88	from Arg1:T119 Arg2:T96	
+R89	to Arg1:T119 Arg2:T98	
+R90	from Arg1:T92 Arg2:T91	
+R91	to Arg1:T92 Arg2:T93	
+R92	Attribute Arg1:T100 Arg2:T99	
+R93	Input Arg1:T101 Arg2:T102	
+R94	Is-a Arg1:T101 Arg2:T100	
+R96	from Arg1:T104 Arg2:T103	
+R97	to Arg1:T104 Arg2:T106	
+R98	Compare Arg1:T95 Arg2:T105	
+R99	Input Arg1:T91 Arg2:T95	
+R100	Apply-to Arg1:T103 Arg2:T101	
+T120	COMPARE 1571 1575	over
+R101	to Arg1:T120 Arg2:T105	
+R102	from Arg1:T120 Arg2:T107	
+A7	Judgment T16
+A8	Judgment T25
+R103	Coreference Arg1:T28 Arg2:T23	
+R44	to Arg1:T44 Arg2:T43	
+A9	Judgment T96
+A11	Judgment T105
+T106	QUALITY 1565 1570	gains
+R95	Attribute Arg1:T106 Arg2:T105	
+A10	Judgment T106

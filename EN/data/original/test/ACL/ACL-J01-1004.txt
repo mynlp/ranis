@@ -1,0 +1,9 @@
+D-Tree Substitution Grammars
+
+There is considerable interest among computational linguists in lexicalized grammatical frameworks; lexicalized tree adjoining grammar (LTAG) is one widely studied example.
+In this paper, we investigate how derivations in LTAG can be viewed not as manipulations of trees but as manipulations of tree descriptions.
+Changing the way the lexicalized formalism is viewed raises questions as to the desirability of certain aspects of the formalism.
+We present a new formalism, d-tree substitution grammar (DSG).
+Derivations in DSG involve the composition of d-trees, special kinds of tree descriptions.
+Trees are read off from derived d-trees.
+We show how the DSG formalism, which is designed to inherit many of the characterestics of LTAG, can be used to express a variety of linguistic analyses not available in LTAG.

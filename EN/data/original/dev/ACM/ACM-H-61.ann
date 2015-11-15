@@ -1,0 +1,198 @@
+T1	PLAN-OR-PROCESS 0 18	Impedance Coupling
+T2	PLAN-OR-PROCESS 22 50	Content-targeted Advertising
+T3	PROCESS 63 67	boom
+T4	TIME 55 62	current
+T5	DATA-ITEM 75 78	Web
+T6	QUALITY 82 92	associated
+T7	THING 102 110	revenues
+T8	PLAN-OR-PROCESS 127 146	on-line advertising
+T9	PROCESS 111 121	originated
+T10	PLAN-OR-PROCESS 154 178	search-based advertising
+T11	QUALITY 182 190	dominant
+T12	PLAN-OR-PROCESS 196 207	association
+T13	DATA-ITEM 211 214	ads
+T14	DATA-ITEM 222 230	Web page
+T15	PLAN-OR-PROCESS 239 254	user navigation
+T16	ATTRIBUTE 259 267	becoming
+T18	QUALITY 268 290	increasingly important
+T19	PLAN 319 326	problem
+T20	DATA-ITEM 353 361	Web page
+T21	DATA-ITEM 342 345	ads
+T22	PROCESS 330 341	associating
+T23	PROCESS 363 371	referred
+T24	PLAN-OR-PROCESS 378 406	content-targeted advertising
+T25	THING 415 443	computer science perspective
+T26	DATA-ITEM 482 486	text
+T27	DATA-ITEM 494 502	Web page
+T28	DATA-ITEM 508 516	keywords
+T29	PROCESS 517 525	declared
+T30	ORGANIZATION 532 542	advertiser
+T31	DATA-ITEM 550 554	text
+T32	QUALITY 555 565	associated
+T33	ORGANIZATION 575 585	advertiser
+T34	ORGANIZATION 588 596	business
+T35	INPUT 598 603	Using
+T36	QUANTITY 604 606	no
+T37	DATA-ITEM 613 624	information
+T38	QUALITY 607 612	other
+T39	PROCESS 629 638	operating
+T40	QUALITY 642 665	fully automatic fashion
+T41	QUANTITY 678 681	ten
+T42	PLAN 682 692	strategies
+T43	PROCESS 697 704	solving
+T44	PLAN 709 716	problem
+T45	PROCESS 721 729	evaluate
+T46	QUALITY 736 749	effectiveness
+T47	PLAN 755 762	methods
+T48	PLAN 779 796	matching strategy
+T49	PROCESS 802 820	takes into account
+T50	DATA-ITEM 825 834	semantics
+T51	PLAN 842 849	problem
+T52	PROCESS 851 859	referred
+T53	PLAN 866 869	AAK
+T55	PLAN 874 890	ads and keywords
+T56	MODALITY 892 895	can
+T57	OUTPUT 896 901	yield
+T58	RESULT 902 907	gains
+T59	DATA-ITEM 911 936	average precision figures
+T60	QUANTITY 940 943	60%
+T61	COMPARE 944 952	compared
+T62	QUALITY 958 965	trivial
+T63	PLAN 966 987	vector-based strategy
+T64	PLAN 1019 1046	impedance coupling strategy
+T65	QUALITY 1000 1018	more sophisticated
+T66	PROCESS 1054 1061	expands
+T67	DATA-ITEM 1066 1070	text
+T68	DATA-ITEM 1078 1086	Web page
+T69	PROCESS 1090 1096	reduce
+T70	QUALITY 1097 1117	vocabulary impedance
+T71	DATA-ITEM 1136 1149	advertisement
+T72	MODALITY 1151 1154	can
+T73	OUTPUT 1155 1160	yield
+T74	PROCESS 1167 1172	gains
+T75	QUALITY 1161 1166	extra
+T76	DATA-ITEM 1176 1193	average precision
+T77	QUANTITY 1197 1200	50%
+T78	DATA-ITEM 1218 1225	results
+T79	QUALITY 1212 1217	first
+T80	PLAN 1325 1335	algorithms
+T81	QUALITY 1313 1324	appropriate
+T82	MODALITY 1292 1295	can
+T83	OUTPUT 1299 1307	attained
+T84	PLAN-OR-PROCESS 1263 1291	content-targeted advertising
+T85	DATA-ITEM 1251 1259	accuracy
+T86	QUALITY 1245 1250	great
+T87	PROCESS 468 474	access
+T88	PERSON 460 462	we
+R2	Attribute Arg1:T3 Arg2:T4	
+R3	Attribute Arg1:T10 Arg2:T11	
+R6	Attribute Arg1:T37 Arg2:T38	
+R7	Attribute Arg1:T42 Arg2:T41	
+R8	Attribute Arg1:T57 Arg2:T56	
+R9	Attribute Arg1:T59 Arg2:T60	
+R10	Attribute Arg1:T63 Arg2:T62	
+R11	Attribute Arg1:T64 Arg2:T65	
+R12	Attribute Arg1:T73 Arg2:T72	
+R13	Attribute Arg1:T74 Arg2:T75	
+R14	Attribute Arg1:T76 Arg2:T77	
+R15	Attribute Arg1:T78 Arg2:T79	
+R16	Attribute Arg1:T85 Arg2:T86	
+R17	Attribute Arg1:T83 Arg2:T82	
+R18	Attribute Arg1:T80 Arg2:T81	
+T17	REFERENCE 730 735	their
+R19	Coreference Arg1:T17 Arg2:T42	
+T91	PERSON 751 754	Our
+T92	RESULT 763 771	indicate
+R20	Equivalence Arg1:T55 Arg2:T53	
+R21	Component-object Arg1:T26 Arg2:T27	
+R22	Component-object Arg1:T67 Arg2:T68	
+T54	REFERENCE 1048 1053	which
+R23	Coreference Arg1:T54 Arg2:T64	
+T94	REFERENCE 1202 1207	These
+T95	REFERENCE 1227 1231	They
+R24	Coreference Arg1:T95 Arg2:T94	
+T98	REFERENCE 797 801	that
+R25	Coreference Arg1:T98 Arg2:T48	
+R26	Poss Arg1:T91 Arg2:T47	
+R27	Poss Arg1:T33 Arg2:T34	
+R28	Attribute Arg1:T17 Arg2:T46	
+R29	Condition Arg1:T1 Arg2:T2	
+R30	Condition Arg1:T3 Arg2:T5	
+R31	Origin Arg1:T9 Arg2:T8	
+R32	Output Arg1:T9 Arg2:T7	
+R33	Condition Arg1:T6 Arg2:T7	
+R34	Attribute Arg1:T3 Arg2:T6	
+R35	from Arg1:T16 Arg2:T12	
+R36	to Arg1:T16 Arg2:T18	
+R5	Attribute Arg1:T13 Arg2:T12	
+R37	Condition Arg1:T12 Arg2:T14	
+R38	Condition Arg1:T12 Arg2:T15	
+R39	Output Arg1:T22 Arg2:T21	
+R40	Destination Arg1:T22 Arg2:T20	
+R41	Attribute Arg1:T19 Arg2:T22	
+R42	Output Arg1:T23 Arg2:T24	
+R1	Is-a Arg1:T19 Arg2:T24	
+R43	Agent Arg1:T87 Arg2:T88	
+R44	Target Arg1:T87 Arg2:T26	
+R45	Agent Arg1:T29 Arg2:T30	
+R46	Output Arg1:T29 Arg2:T28	
+R47	Attribute Arg1:T31 Arg2:T32	
+R48	Condition Arg1:T32 Arg2:T34	
+R49	Target Arg1:T87 Arg2:T28	
+R50	Target Arg1:T87 Arg2:T31	
+R4	Attribute Arg1:T37 Arg2:T36	
+R51	Attribute Arg1:T39 Arg2:T40	
+R52	Apply-to Arg1:T42 Arg2:T43	
+R53	Target Arg1:T43 Arg2:T44	
+R54	Output Arg1:T45 Arg2:T46	
+R55	to Arg1:T35 Arg2:T37	
+R56	from Arg1:T35 Arg2:T42	
+R57	Apply-to Arg1:T42 Arg2:T39	
+R58	Target Arg1:T49 Arg2:T50	
+R59	Apply-to Arg1:T98 Arg2:T49	
+R60	Attribute Arg1:T51 Arg2:T50	
+R61	Output Arg1:T52 Arg2:T53	
+R62	Is-a Arg1:T50 Arg2:T53	
+R63	to Arg1:T57 Arg2:T60	
+R65	Attribute Arg1:T58 Arg2:T59	
+R66	from Arg1:T61 Arg2:T63	
+R67	to Arg1:T61 Arg2:T60	
+R68	from Arg1:T92 Arg2:T47	
+R69	to Arg1:T92 Arg2:T60	
+R64	from Arg1:T57 Arg2:T48	
+R70	Apply-to Arg1:T54 Arg2:T66	
+R71	In_Out Arg1:T66 Arg2:T67	
+R72	In_Out Arg1:T69 Arg2:T70	
+R73	Apply-to Arg1:T66 Arg2:T69	
+T89	CONDITION 1118 1132	with regard to
+R74	from Arg1:T89 Arg2:T70	
+R75	to Arg1:T89 Arg2:T71	
+R76	Attribute Arg1:T74 Arg2:T76	
+R77	from Arg1:T73 Arg2:T64	
+R78	to Arg1:T73 Arg2:T77	
+T90	IS-A 1208 1211	are
+R79	from Arg1:T90 Arg2:T94	
+R80	to Arg1:T90 Arg2:T78	
+R81	Coreference Arg1:T94 Arg2:T73	
+R82	Coreference Arg1:T94 Arg2:T58	
+R83	Attribute Arg1:T84 Arg2:T85	
+R84	to Arg1:T83 Arg2:T85	
+R85	from Arg1:T83 Arg2:T80	
+T99	RESULT 1232 1239	suggest
+R86	from Arg1:T99 Arg2:T95	
+R87	to Arg1:T99 Arg2:T86	
+R88	Other-rel Arg1:T52 Arg2:T48	
+T93	REFERENCE 295 304	this work
+T96	PERSON 306 308	we
+T97	PROCESS 309 314	study
+T100	PERSON 445 447	We
+T101	PROCESS 448 454	assume
+R89	Agent Arg1:T97 Arg2:T96	
+R90	Condition Arg1:T97 Arg2:T93	
+R91	In_Out Arg1:T97 Arg2:T19	
+R92	Agent Arg1:T101 Arg2:T100	
+T102	PERSON 667 669	we
+T103	PROCESS 670 677	propose
+R93	Agent Arg1:T103 Arg2:T102	
+R94	Output Arg1:T103 Arg2:T42	
+R95	Agent Arg1:T45 Arg2:T102	

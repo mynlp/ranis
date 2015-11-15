@@ -1,0 +1,243 @@
+T1	QUALITY 3 12	Efficient
+T2	PLAN 13 31	Heuristic Approach
+T3	THING 36 44	Security
+T4	QUANTITY 53 61	Multiple
+T5	INTELLIGENT-AGENT 62 73	Adversaries
+T6	DOMAIN 77 107	adversarial multiagent domains
+T7	THING 109 117	security
+T8	THING 143 150	ability
+T9	PROCESS 154 163	deal with
+T10	PLAN-OR-PROCESS 176 183	threats
+T11	QUALITY 164 175	intentional
+T12	PROCESS 128 135	defined
+T13	INTELLIGENT-AGENT 195 201	agents
+T14	PLAN 217 222	issue
+T15	QUALITY 208 216	critical
+T17	DOMAIN 246 253	domains
+T18	PROCESS 274 278	come
+T19	INTELLIGENT-AGENT 292 303	adversaries
+T20	QUALITY 284 291	unknown
+T21	PLAN-OR-PROCESS 260 273	these threats
+R1	Coreference Arg1:T21 Arg2:T10	
+T22	DOMAIN 305 318	These domains
+R2	Coreference Arg1:T22 Arg2:T17	
+T23	MODALITY 319 322	can
+T24	PROCESS 326 333	modeled
+T25	PLAN 337 351	Bayesian games
+T26	EXTERNAL-REFERENCE 358 362	work
+T27	QUALITY 353 357	much
+T28	PROCESS 372 376	done
+T29	PROCESS 380 387	finding
+T30	PLAN 388 398	equilibria
+T31	PLAN 403 413	such games
+T34	DOMAIN 448 475	multiagent security domains
+T35	INTELLIGENT-AGENT 485 490	agent
+T36	QUANTITY 481 484	one
+T37	MODALITY 491 494	can
+T38	PROCESS 495 501	commit
+T39	PLAN 507 521	mixed strategy
+T40	INTELLIGENT-AGENT 532 543	adversaries
+T41	PROCESS 559 567	choosing
+T42	PLAN 578 588	strategies
+T43	PROCESS 544 551	observe
+T44	PERSON 608 613	agent
+T45	MODALITY 614 617	can
+T46	PROCESS 618 626	maximize
+T47	DATA-ITEM 627 633	reward
+T48	PROCESS 637 644	finding
+T49	QUALITY 648 655	optimal
+T50	PLAN 656 664	strategy
+T51	QUALITY 674 683	requiring
+T52	PLAN 684 695	equilibrium
+T54	EXTERNAL-REFERENCE 697 710	Previous work
+T55	PLAN 721 733	this problem
+T57	PLAN-OR-PROCESS 737 763	optimal strategy selection
+T58	QUALITY 770 777	NP-hard
+T59	PLAN 803 812	heuristic
+T61	PROCESS 813 819	called
+T62	QUANTITY 831 836	three
+T63	QUALITY 837 851	key advantages
+T64	PROCESS 855 862	address
+T65	PLAN 867 874	problem
+T66	PLAN 883 887	ASAP
+T67	PROCESS 888 896	searches
+T68	QUALITY 905 919	highest-reward
+T69	PLAN 920 928	strategy
+T70	PROCESS 968 976	allowing
+T71	PROCESS 983 987	find
+T73	QUALITY 988 996	feasible
+T74	PLAN 997 1007	strategies
+T75	PROCESS 1013 1020	exploit
+T76	QUALITY 1033 1054	first-mover advantage
+T77	PLAN 1062 1066	game
+T78	PROCESS 1079 1087	provides
+T79	REFERENCE 1076 1078	it
+R3	Coreference Arg1:T79 Arg2:T116	
+T80	PLAN 1088 1098	strategies
+T81	QUALITY 1109 1115	simple
+T82	PROCESS 1119 1129	understand
+T83	PROCESS 1146 1155	implement
+T84	PROCESS 1131 1140	represent
+T85	PROCESS 1167 1175	operates
+T86	REFERENCE 1164 1166	it
+R4	Coreference Arg1:T86 Arg2:T79	
+T87	QUALITY 1176 1184	directly
+T88	DATA-ITEM 1201 1229	Bayesian game representation
+T89	QUALITY 1192 1199	compact
+T90	QUALITY 1239 1248	requiring
+T91	PLAN-OR-PROCESS 1249 1259	conversion
+T92	DATA-ITEM 1270 1274	form
+T93	QUALITY 1290 1299	efficient
+T96	PLAN 1330 1334	MILP
+T97	PLAN 1336 1350	implementation
+T98	DATA-ITEM 1372 1392	experimental results
+T99	RESULT 1393 1405	illustrating
+T100	QUALITY 1406 1426	significant speedups
+T101	QUALITY 1431 1445	higher rewards
+T103	PLAN-OR-PROCESS 1457 1467	approaches
+T104	QUALITY 1451 1456	other
+T105	MODALITY 1231 1238	without
+R6	Attribute Arg1:T2 Arg2:T1	
+R7	Attribute Arg1:T5 Arg2:T4	
+R8	Attribute Arg1:T10 Arg2:T11	
+T106	QUALITY 189 194	other
+R9	Attribute Arg1:T13 Arg2:T106	
+R10	Attribute Arg1:T14 Arg2:T15	
+R11	Attribute Arg1:T19 Arg2:T20	
+R12	Attribute Arg1:T24 Arg2:T23	
+R13	Attribute Arg1:T26 Arg2:T27	
+R15	Attribute Arg1:T35 Arg2:T36	
+R16	Attribute Arg1:T38 Arg2:T37	
+T107	REFERENCE 528 531	its
+R17	Coreference Arg1:T107 Arg2:T35	
+T108	REFERENCE 568 577	their own
+R18	Coreference Arg1:T108 Arg2:T40	
+R19	Attribute Arg1:T46 Arg2:T45	
+R20	Attribute Arg1:T50 Arg2:T49	
+T109	MODALITY 666 673	without
+R21	Attribute Arg1:T51 Arg2:T109	
+R25	Attribute Arg1:T63 Arg2:T62	
+R26	Attribute Arg1:T69 Arg2:T68	
+R27	Attribute Arg1:T74 Arg2:T73	
+R29	Attribute Arg1:T85 Arg2:T87	
+T110	PERSON 1201 1209	Bayesian
+R30	Attribute Arg1:T88 Arg2:T89	
+R31	Attribute Arg1:T90 Arg2:T105	
+T111	QUALITY 1263 1269	normal
+R32	Attribute Arg1:T92 Arg2:T111	
+R33	Attribute Arg1:T97 Arg2:T93	
+T112	PLAN 1300 1328	Mixed Integer Linear Program
+R34	Split Arg1:T97 Arg2:T112	
+R37	Attribute Arg1:T103 Arg2:T104	
+T102	PERSON 337 345	Bayesian
+R38	Coreference Arg1:T31 Arg2:T25	
+T56	PLAN 820 824	ASAP
+T114	PLAN 944 966	Bayes-Nash equilibrium
+T115	PLAN 1355 1359	ASAP
+T116	REFERENCE 977 979	it
+R23	Coreference Arg1:T116 Arg2:T66	
+T117	REFERENCE 1099 1104	which
+R39	Coreference Arg1:T117 Arg2:T80	
+T118	REFERENCE 522 527	which
+R40	Coreference Arg1:T118 Arg2:T39	
+T53	PERSON 944 949	Bayes
+T60	PERSON 950 954	Nash
+R5	Attribute Arg1:T117 Arg2:T81	
+T121	REFERENCE 1008 1012	that
+R14	Coreference Arg1:T121 Arg2:T74	
+R22	Poss Arg1:T107 Arg2:T40	
+R28	Poss Arg1:T108 Arg2:T42	
+T122	TIME 552 558	before
+R41	Attribute Arg1:T43 Arg2:T122	
+R42	Compare Arg1:T41 Arg2:T122	
+T123	QUALITY 1025 1032	natural
+R43	Attribute Arg1:T76 Arg2:T123	
+R44	Attribute Arg1:T77 Arg2:T76	
+R47	Target Arg1:T3 Arg2:T5	
+R48	Apply-to Arg1:T2 Arg2:T3	
+R49	Attribute Arg1:T8 Arg2:T9	
+R50	Target Arg1:T9 Arg2:T10	
+R51	Origin Arg1:T10 Arg2:T13	
+R52	Is-a Arg1:T7 Arg2:T8	
+R53	Output Arg1:T12 Arg2:T7	
+R54	Condition Arg1:T12 Arg2:T6	
+T124	IS-A 203 207	is a
+R55	to Arg1:T124 Arg2:T14	
+R56	from Arg1:T124 Arg2:T7	
+R57	Output Arg1:T18 Arg2:T21	
+R58	Origin Arg1:T18 Arg2:T19	
+T125	REFERENCE 254 259	where
+R59	Coreference Arg1:T125 Arg2:T17	
+R60	Condition Arg1:T18 Arg2:T125	
+R62	Other-rel Arg1:T24 Arg2:T22	
+R63	Output Arg1:T24 Arg2:T25	
+R64	Output Arg1:T28 Arg2:T26	
+R65	Apply-to Arg1:T28 Arg2:T29	
+R66	In_Out Arg1:T29 Arg2:T30	
+R67	Attribute Arg1:T31 Arg2:T30	
+R68	Agent Arg1:T38 Arg2:T35	
+R69	Target Arg1:T38 Arg2:T39	
+R70	Agent Arg1:T43 Arg2:T40	
+R71	Agent Arg1:T41 Arg2:T40	
+R72	In_Out Arg1:T41 Arg2:T42	
+R73	Condition Arg1:T38 Arg2:T34	
+R74	Agent Arg1:T46 Arg2:T44	
+R75	In_Out Arg1:T48 Arg2:T50	
+R76	Apply-to Arg1:T48 Arg2:T46	
+R77	Attribute Arg1:T52 Arg2:T51	
+R78	Condition Arg1:T46 Arg2:T51	
+R24	Attribute Arg1:T55 Arg2:T58	
+R79	Attribute Arg1:T55 Arg2:T57	
+T126	RESULT 715 720	shown
+R80	from Arg1:T126 Arg2:T54	
+R81	to Arg1:T126 Arg2:T58	
+R82	Is-a Arg1:T56 Arg2:T59	
+R83	Input Arg1:T61 Arg2:T59	
+R84	Output Arg1:T61 Arg2:T56	
+R85	Target Arg1:T64 Arg2:T65	
+R86	Condition Arg1:T63 Arg2:T64	
+R87	Attribute Arg1:T59 Arg2:T63	
+R88	Apply-to Arg1:T66 Arg2:T67	
+R89	Output Arg1:T67 Arg2:T69	
+T127	MODALITY 930 941	rather than
+R92	In_Out Arg1:T71 Arg2:T74	
+R93	Apply-to Arg1:T116 Arg2:T71	
+R94	Target Arg1:T70 Arg2:T71	
+R96	Apply-to Arg1:T121 Arg2:T75	
+R97	Output Arg1:T75 Arg2:T76	
+R95	Apply-to Arg1:T69 Arg2:T70	
+R90	Attribute Arg1:T114 Arg2:T127	
+R91	Output Arg1:T67 Arg2:T114	
+R98	Apply-to Arg1:T79 Arg2:T78	
+R99	Output Arg1:T78 Arg2:T80	
+R100	Condition Arg1:T81 Arg2:T82	
+R101	Condition Arg1:T81 Arg2:T84	
+R102	Condition Arg1:T81 Arg2:T83	
+R103	Apply-to Arg1:T86 Arg2:T85	
+R104	In_Out Arg1:T85 Arg2:T88	
+R105	Attribute Arg1:T91 Arg2:T90	
+R106	Output Arg1:T91 Arg2:T92	
+R107	Condition Arg1:T85 Arg2:T90	
+R108	Apply-to Arg1:T97 Arg2:T115	
+R35	from Arg1:T99 Arg2:T98	
+T128	COMPARE 1446 1450	over
+R36	to Arg1:T99 Arg2:T100	
+R45	to Arg1:T99 Arg2:T101	
+R46	from Arg1:T128 Arg2:T103	
+R109	to Arg1:T128 Arg2:T101	
+R110	to Arg1:T128 Arg2:T100	
+R111	Attribute Arg1:T97 Arg2:T100	
+R112	Attribute Arg1:T97 Arg2:T101	
+R61	Equivalence Arg1:T96 Arg2:T112	
+T16	REFERENCE 224 234	This paper
+T32	PROCESS 235 242	focuses
+T33	PERSON 790 792	we
+T72	PERSON 1276 1278	We
+T94	PROCESS 1279 1286	provide
+R113	Agent Arg1:T94 Arg2:T72	
+T95	PROCESS 793 800	present
+R114	Agent Arg1:T95 Arg2:T33	
+R115	Output Arg1:T95 Arg2:T59	
+R116	Output Arg1:T94 Arg2:T97	
+R117	Condition Arg1:T32 Arg2:T16	
+R118	Target Arg1:T32 Arg2:T17	

@@ -1,0 +1,7 @@
+An Empirical Study on Language Model Adaptation Using a Metric of Domain Similarity .
+This paper presents an empirical study on four techniques of language model adaptation , including a maximum a posteriori ( MAP ) method and three discriminative training models , in the application of Japanese Kana-Kanji conversion .
+We compare the performance of these methods from various angles by adapting the baseline model to four adaptation domains .
+In particular , we attempt to interpret the results given in terms of the character error rate ( CER ) by correlating them with the characteristics of the adaptation domain measured using the information-theoretic notion of cross entropy .
+We show that such a metric correlates well with the CER performance of the adaptation methods , and also show that the discriminative methods are not only superior to a MAP-based method in terms of achieving larger CER reduction , but are also more robust against the similarity of background and adaptation domains .
+
+

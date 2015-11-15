@@ -1,0 +1,119 @@
+R1	Input Arg1:T1 Arg2:T2
+R2	Attribute Arg1:T54 Arg2:T55
+R3	Destination Arg1:T54 Arg2:T3
+R4	Is-a Arg1:T1 Arg2:T54
+R5	Output Arg1:T4 Arg2:T5
+R6	Attribute Arg1:T8 Arg2:T7
+R7	Condition Arg1:T6 Arg2:T8
+R8	Attribute Arg1:T6 Arg2:T5
+R9	Attribute Arg1:T4 Arg2:T9
+R10	Condition Arg1:T12 Arg2:T13
+R11	Attribute Arg1:T12 Arg2:T11
+R12	Condition Arg1:T9 Arg2:T10
+R13	Condition Arg1:T9 Arg2:T12
+A1	Self T14
+A2	Intentional T15
+R14	Agent Arg1:T15 Arg2:T14
+R15	Coreference Arg1:T16 Arg2:T5
+R16	Input Arg1:T18 Arg2:T19
+R17	Attribute Arg1:T18 Arg2:T17
+R18	Output Arg1:T18 Arg2:T16
+R19	Attribute Arg1:T22 Arg2:T21
+R20	Attribute Arg1:T22 Arg2:T20
+R21	Attribute Arg1:T23 Arg2:T20
+R22	Input Arg1:T18 Arg2:T22
+R23	Input Arg1:T18 Arg2:T23
+R24	Output Arg1:T15 Arg2:T18
+A3	Self T24
+A4	Intentional T25
+R25	Agent Arg1:T25 Arg2:T24
+R26	Output Arg1:T25 Arg2:T26
+R27	Equivalence Arg1:T27 Arg2:T26
+R28	from Arg1:T56 Arg2:T30
+R29	to Arg1:T56 Arg2:T28
+R30	Attribute Arg1:T56 Arg2:T29
+R31	Agent Arg1:T31 Arg2:T30
+R32	Attribute Arg1:T35 Arg2:T34
+R33	Target Arg1:T35 Arg2:T33
+R34	Attribute Arg1:T35 Arg2:T32
+R35	Condition Arg1:T35 Arg2:T36
+R37	Output Arg1:T31 Arg2:T35
+A5	Self T38
+R38	Agent Arg1:T39 Arg2:T38
+R39	Input Arg1:T40 Arg2:T39
+R40	Attribute Arg1:T42 Arg2:T41
+R41	Input Arg1:T58 Arg2:T42
+R42	Apply-to Arg1:T58 Arg2:T40
+R43	Attribute Arg1:T45 Arg2:T44
+R44	Output Arg1:T46 Arg2:T45
+R45	Coreference Arg1:T43 Arg2:T42
+R46	Attribute Arg1:T43 Arg2:T45
+R47	Input Arg1:T46 Arg2:T47
+R48	from Arg1:T49 Arg2:T48
+R49	Attribute Arg1:T50 Arg2:T51
+A6	Judgment T51
+R50	to Arg1:T49 Arg2:T51
+R51	Attribute Arg1:T52 Arg2:T53
+A7	Judgment T53
+R52	to Arg1:T49 Arg2:T53
+R53	Coreference Arg1:T52 Arg2:T50
+R54	Is-a Arg1:T27 Arg2:T28
+A8	Intentional T40
+A9	Name T57
+T1	PLAN-OR-PROCESS 0 11	Translating
+T2	DATA-ITEM 12 38	Lexical Semantic Relations
+T55	QUALITY 45 50	First
+T54	PLAN-OR-PROCESS 51 55	Step
+T3	PLAN 64 85	Multilingual Wordnets
+T4	PROCESS 88 100	Establishing
+T5	DATA-ITEM 101 116	correspondences
+T6	PLAN 125 133	wordnets
+T7	QUALITY 137 146	different
+T8	LANGUAGE 147 156	languages
+T9	QUALITY 160 169	essential
+T10	PLAN 178 211	multilingual knowledge processing
+T11	QUALITY 220 233	bootstrapping
+T12	PLAN 234 242	wordnets
+T13	LANGUAGE 246 267	low-density languages
+T14	PERSON 270 272	We
+T15	PROCESS 273 278	claim
+T16	DATA-ITEM 284 304	such correspondences
+T17	MODALITY 305 309	must
+T18	PROCESS 313 321	based on
+T19	DATA-ITEM 322 348	lexical semantic relations
+T20	MODALITY 351 362	rather than
+T21	QUALITY 363 366	top
+T22	DATA-ITEM 367 375	ontology
+T23	DATA-ITEM 379 396	word translations
+T24	PERSON 415 417	we
+T25	PROCESS 418 424	define
+T26	DATA-ITEM 427 459	translation equivalence relation
+T27	DATA-ITEM 465 500	bilingual lexical semantic relation
+T28	DATA-ITEM 503 517	Such relations
+T29	MODALITY 518 521	can
+T56	COMPONENT-OBJECT 530 537	part of
+T30	DATA-ITEM 540 558	logical entailment
+T31	PROCESS 559 569	predicting
+T32	MODALITY 570 577;644 650	whether or not
+T33	DATA-ITEM 578 612	source language semantic relations
+T34	MODALITY 613 617	will
+T35	PROCESS 618 622	hold
+T36	LANGUAGE 628 643	target language
+T38	PERSON 653 656	Our
+T39	PLAN 657 662	claim
+T40	PROCESS 666 672	tested
+T58	PLAN-OR-PROCESS 680 685	study
+T41	QUANTITY 689 692	210
+T42	DATA-ITEM 693 715	Chinese lexical lemmas
+T57	LANGUAGE 693 700	Chinese
+T43	REFERENCE 720 725	their
+T44	QUALITY 726 734	possible
+T45	DATA-ITEM 735 759	semantic relations links
+T46	PROCESS 760 772	bootstrapped
+T47	PLAN 782 799	Princeton WordNet
+T48	DATA-ITEM 806 813	results
+T49	RESULT 814 818	show
+T50	PLAN-OR-PROCESS 824 862	lexical semantic relation translations
+T51	QUALITY 874 888	highly precise
+T52	REFERENCE 894 898	they
+T53	QUALITY 903 922	logically inferable

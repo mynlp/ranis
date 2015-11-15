@@ -1,0 +1,63 @@
+R1	from Arg1:T29 Arg2:T1
+R2	to Arg1:T29 Arg2:T28
+A1	Self T30
+A2	Intentional T31
+R3	Condition Arg1:T31 Arg2:T30
+R4	Output Arg1:T31 Arg2:T2
+R5	In_Out Arg1:T3 Arg2:T4
+R6	Apply-to Arg1:T2 Arg2:T3
+R7	Attribute Arg1:T8 Arg2:T7
+R8	Attribute Arg1:T12 Arg2:T11
+R9	Coreference Arg1:T9 Arg2:T8
+R10	Apply-to Arg1:T9 Arg2:T10
+R11	In_Out Arg1:T10 Arg2:T12
+R12	Output Arg1:T6 Arg2:T8
+R13	Output Arg1:T15 Arg2:T16
+R14	to Arg1:T14 Arg2:T15
+R15	from Arg1:T14 Arg2:T13
+R16	Output Arg1:T6 Arg2:T13
+R17	Coreference Arg1:T5 Arg2:T2
+R18	Destination Arg1:T6 Arg2:T5
+R19	Attribute Arg1:T21 Arg2:T20
+R20	Member-collection Arg1:T21 Arg2:T19
+R21	Attribute Arg1:T25 Arg2:T24
+R22	Attribute Arg1:T25 Arg2:T23
+R23	Attribute Arg1:T27 Arg2:T26
+R24	to Arg1:T22 Arg2:T25
+R25	from Arg1:T22 Arg2:T19
+R28	Input Arg1:T18 Arg2:T17
+R29	Input Arg1:T17 Arg2:T19
+A3	Judgment T26
+A4	Intentional T18
+R26	Output Arg1:T18 Arg2:T27
+T1	PLAN 0 38	Corpus-Based Syntactic Error Detection
+T29	INPUT 39 44	Using
+T28	DATA-ITEM 45 63	Syntactic Patterns
+T30	REFERENCE 66 76	This paper
+T31	PROCESS 77 85	presents
+T2	PLAN 88 102	parsing system
+T3	PLAN-OR-PROCESS 111 120	detection
+T4	DATA-ITEM 124 140	syntactic errors
+T5	REFERENCE 143 145	It
+T6	PROCESS 146 154	combines
+T7	QUALITY 157 163	robust
+T8	PLAN 164 178	partial parser
+T9	REFERENCE 179 184	which
+T10	PROCESS 185 192	obtains
+T11	QUALITY 197 201	main
+T12	PLAN 202 221	sentence components
+T13	PLAN 228 247	finite-state parser
+T14	APPLY-TO 248 252	used
+T15	PLAN-OR-PROCESS 261 272	description
+T16	DATA-ITEM 276 300	syntactic error patterns
+T17	PLAN 307 313	system
+T18	PROCESS 323 329	tested
+T19	DATA-ITEM 335 341	corpus
+T20	QUALITY 345 349	real
+T21	DATA-ITEM 350 355	texts
+T22	COMPONENT-OBJECT 358 368	containing
+T23	QUALITY 374 381	correct
+T24	QUALITY 386 395	incorrect
+T25	DATA-ITEM 396 405	sentences
+T26	QUALITY 413 422	promising
+T27	DATA-ITEM 423 430	results

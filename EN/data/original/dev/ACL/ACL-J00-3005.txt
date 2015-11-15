@@ -1,0 +1,9 @@
+The Rhetorical Parsing of Unrestricted Texts: A Surface-based Approach
+
+Coherent texts are not just simple sequences of clauses and sentences, but rather complex artifacts that have highly elaborate rhetorical structure.
+This paper explores the extent to which well-formed rhetorical structures can be automatically derived by means of surface-form-based algorithms.
+These algorithms identify discourse usages of cue phrases and break sentences into clauses, hypothesize rhetorical relations that hold among textual units, and produce valid rhetorical structure trees for unrestricted natural language texts.
+The algorithms are empirically grounded in a corpus analysis of cue phrases and rely on a first-order formalization of rhetorical structure trees.
+The algorithms are evaluated both intrinsically and extrinsically.
+The intrinsic evaluation assesses the resemblance between automatically and manually constructed rhetorical structure trees.
+The extrinsic evaluation shows that automatically derived rhetorical structures can be successfully exploited in the context of text summarization.

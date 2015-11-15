@@ -1,0 +1,157 @@
+T1	PROCESS 0 7	Ranking
+T2	DATA-ITEM 8 19	Web Objects
+T3	DATA-ITEM 34 45	Communities
+T4	QUANTITY 25 33	Multiple
+T5	PLAN-OR-PROCESS 46 61	Vertical search
+T6	QUALITY 67 76	promising
+T7	PLAN-OR-PROCESS 77 86	direction
+T8	PROCESS 93 102	leverages
+T9	REFERENCE 90 92	it
+R1	Coreference Arg1:T9 Arg2:T5	
+T10	DATA-ITEM 103 128	domain-specific knowledge
+T11	MODALITY 133 136	can
+T12	PROCESS 137 144	provide
+T13	QUALITY 145 157	more precise
+T14	DATA-ITEM 158 169	information
+T15	PERSON 174 179	users
+T16	PLAN 209 235	Web object-ranking problem
+T17	PLAN 252 258	issues
+T18	PROCESS 262 270	building
+T19	PLAN 273 295	vertical search engine
+T22	PLAN 328 340	this problem
+R2	Coreference Arg1:T22 Arg2:T16	
+T23	DATA-ITEM 355 362	objects
+T24	MODALITY 363 367	lack
+T25	DATA-ITEM 368 381	relationships
+T26	DATA-ITEM 400 415	Web communities
+T27	QUALITY 390 399	different
+T28	PROCESS 421 425	take
+T29	QUALITY 426 438	high-quality
+T31	PLAN 439 451	photo search
+T32	PLAN 459 467	test bed
+T33	PLAN-OR-PROCESS 472 490	this investigation
+T34	PLAN 508 528	score fusion methods
+T35	QUANTITY 504 507	two
+T36	MODALITY 534 537	can
+T37	QUALITY 538 551	automatically
+T38	PROCESS 552 561	integrate
+T40	DATA-ITEM 570 585	Web communities
+T41	DATA-ITEM 587 597	Web forums
+T42	DATA-ITEM 604 622	rating information
+T44	PLAN 640 663	proposed fusion methods
+T45	INPUT 664 672	leverage
+T46	DATA-ITEM 677 689	hidden links
+T47	PROCESS 690 700	discovered
+T48	PLAN 706 741	duplicate photo detection algorithm
+T49	PROCESS 747 751	aims
+T50	PROCESS 755 765	minimizing
+T51	DATA-ITEM 766 783	score differences
+T52	DATA-ITEM 787 803	duplicate photos
+T53	DATA-ITEM 817 823	forums
+T54	QUALITY 807 816	different
+T55	DATA-ITEM 830 850	intermediate results
+T56	PLAN-OR-PROCESS 855 867	user studies
+T57	PLAN 877 900	proposed fusion methods
+T58	QUALITY 905 914	practical
+T59	QUALITY 919 928	efficient
+T60	PLAN 929 938	solutions
+T61	PLAN 942 960	Web object ranking
+T62	PLAN 964 969	cases
+T63	PLAN-OR-PROCESS 1000 1011	experiments
+T64	PROCESS 1017 1026	conducted
+T30	QUALITY 1030 1042	high-quality
+T65	PLAN 1043 1056	photo ranking
+T66	PLAN 1062 1081	proposed algorithms
+T67	QUALITY 1091 1101	applicable
+T68	PLAN 1111 1127	ranking problems
+T69	QUALITY 1105 1110	other
+T70	PLAN 1137 1150	movie ranking
+T71	PLAN 1155 1168	music ranking
+R5	Attribute Arg1:T3 Arg2:T4	
+R6	Attribute Arg1:T7 Arg2:T6	
+R7	Attribute Arg1:T12 Arg2:T11	
+R8	Attribute Arg1:T14 Arg2:T13	
+R10	Attribute Arg1:T25 Arg2:T24	
+R11	Attribute Arg1:T26 Arg2:T27	
+R12	Attribute Arg1:T31 Arg2:T29	
+R13	Attribute Arg1:T34 Arg2:T35	
+R14	Attribute Arg1:T38 Arg2:T36	
+R15	Attribute Arg1:T38 Arg2:T37	
+R17	Equivalence Arg1:T41 Arg2:T40	
+R19	Attribute Arg1:T53 Arg2:T54	
+R20	Attribute Arg1:T60 Arg2:T58	
+R21	Attribute Arg1:T60 Arg2:T59	
+R22	Attribute Arg1:T65 Arg2:T30	
+R23	Attribute Arg1:T66 Arg2:T67	
+R24	Attribute Arg1:T68 Arg2:T69	
+T72	REFERENCE 529 533	that
+R9	Coreference Arg1:T72 Arg2:T34	
+T73	QUALITY 248 251	key
+R18	Attribute Arg1:T17 Arg2:T73	
+T74	IS-A 237 243	one of
+R25	Input Arg1:T1 Arg2:T2	
+R26	Condition Arg1:T2 Arg2:T3	
+T76	IS-A 62 66	is a
+R27	from Arg1:T76 Arg2:T5	
+R28	to Arg1:T76 Arg2:T7	
+R29	Apply-to Arg1:T9 Arg2:T8	
+R30	Input Arg1:T8 Arg2:T10	
+R31	Apply-to Arg1:T9 Arg2:T12	
+R32	Output Arg1:T12 Arg2:T14	
+R33	Condition Arg1:T13 Arg2:T15	
+R34	Output Arg1:T18 Arg2:T19	
+R35	Attribute Arg1:T18 Arg2:T17	
+R36	from Arg1:T74 Arg2:T16	
+R37	to Arg1:T74 Arg2:T17	
+R38	Attribute Arg1:T23 Arg2:T25	
+R39	Condition Arg1:T25 Arg2:T26	
+R40	In_Out Arg1:T28 Arg2:T31	
+R42	Attribute Arg1:T33 Arg2:T32	
+R43	Apply-to Arg1:T72 Arg2:T38	
+R44	Output Arg1:T38 Arg2:T40	
+T77	QUANTITY 562 569;623 634	as many as possible
+R46	Destination Arg1:T38 Arg2:T42	
+R47	to Arg1:T45 Arg2:T46	
+R48	from Arg1:T45 Arg2:T44	
+R49	Output Arg1:T47 Arg2:T46	
+R50	Apply-to Arg1:T48 Arg2:T47	
+R51	Target Arg1:T49 Arg2:T50	
+R52	Apply-to Arg1:T44 Arg2:T49	
+R53	In_Out Arg1:T50 Arg2:T51	
+R54	Attribute Arg1:T51 Arg2:T52	
+R55	Condition Arg1:T52 Arg2:T53	
+R58	Target Arg1:T60 Arg2:T61	
+R59	Condition Arg1:T61 Arg2:T62	
+T79	RESULT 868 872	show
+R60	from Arg1:T79 Arg2:T56	
+R61	from Arg1:T79 Arg2:T55	
+R63	to Arg1:T79 Arg2:T60	
+R64	Output Arg1:T64 Arg2:T63	
+R65	Apply-to Arg1:T63 Arg2:T65	
+R70	Condition Arg1:T67 Arg2:T68	
+T81	IS-A 1129 1136	such as
+R71	from Arg1:T81 Arg2:T70	
+R72	from Arg1:T81 Arg2:T71	
+R73	to Arg1:T81 Arg2:T68	
+T83	PERSON 855 859	user
+R16	Attribute Arg1:T40 Arg2:T77	
+R41	Is-a Arg1:T57 Arg2:T60	
+T20	REFERENCE 184 194	this paper
+T21	PERSON 196 198	we
+T39	PROCESS 199 204	study
+T43	PERSON 316 318	we
+T75	PROCESS 319 324	focus
+T78	QUALITY 302 314	specifically
+R3	Attribute Arg1:T75 Arg2:T78	
+T80	PERSON 492 494	We
+T82	PROCESS 495 503	proposed
+R4	Agent Arg1:T75 Arg2:T43	
+R45	Target Arg1:T75 Arg2:T22	
+T84	PERSON 970 972	we
+T85	PROCESS 978 987	described
+R56	Agent Arg1:T85 Arg2:T84	
+R57	Output Arg1:T85 Arg2:T62	
+R62	Agent Arg1:T39 Arg2:T21	
+R66	Condition Arg1:T39 Arg2:T20	
+R67	Agent Arg1:T82 Arg2:T80	
+R68	Output Arg1:T82 Arg2:T34	

@@ -1,0 +1,9 @@
+Machine Translation Based On NLG From XML-DB .
+The purpose of this study is to propose a new method for machine translation .
+We have proceeded through with two projects for report generation ( Kittredge and Polguere , 2000 ) : Weather Forecast and Monthly Economic Report to be produced in four languages : English , Japanese , French , and German .
+Their input data is stored in XML-DB .
+We applied a three-stage pipelined architecture ( Reiter and Dale , 2000 ) , and each stage was implemented as XML transformation processes .
+Weregard XML stored data as language-neutral intermediate form and employ the so-called ` sublanguage approach ' ( Somers , 2000 ) .
+The machine translation process is implemented via XMLDB as a kind of interlingua approach instead of the conventional structure transfer approach .
+
+

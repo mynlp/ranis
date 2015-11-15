@@ -1,0 +1,182 @@
+T1	PLAN-OR-PROCESS 4 18	Disambiguation
+T2	DATA-ITEM 22 37	Nominalizations
+T3	PLAN-OR-PROCESS 66 80	interpretation
+T4	DATA-ITEM 84 99	nominalizations
+T5	DATA-ITEM 103 119	particular class
+T6	DATA-ITEM 123 137	compound nouns
+T7	DATA-ITEM 144 153	head noun
+T8	PROCESS 157 164	derived
+T9	DATA-ITEM 172 176	verb
+T10	DATA-ITEM 187 195	modifier
+T11	PROCESS 199 210	interpreted
+T12	DATA-ITEM 217 225	argument
+T13	DATA-ITEM 229 238	this verb
+R1	Coreference Arg1:T13 Arg2:T9	
+T14	PROCESS 244 251	attempt
+T15	PROCESS 269 278	interpret
+T16	QUALITY 255 268	automatically
+T17	DATA-ITEM 279 294	nominalizations
+T18	MODALITY 295 300	needs
+T19	PROCESS 304 320	take into accoun
+T20	DATA-ITEM 331 354	selectional constraints
+T21	CONDITION 355 362	imposed
+T22	DATA-ITEM 370 395	nominalized compound head
+T23	DATA-ITEM 419 427	relation
+T24	DATA-ITEM 435 443	modifier
+T25	DATA-ITEM 452 461	head noun
+T26	MODALITY 462 465	can
+T27	QUALITY 469 478	ambiguous
+T28	DATA-ITEM 502 519	these constraints
+R2	Coreference Arg1:T28 Arg2:T20	
+T29	MODALITY 520 523	can
+T30	QUALITY 527 533	easily
+T31	PROCESS 534 544	overridden
+T32	DATA-ITEM 548 558;572 579	contextual factors
+T33	DATA-ITEM 562 579	pragmatic factors
+T34	PLAN-OR-PROCESS 585 599	interpretation
+T35	DATA-ITEM 603 618	nominalizations
+T36	PROCESS 619 624	poses
+T37	QUALITY 635 644	challenge
+T38	PLAN 649 673	probabilistic approaches
+T39	DATA-ITEM 684 702	argument relations
+T40	DATA-ITEM 713 717	head
+T41	DATA-ITEM 726 734	modifier
+T42	MODALITY 739 742	not
+T43	QUALITY 743 760	readily available
+T45	DATA-ITEM 768 774	corpus
+T46	PLAN 784 797	approximation
+T47	PROCESS 803 807	maps
+T48	REFERENCE 798 802	that
+R3	Coreference Arg1:T48 Arg2:T46	
+T49	DATA-ITEM 812 825	compound head
+T50	DATA-ITEM 833 848	underlying verb
+T51	RESULT 849 857	provides
+T52	DATA-ITEM 871 879	evidence
+T53	QUALITY 858 870	insufficient
+T54	PLAN 895 903	approach
+T55	REFERENCE 904 908	that
+R4	Coreference Arg1:T55 Arg2:T54	
+T56	PROCESS 909 915	treats
+T57	PLAN 920 939	interpretation task
+T58	PLAN 945 967	disambiguation problem
+T59	MODALITY 984 987	can
+T60	PROCESS 989 998	re-create
+T61	DATA-ITEM 1003 1034	missing distributional evidence
+T62	APPLY-TO 1038 1048	exploiting
+T63	PLAN-OR-PROCESS 1049 1064	partial parsing
+T64	PLAN-OR-PROCESS 1066 1086	smoothing techniques
+T65	PLAN-OR-PROCESS 1092 1114	contextual information
+T66	PROCESS 1119 1126	combine
+T67	PLAN-OR-PROCESS 1127 1132;1142 1161	these information sources
+T69	PLAN 1178 1184	system
+T70	REFERENCE 1185 1189	that
+R5	Coreference Arg1:T70 Arg2:T69	
+T71	PROCESS 1190 1196	learns
+T72	PLAN 1205 1210	rules
+T73	DATA-ITEM 1216 1220	data
+T74	JUDGING-PROCESS 1226 1233	achieve
+T75	DATA-ITEM 1237 1245	accuracy
+T76	QUANTITY 1249 1254	86.1%
+T77	DATA-ITEM 1263 1271	baseline
+T78	QUANTITY 1275 1280	61.5%
+T79	COMPARE 1256 1260	over
+T80	DATA-ITEM 1289 1312	British National Corpus
+T44	REFERENCE 829 832	its
+R6	Coreference Arg1:T44 Arg2:T49	
+T81	PLAN 1168 1174	Ripper
+T68	PLAN 1197 1201	sets
+R7	Member-collection Arg1:T72 Arg2:T68	
+R8	Component-object Arg1:T7 Arg2:T82	
+T82	REFERENCE 138 143	whose
+R9	Attribute Arg1:T15 Arg2:T16	
+R10	Attribute Arg1:T23 Arg2:T27	
+R11	Attribute Arg1:T31 Arg2:T30	
+R12	Attribute Arg1:T52 Arg2:T53	
+T84	REFERENCE 722 725	its
+R13	Coreference Arg1:T84 Arg2:T40	
+T87	REFERENCE 181 186	whose
+R14	Poss Arg1:T84 Arg2:T41	
+R15	Poss Arg1:T44 Arg2:T50	
+R16	Attribute Arg1:T43 Arg2:T42	
+R17	Input Arg1:T1 Arg2:T2	
+R18	Input Arg1:T3 Arg2:T4	
+R19	Attribute Arg1:T6 Arg2:T5	
+R20	Is-a Arg1:T4 Arg2:T5	
+R21	Coreference Arg1:T82 Arg2:T6	
+R22	Output Arg1:T8 Arg2:T7	
+R23	Input Arg1:T8 Arg2:T9	
+R24	Coreference Arg1:T87 Arg2:T82	
+R25	Component-object Arg1:T10 Arg2:T87	
+R26	Attribute Arg1:T13 Arg2:T12	
+R27	Input Arg1:T11 Arg2:T10	
+R28	Output Arg1:T11 Arg2:T12	
+R29	Input Arg1:T15 Arg2:T17	
+R30	Attribute Arg1:T19 Arg2:T18	
+R31	from Arg1:T21 Arg2:T20	
+R32	to Arg1:T21 Arg2:T22	
+R33	Other-rel Arg1:T23 Arg2:T24	
+R34	Other-rel Arg1:T23 Arg2:T25	
+R35	Apply-to Arg1:T14 Arg2:T15	
+R36	Other-rel Arg1:T19 Arg2:T14	
+R37	Input Arg1:T19 Arg2:T20	
+R38	Input Arg1:T19 Arg2:T27	
+R39	Input Arg1:T19 Arg2:T31	
+R40	Attribute Arg1:T31 Arg2:T29	
+R41	In_Out Arg1:T31 Arg2:T28	
+R42	Input Arg1:T31 Arg2:T33	
+R43	Input Arg1:T31 Arg2:T32	
+R44	Input Arg1:T34 Arg2:T35	
+T90	QUALITY 627 634	further
+R45	Attribute Arg1:T37 Arg2:T90	
+R46	Input Arg1:T36 Arg2:T34	
+R47	Output Arg1:T36 Arg2:T37	
+R48	Attribute Arg1:T38 Arg2:T37	
+R49	Other-rel Arg1:T39 Arg2:T40	
+R50	Other-rel Arg1:T39 Arg2:T41	
+R51	Condition Arg1:T43 Arg2:T45	
+R52	Attribute Arg1:T39 Arg2:T43	
+R53	Apply-to Arg1:T48 Arg2:T47	
+R54	Input Arg1:T47 Arg2:T49	
+R55	Output Arg1:T47 Arg2:T50	
+R56	from Arg1:T51 Arg2:T46	
+R57	to Arg1:T51 Arg2:T52	
+R58	Apply-to Arg1:T55 Arg2:T56	
+R59	Input Arg1:T56 Arg2:T57	
+R60	Output Arg1:T56 Arg2:T58	
+R61	Attribute Arg1:T60 Arg2:T59	
+R62	In_Out Arg1:T60 Arg2:T61	
+R63	from Arg1:T62 Arg2:T63	
+R64	from Arg1:T62 Arg2:T64	
+R65	from Arg1:T62 Arg2:T65	
+R66	to Arg1:T62 Arg2:T60	
+R67	Coreference Arg1:T67 Arg2:T63	
+R68	Coreference Arg1:T67 Arg2:T64	
+R69	Coreference Arg1:T67 Arg2:T65	
+R70	Input Arg1:T66 Arg2:T67	
+T94	QUALITY 1133 1141	distinct
+R71	Attribute Arg1:T67 Arg2:T94	
+R72	Apply-to Arg1:T81 Arg2:T66	
+R73	Is-a Arg1:T81 Arg2:T69	
+R74	Apply-to Arg1:T70 Arg2:T71	
+R75	Output Arg1:T71 Arg2:T68	
+R76	Input Arg1:T71 Arg2:T73	
+R77	Attribute Arg1:T75 Arg2:T76	
+R78	to Arg1:T79 Arg2:T76	
+R79	from Arg1:T79 Arg2:T77	
+R80	Attribute Arg1:T77 Arg2:T78	
+R81	Output Arg1:T74 Arg2:T75	
+R82	Condition Arg1:T74 Arg2:T80	
+T83	REFERENCE 39 51	This article
+T85	PROCESS 52 61	addresses
+T86	PERSON 881 883	We
+T88	PROCESS 884 891	present
+T89	PERSON 981 983	we
+T91	PERSON 1116 1118	We
+R84	Agent Arg1:T88 Arg2:T86	
+R85	Agent Arg1:T60 Arg2:T89	
+R86	Agent Arg1:T66 Arg2:T91	
+R87	Output Arg1:T88 Arg2:T54	
+R88	Condition Arg1:T85 Arg2:T83	
+R89	Target Arg1:T85 Arg2:T3	
+R90	Agent Arg1:T74 Arg2:T91	
+R83	Result Arg1:T66 Arg2:T74	

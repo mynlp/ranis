@@ -1,0 +1,140 @@
+T1	PROCESS 67 76	advocated
+T2	RESULT 151 159	resulted
+T3	PROCESS 362 369	support
+T4	PROCESS 419 428	constrain
+T5	PROCESS 786 794	attempts
+T6	PROCESS 798 806	identify
+T8	PROCESS 956 965	describes
+T9	PROCESS 1106 1112	allows
+T10	PROCESS 1128 1139	accommodate
+T11	PROCESS 350 358	designed
+T12	PERSON 429 439	developers
+T13	PERSON 1113 1124	programmers
+T14	QUALITY 647 653	common
+T15	DATA-ITEM 0 21	Operational Semantics
+T16	PLAN-OR-PROCESS 25 48	Multiagent Interactions
+T17	PLAN 53 66	social stance
+T18	PLAN 80 104	institutional frameworks
+T19	PLAN 114 146	multi-agent system methodologies
+T20	PLAN 170 178	spectrum
+T22	APPLY-TO 239 256	found currency in
+T23	PLAN 265 287	programming frameworks
+T24	PLAN 292 310	software platforms
+T25	PLAN 319 330	these tools
+T26	PLAN 319 324;335 345	these frameworks
+T27	PLAN 380 385	range
+T28	PLAN 389 413	interaction capabilities
+T31	QUALITY 550 557	variety
+T32	PLAN 561 595	multi-agent interaction mechanisms
+T33	PLAN 654 667	semantic core
+T34	DOMAIN 676 681	realm
+T35	PLAN 685 707	software architectures
+T36	PLAN 730 751	connector-based model
+T37	PLAN-OR-PROCESS 755 779	multi-agent interactions
+T38	QUALITY 821 830	structure
+T39	PLAN-OR-PROCESS 842 866	multi-agent interactions
+T41	PLAN 905 915	this model
+T42	PLAN 930 949	execution semantics
+T43	QUALITY 970 978	dynamics
+T44	PLAN-OR-PROCESS 982 1001	social interactions
+T45	PLAN 1007 1021	proposed model
+T46	PLAN 1041 1057	abstract machine
+T47	PLAN 1064 1099	organizational programming language
+T48	PLAN 1143 1151	open set
+T49	PLAN 1155 1177	interaction mechanisms
+T50	QUALITY 109 113	most
+R1	Attribute Arg1:T19 Arg2:T50	
+T51	QUALITY 165 169	wide
+R2	Attribute Arg1:T20 Arg2:T51	
+T52	PLAN 215 227	abstractions
+T54	QUANTITY 257 264	several
+R3	Attribute Arg1:T23 Arg2:T54	
+T55	QUALITY 372 379	limited
+R4	Attribute Arg1:T27 Arg2:T55	
+T56	QUALITY 445 450	fixed
+T57	PLAN 451 454	set
+R5	Attribute Arg1:T57 Arg2:T56	
+T58	PLAN 482 494	abstractions
+R6	Attribute Arg1:T32 Arg2:T31	
+T60	QUALITY 605 619	organizational
+T61	QUALITY 624 637	communicative
+R7	Attribute Arg1:T33 Arg2:T14	
+R8	Attribute Arg1:T32 Arg2:T60	
+R9	Attribute Arg1:T32 Arg2:T61	
+T62	QUALITY 811 820	essential
+R10	Attribute Arg1:T38 Arg2:T62	
+T63	PROCESS 1025 1033	intended
+R11	Member-collection Arg1:T58 Arg2:T57	
+R12	Member-collection Arg1:T49 Arg2:T48	
+R13	Coreference Arg1:T25 Arg2:T23	
+R14	Coreference Arg1:T26 Arg2:T24	
+T29	COMPONENT-OBJECT 639 644	share
+T64	REFERENCE 780 785	which
+R15	Coreference Arg1:T64 Arg2:T36	
+R16	Coreference Arg1:T41 Arg2:T36	
+T40	REFERENCE 950 955	which
+R17	Coreference Arg1:T40 Arg2:T42	
+T65	REFERENCE 1100 1105	which
+R18	Coreference Arg1:T65 Arg2:T47	
+T66	REFERENCE 228 233	which
+R20	Coreference Arg1:T66 Arg2:T52	
+T7	REFERENCE 414 418	that
+R21	Coreference Arg1:T7 Arg2:T28	
+T68	QUALITY 923 929	formal
+R22	Attribute Arg1:T42 Arg2:T68	
+T21	QUALITY 182 196	organizational
+T69	QUALITY 201 214	communicative
+R19	Attribute Arg1:T52 Arg2:T21	
+R23	Attribute Arg1:T52 Arg2:T69	
+R24	Attribute Arg1:T16 Arg2:T15	
+R25	Output Arg1:T1 Arg2:T17	
+R26	Apply-to Arg1:T18 Arg2:T1	
+R27	Apply-to Arg1:T19 Arg2:T1	
+R28	from Arg1:T2 Arg2:T17	
+R29	to Arg1:T2 Arg2:T20	
+R30	Member-collection Arg1:T52 Arg2:T20	
+R31	from Arg1:T22 Arg2:T66	
+R32	to Arg1:T22 Arg2:T23	
+R33	to Arg1:T22 Arg2:T24	
+R34	Output Arg1:T11 Arg2:T26	
+R35	Output Arg1:T11 Arg2:T25	
+R36	Apply-to Arg1:T11 Arg2:T3	
+R37	Target Arg1:T3 Arg2:T27	
+R38	Member-collection Arg1:T28 Arg2:T27	
+R39	Apply-to Arg1:T7 Arg2:T4	
+R40	Target Arg1:T4 Arg2:T12	
+R41	Destination Arg1:T4 Arg2:T57	
+R42	to Arg1:T29 Arg2:T32	
+R43	from Arg1:T29 Arg2:T33	
+R44	Attribute Arg1:T34 Arg2:T35	
+R45	Attribute Arg1:T37 Arg2:T36	
+R46	Apply-to Arg1:T64 Arg2:T5	
+R47	Target Arg1:T5 Arg2:T6	
+R48	Output Arg1:T6 Arg2:T38	
+R49	Attribute Arg1:T39 Arg2:T38	
+R50	Apply-to Arg1:T40 Arg2:T8	
+R51	Output Arg1:T8 Arg2:T43	
+R52	Attribute Arg1:T44 Arg2:T43	
+R53	Output Arg1:T63 Arg2:T45	
+R55	Component-object Arg1:T46 Arg2:T47	
+R56	Apply-to Arg1:T65 Arg2:T9	
+R57	Agent Arg1:T10 Arg2:T13	
+R58	Target Arg1:T10 Arg2:T48	
+R59	Target Arg1:T9 Arg2:T10	
+R54	Is-a Arg1:T45 Arg2:T46	
+T53	QUALITY 458 468	particular
+T70	QUALITY 470 481	pre-defined
+R60	Attribute Arg1:T58 Arg2:T53	
+R61	Attribute Arg1:T58 Arg2:T70	
+T30	REFERENCE 527 537	this paper
+T59	THING 505 515	hypothesis
+T67	QUALITY 500 504	main
+R62	Attribute Arg1:T59 Arg2:T67	
+T71	PROCESS 516 526	motivating
+R63	Agent Arg1:T71 Arg2:T59	
+R64	Target Arg1:T71 Arg2:T30	
+T72	REFERENCE 881 890	the paper
+T73	PROCESS 896 904	provides
+R65	Condition Arg1:T73 Arg2:T72	
+R66	Output Arg1:T73 Arg2:T41	
+R67	Component-object Arg1:T42 Arg2:T41	

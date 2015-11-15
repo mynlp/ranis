@@ -1,0 +1,12 @@
+Unsupervised Acquisition of Predominant Word Senses
+
+There has been a great deal of recent research into word sense disambiguation, particularly since the inception of the Senseval evaluation exercises.
+Because a word often has more than one meaning, resolving word sense ambiguity could benefit applications that need some level of semantic interpretation of language input.
+A major problem is that the accuracy of word sense disambiguation systems is strongly dependent on the quantity of manually sense-tagged data available, and even the best systems, when tagging every word token in a document,
+perform little better than a simple heuristic that guesses the first, or predominant, sense of a word in all contexts.
+The success of this heuristic is due to the skewed nature of word sense distributions. Data for the heuristic can come from either dictionaries or a sample of sense-tagged data.
+However, there is a limited supply of the latter, and the sense distributions and predominant sense of a word can depend on the domain or source of a document. (The first sense of ``star'' for example would be different in the popular press and scientific journals).
+In this article, we expand on a previously proposed method for determining the predominant sense of a word automatically from raw text.
+We look at a number of different data sources and parameterizations of the method, using evaluation results and error analyses to identify where the method performs well and also where it does not.
+In particular, we find that the method does not work as well for verbs and adverbs as nouns and adjectives, but produces more accurate predominant sense information than the widely used SemCor corpus for nouns with low coverage in that corpus.
+We further show that the method is able to adapt successfully to domains when using domain specific corpora as input and where the input can either be hand-labeled for domain or automatically classified.

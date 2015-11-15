@@ -1,0 +1,164 @@
+T1	PLAN 0 26	Self-Adaptive Applications
+T2	PLAN 34 38	Grid
+T3	PLAN 39 44	Grids
+T4	QUALITY 49 73	inherently heterogeneous
+T5	QUALITY 78 85	dynamic
+T6	QUANTITY 87 90	One
+T7	QUALITY 91 100	important
+T8	PLAN 101 108	problem
+T9	PLAN-OR-PROCESS 112 126	grid computing
+T10	PLAN-OR-PROCESS 130 148	resource selection
+T11	PROCESS 159 166	finding
+T12	QUALITY 170 181	appropriate
+T13	DATA-ITEM 182 194	resource set
+T14	PLAN 203 214	application
+T15	QUALITY 216 223	Another
+T16	PLAN 224 231	problem
+T17	PLAN-OR-PROCESS 235 245	adaptation
+T18	QUALITY 253 277	changing characteristics
+T19	PLAN 285 301	grid environment
+T20	QUALITY 303 311	Existing
+T21	PLAN 312 321	solutions
+T22	PLAN 325 343	these two problems
+T23	QUALITY 344 351	require
+T24	PLAN 359 376	performance model
+T25	PLAN 384 395	application
+T26	PROCESS 399 404	known
+T27	PROCESS 415 427	constructing
+T28	PLAN 428 439	such models
+T29	QUALITY 445 452	complex
+T30	PLAN 453 457	task
+T31	REFERENCE 462 472	this paper
+T32	PERSON 474 476	we
+T33	PROCESS 477 488	investigate
+T34	PLAN 492 500	approach
+T35	REFERENCE 501 505	that
+T36	MODALITY 511 514	not
+T37	QUALITY 515 522	require
+T38	PLAN 523 541	performance models
+T39	PERSON 543 545	We
+T40	PROCESS 546 551	start
+T41	PLAN 555 566	application
+T42	DATA-ITEM 574 577	set
+T43	DATA-ITEM 581 590	resources
+T44	PLAN 603 618	application run
+T45	PERSON 620 622	we
+T46	QUALITY 623 635	periodically
+T47	PROCESS 636 643	collect
+T48	DATA-ITEM 648 658	statistics
+T49	PLAN 669 684	application run
+T50	PROCESS 689 695	deduce
+T51	PLAN 696 720	application requirements
+T52	DATA-ITEM 726 742	these statistics
+T53	PERSON 750 752	we
+T54	PROCESS 753 759	adjust
+T55	DATA-ITEM 764 776	resource set
+T56	QUALITY 780 786	better
+T57	PROCESS 787 790	fit
+T58	PLAN 795 812	application needs
+T59	PLAN 814 827	This approach
+T60	PROCESS 828 834	allows
+T61	PROCESS 841 846	avoid
+T62	THING 847 870	performance bottlenecks
+T63	QUALITY 880 890	overloaded
+T64	PLAN 891 900	WAN links
+T65	QUALITY 904 913	very slow
+T66	PLAN 914 924	processors
+T67	MODALITY 940 943	can
+T68	RESULT 944 949	yield
+T69	QUALITY 950 986	significant performance improvements
+T70	PERSON 988 990	We
+T71	PROCESS 991 999	evaluate
+T72	PERSON 1000 1003	our
+T73	PLAN 1004 1012	approach
+T74	QUANTITY 1016 1024	a number
+T75	PLAN 1028 1037	scenarios
+T76	QUALITY 1038 1045	typical
+T77	PLAN 1054 1058	Grid
+R1	Attribute Arg1:T3 Arg2:T4	
+R2	Attribute Arg1:T3 Arg2:T5	
+R3	Attribute Arg1:T8 Arg2:T7	
+R4	Attribute Arg1:T8 Arg2:T6	
+R5	Condition Arg1:T8 Arg2:T9	
+R6	Other-rel Arg1:T10 Arg2:T8	
+R7	Attribute Arg1:T13 Arg2:T12	
+R8	Input Arg1:T14 Arg2:T13	
+R9	In_Out Arg1:T11 Arg2:T13	
+R10	Other-rel Arg1:T11 Arg2:T10	
+R11	Attribute Arg1:T16 Arg2:T15	
+R12	Other-rel Arg1:T17 Arg2:T16	
+R13	Attribute Arg1:T19 Arg2:T18	
+R14	Destination Arg1:T17 Arg2:T18	
+R15	Attribute Arg1:T21 Arg2:T20	
+R16	Member-collection Arg1:T16 Arg2:T22	
+R17	Member-collection Arg1:T8 Arg2:T22	
+R18	Target Arg1:T21 Arg2:T22	
+R19	Apply-to Arg1:T24 Arg2:T25	
+R20	In_Out Arg1:T26 Arg2:T24	
+R21	Condition Arg1:T23 Arg2:T21	
+R22	Attribute Arg1:T26 Arg2:T23	
+R23	Coreference Arg1:T28 Arg2:T24	
+R24	Output Arg1:T27 Arg2:T28	
+R25	Attribute Arg1:T30 Arg2:T29	
+R26	Other-rel Arg1:T27 Arg2:T30	
+A1	Judgment T29
+A2	Judgment T7
+A3	Self T31
+A4	Self T32
+A5	Intentional T33
+R27	Agent Arg1:T33 Arg2:T32	
+R28	Condition Arg1:T33 Arg2:T31	
+R29	Output Arg1:T33 Arg2:T34	
+R30	Coreference Arg1:T35 Arg2:T34	
+R31	Condition Arg1:T37 Arg2:T35	
+R32	Attribute Arg1:T38 Arg2:T37	
+A6	Self T39
+A7	Intentional T40
+R33	Agent Arg1:T40 Arg2:T39	
+R34	Target Arg1:T40 Arg2:T41	
+R35	Member-collection Arg1:T43 Arg2:T42	
+R36	Input Arg1:T41 Arg2:T42	
+A8	Self T45
+R37	Attribute Arg1:T47 Arg2:T46	
+R38	In_Out Arg1:T47 Arg2:T48	
+R39	Attribute Arg1:T49 Arg2:T48	
+R40	Agent Arg1:T47 Arg2:T45	
+R41	Agent Arg1:T50 Arg2:T45	
+A9	Intentional T50
+R42	Output Arg1:T50 Arg2:T51	
+R43	Input Arg1:T50 Arg2:T52	
+R44	Coreference Arg1:T52 Arg2:T48	
+A10	Self T53
+A11	Intentional T54
+R45	Agent Arg1:T54 Arg2:T53	
+R46	Target Arg1:T54 Arg2:T55	
+R47	Attribute Arg1:T57 Arg2:T56	
+R48	Target Arg1:T57 Arg2:T58	
+R49	Apply-to Arg1:T54 Arg2:T57	
+R50	Condition Arg1:T47 Arg2:T44	
+R51	Condition Arg1:T50 Arg2:T44	
+R52	Apply-to Arg1:T59 Arg2:T60	
+T78	PERSON 835 837	us
+A12	Self T78
+R53	Agent Arg1:T61 Arg2:T78	
+R54	Output Arg1:T60 Arg2:T61	
+R55	Target Arg1:T61 Arg2:T62	
+R56	Attribute Arg1:T66 Arg2:T65	
+R57	Attribute Arg1:T64 Arg2:T63	
+R58	Is-a Arg1:T64 Arg2:T62	
+R59	Is-a Arg1:T66 Arg2:T62	
+R60	Attribute Arg1:T68 Arg2:T67	
+R61	to Arg1:T68 Arg2:T69	
+R62	from Arg1:T68 Arg2:T59	
+A13	Judgment T69
+A14	Self T70
+A15	Intentional T71
+R63	Agent Arg1:T71 Arg2:T70	
+A16	Self T72
+R64	Poss Arg1:T72 Arg2:T73	
+R65	Input Arg1:T71 Arg2:T73	
+R66	Attribute Arg1:T75 Arg2:T74	
+R67	Attribute Arg1:T75 Arg2:T76	
+R68	Condition Arg1:T76 Arg2:T77	
+R69	Apply-to Arg1:T73 Arg2:T75	
+R70	Attribute Arg1:T37 Arg2:T36	

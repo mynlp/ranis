@@ -1,0 +1,67 @@
+R1	Apply-to Arg1:T1 Arg2:T33
+R3	Destination Arg1:T6 Arg2:T7
+R4	Attribute Arg1:T6 Arg2:T5
+R5	Input Arg1:T6 Arg2:T4
+R6	from Arg1:T11 Arg2:T12
+R7	to Arg1:T11 Arg2:T2
+R8	Attribute Arg1:T11 Arg2:T10
+A1	Self T34
+R11	Condition Arg1:T35 Arg2:T34
+R12	Output Arg1:T35 Arg2:T13
+R13	Is-a Arg1:T2 Arg2:T15
+R14	In_Out Arg1:T14 Arg2:T15
+R15	Apply-to Arg1:T13 Arg2:T14
+R16	Attribute Arg1:T17 Arg2:T16
+R17	Condition Arg1:T17 Arg2:T36
+R18	In_Out Arg1:T19 Arg2:T18
+A2	Self T20
+A3	Intentional T21
+R19	Agent Arg1:T21 Arg2:T20
+R20	Attribute Arg1:T23 Arg2:T22
+R21	Output Arg1:T21 Arg2:T23
+R22	Apply-to Arg1:T25 Arg2:T24
+R23	Apply-to Arg1:T24 Arg2:T26
+R24	Output Arg1:T26 Arg2:T27
+R25	Apply-to Arg1:T23 Arg2:T24
+R26	Agent Arg1:T28 Arg2:T20
+A4	Intentional T28
+R27	Output Arg1:T28 Arg2:T29
+R28	from Arg1:T30 Arg2:T31
+R29	to Arg1:T30 Arg2:T28
+A5	Intentional T35
+A6	Intentional T19
+R2	Condition Arg1:T7 Arg2:T9
+R9	Attribute Arg1:T4 Arg2:T2
+T1	PLAN 2 36	Class-Based Probabilistic Approach
+T33	PLAN 40 65	Structural Disambiguation
+T2	DATA-ITEM 68 77	Knowledge
+T4	DATA-ITEM 87 92	words
+T5	MODALITY 97 101	able
+T6	PROCESS 105 109	fill
+T7	DATA-ITEM 110 135	particular argument slots
+T9	DATA-ITEM 141 150	predicate
+T10	MODALITY 151 154	can
+T11	INPUT 158 162	used
+T12	PLAN 167 192	structural disambiguation
+T34	REFERENCE 195 205	This paper
+T35	PROCESS 206 215	describes
+T13	PLAN 218 226	proposal
+T14	PROCESS 231 240	acquiring
+T15	DATA-ITEM 241 255	such knowledge
+T16	QUANTITY 275 279	much
+T17	EXTERNAL-REFERENCE 287 298	recent work
+T36	DOMAIN 302 311	this area
+T18	PLAN 316 338	probabilistic approach
+T19	PROCESS 342 347	taken
+T20	PERSON 350 352	We
+T21	PROCESS 353 360	develop
+T22	QUALITY 363 368	novel
+T23	PLAN 369 372	way
+T24	PROCESS 376 381	using
+T25	PLAN 384 402	semantic hierarchy
+T26	PROCESS 406 414	estimate
+T27	DATA-ITEM 419 432	probabilities
+T28	PROCESS 439 450	demonstrate
+T29	PLAN 455 471	general approach
+T30	APPLY-TO 472 477	using
+T31	PLAN 480 522	prepositional phrase attachment experiment

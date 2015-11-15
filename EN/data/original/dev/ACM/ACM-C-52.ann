@@ -1,0 +1,281 @@
+T1	QUALITY 0 8	Fairness
+T2	PLAN 12 63	Dead-Reckoning based Distributed Multi-Player Games
+T3	PLAN 69 98	distributed multi-player game
+T4	INPUT 104 108	uses
+T5	DATA-ITEM 109 131	dead-reckoning vectors
+T6	PROCESS 135 143	exchange
+T7	DATA-ITEM 144 164	movement information
+T8	PERSON 171 178	players
+T9	QUALITY 189 199	inaccuracy
+T10	PROCESS 203 212	rendering
+T11	DATA-ITEM 217 224	objects
+T12	PLAN-OR-PROCESS 232 240	receiver
+T13	TIME 248 261	network delay
+R1	Attribute Arg1:T10 Arg2:T9	
+T14	PLAN-OR-PROCESS 274 280	sender
+T15	PLAN-OR-PROCESS 289 297	receiver
+T16	DATA-ITEM 303 309	object
+T17	PROCESS 313 319	placed
+T18	PLAN-OR-PROCESS 327 335	receiver
+T19	DATA-ITEM 343 351	position
+T20	PROCESS 352 361	indicated
+T21	DATA-ITEM 369 390	dead-reckoning vector
+T22	QUALITY 414 418	real
+T23	DATA-ITEM 419 427	position
+R2	Attribute Arg1:T23 Arg2:T22	
+T24	MODALITY 428 433	could
+T25	PROCESS 439 446	changed
+T26	QUALITY 447 459	considerably
+R3	Attribute Arg1:T25 Arg2:T26	
+T27	PLAN-OR-PROCESS 467 473	sender
+T28	QUALITY 475 490	This inaccuracy
+T29	MODALITY 491 496	would
+T30	QUALITY 500 509	tolerable
+R4	Attribute Arg1:T28 Arg2:T30	
+R5	Attribute Arg1:T25 Arg2:T24	
+T31	QUALITY 519 529	consistent
+R6	Attribute Arg1:T28 Arg2:T31	
+T32	PERSON 540 547	players
+T33	MODALITY 510 512	if
+T34	QUALITY 565 569	same
+T35	TIME 570 583	physical time
+T36	PERSON 589 596	players
+T37	QUANTITY 585 588	all
+R7	Attribute Arg1:T35 Arg2:T34	
+R8	Attribute Arg1:T30 Arg2:T29	
+R9	Attribute Arg1:T31 Arg2:T33	
+R10	Attribute Arg1:T36 Arg2:T37	
+T38	PROCESS 597 600	see
+T39	QUALITY 601 611	inaccurate
+T40	QUALITY 633 637	real
+T41	DATA-ITEM 638 646	position
+T42	DATA-ITEM 654 660	object
+T43	QUALITY 670 674	same
+T44	DATA-ITEM 675 683	position
+T45	DATA-ITEM 688 698	trajectory
+R11	Attribute Arg1:T45 Arg2:T43	
+R12	Attribute Arg1:T44 Arg2:T43	
+T46	DATA-ITEM 706 712	object
+R13	Attribute Arg1:T41 Arg2:T40	
+R14	Attribute Arg1:T44 Arg2:T39	
+R15	Attribute Arg1:T45 Arg2:T39	
+T47	QUALITY 725 732	varying
+T48	TIME 733 747	network delays
+R16	Attribute Arg1:T48 Arg2:T47	
+T49	PLAN-OR-PROCESS 760 766	sender
+T50	QUALITY 771 780	different
+T51	PLAN-OR-PROCESS 781 790	receivers
+R17	Attribute Arg1:T51 Arg2:T50	
+T52	QUALITY 796 806	inaccuracy
+T53	QUALITY 810 819	different
+R18	Attribute Arg1:T52 Arg2:T53	
+T54	QUALITY 823 832	different
+T55	PERSON 833 840	players
+R19	Attribute Arg1:T55 Arg2:T54	
+T56	RESULT 855 860	leads
+T57	QUALITY 864 874	unfairness
+T58	PLAN-OR-PROCESS 878 890	game playing
+R20	Attribute Arg1:T58 Arg2:T57	
+T59	PLAN 929 942	error measure
+T60	PROCESS 947 957	estimating
+T61	QUALITY 958 973	this inaccuracy
+T62	PLAN 994 1003	algorithm
+T63	PROCESS 1008 1018	scheduling
+T64	PROCESS 1023 1030	sending
+T65	DATA-ITEM 1034 1056	dead-reckoning vectors
+T66	PLAN-OR-PROCESS 1062 1068	sender
+T67	APPLY-TO 1074 1081	strives
+T68	ATTRIBUTE 1085 1089	make
+T69	QUALITY 1090 1100	this error
+T70	QUALITY 1101 1106	equal
+T71	QUALITY 1110 1119	different
+T72	PLAN-OR-PROCESS 1120 1129	receivers
+R22	Attribute Arg1:T72 Arg2:T71	
+T73	PLAN 1141 1155	This algorithm
+R23	Coreference Arg1:T73 Arg2:T136	
+T74	PROCESS 1156 1161	makes
+T75	PLAN-OR-PROCESS 1166 1170	game
+T76	QUALITY 1171 1180	very fair
+T77	CONDITION 1188 1195	expense
+T78	PROCESS 1199 1209	increasing
+T79	QUALITY 1214 1221	overall
+T80	DATA-ITEM 1222 1232	mean error
+T81	QUANTITY 1236 1239	all
+T82	PERSON 1240 1247	players
+R24	Attribute Arg1:T82 Arg2:T81	
+R25	Attribute Arg1:T80 Arg2:T79	
+R26	Attribute Arg1:T75 Arg2:T76	
+T83	PLAN 1287 1309	budget based algorithm
+T84	PROCESS 1315 1323	provides
+T85	QUALITY 1324 1332	improved
+T86	QUALITY 1333 1341	fairness
+R27	Attribute Arg1:T86 Arg2:T85	
+T87	MODALITY 1342 1349	without
+T88	PROCESS 1350 1360	increasing
+T89	DATA-ITEM 1365 1375	mean error
+R28	Attribute Arg1:T88 Arg2:T87	
+T90	PROCESS 1384 1395	maintaining
+T91	DATA-ITEM 1400 1408	accuracy
+T92	PLAN-OR-PROCESS 1412 1424	game playing
+T93	PLAN 1455 1475	scheduling algorithm
+T94	PLAN 1484 1506	budget based algorithm
+T96	QUALITY 1528 1535	popular
+T97	PLAN 1536 1565	distributed multi-player game
+R29	Attribute Arg1:T97 Arg2:T96	
+T98	PROCESS 1434 1445	implemented
+T100	PLAN 1600 1616	these algorithms
+T101	PROCESS 1617 1624	provide
+T102	QUALITY 1625 1633	fairness
+T103	PERSON 1640 1647	players
+T104	QUALITY 1660 1674	widely varying
+T105	DATA-ITEM 1675 1689	network delays
+R30	Attribute Arg1:T105 Arg2:T104	
+T106	QUALITY 1694 1704	additional
+T107	QUALITY 1705 1713	property
+T109	PLAN 1721 1740	proposed algorithms
+T110	CONDITION 1754 1761	require
+T111	QUANTITY 1762 1773	less number
+T112	DATA-ITEM 1777 1780	DRs
+R31	Attribute Arg1:T112 Arg2:T111	
+T113	PROCESS 1787 1796	exchanged
+T114	COMPARE 1798 1806	compared
+T115	QUALITY 1814 1821	current
+T116	PLAN 1822 1836	implementation
+R32	Attribute Arg1:T116 Arg2:T115	
+R33	Attribute Arg1:T107 Arg2:T106	
+T118	OUTPUT 1851 1858	achieve
+T119	QUALITY 1863 1867	same
+T120	DATA-ITEM 1868 1873	level
+T121	DATA-ITEM 1877 1885	accuracy
+T122	PLAN-OR-PROCESS 1889 1901	game playing
+R34	Attribute Arg1:T120 Arg2:T119	
+T108	QUANTITY 536 539	all
+R35	Attribute Arg1:T32 Arg2:T108	
+T123	TIME 404 408	time
+T124	PLAN 1518 1524	BZFlag
+R36	Coreference Arg1:T100 Arg2:T93	
+R37	Coreference Arg1:T100 Arg2:T94	
+T125	PLAN 1840 1846	BZflag
+T126	REFERENCE 513 515	it
+R38	Coreference Arg1:T126 Arg2:T28	
+R39	Coreference Arg1:T28 Arg2:T9	
+R40	Coreference Arg1:T61 Arg2:T52	
+T95	REFERENCE 1749 1753	they
+R41	Coreference Arg1:T95 Arg2:T109	
+T117	REFERENCE 850 854	This
+R42	Coreference Arg1:T69 Arg2:T61	
+T129	PROCESS 1261 1272	this effect
+R43	Coreference Arg1:T129 Arg2:T78	
+T131	REFERENCE 99 103	that
+R44	Coreference Arg1:T131 Arg2:T3	
+T132	REFERENCE 1744 1748	that
+R45	Coreference Arg1:T132 Arg2:T107	
+T133	REFERENCE 1310 1314	that
+R46	Coreference Arg1:T133 Arg2:T83	
+T136	REFERENCE 1069 1073	that
+R47	Coreference Arg1:T136 Arg2:T62	
+R48	Attribute Arg1:T2 Arg2:T1	
+R49	to Arg1:T4 Arg2:T5	
+R50	Apply-to Arg1:T131 Arg2:T6	
+R51	from Arg1:T4 Arg2:T6	
+R52	In_Out Arg1:T6 Arg2:T7	
+R53	Condition Arg1:T6 Arg2:T8	
+R54	Output Arg1:T10 Arg2:T11	
+R55	Destination Arg1:T10 Arg2:T12	
+R56	Other-rel Arg1:T13 Arg2:T9	
+R57	Condition Arg1:T13 Arg2:T14	
+R58	Condition Arg1:T13 Arg2:T15	
+R59	Output Arg1:T17 Arg2:T16	
+R60	Condition Arg1:T17 Arg2:T18	
+R61	Destination Arg1:T17 Arg2:T19	
+R62	Output Arg1:T20 Arg2:T19	
+R63	Input Arg1:T20 Arg2:T21	
+R64	Condition Arg1:T25 Arg2:T27	
+R65	In_Out Arg1:T25 Arg2:T23	
+R66	Condition Arg1:T31 Arg2:T32	
+R67	Condition Arg1:T38 Arg2:T35	
+R68	Agent Arg1:T38 Arg2:T36	
+R69	Target Arg1:T38 Arg2:T44	
+R70	Target Arg1:T38 Arg2:T45	
+R71	Attribute Arg1:T46 Arg2:T44	
+R72	Attribute Arg1:T46 Arg2:T45	
+R73	Other-rel Arg1:T48 Arg2:T49	
+R74	Other-rel Arg1:T48 Arg2:T51	
+R75	Coreference Arg1:T117 Arg2:T53	
+R76	from Arg1:T56 Arg2:T117	
+R77	to Arg1:T56 Arg2:T57	
+R78	Apply-to Arg1:T59 Arg2:T60	
+R79	Output Arg1:T60 Arg2:T61	
+R80	Apply-to Arg1:T62 Arg2:T63	
+R81	Target Arg1:T63 Arg2:T64	
+R82	In_Out Arg1:T64 Arg2:T65	
+R83	Condition Arg1:T63 Arg2:T66	
+R84	from Arg1:T67 Arg2:T136	
+R85	to Arg1:T67 Arg2:T68	
+R86	from Arg1:T68 Arg2:T69	
+R87	Condition Arg1:T68 Arg2:T138	
+T138	TIME 1135 1139	time
+R88	Apply-to Arg1:T73 Arg2:T74	
+R89	In_Out Arg1:T74 Arg2:T75	
+R91	to Arg1:T77 Arg2:T78	
+R92	In_Out Arg1:T78 Arg2:T80	
+R93	Attribute Arg1:T82 Arg2:T80	
+T139	PROCESS 1252 1260	mitigate
+R94	In_Out Arg1:T139 Arg2:T129	
+R95	Apply-to Arg1:T83 Arg2:T139	
+R96	Apply-to Arg1:T133 Arg2:T84	
+R97	Output Arg1:T84 Arg2:T86	
+R98	Condition Arg1:T84 Arg2:T88	
+R99	Output Arg1:T88 Arg2:T89	
+R100	Attribute Arg1:T92 Arg2:T91	
+R101	In_Out Arg1:T90 Arg2:T91	
+R102	Result Arg1:T84 Arg2:T90	
+R103	Output Arg1:T98 Arg2:T93	
+R104	Output Arg1:T98 Arg2:T94	
+R105	Is-a Arg1:T124 Arg2:T97	
+R106	Condition Arg1:T98 Arg2:T124	
+R107	Apply-to Arg1:T100 Arg2:T101	
+R108	Output Arg1:T101 Arg2:T102	
+T141	MODALITY 1648 1659	in spite of
+R110	Condition Arg1:T101 Arg2:T105	
+R111	Attribute Arg1:T105 Arg2:T141	
+R112	Attribute Arg1:T109 Arg2:T107	
+R113	to Arg1:T110 Arg2:T95	
+R114	from Arg1:T110 Arg2:T112	
+R115	In_Out Arg1:T113 Arg2:T112	
+R116	to Arg1:T114 Arg2:T113	
+R117	from Arg1:T114 Arg2:T116	
+R118	Is-a Arg1:T116 Arg2:T125	
+R119	from Arg1:T118 Arg2:T95	
+R120	Attribute Arg1:T122 Arg2:T121	
+R121	Attribute Arg1:T120 Arg2:T121	
+R122	to Arg1:T118 Arg2:T120	
+R123	Attribute Arg1:T42 Arg2:T41	
+R124	Condition Arg1:T53 Arg2:T55	
+R125	to Arg1:T68 Arg2:T70	
+R21	Apply-to Arg1:T133 Arg2:T88	
+R109	Condition Arg1:T102 Arg2:T103	
+R126	Condition Arg1:T70 Arg2:T72	
+T99	PERSON 907 909	we
+T127	REFERENCE 895 905	this paper
+T128	PROCESS 916 925	introduce
+T130	PERSON 980 982	we
+T134	PROCESS 983 990	develop
+T135	PERSON 1274 1276	we
+T137	PROCESS 1277 1284	propose
+T140	PERSON 1426 1428	We
+T142	PERSON 1567 1569	We
+T143	PROCESS 1570 1574	show
+T144	PROCESS 1583 1594	experiments
+R90	from Arg1:T77 Arg2:T76	
+R128	Agent Arg1:T128 Arg2:T99	
+R129	Condition Arg1:T128 Arg2:T127	
+R130	Output Arg1:T128 Arg2:T59	
+R131	Agent Arg1:T134 Arg2:T130	
+R132	Output Arg1:T134 Arg2:T62	
+R133	Agent Arg1:T137 Arg2:T135	
+R134	Output Arg1:T137 Arg2:T83	
+R135	Agent Arg1:T143 Arg2:T142	
+R136	Agent Arg1:T98 Arg2:T140	
+R137	Apply-to Arg1:T144 Arg2:T143	
+R127	Output Arg1:T143 Arg2:T102	

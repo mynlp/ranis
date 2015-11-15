@@ -1,0 +1,7 @@
+Utilizing Review Summarization in a Spoken Recommendation System 
+ 
+In this paper we present a framework for spoken recommendation systems.
+To provide reliable recommendations to users, we incorporate a review summarization technique which extracts informative opinion summaries from grass-roots users' reviews.
+The dialogue system then utilizes these review summaries to support both quality-based opinion inquiry and feature-specific entity search.
+We propose a probabilistic language generation approach to automatically creating recommendations in spoken natural language from the text-based opinion summaries.
+A user study in the restaurant domain shows that the proposed approaches can effectively generate reliable and helpful recommendations in human-computer conversations. 

@@ -1,0 +1,79 @@
+T2	PLAN 8 29	Implicit Role Linking
+T3	PLAN 36 60	Anaphora Resolution Task
+T4	PLAN 62 69	Linking
+T5	DATA-ITEM 70 93	implicit semantic roles
+T6	QUALITY 99 110	challenging
+T8	PLAN-OR-PROCESS 122 142	discourse processing
+T10	EXTERNAL-REFERENCE 151 161	prior work
+T11	PLAN 174 177	SRL
+T12	PROCESS 162 170	inspired
+T14	PLAN 187 199	this problem
+R1	Coreference Arg1:T14 Arg2:T4	
+T15	PLAN 206 230	anaphora resolution task
+T16	PROCESS 235 240	embed
+T17	REFERENCE 241 243	it
+R2	Coreference Arg1:T17 Arg2:T14	
+T18	PLAN 250 303	entity-based coreference resolution (CR) architecture
+T19	PROCESS 309 320	experiments
+T20	QUALITY 321 328	clearly
+T21	RESULT 329 333	show
+T22	DATA-ITEM 339 359	CR-oriented features
+T23	OUTPUT 360 365	yield
+T24	QUALITY 366 375	strongest
+T25	DATA-ITEM 376 387	performance
+T26	QUALITY 388 397	exceeding
+T27	QUALITY 400 406	strong
+T28	PLAN 407 415	baseline
+T29	PROCESS 420 427	address
+T30	PLAN 432 439	problem
+T32	APPLY-TO 460 468	applying
+T33	PLAN 469 498	heuristic labeling techniques
+T34	APPLY-TO 500 506	guided
+T35	QUALITY 514 530	anaphoric nature
+T36	PLAN-OR-PROCESS 538 548	phenomenon
+T37	PROCESS 553 560	achieve
+T38	QUALITY 573 596	beyond state-of-the art
+T39	DATA-ITEM 561 572	performance
+R4	Attribute Arg1:T21 Arg2:T20	
+R5	Attribute Arg1:T25 Arg2:T24	
+R6	Attribute Arg1:T28 Arg2:T27	
+R7	In_Out Arg1:T4 Arg2:T5	
+T7	PLAN 111 118	problem
+R3	Is-a Arg1:T4 Arg2:T7	
+R9	Attribute Arg1:T7 Arg2:T6	
+R8	Condition Arg1:T7 Arg2:T8	
+T9	QUALITY 144 150	Unlike
+R10	Is-a Arg1:T2 Arg2:T3	
+R11	Output Arg1:T12 Arg2:T10	
+R12	Apply-to Arg1:T11 Arg2:T12	
+R14	In_Out Arg1:T16 Arg2:T17	
+R15	Destination Arg1:T16 Arg2:T18	
+T40	QUALITY 443 456	data sparsity
+R17	Is-a Arg1:T40 Arg2:T30	
+R18	from Arg1:T32 Arg2:T33	
+R19	to Arg1:T32 Arg2:T29	
+R22	Attribute Arg1:T36 Arg2:T35	
+R24	from Arg1:T34 Arg2:T35	
+R23	to Arg1:T34 Arg2:T29	
+R25	Compare Arg1:T10 Arg2:T9	
+R26	from Arg1:T23 Arg2:T22	
+R27	to Arg1:T23 Arg2:T25	
+T41	PERSON 305 308	Our
+R16	Poss Arg1:T41 Arg2:T19	
+R30	from Arg1:T21 Arg2:T19	
+R31	to Arg1:T21 Arg2:T23	
+R29	Attribute Arg1:T25 Arg2:T26	
+R28	Compare Arg1:T28 Arg2:T26	
+R33	Target Arg1:T29 Arg2:T30	
+T1	PERSON 179 181	we
+T13	PROCESS 182 186	cast
+T31	PERSON 417 419	We
+T42	PERSON 550 552	We
+R32	Agent Arg1:T13 Arg2:T1	
+R34	Agent Arg1:T29 Arg2:T31	
+R35	Agent Arg1:T16 Arg2:T1	
+R36	Agent Arg1:T37 Arg2:T42	
+R21	Attribute Arg1:T38 Arg2:T39	
+R20	Other-rel Arg1:T37 Arg2:T39	
+R37	Destination Arg1:T13 Arg2:T14	
+R38	Output Arg1:T13 Arg2:T15	

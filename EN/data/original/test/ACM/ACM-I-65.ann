@@ -1,0 +1,147 @@
+T1	PLAN 0 16	Graphical Models
+T2	PLAN 21 37	Online Solutions
+T3	PLAN 41 59	Interactive POMDPs
+T4	PROCESS 63 70	develop
+T5	PLAN 77 101	graphical representation
+T6	QUALITY 73 76	new
+T7	PLAN 106 164	interactive partially observable Markov decision processes
+T8	PLAN 166 174	I-POMDPs
+R1	Equivalence Arg1:T8 Arg2:T7	
+T9	QUALITY 184 202	significantly more
+T10	QUALITY 203 214	transparent
+T11	QUALITY 219 237	semantically clear
+T12	TIME 247 255	previous
+T13	PLAN 256 270	representation
+T14	PLAN 272 294	These graphical models
+T15	PLAN 302 340	interactive dynamic influence diagrams
+T16	PLAN 342 348	I-DIDs
+R2	Equivalence Arg1:T16 Arg2:T15	
+T17	PROCESS 295 301	called
+T18	PROCESS 350 354	seek
+T19	PROCESS 369 374	model
+T20	QUALITY 358 368	explicitly
+T21	DATA-ITEM 379 388	structure
+T22	COMPONENT-OBJECT 403 410	present
+T23	QUALITY 397 402	often
+T24	PLAN 425 433	problems
+T25	PROCESS 437 448	decomposing
+T26	THING 453 462	situation
+T27	DATA-ITEM 468 474;488 497	chance variables
+T28	DATA-ITEM 479 497	decision variables
+T29	DATA-ITEM 507 519	dependencies
+T30	DATA-ITEM 532 541	variables
+T31	PLAN 543 549	I-DIDs
+T32	PROCESS 550 560	generalize
+T33	PLAN 561 565	DIDs
+T34	MODALITY 573 576	may
+T35	PROCESS 580 586	viewed
+T36	PLAN 590 615	graphical representations
+T37	PLAN 619 625	POMDPs
+T38	PLAN 630 649	multiagent settings
+T39	PLAN 662 665	way
+T40	QUALITY 657 661	same
+T41	PLAN 671 679	I-POMDPs
+T42	PROCESS 680 690	generalize
+T43	PLAN 691 697	POMDPs
+T44	PLAN 699 705	I-DIDs
+T45	MODALITY 706 709	may
+T46	APPLY-TO 713 717	used
+T47	PROCESS 721 728	compute
+T48	PLAN 733 739	policy
+T49	INTELLIGENT-AGENT 746 751	agent
+T50	QUALITY 752 758	online
+T51	INTELLIGENT-AGENT 766 771	agent
+T52	PROCESS 772 776	acts
+T53	PROCESS 781 789	observes
+T54	PLAN 795 802	setting
+T55	PROCESS 811 820	populated
+T56	PERSON 830 848	interacting agents
+T59	PLAN 886 892	I-DIDs
+T60	MODALITY 893 896	may
+T61	PROCESS 900 907	applied
+T62	QUALITY 930 940	usefulness
+R3	Attribute Arg1:T10 Arg2:T9	
+R4	Attribute Arg1:T5 Arg2:T6	
+T63	PERSON 139 145	Markov
+T64	REFERENCE 176 180	that
+R5	Coreference Arg1:T64 Arg2:T5	
+R6	Attribute Arg1:T64 Arg2:T10	
+R7	Attribute Arg1:T64 Arg2:T11	
+R8	Attribute Arg1:T13 Arg2:T12	
+R11	Attribute Arg1:T19 Arg2:T20	
+R12	Attribute Arg1:T22 Arg2:T23	
+R13	Attribute Arg1:T35 Arg2:T34	
+R14	Attribute Arg1:T39 Arg2:T40	
+R15	Attribute Arg1:T46 Arg2:T45	
+R16	Attribute Arg1:T47 Arg2:T50	
+R18	Attribute Arg1:T61 Arg2:T60	
+T65	REFERENCE 924 929	their
+R19	Coreference Arg1:T65 Arg2:T59	
+R20	Attribute Arg1:T11 Arg2:T9	
+T66	REFERENCE 567 572	which
+R21	Coreference Arg1:T66 Arg2:T33	
+R22	Coreference Arg1:T14 Arg2:T5	
+T67	REFERENCE 666 670	that
+R23	Coreference Arg1:T67 Arg2:T39	
+T68	REFERENCE 803 807	that
+R24	Coreference Arg1:T68 Arg2:T54	
+T70	REFERENCE 389 393	that
+R25	Coreference Arg1:T70 Arg2:T21	
+R26	Attribute Arg1:T65 Arg2:T62	
+T72	QUALITY 414 424	real-world
+R27	Attribute Arg1:T24 Arg2:T72	
+R17	Apply-to Arg1:T1 Arg2:T2	
+R28	Target Arg1:T2 Arg2:T3	
+R29	Output Arg1:T4 Arg2:T5	
+R30	Apply-to Arg1:T5 Arg2:T7	
+T58	COMPARE 238 242	than
+R9	from Arg1:T58 Arg2:T13	
+R31	to Arg1:T58 Arg2:T9	
+R10	Is-a Arg1:T14 Arg2:T15	
+R32	Input Arg1:T17 Arg2:T14	
+R33	Output Arg1:T17 Arg2:T15	
+R34	Apply-to Arg1:T14 Arg2:T18	
+R35	Output Arg1:T19 Arg2:T21	
+R36	Apply-to Arg1:T18 Arg2:T19	
+R37	from Arg1:T22 Arg2:T21	
+R38	to Arg1:T22 Arg2:T24	
+R39	Input Arg1:T25 Arg2:T26	
+R40	Apply-to Arg1:T25 Arg2:T19	
+R41	Output Arg1:T25 Arg2:T28	
+R42	Output Arg1:T25 Arg2:T27	
+R43	Condition Arg1:T29 Arg2:T30	
+R44	Output Arg1:T25 Arg2:T29	
+R45	Apply-to Arg1:T31 Arg2:T32	
+R46	Input Arg1:T32 Arg2:T33	
+R47	Target Arg1:T35 Arg2:T66	
+R48	Is-a Arg1:T66 Arg2:T36	
+R49	Attribute Arg1:T37 Arg2:T36	
+R50	Apply-to Arg1:T41 Arg2:T42	
+R51	In_Out Arg1:T42 Arg2:T43	
+R52	Apply-to Arg1:T39 Arg2:T42	
+R53	Output Arg1:T32 Arg2:T38	
+R54	Apply-to Arg1:T39 Arg2:T32	
+R55	from Arg1:T46 Arg2:T44	
+R56	to Arg1:T46 Arg2:T47	
+R57	In_Out Arg1:T47 Arg2:T48	
+R58	Attribute Arg1:T49 Arg2:T48	
+R59	Agent Arg1:T52 Arg2:T51	
+R60	Agent Arg1:T53 Arg2:T51	
+R61	Condition Arg1:T52 Arg2:T54	
+R62	Condition Arg1:T53 Arg2:T54	
+R63	Agent Arg1:T55 Arg2:T56	
+R64	Output Arg1:T55 Arg2:T54	
+R65	Apply-to Arg1:T59 Arg2:T61	
+T57	PERSON 60 62	We
+T69	PERSON 874 876	we
+T71	PROCESS 877 881	show
+T73	PLAN 864 872	examples
+T74	QUANTITY 856 863	several
+R66	Attribute Arg1:T73 Arg2:T74	
+R67	Output Arg1:T71 Arg2:T61	
+R68	Agent Arg1:T71 Arg2:T69	
+R69	Apply-to Arg1:T73 Arg2:T71	
+R70	Agent Arg1:T4 Arg2:T57	
+T75	PROCESS 912 923	demonstrate
+R71	Agent Arg1:T75 Arg2:T69	
+R72	Output Arg1:T75 Arg2:T62	

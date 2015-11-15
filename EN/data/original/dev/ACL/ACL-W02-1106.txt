@@ -1,0 +1,9 @@
+Translating Lexical Semantic Relations : The First Step Towards Multilingual Wordnets .
+Establishing correspondences between wordnets of different languages is essential to both multilingual knowledge processing and for bootstrapping wordnets of low-density languages .
+We claim that such correspondences must be based on lexical semantic relations , rather than top ontology or word translations .
+In particular , we define a translation equivalence relation as a bilingual lexical semantic relation .
+Such relations can then be part of a logical entailment predicting whether source language semantic relations will hold in a target language or not .
+Our claim is tested with a study of 210 Chinese lexical lemmas and their possible semantic relations links bootstrapped from the Princeton WordNet .
+The results show that lexical semantic relation translations are indeed highly precise when they are logically inferable .
+
+

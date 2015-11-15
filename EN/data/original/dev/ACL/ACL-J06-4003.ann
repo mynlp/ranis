@@ -1,0 +1,192 @@
+T1	PLAN 0 53	Unsupervised Multilingual Sentence Boundary Detection
+T2	REFERENCE 58 70	this article
+T3	PERSON 72 74	we
+T4	PROCESS 75 82	present
+T5	QUALITY 85 105	language-independent
+T6	PLAN 107 128	unsupervised approach
+T7	PROCESS 132 159	sentence boundary detection
+T9	APPLY-TO 167 175	based on
+T10	PLAN 180 190	assumption
+T11	QUANTITY 198 210	large number
+T12	DATA-ITEM 214 225	ambiguities
+T13	PLAN-OR-PROCESS 233 246	determination
+T14	DATA-ITEM 250 269	sentence boundaries
+T15	MODALITY 270 273	can
+T16	PROCESS 277 287	eliminated
+T17	DATA-ITEM 293 306	abbreviations
+T18	PROCESS 317 327	identified
+T19	MODALITY 329 336	Instead
+T20	PROCESS 340 347	relying
+T21	DATA-ITEM 351 369	orthographic clues
+T22	PLAN 375 390	proposed system
+T23	MODALITY 394 398	able
+T24	PROCESS 402 408	detect
+T25	DATA-ITEM 409 422	abbreviations
+T26	QUALITY 428 441	high accuracy
+T27	APPLY-TO 442 447	using
+T28	QUANTITY 448 453	three
+T29	PLAN 454 462	criteria
+T30	REFERENCE 463 467	that
+T31	QUALITY 473 480	require
+T32	DATA-ITEM 481 492	information
+T33	DATA-ITEM 503 517	candidate type
+T34	REFERENCE 518 524	itself
+T35	QUALITY 533 544	independent
+T36	DATA-ITEM 548 555	context
+T37	DATA-ITEM 557 570	Abbreviations
+T38	MODALITY 571 574	can
+T39	PROCESS 578 585	defined
+T40	QUALITY 591 601	very tight
+T41	DATA-ITEM 602 613	collocation
+T42	DATA-ITEM 630 644	truncated word
+T43	DATA-ITEM 651 663	final period
+T44	DATA-ITEM 665 678	abbreviations
+T45	QUALITY 683 696	usually short
+T46	DATA-ITEM 702 715	abbreviations
+T47	COMPONENT-OBJECT 726 733	contain
+T48	DATA-ITEM 734 750	internal periods
+T49	PERSON 752 754	We
+T50	PROCESS 760 764	show
+T51	QUALITY 769 778	potential
+T52	DATA-ITEM 782 804	collocational evidence
+T53	QUANTITY 809 812	two
+T54	QUALITY 813 818	other
+T55	QUALITY 819 828	important
+T56	PLAN-OR-PROCESS 829 837	subtasks
+T57	PLAN-OR-PROCESS 841 873	sentence boundary disambiguation
+T58	PLAN-OR-PROCESS 887 896	detection
+T59	DATA-ITEM 900 908	initials
+T60	DATA-ITEM 913 928	ordinal numbers
+T61	PLAN 934 949	proposed system
+T62	PROCESS 959 965	tested
+T63	QUALITY 966 977	extensively
+T64	QUANTITY 981 987	eleven
+T65	QUALITY 988 997	different
+T66	LANGUAGE 998 1007	languages
+T67	QUALITY 1015 1024	different
+T68	DOMAIN 1025 1036	text genres
+T69	REFERENCE 1038 1040	It
+T70	RESULT 1041 1049	achieves
+T71	QUALITY 1050 1054	good
+T72	DATA-ITEM 1055 1062	results
+T73	MODALITY 1063 1070	without
+T74	QUALITY 1075 1082	further
+T75	PROCESS 1083 1093	amendments
+T76	DATA-ITEM 1097 1124	language-specific resources
+T77	PERSON 1126 1128	We
+T78	PROCESS 1129 1137	evaluate
+T79	REFERENCE 1138 1141	its
+T80	DATA-ITEM 1142 1153	performance
+T81	QUANTITY 1162 1167	three
+T82	QUALITY 1168 1177	different
+T83	PLAN 1178 1187	baselines
+T84	PROCESS 1192 1199	compare
+T85	REFERENCE 1200 1202	it
+T86	QUALITY 1206 1211	other
+T87	PLAN 1212 1219	systems
+T88	PLAN-OR-PROCESS 1224 1251	sentence boundary detection
+T89	PROCESS 1252 1260	proposed
+T90	EXTERNAL-REFERENCE 1268 1278	literature
+A1	Self T2
+A2	Self T3
+A3	Intentional T4
+R1	Condition Arg1:T4 Arg2:T2	
+R2	Agent Arg1:T4 Arg2:T3	
+R3	Attribute Arg1:T6 Arg2:T5	
+R4	Output Arg1:T4 Arg2:T6	
+R5	Apply-to Arg1:T6 Arg2:T7	
+R6	Attribute Arg1:T12 Arg2:T11	
+R7	In_Out Arg1:T13 Arg2:T14	
+R8	Attribute Arg1:T13 Arg2:T12	
+R9	Attribute Arg1:T16 Arg2:T15	
+R10	Output Arg1:T16 Arg2:T12	
+R11	Output Arg1:T18 Arg2:T17	
+R12	Result Arg1:T18 Arg2:T16	
+T8	REFERENCE 161 163	It
+R13	Coreference Arg1:T8 Arg2:T6	
+R14	from Arg1:T9 Arg2:T10	
+R15	to Arg1:T9 Arg2:T8	
+R16	Target Arg1:T20 Arg2:T21	
+R17	Attribute Arg1:T20 Arg2:T19	
+R18	Attribute Arg1:T24 Arg2:T23	
+R19	Apply-to Arg1:T22 Arg2:T24	
+R20	Coreference Arg1:T22 Arg2:T8	
+R21	In_Out Arg1:T24 Arg2:T25	
+R22	Attribute Arg1:T24 Arg2:T26	
+R23	Attribute Arg1:T29 Arg2:T28	
+R24	from Arg1:T27 Arg2:T29	
+R25	to Arg1:T27 Arg2:T24	
+R26	Coreference Arg1:T30 Arg2:T29	
+T91	QUALITY 468 472	only
+R28	Attribute Arg1:T32 Arg2:T31	
+R29	Condition Arg1:T31 Arg2:T30	
+R30	Condition Arg1:T32 Arg2:T33	
+R32	Attribute Arg1:T30 Arg2:T35	
+R33	Condition Arg1:T35 Arg2:T36	
+R34	Attribute Arg1:T39 Arg2:T38	
+R35	Output Arg1:T39 Arg2:T37	
+T92	COMPONENT-OBJECT 614 624	consisting
+R36	Attribute Arg1:T41 Arg2:T40	
+R37	to Arg1:T92 Arg2:T41	
+R38	from Arg1:T92 Arg2:T42	
+R39	Is-a Arg1:T37 Arg2:T41	
+R40	from Arg1:T92 Arg2:T43	
+R41	Attribute Arg1:T44 Arg2:T45	
+T93	QUALITY 716 725	sometimes
+R42	from Arg1:T47 Arg2:T48	
+R43	to Arg1:T47 Arg2:T46	
+R44	Attribute Arg1:T47 Arg2:T93	
+A4	Self T49
+A5	Intentional T50
+R45	Agent Arg1:T50 Arg2:T49	
+R46	Attribute Arg1:T52 Arg2:T51	
+R47	Attribute Arg1:T56 Arg2:T55	
+R48	Attribute Arg1:T56 Arg2:T54	
+R49	Attribute Arg1:T56 Arg2:T53	
+R50	Is-a Arg1:T57 Arg2:T56	
+R51	Output Arg1:T50 Arg2:T52	
+R52	In_Out Arg1:T58 Arg2:T59	
+R53	In_Out Arg1:T58 Arg2:T60	
+R54	Is-a Arg1:T58 Arg2:T57	
+R55	Input Arg1:T56 Arg2:T52	
+R56	Coreference Arg1:T61 Arg2:T22	
+R57	Attribute Arg1:T62 Arg2:T63	
+R58	Input Arg1:T62 Arg2:T61	
+R59	Attribute Arg1:T66 Arg2:T65	
+R60	Attribute Arg1:T66 Arg2:T64	
+R61	Attribute Arg1:T68 Arg2:T67	
+R64	Coreference Arg1:T69 Arg2:T61	
+R65	Attribute Arg1:T79 Arg2:T80	
+R66	from Arg1:T70 Arg2:T69	
+R67	to Arg1:T70 Arg2:T71	
+R68	Attribute Arg1:T72 Arg2:T71	
+R69	Attribute Arg1:T75 Arg2:T74	
+R70	Attribute Arg1:T76 Arg2:T74	
+R71	Attribute Arg1:T74 Arg2:T73	
+R72	Condition Arg1:T72 Arg2:T75	
+R73	Condition Arg1:T72 Arg2:T76	
+A6	Self T77
+A7	Intentional T78
+R74	Agent Arg1:T78 Arg2:T77	
+R75	In_Out Arg1:T78 Arg2:T80	
+R76	Attribute Arg1:T83 Arg2:T82	
+R77	Attribute Arg1:T83 Arg2:T81	
+R78	Agent Arg1:T84 Arg2:T77	
+A8	Intentional T84
+R79	Coreference Arg1:T79 Arg2:T69	
+R80	Coreference Arg1:T85 Arg2:T80	
+R81	Input Arg1:T84 Arg2:T85	
+R82	Attribute Arg1:T87 Arg2:T86	
+R83	Input Arg1:T84 Arg2:T87	
+R84	Apply-to Arg1:T87 Arg2:T88	
+R85	Output Arg1:T89 Arg2:T87	
+R86	Condition Arg1:T89 Arg2:T90	
+R31	Coreference Arg1:T34 Arg2:T32	
+R62	Condition Arg1:T62 Arg2:T66	
+R63	Condition Arg1:T62 Arg2:T68	
+A9	Judgment T71
+T94	COMPARE 1154 1161	against
+R88	from Arg1:T94 Arg2:T83	
+R89	to Arg1:T94 Arg2:T80	
+A10	Judgment T55
+R27	Attribute Arg1:T32 Arg2:T91	

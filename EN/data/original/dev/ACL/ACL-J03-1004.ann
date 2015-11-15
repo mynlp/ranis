@@ -1,0 +1,119 @@
+T2	PROCESS 250 259	combining
+T3	PROCESS 330 337	treated
+T4	CONDITION 437 446	regarding
+T7	PROCESS 605 615	predicting
+T9	INPUT 673 678	using
+T10	PLAN-OR-PROCESS 785 796	determining
+T12	QUALITY 499 519	entirely data-driven
+T14	QUALITY 890 899	different
+T15	QUANTITY 260 268	multiple
+T16	QUANTITY 408 416	multiple
+T17	PLAN 2 27	Machine Learning Approach
+T18	DATA-ITEM 40 57	Scope Preferences
+T19	PLAN-OR-PROCESS 84 110	corpus-based investigation
+T20	DATA-ITEM 114 142	quantifier scope preferences
+T22	PLAN 169 200	multimodular grammar frameworks
+T23	DOMAIN 204 227	theoretical linguistics
+T25	DATA-ITEM 269 288	information sources
+T26	PLAN-OR-PROCESS 292 319	natural language processing
+T27	PLAN 321 326	scope
+T28	PLAN 352 358	module
+T29	PLAN 362 369	grammar
+T30	PLAN 375 381	syntax
+T31	DATA-ITEM 417 424	sources
+T32	DATA-ITEM 428 436	evidence
+T34	DATA-ITEM 483 491	sentence
+T36	PLAN-OR-PROCESS 525 536	experiments
+T37	DATA-ITEM 576 587	performance
+T38	PLAN 595 601	models
+T40	DATA-ITEM 663 671	sentence
+T41	DATA-ITEM 720 740	syntactic annotation
+T43	PLAN 776 781	issue
+T44	DATA-ITEM 797 814	scope preferences
+T45	DOMAIN 850 873	theoretical linguistics
+T46	PLAN 900 906	models
+T47	PLAN-OR-PROCESS 914 925	interaction
+T48	DATA-ITEM 934 940	syntax
+T49	DATA-ITEM 945 961	quantifier scope
+T50	PLAN-OR-PROCESS 31 39	Modeling
+T53	QUALITY 234 246	long history
+R3	Attribute Arg1:T25 Arg2:T15	
+T54	PLAN 383 394	This module
+T55	QUALITY 343 351	distinct
+R4	Attribute Arg1:T28 Arg2:T55	
+R5	Coreference Arg1:T54 Arg2:T28	
+T56	PROCESS 395 407	incorporates
+R6	Attribute Arg1:T31 Arg2:T16	
+T57	QUALITY 451 462	most likely
+T5	DATA-ITEM 463 476	scope reading
+R7	Attribute Arg1:T5 Arg2:T57	
+T33	PROCESS 563 571	evaluate
+T35	PERSON 591 594	our
+T8	QUALITY 620 631	most likely
+T39	DATA-ITEM 632 645	scope reading
+T58	QUALITY 652 662	particular
+R8	Attribute Arg1:T40 Arg2:T58	
+T59	DATA-ITEM 679 692	Penn Treebank
+T60	DATA-ITEM 679 697	Penn Treebank data
+R10	Attribute Arg1:T46 Arg2:T14	
+R11	Attribute Arg1:T54 Arg2:T12	
+R12	Attribute Arg1:T39 Arg2:T8	
+T63	REFERENCE 816 821	which
+R13	Coreference Arg1:T63 Arg2:T43	
+T21	EXTERNAL-REFERENCE 154 165	recent work
+R1	Poss Arg1:T35 Arg2:T38	
+T13	QUALITY 826 833;839 846	largely ignored
+R9	Attribute Arg1:T63 Arg2:T13	
+R14	Input Arg1:T50 Arg2:T18	
+R15	Apply-to Arg1:T17 Arg2:T50	
+R16	Attribute Arg1:T19 Arg2:T20	
+R17	Attribute Arg1:T21 Arg2:T22	
+R18	Condition Arg1:T21 Arg2:T23	
+R2	Attribute Arg1:T2 Arg2:T53	
+R19	Input Arg1:T2 Arg2:T25	
+R20	Condition Arg1:T2 Arg2:T26	
+R21	Component-object Arg1:T28 Arg2:T29	
+R22	Condition Arg1:T28 Arg2:T30	
+R23	Input Arg1:T3 Arg2:T27	
+R24	Output Arg1:T3 Arg2:T28	
+R25	Apply-to Arg1:T54 Arg2:T56	
+R26	Input Arg1:T56 Arg2:T31	
+R27	Attribute Arg1:T31 Arg2:T32	
+R28	from Arg1:T4 Arg2:T32	
+R29	Attribute Arg1:T34 Arg2:T5	
+R30	to Arg1:T4 Arg2:T5	
+R31	Apply-to Arg1:T36 Arg2:T33	
+R32	Input Arg1:T33 Arg2:T37	
+R33	Attribute Arg1:T38 Arg2:T37	
+R34	Output Arg1:T7 Arg2:T39	
+R35	Apply-to Arg1:T38 Arg2:T7	
+R36	Input Arg1:T7 Arg2:T40	
+R37	to Arg1:T9 Arg2:T60	
+R38	from Arg1:T9 Arg2:T7	
+R39	Attribute Arg1:T60 Arg2:T41	
+R40	Output Arg1:T10 Arg2:T44	
+R41	Attribute Arg1:T43 Arg2:T10	
+R42	Condition Arg1:T13 Arg2:T45	
+R43	Input Arg1:T47 Arg2:T48	
+R44	Input Arg1:T47 Arg2:T49	
+R45	Attribute Arg1:T46 Arg2:T47	
+T24	MODALITY 712 719	without
+R46	Attribute Arg1:T41 Arg2:T24	
+T1	PERSON 742 744	We
+T6	REFERENCE 59 71	This article
+T11	PROCESS 72 81	describes
+T42	MODALITY 745 749	wish
+T51	PROCESS 753 758	focus
+T52	PROCESS 882 889	explore
+R47	Attribute Arg1:T51 Arg2:T42	
+R48	Attribute Arg1:T52 Arg2:T42	
+R49	Condition Arg1:T11 Arg2:T6	
+R50	Output Arg1:T11 Arg2:T19	
+R51	Agent Arg1:T51 Arg2:T1	
+T61	THING 759 768	attention
+R52	Output Arg1:T51 Arg2:T61	
+R53	Target Arg1:T51 Arg2:T43	
+T62	REFERENCE 550 562	this article
+T64	PROCESS 537 546	discussed
+R54	Condition Arg1:T64 Arg2:T62	
+R55	Output Arg1:T64 Arg2:T36	

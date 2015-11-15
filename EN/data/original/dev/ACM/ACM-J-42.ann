@@ -1,0 +1,110 @@
+T1	QUALITY 4 12	Dynamics
+T2	PLAN-OR-PROCESS 16 31	Viral Marketing
+T4	DATA-ITEM 60 99	person-to-person recommendation network
+T5	QUANTITY 115 124	4 million
+T6	PERSON 125 131	people
+T7	PROCESS 136 140	made
+T8	QUANTITY 141 151	16 million
+T9	DATA-ITEM 152 167	recommendations
+T10	QUANTITY 171 185	half a million
+T11	DATA-ITEM 186 194	products
+T12	MEMBER-COLLECTION 101 111	consisting
+T13	PLAN-OR-PROCESS 211 222	propagation
+T14	DATA-ITEM 226 241	recommendations
+T15	QUALITY 250 263	cascade sizes
+T16	PLAN 294 310	stochastic model
+T17	QUALITY 287 293	simple
+T19	DATA-ITEM 338 360	recommendation network
+T18	PROCESS 361 366	grows
+T20	QUALITY 385 394	effective
+T21	PERSON 427 433	sender
+T22	PERSON 438 446	receiver
+T23	DATA-ITEM 454 469	recommendations
+T24	THING 410 419	viewpoint
+T25	DATA-ITEM 488 503	recommendations
+T26	QUALITY 477 487	on average
+T27	QUALITY 512 526	very effective
+T28	MODALITY 508 511	not
+T29	PLAN-OR-PROCESS 539 548	purchases
+T30	MODALITY 556 559	not
+T31	PROCESS 560 566	spread
+T32	QUALITY 567 575	very far
+T33	PLAN 590 595	model
+T34	QUALITY 601 613	successfully
+T35	DATA-ITEM 625 632;645 655	product categories
+T36	DATA-ITEM 637 655	pricing categories
+T37	PROCESS 614 624	identifies
+T38	PLAN-OR-PROCESS 666 681	viral marketing
+T40	QUALITY 694 708	very effective
+R1	Attribute Arg1:T6 Arg2:T5	
+R2	Attribute Arg1:T9 Arg2:T8	
+R3	Attribute Arg1:T11 Arg2:T10	
+R4	Attribute Arg1:T16 Arg2:T17	
+T41	REFERENCE 395 397	it
+R5	Coreference Arg1:T41 Arg2:T19	
+R6	Attribute Arg1:T41 Arg2:T20	
+R7	Attribute Arg1:T25 Arg2:T27	
+R8	Attribute Arg1:T27 Arg2:T28	
+R9	Attribute Arg1:T31 Arg2:T30	
+R10	Condition Arg1:T31 Arg2:T32	
+R11	Attribute Arg1:T27 Arg2:T26	
+R12	Attribute Arg1:T32 Arg2:T26	
+R13	Attribute Arg1:T37 Arg2:T34	
+T39	REFERENCE 265 270	which
+R15	Coreference Arg1:T39 Arg2:T13	
+T42	REFERENCE 660 665	which
+R16	Coreference Arg1:T42 Arg2:T36	
+R17	Coreference Arg1:T42 Arg2:T35	
+T43	REFERENCE 596 600	that
+R18	Coreference Arg1:T43 Arg2:T33	
+T48	TIME 372 376	time
+T49	PROCESS 530 538	inducing
+R19	Attribute Arg1:T2 Arg2:T1	
+T50	REFERENCE 132 135	who
+R20	Coreference Arg1:T50 Arg2:T6	
+R21	Agent Arg1:T7 Arg2:T50	
+R22	Output Arg1:T7 Arg2:T9	
+R23	Destination Arg1:T7 Arg2:T11	
+R24	from Arg1:T12 Arg2:T6	
+R25	to Arg1:T12 Arg2:T4	
+T51	PROCESS 46 54	analysis
+R26	Input Arg1:T51 Arg2:T4	
+R27	In_Out Arg1:T13 Arg2:T14	
+R28	In_Out Arg1:T13 Arg2:T15	
+R29	In_Out Arg1:T18 Arg2:T19	
+R30	Condition Arg1:T18 Arg2:T48	
+R31	Attribute Arg1:T23 Arg2:T22	
+R32	Attribute Arg1:T23 Arg2:T21	
+R33	Attribute Arg1:T21 Arg2:T24	
+R34	Attribute Arg1:T22 Arg2:T24	
+R35	Condition Arg1:T20 Arg2:T24	
+R36	In_Out Arg1:T49 Arg2:T29	
+R37	Condition Arg1:T27 Arg2:T49	
+R38	In_Out Arg1:T31 Arg2:T25	
+R39	Apply-to Arg1:T43 Arg2:T37	
+R40	In_Out Arg1:T37 Arg2:T36	
+R41	In_Out Arg1:T37 Arg2:T35	
+R14	Attribute Arg1:T38 Arg2:T40	
+R42	Condition Arg1:T40 Arg2:T42	
+T52	MODALITY 682 687	seems
+R43	Attribute Arg1:T40 Arg2:T52	
+T3	PERSON 32 34	We
+T44	PROCESS 35 42	present
+T45	PERSON 196 198	We
+T46	PROCESS 199 206	observe
+T47	PERSON 312 314	We
+T53	PROCESS 320 329	establish
+T54	PERSON 577 579	we
+T55	PERSON 271 273	we
+T56	PROCESS 274 281	explain
+R44	Agent Arg1:T44 Arg2:T3	
+R45	Output Arg1:T44 Arg2:T51	
+R46	Agent Arg1:T46 Arg2:T45	
+R47	In_Out Arg1:T46 Arg2:T13	
+R48	Agent Arg1:T56 Arg2:T55	
+R49	Apply-to Arg1:T16 Arg2:T56	
+R50	Output Arg1:T56 Arg2:T39	
+R51	Agent Arg1:T53 Arg2:T47	
+T57	PROCESS 580 587	present
+R52	Agent Arg1:T57 Arg2:T54	
+R53	Output Arg1:T57 Arg2:T33	

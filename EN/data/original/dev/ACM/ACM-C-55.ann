@@ -1,0 +1,73 @@
+T1	PROCESS 100 110	supporting
+T3	APPLY-TO 240 245	using
+T4	PROCESS 272 282	facilitate
+T5	COMPONENT-OBJECT 365 373	consists
+T6	PROCESS 426 434	acquires
+T7	PROCESS 576 584	provides
+T8	PERSON 469 474	users
+T9	QUANTITY 377 380	two
+T10	PLAN 0 17	Context Awareness
+T11	PLAN 22 47	Group Interaction Support
+T12	PLAN 77 95	implemented system
+T13	PROCESS 111 128	group interaction
+T14	PLAN 132 173	mobile distributed computing environments
+T16	PLAN-OR-PROCESS 201 218	context computing
+T18	DATA-ITEM 246 268	contextual information
+T19	PROCESS 283 300	group interaction
+T20	PLAN 331 343	architecture
+T21	PLAN 351 357	system
+T22	PLAN 390 399	subsystem
+T23	PROCESS 404 420	location sensing
+T24	DATA-ITEM 435 446	information
+T25	LOCATION 457 465	location
+T26	DATA-ITEM 486 505	spatial proximities
+T27	REFERENCE 514 518	them
+T28	PLAN 536 568	actual context-aware application
+T29	PLAN-OR-PROCESS 585 593	services
+T30	PROCESS 598 615	group interaction
+T32	PLAN 381 386	parts
+R1	Attribute Arg1:T32 Arg2:T9	
+R2	Coreference Arg1:T27 Arg2:T8	
+T33	PERSON 347 350	our
+T34	REFERENCE 524 527	one
+T35	REFERENCE 359 364	which
+R3	Coreference Arg1:T35 Arg2:T21	
+T37	REFERENCE 421 425	that
+R4	Coreference Arg1:T37 Arg2:T22	
+T38	REFERENCE 570 575	which
+R5	Coreference Arg1:T38 Arg2:T28	
+R6	Poss Arg1:T33 Arg2:T21	
+R7	Apply-to Arg1:T10 Arg2:T11	
+R8	Apply-to Arg1:T12 Arg2:T1	
+R9	Target Arg1:T1 Arg2:T13	
+R10	Condition Arg1:T13 Arg2:T14	
+R11	from Arg1:T3 Arg2:T18	
+R12	to Arg1:T3 Arg2:T4	
+R13	Target Arg1:T4 Arg2:T19	
+R14	Attribute Arg1:T21 Arg2:T20	
+R15	from Arg1:T5 Arg2:T32	
+R16	to Arg1:T5 Arg2:T35	
+R17	Member-collection Arg1:T22 Arg2:T32	
+R18	Apply-to Arg1:T22 Arg2:T23	
+R19	Apply-to Arg1:T37 Arg2:T6	
+R20	In_Out Arg1:T6 Arg2:T24	
+R21	Condition Arg1:T24 Arg2:T25	
+R22	Attribute Arg1:T8 Arg2:T25	
+R24	Condition Arg1:T26 Arg2:T27	
+R26	Apply-to Arg1:T34 Arg2:T28	
+R27	Apply-to Arg1:T38 Arg2:T7	
+R28	Output Arg1:T7 Arg2:T29	
+R29	Apply-to Arg1:T7 Arg2:T30	
+R30	Member-collection Arg1:T34 Arg2:T32	
+R25	In_Out Arg1:T6 Arg2:T26	
+T2	PERSON 63 65	we
+T15	REFERENCE 51 61	this paper
+T17	PROCESS 66 73	present
+T31	PERSON 311 313	We
+T36	PROCESS 319 326	present
+T39	PLAN 225 235	motivation
+T40	PROCESS 185 197	introduction
+R23	Agent Arg1:T17 Arg2:T2	
+R31	Condition Arg1:T17 Arg2:T15	
+R32	Agent Arg1:T36 Arg2:T31	
+R33	Output Arg1:T36 Arg2:T20	

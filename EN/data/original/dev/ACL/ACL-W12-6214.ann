@@ -1,0 +1,67 @@
+T1	PROCESS 18 27	obtaining
+T2	PROCESS 203 212	obtaining
+T3	PROCESS 326 337	represented
+T4	RESULT 344 349	makes
+T5	PROCESS 458 466	provides
+T6	PLAN 2 13	methodology
+T7	DATA-ITEM 28 42	concept graphs
+T8	DATA-ITEM 48 59	word graphs
+T9	PLAN 89 100	methodology
+T10	PLAN 114 158	Stochastic Finite State Transducers paradigm
+T11	PLAN-OR-PROCESS 194 197	SLU
+T12	DATA-ITEM 213 227	concept graphs
+T13	DATA-ITEM 233 244	word graphs
+T14	DATA-ITEM 253 258	edges
+T15	DATA-ITEM 262 282	these concept graphs
+T16	DATA-ITEM 302 321	lexical information
+T17	DATA-ITEM 350 362	these graphs
+T18	DATA-ITEM 377 391	representation
+T19	DATA-ITEM 399 410	information
+T20	PLAN-OR-PROCESS 415 418	SLU
+T21	DATA-ITEM 429 433	path
+T22	DATA-ITEM 437 457	these concept graphs
+T23	DATA-ITEM 476 484	sequence
+T24	DATA-ITEM 488 496	concepts
+T26	PLAN-OR-PROCESS 163 192	Spoken Language Understanding
+R1	Equivalence Arg1:T11 Arg2:T26	
+T27	DATA-ITEM 289 297;310 321	semantic information
+T28	QUALITY 365 376	very useful
+R2	Attribute Arg1:T18 Arg2:T28	
+T29	QUALITY 424 428	best
+R3	Attribute Arg1:T21 Arg2:T29	
+T30	QUALITY 471 475	best
+R4	Attribute Arg1:T23 Arg2:T30	
+T31	APPLY-TO 101 109	based on
+R5	Coreference Arg1:T15 Arg2:T12	
+R6	Coreference Arg1:T17 Arg2:T15	
+R7	Coreference Arg1:T22 Arg2:T17	
+R8	Component-object Arg1:T14 Arg2:T15	
+R9	Member-collection Arg1:T24 Arg2:T23	
+R12	Apply-to Arg1:T9 Arg2:T26	
+R13	Output Arg1:T2 Arg2:T12	
+R14	Input Arg1:T2 Arg2:T13	
+R15	Apply-to Arg1:T26 Arg2:T2	
+R16	Apply-to Arg1:T6 Arg2:T1	
+R17	Output Arg1:T1 Arg2:T7	
+R18	Origin Arg1:T1 Arg2:T8	
+R19	Destination Arg1:T3 Arg2:T14	
+R20	In_Out Arg1:T3 Arg2:T27	
+R21	In_Out Arg1:T3 Arg2:T16	
+T32	REFERENCE 339 343	This
+R22	Coreference Arg1:T32 Arg2:T3	
+R23	Attribute Arg1:T19 Arg2:T18	
+R24	Input Arg1:T20 Arg2:T18	
+R10	from Arg1:T31 Arg2:T10	
+R11	to Arg1:T31 Arg2:T9	
+R25	from Arg1:T4 Arg2:T32	
+R28	Component-object Arg1:T21 Arg2:T22	
+R29	Input Arg1:T5 Arg2:T21	
+R30	Output Arg1:T5 Arg2:T23	
+R31	Is-a Arg1:T17 Arg2:T18	
+R26	to Arg1:T4 Arg2:T28	
+T25	REFERENCE 64 73	this work
+T33	PERSON 75 77	we
+T34	PROCESS 78 86	describe
+R27	Agent Arg1:T34 Arg2:T33	
+R32	Output Arg1:T34 Arg2:T9	
+R33	Condition Arg1:T34 Arg2:T25	

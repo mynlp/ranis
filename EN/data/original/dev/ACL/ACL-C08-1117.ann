@@ -1,0 +1,125 @@
+R1	to Arg1:T1 Arg2:T2
+R2	from Arg1:T1 Arg2:T3
+A1	Self T4
+R3	In_Out Arg1:T5 Arg2:T6
+R4	from Arg1:T7 Arg2:T8
+R5	to Arg1:T7 Arg2:T5
+A2	Intentional T60
+R6	Output Arg1:T60 Arg2:T8
+R7	Condition Arg1:T60 Arg2:T4
+R8	Output Arg1:T10 Arg2:T11
+R9	Output Arg1:T10 Arg2:T12
+R10	Apply-to Arg1:T9 Arg2:T10
+R11	Coreference Arg1:T9 Arg2:T8
+R12	In_Out Arg1:T13 Arg2:T14
+R13	Apply-to Arg1:T10 Arg2:T13
+R14	Attribute Arg1:T19 Arg2:T18
+R15	Output Arg1:T19 Arg2:T17
+R16	Output Arg1:T19 Arg2:T16
+R17	Coreference Arg1:T15 Arg2:T14
+R19	Agent Arg1:T25 Arg2:T24
+R20	Target Arg1:T23 Arg2:T25
+R21	Apply-to Arg1:T20 Arg2:T23
+R22	Input Arg1:T20 Arg2:T22
+R23	Attribute Arg1:T30 Arg2:T29
+R24	Attribute Arg1:T29 Arg2:T28
+R25	Condition Arg1:T27 Arg2:T29
+R26	Attribute Arg1:T26 Arg2:T27
+R27	Output Arg1:T25 Arg2:T26
+R28	Agent Arg1:T31 Arg2:T24
+R29	Target Arg1:T23 Arg2:T31
+R30	In_Out Arg1:T31 Arg2:T32
+R31	Attribute Arg1:T31 Arg2:T21
+R32	Attribute Arg1:T35 Arg2:T34
+R33	Attribute Arg1:T38 Arg2:T37
+R34	In_Out Arg1:T36 Arg2:T38
+R35	Coreference Arg1:T38 Arg2:T35
+R36	Target Arg1:T33 Arg2:T35
+R37	Apply-to Arg1:T33 Arg2:T36
+R40	Attribute Arg1:T40 Arg2:T39
+R41	Attribute Arg1:T42 Arg2:T41
+R42	In_Out Arg1:T42 Arg2:T39
+R43	Input Arg1:T42 Arg2:T43
+R44	Apply-to Arg1:T47 Arg2:T44
+R45	Output Arg1:T44 Arg2:T43
+R46	Attribute Arg1:T49 Arg2:T48
+R47	Destination Arg1:T50 Arg2:T51
+R48	Output Arg1:T50 Arg2:T49
+R49	Apply-to Arg1:T50 Arg2:T52
+R50	In_Out Arg1:T52 Arg2:T53
+R51	Coreference Arg1:T53 Arg2:T51
+R52	Attribute Arg1:T53 Arg2:T54
+R54	Output Arg1:T56 Arg2:T55
+R56	Input Arg1:T58 Arg2:T55
+R57	to Arg1:T45 Arg2:T15
+R58	from Arg1:T45 Arg2:T19
+R18	Apply-to Arg1:T33 Arg2:T31
+A3	Intentional T58
+A4	Intentional T56
+R38	Input Arg1:T55 Arg2:T59
+R53	Condition Arg1:T56 Arg2:T57
+A5	Name T57
+R39	Coreference Arg1:T46 Arg2:T8
+R55	Condition Arg1:T61 Arg2:T46
+R59	Is-a Arg1:T42 Arg2:T61
+T1	INPUT 0 5	Using
+T2	DATA-ITEM 6 20	Three Way Data
+T3	PLAN-OR-PROCESS 25 50	Word Sense Discrimination
+T4	REFERENCE 56 66	this paper
+T5	PLAN-OR-PROCESS 72 81	extension
+T6	PLAN 87 121	dimensionality reduction algorithm
+T7	IS-A 122 128	called
+T8	PLAN 129 161	NONNEGATIVE MATRIX FACTORIZATION
+T60	PROCESS 165 174	presented
+T9	REFERENCE 175 179	that
+T10	PROCESS 180 188	combines
+T11	DATA-ITEM 194 215	` bag of words ' data
+T12	DATA-ITEM 220 234	syntactic data
+T13	PROCESS 249 253	find
+T14	DATA-ITEM 254 273	semantic dimensions
+T45	INPUT 274 283	according
+T15	REFERENCE 287 292	which
+T16	DATA-ITEM 298 303	words
+T17	DATA-ITEM 308 327	syntactic relations
+T18	MODALITY 328 331	can
+T19	PROCESS 335 345	classified
+T20	PROCESS 352 355	use
+T22	DATA-ITEM 359 373	three way data
+T23	PROCESS 374 380	allows
+T24	PERSON 381 384	one
+T25	PROCESS 388 397	determine
+T26	DATA-ITEM 404 413	dimension
+T27	QUALITY 424 435	responsible
+T28	QUALITY 442 449	certain
+T29	DATA-ITEM 450 455	sense
+T30	DATA-ITEM 461 465	word
+T31	PROCESS 472 477	adapt
+T32	DATA-ITEM 482 510	corresponding feature vector
+T21	QUALITY 511 522	accordingly
+T33	PROCESS 527 538	subtracting
+T34	QUANTITY 541 544	one
+T35	DATA-ITEM 545 550	sense
+T36	PROCESS 554 562	discover
+T37	QUALITY 563 570	another
+T38	REFERENCE 571 574	one
+T61	PLAN-OR-PROCESS 581 590	intuition
+T46	REFERENCE 594 598	this
+T39	DATA-ITEM 611 629	syntactic features
+T40	PLAN 637 658	syntax-based approach
+T41	MODALITY 659 662	can
+T42	PROCESS 666 679	disambiguated
+T43	DATA-ITEM 687 706	semantic dimensions
+T44	PROCESS 707 712	found
+T47	PROCESS 720 741	bag of words approach
+T48	QUALITY 748 753	novel
+T49	PLAN 754 762	approach
+T50	PROCESS 766 774	embedded
+T51	PLAN 780 801	clustering algorithms
+T52	PROCESS 807 811	make
+T53	REFERENCE 812 814	it
+T54	QUALITY 815 830	fully automatic
+T55	PLAN 837 845	approach
+T56	PROCESS 849 860	carried out
+T57	LANGUAGE 865 870	Dutch
+T58	PROCESS 877 886	evaluated
+T59	DATA-ITEM 895 906	EuroWordNet

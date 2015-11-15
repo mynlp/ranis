@@ -1,0 +1,8 @@
+Automatic Indexing of Specialized Documents : Using Generic vs. Domain-Specific Document Representations .
+The shift from paper to electronic documents has caused the curation of information sources in large electronic databases to become more generalized .
+In the biomedical domain , continuing efforts aim at refining indexing tools to assist with the update and maintenance of databases such as MEDLINE (R) .
+In this paper , we evaluate two statistical methods of producing MeSH (R) indexing recommendations for the genetics literature , including recommendations involving subheadings , which is a novel application for the methods .
+We show that a generic representation of the documents yields both better precision and recall .
+We also find that a domain-specific representation of the documents can contribute to enhancing recall .
+
+

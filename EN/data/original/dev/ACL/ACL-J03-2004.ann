@@ -1,0 +1,170 @@
+T1	PROCESS 252 259	reading
+T2	EQUIVALENCE 287 292	means
+T3	PROCESS 800 808	provides
+T4	PROCESS 908 918	exploiting
+T5	PROCESS 997 1005	evaluate
+T6	QUALITY 173 182	different
+T7	QUALITY 274 278	easy
+T8	QUALITY 311 315	easy
+T9	QUALITY 521 530	typically
+T10	QUALITY 548 560	exhaustively
+T11	QUALITY 569 577	possible
+T12	QUALITY 748 753	large
+T13	QUALITY 833 841	possible
+T14	QUALITY 891 904	automatically
+T15	QUALITY 923 933	consistent
+T16	QUALITY 1140 1148	reliably
+T17	PLAN 2 23	Probabilistic Account
+T18	PLAN-OR-PROCESS 27 43	Logical Metonymy
+T19	PLAN-OR-PROCESS 76 92	logical metonymy
+T20	PLAN-OR-PROCESS 103 116	constructions
+T21	DATA-ITEM 130 138	argument
+T22	DATA-ITEM 144 148	word
+T23	DATA-ITEM 152 158	syntax
+T24	DATA-ITEM 205 217	logical form
+T25	DATA-ITEM 235 239	book
+T26	DATA-ITEM 264 268	book
+T27	PLAN 279 286	problem
+T28	PLAN 295 302	problem
+T29	QUALITY 331 351	systematic variation
+T30	PLAN-OR-PROCESS 359 373	interpretation
+T31	DATA-ITEM 382 395	constructions
+T32	PLAN 424 430	theory
+T33	PLAN-OR-PROCESS 434 445	composition
+T34	PLAN-OR-PROCESS 453 479	syntax/semantics interface
+T35	PLAN 481 500	Linguistic accounts
+T36	PLAN-OR-PROCESS 504 520	logical metonymy
+T37	DATA-ITEM 578 593	interpretations
+T38	REFERENCE 598 602	they
+T39	DATA-ITEM 614 635	those interpretations
+T41	DATA-ITEM 654 664	likelihood
+T42	DATA-ITEM 698 706	meanings
+T43	DATA-ITEM 710 725	metonymic verbs
+T44	DATA-ITEM 710 719;730 740	metonymic adjectives
+T45	DATA-ITEM 754 760	corpus
+T46	PLAN 775 794	probabilistic model
+T47	DATA-ITEM 811 818	ranking
+T48	DATA-ITEM 826 829	set
+T49	DATA-ITEM 842 857	interpretations
+T50	DATA-ITEM 875 890	interpretations
+T51	OCCURENT 934 949	correspondences
+T52	DATA-ITEM 958 980	surface syntactic cues
+T53	DATA-ITEM 985 992	meaning
+T54	DATA-ITEM 1010 1017	results
+T55	DATA-ITEM 1026 1046	paraphrase judgments
+T56	PERSON 1076 1082	humans
+T57	PLAN 1101 1106	model
+T58	DATA-ITEM 1109 1116	ranking
+T59	DATA-ITEM 1120 1128	meanings
+T60	OCCURENT 1154 1170	human intuitions
+T63	REFERENCE 120 125	which
+R2	Coreference Arg1:T63 Arg2:T20	
+T64	DATA-ITEM 188 201	that argument
+R3	Coreference Arg1:T64 Arg2:T21	
+R4	Attribute Arg1:T21 Arg2:T6	
+T65	PROCESS 225 230	enjoy
+T66	EQUIVALENCE 240 245	means
+T67	PROCESS 246 251	enjoy
+R5	Attribute Arg1:T27 Arg2:T7	
+T68	PROCESS 319 324	solve
+T69	REFERENCE 303 307	that
+R6	Coreference Arg1:T69 Arg2:T28	
+T70	PROCESS 396 404	suggests
+T71	QUALITY 407 411	rich
+T72	QUALITY 416 423	complex
+R7	Attribute Arg1:T32 Arg2:T71	
+R8	Attribute Arg1:T32 Arg2:T72	
+T74	QUALITY 531 535	fail
+R9	Attribute Arg1:T74 Arg2:T9	
+T75	PROCESS 539 547	describe
+T76	QUANTITY 561 564	all
+R11	Attribute Arg1:T37 Arg2:T76	
+R12	Attribute Arg1:T37 Arg2:T11	
+R13	Coreference Arg1:T38 Arg2:T35	
+T77	MODALITY 603 608	don't
+T78	PROCESS 609 613	rank
+R14	Attribute Arg1:T78 Arg2:T77	
+T79	REFERENCE 648 653	their
+R16	Coreference Arg1:T79 Arg2:T39	
+T40	PROCESS 686 693	acquire
+R17	Attribute Arg1:T45 Arg2:T12	
+R18	Attribute Arg1:T49 Arg2:T13	
+R20	Attribute Arg1:T51 Arg2:T15	
+T82	PROCESS 1047 1055	elicited
+T83	QUALITY 1056 1070	experimentally
+R21	Attribute Arg1:T82 Arg2:T83	
+T85	PROCESS 1129 1139	correlates
+R22	Attribute Arg1:T85 Arg2:T16	
+T86	PERSON 1154 1159	human
+R10	Attribute Arg1:T75 Arg2:T10	
+R23	Member-collection Arg1:T49 Arg2:T48	
+T88	REFERENCE 795 799	that
+R1	Coreference Arg1:T88 Arg2:T46	
+T92	PERSON 1006 1009	our
+R19	Poss Arg1:T92 Arg2:T54	
+R24	Output Arg1:T57 Arg2:T58	
+R25	Attribute Arg1:T79 Arg2:T41	
+R26	Apply-to Arg1:T17 Arg2:T18	
+R27	Is-a Arg1:T19 Arg2:T20	
+R28	Attribute Arg1:T22 Arg2:T21	
+R29	Attribute Arg1:T69 Arg2:T8	
+R30	Condition Arg1:T8 Arg2:T68	
+R31	from Arg1:T2 Arg2:T28	
+R32	to Arg1:T2 Arg2:T27	
+R33	Condition Arg1:T21 Arg2:T23	
+R34	Compare Arg1:T64 Arg2:T6	
+R35	Attribute Arg1:T64 Arg2:T24	
+R36	Target Arg1:T65 Arg2:T25	
+R37	Target Arg1:T67 Arg2:T1	
+R38	Other-rel Arg1:T1 Arg2:T26	
+R39	from Arg1:T66 Arg2:T67	
+R40	to Arg1:T66 Arg2:T65	
+R41	Input Arg1:T30 Arg2:T31	
+R42	Attribute Arg1:T30 Arg2:T29	
+R43	Attribute Arg1:T32 Arg2:T33	
+R45	Condition Arg1:T33 Arg2:T34	
+R46	Other-rel Arg1:T70 Arg2:T29	
+R47	Output Arg1:T70 Arg2:T32	
+R48	Apply-to Arg1:T35 Arg2:T36	
+R49	Input Arg1:T75 Arg2:T37	
+R50	Attribute Arg1:T75 Arg2:T74	
+R51	Apply-to Arg1:T35 Arg2:T75	
+R52	Apply-to Arg1:T38 Arg2:T78	
+R53	In_Out Arg1:T78 Arg2:T39	
+R15	Coreference Arg1:T39 Arg2:T37	
+R54	In_Out Arg1:T40 Arg2:T42	
+R55	Attribute Arg1:T44 Arg2:T42	
+R56	Attribute Arg1:T43 Arg2:T42	
+R57	Origin Arg1:T40 Arg2:T45	
+R58	Apply-to Arg1:T88 Arg2:T3	
+R59	Output Arg1:T3 Arg2:T47	
+R60	Input Arg1:T3 Arg2:T48	
+T87	PROCESS 862 870	identify
+R61	Attribute Arg1:T87 Arg2:T14	
+R62	Output Arg1:T87 Arg2:T50	
+R63	Apply-to Arg1:T4 Arg2:T87	
+R64	Input Arg1:T4 Arg2:T51	
+R65	Attribute Arg1:T51 Arg2:T52	
+R66	Attribute Arg1:T51 Arg2:T53	
+R67	Input Arg1:T5 Arg2:T54	
+R68	Input Arg1:T5 Arg2:T55	
+R69	Origin Arg1:T82 Arg2:T56	
+R70	Output Arg1:T82 Arg2:T55	
+R71	Attribute Arg1:T58 Arg2:T59	
+R72	Input Arg1:T85 Arg2:T60	
+R44	Input Arg1:T85 Arg2:T58	
+T61	REFERENCE 48 60	this article
+T62	PERSON 61 63	we
+T73	PROCESS 64 75	investigate
+T80	PERSON 683 685	we
+T81	PERSON 859 861	We
+T84	PERSON 994 996	We
+T89	PROCESS 1087 1091	show
+R73	Output Arg1:T89 Arg2:T57	
+R74	Agent Arg1:T89 Arg2:T84	
+R75	Agent Arg1:T5 Arg2:T84	
+R76	Agent Arg1:T87 Arg2:T81	
+R77	Agent Arg1:T40 Arg2:T80	
+R78	Agent Arg1:T73 Arg2:T62	
+R79	Condition Arg1:T73 Arg2:T61	
+R80	In_Out Arg1:T73 Arg2:T19	

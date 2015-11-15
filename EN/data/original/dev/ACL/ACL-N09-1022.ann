@@ -1,0 +1,125 @@
+T1	PLAN-OR-PROCESS 0 25	Japanese Query Alteration
+T2	LANGUAGE 0 8	Japanese
+T3	DATA-ITEM 35 54	Semantic Similarity
+T4	PLAN 69 85	unified approach
+T5	PLAN-OR-PROCESS 89 117	web search query alterations
+T6	LANGUAGE 121 129	Japanese
+T7	MODALITY 138 141	not
+T8	PROCESS 142 149	limited
+T9	DATA-ITEM 164 179	character types
+T10	QUALITY 153 163	particular
+T11	DATA-ITEM 183 206	orthographic similarity
+T12	DATA-ITEM 217 222	query
+T13	DATA-ITEM 231 251	alteration candidate
+T14	PLAN 257 262	model
+T15	EXTERNAL-REFERENCE 275 288	previous work
+T17	LANGUAGE 292 299	English
+T18	PLAN 292 316	English query correction
+T19	QUALITY 341 353	improvements
+T20	QUALITY 333 340	crucial
+T21	RESULT 322 327	makes
+T22	QUANTITY 328 332	some
+T23	DATA-ITEM 374 394	query-candidate list
+T24	PROCESS 362 369	augment
+T25	PROCESS 398 405	include
+T26	DATA-ITEM 459 464	pairs
+T27	QUALITY 438 458	semantically similar
+T28	QUALITY 406 433	orthographically dissimilar
+T29	DATA-ITEM 481 521	kernel-based lexical semantic similarity
+T30	PROCESS 477 480	use
+T31	PROCESS 525 530	avoid
+T32	PLAN 535 542	problem
+T33	QUALITY 546 561	data sparseness
+T34	PROCESS 565 574	computing
+T35	DATA-ITEM 575 601	query candidate similarity
+T36	QUALITY 622 631	efficient
+T37	PLAN 632 638	method
+T38	PROCESS 643 653	generating
+T39	DATA-ITEM 654 675	query-candidate pairs
+T40	PLAN-OR-PROCESS 680 694	model training
+T41	PLAN-OR-PROCESS 680 685;699 706	model testing
+T42	PLAN 725 740	proposed method
+T43	RESULT 741 749	achieves
+T44	QUANTITY 750 759	about 80%
+T45	DATA-ITEM 760 768	accuracy
+T46	PLAN 776 798	query alteration task,
+T47	JUDGING-PROCESS 799 808	improving
+T48	PLAN 834 841	methods
+T49	QUALITY 814 833	previously proposed
+T50	PROCESS 847 850	use
+T51	DATA-ITEM 851 870	semantic similarity
+R1	Attribute Arg1:T19 Arg2:T20	
+R2	Attribute Arg1:T26 Arg2:T28	
+R3	Attribute Arg1:T26 Arg2:T27	
+R4	Attribute Arg1:T37 Arg2:T36	
+R5	Attribute Arg1:T45 Arg2:T44	
+R6	Attribute Arg1:T9 Arg2:T10	
+R7	Attribute Arg1:T8 Arg2:T7	
+R9	Attribute Arg1:T48 Arg2:T49	
+R12	Other-rel Arg1:T15 Arg2:T18	
+T52	INPUT 26 34	Based on
+R13	from Arg1:T52 Arg2:T1	
+R14	to Arg1:T52 Arg2:T3	
+T53	APPLY-TO 266 274	based on
+R15	from Arg1:T53 Arg2:T15	
+R16	to Arg1:T53 Arg2:T14	
+R17	Attribute Arg1:T19 Arg2:T22	
+T54	REFERENCE 227 230	its
+R18	Coreference Arg1:T54 Arg2:T12	
+T16	REFERENCE 130 134	that
+R8	Coreference Arg1:T16 Arg2:T4	
+T58	REFERENCE 842 846	that
+R19	Coreference Arg1:T58 Arg2:T48	
+T59	PERSON 253 256	Our
+R20	Poss Arg1:T59 Arg2:T14	
+R21	Poss Arg1:T54 Arg2:T13	
+T60	TIME 814 824	previously
+R22	Apply-to Arg1:T4 Arg2:T5	
+R23	Other-rel Arg1:T5 Arg2:T6	
+R24	Destination Arg1:T8 Arg2:T9	
+R25	Destination Arg1:T8 Arg2:T11	
+R26	Output Arg1:T8 Arg2:T16	
+R27	Attribute Arg1:T12 Arg2:T11	
+R28	Attribute Arg1:T13 Arg2:T11	
+R29	from Arg1:T21 Arg2:T14	
+R30	to Arg1:T21 Arg2:T19	
+R31	In_Out Arg1:T24 Arg2:T23	
+R32	Destination Arg1:T25 Arg2:T23	
+R33	Output Arg1:T25 Arg2:T26	
+R35	Target Arg1:T31 Arg2:T32	
+R36	Input Arg1:T30 Arg2:T29	
+R37	Apply-to Arg1:T30 Arg2:T31	
+R38	Output Arg1:T34 Arg2:T35	
+R39	Condition Arg1:T32 Arg2:T34	
+R40	Apply-to Arg1:T37 Arg2:T38	
+R41	Output Arg1:T38 Arg2:T39	
+R42	Input Arg1:T40 Arg2:T39	
+R43	Input Arg1:T41 Arg2:T39	
+R44	from Arg1:T43 Arg2:T42	
+R45	to Arg1:T43 Arg2:T44	
+R46	Attribute Arg1:T42 Arg2:T45	
+R47	Apply-to Arg1:T42 Arg2:T46	
+R10	Apply-to Arg1:T42 Arg2:T47	
+T61	COMPARE 809 813	over
+R11	from Arg1:T61 Arg2:T48	
+R48	to Arg1:T61 Arg2:T47	
+R49	Apply-to Arg1:T58 Arg2:T50	
+R50	Input Arg1:T50 Arg2:T51	
+R34	Attribute Arg1:T32 Arg2:T33	
+T55	PERSON 56 58	We
+T56	PROCESS 59 66	propose
+T57	PERSON 359 361	we
+T62	PERSON 474 476	we
+T63	PERSON 603 605	We
+T64	PROCESS 611 618	propose
+T65	PERSON 708 710	We
+T66	PROCESS 711 715	show
+R51	Agent Arg1:T56 Arg2:T55	
+R52	Output Arg1:T56 Arg2:T4	
+R53	Agent Arg1:T64 Arg2:T63	
+R54	Output Arg1:T64 Arg2:T37	
+R55	Agent Arg1:T66 Arg2:T65	
+R56	Output Arg1:T66 Arg2:T43	
+R57	Output Arg1:T66 Arg2:T47	
+R58	Agent Arg1:T30 Arg2:T62	
+R59	Agent Arg1:T24 Arg2:T57	

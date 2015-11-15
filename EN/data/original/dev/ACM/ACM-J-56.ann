@@ -1,0 +1,302 @@
+T1	QUALITY 0 6	Robust
+T2	PLAN 7 16	Solutions
+T3	PLAN-OR-PROCESS 21 43	Combinatorial Auctions
+T4	PLAN 44 48	Bids
+T5	PROCESS 49 58	submitted
+T6	PLAN-OR-PROCESS 62 70	auctions
+T7	QUALITY 75 82	usually
+T8	PROCESS 83 90	treated
+T9	PLAN 94 117	enforceable commitments
+T10	EXTERNAL-REFERENCE 138 163	auction theory literature
+T12	QUALITY 121 125	most
+T13	PERSON 176 183	bidders
+T14	QUALITY 184 189	often
+T15	PROCESS 190 198	withdraw
+T16	DATA-ITEM 199 211	winning bids
+T17	PLAN-OR-PROCESS 223 234	transaction
+T18	REFERENCE 273 278	do so
+T20	QUALITY 165 175	In reality
+T21	PROCESS 288 302	bid withdrawal
+T22	PROCESS 280 285	Given
+T23	PLAN-OR-PROCESS 308 329	combinatorial auction
+T24	DATA-ITEM 354 369	repair solution
+T25	QUALITY 342 353	alternative
+T26	QUALITY 373 381	adequate
+T27	DATA-ITEM 382 389	revenue
+T28	PROCESS 398 405	causing
+T29	QUALITY 406 411	undue
+T30	QUALITY 412 423	disturbance
+T31	MODALITY 390 397	without
+T32	DATA-ITEM 441 453	winning bids
+T33	QUALITY 431 440	remaining
+T34	DATA-ITEM 461 478	original solution
+T35	MODALITY 479 482	may
+T36	QUALITY 486 495	difficult
+T37	QUALITY 504 514	impossible
+T38	PROCESS 331 338	finding
+T39	PLAN 540 568	Bid-taker's Exposure Problem
+T40	PROCESS 524 530	called
+T42	PERSON 602 609	bidders
+T43	QUALITY 591 601	unreliable
+T44	QUALITY 617 627	preferable
+T45	PERSON 636 645	bid-taker
+T46	PROCESS 649 656	preempt
+T47	QUALITY 662 673	uncertainty
+T48	PROCESS 677 683	having
+T49	DATA-ITEM 686 694	solution
+T50	QUALITY 703 709	robust
+T51	PLAN-OR-PROCESS 713 727	bid withdrawal
+T52	PROCESS 732 740	provides
+T53	PLAN 743 752	guarantee
+T54	PLAN-OR-PROCESS 767 778	withdrawals
+T55	QUALITY 758 766	possible
+T56	MODALITY 779 782	may
+T57	PROCESS 786 794	repaired
+T58	QUALITY 795 801	easily
+T59	DATA-ITEM 817 821	loss
+T60	DATA-ITEM 825 832	revenue
+T61	PLAN 863 871	approach
+T62	PROCESS 875 885	addressing
+T63	PLAN 890 917	Bidtaker's Exposure Problem
+T64	PLAN 939 973	Weighted Super Solutions framework
+T66	PLAN 998 1020	constraint programming
+T67	PROCESS 1025 1030	solve
+T68	PLAN 1035 1042	problem
+T69	PROCESS 1046 1053	finding
+T70	QUALITY 1056 1062	robust
+T71	DATA-ITEM 1063 1071	solution
+T72	PROCESS 1099 1109	guarantees
+T73	PLAN 1075 1098	weighted super solution
+T74	DATA-ITEM 1129 1133	bids
+T75	PROCESS 1147 1156	withdrawn
+T76	MODALITY 1134 1140	likely
+T77	MODALITY 1157 1160	can
+T78	PROCESS 1164 1172	repaired
+T79	DATA-ITEM 1187 1195	solution
+T80	QUALITY 1183 1186	new
+T81	DATA-ITEM 1210 1223	given revenue
+T82	PROCESS 1227 1233	making
+T83	PLAN-OR-PROCESS 1242 1249	changes
+T84	PROCESS 1176 1180	form
+T85	PLAN 1277 1290	auction model
+T86	APPLY-TO 1296 1300	uses
+T87	PLAN 1303 1307	form
+T88	PLAN 1311 1338	leveled commitment contract
+T89	PLAN 1370 1386	mutual bid bonds
+T90	PROCESS 1363 1369	called
+T91	PROCESS 1391 1398	improve
+T92	QUALITY 1399 1420	solution reparability
+T93	PROCESS 1424 1436	facilitating
+T94	PROCESS 1437 1449	backtracking
+T95	DATA-ITEM 1453 1465	winning bids
+T96	PERSON 1473 1482	bid-taker
+T98	THING 1504 1513	trade-off
+T99	QUALITY 1522 1532	robustness
+T100	DATA-ITEM 1537 1544	revenue
+T101	PLAN 1581 1598	auction scenarios
+T102	QUALITY 1558 1580	economically motivated
+T103	QUALITY 1548 1557	different
+T104	PLAN 1613 1624	constraints
+T105	QUALITY 1603 1612	different
+T106	DATA-ITEM 1632 1639	revenue
+T107	DATA-ITEM 1643 1659	repair solutions
+T108	DATA-ITEM 1707 1719	winning bids
+T109	QUANTITY 1701 1706	fewer
+T110	PROCESS 1720 1727	partake
+T111	DATA-ITEM 1738 1747	solutions
+T112	QUALITY 1731 1737	robust
+T113	PROCESS 1757 1765	reducing
+T114	DATA-ITEM 1781 1789	overhead
+T115	QUALITY 1770 1780	associated
+T116	PROCESS 1793 1805	dealing with
+T117	PERSON 1812 1819	bidders
+T118	QUALITY 1806 1811	extra
+T119	DATA-ITEM 1828 1837	solutions
+T120	QUALITY 1821 1827	Robust
+T121	MODALITY 1838 1841	can
+T122	PROCESS 1847 1854	provide
+T123	PROCESS 1878 1892	discriminating
+T124	QUALITY 1866 1877	selectively
+T125	PERSON 1912 1919	bidders
+T126	QUALITY 1901 1911	distrusted
+T128	QUALITY 1925 1940	measured manner
+R1	Attribute Arg1:T2 Arg2:T1	
+R2	Attribute Arg1:T8 Arg2:T7	
+R4	Attribute Arg1:T10 Arg2:T12	
+R5	Attribute Arg1:T15 Arg2:T14	
+T19	REFERENCE 249 254	their
+T129	QUALITY 255 259	best
+T130	OCCURENT 260 269	interests
+R6	Attribute Arg1:T130 Arg2:T129	
+R7	Coreference Arg1:T19 Arg2:T13	
+R8	Attribute Arg1:T24 Arg2:T25	
+R9	Attribute Arg1:T27 Arg2:T26	
+R10	Attribute Arg1:T28 Arg2:T31	
+R11	Attribute Arg1:T30 Arg2:T29	
+R12	Attribute Arg1:T32 Arg2:T33	
+R13	Attribute Arg1:T36 Arg2:T35	
+T131	PERSON 540 549	Bid-taker
+R16	Attribute Arg1:T42 Arg2:T43	
+R17	Attribute Arg1:T46 Arg2:T44	
+T132	REFERENCE 695 699	that
+R18	Coreference Arg1:T132 Arg2:T49	
+R19	Attribute Arg1:T132 Arg2:T50	
+R20	Attribute Arg1:T54 Arg2:T55	
+R21	Attribute Arg1:T57 Arg2:T56	
+R22	Attribute Arg1:T57 Arg2:T58	
+T133	PERSON 890 898	Bidtaker
+R23	Attribute Arg1:T71 Arg2:T70	
+T134	QUALITY 1115 1118	any
+T135	DATA-ITEM 1119 1125	subset
+R24	Attribute Arg1:T135 Arg2:T134	
+R25	Attribute Arg1:T75 Arg2:T76	
+R26	Attribute Arg1:T78 Arg2:T77	
+R27	Attribute Arg1:T79 Arg2:T80	
+R28	Attribute Arg1:T101 Arg2:T103	
+R29	Attribute Arg1:T101 Arg2:T102	
+R30	Attribute Arg1:T104 Arg2:T105	
+R31	Attribute Arg1:T108 Arg2:T109	
+R32	Attribute Arg1:T111 Arg2:T112	
+R33	Attribute Arg1:T114 Arg2:T115	
+R34	Attribute Arg1:T117 Arg2:T118	
+R35	Attribute Arg1:T119 Arg2:T120	
+R36	Attribute Arg1:T122 Arg2:T121	
+T136	PLAN 1857 1862	means
+R37	Attribute Arg1:T123 Arg2:T124	
+R38	Attribute Arg1:T125 Arg2:T126	
+R39	Attribute Arg1:T123 Arg2:T128	
+T127	REFERENCE 1349 1354	which
+R40	Coreference Arg1:T127 Arg2:T85	
+T11	EXTERNAL-REFERENCE 126 133;146 163	bidding theory literature
+R3	Attribute Arg1:T11 Arg2:T12	
+R14	Attribute Arg1:T38 Arg2:T36	
+R15	Attribute Arg1:T38 Arg2:T37	
+T137	QUALITY 1234 1241	limited
+R41	Attribute Arg1:T83 Arg2:T137	
+T138	EXTERNAL-REFERENCE 974 978	[13]
+T139	EXTERNAL-REFERENCE 1339 1347	[26, 27]
+T140	REFERENCE 531 535	this
+T147	REFERENCE 1291 1295	that
+R42	Coreference Arg1:T147 Arg2:T85	
+R43	Poss Arg1:T19 Arg2:T130	
+T65	TIME 212 218	before
+R44	Attribute Arg1:T15 Arg2:T65	
+R45	Compare Arg1:T17 Arg2:T65	
+T148	DOMAIN 989 994	field
+R46	Member-collection Arg1:T74 Arg2:T135	
+R47	Attribute Arg1:T15 Arg2:T20	
+R48	Target Arg1:T46 Arg2:T47	
+T150	QUALITY 809 816	bounded
+R49	Attribute Arg1:T59 Arg2:T150	
+R50	Apply-to Arg1:T2 Arg2:T3	
+R51	Condition Arg1:T5 Arg2:T6	
+R52	Output Arg1:T5 Arg2:T4	
+R53	Is-a Arg1:T4 Arg2:T9	
+R54	Target Arg1:T8 Arg2:T4	
+R55	Condition Arg1:T8 Arg2:T10	
+R56	Condition Arg1:T8 Arg2:T11	
+R57	Agent Arg1:T15 Arg2:T13	
+R58	Output Arg1:T15 Arg2:T16	
+R59	Coreference Arg1:T18 Arg2:T15	
+R61	Condition Arg1:T15 Arg2:T129	
+R62	Output Arg1:T22 Arg2:T21	
+R63	Condition Arg1:T22 Arg2:T23	
+R64	Output Arg1:T28 Arg2:T30	
+R65	Output Arg1:T38 Arg2:T24	
+R66	Condition Arg1:T24 Arg2:T28	
+R67	Other-rel Arg1:T24 Arg2:T27	
+R68	Condition Arg1:T32 Arg2:T34	
+R60	Condition Arg1:T130 Arg2:T18	
+R69	Other-rel Arg1:T30 Arg2:T32	
+R70	Attribute Arg1:T38 Arg2:T36	
+R71	Attribute Arg1:T38 Arg2:T37	
+R72	Attribute Arg1:T37 Arg2:T35	
+R73	Destination Arg1:T40 Arg2:T140	
+R75	Is-a Arg1:T140 Arg2:T39	
+R74	Coreference Arg1:T140 Arg2:T38	
+T41	PROCESS 575 580	faced
+R76	Target Arg1:T41 Arg2:T42	
+R77	Agent Arg1:T46 Arg2:T45	
+R78	Output Arg1:T48 Arg2:T49	
+R79	Apply-to Arg1:T48 Arg2:T46	
+R80	Condition Arg1:T50 Arg2:T51	
+R81	Output Arg1:T52 Arg2:T53	
+R82	Apply-to Arg1:T132 Arg2:T52	
+R83	In_Out Arg1:T57 Arg2:T54	
+R84	Condition Arg1:T59 Arg2:T60	
+R85	Condition Arg1:T57 Arg2:T59	
+R86	Target Arg1:T62 Arg2:T63	
+R87	Apply-to Arg1:T61 Arg2:T62	
+R88	Attribute Arg1:T148 Arg2:T66	
+R89	Apply-to Arg1:T64 Arg2:T148	
+R90	Condition Arg1:T64 Arg2:T138	
+T152	PROCESS 931 934	use
+R91	Input Arg1:T152 Arg2:T64	
+R92	Apply-to Arg1:T152 Arg2:T67	
+R93	Target Arg1:T67 Arg2:T68	
+R94	Output Arg1:T69 Arg2:T71	
+R95	Is-a Arg1:T69 Arg2:T68	
+R96	Apply-to Arg1:T73 Arg2:T72	
+R97	Output Arg1:T75 Arg2:T135	
+R98	In_Out Arg1:T78 Arg2:T135	
+R99	Apply-to Arg1:T78 Arg2:T84	
+R100	Output Arg1:T84 Arg2:T79	
+R102	Output Arg1:T82 Arg2:T83	
+R101	Apply-to Arg1:T82 Arg2:T84	
+R103	Other-rel Arg1:T79 Arg2:T81	
+T153	QUALITY 1199 1207	at least
+R104	Attribute Arg1:T79 Arg2:T153	
+R105	Member-collection Arg1:T87 Arg2:T88	
+R106	from Arg1:T86 Arg2:T87	
+R107	to Arg1:T86 Arg2:T147	
+R108	Condition Arg1:T88 Arg2:T139	
+R109	In_Out Arg1:T91 Arg2:T92	
+R110	In_Out Arg1:T93 Arg2:T94	
+R111	Input Arg1:T94 Arg2:T95	
+R112	Agent Arg1:T94 Arg2:T96	
+R113	Apply-to Arg1:T93 Arg2:T91	
+T154	PROCESS 1264 1273	introduce
+R114	Output Arg1:T154 Arg2:T85	
+R115	Apply-to Arg1:T154 Arg2:T91	
+R116	Output Arg1:T90 Arg2:T127	
+R117	Is-a Arg1:T127 Arg2:T89	
+R118	Attribute Arg1:T98 Arg2:T99	
+R119	Attribute Arg1:T98 Arg2:T100	
+R120	Condition Arg1:T98 Arg2:T101	
+R121	Attribute Arg1:T107 Arg2:T106	
+R122	Condition Arg1:T104 Arg2:T106	
+R123	Condition Arg1:T101 Arg2:T104	
+R124	Input Arg1:T110 Arg2:T108	
+R125	Destination Arg1:T110 Arg2:T111	
+R126	In_Out Arg1:T113 Arg2:T114	
+R127	Target Arg1:T116 Arg2:T117	
+R128	Result Arg1:T110 Arg2:T113	
+R129	Condition Arg1:T113 Arg2:T116	
+R130	Input Arg1:T122 Arg2:T119	
+R131	Apply-to Arg1:T136 Arg2:T123	
+R132	Output Arg1:T122 Arg2:T136	
+R133	In_Out Arg1:T123 Arg2:T125	
+T97	PERSON 516 518	We
+T141	REFERENCE 837 847	this paper
+T142	PERSON 849 851	we
+T143	PROCESS 852 859	propose
+T144	PERSON 928 930	we
+T145	PERSON 1261 1263	we
+T146	PERSON 1484 1486	We
+T149	PROCESS 1492 1499	examine
+T151	PERSON 1661 1663	We
+T155	PROCESS 1669 1680	demonstrate
+T156	QUALITY 1681 1695	experimentally
+T157	PERSON 1355 1357	we
+R134	Agent Arg1:T90 Arg2:T157	
+R135	Agent Arg1:T40 Arg2:T97	
+R136	Agent Arg1:T143 Arg2:T142	
+R137	Condition Arg1:T143 Arg2:T141	
+R138	Output Arg1:T143 Arg2:T61	
+R139	Agent Arg1:T152 Arg2:T144	
+R140	Agent Arg1:T154 Arg2:T145	
+R141	Agent Arg1:T149 Arg2:T146	
+R142	Input Arg1:T149 Arg2:T98	
+R143	Agent Arg1:T155 Arg2:T151	
+R144	Attribute Arg1:T155 Arg2:T156	
+R145	Output Arg1:T40 Arg2:T39	

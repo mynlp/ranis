@@ -1,0 +1,6 @@
+Generating Full Paraphrases of Fragments in a Dialogue Interpretation System
+
+Using SHARDS -- a semantically-based HPSG approach to the resolution of dialogue fragments -- we will show how to generate full paraphrases for fragments in dialogue.
+We adopt a template-filler approach that does not require deep generation from an underlying semantic representation.
+Instead it reuses the results of the parse and interpretation process to dynamically compute templates and to update fillers as the dialogue proceeds.
+This recycling of already available syntactic and phonological information makes generation efficient, as it reduces the operations of the generator to mere string manipulations.

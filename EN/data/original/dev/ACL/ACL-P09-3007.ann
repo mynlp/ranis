@@ -1,0 +1,156 @@
+R1	In_Out Arg1:T1 Arg2:T2
+R2	Input Arg1:T1 Arg2:T3
+R3	In_Out Arg1:T5 Arg2:T4
+R4	Condition Arg1:T5 Arg2:T6
+R5	to Arg1:T7 Arg2:T8
+R6	from Arg1:T7 Arg2:T5
+A1	Self T9
+A2	Self T10
+A3	Intentional T11
+R7	Agent Arg1:T11 Arg2:T10
+R8	Condition Arg1:T11 Arg2:T9
+R9	Target Arg1:T11 Arg2:T12
+R10	Attribute Arg1:T18 Arg2:T17
+R11	from Arg1:T16 Arg2:T14
+R12	to Arg1:T16 Arg2:T18
+R13	to Arg1:T16 Arg2:T19
+R14	Attribute Arg1:T16 Arg2:T15
+R15	Attribute Arg1:T16 Arg2:T13
+R16	Is-a Arg1:T4 Arg2:T14
+R18	Attribute Arg1:T21 Arg2:T20
+R19	Condition Arg1:T23 Arg2:T22
+R20	In_Out Arg1:T21 Arg2:T23
+A4	Intentional T21
+A5	Self T26
+A6	Intentional T27
+R23	Agent Arg1:T27 Arg2:T26
+R24	Attribute Arg1:T29 Arg2:T28
+R25	Output Arg1:T27 Arg2:T29
+R26	Apply-to Arg1:T29 Arg2:T30
+R27	In_Out Arg1:T30 Arg2:T31
+R28	Attribute Arg1:T30 Arg2:T32
+R29	Input Arg1:T30 Arg2:T33
+R30	Coreference Arg1:T34 Arg2:T29
+R31	Attribute Arg1:T34 Arg2:T35
+R32	Condition Arg1:T35 Arg2:T36
+R33	Coreference Arg1:T37 Arg2:T36
+R34	Attribute Arg1:T40 Arg2:T39
+R35	Attribute Arg1:T40 Arg2:T38
+R36	Condition Arg1:T40 Arg2:T37
+R37	Attribute Arg1:T42 Arg2:T41
+R38	Apply-to Arg1:T42 Arg2:T43
+R39	Condition Arg1:T42 Arg2:T37
+A7	Self T44
+A8	Intentional T45
+R40	Agent Arg1:T45 Arg2:T44
+R41	In_Out Arg1:T45 Arg2:T46
+R42	Attribute Arg1:T48 Arg2:T47
+R43	In_Out Arg1:T48 Arg2:T49
+R44	Apply-to Arg1:T46 Arg2:T48
+R45	Coreference Arg1:T50 Arg2:T46
+R46	Attribute Arg1:T52 Arg2:T53
+R47	to Arg1:T51 Arg2:T53
+R48	from Arg1:T51 Arg2:T50
+R49	Attribute Arg1:T50 Arg2:T52
+R50	Attribute Arg1:T57 Arg2:T54
+R51	Input Arg1:T50 Arg2:T57
+R52	Attribute Arg1:T59 Arg2:T58
+A9	Judgment T59
+R53	Compare Arg1:T61 Arg2:T59
+R54	Attribute Arg1:T61 Arg2:T60
+R55	to Arg1:T51 Arg2:T59
+R56	Attribute Arg1:T65 Arg2:T64
+R57	Attribute Arg1:T65 Arg2:T66
+A10	Judgment T66
+R58	Attribute Arg1:T69 Arg2:T68
+R59	Compare Arg1:T70 Arg2:T68
+R60	Attribute Arg1:T72 Arg2:T56
+R61	from Arg1:T71 Arg2:T72
+R62	to Arg1:T71 Arg2:T70
+R63	Condition Arg1:T66 Arg2:T67
+R64	Output Arg1:T67 Arg2:T69
+R65	from Arg1:T63 Arg2:T62
+R66	to Arg1:T63 Arg2:T66
+R67	Origin Arg1:T21 Arg2:T24
+R68	Destination Arg1:T21 Arg2:T25
+A11	Name T25
+A12	Name T55
+A13	Name T73
+A14	Name T74
+A15	Name T24
+A16	Name T6
+R17	Other-rel Arg1:T16 Arg2:T12
+T1	PLAN-OR-PROCESS 0 17	Accurate Learning
+T2	DATA-ITEM 22 43	Chinese Function Tags
+T73	LANGUAGE 22 29	Chinese
+T3	DATA-ITEM 49 65	Minimal Features
+T4	PLAN 68 103	Data-driven function tag assignment
+T5	PROCESS 113 120	studied
+T6	LANGUAGE 125 132	English
+T7	INPUT 133 138	using
+T8	DATA-ITEM 139 157	Penn Treebank data
+T9	REFERENCE 163 173	this paper
+T10	PERSON 176 178	we
+T11	PROCESS 179 186	address
+T12	PLAN 191 199	question
+T13	MODALITY 203 210	whether
+T14	PLAN 211 222	such method
+T15	MODALITY 223 226	can
+T16	INPUT 230 237	applied
+T17	QUALITY 241 246	other
+T18	LANGUAGE 247 256	languages
+T19	DATA-ITEM 261 279	Treebank resources
+T20	QUALITY 297 303	simply
+T21	PROCESS 304 310	extend
+T22	TIME 311 319	previous
+T23	PLAN 320 326	method
+T24	LANGUAGE 332 339	English
+T25	LANGUAGE 343 350	Chinese
+T26	PERSON 353 355	we
+T27	PROCESS 361 369	proposed
+T28	QUALITY 373 382	effective
+T29	PLAN 383 386	way
+T30	PROCESS 390 399	recognize
+T31	DATA-ITEM 400 413	function tags
+T32	QUALITY 414 422	directly
+T33	DATA-ITEM 428 447	lexical information
+T34	REFERENCE 450 455	which
+T35	QUALITY 459 474	easily scalable
+T36	LANGUAGE 479 488	languages
+T37	REFERENCE 489 493	that
+T38	MODALITY 494 498	lack
+T39	QUALITY 499 509	sufficient
+T40	DATA-ITEM 510 527	parsing resources
+T41	QUALITY 536 544	inherent
+T42	PLAN-OR-PROCESS 545 566	linguistic challenges
+T43	PLAN-OR-PROCESS 571 578	parsing
+T44	PERSON 581 583	We
+T45	PROCESS 584 596	investigated
+T46	PLAN 599 634	supervised sequence learning method
+T47	QUALITY 638 651	automatically
+T48	PROCESS 652 661	recognize
+T49	DATA-ITEM 662 675	function tags
+T50	REFERENCE 678 683	which
+T51	RESULT 684 692	achieves
+T52	DATA-ITEM 696 703	F-score
+T53	QUANTITY 707 712	0.938
+T54	QUALITY 716 729	gold-standard
+T57	DATA-ITEM 730 772	POS ( Part-of-Speech ) tagged Chinese text
+T55	LANGUAGE 760 767	Chinese
+T58	QUALITY 778 803	statistically significant
+T59	QUALITY 804 815	improvement
+T60	QUALITY 821 829	existing
+T61	PLAN 830 871	Chinese function label assignment systems
+T74	LANGUAGE 830 837	Chinese
+T62	DATA-ITEM 874 881	Results
+T63	RESULT 882 886	show
+T64	QUANTITY 894 906	small number
+T65	DATA-ITEM 910 951	linguistically motivated lexical features
+T66	QUALITY 956 966	sufficient
+T67	PROCESS 970 977	achieve
+T68	QUALITY 978 988	comparable
+T69	DATA-ITEM 989 1000	performance
+T70	PLAN 1004 1011	systems
+T71	APPLY-TO 1012 1017	using
+T56	QUALITY 1018 1031	sophisticated
+T72	PLAN 1032 1043	parse trees

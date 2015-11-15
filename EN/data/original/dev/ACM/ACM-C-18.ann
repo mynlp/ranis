@@ -1,0 +1,267 @@
+T1	PLAN-OR-PROCESS 3 19	Initial Analysis
+T2	PLAN-OR-PROCESS 24 36	Presentation
+T3	PLAN 40 78	Malware Exhibiting Swarm-Like Behavior
+T4	PLAN 83 90	Slammer
+T5	REFERENCE 92 97	which
+T6	TIME 101 110	currently
+T7	QUALITY 115 122	fastest
+T8	PLAN 123 136	computer worm
+T9	DATA-ITEM 140 156	recorded history
+T10	PROCESS 162 170	observed
+T11	PROCESS 174 180	infect
+T12	QUANTITY 181 191	90 percent
+T13	QUANTITY 195 198	all
+T14	QUALITY 199 209	vulnerable
+T15	PLAN 210 225	Internets hosts
+T16	TIME 226 243	within 10 minutes
+T17	QUALITY 258 262	main
+T18	PLAN-OR-PROCESS 263 269	action
+T19	PLAN 279 291	Slammer worm
+T20	QUALITY 303 329	relatively unsophisticated
+T21	PLAN-OR-PROCESS 330 341	replication
+T22	REFERENCE 345 351	itself
+T23	REFERENCE 353 355	it
+T24	QUALITY 356 361	still
+T25	PROCESS 362 369	spreads
+T26	DATA-ITEM 386 400	human response
+T27	QUALITY 405 416	ineffective
+T28	QUANTITY 418 431	Most proposed
+T29	PLAN 432 458	countermeasures strategies
+T30	APPLY-TO 463 468	based
+T31	QUALITY 469 478	primarily
+T32	PLAN 482 496	rate detection
+T33	PLAN 501 520	limiting algorithms
+T34	PLAN 531 546	such strategies
+T35	PROCESS 557 565	designed
+T36	PROCESS 570 579	developed
+T37	QUALITY 583 594	effectively
+T38	PROCESS 595 602	contain
+T39	PLAN 603 608	worms
+T40	REFERENCE 609 614	whose
+T41	PLAN-OR-PROCESS 615 624	behaviors
+T42	QUALITY 629 636	similar
+T43	REFERENCE 640 644	that
+T44	PLAN 648 655	Slammer
+T45	PERSON 670 672	we
+T46	PLAN 687 697	hypothesis
+T47	QUALITY 703 718	next generation
+T48	PLAN 719 724	worms
+T49	QUALITY 733 742	radically
+T50	QUALITY 743 752	different
+T51	QUALITY 758 769	potentially
+T52	PLAN 770 785	such techniques
+T53	MODALITY 786 790	will
+T54	RESULT 791 796	prove
+T55	QUALITY 797 808	ineffective
+T56	PERSON 824 826	we
+T57	PROCESS 827 834	propose
+T58	PROCESS 838 843	study
+T59	QUALITY 846 849	new
+T60	PLAN 850 860	generation
+T61	PLAN 864 869	worms
+T62	IS-A 870 876	called
+T63	PLAN 877 888	Swarm Worms
+T64	PLAN-OR-PROCESS 896 904	behavior
+T65	APPLY-TO 908 921	predicated on
+T66	PLAN 937 958	emergent intelligence
+T67	PLAN 960 981	Emergent Intelligence
+T68	PLAN-OR-PROCESS 989 997	behavior
+T69	PLAN 1001 1008	systems
+T70	INTELLIGENT-AGENT 1025 1043	biological systems
+T71	INTELLIGENT-AGENT 1060 1064	bees
+T72	QUALITY 1072 1078	simple
+T73	PLAN-OR-PROCESS 1079 1097	local interactions
+T74	INTELLIGENT-AGENT 1112 1119	members
+T75	QUALITY 1126 1132	simple
+T76	PLAN-OR-PROCESS 1133 1150	primitive actions
+T77	RESULT 1152 1162	gives rise
+T79	QUALITY 1166 1173	complex
+T80	QUALITY 1178 1189	intelligent
+T81	PLAN-OR-PROCESS 1190 1205	global behavior
+T82	REFERENCE 1210 1225	this manuscript
+T83	PERSON 1226 1228	we
+T84	PROCESS 1234 1243	introduce
+T85	QUALITY 1248 1253	basic
+T86	PLAN 1254 1264	principles
+T87	PLAN 1276 1280	idea
+T88	PLAN 1284 1295	Swarm Worms
+T89	PLAN 1312 1327	basic structure
+T90	QUALITY 1328 1336	required
+T91	PROCESS 1352 1362	considered
+T92	PLAN 1365 1375	swarm worm
+T93	PERSON 1390 1392	we
+T94	PROCESS 1398 1405	present
+T95	QUALITY 1406 1417	preliminary
+T96	DATA-ITEM 1418 1425	results
+T97	DATA-ITEM 1433 1451	propagation speeds
+T98	QUANTITY 1455 1458	one
+T99	PLAN 1459 1474	such swarm worm
+T100	IS-A 1476 1482	called
+T101	PLAN 1487 1498	ZachiK worm
+T102	PERSON 1500 1502	We
+T103	PROCESS 1508 1512	show
+T104	PLAN 1518 1524	ZachiK
+T105	QUALITY 1528 1535	capable
+T106	PLAN-OR-PROCESS 1539 1550	propagating
+T107	QUANTITY 1556 1582	rate 2 orders of magnitude
+T108	QUALITY 1583 1589	faster
+T109	QUALITY 1595 1602	similar
+T110	PLAN 1603 1608	worms
+T111	MODALITY 1609 1616	without
+T112	DATA-ITEM 1617 1635	swarm capabilities
+R1	Input Arg1:T1 Arg2:T3	
+R2	Output Arg1:T2 Arg2:T3	
+R3	Coreference Arg1:T5 Arg2:T4	
+R4	Attribute Arg1:T8 Arg2:T7	
+R5	Condition Arg1:T7 Arg2:T9	
+R6	Condition Arg1:T7 Arg2:T6	
+R7	Other-rel Arg1:T8 Arg2:T5	
+R8	Apply-to Arg1:T4 Arg2:T11	
+R9	Condition Arg1:T11 Arg2:T16	
+R10	Destination Arg1:T11 Arg2:T15	
+R11	Attribute Arg1:T15 Arg2:T14	
+R12	Attribute Arg1:T15 Arg2:T13	
+R13	Attribute Arg1:T15 Arg2:T12	
+R15	In_Out Arg1:T10 Arg2:T4	
+R14	Attribute Arg1:T18 Arg2:T17	
+T113	PROCESS 292 297	takes
+R16	Apply-to Arg1:T19 Arg2:T113	
+R17	Output Arg1:T113 Arg2:T18	
+R18	Attribute Arg1:T21 Arg2:T20	
+R19	In_Out Arg1:T21 Arg2:T22	
+R20	Coreference Arg1:T22 Arg2:T19	
+R21	Equivalence Arg1:T21 Arg2:T18	
+R22	Attribute Arg1:T25 Arg2:T24	
+R23	Coreference Arg1:T23 Arg2:T19	
+R24	Apply-to Arg1:T23 Arg2:T25	
+T114	QUALITY 373 380	quickly
+R25	Attribute Arg1:T25 Arg2:T114	
+R26	Attribute Arg1:T26 Arg2:T27	
+T115	RESULT 381 385	that
+T116	RESULT 370 372	so
+R27	Other-rel Arg1:T115 Arg2:T116	
+R28	from Arg1:T115 Arg2:T27	
+R29	to Arg1:T115 Arg2:T114	
+R30	Attribute Arg1:T29 Arg2:T28	
+R31	Attribute Arg1:T30 Arg2:T31	
+R32	from Arg1:T30 Arg2:T32	
+R33	from Arg1:T30 Arg2:T33	
+R34	to Arg1:T30 Arg2:T29	
+R35	Coreference Arg1:T34 Arg2:T29	
+R36	Output Arg1:T35 Arg2:T34	
+R37	Output Arg1:T36 Arg2:T34	
+R40	Coreference Arg1:T40 Arg2:T39	
+R41	Apply-to Arg1:T40 Arg2:T41	
+R42	Attribute Arg1:T44 Arg2:T43	
+R43	Attribute Arg1:T41 Arg2:T42	
+R44	Compare Arg1:T43 Arg2:T42	
+R38	Target Arg1:T38 Arg2:T39	
+R39	Apply-to Arg1:T36 Arg2:T38	
+R45	Apply-to Arg1:T35 Arg2:T38	
+R46	Attribute Arg1:T38 Arg2:T37	
+T117	PLAN 664 668	work
+A2	Self T45
+T118	PROCESS 673 682	put forth
+A3	Intentional T118
+R47	Agent Arg1:T118 Arg2:T45	
+R48	Condition Arg1:T118 Arg2:T117	
+R49	Output Arg1:T118 Arg2:T46	
+R50	Attribute Arg1:T48 Arg2:T47	
+R51	Attribute Arg1:T50 Arg2:T49	
+R52	Attribute Arg1:T48 Arg2:T50	
+T119	MODALITY 725 729	will
+R53	Attribute Arg1:T50 Arg2:T119	
+R54	Coreference Arg1:T52 Arg2:T34	
+R55	to Arg1:T54 Arg2:T55	
+R56	from Arg1:T54 Arg2:T52	
+R57	Attribute Arg1:T54 Arg2:T53	
+A4	Judgment T55
+R58	Attribute Arg1:T54 Arg2:T51	
+A5	Judgment T27
+A6	Self T56
+A7	Intentional T57
+R59	Agent Arg1:T57 Arg2:T56	
+R60	Output Arg1:T57 Arg2:T58	
+A8	Intentional T58
+R61	Attribute Arg1:T60 Arg2:T59	
+R62	Member-collection Arg1:T60 Arg2:T61	
+R63	In_Out Arg1:T58 Arg2:T60	
+R64	from Arg1:T62 Arg2:T63	
+R65	to Arg1:T62 Arg2:T60	
+T120	REFERENCE 890 895	whose
+R66	Coreference Arg1:T120 Arg2:T63	
+R67	Apply-to Arg1:T120 Arg2:T64	
+T121	PLAN 926 933	concept
+R68	Is-a Arg1:T66 Arg2:T121	
+R69	from Arg1:T65 Arg2:T66	
+R70	to Arg1:T65 Arg2:T64	
+R71	Apply-to Arg1:T69 Arg2:T68	
+R72	Is-a Arg1:T67 Arg2:T68	
+T122	INTELLIGENT-AGENT 1052 1056	ants
+R73	Is-a Arg1:T122 Arg2:T70	
+R74	Is-a Arg1:T71 Arg2:T70	
+T123	QUALITY 1101 1111	autonomous
+R75	Attribute Arg1:T74 Arg2:T123	
+R76	Attribute Arg1:T73 Arg2:T72	
+R77	Target Arg1:T73 Arg2:T74	
+R78	Attribute Arg1:T76 Arg2:T75	
+R79	Attribute Arg1:T81 Arg2:T80	
+R80	Attribute Arg1:T81 Arg2:T79	
+R81	to Arg1:T77 Arg2:T81	
+R82	from Arg1:T77 Arg2:T73	
+R84	Member-collection Arg1:T74 Arg2:T70	
+T78	QUALITY 1020 1024	like
+T124	QUALITY 1010 1019	very much
+R85	Attribute Arg1:T78 Arg2:T124	
+R86	Attribute Arg1:T68 Arg2:T78	
+R87	Other-rel Arg1:T70 Arg2:T78	
+A9	Self T82
+A10	Self T83
+T125	MODALITY 1229 1233	will
+R88	Attribute Arg1:T84 Arg2:T125	
+A11	Intentional T84
+R89	Agent Arg1:T84 Arg2:T83	
+R90	Condition Arg1:T84 Arg2:T82	
+R91	Attribute Arg1:T86 Arg2:T85	
+R92	Output Arg1:T84 Arg2:T86	
+R93	Is-a Arg1:T88 Arg2:T87	
+T126	APPLY-TO 1265 1271	behind
+R94	from Arg1:T126 Arg2:T86	
+R95	to Arg1:T126 Arg2:T88	
+R96	In_Out Arg1:T91 Arg2:T92	
+R97	Output Arg1:T84 Arg2:T89	
+R98	Attribute Arg1:T92 Arg2:T89	
+R99	Attribute Arg1:T89 Arg2:T90	
+R100	Condition Arg1:T90 Arg2:T91	
+A12	Self T93
+A13	Intentional T94
+T127	MODALITY 1393 1397	will
+R101	Attribute Arg1:T94 Arg2:T127	
+R102	Agent Arg1:T94 Arg2:T93	
+R103	Attribute Arg1:T96 Arg2:T95	
+R104	Output Arg1:T94 Arg2:T96	
+R105	Attribute Arg1:T99 Arg2:T98	
+R106	Coreference Arg1:T99 Arg2:T88	
+R107	from Arg1:T100 Arg2:T101	
+R108	to Arg1:T100 Arg2:T99	
+R109	Attribute Arg1:T101 Arg2:T97	
+R110	Condition Arg1:T96 Arg2:T97	
+A14	Self T102
+A15	Intentional T103
+R111	Agent Arg1:T103 Arg2:T102	
+R112	Attribute Arg1:T106 Arg2:T105	
+R113	Apply-to Arg1:T104 Arg2:T106	
+R114	Attribute Arg1:T108 Arg2:T107	
+R115	Attribute Arg1:T110 Arg2:T109	
+R116	Attribute Arg1:T112 Arg2:T111	
+R117	Attribute Arg1:T110 Arg2:T112	
+R118	Compare Arg1:T104 Arg2:T109	
+R120	Attribute Arg1:T106 Arg2:T108	
+A16	Judgment T108
+T128	PERSON 660 663	our
+A1	Self T128
+R121	Poss Arg1:T128 Arg2:T117	
+T129	COMPARE 1590 1594	than
+R122	from Arg1:T129 Arg2:T110	
+R123	to Arg1:T129 Arg2:T108	
+R83	from Arg1:T77 Arg2:T76	

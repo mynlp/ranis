@@ -1,0 +1,157 @@
+T1	PLAN 10 26	Type Constraints
+T2	PLAN-OR-PROCESS 31 67	Cross-Lingual Part-of-Speech Tagging
+T3	PERSON 69 71	We
+T4	PROCESS 72 80	consider
+T5	PLAN-OR-PROCESS 85 97	construction
+T6	PLAN 101 123	part-of-speech taggers
+T7	LANGUAGE 142 151	languages
+T8	QUALITY 163 183	manually constructed
+T9	DATA-ITEM 184 200	tag dictionaries
+T10	PLAN 206 216	Wiktionary
+T11	DATA-ITEM 221 233	dictionaries
+T12	PROCESS 234 243	projected
+T13	PLAN 248 254	bitext
+T14	PROCESS 265 269	used
+T15	PLAN 273 289	type constraints
+T16	PROCESS 293 301	overcome
+T17	QUALITY 306 314	scarcity
+T18	DATA-ITEM 318 332	annotated data
+T19	PLAN 336 348	this setting
+T20	REFERENCE 353 363	this paper
+T21	PERSON 365 367	we
+T22	PROCESS 368 372	show
+T23	QUALITY 378 388	additional
+T24	PLAN 389 406	token constraints
+T25	MODALITY 407 410	can
+T26	PROCESS 414 423	projected
+T27	LANGUAGE 445 460	source language
+T28	LANGUAGE 480 486	target
+T29	LANGUAGE 487 495	language
+T30	PLAN 500 519	word-aligned bitext
+T31	PERSON 521 523	We
+T32	PROCESS 524 531	present
+T33	QUANTITY 532 539	several
+T34	PLAN 540 546	models
+T36	QUALITY 576 594	partially observed
+T37	PLAN 595 625	conditional random field model
+T38	QUALITY 633 640	coupled
+T39	PLAN 641 667	token and type constraints
+T40	PROCESS 668 675	provide
+T41	QUALITY 678 685	partial
+T42	DATA-ITEM 686 692	signal
+T43	PROCESS 697 705	training
+T44	QUALITY 723 728	eight
+T45	TIME 729 739	previously
+T46	QUALITY 740 747	studied
+T47	PLAN 748 771	Indo-European languages
+T48	PERSON 773 776	our
+T49	PLAN 777 782	model
+T50	OUTPUT 783 791	achieves
+T51	QUANTITY 792 797	a 25%
+T52	DATA-ITEM 798 822	relative error reduction
+T53	PLAN 838 854	state of the art
+T54	PERSON 856 858	We
+T55	PROCESS 867 874	present
+T56	DATA-ITEM 886 893	results
+T57	QUANTITY 897 902	seven
+T58	QUALITY 903 913	additional
+T59	LANGUAGE 914 923	languages
+T60	QUALITY 929 938	different
+T61	LANGUAGE 939 947	families
+T62	QUALITY 949 960	empirically
+T63	PROCESS 961 974	demonstrating
+T64	QUALITY 979 992	applicability
+T65	QUALITY 996 1003	coupled
+T66	PLAN 1004 1030	token and type constraints
+T67	LANGUAGE 1040 1051	diverse set
+T68	LANGUAGE 1055 1064	languages
+T69	PLAN 0 5	Token
+R1	Apply-to Arg1:T1 Arg2:T2	
+R2	Apply-to Arg1:T69 Arg2:T2	
+A1	Self T3
+A2	Intentional T4
+R3	Agent Arg1:T4 Arg2:T3	
+R4	In_Out Arg1:T4 Arg2:T5	
+T70	QUALITY 128 141	resource-poor
+R5	Attribute Arg1:T7 Arg2:T70	
+R6	Input Arg1:T6 Arg2:T7	
+R7	Output Arg1:T5 Arg2:T6	
+T71	TIME 153 161	Recently
+R8	Attribute Arg1:T9 Arg2:T8	
+R9	Output Arg1:T12 Arg2:T11	
+R10	Apply-to Arg1:T13 Arg2:T12	
+R13	Input Arg1:T14 Arg2:T11	
+R14	Input Arg1:T14 Arg2:T9	
+R15	Condition Arg1:T14 Arg2:T71	
+R16	Attribute Arg1:T18 Arg2:T17	
+R19	Target Arg1:T16 Arg2:T17	
+R17	Apply-to Arg1:T14 Arg2:T16	
+R12	Other-rel Arg1:T11 Arg2:T15	
+R18	Other-rel Arg1:T9 Arg2:T15	
+R21	Condition Arg1:T18 Arg2:T19	
+A3	Self T20
+A4	Self T21
+A5	Intentional T22
+R22	Agent Arg1:T22 Arg2:T21	
+R23	Condition Arg1:T22 Arg2:T20	
+R24	Attribute Arg1:T24 Arg2:T23	
+R25	Attribute Arg1:T26 Arg2:T25	
+R26	Output Arg1:T26 Arg2:T24	
+T72	QUALITY 431 444	resource-rich
+R27	Attribute Arg1:T27 Arg2:T72	
+T73	QUALITY 466 479	resource-poor
+R28	Attribute Arg1:T28 Arg2:T73	
+R29	Input Arg1:T26 Arg2:T27	
+R30	Destination Arg1:T26 Arg2:T28	
+R31	Split Arg1:T29 Arg2:T28	
+R32	Apply-to Arg1:T30 Arg2:T26	
+R11	Other-rel Arg1:T10 Arg2:T9	
+A6	Self T31
+A7	Intentional T32
+R33	Agent Arg1:T32 Arg2:T31	
+R34	Attribute Arg1:T34 Arg2:T33	
+R35	Output Arg1:T32 Arg2:T34	
+R36	Attribute Arg1:T37 Arg2:T36	
+R37	Is-a Arg1:T37 Arg2:T34	
+R38	Attribute Arg1:T39 Arg2:T38	
+R39	Apply-to Arg1:T39 Arg2:T40	
+R40	Output Arg1:T40 Arg2:T42	
+R41	Attribute Arg1:T42 Arg2:T41	
+R42	Input Arg1:T43 Arg2:T42	
+R43	Condition Arg1:T46 Arg2:T45	
+R44	Attribute Arg1:T47 Arg2:T46	
+R45	Attribute Arg1:T47 Arg2:T44	
+A8	Self T48
+R46	Poss Arg1:T48 Arg2:T49	
+R47	Attribute Arg1:T52 Arg2:T51	
+T35	QUALITY 832 837	prior
+R48	Attribute Arg1:T53 Arg2:T35	
+T74	COMPARE 823 827	over
+R49	from Arg1:T74 Arg2:T53	
+R51	to Arg1:T50 Arg2:T51	
+R52	from Arg1:T50 Arg2:T49	
+R53	to Arg1:T50 Arg2:T74	
+A9	Self T54
+A10	Intentional T55
+R54	Agent Arg1:T55 Arg2:T54	
+T75	QUALITY 875 885	successful
+A11	Judgment T75
+R55	Attribute Arg1:T56 Arg2:T75	
+R56	Output Arg1:T55 Arg2:T56	
+R57	Attribute Arg1:T59 Arg2:T58	
+R58	Attribute Arg1:T59 Arg2:T57	
+R59	Attribute Arg1:T61 Arg2:T60	
+R60	Other-rel Arg1:T59 Arg2:T61	
+R61	Attribute Arg1:T66 Arg2:T65	
+R62	Condition Arg1:T56 Arg2:T59	
+R63	Attribute Arg1:T63 Arg2:T62	
+R64	Attribute Arg1:T66 Arg2:T64	
+R65	Other-rel Arg1:T68 Arg2:T67	
+R66	Condition Arg1:T64 Arg2:T67	
+R67	Output Arg1:T63 Arg2:T64	
+R68	Agent Arg1:T63 Arg2:T54	
+A12	Intentional T63
+T76	PROCESS 707 715	Averaged
+A13	Intentional T76
+R69	Input Arg1:T76 Arg2:T47	
+R50	to Arg1:T74 Arg2:T51	

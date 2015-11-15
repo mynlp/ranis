@@ -1,0 +1,159 @@
+R1	Output Arg1:T1 Arg2:T2
+R2	Attribute Arg1:T3 Arg2:T2
+R3	Condition Arg1:T5 Arg2:T69
+R4	Input Arg1:T6 Arg2:T7
+R5	Apply-to Arg1:T6 Arg2:T8
+R6	In_Out Arg1:T8 Arg2:T9
+R7	Apply-to Arg1:T5 Arg2:T6
+R8	Attribute Arg1:T12 Arg2:T11
+R9	Attribute Arg1:T70 Arg2:T14
+R10	Output Arg1:T13 Arg2:T70
+R11	Input Arg1:T13 Arg2:T12
+A1	Judgment T11
+A2	Judgment T14
+R12	Apply-to Arg1:T5 Arg2:T10
+R13	Output Arg1:T10 Arg2:T11
+A3	Self T15
+A4	Self T16
+A5	Intentional T17
+R14	Agent Arg1:T17 Arg2:T16
+R15	Condition Arg1:T17 Arg2:T15
+R16	Output Arg1:T17 Arg2:T18
+R17	Attribute Arg1:T20 Arg2:T19
+#2	AnnotatorNotes T21	confidence intervals
+R18	Output Arg1:T20 Arg2:T21
+R19	Apply-to Arg1:T18 Arg2:T20
+R20	Attribute Arg1:T71 Arg2:T23
+R21	Attribute Arg1:T22 Arg2:T72
+R22	Condition Arg1:T22 Arg2:T71
+R23	Condition Arg1:T21 Arg2:T22
+R24	Coreference Arg1:T24 Arg2:T21
+R25	Attribute Arg1:T29 Arg2:T73
+R26	Attribute Arg1:T29 Arg2:T28
+R27	In_Out Arg1:T27 Arg2:T28
+R28	Attribute Arg1:T27 Arg2:T26
+R29	from Arg1:T25 Arg2:T27
+R30	to Arg1:T25 Arg2:T24
+#6	AnnotatorNotes T31	refined
+R31	Attribute Arg1:T32 Arg2:T31
+R32	Output Arg1:T30 Arg2:T32
+R33	from Arg1:T25 Arg2:T30
+R34	Equivalence Arg1:T37 Arg2:T36
+R36	Attribute Arg1:T36 Arg2:T35
+R37	Input Arg1:T34 Arg2:T36
+R38	Output Arg1:T34 Arg2:T33
+R39	Input Arg1:T32 Arg2:T33
+A6	Judgment T26
+A7	Self T39
+A8	Intentional T40
+R40	Agent Arg1:T40 Arg2:T39
+R41	Condition Arg1:T43 Arg2:T42
+R42	Input Arg1:T40 Arg2:T41
+R43	Apply-to Arg1:T40 Arg2:T43
+R44	Coreference Arg1:T44 Arg2:T43
+R45	Attribute Arg1:T48 Arg2:T47
+R46	In_Out Arg1:T46 Arg2:T48
+R47	Destination Arg1:T49 Arg2:T50
+R48	Output Arg1:T49 Arg2:T48
+R49	Is-a Arg1:T46 Arg2:T45
+R50	Attribute Arg1:T44 Arg2:T45
+A9	Self T51
+R51	Poss Arg1:T51 Arg2:T52
+R52	Attribute Arg1:T55 Arg2:T54
+R53	Output Arg1:T56 Arg2:T55
+R54	Condition Arg1:T56 Arg2:T57
+#10	AnnotatorNotes T60	confidence intervals
+R55	Attribute Arg1:T60 Arg2:T59
+R56	Output Arg1:T58 Arg2:T60
+R57	Agent Arg1:T58 Arg2:T55
+R58	Attribute Arg1:T64 Arg2:T63
+R59	Output Arg1:T62 Arg2:T61
+R60	Input Arg1:T62 Arg2:T64
+R61	Attribute Arg1:T65 Arg2:T74
+R62	Attribute Arg1:T61 Arg2:T65
+R63	Attribute Arg1:T68 Arg2:T67
+R64	to Arg1:T66 Arg2:T68
+R65	from Arg1:T66 Arg2:T61
+R66	Attribute Arg1:T61 Arg2:T68
+R67	Other-rel Arg1:T74 Arg2:T67
+A10	Judgment T59
+R68	to Arg1:T53 Arg2:T59
+R69	from Arg1:T53 Arg2:T52
+R70	to Arg1:T53 Arg2:T67
+R71	to Arg1:T53 Arg2:T74
+A11	Judgment T74
+A12	Judgment T67
+#1	AnnotatorNotes T65	confidence interval
+T1	PROCESS 0 10	Estimating
+T2	DATA-ITEM 15 26	Reliability
+T3	PLAN 30 42	MDP Policies
+T4	PLAN 47 75	Confidence Interval Approach
+T69	TIME 78 82	Past
+T5	PLAN 83 93	approaches
+T6	PROCESS 98 103	using
+T7	PLAN-OR-PROCESS 104 126	reinforcement learning
+T8	PROCESS 130 136	derive
+T9	PLAN 137 160	dialog control policies
+T10	PROCESS 166 173	assumed
+T11	QUALITY 189 195	enough
+T12	DATA-ITEM 196 210	collected data
+T13	PROCESS 214 220	derive
+T14	QUALITY 223 231	reliable
+T70	PLAN 232 238	policy
+T15	REFERENCE 244 254	this paper
+T16	PERSON 255 257	we
+T17	PROCESS 258 265	present
+T18	PLAN 268 279	methodology
+T19	QUALITY 284 295	numerically
+T20	PROCESS 296 308	constructing
+T21	DATA-ITEM 309 328	con dence intervals
+T72	QUALITY 337 345	expected
+T22	DATA-ITEM 346 363	cumulative reward
+T23	QUALITY 370 377	learned
+T71	PLAN 378 384	policy
+T24	DATA-ITEM 387 402	These intervals
+T25	INPUT 407 411	used
+T26	QUALITY 421 427	better
+T27	PROCESS 428 434	assess
+T28	DATA-ITEM 439 450	reliability
+T73	QUALITY 458 466	expected
+T29	DATA-ITEM 467 484	cumulative reward
+T30	PROCESS 497 504	perform
+T31	QUALITY 507 513	re ned
+T32	PLAN-OR-PROCESS 514 524	comparison
+T33	PLAN 533 541	policies
+T34	PROCESS 542 549	derived
+T35	QUALITY 555 564	different
+T36	PLAN 565 590;599 605	Markov Decision Processes models
+T37	PLAN 593 596	MDP
+T39	PERSON 608 610	We
+T40	PROCESS 611 618	applied
+T41	PLAN 619 635	this methodology
+T42	TIME 641 646	prior
+T43	PLAN 647 657	experiment
+T44	REFERENCE 658 663	where
+T45	PLAN-OR-PROCESS 668 672	goal
+T46	PROCESS 680 686	select
+T47	QUALITY 691 695	best
+T48	DATA-ITEM 696 704	features
+T49	PROCESS 708 715	include
+T50	PLAN 723 737	MDP statespace
+T51	PERSON 740 743	Our
+T52	DATA-ITEM 744 751	results
+T53	RESULT 752 756	show
+T54	QUANTITY 768 772	some
+T55	PLAN 780 788	policies
+T56	PROCESS 789 798	developed
+T57	EXTERNAL-REFERENCE 806 816	prior work
+T58	PROCESS 817 826	exhibited
+T59	QUALITY 827 837	very large
+T60	DATA-ITEM 838 858	confidence intervals
+T61	PLAN 865 871	policy
+T62	PROCESS 872 881	developed
+T63	QUALITY 891 895	best
+T64	DATA-ITEM 896 907	feature set
+T74	QUALITY 914 926	much smaller
+T65	DATA-ITEM 927 946	confidence interval
+T66	RESULT 956 962	showed
+T67	QUALITY 963 972	very high
+T68	DATA-ITEM 973 984	reliability

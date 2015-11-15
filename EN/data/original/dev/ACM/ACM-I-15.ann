@@ -1,0 +1,137 @@
+T1	PLAN-OR-PROCESS 0 21	Information Searching
+T2	PROCESS 26 33	Sharing
+T3	PLAN 37 65	Large-Scale Dynamic Networks
+T4	PROCESS 66 73	Finding
+T5	QUALITY 78 83	right
+T6	INTELLIGENT-AGENT 84 90	agents
+T7	QUALITY 96 101	large
+T8	PLAN 114 121	network
+T9	PROCESS 125 132	provide
+T10	DATA-ITEM 144 153	resources
+T11	QUALITY 159 173	timely fashion
+T12	PLAN 180 201	long standing problem
+T13	PLAN 225 231	method
+T14	PLAN-OR-PROCESS 236 257	information searching
+T15	PROCESS 262 269	sharing
+T16	REFERENCE 270 274	that
+T17	PROCESS 275 283	combines
+T19	DATA-ITEM 284 299	routing indices
+T20	PLAN 305 324	token-based methods
+T21	PLAN 330 345	proposed method
+T22	PROCESS 346 353	enables
+T23	INTELLIGENT-AGENT 354 360	agents
+T24	PROCESS 364 370	search
+T25	QUALITY 371 382	effectively
+T26	PROCESS 386 395	acquiring
+T27	REFERENCE 396 401	their
+T28	DATA-ITEM 413 422	interests
+T29	REFERENCE 436 441	their
+T30	DATA-ITEM 442 473	information provision abilities
+T31	PROCESS 478 489	maintaining
+T32	PLAN 490 497	indices
+T34	DATA-ITEM 510 517	queries
+T35	QUALITY 525 535	integrated
+T36	PLAN 536 539	way
+T37	PROCESS 565 577	demonstrates
+T38	PLAN 586 609	performance experiments
+T39	PLAN 625 641	dynamic networks
+T40	INTELLIGENT-AGENT 645 651	agents
+T41	MODALITY 652 655	can
+T42	PROCESS 660 665	tuned
+T43	PROCESS 670 676	answer
+T44	DATA-ITEM 677 684	queries
+T45	QUALITY 685 696	effectively
+T46	REFERENCE 700 704	they
+T47	PROCESS 705 711	gather
+T48	DATA-ITEM 712 720	evidence
+T49	DATA-ITEM 743 774	information provision abilities
+T50	INTELLIGENT-AGENT 778 784	others
+T51	MODALITY 786 793	without
+T52	PROCESS 794 802	altering
+T53	DATA-ITEM 807 815	topology
+T54	PROCESS 819 827	imposing
+T55	DATA-ITEM 831 848	overlay structure
+T56	PLAN 856 863	network
+T57	INTELLIGENT-AGENT 867 880	acquaintances
+R1	Condition Arg1:T2 Arg2:T3	
+R2	Condition Arg1:T1 Arg2:T3	
+R3	Attribute Arg1:T6 Arg2:T5	
+T58	QUALITY 106 113	dynamic
+R4	Attribute Arg1:T8 Arg2:T58	
+R5	Attribute Arg1:T8 Arg2:T7	
+R6	Other-rel Arg1:T4 Arg2:T6	
+R7	Other-rel Arg1:T8 Arg2:T6	
+R8	Attribute Arg1:T9 Arg2:T11	
+R9	Output Arg1:T9 Arg2:T10	
+T59	QUALITY 137 143	needed
+R10	Attribute Arg1:T10 Arg2:T59	
+R11	Apply-to Arg1:T4 Arg2:T9	
+R12	Other-rel Arg1:T4 Arg2:T12	
+T60	REFERENCE 203 213	This paper
+A1	Self T60
+T61	PROCESS 214 222	presents
+A2	Intentional T61
+R13	Condition Arg1:T61 Arg2:T60	
+R14	Output Arg1:T61 Arg2:T13	
+R15	Apply-to Arg1:T13 Arg2:T14	
+R16	Apply-to Arg1:T13 Arg2:T15	
+R17	Destination Arg1:T17 Arg2:T20	
+R18	Output Arg1:T17 Arg2:T19	
+R19	Apply-to Arg1:T16 Arg2:T17	
+R20	Coreference Arg1:T16 Arg2:T13	
+R21	Coreference Arg1:T21 Arg2:T13	
+R22	Agent Arg1:T24 Arg2:T23	
+R23	Attribute Arg1:T24 Arg2:T25	
+T18	INTELLIGENT-AGENT 402 411	neighbors
+R24	Poss Arg1:T27 Arg2:T18	
+R25	Attribute Arg1:T18 Arg2:T28	
+R26	In_Out Arg1:T26 Arg2:T28	
+R27	Apply-to Arg1:T26 Arg2:T22	
+R28	Apply-to Arg1:T21 Arg2:T22	
+R29	Target Arg1:T22 Arg2:T24	
+T62	PROCESS 424 435	advertising
+R30	Output Arg1:T62 Arg2:T30	
+R31	Attribute Arg1:T29 Arg2:T30	
+R32	Coreference Arg1:T27 Arg2:T23	
+R33	Coreference Arg1:T29 Arg2:T27	
+R34	Apply-to Arg1:T62 Arg2:T22	
+R35	Apply-to Arg1:T31 Arg2:T22	
+R36	Target Arg1:T31 Arg2:T32	
+R38	Attribute Arg1:T36 Arg2:T35	
+R39	Apply-to Arg1:T36 Arg2:T22	
+T33	REFERENCE 555 564	the paper
+A3	Self T33
+T63	PLAN 614 620	static
+R40	Other-rel Arg1:T39 Arg2:T40	
+R41	Other-rel Arg1:T63 Arg2:T40	
+R42	Attribute Arg1:T42 Arg2:T41	
+R43	Apply-to Arg1:T42 Arg2:T43	
+R44	Input Arg1:T43 Arg2:T44	
+R45	Attribute Arg1:T43 Arg2:T45	
+R46	In_Out Arg1:T42 Arg2:T63	
+R47	In_Out Arg1:T42 Arg2:T39	
+R48	Member-collection Arg1:T63 Arg2:T46	
+R49	Member-collection Arg1:T39 Arg2:T46	
+R50	Apply-to Arg1:T46 Arg2:T47	
+R51	In_Out Arg1:T47 Arg2:T48	
+T64	DATA-ITEM 729 738	interests
+R52	Attribute Arg1:T50 Arg2:T49	
+R53	Attribute Arg1:T50 Arg2:T64	
+R54	Attribute Arg1:T64 Arg2:T48	
+R55	Attribute Arg1:T49 Arg2:T48	
+R57	Output Arg1:T54 Arg2:T55	
+R58	Other-rel Arg1:T56 Arg2:T57	
+R56	Destination Arg1:T54 Arg2:T56	
+A4	Intentional T37
+R59	Condition Arg1:T37 Arg2:T33	
+R60	Apply-to Arg1:T38 Arg2:T37	
+R61	Attribute Arg1:T52 Arg2:T51	
+R62	Condition Arg1:T47 Arg2:T52	
+R63	In_Out Arg1:T52 Arg2:T53	
+R64	Attribute Arg1:T54 Arg2:T51	
+R65	Condition Arg1:T47 Arg2:T54	
+T65	PROCESS 502 509	routing
+R37	Apply-to Arg1:T32 Arg2:T65	
+R66	Target Arg1:T65 Arg2:T34	
+A5	Judgment T45
+R67	Output Arg1:T37 Arg2:T42	

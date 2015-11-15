@@ -1,0 +1,122 @@
+T1	APPLY-TO 290 298	based on
+T2	PLAN-OR-PROCESS 299 307	learning
+T3	PROCESS 523 530	forming
+T4	PROCESS 546 552	decide
+T5	PROCESS 746 753	engages
+T6	PLAN-OR-PROCESS 759 766	arguing
+T7	PROCESS 797 805	contrast
+T8	PROCESS 161 169	designed
+T9	QUALITY 279 289	completely
+T10	JUDGING-PROCESS 652 660	improves
+T11	JUDGING-PROCESS 887 895	improves
+T12	QUANTITY 174 177	two
+T13	PLAN-OR-PROCESS 13 31	Joint Deliberation
+T14	PLAN-OR-PROCESS 40 53	Argumentation
+T15	PLAN 57 76	Multi-Agent Systems
+T16	PLAN 110 133	argumentation framework
+T17	INTELLIGENT-AGENT 138 153	learning agents
+T19	PLAN-OR-PROCESS 178 186	purposes
+T20	PLAN-OR-PROCESS 196 214	joint deliberation
+T21	DATA-ITEM 242 255	communication
+T22	PLAN 261 275	AMAL framework
+T23	DATA-ITEM 313 321	examples
+T24	PLAN 327 355	argument preference relation
+T25	PLAN 361 387	argument generation policy
+T26	PLAN 397 430	counterargument generation policy
+T27	PLAN 435 456	case-based techniques
+T28	PLAN-OR-PROCESS 462 479	join deliberation
+T29	INTELLIGENT-AGENT 481 496	learning agents
+T30	DATA-ITEM 509 519	experience
+T31	INTELLIGENT-AGENT 533 542	committee
+T32	DATA-ITEM 563 577	joint decision
+T33	PLAN-OR-PROCESS 611 624	argumentation
+T34	INTELLIGENT-AGENT 631 641	committees
+T35	INTELLIGENT-AGENT 645 651	agents
+T36	QUALITY 685 702	joint performance
+T37	DATA-ITEM 722 735	communication
+T38	INTELLIGENT-AGENT 740 745	agent
+T39	INTELLIGENT-AGENT 778 784	agents
+T40	DATA-ITEM 810 831	individual hypotheses
+T41	DATA-ITEM 844 859	counterexamples
+T42	PLAN-OR-PROCESS 865 886	argumentation process
+T43	QUALITY 902 916	learning scope
+T44	QUALITY 921 943	individual performance
+T45	PLAN-OR-PROCESS 0 8	Learning
+R1	Attribute Arg1:T19 Arg2:T12	
+T46	PLAN-OR-PROCESS 228 236	learning
+T47	PLAN 261 265	AMAL
+T48	PROCESS 497 502	share
+T49	QUANTITY 558 562	some
+R2	Attribute Arg1:T32 Arg2:T49	
+T50	QUALITY 670 680;691 702	individual performance
+T51	PLAN-OR-PROCESS 708 716	learning
+T52	REFERENCE 806 809	its
+R3	Coreference Arg1:T52 Arg2:T38	
+T54	PROCESS 836 843	receive
+R6	Attribute Arg1:T1 Arg2:T9	
+T56	REFERENCE 896 901	their
+T57	QUALITY 772 777	other
+R9	Attribute Arg1:T39 Arg2:T57	
+R10	Coreference Arg1:T56 Arg2:T52	
+T58	PLAN 155 159	AMAL
+R11	Member-collection Arg1:T35 Arg2:T34	
+T59	REFERENCE 503 508	their
+R4	Coreference Arg1:T59 Arg2:T29	
+R12	Poss Arg1:T59 Arg2:T30	
+R13	Poss Arg1:T52 Arg2:T40	
+R14	Poss Arg1:T56 Arg2:T43	
+R15	Apply-to Arg1:T14 Arg2:T13	
+R16	Apply-to Arg1:T14 Arg2:T45	
+R17	Condition Arg1:T45 Arg2:T15	
+R18	Condition Arg1:T13 Arg2:T15	
+R19	Other-rel Arg1:T16 Arg2:T17	
+R21	Output Arg1:T8 Arg2:T16	
+R22	Apply-to Arg1:T8 Arg2:T19	
+R23	Is-a Arg1:T20 Arg2:T19	
+R24	Is-a Arg1:T46 Arg2:T19	
+R25	Input Arg1:T46 Arg2:T21	
+R20	Is-a Arg1:T58 Arg2:T16	
+R26	from Arg1:T1 Arg2:T2	
+R27	to Arg1:T1 Arg2:T22	
+R28	Input Arg1:T2 Arg2:T23	
+R29	Is-a Arg1:T24 Arg2:T27	
+R30	Is-a Arg1:T25 Arg2:T27	
+R31	Is-a Arg1:T26 Arg2:T27	
+R32	Agent Arg1:T48 Arg2:T29	
+R33	Output Arg1:T48 Arg2:T30	
+R34	Apply-to Arg1:T3 Arg2:T48	
+R35	Output Arg1:T3 Arg2:T31	
+R36	Apply-to Arg1:T3 Arg2:T4	
+R37	Output Arg1:T4 Arg2:T32	
+R38	Agent Arg1:T33 Arg2:T34	
+R39	Apply-to Arg1:T33 Arg2:T10	
+R7	In_Out Arg1:T10 Arg2:T50	
+R8	In_Out Arg1:T10 Arg2:T36	
+R40	Input Arg1:T51 Arg2:T37	
+R41	Agent Arg1:T5 Arg2:T38	
+R42	Destination Arg1:T5 Arg2:T6	
+R43	Target Arg1:T6 Arg2:T39	
+T60	APPLY-TO 785 796	in order to
+R44	Target Arg1:T7 Arg2:T40	
+R47	In_Out Arg1:T54 Arg2:T41	
+R48	Apply-to Arg1:T42 Arg2:T11	
+R49	In_Out Arg1:T11 Arg2:T43	
+R50	In_Out Arg1:T11 Arg2:T44	
+R5	from Arg1:T60 Arg2:T5	
+R45	to Arg1:T60 Arg2:T7	
+R51	to Arg1:T60 Arg2:T54	
+R46	Poss Arg1:T56 Arg2:T44	
+T18	REFERENCE 80 90	this paper
+T53	PERSON 91 93	we
+T55	PROCESS 99 106	present
+T61	PERSON 579 581	We
+T62	QUALITY 582 596	experimentally
+T63	PROCESS 597 601	show
+R52	Apply-to Arg1:T5 Arg2:T51	
+R53	Agent Arg1:T63 Arg2:T61	
+R54	Agent Arg1:T55 Arg2:T53	
+R55	Condition Arg1:T55 Arg2:T18	
+R56	Output Arg1:T55 Arg2:T16	
+T64	MODALITY 94 98	will
+R57	Attribute Arg1:T55 Arg2:T64	
+R58	Output Arg1:T63 Arg2:T10	

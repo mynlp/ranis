@@ -1,0 +1,138 @@
+T1	PROCESS 16 25	Exploring
+T2	DATA-ITEM 26 47	IR Evaluation Results
+T3	PLAN-OR-PROCESS 53 69	Network Analysis
+T4	PROCESS 5 9	Hits
+T5	PLAN 0 4	HITS
+T6	PLAN 10 14	TREC
+T7	QUALITY 83 88	novel
+T8	PLAN 89 95	method
+T9	PROCESS 99 108	analysing
+T10	DATA-ITEM 109 113	data
+T11	PROCESS 114 122	gathered
+T12	PLAN 128 132	TREC
+T13	QUALITY 136 143	similar
+T14	PLAN 144 188	information retrieval evaluation experiments
+T15	QUANTITY 200 203	two
+T16	PLAN 204 223	normalized versions
+T17	PLAN 227 244	average precision
+T18	PROCESS 254 257	use
+T19	PROCESS 261 270	construct
+T20	DATA-ITEM 273 297	weighted bipartite graph
+T21	PLAN 301 305	TREC
+T22	PLAN 301 313	TREC systems
+T23	DATA-ITEM 301 305;318 324	TREC topics
+T24	REFERENCE 246 250	that
+R1	Coreference Arg1:T24 Arg2:T16	
+T27	QUALITY 341 348	meaning
+T28	QUALITY 352 362	well known
+T29	QUALITY 370 390	somewhat generalized
+T30	DATA-ITEM 394 404	indicators
+T31	PLAN-OR-PROCESS 410 433	social network analysis
+T32	DATA-ITEM 441 461	Systems-Topics graph
+T33	PLAN 472 483	this method
+T34	PROCESS 466 471	apply
+T35	PLAN-OR-PROCESS 490 498	analysis
+T36	PLAN 502 508	TREC 8
+T37	DATA-ITEM 502 513	TREC 8 data
+R2	Coreference Arg1:T33 Arg2:T8	
+T39	PROCESS 557 565	measures
+T40	PLAN 547 556	authority
+T41	DATA-ITEM 566 585	systems performance
+T42	QUALITY 592 599	hubness
+T43	DATA-ITEM 603 609	topics
+T44	RESULT 610 617	reveals
+T45	DATA-ITEM 628 634	topics
+T46	QUANTITY 623 627	some
+T47	QUALITY 639 645	better
+T48	DATA-ITEM 651 657	others
+T49	PROCESS 661 675	distinguishing
+T50	QUALITY 676 698	more or less effective
+T51	PLAN 699 706	systems
+T52	PLAN 737 743	system
+T53	PLAN 726 734	measures
+T54	TIME 718 725	current
+T55	REFERENCE 744 748	that
+R3	Coreference Arg1:T55 Arg2:T52	
+T56	MODALITY 749 754	wants
+T57	QUALITY 761 770	effective
+T58	PLAN 774 778	TREC
+T59	QUALITY 791 800	effective
+T60	QUALITY 804 808	easy
+T61	DATA-ITEM 809 815	topics
+T62	MODALITY 779 784	needs
+T63	PROCESS 829 834	using
+T64	QUALITY 835 844	different
+T65	PLAN 845 867	effectiveness measures
+T66	MODALITY 876 885	no longer
+T67	REFERENCE 868 872	this
+T68	THING 890 894	case
+R4	Attribute Arg1:T8 Arg2:T7	
+R5	Attribute Arg1:T16 Arg2:T15	
+R6	Attribute Arg1:T45 Arg2:T46	
+R7	Attribute Arg1:T61 Arg2:T60	
+R8	Attribute Arg1:T14 Arg2:T13	
+R9	Attribute Arg1:T51 Arg2:T50	
+R10	Attribute Arg1:T53 Arg2:T54	
+R11	Attribute Arg1:T65 Arg2:T64	
+R12	Attribute Arg1:T30 Arg2:T28	
+R13	Attribute Arg1:T30 Arg2:T29	
+R14	Attribute Arg1:T45 Arg2:T47	
+R15	Compare Arg1:T48 Arg2:T47	
+R16	Other-rel Arg1:T4 Arg2:T5	
+R17	Other-rel Arg1:T4 Arg2:T6	
+R18	Input Arg1:T1 Arg2:T2	
+R19	Apply-to Arg1:T3 Arg2:T1	
+R20	Apply-to Arg1:T8 Arg2:T9	
+R21	Input Arg1:T9 Arg2:T10	
+R22	Output Arg1:T11 Arg2:T10	
+R23	Origin Arg1:T11 Arg2:T12	
+R24	Origin Arg1:T11 Arg2:T14	
+R25	Is-a Arg1:T16 Arg2:T17	
+R26	Input Arg1:T18 Arg2:T24	
+R27	Apply-to Arg1:T18 Arg2:T19	
+R28	Output Arg1:T19 Arg2:T20	
+R29	Component-object Arg1:T22 Arg2:T20	
+R30	Component-object Arg1:T23 Arg2:T20	
+R31	Attribute Arg1:T30 Arg2:T27	
+R34	Input Arg1:T34 Arg2:T33	
+R35	Apply-to Arg1:T34 Arg2:T35	
+R36	Input Arg1:T35 Arg2:T37	
+R37	Attribute Arg1:T43 Arg2:T42	
+R38	Condition Arg1:T47 Arg2:T49	
+R39	Output Arg1:T49 Arg2:T51	
+R40	Apply-to Arg1:T40 Arg2:T39	
+R41	Output Arg1:T39 Arg2:T41	
+R42	from Arg1:T44 Arg2:T42	
+R43	to Arg1:T44 Arg2:T47	
+R45	Other-rel Arg1:T57 Arg2:T56	
+R46	Condition Arg1:T57 Arg2:T58	
+R48	Attribute Arg1:T59 Arg2:T62	
+R50	Apply-to Arg1:T65 Arg2:T63	
+T75	PROCESS 329 336	analyze
+R51	Output Arg1:T75 Arg2:T27	
+R52	Apply-to Arg1:T31 Arg2:T75	
+R32	Input Arg1:T31 Arg2:T32	
+T76	PROCESS 537 541	find
+R44	Attribute Arg1:T55 Arg2:T57	
+R55	Condition Arg1:T53 Arg2:T59	
+R56	Input Arg1:T52 Arg2:T61	
+R57	Attribute Arg1:T68 Arg2:T66	
+R58	Is-a Arg1:T67 Arg2:T68	
+R60	Other-rel Arg1:T63 Arg2:T68	
+R47	Attribute Arg1:T52 Arg2:T59	
+T25	PERSON 70 72	We
+T26	PROCESS 73 80	propose
+T38	PERSON 190 192	We
+T69	PROCESS 193 199	define
+T70	PERSON 251 253	we
+T71	PERSON 326 328	We
+T72	PERSON 463 465	We
+T73	PERSON 534 536	we
+R61	Agent Arg1:T26 Arg2:T25	
+R62	Output Arg1:T26 Arg2:T8	
+R63	Agent Arg1:T69 Arg2:T38	
+R64	Output Arg1:T69 Arg2:T16	
+R65	Agent Arg1:T18 Arg2:T70	
+R66	Agent Arg1:T75 Arg2:T71	
+R67	Agent Arg1:T34 Arg2:T72	
+R68	Agent Arg1:T76 Arg2:T73	

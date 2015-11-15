@@ -1,0 +1,96 @@
+T1	PLAN-OR-PROCESS 0 17	Service Interface
+T2	QUALITY 21 24	New
+T3	PLAN-OR-PROCESS 25 36	Abstraction
+T4	PLAN 41 53	Implementing
+T5	PLAN 58 77	Composing Protocols
+T6	REFERENCE 81 91	this paper
+T7	PERSON 92 94	we
+T8	PROCESS 95 102	compare
+T9	QUANTITY 103 106	two
+T10	PLAN 107 117	approaches
+T11	PLAN-OR-PROCESS 125 131	design
+T12	PLAN 135 154	protocol frameworks
+T13	PROCESS 168 180	implementing
+T14	QUALITY 181 188	modular
+T15	PLAN 189 206	network protocols
+T16	QUALITY 212 223	most common
+T17	PLAN 224 232	approach
+T18	IN_OUT 233 237	uses
+T19	DATA-ITEM 238 244	events
+T20	PLAN-OR-PROCESS 257 268	abstraction
+T21	PLAN-OR-PROCESS 275 292	local interaction
+T22	PLAN 301 317	protocol modules
+T23	PERSON 319 321	We
+T24	PROCESS 322 327	argue
+T25	PLAN 348 356	approach
+T26	REFERENCE 358 362	that
+T27	APPLY-TO 366 374	based on
+T28	PLAN-OR-PROCESS 375 394	service abstraction
+T29	QUALITY 399 412	more suitable
+T30	PROCESS 417 427	expressing
+T31	PLAN 428 445	modular protocols
+T32	REFERENCE 447 449	It
+T33	PROCESS 455 466	facilitates
+T34	QUALITY 467 475	advanced
+T35	DATA-ITEM 476 484	features
+T36	PLAN-OR-PROCESS 492 498	design
+T37	PLAN 502 511	protocols
+T38	PLAN-OR-PROCESS 521 535	dynamic update
+T39	PLAN 539 560	distributed protocols
+T40	PERSON 562 564	We
+T41	PROCESS 570 578	describe
+T42	PLAN 582 609	experimental implementation
+T43	PLAN 615 647	service-based protocol framework
+T44	PLAN 651 655	Java
+R1	Attribute Arg1:T3 Arg2:T2	
+R2	Apply-to Arg1:T3 Arg2:T4	
+R3	Apply-to Arg1:T3 Arg2:T5	
+A1	Self T6
+A2	Self T7
+A3	Intentional T8
+R4	Agent Arg1:T8 Arg2:T7	
+R5	Condition Arg1:T8 Arg2:T6	
+R6	Attribute Arg1:T10 Arg2:T9	
+R7	Input Arg1:T8 Arg2:T10	
+R8	Apply-to Arg1:T8 Arg2:T11	
+T45	PLAN 158 163	tools
+R9	Output Arg1:T11 Arg2:T12	
+R10	Attribute Arg1:T15 Arg2:T14	
+R11	Output Arg1:T13 Arg2:T15	
+R12	Apply-to Arg1:T45 Arg2:T13	
+R13	Equivalence Arg1:T45 Arg2:T12	
+R14	Attribute Arg1:T17 Arg2:T16	
+R15	Target Arg1:T21 Arg2:T22	
+R16	from Arg1:T18 Arg2:T17	
+R17	to Arg1:T18 Arg2:T19	
+T46	QUALITY 252 256	main
+R18	Attribute Arg1:T20 Arg2:T46	
+R19	Apply-to Arg1:T20 Arg2:T21	
+R21	Component-object Arg1:T17 Arg2:T20	
+A4	Self T23
+A5	Intentional T24
+R22	Agent Arg1:T24 Arg2:T23	
+T47	QUALITY 336 347	alternative
+R23	Attribute Arg1:T25 Arg2:T47	
+R24	Coreference Arg1:T26 Arg2:T25	
+R25	from Arg1:T27 Arg2:T28	
+R26	to Arg1:T27 Arg2:T26	
+R27	Attribute Arg1:T25 Arg2:T29	
+A6	Judgment T29
+R28	Condition Arg1:T29 Arg2:T30	
+R29	Output Arg1:T30 Arg2:T31	
+R20	Output Arg1:T24 Arg2:T25	
+R30	Coreference Arg1:T32 Arg2:T25	
+R31	Attribute Arg1:T35 Arg2:T34	
+R32	Target Arg1:T33 Arg2:T35	
+R33	Apply-to Arg1:T32 Arg2:T33	
+R34	In_Out Arg1:T38 Arg2:T39	
+R35	Output Arg1:T36 Arg2:T37	
+R36	Attribute Arg1:T36 Arg2:T35	
+R37	Is-a Arg1:T38 Arg2:T36	
+A7	Self T40
+A8	Intentional T41
+R38	Agent Arg1:T41 Arg2:T40	
+R39	Output Arg1:T41 Arg2:T42	
+R40	Output Arg1:T42 Arg2:T43	
+R42	Apply-to Arg1:T44 Arg2:T43	

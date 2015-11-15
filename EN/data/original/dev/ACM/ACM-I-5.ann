@@ -1,0 +1,93 @@
+T2	PLAN-OR-PROCESS 8 55	Self-organising Agent-based Resource Allocation
+T3	PLAN 61 85	Multi-Server Environment
+T4	PLAN 86 110	Distributed applications
+T5	QUALITY 111 118	require
+T6	QUALITY 119 130	distributed
+T7	PLAN 131 141	techniques
+T8	QUALITY 146 155	efficient
+T9	PLAN-OR-PROCESS 156 175	resource allocation
+T10	PLAN 177 193	These techniques
+T11	MODALITY 194 198	need
+T12	PROCESS 202 219	take into account
+T13	DATA-ITEM 224 237	heterogeneity
+T14	QUALITY 242 251	potential
+T15	DATA-ITEM 252 265	unreliability
+T16	DATA-ITEM 269 278	resources
+T17	INTELLIGENT-AGENT 283 301	resource consumers
+T18	PLAN 307 331	distributed environments
+T19	REFERENCE 336 346	this paper
+T20	PERSON 347 349	we
+T21	PROCESS 350 357	propose
+T22	PLAN 360 381	distributed algorithm
+T23	REFERENCE 382 386	that
+T24	PROCESS 387 393	solves
+T25	PLAN 398 425	resource allocation problem
+T26	PLAN 429 460	distributed multi-agent systems
+T27	PERSON 462 465	Our
+T28	PLAN 466 474	solution
+T29	APPLY-TO 478 486	based on
+T30	PLAN 491 508	self-organisation
+T31	INTELLIGENT-AGENT 512 518	agents
+T32	REFERENCE 520 525	which
+T33	MODALITY 531 534	not
+T34	QUALITY 535 542	require
+T35	INTELLIGENT-AGENT 547 558	facilitator
+T36	PLAN 562 578	management layer
+T37	PLAN-OR-PROCESS 584 603	resource allocation
+T38	PLAN 611 617	system
+T39	QUALITY 623 638	purely emergent
+T40	PLAN-OR-PROCESS 639 645	effect
+T41	PERSON 647 649	We
+T42	PROCESS 650 657	present
+T43	DATA-ITEM 658 665	results
+T44	PLAN 673 711	proposed resource allocation mechanism
+T45	PLAN 719 735	simulated static
+T46	PLAN 740 772	dynamic multi-server environment
+R1	Attribute Arg1:T9 Arg2:T8	
+R2	Attribute Arg1:T7 Arg2:T6	
+R3	Apply-to Arg1:T7 Arg2:T9	
+R4	Attribute Arg1:T7 Arg2:T5	
+R5	Condition Arg1:T5 Arg2:T4	
+R6	Coreference Arg1:T10 Arg2:T7	
+R7	Target Arg1:T12 Arg2:T13	
+R8	Attribute Arg1:T15 Arg2:T14	
+R9	Target Arg1:T12 Arg2:T15	
+R10	Attribute Arg1:T16 Arg2:T15	
+R11	Attribute Arg1:T13 Arg2:T16	
+R12	Attribute Arg1:T13 Arg2:T17	
+R13	Attribute Arg1:T17 Arg2:T15	
+R16	Other-rel Arg1:T17 Arg2:T18	
+R17	Other-rel Arg1:T16 Arg2:T18	
+A1	Self T19
+A2	Self T20
+A3	Intentional T21
+R18	Agent Arg1:T21 Arg2:T20	
+R19	Condition Arg1:T21 Arg2:T19	
+R20	Output Arg1:T21 Arg2:T22	
+R21	Coreference Arg1:T23 Arg2:T22	
+R22	Apply-to Arg1:T23 Arg2:T24	
+R23	Target Arg1:T24 Arg2:T25	
+R24	Component-object Arg1:T26 Arg2:T25	
+A4	Self T27
+R25	Poss Arg1:T27 Arg2:T28	
+R26	Agent Arg1:T30 Arg2:T31	
+R27	from Arg1:T29 Arg2:T30	
+R28	to Arg1:T29 Arg2:T28	
+R29	Coreference Arg1:T32 Arg2:T30	
+R30	Attribute Arg1:T35 Arg2:T34	
+R31	Attribute Arg1:T36 Arg2:T34	
+R32	Attribute Arg1:T34 Arg2:T33	
+R33	Condition Arg1:T34 Arg2:T32	
+R34	Attribute Arg1:T40 Arg2:T39	
+R35	Apply-to Arg1:T2 Arg2:T3	
+R36	Apply-to Arg1:T37 Arg2:T38	
+R37	Is-a Arg1:T37 Arg2:T40	
+A5	Self T41
+A6	Intentional T42
+R38	Agent Arg1:T42 Arg2:T41	
+R39	Output Arg1:T42 Arg2:T43	
+R40	Attribute Arg1:T44 Arg2:T43	
+R41	Apply-to Arg1:T44 Arg2:T45	
+R42	Apply-to Arg1:T44 Arg2:T46	
+R14	Attribute Arg1:T12 Arg2:T11	
+R15	Apply-to Arg1:T10 Arg2:T12	

@@ -1,0 +1,8 @@
+Using Three Way Data for Word Sense Discrimination .
+In this paper , an extension of a dimensionality reduction algorithm called NONNEGATIVE MATRIX FACTORIZATION is presented that combines both ` bag of words ' data and syntactic data , in order to find semantic dimensions according to which both words and syntactic relations can be classified .
+The use of three way data allows one to determine which dimension ( s ) are responsible for a certain sense of a word , and adapt the corresponding feature vector accordingly , ` subtracting ' one sense to discover another one .
+The intuition in this is that the syntactic features of the syntax-based approach can be disambiguated by the semantic dimensions found by the bag of words approach .
+The novel approach is embedded into clustering algorithms , to make it fully automatic .
+The approach is carried out for Dutch , and evaluated against EuroWordNet .
+
+

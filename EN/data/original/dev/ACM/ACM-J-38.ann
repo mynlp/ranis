@@ -1,0 +1,97 @@
+T1	PLAN 0 33	Multi-Attribute Coalitional Games
+T2	PLAN 43 60	coalitional games
+T3	DATA-ITEM 71 76	value
+T4	PLAN-OR-PROCESS 80 91	cooperation
+T5	INTELLIGENT-AGENT 102 108	agents
+T6	QUALITY 113 119	solely
+T7	PROCESS 120 130	determined
+T8	DATA-ITEM 138 148	attributes
+T9	INTELLIGENT-AGENT 153 159	agents
+T10	PLAN 177 187	assumption
+T11	QUANTITY 174 176	no
+T12	PROCESS 223 232	determine
+T13	DATA-ITEM 233 243	this value
+R1	Coreference Arg1:T13 Arg2:T3	
+T14	DATA-ITEM 198 214	these attributes
+T15	QUALITY 215 222	jointly
+T16	PLAN 245 259	This framework
+T17	PROCESS 260 266	allows
+T18	PROCESS 273 278	model
+T19	PLAN-OR-PROCESS 287 308	economic interactions
+T20	PROCESS 312 319	picking
+T21	DATA-ITEM 330 340	attributes
+T22	QUALITY 324 329	right
+T23	QUALITY 355 379	computational complexity
+T24	QUANTITY 383 386	two
+T25	PLAN 387 416	coalitional solution concepts
+T26	PLAN 421 432	these games
+T27	PLAN 440 453	Shapley value
+T28	PLAN 462 466	core
+T29	QUALITY 484 492	positive
+T30	DATA-ITEM 493 500	results
+T31	PLAN 559 564	games
+T32	PROCESS 565 572	studied
+T33	EXTERNAL-REFERENCE 580 590	literature
+T34	DATA-ITEM 541 548	results
+T35	QUALITY 530 540	comparable
+T36	RESULT 524 529	imply
+T37	QUALITY 553 558	other
+R2	Attribute Arg1:T7 Arg2:T6	
+R3	Attribute Arg1:T10 Arg2:T11	
+R4	Attribute Arg1:T12 Arg2:T15	
+R5	Attribute Arg1:T21 Arg2:T22	
+R6	Attribute Arg1:T25 Arg2:T24	
+T38	PERSON 440 447	Shapley
+R7	Attribute Arg1:T30 Arg2:T29	
+R8	Attribute Arg1:T34 Arg2:T35	
+R9	Attribute Arg1:T31 Arg2:T37	
+T39	ATTRIBUTE 160 167	possess
+R10	Coreference Arg1:T14 Arg2:T8	
+T44	REFERENCE 61 66	where
+R11	Coreference Arg1:T44 Arg2:T2	
+R12	Coreference Arg1:T16 Arg2:T2	
+R13	Coreference Arg1:T26 Arg2:T16	
+T45	QUALITY 279 286	diverse
+R14	Attribute Arg1:T19 Arg2:T45	
+R15	Attribute Arg1:T25 Arg2:T23	
+T46	PERSON 267 269	us
+R16	Apply-to Arg1:T16 Arg2:T17	
+R17	Agent Arg1:T18 Arg2:T46	
+R18	Target Arg1:T17 Arg2:T46	
+R19	In_Out Arg1:T18 Arg2:T19	
+R20	In_Out Arg1:T20 Arg2:T21	
+R21	Apply-to Arg1:T20 Arg2:T18	
+R22	Attribute Arg1:T4 Arg2:T3	
+R23	Attribute Arg1:T4 Arg2:T5	
+R24	Output Arg1:T7 Arg2:T3	
+R25	Input Arg1:T7 Arg2:T8	
+R26	from Arg1:T39 Arg2:T9	
+R27	to Arg1:T39 Arg2:T8	
+R28	Condition Arg1:T7 Arg2:T44	
+R29	Condition Arg1:T7 Arg2:T10	
+R30	Input Arg1:T12 Arg2:T14	
+R31	Output Arg1:T12 Arg2:T13	
+R32	Apply-to Arg1:T25 Arg2:T26	
+R33	Is-a Arg1:T27 Arg2:T25	
+R34	Is-a Arg1:T28 Arg2:T25	
+R35	In_Out Arg1:T32 Arg2:T31	
+R36	Condition Arg1:T32 Arg2:T33	
+R38	to Arg1:T36 Arg2:T35	
+R39	from Arg1:T36 Arg2:T30	
+R37	Compare Arg1:T31 Arg2:T35	
+T40	PERSON 34 36	We
+T41	PROCESS 37 42	study
+T42	PERSON 342 344	We
+T43	PROCESS 345 350	study
+T47	PERSON 468 470	We
+T48	PROCESS 471 475	show
+R40	Agent Arg1:T41 Arg2:T40	
+R41	Input Arg1:T41 Arg2:T2	
+R42	Agent Arg1:T43 Arg2:T42	
+R43	In_Out Arg1:T43 Arg2:T23	
+R44	Agent Arg1:T48 Arg2:T47	
+R45	Output Arg1:T48 Arg2:T29	
+T49	REFERENCE 513 523	this paper
+T50	PROCESS 501 509	obtained
+R46	Condition Arg1:T50 Arg2:T49	
+R47	In_Out Arg1:T50 Arg2:T30	

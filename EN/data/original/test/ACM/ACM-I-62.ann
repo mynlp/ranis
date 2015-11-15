@@ -1,0 +1,129 @@
+T1	PLAN-OR-PROCESS 47 66	Resource Allocation
+T2	PLAN 2 17;35 43	Q-decomposition Approach
+T3	PLAN 22 43	Bounded RTDP Approach
+T5	PLAN 122 150	resource allocation problems
+T7	QUALITY 163 174	NP-Complete
+T8	ATTRIBUTE 151 156	known
+T9	PROCESS 179 186	address
+T10	PLAN 187 191;200 227	this resource management problem
+T6	PLAN 231 255	Q-decomposition approach
+T12	CONTINUANT 277 286	resources
+T13	TIME 297 304	already
+T14	PROCESS 305 311	shared
+T15	INTELLIGENT-AGENT 322 328	agents
+T16	PROCESS 338 345	actions
+T17	PROCESS 346 350	made
+T18	INTELLIGENT-AGENT 357 362	agent
+T19	MODALITY 363 366	may
+T20	RESULT 367 376	influence
+T21	DATA-ITEM 381 387	reward
+T22	PROCESS 388 396	obtained
+T23	INTELLIGENT-AGENT 417 422	agent
+T24	PLAN 428 443	Q-decomposition
+T25	PROCESS 454 464	coordinate
+T26	INTELLIGENT-AGENT 465 494	these reward separated agents
+T27	PROCESS 444 450	allows
+T28	PROCESS 504 511	permits
+T29	PROCESS 515 521	reduce
+T30	PLAN-OR-PROCESS 533 539	states
+T31	PLAN-OR-PROCESS 544 551	actions
+T32	PROCESS 555 563	consider
+T33	CONTINUANT 593 602	resources
+T34	QUALITY 607 616	available
+T35	INTELLIGENT-AGENT 624 630	agents
+T36	QUANTITY 620 623	all
+T37	PLAN 635 650	Q-decomposition
+T38	QUANTITY 632 634	no
+T39	QUALITY 654 662	possible
+T40	PLAN 674 690	heuristic search
+T41	PROCESS 670 673	use
+T42	PLAN 711 748	bounded Real-time Dynamic Programming
+T43	PLAN 750 762	bounded rtdp
+R2	Equivalence Arg1:T43 Arg2:T42	
+T44	PROCESS 767 771	used
+T45	PLAN 773 785	Bounded rtdp
+T46	PROCESS 786 798	concentrates
+T47	PLAN-OR-PROCESS 803 811	planning
+T48	QUALITY 815 826	significant
+T49	DATA-ITEM 827 833	states
+T50	PROCESS 843 849	prunes
+T51	DATA-ITEM 854 866	action space
+T52	QUALITY 834 838	only
+T53	PLAN-OR-PROCESS 872 879	pruning
+T54	PROCESS 883 895	accomplished
+T55	PROCESS 899 908	proposing
+T56	PLAN 945 959	value function
+T57	DATA-ITEM 925 937	lower bounds
+T58	DATA-ITEM 915 920;931 937	upper bounds
+R4	Condition Arg1:T14 Arg2:T13	
+R5	Attribute Arg1:T20 Arg2:T19	
+T59	QUALITY 400 408	at least
+T60	QUALITY 409 416	another
+R6	Attribute Arg1:T60 Arg2:T59	
+R7	Attribute Arg1:T23 Arg2:T60	
+R8	Attribute Arg1:T33 Arg2:T34	
+R9	Attribute Arg1:T35 Arg2:T36	
+R10	Attribute Arg1:T37 Arg2:T38	
+R11	Attribute Arg1:T37 Arg2:T39	
+R12	Attribute Arg1:T49 Arg2:T48	
+T61	REFERENCE 287 292	which
+R14	Coreference Arg1:T61 Arg2:T12	
+T63	PROCESS 93 98	solve
+R15	Coreference Arg1:T26 Arg2:T18	
+R16	Coreference Arg1:T26 Arg2:T23	
+T62	QUALITY 192 199	complex
+T66	PLAN-OR-PROCESS 526 529	set
+R17	Member-collection Arg1:T30 Arg2:T66	
+R18	Member-collection Arg1:T31 Arg2:T66	
+R13	Attribute Arg1:T49 Arg2:T52	
+T67	QUALITY 909 914	tight
+R20	Attribute Arg1:T58 Arg2:T67	
+R21	Attribute Arg1:T57 Arg2:T67	
+R22	Attribute Arg1:T10 Arg2:T62	
+R23	Apply-to Arg1:T3 Arg2:T1	
+R24	Apply-to Arg1:T2 Arg2:T1	
+R26	Target Arg1:T63 Arg2:T5	
+R27	Target Arg1:T9 Arg2:T10	
+R28	Apply-to Arg1:T6 Arg2:T9	
+R19	In_Out Arg1:T14 Arg2:T61	
+R29	Destination Arg1:T14 Arg2:T15	
+R30	Agent Arg1:T17 Arg2:T18	
+R31	Output Arg1:T17 Arg2:T16	
+R32	from Arg1:T20 Arg2:T16	
+R33	to Arg1:T20 Arg2:T21	
+R34	Output Arg1:T22 Arg2:T21	
+R35	Agent Arg1:T22 Arg2:T23	
+R36	Target Arg1:T27 Arg2:T25	
+R37	Apply-to Arg1:T24 Arg2:T27	
+R38	In_Out Arg1:T25 Arg2:T26	
+R39	Target Arg1:T28 Arg2:T29	
+R40	In_Out Arg1:T29 Arg2:T66	
+R41	Input Arg1:T32 Arg2:T66	
+R42	Result Arg1:T27 Arg2:T28	
+R43	Apply-to Arg1:T24 Arg2:T28	
+R44	Condition Arg1:T34 Arg2:T35	
+R45	Apply-to Arg1:T40 Arg2:T41	
+R46	Apply-to Arg1:T42 Arg2:T44	
+R47	Apply-to Arg1:T45 Arg2:T46	
+R48	Output Arg1:T46 Arg2:T47	
+R49	Destination Arg1:T46 Arg2:T49	
+R50	Apply-to Arg1:T45 Arg2:T50	
+R51	In_Out Arg1:T50 Arg2:T51	
+R52	Output Arg1:T54 Arg2:T53	
+R53	Apply-to Arg1:T55 Arg2:T54	
+R54	Destination Arg1:T55 Arg2:T56	
+R55	Output Arg1:T55 Arg2:T57	
+R56	Output Arg1:T55 Arg2:T58	
+T68	QUALITY 99 121	effectively stochastic
+R57	Attribute Arg1:T5 Arg2:T68	
+R3	from Arg1:T8 Arg2:T5	
+R25	to Arg1:T8 Arg2:T7	
+T4	PERSON 667 669	we
+T11	REFERENCE 67 77	This paper
+T64	PROCESS 78 89	contributes
+R1	Output Arg1:T64 Arg2:T63	
+R58	Condition Arg1:T64 Arg2:T11	
+T65	PROCESS 259 267	proposed
+R59	Output Arg1:T65 Arg2:T6	
+R60	Condition Arg1:T65 Arg2:T14	
+R61	Agent Arg1:T41 Arg2:T4	

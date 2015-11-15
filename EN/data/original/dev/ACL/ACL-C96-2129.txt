@@ -1,0 +1,8 @@
+Automatic Detection Of Omissions In Translations .
+ADOMIT is an algorithm for Automatic Detection of OMissions in Translations .
+The algorithm relies solely on geometric analysis of bitext maps and uses no linguistic information .
+This property allows it to deal equally well with omissions that do not correspond to linguistic units , such as might result from word-processing mishaps .
+ADOMIT has proven itself by discovering many errors in a hand-constructed gold standard for evaluating bitext mapping algorithms .
+Quantitative evaluation on simulated omissions showed that , even with today 's poor bitext mapping technology , ADOMIT is a valuable quality control tool for translators and translation bureaus .
+
+

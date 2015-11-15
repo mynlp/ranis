@@ -1,0 +1,103 @@
+R1	Apply-to Arg1:T1 Arg2:T2
+R2	In_Out Arg1:T2 Arg2:T3
+A1	Self T51
+A2	Intentional T52
+R3	Condition Arg1:T52 Arg2:T51
+R4	Output Arg1:T52 Arg2:T4
+R5	Apply-to Arg1:T4 Arg2:T5
+R6	In_Out Arg1:T5 Arg2:T6
+R7	from Arg1:T8 Arg2:T9
+R8	to Arg1:T8 Arg2:T7
+R9	Attribute Arg1:T14 Arg2:T13
+R10	Destination Arg1:T10 Arg2:T7
+R11	Output Arg1:T10 Arg2:T11
+R12	Output Arg1:T10 Arg2:T14
+R13	to Arg1:T18 Arg2:T20
+R14	Attribute Arg1:T18 Arg2:T19
+R15	from Arg1:T18 Arg2:T17
+R16	Compare Arg1:T17 Arg2:T16
+R17	to Arg1:T15 Arg2:T16
+R18	from Arg1:T15 Arg2:T7
+R19	Input Arg1:T23 Arg2:T24
+R20	Component-object Arg1:T25 Arg2:T24
+R21	Input Arg1:T21 Arg2:T23
+R22	Attribute Arg1:T27 Arg2:T28
+R23	to Arg1:T26 Arg2:T27
+R24	from Arg1:T26 Arg2:T21
+R25	Attribute Arg1:T29 Arg2:T27
+A3	Judgment T27
+R26	from Arg1:T31 Arg2:T30
+R27	Attribute Arg1:T33 Arg2:T32
+R28	to Arg1:T31 Arg2:T33
+R29	Attribute Arg1:T35 Arg2:T34
+R30	from Arg1:T36 Arg2:T37
+R31	to Arg1:T36 Arg2:T35
+R32	to Arg1:T12 Arg2:T38
+R33	from Arg1:T12 Arg2:T35
+A4	Judgment T38
+R34	Condition Arg1:T38 Arg2:T39
+R35	Attribute Arg1:T41 Arg2:T40
+R36	In_Out Arg1:T39 Arg2:T40
+R37	Attribute Arg1:T40 Arg2:T42
+R38	Attribute Arg1:T44 Arg2:T43
+R39	In_Out Arg1:T44 Arg2:T45
+R40	Condition Arg1:T39 Arg2:T44
+R41	Attribute Arg1:T50 Arg2:T22
+R42	In_Out Arg1:T49 Arg2:T50
+R43	from Arg1:T46 Arg2:T39
+R45	to Arg1:T46 Arg2:T49
+R48	Apply-to Arg1:T47 Arg2:T49
+R47	Attribute Arg1:T49 Arg2:T48
+R44	Coreference Arg1:T47 Arg2:T35
+T1	PLAN 0 17	Corrective Models
+T2	PLAN-OR-PROCESS 22 40	Speech Recognition
+T3	LANGUAGE 44 63	Inflected Languages
+T51	REFERENCE 66 76	This paper
+T52	PROCESS 77 85	presents
+T4	PLAN 88 104	corrective model
+T5	PLAN-OR-PROCESS 109 127	speech recognition
+T6	LANGUAGE 131 150	inflected languages
+T7	PLAN 157 162	model
+T8	APPLY-TO 165 173	based on
+T9	PLAN 176 200	discriminative framework
+T10	PROCESS 203 215	incorporates
+T11	DATA-ITEM 216 237	word n-grams features
+T13	QUALITY 249 257	factored
+T14	DATA-ITEM 258 280	morphological features
+T15	RESULT 283 292	providing
+T16	JUDGING-PROCESS 293 308	error reduction
+T17	PLAN 318 323	model
+T18	INPUT 324 329	based
+T19	QUALITY 330 336	solely
+T20	DATA-ITEM 340 360	word n-gram features
+T21	PLAN 363 374	Experiments
+T23	PLAN 380 401	large vocabulary task
+T24	DATA-ITEM 415 428	Czech portion
+T25	DATA-ITEM 436 449	MALACH corpus
+T26	RESULT 452 463	demonstrate
+T27	QUALITY 464 480	performance gain
+T28	QUANTITY 484 502	about 1.1 -- 1.5 %
+T29	DATA-ITEM 515 530	word error rate
+T30	DATA-ITEM 541 563	morphological features
+T31	RESULT 564 574	contribute
+T32	QUANTITY 581 588	a third
+T33	QUALITY 596 607	improvement
+T34	QUALITY 612 618	simple
+T35	PLAN 619 646	feature selection mechanism
+T36	APPLY-TO 647 655	based on
+T37	PLAN 656 671	chi2 statistics
+T12	RESULT 675 680	shown
+T38	QUALITY 687 696	effective
+T39	PROCESS 700 708	reducing
+T40	DATA-ITEM 713 719	number
+T41	DATA-ITEM 723 731	features
+T42	QUANTITY 735 745	about 70 %
+T43	MODALITY 746 753	without
+T44	PROCESS 758 762	loss
+T45	DATA-ITEM 766 777	performance
+T46	RESULT 780 786	making
+T47	REFERENCE 787 789	it
+T48	QUALITY 790 798	feasible
+T49	PROCESS 802 809	explore
+T22	QUALITY 810 820	yet larger
+T50	PLAN 821 835	feature spaces

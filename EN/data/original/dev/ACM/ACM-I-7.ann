@@ -1,0 +1,203 @@
+T1	PLAN-OR-PROCESS 0 10	Commitment
+T2	PLAN-OR-PROCESS 15 24	Extortion
+T3	PROCESS 25 31	Making
+T4	PLAN-OR-PROCESS 59 67	promises
+T5	PLAN-OR-PROCESS 72 79	threats
+T6	PROCESS 81 88	enables
+T7	PERSON 91 97	player
+T8	PROCESS 101 108	exploit
+T9	DATA-ITEM 113 122	strengths
+T10	REFERENCE 126 133	his own
+T11	DATA-ITEM 134 152	strategic position
+T12	DATA-ITEM 168 178	weaknesses
+T13	REFERENCE 182 186	that
+T14	REFERENCE 190 193	his
+T15	PERSON 194 203	opponents
+T17	PLAN-OR-PROCESS 211 222	commitments
+T18	PERSON 225 231	player
+T19	MODALITY 232 235	can
+T20	PROCESS 236 240	make
+T21	QUALITY 241 257	with credibility
+T22	RESULT 258 265	depends
+T23	THING 273 286	circumstances
+T24	PERSON 299 305	player
+T25	MODALITY 306 309	can
+T26	PROCESS 315 321	commit
+T27	DATA-ITEM 329 340	performance
+T28	PLAN-OR-PROCESS 347 353	action
+T29	MODALITY 369 372	can
+T30	PROCESS 373 379	commit
+T31	REFERENCE 380 387	himself
+T32	QUALITY 388 401	conditionally
+T33	PLAN-OR-PROCESS 409 416	actions
+T34	QUALITY 424 429	other
+T35	PERSON 430 437	players
+T36	QUANTITY 439 443	Some
+T37	THING 444 454	situations
+T38	PROCESS 460 465	allow
+T39	PLAN-OR-PROCESS 470 481	commitments
+T40	PLAN-OR-PROCESS 485 496	commitments
+T41	PLAN-OR-PROCESS 504 515	commitments
+T42	PLAN-OR-PROCESS 530 537	actions
+T43	PERSON 539 541	We
+T44	PROCESS 542 549	explore
+T45	DATA-ITEM 554 571	formal properties
+T46	PLAN 575 586	these types
+T47	QUALITY 591 602	conditional
+T48	PLAN 604 614	commitment
+T49	REFERENCE 619 624	their
+T50	DATA-ITEM 625 643	interrelationships
+T51	PROCESS 654 662	preclude
+T52	QUALITY 663 678	inconsistencies
+T53	PLAN-OR-PROCESS 685 708	conditional commitments
+T54	PERSON 710 712	we
+T55	PROCESS 713 719	assume
+T56	DATA-ITEM 723 728	order
+T57	REFERENCE 732 737	which
+T58	PERSON 742 749	players
+T59	PROCESS 750 754	make
+T60	REFERENCE 755 760	their
+T61	PLAN-OR-PROCESS 761 772	commitments
+T62	PLAN 774 781	Central
+T63	PERSON 785 788	our
+T64	PLAN 789 797	analyses
+T65	PLAN 805 811	notion
+T66	PLAN 818 827	extortion
+T67	REFERENCE 829 834	which
+T68	PERSON 835 837	we
+T69	PROCESS 838 844	define
+T70	QUALITY 852 857	given
+T71	DATA-ITEM 858 863	order
+T72	PERSON 871 878	players
+T73	PLAN 885 892	profile
+T74	REFERENCE 893 897	that
+T75	COMPONENT-OBJECT 898 906	contains
+T76	PERSON 917 923	player
+T77	PLAN-OR-PROCESS 936 946	commitment
+T78	PLAN-OR-PROCESS 957 968	commitments
+T79	PERSON 976 983	players
+T80	REFERENCE 984 988	that
+T81	PROCESS 989 998	committed
+T82	TIME 999 1006	earlier
+T83	REFERENCE 1011 1021	this basis
+T84	PERSON 1023 1025	we
+T85	PROCESS 1026 1037	investigate
+T86	QUALITY 1042 1051	different
+T87	DATA-ITEM 1052 1068	commitment types
+T88	MODALITY 1069 1076	whether
+T89	QUALITY 1083 1095	advantageous
+T90	PROCESS 1099 1105	commit
+T91	TIME 1106 1131	earlier rather than later
+T92	THING 1145 1153	outcomes
+T93	PROCESS 1154 1162	obtained
+T94	PLAN-OR-PROCESS 1171 1181	extortions
+T95	PROCESS 1182 1188	relate
+T96	PROCESS 1192 1210	backward induction
+T97	PLAN 1215 1232	Pareto efficiency
+R1	Apply-to Arg1:T4 Arg2:T3	
+R2	Apply-to Arg1:T5 Arg2:T3	
+T98	PLAN-OR-PROCESS 32 43	commitments
+R3	Output Arg1:T3 Arg2:T98	
+R4	Agent Arg1:T10 Arg2:T11	
+R5	Attribute Arg1:T11 Arg2:T9	
+R6	Agent Arg1:T8 Arg2:T7	
+R7	Target Arg1:T6 Arg2:T8	
+R8	Result Arg1:T3 Arg2:T6	
+R9	Target Arg1:T8 Arg2:T9	
+R10	Coreference Arg1:T14 Arg2:T7	
+R11	Poss Arg1:T14 Arg2:T15	
+R12	Attribute Arg1:T15 Arg2:T13	
+R13	Attribute Arg1:T13 Arg2:T12	
+R14	Target Arg1:T8 Arg2:T12	
+R15	Attribute Arg1:T20 Arg2:T19	
+R16	Agent Arg1:T20 Arg2:T18	
+R17	Attribute Arg1:T20 Arg2:T21	
+R18	Output Arg1:T20 Arg2:T17	
+R19	from Arg1:T22 Arg2:T23	
+R20	to Arg1:T22 Arg2:T17	
+R21	Attribute Arg1:T26 Arg2:T25	
+R22	Agent Arg1:T26 Arg2:T24	
+R23	Attribute Arg1:T28 Arg2:T27	
+R24	Target Arg1:T26 Arg2:T27	
+T16	REFERENCE 366 368	he
+R25	Coreference Arg1:T16 Arg2:T24	
+R26	Agent Arg1:T30 Arg2:T16	
+R27	Attribute Arg1:T30 Arg2:T29	
+R28	Attribute Arg1:T30 Arg2:T32	
+R29	Attribute Arg1:T35 Arg2:T34	
+R30	Agent Arg1:T33 Arg2:T35	
+R31	Condition Arg1:T32 Arg2:T33	
+R32	Output Arg1:T30 Arg2:T31	
+R33	Coreference Arg1:T31 Arg2:T16	
+R34	Attribute Arg1:T37 Arg2:T36	
+R35	Target Arg1:T38 Arg2:T39	
+R36	Condition Arg1:T38 Arg2:T37	
+R37	Target Arg1:T41 Arg2:T42	
+R38	Target Arg1:T38 Arg2:T41	
+T99	QUALITY 519 529	randomized
+R39	Attribute Arg1:T42 Arg2:T99	
+R40	Target Arg1:T39 Arg2:T40	
+A1	Self T43
+A2	Intentional T44
+R41	Agent Arg1:T44 Arg2:T43	
+R42	In_Out Arg1:T44 Arg2:T45	
+R44	Member-collection Arg1:T46 Arg2:T48	
+R45	Attribute Arg1:T46 Arg2:T45	
+R46	Coreference Arg1:T49 Arg2:T46	
+R47	Attribute Arg1:T50 Arg2:T49	
+R48	Output Arg1:T51 Arg2:T52	
+R49	Attribute Arg1:T52 Arg2:T53	
+A3	Self T54
+A4	Intentional T55
+R50	Agent Arg1:T55 Arg2:T54	
+R51	Agent Arg1:T59 Arg2:T58	
+R52	Coreference Arg1:T60 Arg2:T58	
+R53	Output Arg1:T59 Arg2:T61	
+R54	Poss Arg1:T60 Arg2:T61	
+R55	Output Arg1:T55 Arg2:T56	
+R56	Coreference Arg1:T57 Arg2:T56	
+R57	Condition Arg1:T59 Arg2:T57	
+R58	Apply-to Arg1:T55 Arg2:T51	
+A5	Self T63
+R59	Poss Arg1:T63 Arg2:T64	
+R60	Is-a Arg1:T66 Arg2:T65	
+R61	Component-object Arg1:T64 Arg2:T62	
+R62	Equivalence Arg1:T65 Arg2:T62	
+A6	Self T68
+A7	Intentional T69
+R63	Agent Arg1:T69 Arg2:T68	
+R64	Attribute Arg1:T71 Arg2:T70	
+R65	Attribute Arg1:T72 Arg2:T71	
+R66	Output Arg1:T69 Arg2:T67	
+R67	Coreference Arg1:T67 Arg2:T65	
+R68	Input Arg1:T69 Arg2:T71	
+R69	Coreference Arg1:T74 Arg2:T73	
+T100	QUALITY 928 935	optimal
+R70	Attribute Arg1:T77 Arg2:T100	
+R71	Agent Arg1:T78 Arg2:T79	
+R72	Condition Arg1:T81 Arg2:T82	
+R73	Coreference Arg1:T80 Arg2:T79	
+R74	Agent Arg1:T81 Arg2:T80	
+R75	from Arg1:T75 Arg2:T74	
+R76	to Arg1:T75 Arg2:T77	
+T101	PROCESS 947 952	given
+R77	Output Arg1:T101 Arg2:T77	
+A8	Self T84
+A9	Intentional T85
+R79	Agent Arg1:T85 Arg2:T84	
+R80	Attribute Arg1:T87 Arg2:T86	
+R81	In_Out Arg1:T85 Arg2:T87	
+R82	Condition Arg1:T90 Arg2:T91	
+R83	Attribute Arg1:T90 Arg2:T89	
+R84	Attribute Arg1:T89 Arg2:T88	
+R85	Output Arg1:T93 Arg2:T92	
+R86	Apply-to Arg1:T94 Arg2:T93	
+T102	PERSON 1215 1221	Pareto
+A10	Name T102
+R87	Target Arg1:T95 Arg2:T92	
+R88	Target Arg1:T95 Arg2:T96	
+R89	Target Arg1:T95 Arg2:T97	
+R43	Attribute Arg1:T46 Arg2:T47	
+R90	Is-a Arg1:T67 Arg2:T73	
+R78	Condition Arg1:T75 Arg2:T76	
+R91	Condition Arg1:T85 Arg2:T83	

@@ -1,0 +1,9 @@
+Using Hidden Markov Modeling to Decompose Human-Written Summaries
+
+Professional summarizers often reuse original documents to generate summaries.
+The task of summary sentence decomposition is to deduce whether a summary sentence is constructed by reusing the original text and to identify reused phrases.
+Specifically, the decomposition program needs to answer three questions for a given summary sentence: (1) Is this summary sentence constructed by reusing the text in the original document? (2) If so, what phrases in the sentence come from the original document? and (3) From where in the document do the phrases come?
+Solving the decomposition problem can lead to better text generation techniques for summarization.
+Decomposition can also provide large training and testing corpora for extraction-based summarizers.
+We propose a hidden Markov model solution to the decomposition problem.
+Evaluations show that the proposed algorithm performs well.

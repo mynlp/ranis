@@ -1,0 +1,10 @@
+The Efficiency Of Multimodal Interaction For A Map-Based Task .
+This paper compares the efficiency of using a standard direct-manipulation graphical user interface ( GUI ) with that of using the QuickSet pen/voice multimodal interface for supporting a military task .
+In this task , a user places military units and control measures ( e.g. , various types of lines , obstacles , objectives ) on a map .
+Four military personnel designed and entered their own simulation scenarios via both interfaces .
+Analyses revealed that the multimodal interface led to an average 3.5-fold speed improvement in the average entity creation time , including all error handling .
+The mean time to repair errors also was 4.3 times faster when interacting multimodally .
+Finally , all subjects reported a strong preference for multimodal interaction .
+These results indicate a substantial efficiency advantage for multimodal over GUI-based interaction during map-based tasks .
+
+

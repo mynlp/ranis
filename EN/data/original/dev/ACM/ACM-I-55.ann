@@ -1,0 +1,240 @@
+T1	PROCESS 0 9	Searching
+T2	DATA-ITEM 14 25	Joint Gains
+T3	PLAN-OR-PROCESS 29 51	Automated Negotiations
+T4	APPLY-TO 52 60	Based on
+T5	PLAN 61 98	Multi-criteria Decision Making Theory
+T6	JUDGING-PROCESS 105 121	well established
+T7	PERSON 125 143	conflict theorists
+T8	PERSON 148 154	others
+T9	PLAN-OR-PROCESS 171 182	negotiation
+T10	MODALITY 183 189	should
+T11	COMPONENT-OBJECT 190 201	incorporate
+T12	PLAN-OR-PROCESS 202 216	creating value
+T13	PLAN-OR-PROCESS 228 242	claiming value
+T14	PLAN-OR-PROCESS 244 262	Joint improvements
+T15	REFERENCE 263 267	that
+R1	Coreference Arg1:T15 Arg2:T14	
+T16	PROCESS 268 273	bring
+T17	QUALITY 274 282	benefits
+T18	INTELLIGENT-AGENT 290 297	parties
+T19	QUANTITY 286 289	all
+T20	MODALITY 298 301	can
+T21	PROCESS 305 313	realised
+T22	PROCESS 321 332	identifying
+T23	DATA-ITEM 333 343	attributes
+T24	REFERENCE 344 348	that
+R2	Coreference Arg1:T24 Arg2:T23	
+T25	MODALITY 353 356	not
+T26	QUALITY 360 375	direct conflict
+T27	INTELLIGENT-AGENT 388 395	parties
+T28	PLAN-OR-PROCESS 402 411	tradeoffs
+T29	DATA-ITEM 415 425	attributes
+T30	REFERENCE 426 430	that
+T31	PROCESS 435 441	valued
+T32	QUALITY 442 453	differently
+T33	INTELLIGENT-AGENT 467 474	parties
+T34	QUALITY 457 466	different
+R3	Coreference Arg1:T30 Arg2:T29	
+T35	PROCESS 486 495	searching
+T36	DATA-ITEM 500 506	values
+T37	DATA-ITEM 514 524	attributes
+T38	REFERENCE 525 529	that
+T39	MODALITY 530 535	could
+T40	PROCESS 536 541	bring
+T41	QUALITY 547 552	gains
+T42	QUALITY 542 546	more
+T43	INTELLIGENT-AGENT 560 565	party
+T44	QUANTITY 556 559	one
+T45	MODALITY 572 575	not
+T46	PROCESS 576 585	incurring
+T47	QUALITY 586 594	too much
+T48	QUALITY 595 599	loss
+T49	QUALITY 607 612	other
+T50	INTELLIGENT-AGENT 613 618	party
+T51	PLAN 648 656	approach
+T52	PLAN-OR-PROCESS 661 671	maximising
+T53	DATA-ITEM 672 683	joint gains
+T54	PLAN-OR-PROCESS 687 709	automated negotiations
+T55	PLAN-OR-PROCESS 713 724	formulating
+T56	PLAN 729 748	negotiation problem
+T57	PLAN 754 792	multi-criteria decision making problem
+T58	PLAN-OR-PROCESS 797 803	taking
+T59	QUANTITY 817 824	several
+T60	PLAN 825 848	optimisation techniques
+T61	PROCESS 849 859	introduced
+T62	PERSON 863 885	operations researchers
+T63	PERSON 890 908	conflict theorists
+T64	INTELLIGENT-AGENT 919 927	mediator
+T65	PLAN-OR-PROCESS 931 938	protect
+T66	PROCESS 913 916	use
+T67	INTELLIGENT-AGENT 943 962	negotiating parties
+T68	PLAN-OR-PROCESS 980 990	disclosure
+T69	QUALITY 968 979	unnecessary
+T70	DATA-ITEM 994 1005	information
+T71	INTELLIGENT-AGENT 1015 1023	opponent
+T72	PROCESS 1036 1044	allowing
+T73	PLAN-OR-PROCESS 1048 1069	objective calculation
+T74	DATA-ITEM 1081 1092	joint gains
+T75	QUALITY 1073 1080	maximum
+T76	PROCESS 1097 1105	separate
+T77	DATA-ITEM 1110 1120	attributes
+T78	REFERENCE 1121 1125	that
+T79	ATTRIBUTE 1126 1130	take
+R4	Coreference Arg1:T78 Arg2:T77	
+T80	DATA-ITEM 1133 1143	finite set
+T81	DATA-ITEM 1147 1153	values
+T82	DATA-ITEM 1155 1172	simple attributes
+T83	REFERENCE 1179 1184	those
+T84	DATA-ITEM 1190 1207	continuous values
+T85	DATA-ITEM 1230 1247	simple attributes
+T86	INTELLIGENT-AGENT 1253 1261	mediator
+T87	MODALITY 1262 1265	can
+T88	PROCESS 1266 1275	determine
+T89	PERSON 1280 1286	Pareto
+T90	DATA-ITEM 1280 1301	Pareto-optimal values
+T91	QUANTITY 1331 1335	none
+T92	DATA-ITEM 1343 1360	simple attributes
+T93	PROCESS 1370 1379	dominates
+T94	QUALITY 1361 1369	strongly
+T95	DATA-ITEM 1390 1407	simple attributes
+T96	QUALITY 1384 1389	other
+R5	Coreference Arg1:T38 Arg2:T37	
+T97	PLAN 1414 1427	truth telling
+T98	PLAN 1434 1454	equilibrium strategy
+T99	INTELLIGENT-AGENT 1459 1470	negotiators
+T100	PLAN-OR-PROCESS 1482 1494	optimisation
+T101	DATA-ITEM 1498 1515	simple attributes
+T102	PLAN 1537 1545	approach
+T103	JUDGING-PROCESS 1550 1559	improving
+T104	DATA-ITEM 1560 1571	joint gains
+T105	DATA-ITEM 1575 1596	non-simple attributes
+T106	PROCESS 1601 1607	moving
+T107	INTELLIGENT-AGENT 1612 1619	parties
+T108	PLAN-OR-PROCESS 1635 1640	steps
+T109	DATA-ITEM 1654 1677	Pareto-optimal frontier
+T110	PERSON 1654 1660	Pareto
+T111	QUALITY 160 170	successful
+R6	Attribute Arg1:T9 Arg2:T111	
+R7	Attribute Arg1:T33 Arg2:T34	
+R8	Attribute Arg1:T43 Arg2:T44	
+R9	Attribute Arg1:T50 Arg2:T49	
+R10	Attribute Arg1:T60 Arg2:T59	
+R11	Attribute Arg1:T74 Arg2:T75	
+R12	Coreference Arg1:T83 Arg2:T77	
+R13	Attribute Arg1:T48 Arg2:T47	
+R14	Attribute Arg1:T18 Arg2:T19	
+R15	Attribute Arg1:T68 Arg2:T69	
+T112	PLAN-OR-PROCESS 1625 1631	series
+R16	Attribute Arg1:T31 Arg2:T32	
+T118	REFERENCE 1009 1014	their
+R17	Coreference Arg1:T118 Arg2:T67	
+R18	Poss Arg1:T118 Arg2:T71	
+R19	Output Arg1:T1 Arg2:T2	
+R20	Condition Arg1:T1 Arg2:T3	
+R21	from Arg1:T4 Arg2:T5	
+R22	to Arg1:T4 Arg2:T1	
+R23	Attribute Arg1:T11 Arg2:T10	
+R24	to Arg1:T11 Arg2:T9	
+R25	from Arg1:T11 Arg2:T12	
+R26	from Arg1:T11 Arg2:T13	
+R27	Other-rel Arg1:T11 Arg2:T6	
+R28	Agent Arg1:T6 Arg2:T7	
+R29	Agent Arg1:T6 Arg2:T8	
+R30	Apply-to Arg1:T15 Arg2:T16	
+R31	Output Arg1:T16 Arg2:T17	
+R33	Output Arg1:T21 Arg2:T14	
+R34	Output Arg1:T22 Arg2:T23	
+R35	Attribute Arg1:T21 Arg2:T20	
+R36	Apply-to Arg1:T22 Arg2:T21	
+R37	Attribute Arg1:T26 Arg2:T25	
+R38	Attribute Arg1:T24 Arg2:T26	
+R39	Condition Arg1:T26 Arg2:T27	
+R40	Condition Arg1:T28 Arg2:T29	
+R41	Apply-to Arg1:T28 Arg2:T21	
+R42	Output Arg1:T31 Arg2:T30	
+R43	Agent Arg1:T31 Arg2:T33	
+R44	Apply-to Arg1:T35 Arg2:T21	
+R45	Output Arg1:T35 Arg2:T36	
+R46	Condition Arg1:T35 Arg2:T37	
+R47	Apply-to Arg1:T38 Arg2:T40	
+R48	Attribute Arg1:T40 Arg2:T39	
+R49	Attribute Arg1:T41 Arg2:T42	
+R50	Output Arg1:T40 Arg2:T41	
+R51	Destination Arg1:T40 Arg2:T43	
+R52	Attribute Arg1:T46 Arg2:T45	
+R53	Apply-to Arg1:T38 Arg2:T46	
+R54	Output Arg1:T46 Arg2:T48	
+R55	Destination Arg1:T46 Arg2:T50	
+R56	Apply-to Arg1:T51 Arg2:T52	
+R57	In_Out Arg1:T52 Arg2:T53	
+R58	Condition Arg1:T52 Arg2:T54	
+R59	Apply-to Arg1:T55 Arg2:T52	
+R60	Input Arg1:T55 Arg2:T56	
+R61	Output Arg1:T55 Arg2:T57	
+R62	Apply-to Arg1:T58 Arg2:T52	
+R64	Output Arg1:T61 Arg2:T60	
+R65	Agent Arg1:T61 Arg2:T62	
+R66	Agent Arg1:T61 Arg2:T63	
+R67	Target Arg1:T66 Arg2:T64	
+R68	Apply-to Arg1:T66 Arg2:T65	
+R69	Target Arg1:T65 Arg2:T67	
+R70	Condition Arg1:T65 Arg2:T68	
+R71	Output Arg1:T68 Arg2:T70	
+R72	Destination Arg1:T68 Arg2:T71	
+R73	Apply-to Arg1:T66 Arg2:T72	
+R74	Target Arg1:T72 Arg2:T73	
+R75	Output Arg1:T73 Arg2:T74	
+R76	Target Arg1:T76 Arg2:T77	
+R77	Member-collection Arg1:T81 Arg2:T80	
+R78	from Arg1:T79 Arg2:T78	
+R79	to Arg1:T79 Arg2:T80	
+R80	Is-a Arg1:T82 Arg2:T77	
+R81	Attribute Arg1:T83 Arg2:T84	
+R82	Attribute Arg1:T88 Arg2:T87	
+R83	Destination Arg1:T88 Arg2:T85	
+R84	Agent Arg1:T88 Arg2:T86	
+R85	Output Arg1:T88 Arg2:T90	
+R86	Attribute Arg1:T92 Arg2:T91	
+R87	Attribute Arg1:T93 Arg2:T94	
+R88	Other-rel Arg1:T93 Arg2:T92	
+R89	Attribute Arg1:T95 Arg2:T96	
+R90	Target Arg1:T93 Arg2:T95	
+R91	Is-a Arg1:T98 Arg2:T97	
+R92	Other-rel Arg1:T98 Arg2:T99	
+R93	In_Out Arg1:T100 Arg2:T101	
+R94	Condition Arg1:T98 Arg2:T100	
+R95	Apply-to Arg1:T102 Arg2:T103	
+R96	In_Out Arg1:T103 Arg2:T104	
+R97	Condition Arg1:T104 Arg2:T105	
+R98	Target Arg1:T106 Arg2:T107	
+R99	Member-collection Arg1:T108 Arg2:T112	
+R100	Condition Arg1:T106 Arg2:T112	
+R101	Destination Arg1:T106 Arg2:T109	
+R102	Apply-to Arg1:T106 Arg2:T103	
+R103	Destination Arg1:T16 Arg2:T18	
+T121	QUALITY 804 813	advantage
+R32	Attribute Arg1:T60 Arg2:T121	
+R63	Target Arg1:T58 Arg2:T121	
+R104	Target Arg1:T76 Arg2:T83	
+T122	MODALITY 1328 1330	if
+R105	Attribute Arg1:T93 Arg2:T122	
+T113	PERSON 910 912	We
+R106	Agent Arg1:T66 Arg2:T113	
+T114	REFERENCE 623 633	this paper
+T115	PERSON 634 636	we
+T116	PROCESS 637 644	propose
+T117	PERSON 1094 1096	We
+T119	PERSON 1315 1317	we
+T120	PROCESS 1318 1322	show
+T123	PERSON 1213 1215	we
+T124	PROCESS 1216 1220	show
+T125	PERSON 1517 1519	We
+T126	PROCESS 1525 1533	describe
+R107	Agent Arg1:T116 Arg2:T115	
+R108	Condition Arg1:T116 Arg2:T114	
+R109	Output Arg1:T116 Arg2:T51	
+R110	Agent Arg1:T76 Arg2:T117	
+R111	Agent Arg1:T124 Arg2:T123	
+R112	Agent Arg1:T120 Arg2:T119	
+R113	Agent Arg1:T126 Arg2:T125	
+R114	Output Arg1:T126 Arg2:T102	

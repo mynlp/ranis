@@ -1,0 +1,113 @@
+T1	PLAN 9 38	Dependency Translation Models
+T2	PLAN 42 53	Collections
+T3	PLAN 57 86	Finite-State Head Transducers
+T4	PLAN 106 131	weighted head transducers
+T5	PLAN 133 154	finite-state machines
+T6	PROCESS 160 167	perform
+T7	PROCESS 168 198	middle-out string transduction
+T8	PLAN 200 217	These transducers
+R1	Coreference Arg1:T8 Arg2:T4	
+T9	QUALITY 222 246	strictly more expressive
+T11	PLAN 281 319	left-to-right finite-state transducers
+T12	QUALITY 272 280	standard
+T13	PLAN 321 351	Dependency transduction models
+T14	PROCESS 361 368	defined
+T15	PLAN 372 383	collections
+T16	PLAN 387 412	weighted head transducers
+T17	PROCESS 422 429	applied
+T18	QUALITY 430 444	hierarchically
+T19	PLAN 448 484	dynamic programming search algorithm
+T20	PROCESS 502 509	finding
+T21	PROCESS 522 534	transduction
+T22	QUALITY 514 521	optimal
+T23	DATA-ITEM 541 553	input string
+T24	PLAN 572 601	dependency transduction model
+T25	PLAN 605 611	method
+T26	PROCESS 630 638	training
+T27	DATA-ITEM 685 713	input-output example strings
+T28	PLAN 732 738	method
+T29	PROCESS 745 753	searches
+T30	TIME 739 744	first
+T31	DATA-ITEM 758 781	hierarchical alignments
+T32	DATA-ITEM 789 806	training examples
+T33	PROCESS 807 813	guided
+T34	DATA-ITEM 817 839	correlation statistics
+T36	PROCESS 850 860	constructs
+T37	DATA-ITEM 865 876	transitions
+T38	PLAN 880 896	head transducers
+T39	DATA-ITEM 922 938	these alignments
+R2	Coreference Arg1:T39 Arg2:T31	
+T40	QUALITY 906 916	consistent
+T41	DATA-ITEM 940 960	Experimental results
+T43	APPLY-TO 975 983	applying
+T44	PLAN 988 1003	training method
+T45	PROCESS 1007 1018	translation
+T46	LANGUAGE 1024 1031	English
+T47	LANGUAGE 1035 1042	Spanish
+T48	LANGUAGE 1047 1055	Japanese
+T42	PROCESS 0 8	Learning
+T10	QUALITY 616 629	automatically
+T49	PLAN 641 670	dependency transduction model
+T50	DATA-ITEM 678 681	set
+T51	REFERENCE 155 159	that
+R3	Coreference Arg1:T51 Arg2:T5	
+R4	Member-collection Arg1:T16 Arg2:T15	
+T52	REFERENCE 413 417	that
+R5	Coreference Arg1:T52 Arg2:T16	
+T53	REFERENCE 897 901	that
+R6	Coreference Arg1:T53 Arg2:T37	
+R7	Attribute Arg1:T8 Arg2:T9	
+R8	Attribute Arg1:T11 Arg2:T12	
+R9	Member-collection Arg1:T3 Arg2:T2	
+T55	PLAN 256 268	special case
+R10	Is-a Arg1:T55 Arg2:T11	
+R11	Attribute Arg1:T17 Arg2:T18	
+R12	Attribute Arg1:T21 Arg2:T22	
+R13	Attribute Arg1:T26 Arg2:T10	
+R14	Member-collection Arg1:T27 Arg2:T50	
+R15	Apply-to Arg1:T25 Arg2:T26	
+R16	Output Arg1:T26 Arg2:T49	
+R17	Input Arg1:T26 Arg2:T50	
+R18	Condition Arg1:T29 Arg2:T30	
+R19	Attribute Arg1:T53 Arg2:T40	
+R20	Is-a Arg1:T1 Arg2:T2	
+R21	Output Arg1:T42 Arg2:T1	
+R22	Output Arg1:T6 Arg2:T7	
+R23	Apply-to Arg1:T51 Arg2:T6	
+R24	Is-a Arg1:T4 Arg2:T5	
+T57	COMPARE 247 251	than
+R25	from Arg1:T57 Arg2:T55	
+R26	to Arg1:T57 Arg2:T9	
+R28	Is-a Arg1:T13 Arg2:T15	
+R29	Output Arg1:T14 Arg2:T13	
+R27	Apply-to Arg1:T52 Arg2:T17	
+T58	PROCESS 488 497	described
+R30	Apply-to Arg1:T19 Arg2:T20	
+R31	Output Arg1:T58 Arg2:T19	
+R32	Output Arg1:T20 Arg2:T21	
+R33	Input Arg1:T20 Arg2:T23	
+R34	Attribute Arg1:T23 Arg2:T21	
+R35	Apply-to Arg1:T19 Arg2:T24	
+R36	Apply-to Arg1:T28 Arg2:T29	
+R37	Output Arg1:T29 Arg2:T31	
+R38	Input Arg1:T29 Arg2:T32	
+R39	Input Arg1:T33 Arg2:T34	
+R40	Output Arg1:T33 Arg2:T32	
+R41	Apply-to Arg1:T28 Arg2:T36	
+R42	Output Arg1:T36 Arg2:T37	
+R43	Attribute Arg1:T38 Arg2:T37	
+T59	COMPARE 917 921	with
+R44	from Arg1:T59 Arg2:T39	
+R45	to Arg1:T59 Arg2:T40	
+R46	from Arg1:T43 Arg2:T44	
+R47	to Arg1:T43 Arg2:T45	
+R48	Other-rel Arg1:T45 Arg2:T46	
+R49	Other-rel Arg1:T45 Arg2:T47	
+R50	Other-rel Arg1:T45 Arg2:T48	
+T60	RESULT 965 970	given
+R51	from Arg1:T60 Arg2:T44	
+R52	to Arg1:T60 Arg2:T41	
+T35	REFERENCE 92 97	paper
+T54	PROCESS 98 105	defines
+R53	Condition Arg1:T54 Arg2:T35	
+R54	Output Arg1:T54 Arg2:T4	

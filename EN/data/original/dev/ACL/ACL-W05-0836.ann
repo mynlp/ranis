@@ -1,0 +1,152 @@
+R1	Apply-to Arg1:T76 Arg2:T1
+R2	Input Arg1:T75 Arg2:T76
+R3	In_Out Arg1:T74 Arg2:T76
+R4	Coreference Arg1:T3 Arg2:T2
+R5	Attribute Arg1:T5 Arg2:T4
+R6	Apply-to Arg1:T3 Arg2:T5
+R7	Output Arg1:T5 Arg2:T6
+R8	Component-object Arg1:T7 Arg2:T6
+R9	Attribute Arg1:T10 Arg2:T9
+R10	Attribute Arg1:T9 Arg2:T8
+R12	In_Out Arg1:T10 Arg2:T2
+R13	Output Arg1:T12 Arg2:T13
+R14	Attribute Arg1:T14 Arg2:T13
+R15	Condition Arg1:T9 Arg2:T12
+R16	Apply-to Arg1:T2 Arg2:T12
+R17	In_Out Arg1:T18 Arg2:T19
+R18	Target Arg1:T16 Arg2:T17
+R19	Target Arg1:T16 Arg2:T18
+R20	Apply-to Arg1:T15 Arg2:T16
+R21	Coreference Arg1:T15 Arg2:T14
+R22	Equivalence Arg1:T22 Arg2:T23
+R25	In_Out Arg1:T25 Arg2:T23
+R26	Attribute Arg1:T25 Arg2:T24
+R27	Is-a Arg1:T23 Arg2:T26
+R28	Attribute Arg1:T28 Arg2:T27
+R29	Target Arg1:T28 Arg2:T29
+R30	Equivalence Arg1:T31 Arg2:T32
+R32	Attribute Arg1:T32 Arg2:T34
+R33	Attribute Arg1:T34 Arg2:T33
+R34	Condition Arg1:T34 Arg2:T35
+R35	Apply-to Arg1:T26 Arg2:T28
+R36	Coreference Arg1:T35 Arg2:T26
+R37	Attribute Arg1:T41 Arg2:T40
+R38	Input Arg1:T41 Arg2:T39
+R39	to Arg1:T38 Arg2:T40
+R40	from Arg1:T38 Arg2:T37
+R41	Coreference Arg1:T37 Arg2:T36
+A1	Self T42
+A2	Intentional T43
+R43	Agent Arg1:T43 Arg2:T42
+R44	Attribute Arg1:T45 Arg2:T44
+R45	Output Arg1:T43 Arg2:T45
+R46	In_Out Arg1:T45 Arg2:T46
+R47	Agent Arg1:T49 Arg2:T48
+R48	Agent Arg1:T50 Arg2:T48
+R49	Attribute Arg1:T53 Arg2:T52
+R50	Coreference Arg1:T51 Arg2:T46
+R51	Input Arg1:T49 Arg2:T51
+R52	Input Arg1:T49 Arg2:T53
+R53	Input Arg1:T50 Arg2:T51
+R54	Input Arg1:T50 Arg2:T53
+R55	Attribute Arg1:T55 Arg2:T54
+R56	Apply-to Arg1:T53 Arg2:T55
+R57	Apply-to Arg1:T51 Arg2:T55
+R59	Target Arg1:T47 Arg2:T49
+R60	Attribute Arg1:T59 Arg2:T60
+R61	Condition Arg1:T60 Arg2:T61
+R62	from Arg1:T56 Arg2:T59
+R63	to Arg1:T56 Arg2:T45
+R64	Attribute Arg1:T62 Arg2:T63
+R65	Attribute Arg1:T62 Arg2:T64
+R66	Coreference Arg1:T62 Arg2:T49
+R67	In_Out Arg1:T66 Arg2:T65
+R68	Result Arg1:T66 Arg2:T67
+R69	Attribute Arg1:T69 Arg2:T68
+R70	Output Arg1:T67 Arg2:T69
+R71	Input Arg1:T70 Arg2:T65
+R72	Attribute Arg1:T72 Arg2:T71
+R73	Attribute Arg1:T72 Arg2:T73
+R74	Apply-to Arg1:T72 Arg2:T70
+A3	Judgment T63
+A4	Judgment T64
+R11	Attribute Arg1:T9 Arg2:T11
+R42	Apply-to Arg1:T45 Arg2:T47
+R58	Target Arg1:T47 Arg2:T50
+R75	Is-a Arg1:T35 Arg2:T36
+A5	Judgment T68
+R23	Attribute Arg1:T23 Arg2:T20
+R24	Attribute Arg1:T21 Arg2:T73
+T74	PROCESS 0 8	Training
+T75	PROCESS 13 23	Evaluating
+T76	PLAN 24 57	Error Minimization Decision Rules
+T1	PLAN-OR-PROCESS 62 93	Statistical Machine Translation
+T2	PLAN 96 110	Decision rules
+T3	REFERENCE 111 115	that
+T4	QUALITY 116 126	explicitly
+T5	PROCESS 127 138	account for
+T6	PLAN 139 175	non-probabilistic evaluation metrics
+T7	PLAN-OR-PROCESS 179 198	machine translation
+T8	QUALITY 199 208	typically
+T9	QUALITY 209 216	require
+T10	PLAN-OR-PROCESS 217 233	special training
+T11	QUALITY 236 241	often
+T12	PROCESS 245 253	estimate
+T13	DATA-ITEM 254 264	parameters
+T14	PLAN 268 286	exponential models
+T15	REFERENCE 287 291	that
+T16	PROCESS 292 298	govern
+T17	PLAN 303 315	search space
+T18	PLAN-OR-PROCESS 324 333	selection
+T19	DATA-ITEM 337 359	candidate translations
+T20	QUALITY 372 383	traditional
+T23	PLAN 384 404;413 426	Maximum A Posteriori decision rule
+T22	PLAN 407 410	MAP
+T24	MODALITY 427 430	can
+T25	PROCESS 434 443	optimized
+T26	PLAN 449 474	piecewise linear function
+T27	QUALITY 480 486	greedy
+T28	PLAN-OR-PROCESS 487 493	search
+T29	PLAN 501 516	parameter space
+T32	PLAN 523 541;550 563	Minimum Bayes Risk decision rule
+T31	PLAN 544 547	MBR
+T33	MODALITY 567 570	not
+T34	QUALITY 571 582	well suited
+T35	PLAN 586 600	this technique
+T36	PLAN 605 614	condition
+T37	REFERENCE 615 619	that
+T38	RESULT 620 625	makes
+T39	DATA-ITEM 626 638	past results
+T40	QUALITY 639 648	difficult
+T41	PROCESS 652 659	compare
+T42	PERSON 662 664	We
+T43	PROCESS 665 672	present
+T44	QUALITY 675 680	novel
+T45	PLAN 681 698	training approach
+T46	PLAN 703 731	non-tractable decision rules
+T47	PROCESS 734 742	allowing
+T48	PERSON 743 745	us
+T49	PROCESS 749 756	compare
+T50	PROCESS 761 769	evaluate
+T51	REFERENCE 770 775	these
+T52	QUALITY 780 785	other
+T53	PLAN 786 800	decision rules
+T54	QUALITY 806 817	large scale
+T55	PLAN 818 834	translation task
+T56	APPLY-TO 838 853	aking advantage
+T59	PLAN 861 893	high dimensional parameter space
+T60	QUALITY 894 903	available
+T61	PLAN 911 939	phrase based Pharaoh decoder
+T62	PROCESS 942 957	This comparison
+T63	QUALITY 961 967	timely
+T64	QUALITY 974 983	important
+T65	PLAN 989 997	decoders
+T66	PROCESS 998 1004	evolve
+T67	PROCESS 1008 1017	represent
+T68	QUALITY 1018 1030	more complex
+T69	PLAN-OR-PROCESS 1031 1053	search space decisions
+T70	PROCESS 1062 1071	evaluated
+T71	QUALITY 1080 1090	innovative
+T72	PLAN 1091 1109	evaluation metrics
+T21	PLAN-OR-PROCESS 1113 1124	translation
+T73	QUALITY 1125 1132	quality

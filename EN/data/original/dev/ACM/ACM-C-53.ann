@@ -1,0 +1,126 @@
+T4	PLAN 56 96	Continuous Distributed Multiplayer Games
+T7	PLAN 97 111	Dead-Reckoning
+T8	PLAN 113 115	DR
+R1	Equivalence Arg1:T8 Arg2:T7	
+T9	PLAN 133 139	method
+T10	QUALITY 123 132	effective
+T11	PROCESS 143 151	maintain
+T12	QUALITY 152 163	consistency
+T13	PLAN 168 208	Continuous Distributed Multiplayer Games
+T14	PLAN 210 214	CDMG
+R2	Equivalence Arg1:T14 Arg2:T13	
+T5	PLAN 223 225	DR
+T6	MODALITY 226 229	can
+T15	PROCESS 230 236	filter
+T16	QUALITY 242 253	unnecessary
+T17	PLAN-OR-PROCESS 254 267	state updates
+T18	JUDGING-PROCESS 272 279	improve
+T19	QUALITY 284 295	scalability
+T20	PLAN 301 307	system
+T21	APPLY-TO 322 326	used
+T23	PLAN 330 345	commercial CDMG
+T24	PLAN 356 358	DR
+T25	MODALITY 359 365	cannot
+T26	JUDGING-PROCESS 366 374	maintain
+T27	QUALITY 375 391	high consistency
+T29	REFERENCE 397 401	this
+T30	CONDITION 402 412	constrains
+T31	PROCESS 417 428	application
+T32	PLAN 451 456	games
+T33	APPLY-TO 467 471	help
+T34	PROCESS 475 497	global synchronization
+T35	PLAN 499 501	DR
+T36	MODALITY 502 505	can
+T37	OUTPUT 506 513	achieve
+T38	QUALITY 521 532	consistency
+T39	QUALITY 514 520	higher
+T40	MODALITY 547 553	cannot
+T41	QUALITY 541 546	still
+T42	QUALITY 564 584	before inconsistency
+T43	PROCESS 554 563	eliminate
+T44	PLAN 603 609	method
+T45	PLAN 616 655	Globally Synchronized DR with Local Lag
+T46	IS-A 610 615	named
+T3	PLAN 657 665	GS-DR-LL
+R4	Equivalence Arg1:T3 Arg2:T45	
+T1	REFERENCE 668 673	which
+R5	Coreference Arg1:T1 Arg2:T45	
+T47	PROCESS 674 682	combines
+T48	PLAN 683 692	local lag
+T49	PLAN 697 721	Globally Synchronized DR
+T50	PLAN 723 728	GS-DR
+R6	Equivalence Arg1:T50 Arg2:T49	
+T51	PLAN-OR-PROCESS 745 767	Performance evaluation
+T52	RESULT 768 773	shows
+T53	PLAN 779 787	GS-DR-LL
+T54	MODALITY 788 791	can
+T55	QUALITY 792 803	effectively
+T56	JUDGING-PROCESS 804 812	decrease
+T57	QUALITY 813 833	before inconsistency
+T58	PLAN-OR-PROCESS 843 850	effects
+T59	PLAN-OR-PROCESS 851 859	increase
+T60	DATA-ITEM 869 872	lag
+T61	QUALITY 432 450	highly interactive
+R7	Attribute Arg1:T32 Arg2:T61	
+T65	PLAN 0 51	Globally Synchronized Dead-Reckoning with Local Lag
+R9	Attribute Arg1:T9 Arg2:T10	
+R11	Attribute Arg1:T17 Arg2:T16	
+R13	Attribute Arg1:T26 Arg2:T25	
+R10	Attribute Arg1:T13 Arg2:T12	
+R16	Attribute Arg1:T38 Arg2:T39	
+T68	REFERENCE 538 540	it
+R17	Coreference Arg1:T68 Arg2:T35	
+R18	Attribute Arg1:T37 Arg2:T36	
+R19	Attribute Arg1:T20 Arg2:T19	
+R21	Attribute Arg1:T43 Arg2:T40	
+R22	Attribute Arg1:T56 Arg2:T55	
+R23	Attribute Arg1:T56 Arg2:T54	
+R25	Attribute Arg1:T15 Arg2:T6	
+T69	REFERENCE 309 311	it
+R26	Coreference Arg1:T69 Arg2:T5	
+T70	REFERENCE 413 416	its
+R3	Coreference Arg1:T70 Arg2:T24	
+R8	Poss Arg1:T70 Arg2:T31	
+T64	QUALITY 237 241	most
+R14	Attribute Arg1:T17 Arg2:T64	
+R12	Apply-to Arg1:T65 Arg2:T4	
+R15	Is-a Arg1:T7 Arg2:T9	
+R20	Apply-to Arg1:T9 Arg2:T11	
+R24	Target Arg1:T11 Arg2:T12	
+R27	Apply-to Arg1:T5 Arg2:T15	
+R28	In_Out Arg1:T15 Arg2:T17	
+R29	Apply-to Arg1:T5 Arg2:T18	
+R30	Attribute Arg1:T18 Arg2:T6	
+R31	In_Out Arg1:T18 Arg2:T19	
+R33	to Arg1:T21 Arg2:T23	
+T66	QUALITY 315 321	widely
+R32	Attribute Arg1:T21 Arg2:T66	
+R34	from Arg1:T21 Arg2:T69	
+R35	Target Arg1:T26 Arg2:T27	
+R36	Apply-to Arg1:T24 Arg2:T26	
+R37	Coreference Arg1:T29 Arg2:T26	
+R38	from Arg1:T30 Arg2:T29	
+R39	to Arg1:T30 Arg2:T31	
+R40	Condition Arg1:T31 Arg2:T32	
+R41	from Arg1:T33 Arg2:T34	
+R42	to Arg1:T33 Arg2:T37	
+R43	to Arg1:T37 Arg2:T38	
+R44	Attribute Arg1:T43 Arg2:T41	
+R45	Apply-to Arg1:T68 Arg2:T43	
+R46	Output Arg1:T43 Arg2:T42	
+R47	to Arg1:T46 Arg2:T44	
+R48	from Arg1:T46 Arg2:T45	
+R49	Apply-to Arg1:T1 Arg2:T47	
+R50	Input Arg1:T47 Arg2:T48	
+R51	Input Arg1:T47 Arg2:T49	
+R52	from Arg1:T52 Arg2:T51	
+R53	to Arg1:T52 Arg2:T56	
+R54	Apply-to Arg1:T53 Arg2:T56	
+R55	Output Arg1:T56 Arg2:T57	
+R56	Apply-to Arg1:T58 Arg2:T59	
+R57	Condition Arg1:T59 Arg2:T60	
+R58	from Arg1:T37 Arg2:T35	
+T2	REFERENCE 589 599	this paper
+T22	PROCESS 734 743	presented
+R59	Output Arg1:T22 Arg2:T44	
+R60	Condition Arg1:T22 Arg2:T2	

@@ -1,0 +1,220 @@
+T1	THING 0 6	Scouts
+T2	THING 8 17	Promoters
+T3	THING 23 33	Connectors
+T4	THING 39 44	Roles
+T5	DATA-ITEM 48 55	Ratings
+T6	PLAN-OR-PROCESS 59 99	Nearest Neighbor Collaborative Filtering
+T7	PLAN 100 119	Recommender systems
+T8	PLAN-OR-PROCESS 120 129	aggregate
+T9	DATA-ITEM 141 153	user ratings
+T10	PERSON 141 145	user
+T11	DATA-ITEM 159 170	predictions
+T12	DATA-ITEM 174 182	products
+T13	DATA-ITEM 186 194	services
+T14	REFERENCE 195 199	that
+R1	Coreference Arg1:T14 Arg2:T13	
+R2	Coreference Arg1:T14 Arg2:T12	
+T15	MODALITY 200 205	might
+T16	PROCESS 206 214	interest
+T17	PERSON 215 223	visitors
+T18	QUALITY 229 236	quality
+T19	PLAN-OR-PROCESS 240 264	this aggregation process
+R3	Coreference Arg1:T19 Arg2:T8	
+T20	QUALITY 265 274	crucially
+T21	PROCESS 275 282	affects
+T22	PERSON 287 291	user
+T23	THING 287 302	user experience
+T24	QUALITY 317 330	effectiveness
+T25	PLAN 334 346	recommenders
+T26	PLAN-OR-PROCESS 350 360	e-commerce
+T27	PROCESS 392 405	disaggregates
+T28	PLAN 406 444	global recommender performance metrics
+T29	THING 450 463	contributions
+T30	PROCESS 464 468	made
+T31	DATA-ITEM 488 494	rating
+T34	QUANTITY 528 532	many
+T35	THING 533 538	roles
+T36	PROCESS 539 545	played
+T37	DATA-ITEM 549 556	ratings
+T38	PLAN-OR-PROCESS 560 599	nearestneighbor collaborative filtering
+T40	THING 635 640	roles
+T41	QUANTITY 629 634	three
+T42	THING 644 650	scouts
+T43	THING 652 661	promoters
+T44	THING 667 677	connectors
+T45	REFERENCE 681 685	that
+T46	APPLY-TO 686 693	capture
+T47	PERSON 698 703	users
+T48	PROCESS 704 711	receive
+T49	DATA-ITEM 712 727	recommendations
+T50	DATA-ITEM 733 738	items
+T51	QUALITY 743 754	recommended
+T52	ATTRIBUTE 739 742	get
+T53	DATA-ITEM 764 771	ratings
+T54	PROCESS 806 815	connected
+T57	THING 825 836	These roles
+R5	Coreference Arg1:T57 Arg2:T40	
+T59	INPUT 837 841;849 853	find uses
+T60	PROCESS 857 866	improving
+T61	DATA-ITEM 867 882	recommendations
+T62	PERSON 887 892	users
+T63	QUALITY 897 903	better
+T64	PROCESS 904 913	targeting
+T65	DATA-ITEM 917 922	items
+T66	QUALITY 928 944	most importantly
+T67	PROCESS 949 956	helping
+T68	QUALITY 969 975	health
+T69	PLAN 983 989	system
+T70	PROCESS 957 964	monitor
+T71	REFERENCE 1016 1020	they
+T72	MODALITY 1021 1024	can
+T73	INPUT 1028 1032	used
+T74	PROCESS 1036 1041	track
+T75	PLAN-OR-PROCESS 1046 1055	evolution
+T76	DATA-ITEM 1059 1072	neighborhoods
+T77	PROCESS 1077 1085	identify
+T78	DATA-ITEM 1086 1102	rating subspaces
+T79	MODALITY 1111 1114	not
+T80	PROCESS 1115 1125	contribute
+T81	REFERENCE 1103 1107	that
+R6	Coreference Arg1:T81 Arg2:T78	
+T82	PROCESS 1130 1140	contribute
+T83	QUALITY 1141 1151	negatively
+T84	DATA-ITEM 1156 1174	system performance
+T85	PROCESS 1179 1188	enumerate
+T86	PERSON 1189 1194	users
+T87	REFERENCE 1195 1198	who
+R7	Coreference Arg1:T87 Arg2:T86	
+T88	PROCESS 1216 1223	leaving
+T90	PROCESS 1232 1238	assess
+T91	QUALITY 1243 1257	susceptibility
+T92	PLAN 1265 1271	system
+T93	PLAN-OR-PROCESS 1275 1282	attacks
+T94	PLAN-OR-PROCESS 1291 1299	shilling
+T95	QUANTITY 1319 1324	three
+T96	THING 1325 1337	rating roles
+T97	PROCESS 1353 1360	provide
+T98	PLAN 1361 1377	broad primitives
+T99	PROCESS 1381 1387	manage
+T100	PLAN 1390 1408	recommender system
+T101	PERSON 1417 1426	community
+R8	Attribute Arg1:T16 Arg2:T15	
+R9	Attribute Arg1:T21 Arg2:T20	
+R10	Attribute Arg1:T35 Arg2:T34	
+R11	Attribute Arg1:T40 Arg2:T41	
+T103	THING 775 780;785 790	these types
+T104	QUANTITY 781 784	two
+R14	Attribute Arg1:T103 Arg2:T104	
+R16	Attribute Arg1:T64 Arg2:T63	
+T105	QUALITY 990 1000	as a whole
+R19	Attribute Arg1:T73 Arg2:T72	
+R20	Attribute Arg1:T80 Arg2:T79	
+R21	Attribute Arg1:T82 Arg2:T83	
+T89	QUALITY 1206 1212	danger
+R22	Attribute Arg1:T88 Arg2:T89	
+R23	Attribute Arg1:T96 Arg2:T95	
+R24	Attribute Arg1:T25 Arg2:T24	
+T106	REFERENCE 1413 1416	its
+R13	Poss Arg1:T106 Arg2:T101	
+R25	Coreference Arg1:T106 Arg2:T100	
+R15	Attribute Arg1:T69 Arg2:T105	
+R17	Attribute Arg1:T92 Arg2:T91	
+R18	Attribute Arg1:T5 Arg2:T4	
+R26	Condition Arg1:T5 Arg2:T6	
+R27	Is-a Arg1:T1 Arg2:T4	
+R28	Is-a Arg1:T2 Arg2:T4	
+R29	Is-a Arg1:T3 Arg2:T4	
+R30	Apply-to Arg1:T7 Arg2:T8	
+R31	Input Arg1:T8 Arg2:T9	
+T108	QUALITY 130 140	individual
+R32	Attribute Arg1:T9 Arg2:T108	
+R33	Output Arg1:T8 Arg2:T11	
+R34	Attribute Arg1:T11 Arg2:T12	
+R35	Attribute Arg1:T11 Arg2:T13	
+R36	Other-rel Arg1:T16 Arg2:T14	
+R37	Other-rel Arg1:T16 Arg2:T17	
+R38	Attribute Arg1:T19 Arg2:T18	
+R39	Apply-to Arg1:T19 Arg2:T21	
+R40	Target Arg1:T21 Arg2:T23	
+R41	Target Arg1:T21 Arg2:T24	
+R42	Condition Arg1:T25 Arg2:T26	
+R43	Input Arg1:T27 Arg2:T28	
+R44	Output Arg1:T27 Arg2:T29	
+R45	Output Arg1:T30 Arg2:T29	
+R46	Input Arg1:T30 Arg2:T31	
+T109	QUALITY 477 487	individual
+R47	Attribute Arg1:T31 Arg2:T109	
+R48	Output Arg1:T36 Arg2:T35	
+R49	Input Arg1:T36 Arg2:T37	
+R50	Condition Arg1:T36 Arg2:T38	
+R51	from Arg1:T46 Arg2:T45	
+R52	to Arg1:T46 Arg2:T48	
+R53	Destination Arg1:T48 Arg2:T47	
+R54	In_Out Arg1:T48 Arg2:T49	
+R12	from Arg1:T52 Arg2:T50	
+R55	to Arg1:T52 Arg2:T51	
+R56	In_Out Arg1:T54 Arg2:T53	
+R57	Attribute Arg1:T53 Arg2:T103	
+R58	to Arg1:T46 Arg2:T52	
+R59	to Arg1:T46 Arg2:T54	
+T58	QUALITY 842 848	direct
+R60	Attribute Arg1:T59 Arg2:T58	
+R61	to Arg1:T59 Arg2:T57	
+R62	from Arg1:T59 Arg2:T60	
+R63	In_Out Arg1:T60 Arg2:T61	
+R64	Condition Arg1:T60 Arg2:T62	
+R65	from Arg1:T59 Arg2:T64	
+R66	Target Arg1:T64 Arg2:T65	
+R67	from Arg1:T59 Arg2:T67	
+R68	Apply-to Arg1:T67 Arg2:T70	
+R69	Target Arg1:T70 Arg2:T68	
+R70	Attribute Arg1:T69 Arg2:T68	
+R71	to Arg1:T73 Arg2:T71	
+R72	Coreference Arg1:T71 Arg2:T57	
+R73	from Arg1:T73 Arg2:T74	
+R74	Target Arg1:T74 Arg2:T75	
+R75	Attribute Arg1:T75 Arg2:T76	
+R76	from Arg1:T73 Arg2:T77	
+R77	Output Arg1:T77 Arg2:T78	
+R78	Result Arg1:T81 Arg2:T80	
+R79	Destination Arg1:T80 Arg2:T84	
+R80	Result Arg1:T81 Arg2:T82	
+R81	from Arg1:T73 Arg2:T85	
+R82	Target Arg1:T85 Arg2:T86	
+R83	Attribute Arg1:T87 Arg2:T89	
+R84	from Arg1:T73 Arg2:T90	
+R85	Input Arg1:T90 Arg2:T91	
+R86	Condition Arg1:T91 Arg2:T93	
+R87	Is-a Arg1:T94 Arg2:T93	
+R88	Input Arg1:T97 Arg2:T96	
+R89	Output Arg1:T97 Arg2:T98	
+R90	Apply-to Arg1:T98 Arg2:T99	
+R91	Target Arg1:T99 Arg2:T100	
+R92	Target Arg1:T99 Arg2:T101	
+R93	Is-a Arg1:T42 Arg2:T40	
+R94	Is-a Arg1:T43 Arg2:T40	
+R95	Is-a Arg1:T44 Arg2:T40	
+R4	Coreference Arg1:T45 Arg2:T40	
+R96	Destination Arg1:T82 Arg2:T84	
+T32	PERSON 362 364	We
+T33	PROCESS 365 372	present
+T39	QUALITY 375 380	novel
+T55	PLAN 381 386	study
+T56	PERSON 616 618	we
+T102	PROCESS 619 628	formulate
+T107	PERSON 1301 1303	We
+T110	PROCESS 1304 1309	argue
+T111	PERSON 505 507	us
+T112	PROCESS 511 523	characterize
+R97	Agent Arg1:T33 Arg2:T32	
+R98	Output Arg1:T33 Arg2:T55	
+R99	Condition Arg1:T27 Arg2:T55	
+R100	Attribute Arg1:T55 Arg2:T39	
+R101	Agent Arg1:T102 Arg2:T56	
+R102	Output Arg1:T102 Arg2:T40	
+R103	Agent Arg1:T112 Arg2:T111	
+R104	Apply-to Arg1:T55 Arg2:T113	
+R105	Input Arg1:T112 Arg2:T35	
+R106	Agent Arg1:T110 Arg2:T107	
+T113	PROCESS 496 504	allowing
+R107	Target Arg1:T113 Arg2:T111	

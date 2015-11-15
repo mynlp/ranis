@@ -1,0 +1,116 @@
+T1	PLAN 3 20	Double Hidden HMM
+T2	PLAN 28 31	CRF
+T3	PLAN 36 54	Segmentation Tasks
+T4	PLAN 60 75	Pinyin's Finals
+T5	PERSON 77 79	We
+T6	PROCESS 85 97	participated
+T7	PLAN 105 116	open tracks
+T8	PLAN 121 134	closed tracks
+T9	QUANTITY 138 142	four
+T10	PLAN 143 150	corpora
+T11	PLAN 154 185	Chinese word segmentation tasks
+T12	PLAN 189 215	CIPS-SIGHAN-2010 Bake-offs
+T13	PERSON 220 223	our
+T14	PLAN 224 235	experiments
+T15	PERSON 237 239	we
+T16	PROCESS 240 244	used
+T17	DATA-ITEM 249 284	Chinese inner phonology information
+T18	QUANTITY 288 291	all
+T19	PLAN 292 298	tracks
+T20	PLAN 304 315	open tracks
+T21	PERSON 317 319	we
+T22	PROCESS 320 328	proposed
+T24	PLAN 331 356	double hidden layers' HMM
+T25	PLAN 358 363	DHHMM
+T26	REFERENCE 368 373	which
+T27	DATA-ITEM 374 409	Chinese inner phonology information
+T28	INPUT 414 418	used
+T29	QUANTITY 422 425	one
+T30	PLAN 426 438	hidden layer
+T31	DATA-ITEM 447 455	BIO tags
+T32	QUALITY 459 466	another
+T33	PLAN 467 479	hidden layer
+T34	DATA-ITEM 488 495	results
+T35	QUALITY 501 508	firstly
+T36	RESULT 509 518	generated
+T38	PLAN 528 533	DHHMM
+T39	QUALITY 544 548	best
+T40	REFERENCE 549 552	one
+T41	PROCESS 557 565	selected
+T42	APPLY-TO 569 574	using
+T43	QUALITY 577 580	new
+T44	PLAN 581 606	lexical statistic measure
+T45	PLAN 612 624	close tracks
+T46	PERSON 626 628	we
+T47	PROCESS 629 633	used
+T48	PLAN 634 643	CRF model
+T49	REFERENCE 647 652	which
+T50	DATA-ITEM 657 692	Chinese inner phonology information
+T51	INPUT 697 701	used
+T52	DATA-ITEM 705 713	features
+R1	Input Arg1:T3 Arg2:T4	
+R2	Apply-to Arg1:T2 Arg2:T3	
+R3	Apply-to Arg1:T1 Arg2:T3	
+A1	Self T5
+A2	Intentional T6
+R4	Attribute Arg1:T10 Arg2:T9	
+T53	LANGUAGE 154 161	Chinese
+R5	Component-object Arg1:T12 Arg2:T11	
+R6	Member-collection Arg1:T10 Arg2:T11	
+R7	Agent Arg1:T6 Arg2:T5	
+R8	Target Arg1:T6 Arg2:T7	
+R9	Target Arg1:T6 Arg2:T8	
+A3	Self T13
+R10	Poss Arg1:T13 Arg2:T14	
+A5	Self T15
+T54	LANGUAGE 249 256	Chinese
+R11	Agent Arg1:T16 Arg2:T15	
+R12	Input Arg1:T16 Arg2:T17	
+R13	Condition Arg1:T16 Arg2:T14	
+R14	Attribute Arg1:T19 Arg2:T18	
+R16	Apply-to Arg1:T8 Arg2:T10	
+R17	Apply-to Arg1:T7 Arg2:T10	
+A6	Self T21
+A7	Intentional T22
+R18	Agent Arg1:T22 Arg2:T21	
+R19	Equivalence Arg1:T25 Arg2:T24	
+R20	Output Arg1:T22 Arg2:T24	
+R21	Apply-to Arg1:T24 Arg2:T20	
+T23	LANGUAGE 374 381	Chinese
+R22	Attribute Arg1:T30 Arg2:T29	
+R23	Attribute Arg1:T33 Arg2:T32	
+R27	to Arg1:T28 Arg2:T27	
+R28	to Arg1:T28 Arg2:T31	
+R30	Attribute Arg1:T36 Arg2:T35	
+T37	PROCESS 522 527	using
+R32	Apply-to Arg1:T38 Arg2:T37	
+R33	from Arg1:T36 Arg2:T37	
+R34	to Arg1:T36 Arg2:T34	
+R35	Attribute Arg1:T40 Arg2:T39	
+R36	Member-collection Arg1:T40 Arg2:T34	
+R37	In_Out Arg1:T41 Arg2:T40	
+R38	Attribute Arg1:T44 Arg2:T43	
+R39	from Arg1:T42 Arg2:T44	
+R40	to Arg1:T42 Arg2:T41	
+A9	Judgment T39
+T56	QUALITY 481 487	N-best
+A8	Judgment T56
+R31	Attribute Arg1:T34 Arg2:T56	
+R15	Apply-to Arg1:T16 Arg2:T19	
+A10	Self T46
+A11	Intentional T47
+R41	Agent Arg1:T47 Arg2:T46	
+R42	Input Arg1:T47 Arg2:T48	
+R43	Apply-to Arg1:T47 Arg2:T45	
+T55	LANGUAGE 657 664	Chinese
+R44	to Arg1:T51 Arg2:T50	
+R45	from Arg1:T51 Arg2:T49	
+R46	Component-object Arg1:T49 Arg2:T52	
+R47	Equivalence Arg1:T52 Arg2:T50	
+R48	Coreference Arg1:T26 Arg2:T25	
+R49	Component-object Arg1:T26 Arg2:T30	
+R50	Component-object Arg1:T26 Arg2:T33	
+R25	from Arg1:T28 Arg2:T26	
+R24	Other-rel Arg1:T30 Arg2:T27	
+R26	Other-rel Arg1:T33 Arg2:T31	
+R29	Coreference Arg1:T49 Arg2:T48	

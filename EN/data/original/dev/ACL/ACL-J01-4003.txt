@@ -1,0 +1,5 @@
+A Corpus-Based Evaluation of Centering and Pronoun Resolution
+
+In this paper we compare pronoun resolution algorithms and introduce a centering algorithm (Left-Right Centering) that adheres to the constraints and rules of centering theory and is an alternative to Brennan, Friedman, and Pollard's (1987) algorithm.
+We then use the Left-Right Centering algorithm to see if two psycholinguistic claims on Cf-list ranking will actually improve pronoun resolution accuracy.
+Our results from this investigation lead to the development of a new syntax-based ranking of the Cf-list and corpus-based evidence that contradicts the psycholinguistic claims.

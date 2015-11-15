@@ -1,0 +1,102 @@
+T1	PLAN-OR-PROCESS 10 30	Review Summarization
+T2	PLAN 36 64	Spoken Recommendation System
+T3	REFERENCE 71 81	this paper
+T4	PERSON 82 84	we
+T5	PROCESS 85 92	present
+T6	PLAN 95 104	framework
+T7	PLAN 109 138	spoken recommendation systems
+T8	PROCESS 143 150	provide
+T9	QUALITY 151 159	reliable
+T10	DATA-ITEM 160 175	recommendations
+T11	PERSON 179 184	users
+T12	PERSON 186 188	we
+T13	PROCESS 189 200	incorporate
+T14	PLAN 203 233	review summarization technique
+T15	REFERENCE 234 239	which
+T16	PROCESS 240 248	extracts
+T17	DATA-ITEM 249 278	informative opinion summaries
+T19	PERSON 296 301	users
+T20	DATA-ITEM 303 310	reviews
+T21	PLAN 316 331	dialogue system
+T22	INPUT 337 345	utilizes
+T23	DATA-ITEM 346 368	these review summaries
+T24	PROCESS 372 379	support
+T25	PLAN 385 414	quality-based opinion inquiry
+T26	PERSON 451 453	We
+T27	PROCESS 454 461	propose
+T28	PLAN 464 506	probabilistic language generation approach
+T29	QUALITY 510 523	automatically
+T30	PROCESS 524 532	creating
+T31	DATA-ITEM 533 548	recommendations
+T32	QUALITY 552 558	spoken
+T33	LANGUAGE 559 575	natural language
+T34	DATA-ITEM 585 613	text-based opinion summaries
+T35	PLAN-OR-PROCESS 617 627	user study
+T36	DOMAIN 635 652	restaurant domain
+T37	RESULT 653 658	shows
+T38	PLAN 668 687	proposed approaches
+T39	MODALITY 688 691	can
+T40	QUALITY 692 703	effectively
+T41	PROCESS 704 712	generate
+T42	QUALITY 713 721	reliable
+T43	QUALITY 726 733	helpful
+T44	DATA-ITEM 734 749	recommendations
+T45	PROCESS 753 781	human-computer conversations
+T46	APPLY-TO 0 9	Utilizing
+R1	from Arg1:T46 Arg2:T1	
+R2	to Arg1:T46 Arg2:T2	
+A1	Self T3
+A2	Self T4
+A3	Intentional T5
+R3	Agent Arg1:T5 Arg2:T4	
+R4	Condition Arg1:T5 Arg2:T3	
+R5	Output Arg1:T5 Arg2:T6	
+R6	Apply-to Arg1:T6 Arg2:T7	
+R7	Attribute Arg1:T10 Arg2:T9	
+R8	Output Arg1:T8 Arg2:T10	
+R9	Destination Arg1:T8 Arg2:T11	
+A4	Self T12
+A5	Intentional T13
+R10	Output Arg1:T13 Arg2:T14	
+R11	Agent Arg1:T13 Arg2:T12	
+R12	Apply-to Arg1:T13 Arg2:T8	
+R13	Coreference Arg1:T15 Arg2:T14	
+R14	Apply-to Arg1:T15 Arg2:T16	
+R15	Output Arg1:T16 Arg2:T17	
+T18	QUALITY 284 295	grass-roots
+R16	Poss Arg1:T19 Arg2:T20	
+R18	Input Arg1:T16 Arg2:T20	
+R19	Coreference Arg1:T23 Arg2:T17	
+R20	to Arg1:T22 Arg2:T23	
+R21	from Arg1:T22 Arg2:T21	
+R22	Apply-to Arg1:T21 Arg2:T24	
+T47	PLAN 419 449	feature-specific entity search
+R23	Target Arg1:T24 Arg2:T25	
+R24	Target Arg1:T24 Arg2:T47	
+A6	Self T26
+A7	Intentional T27
+R25	Agent Arg1:T27 Arg2:T26	
+R26	Output Arg1:T27 Arg2:T28	
+R27	Attribute Arg1:T30 Arg2:T29	
+R28	Apply-to Arg1:T28 Arg2:T30	
+R29	Output Arg1:T30 Arg2:T31	
+R30	Attribute Arg1:T33 Arg2:T32	
+R31	Condition Arg1:T31 Arg2:T33	
+R32	Input Arg1:T30 Arg2:T34	
+R33	Condition Arg1:T35 Arg2:T36	
+R34	Coreference Arg1:T38 Arg2:T28	
+R35	Attribute Arg1:T41 Arg2:T40	
+R36	Attribute Arg1:T41 Arg2:T39	
+A8	Judgment T40
+R37	Attribute Arg1:T44 Arg2:T43	
+R38	Attribute Arg1:T44 Arg2:T42	
+R39	Output Arg1:T41 Arg2:T44	
+A9	Judgment T42
+A10	Judgment T43
+R40	Component-object Arg1:T45 Arg2:T41	
+R41	Apply-to Arg1:T38 Arg2:T41	
+R42	from Arg1:T37 Arg2:T35	
+R43	to Arg1:T37 Arg2:T40	
+R44	to Arg1:T37 Arg2:T42	
+R45	to Arg1:T37 Arg2:T43	
+R17	Attribute Arg1:T20 Arg2:T18	

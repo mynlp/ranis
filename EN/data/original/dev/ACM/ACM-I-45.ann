@@ -1,0 +1,130 @@
+T1	PROCESS 223 230	provide
+T2	PROCESS 243 255	implementing
+T3	PROCESS 325 333	provided
+T4	PROCESS 408 417	modelling
+T5	PROCESS 497 506	modelling
+T6	INPUT 539 544	using
+T7	RESULT 566 575	resulting
+T8	PROCESS 663 674	implemented
+T9	PROCESS 934 939	arise
+T10	MODALITY 219 222	not
+T11	MODALITY 656 659	can
+T12	QUALITY 282 290	flexible
+T13	QUALITY 295 301	robust
+T14	QUALITY 339 348	primitive
+T15	QUALITY 525 537	higher level
+T16	QUANTITY 918 921	two
+T17	PLAN-OR-PROCESS 13 42	Commitment-Based Interactions
+T18	PLAN-OR-PROCESS 52 69	agent interaction
+T21	PLAN 101 127	message-centric approaches
+T23	QUALITY 160 169	drawbacks
+T24	PLAN 179 215	agent-oriented programming languages
+T25	PROCESS 231 238	support
+T26	PLAN-OR-PROCESS 256 273	agent interaction
+T27	DATA-ITEM 312 320	messages
+T28	PLAN 349 363	building block
+T29	PLAN 395 403	approach
+T30	PLAN-OR-PROCESS 418 436	agent interactions
+T31	PLAN 442 471	commitment machines framework
+T32	PLAN 473 487	This framework
+T33	PLAN-OR-PROCESS 507 519	interactions
+T35	PLAN 545 563	social commitments
+T36	PLAN-OR-PROCESS 593 605	interactions
+T37	PLAN-OR-PROCESS 626 655	commitment-based interactions
+T38	PLAN 691 727	agent-oriented programming languages
+T40	PLAN-OR-PROCESS 768 775	mapping
+T41	PLAN 783 801	commitment machine
+T42	PLAN 807 817	collection
+T43	PLAN 821 836	BDI-style plans
+T44	PLAN-OR-PROCESS 838 848	extensions
+T45	PLAN-OR-PROCESS 856 865	semantics
+T46	PLAN 869 894	BDI programming languages
+T47	PLAN-OR-PROCESS 903 914	examination
+T48	PLAN 922 928	issues
+T49	PLAN 958 977	commitment machines
+T50	PLAN 979 994	turn management
+T51	PLAN 999 1014	race conditions
+T52	PLAN 1020 1029	solutions
+T53	PLAN 1033 1047	these problems
+T54	PROCESS 0 12	Implementing
+T55	PROCESS 70 75;84 88	plays role
+T19	REFERENCE 154 159	their
+R1	Coreference Arg1:T19 Arg2:T21	
+T56	TIME 171 178	present
+R2	Attribute Arg1:T1 Arg2:T10	
+R5	Attribute Arg1:T28 Arg2:T14	
+T57	QUANTITY 391 394	one
+R6	Attribute Arg1:T29 Arg2:T57	
+T58	PROCESS 488 496	supports
+T59	QUALITY 579 592	more flexible
+R8	Attribute Arg1:T36 Arg2:T59	
+R9	Attribute Arg1:T8 Arg2:T11	
+T60	QUALITY 678 690	conventional
+R10	Attribute Arg1:T38 Arg2:T60	
+R11	Attribute Arg1:T48 Arg2:T16	
+T62	PROCESS 945 957	distributing
+R12	Member-collection Arg1:T43 Arg2:T42	
+T63	QUALITY 78 83	vital
+R13	Attribute Arg1:T55 Arg2:T63	
+T64	PLAN 92 95	MAS
+T66	PLAN-OR-PROCESS 131 148	agent interaction
+R14	Attribute Arg1:T19 Arg2:T23	
+R15	Coreference Arg1:T32 Arg2:T31	
+R16	Coreference Arg1:T53 Arg2:T50	
+R17	Coreference Arg1:T53 Arg2:T51	
+T67	REFERENCE 274 278	that
+R18	Attribute Arg1:T67 Arg2:T12	
+R19	Attribute Arg1:T67 Arg2:T13	
+R3	Coreference Arg1:T67 Arg2:T25	
+T68	REFERENCE 929 933	that
+R4	Coreference Arg1:T68 Arg2:T48	
+R7	Output Arg1:T54 Arg2:T17	
+R20	Apply-to Arg1:T18 Arg2:T55	
+R21	Condition Arg1:T55 Arg2:T64	
+R22	Apply-to Arg1:T21 Arg2:T66	
+R23	Attribute Arg1:T24 Arg2:T56	
+R24	Apply-to Arg1:T24 Arg2:T1	
+R25	Output Arg1:T1 Arg2:T25	
+R26	Target Arg1:T25 Arg2:T2	
+R27	Output Arg1:T2 Arg2:T26	
+R28	Output Arg1:T3 Arg2:T27	
+R30	Apply-to Arg1:T29 Arg2:T4	
+R31	In_Out Arg1:T4 Arg2:T30	
+R32	Is-a Arg1:T31 Arg2:T29	
+R33	Apply-to Arg1:T32 Arg2:T58	
+R34	Target Arg1:T58 Arg2:T5	
+R36	In_Out Arg1:T5 Arg2:T33	
+R37	to Arg1:T6 Arg2:T5	
+R38	from Arg1:T6 Arg2:T35	
+R39	from Arg1:T7 Arg2:T5	
+R40	to Arg1:T7 Arg2:T36	
+R41	Output Arg1:T8 Arg2:T37	
+R42	Condition Arg1:T8 Arg2:T38	
+R43	Origin Arg1:T40 Arg2:T41	
+R44	Destination Arg1:T40 Arg2:T42	
+R45	Attribute Arg1:T46 Arg2:T45	
+R46	In_Out Arg1:T44 Arg2:T45	
+R47	Input Arg1:T47 Arg2:T48	
+R48	Apply-to Arg1:T68 Arg2:T9	
+R49	Condition Arg1:T9 Arg2:T62	
+R50	Target Arg1:T62 Arg2:T49	
+R51	Target Arg1:T52 Arg2:T53	
+R35	Condition Arg1:T33 Arg2:T15	
+R53	Is-a Arg1:T50 Arg2:T48	
+R54	Is-a Arg1:T51 Arg2:T48	
+R52	Other-rel Arg1:T27 Arg2:T28	
+T20	REFERENCE 368 378	this paper
+T22	PERSON 379 381	we
+T34	PROCESS 382 390	consider
+T39	PERSON 607 609	We
+T61	PROCESS 610 621	investigate
+T65	OCCURENT 733 746	contributions
+T69	REFERENCE 750 760	this paper
+R29	Agent Arg1:T34 Arg2:T22	
+R55	Condition Arg1:T34 Arg2:T20	
+R56	In_Out Arg1:T34 Arg2:T29	
+R57	Agent Arg1:T61 Arg2:T39	
+R58	Attribute Arg1:T69 Arg2:T65	
+R59	Other-rel Arg1:T40 Arg2:T65	
+R60	Other-rel Arg1:T44 Arg2:T65	
+R61	Other-rel Arg1:T47 Arg2:T65	

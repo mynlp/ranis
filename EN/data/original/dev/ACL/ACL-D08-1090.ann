@@ -1,0 +1,165 @@
+R1	from Arg1:T2 Arg2:T1
+R2	to Arg1:T2 Arg2:T3
+R3	from Arg1:T2 Arg2:T76
+R4	In_Out Arg1:T8 Arg2:T9
+R5	Target Arg1:T6 Arg2:T7
+R6	Input Arg1:T8 Arg2:T7
+R7	Apply-to Arg1:T5 Arg2:T6
+R8	Attribute Arg1:T6 Arg2:T4
+R9	Attribute Arg1:T10 Arg2:T11
+R10	Output Arg1:T12 Arg2:T10
+R11	Attribute Arg1:T13 Arg2:T14
+R12	from Arg1:T77 Arg2:T10
+R13	to Arg1:T77 Arg2:T14
+R14	Other-rel Arg1:T11 Arg2:T14
+R15	Attribute Arg1:T15 Arg2:T16
+R16	Attribute Arg1:T17 Arg2:T18
+R17	In_Out Arg1:T19 Arg2:T20
+R19	Apply-to Arg1:T17 Arg2:T19
+R20	Input Arg1:T17 Arg2:T15
+A1	Self T78
+A2	Intentional T79
+R21	Condition Arg1:T79 Arg2:T78
+R22	Attribute Arg1:T23 Arg2:T22
+R23	Output Arg1:T79 Arg2:T23
+R24	Apply-to Arg1:T23 Arg2:T24
+R25	Apply-to Arg1:T24 Arg2:T26
+R26	Input Arg1:T24 Arg2:T25
+R27	In_Out Arg1:T26 Arg2:T27
+R28	Attribute Arg1:T28 Arg2:T27
+R29	Input Arg1:T28 Arg2:T29
+R30	Apply-to Arg1:T30 Arg2:T31
+R31	Attribute Arg1:T34 Arg2:T33
+R32	Attribute Arg1:T39 Arg2:T38
+R33	Attribute Arg1:T39 Arg2:T37
+R35	In_Out Arg1:T81 Arg2:T39
+R37	Condition Arg1:T80 Arg2:T35
+R39	Condition Arg1:T34 Arg2:T35
+R40	Agent Arg1:T81 Arg2:T36
+R41	Coreference Arg1:T36 Arg2:T80
+R42	Coreference Arg1:T36 Arg2:T34
+R34	Condition Arg1:T40 Arg2:T41
+R36	Compare Arg1:T40 Arg2:T38
+R43	Compare Arg1:T40 Arg2:T37
+R44	Attribute Arg1:T34 Arg2:T32
+R45	Attribute Arg1:T80 Arg2:T32
+R46	Target Arg1:T31 Arg2:T32
+R47	Attribute Arg1:T43 Arg2:T42
+R48	Coreference Arg1:T44 Arg2:T43
+R49	Input Arg1:T45 Arg2:T44
+R50	Attribute Arg1:T47 Arg2:T46
+R51	Condition Arg1:T47 Arg2:T49
+R52	Input Arg1:T50 Arg2:T47
+R53	Output Arg1:T50 Arg2:T51
+R54	Coreference Arg1:T52 Arg2:T51
+R55	Attribute Arg1:T52 Arg2:T54
+R56	Attribute Arg1:T54 Arg2:T53
+R57	Compare Arg1:T55 Arg2:T54
+R38	Attribute Arg1:T80 Arg2:T33
+R59	Coreference Arg1:T56 Arg2:T51
+R60	In_Out Arg1:T58 Arg2:T59
+R61	Apply-to Arg1:T58 Arg2:T60
+R62	In_Out Arg1:T60 Arg2:T61
+R63	Attribute Arg1:T59 Arg2:T61
+R64	Condition Arg1:T61 Arg2:T62
+R65	Output Arg1:T62 Arg2:T63
+R66	Coreference Arg1:T64 Arg2:T63
+R67	Attribute Arg1:T64 Arg2:T65
+R68	Attribute Arg1:T67 Arg2:T66
+R69	Compare Arg1:T67 Arg2:T65
+R70	Apply-to Arg1:T57 Arg2:T58
+R71	Input Arg1:T57 Arg2:T56
+R72	to Arg1:T69 Arg2:T68
+R73	Attribute Arg1:T74 Arg2:T73
+A3	Judgment T74
+R74	Compare Arg1:T75 Arg2:T74
+R75	to Arg1:T72 Arg2:T74
+R76	from Arg1:T72 Arg2:T68
+R77	In_Out Arg1:T70 Arg2:T71
+R79	In_Out Arg1:T70 Arg2:T48
+R80	Condition Arg1:T11 Arg2:T12
+R58	Input Arg1:T50 Arg2:T43
+R78	from Arg1:T69 Arg2:T70
+R81	Attribute Arg1:T70 Arg2:T74
+R18	Input Arg1:T19 Arg2:T21
+T76	PLAN-OR-PROCESS 0 8	Language
+T1	PLAN-OR-PROCESS 13 41	Translation Model Adaptation
+T2	INPUT 42 47	using
+T3	DATA-ITEM 48 66	Comparable Corpora
+T4	QUALITY 69 82	Traditionally
+T5	PLAN 85 124	statistical machine translation systems
+T6	PROCESS 130 136	relied
+T7	DATA-ITEM 140 164	parallel bi-lingual data
+T8	PROCESS 168 173	train
+T9	PLAN 176 193	translation model
+T10	DATA-ITEM 202 226	bi-lingual parallel data
+T11	QUALITY 231 240	expensive
+T12	PROCESS 244 252	generate
+T13	DATA-ITEM 255 271	monolingual data
+T77	COMPARE 276 286	relatively
+T14	QUALITY 287 293	common
+T15	DATA-ITEM 300 316	monolingual data
+T16	QUALITY 327 341	under-utilized
+T17	PROCESS 356 360	used
+T18	QUALITY 361 370	primarily
+T19	PROCESS 375 383	training
+T20	PLAN 386 400	language model
+T21	LANGUAGE 408 423	target language
+T78	REFERENCE 426 436	This paper
+T79	PROCESS 437 446	describes
+T22	QUALITY 449 454	novel
+T23	PLAN 455 461	method
+T24	PROCESS 466 475	utilizing
+T25	DATA-ITEM 476 499	monolingual target data
+T26	PROCESS 503 510	improve
+T27	DATA-ITEM 515 526	performance
+T28	PLAN 532 570	statistical machine translation system
+T29	DATA-ITEM 574 586	news stories
+T30	PLAN 593 599	method
+T31	PROCESS 600 608	exploits
+T32	DATA-ITEM 613 622	existence
+T33	QUALITY 626 636	comparable
+T34	DATA-ITEM 637 641	text
+T80	DATA-ITEM 645 659	multiple texts
+T35	LANGUAGE 667 682	target language
+T36	REFERENCE 683 687	that
+T81	PROCESS 688 695	discuss
+T37	QUALITY 700 704	same
+T38	QUALITY 708 715	similar
+T39	DATA-ITEM 716 723	stories
+T40	PROCESS 727 732	found
+T41	DATA-ITEM 740 764	source language document
+T42	QUANTITY 771 776	every
+T43	DATA-ITEM 777 792	source document
+T44	REFERENCE 793 797	that
+T45	PROCESS 807 817	translated
+T46	QUALITY 822 827	large
+T47	DATA-ITEM 828 848	monolingual data set
+T49	LANGUAGE 856 871	target language
+T50	PROCESS 875 883	searched
+T51	DATA-ITEM 888 897	documents
+T52	REFERENCE 898 902	that
+T53	MODALITY 903 908	might
+T54	QUALITY 912 922	comparable
+T55	DATA-ITEM 930 946	source documents
+T56	DATA-ITEM 949 964	These documents
+T57	PROCESS 974 978	used
+T58	PROCESS 982 987	adapt
+T59	PLAN 992 1001	MT system
+T60	PROCESS 1005 1013	increase
+T61	DATA-ITEM 1018 1029	probability
+T62	PROCESS 1033 1043	generating
+T63	DATA-ITEM 1044 1049	texts
+T64	REFERENCE 1050 1054	that
+T65	QUALITY 1055 1063	resemble
+T66	QUALITY 1068 1078	comparable
+T67	DATA-ITEM 1079 1087	document
+T68	DATA-ITEM 1090 1110	Experimental results
+T69	RESULT 1111 1119	obtained
+T70	PROCESS 1123 1131	adapting
+T48	PLAN 1141 1149	language
+T71	PLAN 1154 1172	translation models
+T72	RESULT 1173 1177	show
+T73	QUALITY 1178 1189	substantial
+T74	QUALITY 1190 1195	gains
+T75	PLAN 1205 1220	baseline system

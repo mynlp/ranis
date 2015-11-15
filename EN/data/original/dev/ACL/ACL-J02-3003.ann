@@ -1,0 +1,198 @@
+T1	PLAN 88 97	proposing
+T2	PROCESS 155 165	researched
+T3	APPLY-TO 297 305	handling
+T4	PROCESS 377 385	identify
+T6	PROCESS 553 561	computed
+T7	PROCESS 786 795	suggested
+T9	PROCESS 882 891	projected
+T10	PROCESS 1047 1056	overcomes
+T11	PROCESS 1108 1118	reconciles
+T12	PROCESS 1164 1172	reported
+T13	PROCESS 1239 1250	interleaves
+T14	PROCESS 219 225	gained
+T16	MODALITY 1038 1041	not
+T17	LANGUAGE 1354 1361	English
+T18	QUALITY 143 154	extensively
+T19	QUALITY 188 199	significant
+T20	QUALITY 238 245	various
+T21	QUALITY 286 293	capable
+T23	QUALITY 421 428	current
+T24	QUALITY 462 469	various
+T25	CONDITION 629 636	subject
+T26	QUALITY 640 649	different
+T27	QUALITY 720 737	intersententially
+T28	CONDITION 859 866	subject
+T29	QUALITY 1057 1066	important
+T30	QUANTITY 386 389	two
+T31	QUANTITY 1255 1258	two
+T32	PLAN-OR-PROCESS 10 22	Aposynthesis
+T33	DATA-ITEM 26 42	Topic Continuity
+T34	DATA-ITEM 47 71	Intrasentential Anaphora
+T35	PLAN 77 84	problem
+T36	DATA-ITEM 98 107	referents
+T37	DATA-ITEM 112 133	anaphoric expressions
+T38	EXTERNAL-REFERENCE 173 183	literature
+T39	PLAN 246 256	approaches
+T40	PLAN 277 282	model
+T41	DATA-ITEM 314 319	cases
+T42	QUALITY 352 359	failure
+T43	PLAN 367 373	models
+T44	PROCESS 399 408	processes
+T45	DATA-ITEM 442 456	empirical data
+T46	LANGUAGE 470 479	languages
+T47	PLAN 494 512	aposynthetic model
+T48	DATA-ITEM 516 525	discourse
+T49	QUALITY 535 551	topic continuity
+T50	DATA-ITEM 569 574	units
+T51	QUALITY 580 600	focusing preferences
+T52	DATA-ITEM 613 624	these units
+T53	PLAN 650 660	mechanisms
+T54	QUALITY 675 695	focusing preferences
+T55	DATA-ITEM 707 712	units
+T56	PLAN 780 785	lines
+T57	PLAN 799 815	centering theory
+T58	PLAN 821 839	focusing mechanism
+T59	DATA-ITEM 851 855	unit
+T60	DATA-ITEM 870 881	preferences
+T61	QUALITY 899 908	semantics
+T62	DATA-ITEM 916 921	verbs
+T63	DATA-ITEM 930 941	connectives
+T64	DATA-ITEM 949 953	unit
+T65	PLAN 970 1006	semantic/pragmatic focusing accounts
+T66	PROCESS 1021 1037	this distinction
+T67	PLAN 1067 1075	problems
+T68	PLAN-OR-PROCESS 1079 1098	anaphora resolution
+T69	DATA-ITEM 1143 1163	experimental results
+T70	EXTERNAL-REFERENCE 1180 1190	literature
+T71	PLAN 1205 1210	model
+T72	PLAN-OR-PROCESS 1214 1233	anaphora resolution
+T73	PLAN 1259 1269	mechanisms
+T74	PLAN 1291 1301	hypotheses
+T75	PLAN 1309 1323	proposed model
+T76	PLAN-OR-PROCESS 1332 1350	experimental study
+T77	PLAN-OR-PROCESS 1368 1386	corpus-based study
+R1	Attribute Arg1:T2 Arg2:T18	
+T78	PLAN 200 208	insights
+R2	Attribute Arg1:T78 Arg2:T19	
+R3	Attribute Arg1:T39 Arg2:T20	
+T79	MODALITY 267 269	no
+T80	QUANTITY 270 276	single
+R4	Attribute Arg1:T40 Arg2:T80	
+R5	Attribute Arg1:T40 Arg2:T79	
+T81	QUANTITY 306 309	all
+R7	Attribute Arg1:T41 Arg2:T81	
+R8	Attribute Arg1:T43 Arg2:T42	
+R9	Attribute Arg1:T44 Arg2:T30	
+T22	PLAN 429 437	insights
+R10	Attribute Arg1:T22 Arg2:T23	
+R11	Attribute Arg1:T46 Arg2:T24	
+T82	REFERENCE 529 534	which
+R12	Coreference Arg1:T82 Arg2:T47	
+T83	QUALITY 601 609	internal
+R13	Attribute Arg1:T51 Arg2:T83	
+R14	Attribute Arg1:T53 Arg2:T26	
+T84	QUALITY 743 747	best
+T85	PROCESS 748 755	modeled
+R15	Attribute Arg1:T85 Arg2:T84	
+T86	QUALITY 756 768	structurally
+R16	Attribute Arg1:T85 Arg2:T86	
+R17	Attribute Arg1:T67 Arg2:T29	
+R18	Attribute Arg1:T10 Arg2:T16	
+T88	QUALITY 1119 1128	seemingly
+T89	QUALITY 1129 1142	contradictory
+R20	Attribute Arg1:T89 Arg2:T88	
+R21	Attribute Arg1:T73 Arg2:T31	
+T91	PROCESS 1274 1278	test
+T92	LANGUAGE 1390 1395	Greek
+T93	QUALITY 390 398	distinct
+R22	Attribute Arg1:T44 Arg2:T93	
+R23	Coreference Arg1:T52 Arg2:T50	
+T95	REFERENCE 335 339	this
+T97	REFERENCE 1234 1238	that
+R24	Coreference Arg1:T97 Arg2:T71	
+R19	Attribute Arg1:T69 Arg2:T89	
+T98	QUALITY 1283 1290	central
+R25	Attribute Arg1:T74 Arg2:T98	
+R26	In_Out Arg1:T32 Arg2:T33	
+R27	In_Out Arg1:T32 Arg2:T34	
+R28	Output Arg1:T1 Arg2:T36	
+R29	Destination Arg1:T1 Arg2:T37	
+R30	Is-a Arg1:T1 Arg2:T35	
+R31	Target Arg1:T2 Arg2:T1	
+R32	Condition Arg1:T2 Arg2:T38	
+R33	Output Arg1:T14 Arg2:T78	
+R34	Apply-to Arg1:T39 Arg2:T14	
+R35	Attribute Arg1:T3 Arg2:T21	
+R36	to Arg1:T3 Arg2:T41	
+R37	Coreference Arg1:T95 Arg2:T21	
+R39	Apply-to Arg1:T43 Arg2:T4	
+R40	Output Arg1:T4 Arg2:T44	
+R41	Attribute Arg1:T45 Arg2:T46	
+R42	Attribute Arg1:T47 Arg2:T48	
+R43	Output Arg1:T6 Arg2:T49	
+R44	Input Arg1:T6 Arg2:T50	
+R45	from Arg1:T25 Arg2:T49	
+R46	from Arg1:T25 Arg2:T51	
+R47	to Arg1:T25 Arg2:T53	
+T101	QUALITY 666 674	observed
+R49	Condition Arg1:T54 Arg2:T55	
+R48	Attribute Arg1:T54 Arg2:T101	
+R50	Output Arg1:T85 Arg2:T54	
+R51	Condition Arg1:T7 Arg2:T57	
+R52	Other-rel Arg1:T7 Arg2:T56	
+R53	Condition Arg1:T58 Arg2:T59	
+R54	Attribute Arg1:T62 Arg2:T61	
+R55	to Arg1:T28 Arg2:T60	
+R56	from Arg1:T28 Arg2:T58	
+T8	PROCESS 957 966	suggested
+R57	Output Arg1:T9 Arg2:T60	
+R58	Input Arg1:T9 Arg2:T61	
+R59	Condition Arg1:T8 Arg2:T65	
+R60	Other-rel Arg1:T8 Arg2:T28	
+R61	Attribute Arg1:T63 Arg2:T61	
+R62	Component-object Arg1:T62 Arg2:T64	
+R63	Component-object Arg1:T63 Arg2:T64	
+R64	In_Out Arg1:T10 Arg2:T67	
+R65	Condition Arg1:T67 Arg2:T68	
+R66	In_Out Arg1:T11 Arg2:T69	
+R67	Condition Arg1:T12 Arg2:T70	
+R68	Output Arg1:T12 Arg2:T69	
+R69	Member-collection Arg1:T10 Arg2:T66	
+R70	Member-collection Arg1:T11 Arg2:T66	
+R71	Input Arg1:T91 Arg2:T74	
+R72	Attribute Arg1:T74 Arg2:T75	
+R73	Apply-to Arg1:T76 Arg2:T91	
+R74	Condition Arg1:T76 Arg2:T17	
+R75	Apply-to Arg1:T77 Arg2:T91	
+R76	Condition Arg1:T77 Arg2:T92	
+R77	Other-rel Arg1:T14 Arg2:T1	
+R6	from Arg1:T3 Arg2:T40	
+T102	RESULT 343 349	due to
+R78	to Arg1:T102 Arg2:T95	
+R79	from Arg1:T102 Arg2:T42	
+T103	PROCESS 483 490	propose
+R38	Apply-to Arg1:T22 Arg2:T103	
+R80	Input Arg1:T103 Arg2:T45	
+R81	Output Arg1:T103 Arg2:T47	
+R82	Attribute Arg1:T82 Arg2:T49	
+R83	Attribute Arg1:T82 Arg2:T51	
+R84	Is-a Arg1:T27 Arg2:T54	
+R85	Condition Arg1:T71 Arg2:T72	
+R86	Output Arg1:T13 Arg2:T73	
+R87	Apply-to Arg1:T97 Arg2:T13	
+T15	PROCESS 1195 1202	specify
+R88	Output Arg1:T15 Arg2:T71	
+T5	PERSON 321 323	We
+T87	PROCESS 324 329	argue
+T90	PERSON 480 482	we
+R89	Agent Arg1:T103 Arg2:T90	
+T94	PERSON 1008 1010	We
+T96	PERSON 1192 1194	We
+T99	PERSON 1271 1273	We
+R90	Agent Arg1:T87 Arg2:T5	
+R91	Agent Arg1:T15 Arg2:T96	
+R92	Agent Arg1:T91 Arg2:T99	
+T100	PROCESS 1011 1015	show
+R93	Agent Arg1:T100 Arg2:T94	
+R94	Output Arg1:T100 Arg2:T10	
+R95	Output Arg1:T100 Arg2:T11	

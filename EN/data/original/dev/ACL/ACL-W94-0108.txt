@@ -1,0 +1,6 @@
+The Automatic Construction Of A Symbolic Parser Via Statistical Techniques .
+We report on the development of a robust parsing device which aims to provide a partial explanation for child language acquisition and help in the construction of better natural language processing systems .
+The backbone of the new approach is the synthesis of statistical and symbolic approaches to natural language .
+
+
+

@@ -1,0 +1,322 @@
+T1	PLAN 4 8	Role
+T2	DATA-ITEM 12 25	Compatibility
+T3	PLAN-OR-PROCESS 33 42	Diffusion
+T4	PLAN 46 58	Technologies
+T5	QUANTITY 86 90	many
+T6	PLAN 91 99	settings
+T7	PLAN 101 123	competing technologies
+T8	PLAN 140 157	operating systems
+T9	QUALITY 159 166	instant
+T10	PLAN 167 184	messenger systems
+T11	PLAN 189 205	document formats
+T14	PROCESS 221 229	adopting
+T15	QUANTITY 232 246	limited amount
+T16	DATA-ITEM 250 263	compatibility
+T18	REFERENCE 269 280	one another
+T21	QUALITY 302 312	difficulty
+T22	PROCESS 316 321	using
+T23	QUANTITY 322 330	multiple
+T24	PLAN 331 343	technologies
+T25	PROCESS 347 355	balanced
+T26	QUANTITY 378 381	two
+T27	QUALITY 382 390	extremes
+T28	DATA-ITEM 394 407	impossibility
+T29	DATA-ITEM 412 439	effortless interoperability
+T30	QUALITY 451 461	a range of
+T31	PLAN 462 469	reasons
+T32	QUANTITY 498 502	many
+T33	REFERENCE 506 511	which
+T34	APPLY-TO 515 520	based
+T35	PLAN 531 537	social
+T36	PLAN 542 565	business considerations
+T37	PROCESS 577 581	defy
+T38	QUALITY 582 589	concise
+T39	PLAN 590 609	mathematical models
+T40	PERSON 625 627	we
+T41	PROCESS 628 632	show
+T42	QUALITY 642 652	advantages
+T43	QUALITY 656 663	limited
+T44	DATA-ITEM 664 677	compatibility
+T45	MODALITY 678 681	can
+T46	PROCESS 682 687	arise
+T47	QUALITY 693 704	very simple
+T48	PLAN 705 710	model
+T49	PLAN-OR-PROCESS 714 723	diffusion
+T50	PLAN 727 742	social networks
+T51	PROCESS 749 757	offering
+T52	QUALITY 760 765	basic
+T53	PLAN-OR-PROCESS 766 777	explanation
+T54	OCCURENT 782 797	this phenomenon
+T55	QUALITY 801 817	purely strategic
+T56	DATA-ITEM 818 823	terms
+T57	PERSON 825 828	Our
+T58	PLAN 829 837	approach
+T59	PLAN-OR-PROCESS 860 869	diffusion
+T60	DATA-ITEM 873 884	innovations
+T61	DATA-ITEM 892 912	economics literature
+T62	REFERENCE 914 919	which
+T63	PROCESS 920 925	seeks
+T64	PROCESS 929 934	model
+T65	QUALITY 941 944	new
+T66	PLAN 945 957	technology A
+T67	MODALITY 958 963	might
+T68	PROCESS 964 970	spread
+T69	PLAN 981 995	social network
+T70	PERSON 999 1010	individuals
+T71	REFERENCE 1011 1014	who
+T72	TIME 1019 1028	currently
+T73	PROCESS 1029 1034	users
+T74	PLAN 1038 1050	technology B
+T75	PERSON 1052 1054	We
+T76	PROCESS 1055 1063	consider
+T77	QUANTITY 1064 1071	several
+T78	PLAN 1072 1076	ways
+T79	PROCESS 1080 1089	capturing
+T80	DATA-ITEM 1094 1107	compatibility
+T81	QUALITY 1129 1138	primarily
+T82	PLAN 1144 1149	model
+T83	REFERENCE 1153 1158	which
+T84	PERSON 1159 1164	users
+T85	MODALITY 1165 1168	can
+T86	PROCESS 1169 1175	choose
+T87	PROCESS 1179 1184	adopt
+T88	DATA-ITEM 1215 1219	cost
+T89	PERSON 1243 1245	We
+T90	PROCESS 1246 1258	characterize
+T91	DATA-ITEM 1267 1274	ability
+T92	PROCESS 1283 1289	spread
+T93	RESULT 1290 1297	depends
+T94	REFERENCE 1306 1309	its
+T95	DATA-ITEM 1310 1317	quality
+T96	QUALITY 1318 1326	relative
+T98	DATA-ITEM 1342 1362	this additional cost
+T99	PROCESS 1366 1374	adopting
+T100	PROCESS 1385 1389	find
+T101	QUANTITY 1390 1394	some
+T103	DATA-ITEM 1406 1433	non-monotonicity properties
+T104	RESULT 1441 1451	dependence
+T105	DATA-ITEM 1455 1471	these parameters
+T106	QUANTITY 1476 1480	some
+T107	PLAN 1481 1486	cases
+T108	QUANTITY 1492 1495	one
+T109	PLAN 1496 1506	technology
+T110	PROCESS 1510 1517	survive
+T111	PROCESS 1522 1534	introduction
+T112	DATA-ITEM 1551 1555	cost
+T113	PROCESS 1559 1567	adopting
+T114	PLAN 1573 1585	technologies
+T115	MODALITY 1586 1590	must
+T116	PROCESS 1594 1602	balanced
+T117	QUALITY 1612 1618	narrow
+T118	DATA-ITEM 1620 1638	intermediate range
+T119	PERSON 1640 1642	We
+T120	PROCESS 1648 1654	extend
+T121	PLAN 1659 1668	framework
+T122	PLAN 1676 1680	case
+T123	QUANTITY 1684 1692	multiple
+T124	PLAN 1693 1705	technologies
+T125	PERSON 1713 1715	we
+T126	PROCESS 1716 1720	find
+T127	QUALITY 1728 1734	simple
+T128	PLAN 1735 1740	model
+T129	PROCESS 1741 1749	captures
+T130	OCCURENT 1754 1764	phenomenon
+T131	QUANTITY 1768 1771	two
+T132	PLAN 1772 1777	firms
+T133	PROCESS 1778 1786	adopting
+T134	QUALITY 1789 1796	limited
+T135	PLAN 1797 1815	strategic alliance
+T136	PROCESS 1819 1825	defend
+T137	QUALITY 1836 1839	new
+T138	PLAN 1841 1857	third technology
+R1	Condition Arg1:T1 Arg2:T3	
+R2	Attribute Arg1:T2 Arg2:T1	
+T139	PLAN 67 82	Social Networks
+R3	Target Arg1:T3 Arg2:T4	
+R4	Apply-to Arg1:T139 Arg2:T4	
+R5	Attribute Arg1:T6 Arg2:T5	
+T140	IS-A 127 138	for example
+R6	from Arg1:T140 Arg2:T8	
+R7	to Arg1:T140 Arg2:T7	
+R8	Attribute Arg1:T10 Arg2:T9	
+R9	from Arg1:T140 Arg2:T10	
+R10	from Arg1:T140 Arg2:T11	
+R11	Attribute Arg1:T16 Arg2:T15	
+R12	In_Out Arg1:T14 Arg2:T16	
+R13	Apply-to Arg1:T7 Arg2:T14	
+R14	Condition Arg1:T14 Arg2:T6	
+R15	Coreference Arg1:T18 Arg2:T7	
+R16	Attribute Arg1:T18 Arg2:T16	
+R17	Attribute Arg1:T24 Arg2:T23	
+R18	Target Arg1:T22 Arg2:T24	
+R19	Condition Arg1:T21 Arg2:T22	
+R20	Attribute Arg1:T28 Arg2:T27	
+R21	Attribute Arg1:T29 Arg2:T27	
+R22	Attribute Arg1:T27 Arg2:T26	
+R23	In_Out Arg1:T25 Arg2:T27	
+R24	Attribute Arg1:T25 Arg2:T21	
+R25	Attribute Arg1:T31 Arg2:T30	
+T12	OCCURENT 474 489	this phenomenon
+T13	PROCESS 490 496	occurs
+R26	Output Arg1:T13 Arg2:T12	
+R27	Result Arg1:T31 Arg2:T13	
+R28	Coreference Arg1:T33 Arg2:T31	
+R29	Attribute Arg1:T33 Arg2:T32	
+T17	PLAN 524 529	legal
+R30	Attribute Arg1:T39 Arg2:T38	
+R31	Target Arg1:T37 Arg2:T39	
+R32	Result Arg1:T33 Arg2:T37	
+T19	MODALITY 569 576	seem to
+R33	Attribute Arg1:T37 Arg2:T19	
+T20	MODALITY 209 220	can be seen
+R34	Attribute Arg1:T14 Arg2:T20	
+R35	from Arg1:T34 Arg2:T17	
+R36	from Arg1:T34 Arg2:T35	
+R37	from Arg1:T34 Arg2:T36	
+R38	to Arg1:T34 Arg2:T33	
+A1	Self T40
+A2	Intentional T41
+R39	Agent Arg1:T41 Arg2:T40	
+R40	Attribute Arg1:T44 Arg2:T43	
+R41	Attribute Arg1:T44 Arg2:T42	
+R42	Output Arg1:T46 Arg2:T42	
+R43	Attribute Arg1:T46 Arg2:T45	
+R44	Attribute Arg1:T48 Arg2:T47	
+R45	Condition Arg1:T46 Arg2:T48	
+A3	Judgment T42
+R46	Output Arg1:T41 Arg2:T42	
+R47	In_Out Arg1:T48 Arg2:T49	
+R48	Condition Arg1:T49 Arg2:T50	
+A4	Intentional T51
+R49	Attribute Arg1:T53 Arg2:T52	
+R50	Output Arg1:T51 Arg2:T53	
+R51	Agent Arg1:T51 Arg2:T40	
+R52	Coreference Arg1:T54 Arg2:T12	
+R53	Attribute Arg1:T56 Arg2:T55	
+R54	Output Arg1:T53 Arg2:T54	
+R55	Condition Arg1:T53 Arg2:T56	
+A5	Self T57
+R56	Poss Arg1:T57 Arg2:T58	
+T142	PLAN 848 852	work
+T141	APPLY-TO 838 847	builds on
+R57	from Arg1:T141 Arg2:T142	
+R58	to Arg1:T141 Arg2:T58	
+R59	Target Arg1:T59 Arg2:T60	
+R60	Apply-to Arg1:T142 Arg2:T59	
+R61	Component-object Arg1:T60 Arg2:T61	
+R62	Apply-to Arg1:T63 Arg2:T64	
+R63	Apply-to Arg1:T62 Arg2:T63	
+R64	Coreference Arg1:T62 Arg2:T142	
+R65	Attribute Arg1:T66 Arg2:T65	
+R66	Attribute Arg1:T68 Arg2:T67	
+R67	Target Arg1:T68 Arg2:T66	
+R68	Destination Arg1:T68 Arg2:T69	
+R69	In_Out Arg1:T64 Arg2:T68	
+R70	Coreference Arg1:T71 Arg2:T70	
+R71	Target Arg1:T73 Arg2:T74	
+R72	Agent Arg1:T73 Arg2:T71	
+R73	Attribute Arg1:T73 Arg2:T72	
+R74	Other-rel Arg1:T69 Arg2:T70	
+A6	Self T75
+A7	Intentional T76
+R75	Agent Arg1:T76 Arg2:T75	
+R76	Attribute Arg1:T78 Arg2:T77	
+R77	In_Out Arg1:T76 Arg2:T78	
+R78	Apply-to Arg1:T78 Arg2:T79	
+R79	In_Out Arg1:T79 Arg2:T80	
+T143	PLAN 1111 1112	A
+T144	PLAN 1117 1118	B
+R80	Attribute Arg1:T143 Arg2:T80	
+R81	Attribute Arg1:T144 Arg2:T80	
+T145	PROCESS 1120 1128	focusing
+A8	Intentional T145
+R82	Target Arg1:T145 Arg2:T82	
+R83	Attribute Arg1:T145 Arg2:T81	
+R84	Agent Arg1:T145 Arg2:T75	
+R85	Coreference Arg1:T83 Arg2:T82	
+R86	Attribute Arg1:T86 Arg2:T85	
+R87	Agent Arg1:T86 Arg2:T84	
+T146	PLAN 1185 1186	A
+R88	Target Arg1:T87 Arg2:T146	
+T147	PROCESS 1188 1193	adopt
+T148	PLAN 1194 1195	B
+R89	Target Arg1:T147 Arg2:T148	
+T149	PROCESS 1223 1228	adopt
+T150	PLAN 1234 1235	A
+T151	PLAN 1240 1241	B
+T152	REFERENCE 1229 1233	both
+R90	Member-collection Arg1:T150 Arg2:T152	
+R91	Member-collection Arg1:T151 Arg2:T152	
+R92	Target Arg1:T149 Arg2:T152	
+R93	In_Out Arg1:T86 Arg2:T87	
+R94	In_Out Arg1:T86 Arg2:T149	
+R95	In_Out Arg1:T86 Arg2:T147	
+A9	Self T89
+A10	Intentional T90
+R96	Agent Arg1:T90 Arg2:T89	
+T153	PLAN 1278 1279	A
+R97	Attribute Arg1:T153 Arg2:T91	
+R98	Condition Arg1:T91 Arg2:T92	
+R99	Attribute Arg1:T94 Arg2:T95	
+R100	Coreference Arg1:T94 Arg2:T153	
+T154	PLAN 1331 1332	,
+R101	Attribute Arg1:T95 Arg2:T96	
+T155	COMPARE 1327 1329	to
+R102	from Arg1:T155 Arg2:T154	
+R103	to Arg1:T155 Arg2:T96	
+R104	from Arg1:T93 Arg2:T95	
+R105	to Arg1:T93 Arg2:T91	
+T156	QUALITY 1209 1214	extra
+R107	Attribute Arg1:T88 Arg2:T156	
+R108	Attribute Arg1:T149 Arg2:T88	
+R106	Equivalence Arg1:T98 Arg2:T88	
+R109	Attribute Arg1:T99 Arg2:T98	
+T97	REFERENCE 1375 1379	both
+R110	Target Arg1:T99 Arg2:T97	
+R111	Member-collection Arg1:T153 Arg2:T97	
+R112	Member-collection Arg1:T154 Arg2:T97	
+R113	from Arg1:T93 Arg2:T98	
+T102	QUALITY 1395 1405	surprising
+R114	Attribute Arg1:T103 Arg2:T102	
+R115	Attribute Arg1:T103 Arg2:T101	
+R116	In_Out Arg1:T100 Arg2:T103	
+R117	Agent Arg1:T100 Arg2:T89	
+R118	from Arg1:T104 Arg2:T105	
+R119	to Arg1:T104 Arg2:T103	
+R120	Attribute Arg1:T107 Arg2:T106	
+R121	Attribute Arg1:T109 Arg2:T108	
+T157	PLAN 1538 1545	another
+R122	Output Arg1:T111 Arg2:T157	
+R123	Target Arg1:T110 Arg2:T111	
+R124	Apply-to Arg1:T109 Arg2:T110	
+R125	Attribute Arg1:T113 Arg2:T112	
+T158	QUALITY 1568 1572	both
+R126	Attribute Arg1:T114 Arg2:T158	
+R127	Target Arg1:T113 Arg2:T114	
+R128	Attribute Arg1:T116 Arg2:T115	
+R129	Attribute Arg1:T118 Arg2:T117	
+R130	Condition Arg1:T116 Arg2:T118	
+R131	In_Out Arg1:T116 Arg2:T112	
+A11	Self T119
+A12	Intentional T120
+R132	Agent Arg1:T120 Arg2:T119	
+R133	In_Out Arg1:T120 Arg2:T121	
+R134	Destination Arg1:T120 Arg2:T122	
+R135	Attribute Arg1:T124 Arg2:T123	
+R136	Component-object Arg1:T122 Arg2:T124	
+A13	Self T125
+R137	Agent Arg1:T126 Arg2:T125	
+R138	Attribute Arg1:T128 Arg2:T127	
+R139	Apply-to Arg1:T128 Arg2:T129	
+R140	In_Out Arg1:T129 Arg2:T130	
+R141	Attribute Arg1:T132 Arg2:T131	
+R142	Apply-to Arg1:T132 Arg2:T133	
+R143	Attribute Arg1:T135 Arg2:T134	
+R144	Attribute Arg1:T138 Arg2:T137	
+R145	Target Arg1:T136 Arg2:T138	
+R146	Apply-to Arg1:T135 Arg2:T136	
+R147	Target Arg1:T133 Arg2:T135	
+R148	Agent Arg1:T92 Arg2:T153	
+R149	Condition Arg1:T111 Arg2:T107	
+R150	Condition Arg1:T130 Arg2:T132	
+R151	Output Arg1:T126 Arg2:T129	

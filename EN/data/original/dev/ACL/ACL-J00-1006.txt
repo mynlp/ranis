@@ -1,0 +1,7 @@
+Multitiered Nonlinear Morphology Using Multitape Finite Automata: A Case Study on Syriac and Arabic
+
+This paper presents a computational model for nonlinear morphology with illustrations from Syriac and Arabic.
+The model is a multitiered one in that it allows for multiple lexical representations corresponding to the multiple tiers of autosegmental phonology.
+The model consists of three main components: (i) a lexicon, which is made of sublexica, with each sublexicon representing lexical material from a specific tier, (ii) a rewrite rules component that maps multiple lexical representations into one surface form and vice versa, and (iii) a morphotactic component that employs regular grammars.
+The system is finite-state in that lexica and rules can be represented by multitape finite-state machines.
+

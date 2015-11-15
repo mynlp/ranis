@@ -1,0 +1,74 @@
+T1	PLAN 2 17;38 48	Frequency-based Definition
+T2	PLAN 24 48	Poisson-based Definition
+T3	DATA-ITEM 56 67	Probability
+T4	ATTRIBUTE 71 76	Being
+T5	QUALITY 77 88	Informative
+T7	PLAN 148 159	assumptions
+T8	ATTRIBUTE 160 170	underlying
+T9	PLAN 175 201	inverse document frequency
+T10	PLAN 203 206	idf
+R1	Equivalence Arg1:T10 Arg2:T9	
+T11	PLAN 225 265	intuitive idf-based probability function
+T12	DATA-ITEM 274 285	probability
+T13	DATA-ITEM 291 295	term
+T15	QUALITY 302 313	informative
+T16	CONDITION 314 321	assumes
+T17	OCCURENT 331 346	document events
+T18	PROCESS 351 359	assuming
+T19	DATA-ITEM 360 369	documents
+T20	QUALITY 376 387	independent
+T21	QUALITY 400 408	disjoint
+T22	PERSON 425 432	Poisson
+T23	DATA-ITEM 425 450	Poisson-based probability
+T24	QUALITY 460 471	informative
+T25	PROCESS 413 419	arrive
+T26	PLAN 477 486	framework
+T27	QUALITY 490 496	useful
+T28	PROCESS 501 514	understanding
+T29	PROCESS 519 527	deciding
+T30	PLAN-OR-PROCESS 532 552	parameter estimation
+T31	PLAN-OR-PROCESS 532 541;557 568	parameter combination
+T32	PLAN 572 602	probabilistic retrieval models
+R5	Attribute Arg1:T19 Arg2:T20	
+R6	Attribute Arg1:T19 Arg2:T21	
+R7	Attribute Arg1:T23 Arg2:T24	
+R8	Attribute Arg1:T26 Arg2:T27	
+R4	to Arg1:T8 Arg2:T9	
+R9	Attribute Arg1:T13 Arg2:T12	
+T33	QUALITY 322 330	disjoint
+R10	Attribute Arg1:T17 Arg2:T33	
+R11	Attribute Arg1:T3 Arg2:T1	
+R12	Attribute Arg1:T3 Arg2:T2	
+R2	from Arg1:T4 Arg2:T3	
+R13	to Arg1:T4 Arg2:T5	
+R14	from Arg1:T8 Arg2:T7	
+R15	Output Arg1:T11 Arg2:T12	
+T34	ATTRIBUTE 296 301	being
+R3	from Arg1:T34 Arg2:T13	
+R16	to Arg1:T34 Arg2:T15	
+R17	from Arg1:T16 Arg2:T11	
+R18	to Arg1:T16 Arg2:T17	
+R19	In_Out Arg1:T18 Arg2:T19	
+R21	Target Arg1:T25 Arg2:T23	
+R22	Condition Arg1:T27 Arg2:T28	
+R23	Condition Arg1:T27 Arg2:T29	
+R24	Target Arg1:T28 Arg2:T30	
+R25	Target Arg1:T28 Arg2:T31	
+R26	Target Arg1:T29 Arg2:T30	
+R27	Target Arg1:T29 Arg2:T31	
+R28	Condition Arg1:T31 Arg2:T32	
+R29	Condition Arg1:T30 Arg2:T32	
+T6	PERSON 209 211	We
+T14	PROCESS 212 216	show
+T35	PERSON 410 412	we
+R30	Agent Arg1:T18 Arg2:T35	
+R31	Agent Arg1:T14 Arg2:T6	
+R32	Agent Arg1:T25 Arg2:T35	
+R20	Result Arg1:T18 Arg2:T25	
+T36	REFERENCE 89 99	This paper
+T37	PROCESS 100 107	reports
+T38	PLAN 111 137	theoretical investigations
+R34	Output Arg1:T37 Arg2:T38	
+R35	In_Out Arg1:T38 Arg2:T7	
+R36	Condition Arg1:T37 Arg2:T36	
+R33	Output Arg1:T14 Arg2:T15	

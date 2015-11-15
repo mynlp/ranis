@@ -1,0 +1,147 @@
+T1	PLAN 0 31	Generalized Value Decomposition
+T2	PLAN 71 104	Multiattribute auction mechanisms
+T3	QUALITY 105 114	generally
+T4	ATTRIBUTE 122 128	remain
+T5	QUALITY 129 137	agnostic
+T6	DATA-ITEM 144 164	traders' preferences
+T7	PROCESS 169 176	presume
+T8	QUALITY 177 195	highly restrictive
+T9	DATA-ITEM 196 201	forms
+T10	DATA-ITEM 211 226	full additivity
+T11	DATA-ITEM 233 244	preferences
+T12	QUALITY 245 250	often
+T13	PROCESS 251 258	exhibit
+T14	DATA-ITEM 259 271	dependencies
+T15	DATA-ITEM 278 288	attributes
+T16	MODALITY 294 297	may
+T17	ATTRIBUTE 298 305	possess
+T18	QUANTITY 306 310	some
+T19	PLAN 311 320	structure
+T20	REFERENCE 321 325	that
+T21	MODALITY 326 329	can
+T22	QUALITY 333 341	usefully
+T23	APPLY-TO 342 351	exploited
+T24	PROCESS 355 365	streamline
+T25	PLAN-OR-PROCESS 366 379	communication
+T26	PROCESS 384 392	simplify
+T27	PLAN 393 402	operation
+T28	PLAN 408 430	multiattribute auction
+T29	PERSON 432 434	We
+T30	PROCESS 435 442	develop
+T31	PLAN 443 459	such a structure
+T32	APPLY-TO 460 465	using
+T33	PLAN 470 476	theory
+T34	PLAN 480 506	measurable value functions
+T35	PLAN 510 541	cardinal utility representation
+T36	INPUT 542 547	based
+T37	DATA-ITEM 554 570	underlying order
+T38	DATA-ITEM 576 598	preference differences
+T39	DATA-ITEM 602 605	set
+T40	DATA-ITEM 609 649	local conditional independence relations
+T41	DATA-ITEM 655 671	such differences
+T42	PROCESS 672 680	supports
+T43	PLAN 683 729	generalized additive preference representation
+T44	REFERENCE 731 736	which
+T45	PROCESS 737 747	decomposes
+T46	DATA-ITEM 748 755	utility
+T47	QUALITY 763 774	overlapping
+T48	DATA-ITEM 775 783	clusters
+T49	QUALITY 787 794	related
+T50	DATA-ITEM 795 805	attributes
+T51	PERSON 807 809	We
+T52	PROCESS 810 819	introduce
+T53	PLAN 823 850	iterative auction mechanism
+T54	REFERENCE 851 855	that
+T55	PROCESS 856 865	maintains
+T56	DATA-ITEM 866 872	prices
+T57	DATA-ITEM 876 890	local clusters
+T58	DATA-ITEM 894 904	attributes
+T59	DATA-ITEM 921 931	full space
+T60	DATA-ITEM 935 955	joint configurations
+T61	DATA-ITEM 962 982	traders' preferences
+T62	QUALITY 987 997	consistent
+T63	PLAN-OR-PROCESS 1007 1014	auction
+T64	QUALITY 1017 1028	generalized
+T65	PLAN 1029 1047	additive structure
+T66	PLAN 1049 1062	the mechanism
+T67	PROCESS 1063 1071	produces
+T68	QUALITY 1072 1093	approximately optimal
+T69	PLAN 1094 1105	allocations
+T70	DATA-ITEM 1122 1132	VCG prices
+T71	PLAN 36 70	Structured Multiattribute Auctions
+T72	PERSON 144 151	traders
+R1	to Arg1:T4 Arg2:T5	
+R2	from Arg1:T4 Arg2:T2	
+R3	Attribute Arg1:T4 Arg2:T3	
+R4	Condition Arg1:T5 Arg2:T6	
+R5	Attribute Arg1:T9 Arg2:T8	
+R6	Is-a Arg1:T10 Arg2:T9	
+R7	Output Arg1:T7 Arg2:T9	
+R8	Apply-to Arg1:T2 Arg2:T7	
+R9	Attribute Arg1:T13 Arg2:T12	
+R10	Output Arg1:T13 Arg2:T14	
+R11	Attribute Arg1:T15 Arg2:T14	
+T73	QUALITY 228 232	Real
+R12	Attribute Arg1:T11 Arg2:T73	
+R13	Agent Arg1:T13 Arg2:T11	
+R14	Attribute Arg1:T19 Arg2:T18	
+R15	from Arg1:T17 Arg2:T11	
+R16	to Arg1:T17 Arg2:T19	
+R17	Attribute Arg1:T17 Arg2:T16	
+R18	Coreference Arg1:T20 Arg2:T19	
+R19	to Arg1:T23 Arg2:T24	
+R20	from Arg1:T23 Arg2:T20	
+R21	Attribute Arg1:T23 Arg2:T22	
+R22	Attribute Arg1:T23 Arg2:T21	
+R23	In_Out Arg1:T24 Arg2:T25	
+R24	to Arg1:T23 Arg2:T26	
+R25	In_Out Arg1:T26 Arg2:T27	
+R26	Target Arg1:T27 Arg2:T28	
+A1	Self T29
+A2	Intentional T30
+R27	Agent Arg1:T30 Arg2:T29	
+R28	Is-a Arg1:T19 Arg2:T31	
+R29	Output Arg1:T30 Arg2:T31	
+R30	Is-a Arg1:T34 Arg2:T33	
+R31	from Arg1:T32 Arg2:T33	
+R32	to Arg1:T32 Arg2:T30	
+R33	Is-a Arg1:T34 Arg2:T35	
+R34	from Arg1:T36 Arg2:T35	
+R35	to Arg1:T36 Arg2:T37	
+R36	Condition Arg1:T37 Arg2:T38	
+R37	Member-collection Arg1:T40 Arg2:T39	
+R38	Condition Arg1:T40 Arg2:T41	
+R39	Agent Arg1:T42 Arg2:T39	
+R40	Target Arg1:T42 Arg2:T43	
+R41	Coreference Arg1:T44 Arg2:T43	
+R42	Apply-to Arg1:T44 Arg2:T45	
+R43	In_Out Arg1:T45 Arg2:T46	
+R44	Attribute Arg1:T48 Arg2:T47	
+R45	Attribute Arg1:T50 Arg2:T49	
+R46	Member-collection Arg1:T50 Arg2:T48	
+R47	Condition Arg1:T46 Arg2:T48	
+A3	Self T51
+A4	Intentional T52
+R48	Agent Arg1:T52 Arg2:T51	
+R49	Output Arg1:T52 Arg2:T53	
+R50	Coreference Arg1:T54 Arg2:T53	
+R51	Apply-to Arg1:T54 Arg2:T55	
+R52	Target Arg1:T55 Arg2:T56	
+R53	Member-collection Arg1:T58 Arg2:T57	
+R54	Condition Arg1:T56 Arg2:T57	
+T74	MODALITY 905 916	rather than
+R55	Attribute Arg1:T59 Arg2:T74	
+R56	Attribute Arg1:T59 Arg2:T60	
+R57	Condition Arg1:T56 Arg2:T59	
+T75	PERSON 962 969	traders
+R58	Attribute Arg1:T61 Arg2:T62	
+R59	Condition Arg1:T62 Arg2:T65	
+R60	Attribute Arg1:T65 Arg2:T64	
+R61	Attribute Arg1:T63 Arg2:T65	
+R62	Apply-to Arg1:T66 Arg2:T67	
+R63	Coreference Arg1:T66 Arg2:T53	
+R64	Attribute Arg1:T69 Arg2:T68	
+R65	Output Arg1:T67 Arg2:T69	
+T76	QUALITY 1110 1121	approximate
+R66	Attribute Arg1:T70 Arg2:T76	
+R67	Condition Arg1:T67 Arg2:T70	

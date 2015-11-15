@@ -1,0 +1,71 @@
+T1	PLAN-OR-PROCESS 28 61	Noisy Channel Spelling Correction
+T2	PLAN 68 87	noisy channel model
+T3	APPLY-TO 97 104	applied
+T4	QUALITY 110 123	wide range of
+T6	PLAN-OR-PROCESS 124 132	problems
+T7	IS-A 135 144	including
+T8	PLAN-OR-PROCESS 145 164	spelling correction
+T9	PLAN 167 179	These models
+T10	COMPONENT-OBJECT 180 187	consist
+T11	QUANTITY 191 194	two
+T12	PLAN 195 205	components
+T13	PLAN 210 222	source model
+T14	PLAN 229 242	channel model
+T15	QUANTITY 245 256	Very little
+T16	PLAN-OR-PROCESS 257 265	research
+T17	PROCESS 270 279	gone into
+T18	PROCESS 280 289	improving
+T19	PLAN 294 307	channel model
+T20	PLAN-OR-PROCESS 312 331	spelling correction
+T22	QUALITY 357 360	new
+T23	PLAN 361 374	channel model
+T24	PLAN-OR-PROCESS 379 398	spelling correction
+T26	APPLY-TO 401 409	based on
+T27	PLAN-OR-PROCESS 418 440	string to string edits
+T30	PROCESS 443 448	Using
+T31	PLAN 449 459	this model
+T32	RESULT 460 465	gives
+T33	QUALITY 466 477	significant
+T34	JUDGING-PROCESS 478 502	performance improvements
+T35	COMPARE 503 511	compared
+T36	QUALITY 515 534	previously proposed
+T37	PLAN 535 541	models
+T38	PLAN 12 23	Error Model
+T39	QUALITY 3 11	Improved
+R1	Attribute Arg1:T38 Arg2:T39	
+R2	Apply-to Arg1:T38 Arg2:T1	
+R3	Attribute Arg1:T6 Arg2:T4	
+R4	to Arg1:T3 Arg2:T6	
+R5	from Arg1:T3 Arg2:T2	
+R6	from Arg1:T7 Arg2:T8	
+R7	to Arg1:T7 Arg2:T6	
+R8	Attribute Arg1:T12 Arg2:T11	
+R9	to Arg1:T10 Arg2:T12	
+R10	from Arg1:T10 Arg2:T9	
+R11	Coreference Arg1:T9 Arg2:T2	
+R12	Is-a Arg1:T13 Arg2:T12	
+R13	Is-a Arg1:T14 Arg2:T12	
+R14	Attribute Arg1:T16 Arg2:T15	
+R15	In_Out Arg1:T18 Arg2:T19	
+R16	Apply-to Arg1:T19 Arg2:T20	
+R17	Output Arg1:T17 Arg2:T18	
+R18	Apply-to Arg1:T16 Arg2:T17	
+T5	REFERENCE 334 344	This paper
+A1	Self T5
+T21	PROCESS 345 354	describes
+A2	Intentional T21
+R19	Condition Arg1:T21 Arg2:T5	
+R20	Attribute Arg1:T23 Arg2:T22	
+R21	Output Arg1:T21 Arg2:T23	
+R22	Apply-to Arg1:T23 Arg2:T24	
+T25	QUALITY 410 417	generic
+R23	Attribute Arg1:T27 Arg2:T25	
+R24	from Arg1:T26 Arg2:T27	
+R25	to Arg1:T26 Arg2:T23	
+R26	Attribute Arg1:T34 Arg2:T33	
+R27	Input Arg1:T30 Arg2:T31	
+R28	from Arg1:T32 Arg2:T30	
+R29	to Arg1:T32 Arg2:T34	
+R30	Attribute Arg1:T37 Arg2:T36	
+R31	from Arg1:T35 Arg2:T37	
+R32	to Arg1:T35 Arg2:T34	

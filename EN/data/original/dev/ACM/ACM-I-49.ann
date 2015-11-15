@@ -1,0 +1,84 @@
+T1	PLAN 2 47	Multilateral Multi-issue Negotiation Protocol
+T2	QUALITY 76 79	new
+T3	PLAN 80 88	protocol
+T4	PROCESS 92 99	address
+T5	PLAN-OR-PROCESS 100 136	multilateral multi-issue negotiation
+T6	PLAN 142 161	cooperative context
+T7	DATA-ITEM 183 195	dependencies
+T8	QUALITY 175 182	complex
+T9	QUANTITY 204 212	multiple
+T10	PLAN 213 219	issues
+T11	PROCESS 223 232	modelling
+T12	PLAN 237 248	preferences
+T13	INTELLIGENT-AGENT 256 262	agents
+T14	PLAN 270 302	multi-criteria decision aid tool
+T15	PROCESS 309 317	enabling
+T16	PROCESS 324 331	extract
+T17	PLAN-OR-PROCESS 358 377	proposal assessment
+T18	DATA-ITEM 341 352	information
+T19	DATA-ITEM 379 395	This information
+R1	Coreference Arg1:T19 Arg2:T18	
+T20	INPUT 399 403	used
+T21	PLAN 411 419	protocol
+T22	PROCESS 423 427	help
+T23	PROCESS 431 443	accelerating
+T24	PLAN-OR-PROCESS 448 454	search
+T25	DATA-ITEM 461 470	consensus
+T26	INTELLIGENT-AGENT 483 501	cooperative agents
+T27	PLAN 520 541	negotiation procedure
+T28	PROCESS 545 552	defined
+T29	PLAN 558 583	crisis management context
+T30	PLAN 594 610	common objective
+T31	INTELLIGENT-AGENT 618 624	agents
+T32	PLAN 651 662	preferences
+T33	INTELLIGENT-AGENT 668 682	mediator agent
+T34	MODALITY 633 643	considered
+R2	Attribute Arg1:T3 Arg2:T2	
+R3	Attribute Arg1:T7 Arg2:T8	
+R4	Attribute Arg1:T10 Arg2:T9	
+T35	QUALITY 332 340	relevant
+R5	Attribute Arg1:T18 Arg2:T35	
+T39	PERSON 614 617	our
+R6	Poss Arg1:T39 Arg2:T31	
+R7	to Arg1:T20 Arg2:T19	
+R8	from Arg1:T20 Arg2:T21	
+R9	Apply-to Arg1:T3 Arg2:T4	
+R10	Target Arg1:T4 Arg2:T5	
+R11	Apply-to Arg1:T5 Arg2:T6	
+R12	Attribute Arg1:T10 Arg2:T7	
+R13	Attribute Arg1:T13 Arg2:T12	
+R14	In_Out Arg1:T11 Arg2:T12	
+R15	Apply-to Arg1:T14 Arg2:T11	
+R17	Condition Arg1:T18 Arg2:T17	
+R18	Apply-to Arg1:T21 Arg2:T22	
+R19	Target Arg1:T22 Arg2:T23	
+R20	In_Out Arg1:T23 Arg2:T24	
+R21	Attribute Arg1:T25 Arg2:T26	
+R22	Output Arg1:T24 Arg2:T25	
+R23	Output Arg1:T28 Arg2:T27	
+R24	Apply-to Arg1:T28 Arg2:T29	
+R25	Attribute Arg1:T31 Arg2:T30	
+R26	Attribute Arg1:T33 Arg2:T32	
+T40	COMPONENT-OBJECT 625 627	is
+R27	from Arg1:T40 Arg2:T30	
+R28	to Arg1:T40 Arg2:T32	
+R29	Attribute Arg1:T40 Arg2:T34	
+R30	Condition Arg1:T40 Arg2:T41	
+T41	REFERENCE 584 589	where
+R31	Coreference Arg1:T41 Arg2:T29	
+T36	PERSON 63 65	we
+T37	REFERENCE 51 61	this paper
+T38	PROCESS 66 73	present
+T42	PERSON 163 165	We
+T43	PROCESS 166 174	consider
+R32	Agent Arg1:T38 Arg2:T36	
+R33	Condition Arg1:T38 Arg2:T37	
+R34	Output Arg1:T38 Arg2:T3	
+R35	Agent Arg1:T43 Arg2:T42	
+R36	In_Out Arg1:T43 Arg2:T7	
+R37	Apply-to Arg1:T11 Arg2:T43	
+R38	Input Arg1:T16 Arg2:T18	
+R39	Apply-to Arg1:T14 Arg2:T15	
+T44	PERSON 318 320	us
+R16	Target Arg1:T15 Arg2:T44	
+R40	Agent Arg1:T16 Arg2:T44	

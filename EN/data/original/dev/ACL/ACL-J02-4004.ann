@@ -1,0 +1,111 @@
+T1	DATA-ITEM 42 69	Intermediate Representation
+T2	PLAN-OR-PROCESS 74 102	Automatic Text Summarization
+T3	DATA-ITEM 21 35	Lexical Chains
+T5	QUALITY 0 20	Efficiently Computed
+T6	PLAN-OR-PROCESS 110 138	automatic text summarization
+T7	DOMAIN 145 149	area
+T8	REFERENCE 150 154	that
+R1	Coreference Arg1:T8 Arg2:T7	
+T9	PROCESS 159 167	received
+T10	QUANTITY 170 180	great deal
+T11	OCCURENT 184 193	attention
+T14	PLAN 218 225	problem
+T15	QUALITY 229 239	efficiency
+T16	PLAN-OR-PROCESS 243 252	this task
+R2	Coreference Arg1:T16 Arg2:T6	
+T17	MODALITY 257 260	not
+T18	QUALITY 266 276	frequently
+T19	PROCESS 277 286	addressed
+T20	QUALITY 297 301	size
+T21	QUANTITY 306 314	quantity
+T22	DATA-ITEM 318 327	documents
+T23	QUALITY 328 337	available
+T24	DATA-ITEM 345 353	Internet
+T25	DATA-ITEM 369 376	sources
+T26	QUALITY 363 368	other
+T27	PROCESS 381 391	considered
+T28	THING 397 401	need
+T29	QUALITY 408 424	highly efficient
+T30	PLAN 425 429	tool
+T31	REFERENCE 430 434	that
+R3	Coreference Arg1:T31 Arg2:T30	
+T32	PROCESS 435 443	produces
+T33	QUALITY 444 450	usable
+T34	DATA-ITEM 451 460	summaries
+T35	QUALITY 464 469	clear
+T36	PLAN 484 505	linear-time algorithm
+T37	PLAN-OR-PROCESS 510 535	lexical chain computation
+T38	PLAN 541 550	algorithm
+T39	PROCESS 551 556	makes
+T40	DATA-ITEM 557 571	lexical chains
+T41	QUALITY 574 598	computationally feasible
+T42	DATA-ITEM 599 608	candidate
+T43	DATA-ITEM 615 642	intermediate representation
+T44	PLAN-OR-PROCESS 647 675	automatic text summarization
+T45	PLAN 679 685	method
+T46	PROCESS 690 700	evaluating
+T47	DATA-ITEM 701 715	lexical chains
+T48	PLAN-OR-PROCESS 722 739	intermediate step
+T49	PLAN-OR-PROCESS 743 756	summarization
+T50	PROCESS 779 790	carried out
+T51	REFERENCE 792 810	Such an evaluation
+T52	TIME 815 825	heretofore
+T53	MODALITY 826 829	not
+T54	QUALITY 830 838	possible
+T55	QUALITY 854 878	computational complexity
+T56	PLAN 891 916	lexical chains algorithms
+T57	TIME 882 890	previous
+R5	Attribute Arg1:T3 Arg2:T5	
+R6	Attribute Arg1:T30 Arg2:T29	
+R7	Attribute Arg1:T34 Arg2:T33	
+R8	Attribute Arg1:T56 Arg2:T55	
+R9	Attribute Arg1:T56 Arg2:T57	
+R11	Attribute Arg1:T25 Arg2:T26	
+R12	Attribute Arg1:T42 Arg2:T41	
+T12	EXTERNAL-REFERENCE 197 212	recent research
+R10	Attribute Arg1:T22 Arg2:T21	
+R13	Attribute Arg1:T22 Arg2:T23	
+R14	Attribute Arg1:T22 Arg2:T20	
+R15	Attribute Arg1:T54 Arg2:T53	
+R16	Is-a Arg1:T3 Arg2:T1	
+R17	Input Arg1:T2 Arg2:T1	
+R18	Attribute Arg1:T11 Arg2:T10	
+R19	Is-a Arg1:T6 Arg2:T7	
+R20	Output Arg1:T9 Arg2:T11	
+R21	Destination Arg1:T9 Arg2:T8	
+R22	Condition Arg1:T9 Arg2:T12	
+R23	Attribute Arg1:T14 Arg2:T15	
+R24	Condition Arg1:T14 Arg2:T16	
+R25	Attribute Arg1:T19 Arg2:T17	
+R26	Attribute Arg1:T19 Arg2:T18	
+R27	Target Arg1:T19 Arg2:T14	
+R28	Condition Arg1:T23 Arg2:T24	
+R29	Condition Arg1:T22 Arg2:T25	
+R30	Output Arg1:T32 Arg2:T34	
+R31	Apply-to Arg1:T31 Arg2:T32	
+R32	Condition Arg1:T28 Arg2:T30	
+R33	Attribute Arg1:T28 Arg2:T35	
+R34	Input Arg1:T27 Arg2:T21	
+R35	Input Arg1:T27 Arg2:T20	
+R36	Other-rel Arg1:T27 Arg2:T35	
+R37	Apply-to Arg1:T36 Arg2:T37	
+R4	Apply-to Arg1:T38 Arg2:T39	
+R38	Output Arg1:T39 Arg2:T40	
+R39	Is-a Arg1:T40 Arg2:T42	
+R40	Is-a Arg1:T40 Arg2:T43	
+R41	Input Arg1:T44 Arg2:T43	
+R42	Apply-to Arg1:T45 Arg2:T46	
+R43	Input Arg1:T46 Arg2:T47	
+R46	Other-rel Arg1:T50 Arg2:T45	
+R47	Coreference Arg1:T51 Arg2:T46	
+R48	Attribute Arg1:T51 Arg2:T54	
+R49	Condition Arg1:T54 Arg2:T52	
+T13	RESULT 839 849	because of
+R50	from Arg1:T13 Arg2:T55	
+R51	to Arg1:T13 Arg2:T54	
+R44	Component-object Arg1:T48 Arg2:T49	
+R45	Apply-to Arg1:T48 Arg2:T46	
+T4	PERSON 471 473	We
+T58	PROCESS 474 481	present
+R52	Agent Arg1:T58 Arg2:T4	
+R53	Output Arg1:T58 Arg2:T36	

@@ -1,0 +1,8 @@
+Bootstrapping Morphological Analyzers by Combining Human Elicitation and Machine Learning
+
+This paper presents a semiautomatic technique for developing broad-coverage finite-state morphological analyzers for use in natural language processing applications.
+It consists of three components--elicitation of linguistic information from humans, a machine learning bootstrapping scheme, and a testing environment.
+The three components are applied iteratively until a threshold of output quality is attained.
+The initial application of this technique is for the morphology of low-density languages in the context of the Expedition project at NMS U Computing Research Laboratory.
+This elicit-build-test technique compiles lexical and inflectional information elicited from a human into a finite-state transducer lexicon and combines this with a sequence of morphographemic rewrite rules that is induced using transformation-based learning from the elicited examples.
+The resulting morphological analyzer is then tested against a test set, and any corrections are fed back into the learning procedure, which then builds an improved analyzer.

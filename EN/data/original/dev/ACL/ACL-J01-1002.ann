@@ -1,0 +1,98 @@
+T1	PLAN-OR-PROCESS 42 70	Automatic Topic Segmentation
+T2	PROCESS 0 11	Integrating
+T3	DATA-ITEM 25 37	Lexical Cues
+T4	DATA-ITEM 12 20;33 37	Prosodic Cues
+T5	PLAN 85 104	probabilistic model
+T6	INPUT 110 114	uses
+T7	DATA-ITEM 120 128;141 145	prosodic cues
+T8	DATA-ITEM 133 145	lexical cues
+T9	PLAN-OR-PROCESS 154 176	automatic segmentation
+T10	DATA-ITEM 180 186	speech
+T11	DATA-ITEM 192 216	topically coherent units
+T12	QUANTITY 229 232	two
+T13	PLAN 233 240	methods
+T14	PROCESS 245 254	combining
+T15	DATA-ITEM 267 287	prosodic information
+T16	DATA-ITEM 255 262;276 287	lexical information
+T18	PLAN 319 333	decision trees
+T19	DATA-ITEM 335 354	Lexical information
+T20	PROCESS 358 366	obtained
+T21	PLAN 374 391	speech recognizer
+T22	DATA-ITEM 397 414	prosodic features
+T23	PROCESS 419 428	extracted
+T24	QUALITY 429 442	automatically
+T25	DATA-ITEM 448 464	speech waveforms
+T26	PROCESS 469 477	evaluate
+T27	PLAN 482 490	approach
+T29	ORGANIZATION 531 536	DARPA
+T30	PLAN 537 540	TDT
+T31	PLAN 531 559	DARPA-TDT evaluation metrics
+T32	DATA-ITEM 561 568	Results
+T33	PLAN 583 597	prosodic model
+T34	QUALITY 598 603	alone
+T35	QUALITY 607 618	competitive
+T36	PLAN 624 655	word-based segmentation methods
+T37	JUDGING-PROCESS 695 704	reduction
+T38	QUALITY 683 694	significant
+T39	DATA-ITEM 708 713	error
+T40	PROCESS 717 726	combining
+T41	DATA-ITEM 744 772	word-based knowledge sources
+T42	DATA-ITEM 731 739;755 772	prosodic knowledge sources
+T43	PROCESS 673 680	achieve
+T44	RESULT 569 573	show
+R1	Attribute Arg1:T13 Arg2:T12	
+T45	PLAN 294 314	hidden Markov models
+R2	Attribute Arg1:T23 Arg2:T24	
+T46	PERSON 478 481	our
+T47	DATA-ITEM 498 519	Broadcast News corpus
+R3	Attribute Arg1:T33 Arg2:T35	
+T17	REFERENCE 105 109	that
+R4	Coreference Arg1:T17 Arg2:T5	
+R5	Poss Arg1:T46 Arg2:T27	
+R6	Attribute Arg1:T37 Arg2:T38	
+R7	Apply-to Arg1:T2 Arg2:T1	
+R8	In_Out Arg1:T2 Arg2:T4	
+R9	In_Out Arg1:T2 Arg2:T3	
+R10	to Arg1:T6 Arg2:T8	
+R11	to Arg1:T6 Arg2:T7	
+R12	from Arg1:T6 Arg2:T17	
+R13	Apply-to Arg1:T5 Arg2:T9	
+R14	Input Arg1:T9 Arg2:T10	
+R15	Output Arg1:T9 Arg2:T11	
+R16	Apply-to Arg1:T13 Arg2:T14	
+R17	In_Out Arg1:T14 Arg2:T16	
+R18	In_Out Arg1:T14 Arg2:T15	
+T28	APPLY-TO 288 293	using
+R19	from Arg1:T28 Arg2:T45	
+R20	from Arg1:T28 Arg2:T18	
+R21	to Arg1:T28 Arg2:T13	
+R22	Output Arg1:T20 Arg2:T19	
+R23	Apply-to Arg1:T21 Arg2:T20	
+R24	Output Arg1:T23 Arg2:T22	
+R25	Input Arg1:T23 Arg2:T25	
+R27	Input Arg1:T26 Arg2:T27	
+T49	APPLY-TO 521 526	using
+R28	from Arg1:T49 Arg2:T31	
+R29	to Arg1:T49 Arg2:T26	
+R30	from Arg1:T44 Arg2:T32	
+R31	to Arg1:T44 Arg2:T35	
+R32	Compare Arg1:T36 Arg2:T35	
+R33	Attribute Arg1:T33 Arg2:T34	
+R34	In_Out Arg1:T37 Arg2:T39	
+R35	In_Out Arg1:T40 Arg2:T42	
+R36	In_Out Arg1:T40 Arg2:T41	
+R37	Apply-to Arg1:T40 Arg2:T43	
+R38	Result Arg1:T43 Arg2:T37	
+R26	Input Arg1:T26 Arg2:T47	
+T48	PERSON 72 74	We
+T50	PROCESS 75 82	present
+T51	PERSON 218 220	We
+T52	PROCESS 221 228	propose
+T53	PERSON 466 468	We
+T54	PERSON 670 672	we
+R39	Agent Arg1:T50 Arg2:T48	
+R40	Agent Arg1:T52 Arg2:T51	
+R41	Agent Arg1:T26 Arg2:T53	
+R42	Output Arg1:T50 Arg2:T5	
+R43	Output Arg1:T52 Arg2:T13	
+R44	Agent Arg1:T43 Arg2:T54	

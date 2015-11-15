@@ -1,0 +1,51 @@
+R1	Output Arg1:T38 Arg2:T37
+R2	Apply-to Arg1:T1 Arg2:T38
+A1	Self T2
+A2	Intentional T3
+R3	Agent Arg1:T3 Arg2:T2
+R4	Output Arg1:T3 Arg2:T4
+R5	Attribute Arg1:T6 Arg2:T5
+R6	Output Arg1:T4 Arg2:T6
+R7	Coreference Arg1:T7 Arg2:T6
+R8	Apply-to Arg1:T7 Arg2:T8
+R9	Target Arg1:T8 Arg2:T9
+R10	Attribute Arg1:T11 Arg2:T10
+R11	Output Arg1:T9 Arg2:T11
+R12	Output Arg1:T11 Arg2:T12
+R13	Target Arg1:T8 Arg2:T13
+R14	Target Arg1:T13 Arg2:T14
+R15	Attribute Arg1:T16 Arg2:T15
+R16	Output Arg1:T14 Arg2:T16
+R17	Attribute Arg1:T19 Arg2:T18
+R18	Attribute Arg1:T19 Arg2:T17
+R19	Is-a Arg1:T20 Arg2:T17
+R20	Attribute Arg1:T22 Arg2:T21
+R21	Attribute Arg1:T22 Arg2:T39
+R22	Input Arg1:T22 Arg2:T23
+R23	Output Arg1:T20 Arg2:T22
+T38	PLAN-OR-PROCESS 4 26	Automatic Construction
+T37	PLAN 32 47	Symbolic Parser
+T1	PLAN 52 74	Statistical Techniques
+T2	PERSON 77 79	We
+T3	PROCESS 80 86	report
+T4	PROCESS 94 105	development
+T5	QUALITY 111 117	robust
+T6	PLAN 118 132	parsing device
+T7	REFERENCE 133 138	which
+T8	PROCESS 139 143	aims
+T9	PROCESS 147 154	provide
+T10	QUALITY 157 164	partial
+T11	PLAN-OR-PROCESS 165 176	explanation
+T12	PLAN-OR-PROCESS 181 207	child language acquisition
+T13	PROCESS 212 216	help
+T14	PLAN-OR-PROCESS 224 236	construction
+T15	QUALITY 240 246	better
+T16	PLAN 247 282	natural language processing systems
+T17	PLAN-OR-PROCESS 289 297	backbone
+T18	QUALITY 305 308	new
+T19	PLAN 309 317	approach
+T20	PLAN-OR-PROCESS 325 334	synthesis
+T39	QUALITY 338 349	statistical
+T21	QUALITY 354 362	symbolic
+T22	PLAN 363 373	approaches
+T23	LANGUAGE 377 393	natural language

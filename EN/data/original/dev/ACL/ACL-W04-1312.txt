@@ -1,0 +1,8 @@
+Modelling Atypical Syntax Processing .
+We evaluate the inferences that can be drawn from dissociations in syntax processing identified in developmental disorders and acquired language deficits .
+We use an SRN to simulate empirical data from Dick et al. ( 2001 ) on the relative difficulty of comprehending different syntactic constructions under normal conditions and conditions of damage .
+We conclude that task constraints and internal computational constraints interact to predict patterns of difficulty .
+Difficulty is predicted by frequency of constructions , by the requirement of the task to focus on local vs. global sequence information , and by the ability of the system to maintain sequence information .
+We generate a testable prediction on the empirical pattern that should be observed under conditions of developmental damage .
+
+

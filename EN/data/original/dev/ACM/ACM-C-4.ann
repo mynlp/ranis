@@ -1,0 +1,326 @@
+T1	PLAN 0 24	Intra-flow Loss Recovery
+T2	PLAN 29 36	Control
+T3	PLAN 41 45	VolP
+T4	PLAN 60 84	packet-switched networks
+T5	PLAN 95 103	Internet
+T6	MODALITY 108 111	not
+T7	PROCESS 112 117	offer
+T8	QUALITY 120 128	reliable
+T9	PLAN-OR-PROCESS 129 141	transmission
+T10	PLAN 145 152	packets
+T11	PLAN 156 168	applications
+T12	PLAN 174 195	real-time constraints
+T13	THING 204 209	voice
+T14	PROCESS 221 225	loss
+T15	PLAN 229 236	packets
+T16	PROCESS 237 244	impairs
+T17	PLAN 249 274	application-level utility
+T18	THING 280 285	voice
+T19	PROCESS 286 309	this utility impairment
+T20	QUANTITY 313 320	twofold
+T21	PLAN-OR-PROCESS 346 352	bursts
+T22	PLAN 361 368	packets
+T23	MODALITY 369 372	may
+T24	PROCESS 373 381	decrease
+T25	QUALITY 382 395	significantly
+T26	QUALITY 400 407	ability
+T27	PLAN 415 423	receiver
+T28	PROCESS 427 434	conceal
+T29	PROCESS 439 450	packet loss
+T30	PLAN 459 480	speech signal playout
+T31	PROCESS 484 495	interrupted
+T32	QUANTITY 516 520	some
+T33	PLAN 521 528	packets
+T34	MODALITY 529 532	may
+T35	QUALITY 536 546	particular
+T36	QUALITY 547 556	sensitive
+T37	PLAN-OR-PROCESS 560 564	loss
+T38	REFERENCE 568 572	they
+T39	PROCESS 573 578	carry
+T40	QUALITY 579 593	more important
+T41	DATA-ITEM 594 605	information
+T42	PROCESS 618 633	user perception
+T43	PLAN 639 652	other packets
+T44	PERSON 654 656	We
+T45	PROCESS 663 670	develop
+T46	PLAN 674 690	end-to-end model
+T47	INPUT 691 699	based on
+T48	DATA-ITEM 700 715	loss runlengths
+T49	REFERENCE 721 726	which
+T50	PERSON 727 729	we
+T51	MODALITY 730 733	can
+T52	PROCESS 734 742	describe
+T53	DATA-ITEM 747 764	loss distribution
+T54	PLAN 774 778	flow
+T55	PLAN 780 806	These packet-level metrics
+T56	PROCESS 816 822	linked
+T57	PLAN 826 869	user-level objective speech quality metrics
+T58	PROCESS 871 876	Using
+T59	PLAN 877 891	this framework
+T60	PERSON 893 895	we
+T61	PROCESS 896 900	find
+T62	PLAN 910 945	low-compressing sample-based codecs
+T63	PLAN 947 950	PCM
+T64	PLAN-OR-PROCESS 957 973	loss concealment
+T65	MODALITY 997 1000	can
+T66	PROCESS 1004 1013	concealed
+T67	QUALITY 1014 1018	well
+T68	PROCESS 1028 1040	burst losses
+T69	PROCESS 1055 1072	perceptual impact
+T70	QUALITY 1078 1094	high-compressing
+T71	PLAN 1095 1113	frame-based codecs
+T72	PLAN 1115 1120	G.729
+T73	PROCESS 1138 1144	impact
+T74	PROCESS 1148 1152	loss
+T75	PROCESS 1156 1165	amplified
+T76	PROCESS 1174 1191	error propagation
+T77	RESULT 1192 1198	caused
+T78	PLAN 1206 1229	decoder filter memories
+T79	PLAN 1256 1275	such coding schemes
+T80	APPLY-TO 1276 1280	help
+T81	PROCESS 1284 1291	perform
+T82	PLAN-OR-PROCESS 1292 1308	loss concealment
+T83	PLAN-OR-PROCESS 1312 1325	extrapolation
+T84	DATA-ITEM 1329 1342	decoder state
+T85	QUALITY 1344 1352	Contrary
+T86	PLAN 1356 1375	sample-based codecs
+T87	PERSON 1376 1378	we
+T88	PROCESS 1379 1383	show
+T89	DATA-ITEM 1393 1416	concealment performance
+T90	MODALITY 1417 1420	may
+T91	PROCESS 1421 1426	break
+T92	DATA-ITEM 1430 1441	transitions
+T93	DATA-ITEM 1453 1466	speech signal
+T94	PERSON 1476 1478	We
+T95	PROCESS 1484 1491	propose
+T96	PLAN 1492 1502	mechanisms
+T97	REFERENCE 1503 1508	which
+T98	PROCESS 1509 1522	differentiate
+T99	PLAN 1531 1538	packets
+T100	PLAN 1548 1563	voice data flow
+T101	PROCESS 1567 1575	minimize
+T102	PROCESS 1580 1586	impact
+T103	DATA-ITEM 1590 1601	packet loss
+T104	PERSON 1603 1605	We
+T105	PROCESS 1606 1615	designate
+T106	PLAN 1616 1629	these methods
+T107	PLAN 1633 1669	intra-flow loss recovery and control
+T108	PLAN 1678 1694	end-to-end level
+T109	PROCESS 1696 1710	identification
+T110	PLAN 1714 1721	packets
+T111	QUALITY 1722 1731	sensitive
+T112	PROCESS 1735 1739	loss
+T113	PLAN 1741 1747	sender
+T114	PLAN 1760 1776	loss concealment
+T115	PLAN 1778 1786	receiver
+T116	PROCESS 1788 1799	takes place
+T117	PLAN 1801 1827	Hop-by-hop support schemes
+T118	PROCESS 1833 1838	allow
+T119	QUALITY 1843 1856	statistically
+T120	PROCESS 1858 1863	trade
+T121	PROCESS 1868 1872	loss
+T122	QUANTITY 1876 1879	one
+T123	PLAN 1880 1886	packet
+T124	REFERENCE 1888 1893	which
+T125	PROCESS 1897 1907	considered
+T126	QUALITY 1908 1922	more important
+T127	QUALITY 1932 1939	another
+T128	REFERENCE 1940 1943	one
+T129	QUALITY 1951 1955	same
+T130	PLAN 1956 1960	flow
+T131	REFERENCE 1961 1966	which
+T132	QUALITY 1973 1989	lower importance
+T133	PLAN 1994 2006	both packets
+T134	QUALITY 2007 2014	require
+T135	QUALITY 2019 2023	same
+T136	DATA-ITEM 2024 2028	cost
+T137	PLAN-OR-PROCESS 2041 2061	network transmission
+T138	DATA-ITEM 2065 2069	gain
+T139	PLAN-OR-PROCESS 2073 2088	user perception
+T140	QUALITY 2092 2102	obtainable
+T141	PERSON 2104 2106	We
+T142	PROCESS 2107 2111	show
+T144	QUALITY 2117 2156	significant speech quality improvements
+T145	MODALITY 2157 2160	can
+T146	PROCESS 2164 2172	achieved
+T147	DATA-ITEM 2177 2192	additional data
+T148	DATA-ITEM 2197 2211	delay overhead
+T149	MODALITY 2212 2215	can
+T150	PROCESS 2219 2226	avoided
+T151	PROCESS 2239 2250	maintaining
+T152	PLAN 2253 2268	network service
+T153	REFERENCE 2269 2274	which
+T154	QUALITY 2278 2297	virtually identical
+T155	PLAN 2306 2312	effort
+T156	TIME 2320 2329	long term
+T157	QUALITY 46 59	"Best effort"
+R1	Attribute Arg1:T4 Arg2:T157	
+R2	Apply-to Arg1:T4 Arg2:T7	
+R3	Attribute Arg1:T7 Arg2:T6	
+R4	Attribute Arg1:T9 Arg2:T8	
+R5	Target Arg1:T9 Arg2:T10	
+R6	Output Arg1:T7 Arg2:T9	
+R7	Destination Arg1:T9 Arg2:T11	
+R8	Other-rel Arg1:T13 Arg2:T12	
+R9	Attribute Arg1:T11 Arg2:T12	
+R10	In_Out Arg1:T16 Arg2:T17	
+R11	Output Arg1:T14 Arg2:T15	
+R12	Result Arg1:T14 Arg2:T16	
+R13	Attribute Arg1:T19 Arg2:T20	
+T158	QUALITY 356 360	lost
+R14	Attribute Arg1:T22 Arg2:T158	
+R15	Attribute Arg1:T24 Arg2:T23	
+R16	Attribute Arg1:T24 Arg2:T25	
+R17	Target Arg1:T28 Arg2:T29	
+R18	Attribute Arg1:T27 Arg2:T26	
+R19	Apply-to Arg1:T27 Arg2:T28	
+R20	In_Out Arg1:T24 Arg2:T26	
+R21	Result Arg1:T21 Arg2:T24	
+R22	Output Arg1:T21 Arg2:T22	
+R23	Target Arg1:T31 Arg2:T30	
+T159	QUALITY 340 345	short
+R24	Attribute Arg1:T21 Arg2:T159	
+R25	Condition Arg1:T20 Arg2:T18	
+R26	Attribute Arg1:T33 Arg2:T32	
+R27	Attribute Arg1:T33 Arg2:T36	
+R28	Attribute Arg1:T36 Arg2:T35	
+R29	Attribute Arg1:T36 Arg2:T34	
+R30	Condition Arg1:T36 Arg2:T37	
+R31	Coreference Arg1:T38 Arg2:T33	
+R32	Apply-to Arg1:T38 Arg2:T39	
+R33	Attribute Arg1:T41 Arg2:T40	
+R34	Target Arg1:T39 Arg2:T41	
+T160	PERSON 618 622	user
+T161	CONDITION 606 617	in terms of
+R36	to Arg1:T161 Arg2:T42	
+R37	from Arg1:T161 Arg2:T40	
+A1	Self T44
+A2	Intentional T45
+R38	Agent Arg1:T45 Arg2:T44	
+R39	Output Arg1:T45 Arg2:T46	
+R40	from Arg1:T47 Arg2:T46	
+R41	to Arg1:T47 Arg2:T48	
+R42	Coreference Arg1:T49 Arg2:T46	
+A3	Self T50
+A4	Intentional T52
+R43	Attribute Arg1:T52 Arg2:T51	
+R44	Agent Arg1:T52 Arg2:T50	
+R45	Output Arg1:T52 Arg2:T53	
+R46	Condition Arg1:T53 Arg2:T54	
+R47	Destination Arg1:T56 Arg2:T57	
+R48	Target Arg1:T56 Arg2:T55	
+A5	Self T60
+R49	Agent Arg1:T61 Arg2:T60	
+R50	Is-a Arg1:T63 Arg2:T62	
+R51	Component-object Arg1:T62 Arg2:T64	
+T162	PROCESS 974 996	isolated packet losses
+R52	Target Arg1:T66 Arg2:T162	
+R53	Attribute Arg1:T66 Arg2:T65	
+R54	Attribute Arg1:T66 Arg2:T67	
+R55	Condition Arg1:T66 Arg2:T62	
+A6	Intentional T58
+R56	Agent Arg1:T58 Arg2:T60	
+R57	Input Arg1:T58 Arg2:T59	
+R58	Result Arg1:T58 Arg2:T61	
+R59	In_Out Arg1:T61 Arg2:T67	
+R60	Attribute Arg1:T68 Arg2:T69	
+R61	Attribute Arg1:T71 Arg2:T70	
+R62	Is-a Arg1:T72 Arg2:T71	
+T163	QUALITY 1048 1054	higher
+A7	Judgment T163
+R63	Attribute Arg1:T69 Arg2:T163	
+R64	Result Arg1:T74 Arg2:T73	
+R65	In_Out Arg1:T75 Arg2:T73	
+R66	Result Arg1:T76 Arg2:T75	
+R67	to Arg1:T77 Arg2:T76	
+R68	from Arg1:T77 Arg2:T78	
+R69	Condition Arg1:T75 Arg2:T71	
+R70	Output Arg1:T81 Arg2:T82	
+R71	Output Arg1:T83 Arg2:T84	
+R72	Apply-to Arg1:T83 Arg2:T82	
+R73	from Arg1:T80 Arg2:T79	
+R74	to Arg1:T80 Arg2:T81	
+R75	Coreference Arg1:T79 Arg2:T71	
+R76	Compare Arg1:T86 Arg2:T85	
+A8	Self T87
+A9	Intentional T88
+R77	Agent Arg1:T88 Arg2:T87	
+R78	Attribute Arg1:T91 Arg2:T90	
+R79	In_Out Arg1:T91 Arg2:T89	
+R80	Condition Arg1:T91 Arg2:T92	
+R81	Component-object Arg1:T93 Arg2:T92	
+R82	Condition Arg1:T91 Arg2:T85	
+R83	Output Arg1:T88 Arg2:T91	
+A10	Self T94
+A11	Intentional T95
+R84	Agent Arg1:T95 Arg2:T94	
+R85	Output Arg1:T95 Arg2:T96	
+R86	Coreference Arg1:T97 Arg2:T96	
+R87	Apply-to Arg1:T97 Arg2:T98	
+R88	In_Out Arg1:T98 Arg2:T99	
+R89	Component-object Arg1:T100 Arg2:T99	
+R90	Apply-to Arg1:T98 Arg2:T101	
+R91	In_Out Arg1:T101 Arg2:T102	
+R92	Other-rel Arg1:T103 Arg2:T102	
+A12	Self T104
+A13	Intentional T105
+R93	Agent Arg1:T105 Arg2:T104	
+R94	Destination Arg1:T105 Arg2:T106	
+R95	Output Arg1:T105 Arg2:T107	
+R96	In_Out Arg1:T109 Arg2:T110	
+R97	Attribute Arg1:T109 Arg2:T111	
+R99	Condition Arg1:T111 Arg2:T112	
+R100	Output Arg1:T116 Arg2:T114	
+R101	Condition Arg1:T112 Arg2:T113	
+R102	Condition Arg1:T114 Arg2:T115	
+R98	Component-object Arg1:T108 Arg2:T113	
+R103	Component-object Arg1:T108 Arg2:T115	
+R104	Apply-to Arg1:T117 Arg2:T118	
+R105	Output Arg1:T118 Arg2:T120	
+R106	Attribute Arg1:T118 Arg2:T119	
+R107	Attribute Arg1:T123 Arg2:T122	
+R108	Output Arg1:T121 Arg2:T123	
+R109	Target Arg1:T120 Arg2:T121	
+R110	Coreference Arg1:T124 Arg2:T123	
+R111	Attribute Arg1:T124 Arg2:T126	
+R112	Output Arg1:T125 Arg2:T124	
+R116	Attribute Arg1:T128 Arg2:T127	
+R117	Attribute Arg1:T130 Arg2:T129	
+R118	Coreference Arg1:T131 Arg2:T128	
+R119	Attribute Arg1:T131 Arg2:T132	
+R113	Component-object Arg1:T130 Arg2:T128	
+R114	Target Arg1:T120 Arg2:T128	
+R120	Member-collection Arg1:T123 Arg2:T133	
+R121	Member-collection Arg1:T128 Arg2:T133	
+R122	Attribute Arg1:T136 Arg2:T135	
+R123	Attribute Arg1:T136 Arg2:T134	
+R124	Condition Arg1:T134 Arg2:T133	
+R125	Condition Arg1:T136 Arg2:T137	
+R126	Attribute Arg1:T138 Arg2:T140	
+A14	Judgment T140
+R127	Condition Arg1:T138 Arg2:T139	
+A15	Self T141
+A16	Intentional T142
+R129	Attribute Arg1:T146 Arg2:T145	
+R130	Output Arg1:T146 Arg2:T144	
+R131	Attribute Arg1:T150 Arg2:T149	
+R132	Target Arg1:T150 Arg2:T148	
+R133	Target Arg1:T150 Arg2:T147	
+R134	Target Arg1:T151 Arg2:T152	
+R135	Coreference Arg1:T153 Arg2:T152	
+R136	Attribute Arg1:T153 Arg2:T154	
+T164	QUALITY 2301 2305	best
+R137	Attribute Arg1:T155 Arg2:T164	
+T165	COMPARE 2298 2300	to
+R138	from Arg1:T165 Arg2:T155	
+R139	to Arg1:T165 Arg2:T154	
+R140	Condition Arg1:T155 Arg2:T156	
+R141	Agent Arg1:T142 Arg2:T141	
+R142	Output Arg1:T142 Arg2:T144	
+A17	Judgment T144
+R128	Output Arg1:T142 Arg2:T150	
+A18	Judgment T154
+R143	Output Arg1:T142 Arg2:T154	
+T143	COMPARE 634 638	than
+R115	from Arg1:T143 Arg2:T43	
+R144	to Arg1:T143 Arg2:T40	

@@ -1,0 +1,226 @@
+T1	PLAN 0 18	Bidding Algorithms
+T2	PLAN-OR-PROCESS 25 58	Distributed Combinatorial Auction
+T3	PLAN 110 118;59 81	problems Distributed allocation
+T4	PLAN 86 118	multiagent coordination problems
+T5	MODALITY 119 122	can
+T6	PROCESS 126 132	solved
+T7	PLAN-OR-PROCESS 141 163	combinatorial auctions
+T8	PLAN 195 226	winner determination algorithms
+T9	QUALITY 186 194	existing
+T10	QUANTITY 174 178	most
+T11	PLAN-OR-PROCESS 231 253	combinatorial auctions
+T12	QUALITY 258 269	centralized
+T13	PLAN 275 280	PAUSE
+T14	PLAN 275 288	PAUSE auction
+T15	REFERENCE 292 295	one
+T16	QUANTITY 299 304	a few
+T17	PLAN-OR-PROCESS 305 312	efforts
+T18	PROCESS 316 323	release
+T19	INTELLIGENT-AGENT 328 338	auctioneer
+T20	MODALITY 344 350	having
+T21	PROCESS 354 356	do
+T22	QUANTITY 357 360	all
+T23	PLAN-OR-PROCESS 365 369	work
+T24	MODALITY 388 396	possible
+T25	MODALITY 374 379	might
+T26	PROCESS 400 410	get rid of
+T27	INTELLIGENT-AGENT 415 425	auctioneer
+T28	PLAN-OR-PROCESS 437 475	increasing price combinatorial auction
+T29	QUALITY 481 490	naturally
+T30	PROCESS 491 502	distributes
+T31	REFERENCE 476 480	that
+R1	Coreference Arg1:T31 Arg2:T28	
+T32	PLAN 507 514	problem
+T33	PLAN 518 538	winner determination
+T36	INTELLIGENT-AGENT 551 558	bidders
+T37	PLAN 569 572	way
+T38	REFERENCE 578 582	they
+T39	ATTRIBUTE 583 587	have
+T40	OCCURENT 591 600	incentive
+T41	RESULT 604 611	perform
+T42	PLAN-OR-PROCESS 616 627	calculation
+T43	MODALITY 632 635	can
+T44	APPLY-TO 639 643	used
+T47	PROCESS 660 670	distribute
+T48	THING 675 693	computational load
+T49	INTELLIGENT-AGENT 704 711	bidders
+T50	INTELLIGENT-AGENT 724 731	bidders
+T51	MODALITY 735 738	not
+T52	PROCESS 739 743	wish
+T53	PROCESS 747 753	reveal
+T54	DATA-ITEM 760 775	true valuations
+T55	QUALITY 783 792	necessary
+T56	MODALITY 776 782	unless
+T58	PROCESS 800 811	establishes
+T59	PLAN 816 821	rules
+T60	INTELLIGENT-AGENT 826 833	bidders
+T61	MODALITY 834 838	must
+T62	PROCESS 839 843	obey
+T63	REFERENCE 854 856	it
+R2	Coreference Arg1:T63 Arg2:T108	
+T64	MODALITY 862 865	not
+T65	PROCESS 866 870	tell
+T67	INTELLIGENT-AGENT 882 889	bidders
+T68	MODALITY 890 896	should
+T69	PROCESS 897 906	calculate
+T70	DATA-ITEM 913 917	bids
+T71	PROCESS 927 936	developed
+T72	PLAN 949 967	bidding algorithms
+T73	QUANTITY 937 948	a couple of
+T74	INTELLIGENT-AGENT 976 983	bidders
+T75	PLAN 989 994	PAUSE
+T76	PLAN 989 1002	PAUSE auction
+T77	PLAN 1008 1018	algorithms
+T78	TIME 1019 1025	always
+T79	OUTPUT 1026 1032	return
+T80	DATA-ITEM 1037 1040	set
+T81	DATA-ITEM 1044 1048	bids
+T82	REFERENCE 1049 1053	that
+R4	Coreference Arg1:T82 Arg2:T80	
+T83	PROCESS 1054 1063	maximizes
+T84	INTELLIGENT-AGENT 1068 1074	bidder
+T85	QUALITY 1077 1084	utility
+T86	PLAN 1096 1103	problem
+T87	QUALITY 1107 1114	NP-Hard
+T88	TIME 1116 1124	run time
+T89	ATTRIBUTE 1125 1132	remains
+T90	QUALITY 1133 1144	exponential
+T91	QUANTITY 1152 1158	number
+T92	DATA-ITEM 1162 1167	items
+T93	QUALITY 1179 1196	remarkably better
+T94	PLAN 1205 1222	exhaustive search
+T95	PLAN 1253 1271	bidding algorithms
+T96	QUALITY 1287 1294	virtues
+T97	QUALITY 1299 1308	drawbacks
+T98	PROCESS 1314 1321	compare
+T99	DATA-ITEM 1326 1335	solutions
+T100	OUTPUT 1336 1344	obtained
+T101	REFERENCE 1348 1352	them
+R5	Coreference Arg1:T101 Arg2:T107	
+T102	DATA-ITEM 1360 1387	revenue-maximizing solution
+T103	PROCESS 1388 1393	found
+T104	PLAN 1399 1441	centralized winner determination algorithm
+R6	Attribute Arg1:T6 Arg2:T5	
+R7	In_Out Arg1:T6 Arg2:T4	
+R8	In_Out Arg1:T6 Arg2:T3	
+R9	Condition Arg1:T6 Arg2:T7	
+R10	Attribute Arg1:T8 Arg2:T9	
+R11	Attribute Arg1:T8 Arg2:T10	
+R12	Apply-to Arg1:T8 Arg2:T11	
+R13	Attribute Arg1:T17 Arg2:T16	
+R17	Attribute Arg1:T8 Arg2:T12	
+R18	Apply-to Arg1:T17 Arg2:T18	
+R19	Attribute Arg1:T21 Arg2:T20	
+R20	Attribute Arg1:T23 Arg2:T22	
+R21	Target Arg1:T21 Arg2:T23	
+R22	Origin Arg1:T18 Arg2:T21	
+R23	Target Arg1:T18 Arg2:T19	
+R24	Attribute Arg1:T26 Arg2:T25	
+R25	Attribute Arg1:T26 Arg2:T24	
+R26	Target Arg1:T26 Arg2:T27	
+R27	Attribute Arg1:T30 Arg2:T29	
+R28	Output Arg1:T30 Arg2:T32	
+R31	Coreference Arg1:T38 Arg2:T36	
+R32	Attribute Arg1:T44 Arg2:T43	
+R33	Attribute Arg1:T52 Arg2:T51	
+R34	Attribute Arg1:T55 Arg2:T56	
+R35	Attribute Arg1:T62 Arg2:T61	
+R36	Attribute Arg1:T65 Arg2:T64	
+R37	Attribute Arg1:T69 Arg2:T68	
+R38	Attribute Arg1:T72 Arg2:T73	
+R39	Attribute Arg1:T79 Arg2:T78	
+R40	Attribute Arg1:T86 Arg2:T87	
+T106	REFERENCE 1173 1175	it
+R42	Coreference Arg1:T106 Arg2:T88	
+R43	Attribute Arg1:T106 Arg2:T93	
+T107	REFERENCE 1281 1286	their
+R44	Coreference Arg1:T107 Arg2:T95	
+R16	Apply-to Arg1:T1 Arg2:T2	
+T108	PLAN 794 799	PAUSE
+T109	PERSON 1004 1007	Our
+R14	Member-collection Arg1:T81 Arg2:T80	
+T110	REFERENCE 428 430	It
+R15	Coreference Arg1:T110 Arg2:T14	
+T111	REFERENCE 629 631	It
+R29	Coreference Arg1:T111 Arg2:T110	
+T35	PERSON 1249 1252	our
+T113	REFERENCE 573 577	that
+R3	Coreference Arg1:T113 Arg2:T37	
+R30	Poss Arg1:T109 Arg2:T77	
+R45	Poss Arg1:T35 Arg2:T95	
+R46	Attribute Arg1:T84 Arg2:T85	
+T114	REFERENCE 754 759	their
+R47	Coreference Arg1:T114 Arg2:T50	
+R48	Poss Arg1:T114 Arg2:T54	
+T115	REFERENCE 907 912	their
+R49	Coreference Arg1:T115 Arg2:T67	
+R50	Poss Arg1:T115 Arg2:T70	
+R51	Output Arg1:T69 Arg2:T70	
+R52	Attribute Arg1:T107 Arg2:T96	
+R53	Attribute Arg1:T107 Arg2:T97	
+R54	Attribute Arg1:T92 Arg2:T91	
+R56	Other-rel Arg1:T14 Arg2:T15	
+R57	Is-a Arg1:T110 Arg2:T28	
+R58	Attribute Arg1:T32 Arg2:T33	
+R59	Destination Arg1:T30 Arg2:T36	
+R60	Condition Arg1:T30 Arg2:T37	
+R61	Other-rel Arg1:T39 Arg2:T113	
+R62	from Arg1:T39 Arg2:T38	
+R63	to Arg1:T39 Arg2:T40	
+R64	from Arg1:T41 Arg2:T40	
+R65	to Arg1:T41 Arg2:T42	
+R66	from Arg1:T44 Arg2:T111	
+R67	to Arg1:T44 Arg2:T47	
+R68	In_Out Arg1:T47 Arg2:T48	
+R69	Destination Arg1:T47 Arg2:T49	
+R70	Agent Arg1:T52 Arg2:T50	
+R71	Target Arg1:T52 Arg2:T53	
+R72	Output Arg1:T53 Arg2:T54	
+R73	to Arg1:T44 Arg2:T52	
+R74	Condition Arg1:T53 Arg2:T55	
+R75	Apply-to Arg1:T108 Arg2:T58	
+R76	Output Arg1:T58 Arg2:T59	
+R77	Agent Arg1:T62 Arg2:T60	
+R78	Target Arg1:T62 Arg2:T59	
+R79	Apply-to Arg1:T63 Arg2:T65	
+R80	Output Arg1:T65 Arg2:T69	
+R81	Agent Arg1:T69 Arg2:T67	
+R82	Output Arg1:T71 Arg2:T72	
+R83	Other-rel Arg1:T71 Arg2:T74	
+R84	Attribute Arg1:T74 Arg2:T76	
+R85	from Arg1:T79 Arg2:T77	
+R86	to Arg1:T79 Arg2:T80	
+R87	Input Arg1:T83 Arg2:T82	
+R88	In_Out Arg1:T83 Arg2:T85	
+R89	Other-rel Arg1:T90 Arg2:T91	
+R90	Compare Arg1:T94 Arg2:T93	
+R91	Input Arg1:T98 Arg2:T99	
+R92	to Arg1:T100 Arg2:T99	
+R93	from Arg1:T100 Arg2:T101	
+R94	Output Arg1:T103 Arg2:T102	
+R95	Apply-to Arg1:T104 Arg2:T103	
+R96	Input Arg1:T98 Arg2:T102	
+R41	from Arg1:T89 Arg2:T88	
+R97	to Arg1:T89 Arg2:T90	
+R98	Apply-to Arg1:T31 Arg2:T30	
+R55	Other-rel Arg1:T15 Arg2:T17	
+T34	PERSON 649 651	we
+R99	Agent Arg1:T47 Arg2:T34	
+T45	PERSON 919 921	We
+T46	PERSON 1238 1240	we
+T57	REFERENCE 1227 1237	this paper
+T66	PROCESS 1241 1248	present
+R100	Agent Arg1:T71 Arg2:T45	
+R101	Agent Arg1:T66 Arg2:T46	
+R102	Condition Arg1:T66 Arg2:T57	
+R103	Agent Arg1:T98 Arg2:T46	
+T105	PROCESS 1273 1280	discuss
+R104	Agent Arg1:T105 Arg2:T46	
+R105	Output Arg1:T105 Arg2:T96	
+R106	Output Arg1:T105 Arg2:T97	
+R107	Condition Arg1:T105 Arg2:T57	
+R108	Condition Arg1:T98 Arg2:T57	
+T112	PERSON 871 873	us
+R109	Target Arg1:T65 Arg2:T112	
+T116	MODALITY 652 656	wish
+R110	Attribute Arg1:T47 Arg2:T116	

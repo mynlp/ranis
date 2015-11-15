@@ -1,0 +1,95 @@
+R1	to Arg1:T1 Arg2:T2
+R2	from Arg1:T1 Arg2:T3
+A1	Self T45
+A2	Intentional T46
+R3	Condition Arg1:T46 Arg2:T45
+R4	Output Arg1:T46 Arg2:T4
+R5	Apply-to Arg1:T4 Arg2:T5
+R6	Output Arg1:T5 Arg2:T6
+R7	Apply-to Arg1:T6 Arg2:T7
+R8	to Arg1:T8 Arg2:T9
+R9	from Arg1:T8 Arg2:T6
+#1	AnnotatorNotes T10	multi-stream setup
+R10	Attribute Arg1:T10 Arg2:T9
+R11	Coreference Arg1:T48 Arg2:T10
+R12	to Arg1:T47 Arg2:T11
+R13	from Arg1:T47 Arg2:T48
+R14	Is-a Arg1:T13 Arg2:T12
+R15	Is-a Arg1:T14 Arg2:T12
+A3	Self T15
+A4	Intentional T16
+R16	Agent Arg1:T16 Arg2:T15
+R17	Apply-to Arg1:T16 Arg2:T17
+R18	Apply-to Arg1:T17 Arg2:T18
+A5	Intentional T19
+R19	Agent Arg1:T19 Arg2:T15
+R20	Coreference Arg1:T21 Arg2:T4
+R21	Attribute Arg1:T23 Arg2:T22
+R22	Input Arg1:T19 Arg2:T21
+R23	Input Arg1:T19 Arg2:T23
+R24	In_Out Arg1:T11 Arg2:T12
+R25	In_Out Arg1:T29 Arg2:T25
+R26	Condition Arg1:T29 Arg2:T24
+R27	Attribute Arg1:T28 Arg2:T26
+R28	In_Out Arg1:T29 Arg2:T28
+R29	Coreference Arg1:T24 Arg2:T23
+A6	Self T31
+A7	Intentional T32
+R30	Agent Arg1:T32 Arg2:T31
+R31	Attribute Arg1:T37 Arg2:T36
+R32	In_Out Arg1:T35 Arg2:T36
+R33	Agent Arg1:T35 Arg2:T34
+R34	Condition Arg1:T32 Arg2:T30
+R36	Is-a Arg1:T38 Arg2:T37
+R37	Apply-to Arg1:T35 Arg2:T39
+R38	Attribute Arg1:T43 Arg2:T42
+R39	In_Out Arg1:T43 Arg2:T44
+R40	Output Arg1:T41 Arg2:T43
+R41	Agent Arg1:T41 Arg2:T40
+R42	Coreference Arg1:T40 Arg2:T39
+R35	Output Arg1:T32 Arg2:T35
+T1	INPUT 3 8	using
+T2	DATA-ITEM 9 30	Articulatory Features
+T3	PLAN-OR-PROCESS 35 68	Discriminative Speaker Adaptation
+T45	REFERENCE 71 81	This paper
+T46	PROCESS 82 90	presents
+T4	PLAN 93 96	way
+T5	PROCESS 100 107	perform
+T6	PLAN-OR-PROCESS 108 126	speaker adaptation
+T7	PLAN-OR-PROCESS 131 159	automatic speech recognition
+T8	INPUT 160 165	using
+T9	DATA-ITEM 170 184	stream weights
+T10	PLAN 190 208	multi-stream setup
+T48	REFERENCE 211 216	which
+T47	COMPONENT-OBJECT 217 225	included
+T11	PLAN 226 241	acoustic models
+T12	DATA-ITEM 249 270	Articulatory Features
+T13	DATA-ITEM 282 289	ROUNDED
+T14	DATA-ITEM 293 299	VOICED
+T15	PERSON 302 304	We
+T16	PROCESS 305 312	present
+T17	PLAN 313 354	supervised speaker adaptation experiments
+T18	PLAN 360 383	spontaneous speech task
+T19	PROCESS 388 395	compare
+T21	PLAN 400 427	above stream-based approach
+T22	QUALITY 431 443	conventional
+T23	PLAN 444 454	approaches
+T24	REFERENCE 460 465	which
+T25	PLAN 470 476	models
+T26	MODALITY 483 486	not
+T28	DATA-ITEM 487 513	stream combination weights
+T29	PROCESS 526 533	adapted
+T30	PLAN 543 551	approach
+T31	PERSON 552 554	we
+T32	PROCESS 555 562	present
+T34	DATA-ITEM 565 579	stream weights
+T35	PROCESS 580 585	model
+T36	DATA-ITEM 590 600	importance
+T37	DATA-ITEM 604 612	features
+T38	DATA-ITEM 621 627	VOICED
+T39	PLAN-OR-PROCESS 632 651	word discrimination
+T40	REFERENCE 654 659	which
+T41	PROCESS 660 666	offers
+T42	QUALITY 669 680	descriptive
+T43	PLAN-OR-PROCESS 681 695	interpretation
+T44	DATA-ITEM 703 724	adaptation parameters
