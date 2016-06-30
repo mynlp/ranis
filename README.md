@@ -67,6 +67,6 @@ This work was partially supported by JSPS Grant-in-Aid for Scientific Research (
 Annotations are Copyright (C) 2013-2016 Miyao Lab, National Institute of Informatics, Japan
 ![Creative Commons License CC-BY-SA](https://i.creativecommons.org/l/by-sa/4.0/80x15.png)
 
-ACL materials are Copyright (C) 1963-2016 ACL; other materials are copyrighted by their respective copyright holders. 
+IPSJ materials are Copyright (C) 1960-2016 Information Processing Society of Japan; ACL materials are Copyright (C) 1963-2016 ACL; other materials are copyrighted by their respective copyright holders. 
 
 
