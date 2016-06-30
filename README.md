@@ -1,6 +1,6 @@
 # Relational representation of context-dependent roles on information science papers
 
-as of 2015-11-13
+as of 2016-06-30
 
 This corpus is a set of research abstracts in information science domain, where the mentions of named entities and domain specific entites are marked and their roles in the context of the paper are annotated in the form of relations to other entities.
 There are two subcorpora: the Japanese corpus consisting of 230 abstracts from IPSJ (Information Procsssing Society of Japan) Journal, and the English corpus consisting of 250 abstracts from the ACL anthology and 150 abstracts from SEMEVAL 2010 task5 set (part of the ACM digital library).
