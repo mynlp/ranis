@@ -45,7 +45,7 @@ The following files are included, in the EN subdirectory:
 * Gupta.list
 	A plain text file containing the list of IDs used for Extraction of Focus, Domain, Technique described in the LREC-16 paper.
 
-The annotation scheme for the English data is more fine-grained than the scheme for the Japanese data, and the former can be converted into the latter.  The [conversion script](https://github.com/mynlp/ranis/blob/master/README.md) is available.
+The annotation scheme for the English data is more fine-grained than the scheme for the Japanese data, and the former can be converted into the latter.  The [conversion script](https://github.com/mynlp/ranis/blob/master/scripts/convert_v2_to_v1.py) is available.
 
 ## Documentation
 
