@@ -5,6 +5,8 @@ title:  'RANIS - Relational representation of context-dependent roles on informa
 
 # RANIS - Relational representation of context-dependent roles on information science papers
 
+[GitHub repository](https://github.com/mynlp/ranis)
+
 as of 2017-08-28
 
 This corpus is a set of research abstracts in information science domain, where the mentions of named entities and domain specific entites are marked and their roles in the context of the paper are annotated in the form of relations to other entities.
