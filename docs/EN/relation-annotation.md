@@ -26,6 +26,6 @@ For example, in structures such as “corpus introduced by . . . , which is proc
 
 <ul>
 {% for p in site.EN_relation %}
-  <li><a class="relation" href="{{ p.url | remove_first:'/' }}">{{ p.title }}</a>: {{ p.shortdef }}</li>
+  <li><a class="relation" href="..{{ p.url }}">{{ p.title }}</a>: {{ p.shortdef }}</li>
 {% endfor %}
 </ul>
