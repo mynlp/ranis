@@ -3,7 +3,7 @@ layout: base
 title:  'RANIS - Relational representation of context-dependent roles on information science papers'
 ---
 
-# Relational representation of context-dependent roles on information science papers
+# RANIS - Relational representation of context-dependent roles on information science papers
 
 as of 2017-08-28
 
@@ -44,6 +44,8 @@ The following files are included, in the EN subdirectory:
             * ACM: From ACM Digital Library (20 abstracts)
 * Gupta.list
 	A plain text file containing the list of IDs used for Extraction of Focus, Domain, Technique described in the LREC-16 paper.
+
+The annotation scheme for the English data is more fine-grained than the scheme for the Japanese data, and the former can be converted into the latter.  The [conversion script](https://github.com/mynlp/ranis/blob/master/README.md) is available.
 
 ## Documentation
 
