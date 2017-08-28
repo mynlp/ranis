@@ -49,8 +49,8 @@ The following files are included, in the EN subdirectory:
 
 Annotation guidelines for Japanese and English data are available.
 
-* [Japanese corpus](http://mynlp.github.io/ranis/EN/)
-* [English corpus](http://mynlp.github.io/ranis/JA/manual.pdf)
+* [Japanese corpus](http://mynlp.github.io/ranis/JA/manual.pdf) (PDF)
+* [English corpus](http://mynlp.github.io/ranis/EN/) (HTML)
 
 ## Notes
 
