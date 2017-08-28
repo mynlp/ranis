@@ -1,0 +1,34 @@
+# Build settings
+
+source: .
+destination: ./_site
+markdown: kramdown
+# don't change the following; coderay will break the embedded
+# annotations.
+kramdown:
+  enable_coderay: false
+permalink: date
+# safe: true
+markdown_ext: md
+
+##############################################################################
+
+# Site settings
+
+# Fill in and remove comments to enable.
+
+#homeurl: ""
+#editurl: ""
+#issueurl: ""
+
+##############################################################################
+
+# Collection settings
+
+collections:
+  span:
+    output: true
+  relation:
+    output: true
+  flag:
+    output: true

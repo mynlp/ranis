@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-GB" xml:lang="en-GB" xmlns="http://www.w3.org/1999/xhtml">
+
+  {% include head.html %}
+
+  <body>
+
+    <div id="main" class="center">
+
+      {% include header.html %}
+      <hr/>
+
+      <div id="content">
+
+	{% include noscript.html %}
+
+        {{ content }}
+
+      </div>
+
+      {% include footer.html %}
+
+    </div>
+
+  </body>
+
+<!-- support for embedded visualizations -->
+{% include embedding.html %}
+
+</html>

@@ -1,0 +1,18 @@
+{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>{{ page.title }}</title>
+    <link rel="root" href="{{ relative }}"/> <!-- for JS -->
+
+    <!-- Base jQuery-UI styles -->
+    <link rel="stylesheet" href="{{ relative }}css/jquery-ui-redmond.css"/>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ relative }}css/style.css"/>
+    <!-- CSS for embedded visualizations -->
+    <link rel="stylesheet" href="{{ relative }}css/style-vis.css"/>
+
+    <!-- head.js, required for embedding -->
+    <script type="text/javascript" src="{{ relative }}lib/ext/head.load.min.js"></script>
+
+</head>
