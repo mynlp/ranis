@@ -1,3 +1,8 @@
+---
+layout: base
+title:  'RANIS - Relational representation of context-dependent roles on information science papers'
+---
+
 # Relational representation of context-dependent roles on information science papers
 
 as of 2017-08-28
