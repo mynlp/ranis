@@ -26,9 +26,9 @@ markdown_ext: md
 # Collection settings
 
 collections:
-  span:
+  EN_span:
     output: true
-  relation:
+  EN_relation:
     output: true
-  flag:
+  EN_flag:
     output: true

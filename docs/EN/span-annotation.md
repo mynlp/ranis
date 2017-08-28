@@ -72,7 +72,7 @@ to type-specific rules.
 ## Type-specific guidelines
 
 <ul>
-{% for p in site.span %}
+{% for p in site.EN_span %}
   <li><a class="span" href="{{ p.url | remove_first:'/' }}">{{ p.title }}</a>: {{ p.shortdef }}</li>
 {% endfor %}
 </ul>
