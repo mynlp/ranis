@@ -1,44 +1,9 @@
 # Relational representation of context-dependent roles on information science papers
 
-as of 2017-08-28
+See [the home page](http://mynlp.github.io/ranis/) for details.
 
 This corpus is a set of research abstracts in information science domain, where the mentions of named entities and domain specific entites are marked and their roles in the context of the paper are annotated in the form of relations to other entities.
 There are two subcorpora: the Japanese corpus consisting of 230 abstracts from IPSJ (Information Procsssing Society of Japan) Journal, and the English corpus consisting of 250 abstracts from the ACL anthology and 150 abstracts from SEMEVAL 2010 task5 set (part of the ACM digital library).
-
-The corpus is created using [brat](http://brat.nlplab.org/) and the annotation is in the brat standoff format (see <http://brat.nlplab.org/standoff.html>). The configuration files for viewing with brat is also included in corpus.  
-
-## Japanese Corpus
-
-The following files are included, in the JA subdirectory:
-
-* data
-    * goldstandard-v2:    
-    The version mentioned in [LAW](https://aclweb.org/anthology/W/W13/W13-2318.pdf) and [LREC](http://www.lrec-conf.org/proceedings/lrec2014/pdf/461_Paper.pdf) papers.
-
-        * dev:
-	      Reference set, 100 abstracts
-
-        * test: Test set,30 abstracts
-
-    * dev2: Additional set, 100 abstracts
-
-* MetaData.tsv.txt:
-	The [Johogaku-Hiroba](https://ipsj.ixsq.nii.ac.jp/) IDs for the abstracts in TSV.
-
-## English Corpus
-
-The following files are included, in the EN subdirectory:
-
-* data
-    * original: Original annotation
-        * dev: Reference set
-            * ACL: From ACL Anthology (230 abstracts)
-            * ACM: From ACM Digital Library (130 abstracts)
-        * test: Test set
-            * ACL: From ACL Anthology (20 abstracts)
-            * ACM: From ACM Digital Library (20 abstracts)
-* Gupta.list
-	A plain text file containing the list of IDs used for Extraction of Focus, Domain, Technique described in the LREC-16 paper.
 
 ## Notes
 
